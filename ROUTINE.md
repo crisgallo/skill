@@ -40,6 +40,8 @@ Per ogni cartella in `skills/`:
 - Scrivere `reports/AAAA-MM-GG.md` con: skill controllate, URL cambiati, modifiche fatte (per skill, in una riga ciascuna), pagine non leggibili, modifiche locali integrate.
 - Commit con messaggio "Giro del AAAA-MM-GG: <n> skill aggiornate" e push.
 - **Solo se almeno una skill è stata modificata**: inviare una mail a gallinelli@gmail.com, oggetto "Skill aggiornate il GG/MM/AAAA: <elenco nomi>", corpo con: per ogni skill modificata, cosa è cambiato e perché (le voci del CHANGELOG di oggi), il link allo zip su GitHub (`https://github.com/crisgallo/skill/raw/<ramo>/dist/<nome>.zip`), e il promemoria: "Nel tuo account Claude, Personalizza > Skill: elimina la skill vecchia e carica questo zip". Se nulla è cambiato: nessuna mail.
+- **Se il connettore Gmail non è disponibile nella sessione** (succede quando la routine è stata creata senza connettori): stesso contenuto, ma si apre una **issue su GitHub** nel repository `crisgallo/skill` con gli strumenti `mcp__github__*` (titolo = oggetto della mail, corpo = corpo della mail). GitHub la recapita per email al proprietario del repository. Anche in questo caso: nessuna issue se nulla è cambiato.
+- **Se il connettore Google Drive non è disponibile**, il passo B si salta e lo si scrive nel report, così Cristiano sa che le modifiche locali di quel giorno non sono state raccolte.
 
 ## Cosa non fare mai
 - Modificare o cancellare una riga ✅ VERIFICATO.
