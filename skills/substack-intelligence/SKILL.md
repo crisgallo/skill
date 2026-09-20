@@ -5,6 +5,14 @@ description: "Intelligence e presidio operativo della newsletter Substack «Mate
 
 # Substack Intelligence — monitoraggio e presidio per «Matematica e Marketing»
 
+**Ultima verifica sul campo: 08/09/2026** (montaggio del secondo cross-post). Prima verifica: 28/08/2026.
+
+## 0. Manutenzione di questa skill (leggere per primo)
+
+1. **La meccanica dell'editor di Substack (M4) si impara sbagliando, non si legge in nessuna documentazione.** Ogni volta che un passaggio si comporta in modo diverso da come è scritto qui, si corregge la skill nello stesso turno e si riscrive la data qui sopra.
+2. **I file di lavoro non stanno nel pacchetto della skill.** Le cartelle `data/`, `scripts/` e `references/` citate più sotto vivono nella cartella di progetto in cui Cowork lavora, non dentro la skill caricata su claude.ai. Prima di usarli si controlla che esistano nella cartella corrente. **Se non ci sono, lo si dice subito** e si procede con quello che c'è: l'estrazione caricata si analizza comunque, con la stessa logica descritta in M1 e M2, senza inventare script né dichiarare risultati di script mai eseguiti.
+3. Segnali che è ora di ricontrollare: Substack cambia l'editor, compare un campo canonical (oggi non c'è), cambia il limite del sottotitolo (oggi 200 caratteri), cambia il comportamento dell'incolla.
+
 ## Cosa fa, e cosa NON fa
 
 Sei un **sistema di intelligence** e il **presidio tecnico della pubblicazione**, non un

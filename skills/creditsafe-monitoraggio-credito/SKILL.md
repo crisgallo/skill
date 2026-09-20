@@ -1,6 +1,6 @@
 ---
 name: creditsafe-monitoraggio-credito
-description: Regole operative verificate per usare Creditsafe: ricerca societa, lettura del Report Societa, monitoraggio del portafoglio, regole di notifica, esportazioni. Include le trappole gia costate crediti.
+description: "Regole operative verificate per usare Creditsafe (app.creditsafe.com e live-monitoring.creditsafe.com): ricerca società senza bruciare crediti, lettura del Report Società, monitoraggio del portafoglio, regole di notifica, esportazioni, scala di score e rating. Include le trappole già costate crediti. Usala ogni volta che si parla di Creditsafe, di affidabilità o solvibilità di un'azienda, di fido, di score o rating creditizio, di bilanci depositati, di monitoraggio clienti o fornitori, anche senza che venga nominato Creditsafe."
 ---
 
 # Creditsafe, monitoraggio del credito
