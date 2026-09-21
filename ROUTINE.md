@@ -57,3 +57,14 @@ Se una delle tre è falsa, si ripete commit e push finché non è vera. Chiudere
 - Mandare una mail quando non è cambiato nulla.
 - Scrivere "VERIFICATO" su qualcosa letto da una pagina web.
 - Accorciare una skill per farla stare: se serve spazio, si sposta materiale in un file `references/` nella stessa cartella e si linka.
+
+## Dove gira la routine, e come si sposta
+
+La routine è legata a una sessione claude.ai code che ha il repository collegato (permessi di push), Gmail e Google Drive: ogni mattina si sveglia lì. Le sessioni create da zero dalle routine non hanno i permessi di push, e il giro fallisce in silenzio (successo il 21/09/2026, due volte).
+
+Per spostarla su una chat nuova:
+1. Aprire una chat nuova su claude.ai code collegata a `crisgallo/skill`, con Gmail e Google Drive attivi.
+2. Dirle: "Leggi ROUTINE.md e crea la routine giornaliera delle 10:00 ora italiana legata a questa sessione (create_trigger senza sessione nuova, cron `0 8 * * *` in UTC), con il prompt di ROUTINE-prompt.md adattato a una sessione che ha già il repository".
+3. Cancellare la routine vecchia dalla pagina delle routine di claude.ai.
+
+Nulla di indispensabile vive nella chat: istruzioni, script, stato e report stanno nel repository.
