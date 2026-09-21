@@ -28,7 +28,7 @@ Si modifica qui, non nel trigger: il trigger dice solo "leggi ROUTINE.md ed eseg
 ### C. Verifica delle fonti, una skill per volta
 Per ogni cartella in `skills/`:
 1. Leggere `SKILL.md`, la riga "Ultima verifica delle fonti" e la finestra di freschezza dichiarata in sezione 0.
-2. Estrarre gli URL della sezione "Fonti" e quelli inline. Scaricare ogni URL (WebFetch). Calcolare un hash del testo utile. Confrontare con `snapshots/state.json`:
+2. Eseguire `python3 scripts/snapshot.py --check`: estrae tutti gli URL di tutte le skill, li scarica, calcola l'hash del testo e stampa la lista `CAMBIATO <url> <skill>`. Solo quelli si leggono (WebFetch). Alla fine del giro `python3 scripts/snapshot.py --update` salva lo stato nuovo. Per ogni URL cambiato:
    - hash uguale: nulla da fare;
    - hash diverso: leggere la pagina e stabilire se la modifica tocca una regola scritta nella skill. Se sì, correggere la skill (regola 3 e 4). Se no, aggiornare solo l'hash.
 3. Cercare sul web le novità delle ultime 24 ore sulla piattaforma (release notes, annunci ufficiali, changelog). Se una novità cambia una regola o ne aggiunge una operativa, integrarla con data e URL.
