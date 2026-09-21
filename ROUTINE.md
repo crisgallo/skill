@@ -43,7 +43,15 @@ Per ogni cartella in `skills/`:
 - **Se il connettore Gmail non è disponibile nella sessione** (succede quando la routine è stata creata senza connettori): stesso contenuto, ma si apre una **issue su GitHub** nel repository `crisgallo/skill` con gli strumenti `mcp__github__*` (titolo = oggetto della mail, corpo = corpo della mail). GitHub la recapita per email al proprietario del repository. Anche in questo caso: nessuna issue se nulla è cambiato.
 - **Se il connettore Google Drive non è disponibile**, il passo B si salta e lo si scrive nel report, così Cristiano sa che le modifiche locali di quel giorno non sono state raccolte.
 
+## E. Prova di completamento (obbligatoria)
+Il giro NON è finito finché non sono vere tutte e tre queste cose, verificate con comandi e non a memoria:
+1. `git log origin/<ramo> -1` mostra il commit di oggi ("Giro del AAAA-MM-GG"): il push è avvenuto davvero.
+2. `reports/AAAA-MM-GG.md` esiste sul remoto (`git show origin/<ramo>:reports/AAAA-MM-GG.md`).
+3. `snapshots/state.json` esiste sul remoto.
+Se una delle tre è falsa, si ripete commit e push finché non è vera. Chiudere la sessione con file solo in staging, o con un "fatto" non provato, è un giro fallito. Il giro del 21/09/2026 è finito così: cinque minuti di lavoro, nulla su GitHub.
+
 ## Cosa non fare mai
+- Chiudere la sessione senza aver eseguito il passo E.
 - Modificare o cancellare una riga ✅ VERIFICATO.
 - Committare una skill che non passa `quick_validate.py`.
 - Mandare una mail quando non è cambiato nulla.
