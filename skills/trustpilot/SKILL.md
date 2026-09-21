@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Trustpilot su un e-commerc
 
 # Trustpilot: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 21 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -19,7 +19,7 @@ description: "Regole operative verificate per gestire Trustpilot su un e-commerc
 
 ## 1. Cosa si paga e cosa sblocca (la regola che costa di più)
 
-**Senza piano a pagamento non si può mostrare TrustScore né stelline sul sito o nelle inserzioni.** Le Legal Brand Guidelines dicono che le aziende senza piano a pagamento "non possono mostrare il proprio TrustScore o Star Rating sui propri siti o nel marketing" e non hanno accesso ai TrustBox e agli asset di marketing ([Legal Brand Guidelines, feb 2023](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/feb-2023)). Un e-commerce Free che mette "4,6 su Trustpilot" nell'annuncio Meta è in violazione.
+**Senza piano a pagamento non si può mostrare TrustScore né stelline sul sito o nelle inserzioni.** Le Legal Brand Guidelines **v3.0 (settembre 2026)** dicono che sul Free si può citare Trustpilot solo "in testo semplice, con un link alla propria pagina profilo Trustpilot" (esempio ufficiale: "See our reviews on Trustpilot") e usare il Review Collector Widget per raccogliere recensioni; **vietati "loghi, Star Rating o grafiche a stelle, TrustScore, Star Label, Category Ranking o qualsiasi widget che mostri recensioni o valutazioni"** ([Legal Brand Guidelines v3.0, set 2026](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026); sostituisce la v2.0 del feb 2023). Un e-commerce Free che mette "4,6 su Trustpilot" nell'annuncio Meta è in violazione.
 
 Piani come esposti il 20/09/2026 (prezzo per dominio, al mese, fatturazione annuale; ogni dominio si paga a parte; contratti a 12 mesi prepagati) ([plans USD](https://business.trustpilot.com/plans), [plans IT in EUR](https://it.business.trustpilot.com/plans)):
 
@@ -114,7 +114,7 @@ Scala di enforcement ([Action we take, marzo 2026](https://corporate.trustpilot.
 
 ## 8. TrustBox, dati strutturati, rich snippet
 
-- I TrustBox sono i widget ufficiali; **servono un piano a pagamento** (2 su Starter, sez. 1). Immagini statiche di TrustScore o stelline sul sito sono misuso ([Legal Brand Guidelines](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/feb-2023)).
+- I TrustBox sono i widget ufficiali; **servono un piano a pagamento** (2 su Starter, sez. 1). Sul sito "si usa un widget così che ciò che il consumatore vede sia live e accurato": ⛔ **vietato sostituire un widget con un'immagine statica**, vietati "widget, plug-in, estensioni o applicazioni non autorizzati" per mostrare contenuti Trustpilot, ⛔ **vietati i widget Product Score in home page, in landing page o accanto a un prodotto non correlato** ([Legal Brand Guidelines v3.0, set 2026](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
 - 🔴 **Le stelline delle recensioni di servizio (azienda) non danno rich snippet sul proprio sito.** Da settembre 2019 Google esclude le "self-serving reviews": se l'entità recensita controlla le recensioni, le pagine con markup `Organization` o `LocalBusiness` non sono idonee, **anche tramite widget di terzi** ([review snippet](https://developers.google.com/search/docs/appearance/structured-data/review-snippet), [Search Central blog 09/2019](https://developers.google.com/search/blog/2019/09/making-review-rich-results-more-helpful)). Chi promette "stelline in SERP con il TrustBox aziendale" promette una cosa che Google non fa dal 2019.
 - ✅ **Le stelline in SERP si ottengono solo con le recensioni di prodotto** (`Product` + `AggregateRating` con `ratingValue` e `ratingCount`/`reviewCount`, decimali con il punto). I TrustBox di prodotto "SEO" portano il JSON-LD incorporato; **non si aggiunge markup proprio dello stesso tipo** (duplicato), **non si ritarda il caricamento del widget** e non lo si nasconde in tab o "mostra altro"; **SKU e titolo devono coincidere con il feed Merchant Center** ([Get rich snippets with product review TrustBox](https://help.trustpilot.com/s/article/Get-rich-snippets-with-product-review-TrustBox-widgets?language=en_US), estratti). Recensioni di prodotto = add-on (sez. 1). Google non garantisce la visualizzazione.
 - ⛔ Google vieta di aggregare recensioni da altri siti nel proprio markup e le recensioni incentivate non dichiarate (stessa pagina Google).
@@ -159,11 +159,14 @@ Disponibilità analytics: dashboard base su tutti i piani; **selettore intervall
 
 ## 12. TrustScore e recensioni nelle creatività Meta e Google
 
-Fonte: [Legal Brand Guidelines](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/feb-2023).
+Fonte: [Legal Brand Guidelines v3.0, settembre 2026](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026) (sostituisce la v2.0 del febbraio 2023).
 - **Solo con piano a pagamento** (sez. 1). Asset ufficiali (loghi, stelle, badge, template annunci, generatore immagini recensione) dal pannello ([Marketing assets](https://help.trustpilot.com/s/article/Trustpilots-Marketing-assets?language=en_US)).
-- **La parola "TrustScore" deve stare accanto al numero** (4,6 da solo si confonde con le stelle). Il dato mostrato deve essere **attuale**: una creatività con "TrustScore 4,8" mentre il profilo è a 4,5 è misuso; si mette una scadenza alle creatività con il punteggio.
-- Citazioni di recensioni: **non fuori contesto, con nome e logo Trustpilot, data della recensione e stelle** della singola recensione.
-- Non alterare logo e stelle; non presentare Trustpilot come endorsement; non usare i dati di un'altra azienda. TV, radio, audio digitale e affissioni richiedono approvazione preventiva del CSM (risposta entro 5 giorni lavorativi).
+- **La parola "TrustScore" deve stare accanto al numero** (4,6 da solo si confonde con le stelle) e 🔴 **accanto a TrustScore, stelle o Star Label va sempre il numero totale di recensioni** ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- Il dato deve essere **attuale**: su materiale che non si aggiorna da solo (immagini per ads, email, stampa) va il timbro **"Trustpilot rating as of [Mese/Anno]" in corpo almeno 8 pt**, e il dato si **rinfresca almeno ogni 30 giorni, ed entro 5 giorni lavorativi se il TrustScore scende di più di 0,2** ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)). Si mette una scadenza a 30 giorni a ogni creatività con il punteggio.
+- Citazioni di recensioni: testuali, **con nome e logo Trustpilot, data della recensione e stelle** della singola recensione; per usare il nome del recensore serve il suo **"permesso esplicito e documentato"**, altrimenti si **anonimizza del tutto** la citazione ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- **Claim di ranking** ("primi in categoria") "accurati al momento della pubblicazione e verificabili dal consumatore sul sito Trustpilot"; **confronti** solo "come con come" e "accurati per ogni azienda o prodotto citato" ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- Non alterare logo e stelle; non presentare Trustpilot come endorsement; non usare i dati di un'altra azienda. ⛔ **Non si passano Brand Asset o contenuti Trustpilot a terzi** (agenzia, marketplace, comparatore) "perché li rendano per conto loro" ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- 🔴 **Sparita l'approvazione preventiva del CSM per TV, radio, audio digitale e affissioni** della v2.0: la v3.0 dice che Trustpilot "non approva, firma o pre-autorizza singole campagne" che rientrano nel piano e nelle linee guida; serve permesso solo per usi fuori da piano e linee guida. Enforcement: "se troviamo un misuso, agiamo per correggerlo", da un avviso fino a restrizioni dell'account, nota sul profilo, fine dell'abbonamento e azione legale ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
 - Meta non ha regole specifiche su Trustpilot: valgono le policy generali sulle affermazioni ingannevoli; su Google Ads le stelline vere arrivano solo dalle Valutazioni negozio (sez. 9).
 
 ---
@@ -174,6 +177,7 @@ Fonte: [Legal Brand Guidelines](https://corporate.trustpilot.com/legal/for-busin
 - **29/06 e 10/07/2026**: **nuova app Shopify** con Theme Editor nativo; configurazioni della legacy non migrano (sez. 4).
 - **10/08/2026**: inviti da **workflow HubSpot** ([hubspot-workflows](https://business.trustpilot.com/blog/releases-and-updates/hubspot-workflows)).
 - **13/08/2026**: **Product Review Pages** in beta (sez. 8).
+- **Settembre 2026**: **Legal Brand Guidelines v3.0** ([sept-2026](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)) sostituiscono la v2.0 del febbraio 2023: Free solo testo semplice con link (più Review Collector Widget); numero totale di recensioni sempre accanto al punteggio; timbro data e refresh ogni 30 giorni (5 giorni lavorativi se −0,2); permesso documentato per il nome del recensore; niente asset o contenuti a terzi; niente Product Score in home o landing; **sparita l'approvazione CSM per TV/radio/affissioni** (sez. 1, 8, 12). Giorno esatto di pubblicazione non indicato: [DA VERIFICARE].
 - **Marzo 2026** (prima della finestra ma decisivo): policy "Action we take" e sanzione AGCM (sez. 7 e 10). **Aprile 2026**: In-App Review Collector, Invitation Optimizer, AI Search Analytics, Custom Dashboards.
 - Google Ads: la pagina Valutazioni negozio parla di **24 mesi** e non più di 12 (sez. 9); data del cambio non trovata.
 - **15/09/2026**: risultati H1 2026 (ricavi +19% a cambi costanti; solo contesto, nessun cambio di prodotto annunciato) ([Investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-trustpilot-h1-2026-profit-growth-fails-to-lift-shares-93CH-4901103)). **16/09/2026**: un'analisi terza rileva Consumer Warning sul 21% di 100 profili di broker ([Finance Magnates](https://www.financemagnates.com/forex/trustpilot-slaps-warning-label-on-20-of-100-top-broker-profiles/)): segnale che l'enforcement è attivo, non una regola.
@@ -190,9 +194,10 @@ Fonte: [Legal Brand Guidelines](https://corporate.trustpilot.com/legal/for-busin
 6. **Quota Verified vs Unprompted** e conteggio per l'Italia negli ultimi 12/24 mesi (sez. 9); esito lookup Google.
 7. **Recensioni segnalate negli ultimi 12 mesi** e per quale motivo: se sono quasi tutte 1 stella "non genuine", c'è un rischio misuso.
 8. **Risposte pubblicate**: dati personali o toni da rimuovere prima che lo faccia Trustpilot.
-9. **TrustBox e stelline sul sito**: widget ufficiali o immagini statiche; markup duplicato; widget in lazy load; piano che li consente.
+9. **TrustBox e stelline sul sito**: widget ufficiali o immagini statiche; plugin o estensioni non autorizzati; widget Product Score in home o landing; markup duplicato; widget in lazy load; piano che li consente ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
 10. **Sito**: pagina che spiega come si raccolgono le recensioni (Omnibus, sez. 10); "recensioni verificate" scritto senza metodo.
 11. **Shopify**: app legacy ancora installata (sez. 4).
+12. **Creatività e materiali in giro** (ads, email, stampa, cataloghi, marketplace): punteggio senza numero di recensioni o senza timbro "Trustpilot rating as of"; data dell'ultimo refresh oltre 30 giorni; citazioni con nome del recensore senza permesso documentato; asset Trustpilot passati ad agenzie o terzi ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
 
 ---
 
@@ -209,7 +214,10 @@ Fonte: [Legal Brand Guidelines](https://corporate.trustpilot.com/legal/for-busin
 
 ## 16. Cosa non fare mai
 
-- Mostrare TrustScore o stelline sul sito o nelle ads con il piano Free.
+- Mostrare TrustScore, stelline, logo o widget sul sito o nelle ads con il piano Free: solo testo semplice con link ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- Sostituire un TrustBox con uno screenshot, o usare plugin non ufficiali per le stelline ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- Mettere il TrustScore in una creatività senza numero totale di recensioni e senza timbro data, o lasciarla girare oltre 30 giorni ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
+- Citare una recensione con il nome del recensore senza permesso documentato, o passare asset Trustpilot a un'agenzia o a un marketplace perché li renda da sé ([v3.0](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026)).
 - Mettere l'indirizzo AFS in BCC su più di un'email per ordine, o su email di marketing.
 - Filtrare gli inviti per "clienti senza ticket" o "ordini senza reso".
 - Offrire sconti, rimborsi o buoni per una recensione o per modificarla.
@@ -223,9 +231,9 @@ Fonte: [Legal Brand Guidelines](https://corporate.trustpilot.com/legal/for-busin
 
 ---
 
-## Fonti (verificate 20/09/2026)
+## Fonti (verificate 20-21/09/2026)
 
-**Ufficiali Trustpilot, lette:** [Guidelines for Businesses v7.2 (giugno 2026)](https://corporate.trustpilot.com/legal/for-businesses/guidelines-for-businesses/jun-2026) · [Terms of Use and Sale for Businesses v9.0 (23/06/2026)](https://corporate.trustpilot.com/legal/for-businesses/terms-of-use-and-sale-for-businesses/jun-2026) · [Action we take (marzo 2026)](https://corporate.trustpilot.com/legal/for-everyone/action-we-take/mar-2026) · [Legal Brand Guidelines (feb 2023)](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/feb-2023) · [Plans USD](https://business.trustpilot.com/plans) · [Pricing USD](https://business.trustpilot.com/pricing) · [Plans IT (EUR)](https://it.business.trustpilot.com/plans) · [Invitation API](https://developers.trustpilot.com/invitation-api) · [Developers home](https://developers.trustpilot.com/) · [Review invitations (feature)](https://business.trustpilot.com/features/review-invitations) · [Dashboard and analytics (feature)](https://business.trustpilot.com/features/dashboard-analytics) · [corporate.trustpilot.com/trust](https://corporate.trustpilot.com/trust) · [Product updates aprile 2026](https://business.trustpilot.com/blog/releases-and-updates/product-updates) · [Releases and updates](https://business.trustpilot.com/blog/releases-and-updates) · [Shopify 29/06/2026](https://business.trustpilot.com/blog/releases-and-updates/shopify) · [Shopify 10/07/2026](https://business.trustpilot.com/blog/releases-and-updates/trustpilot-shopify-upgrade) · [Product Review Pages 13/08/2026](https://business.trustpilot.com/blog/releases-and-updates/spotlight-product-ai-recommended-search-era) · [Changes to reported reviews](https://business.trustpilot.com/blog/build-trusted-brand/changes-to-reported-reviews) · [Rich snippets (blog, 09/02/2022)](https://business.trustpilot.com/blog/get-seen-in-search/rich-snippets-stars-for-product-reviews-can-boost-seo).
+**Ufficiali Trustpilot, lette:** [Guidelines for Businesses v7.2 (giugno 2026)](https://corporate.trustpilot.com/legal/for-businesses/guidelines-for-businesses/jun-2026) · [Terms of Use and Sale for Businesses v9.0 (23/06/2026)](https://corporate.trustpilot.com/legal/for-businesses/terms-of-use-and-sale-for-businesses/jun-2026) · [Action we take (marzo 2026)](https://corporate.trustpilot.com/legal/for-everyone/action-we-take/mar-2026) · [Legal Brand Guidelines v3.0 (settembre 2026)](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026) · [Legal Brand Guidelines v2.0 (feb 2023, superata)](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/feb-2023) · [Plans USD](https://business.trustpilot.com/plans) · [Pricing USD](https://business.trustpilot.com/pricing) · [Plans IT (EUR)](https://it.business.trustpilot.com/plans) · [Invitation API](https://developers.trustpilot.com/invitation-api) · [Developers home](https://developers.trustpilot.com/) · [Review invitations (feature)](https://business.trustpilot.com/features/review-invitations) · [Dashboard and analytics (feature)](https://business.trustpilot.com/features/dashboard-analytics) · [corporate.trustpilot.com/trust](https://corporate.trustpilot.com/trust) · [Product updates aprile 2026](https://business.trustpilot.com/blog/releases-and-updates/product-updates) · [Releases and updates](https://business.trustpilot.com/blog/releases-and-updates) · [Shopify 29/06/2026](https://business.trustpilot.com/blog/releases-and-updates/shopify) · [Shopify 10/07/2026](https://business.trustpilot.com/blog/releases-and-updates/trustpilot-shopify-upgrade) · [Product Review Pages 13/08/2026](https://business.trustpilot.com/blog/releases-and-updates/spotlight-product-ai-recommended-search-era) · [Changes to reported reviews](https://business.trustpilot.com/blog/build-trusted-brand/changes-to-reported-reviews) · [Rich snippets (blog, 09/02/2022)](https://business.trustpilot.com/blog/get-seen-in-search/rich-snippets-stars-for-product-reviews-can-boost-seo).
 
 **Ufficiali Google:** [Valutazioni negozio (2375474, IT)](https://support.google.com/google-ads/answer/2375474?hl=it) · [Review snippet structured data](https://developers.google.com/search/docs/appearance/structured-data/review-snippet) · [Search Central blog 09/2019, self-serving reviews](https://developers.google.com/search/blog/2019/09/making-review-rich-results-more-helpful) · [Policy editoriale Google Ads (6021546)](https://support.google.com/adspolicy/answer/6021546).
 

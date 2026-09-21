@@ -1,5 +1,9 @@
 # Changelog google-merchant-center
 
+## 21/09/2026
+- Sez. 3: Termini di servizio letti sulla pagina ufficiale italiana (merchants.google.com/mc/termsofservice/merchant_center/IT/latest): "Ultima modifica: 1 June 2026"; il 15/06/2026 delle fonti terze resta come data di accettazione per uso continuato. Aggiunta la clausola sull'accesso e indicizzazione delle email di marketing; l'opt-out non è nei Termini. Aggiornate sez. 14 e 16 di conseguenza. Data in cima riscritta.
+- Non verificato: dove sta l'opt-out nel pannello.
+
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: specifica dati prodotto (7052112) e aggiornamenti 2026 (16989427); registro annunci Merchant Center (6192467: 28/04, giugno, 15/07, 11/08/2026); aggiornamenti automatici (3246284); dati strutturati (6069143, merchant-listing su developers.google.com); disapprovazioni prezzo (6098334, 14916353, 15621352); GTIN e identifier_exists (6324461, 6324478, 6098295); norme Misrepresentation, Abuso della rete, Shopping, Salute, Alcol, Promozioni (6150127, 6150118, 6149970, 6150151, 12077694, 16796881); avvisi e sospensioni (12153802, 13693195); verifica sito (176793); collegamento Google Ads (6159060, 13717096, 13359353, 6275295); Merchant Center for Agencies (17072077); rebrand (17252069); origini dati (14990942, 12158480, 14994087, 15404838, 15624457, 14994083); spedizione, resi, valore minimo (6324484, 6069284, 10220642, 16989009); Qualità del negozio e badge (14261098, 15215732); schede gratuite (9199328); Richiede attenzione e stati (12476548, 12488713); report (9626903, 13299535, 17103877, 17117204); inventario locale (3057972); Merchant API (compatibility overview, latest updates: Content API spenta 18/08/2026, errori progressivi dal 01/09/2026); blog.google GML 2026.

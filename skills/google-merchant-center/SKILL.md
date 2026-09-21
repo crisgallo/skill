@@ -5,7 +5,7 @@ description: "Regole operative verificate per aprire, alimentare e tenere pulito
 
 # Google Merchant Center: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 21 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -50,7 +50,7 @@ Merchant Center cambia nomi di menu, attributi obbligatori e date di enforcement
 - **Verifica** (dimostrare che il sito è tuo) e **rivendicazione** (legarlo in esclusiva a un account) sono due passi distinti; **un URL può essere rivendicato da un solo account**: se un'agenzia precedente lo ha rivendicato altrove, si sovrascrive dal nuovo account e i prodotti dell'altro smettono di servire ([176793](https://support.google.com/merchants/answer/176793?hl=en)). Metodi: tag HTML/file, Google Tag Manager (serve amministrazione a livello di account), Google Analytics con accesso amministratore, email; Google può verificare da solo se già usa GA sul sito.
 - **Collegamento Google Ads:** Impostazioni → Accesso e servizi → App e servizi → Google Ads; lo avvia un admin di Merchant Center, lo approva un admin di Google Ads; **non si collega un account amministratore (MCC)**, solo l'account cliente; fino a 500 account Ads per Merchant Center; scollegando, le campagne che usano i prodotti smettono di servire ([6159060](https://support.google.com/merchants/answer/6159060?hl=en)). Con la verifica in due passaggi attiva sull'account Google, va gestita prima del link.
 - **Merchant Center for Agencies:** disponibile in tutto il mondo dall'11/05/2026, cruscotto unico su tutti i clienti con rilevamento anticipato dei problemi; si richiede a Google, non si apre da soli ([17072077](https://support.google.com/merchants/answer/17072077?hl=en)). Per un consulente con più e-commerce è lo strumento giusto al posto del giro quotidiano di login.
-- **Termini di servizio:** regola empirica di terzi, non numero Google: fonti di settore riportano nuovi Termini dal **15/06/2026** con uso dei contenuti del merchant su superfici AI e indicizzazione delle email di marketing attiva di default (searchen 27/05/2026, lemon-web). La pagina ufficiale [160173](https://support.google.com/merchants/answer/160173?hl=en) è solo un indice per paese: [DA VERIFICARE] leggere i Termini Italia e l'opzione di opt-out sul pannello.
+- **Termini di servizio:** la pagina ufficiale italiana è leggibile e riporta **"Ultima modifica: 1 June 2026"** ([merchants.google.com/mc/termsofservice/merchant_center/IT/latest](https://merchants.google.com/mc/termsofservice/merchant_center/IT/latest)); le fonti di settore indicano il **15/06/2026** come data da cui l'uso continuato vale accettazione (searchen 27/05/2026, lemon-web). Il testo concede a Google una licenza sui contenuti del merchant, sublicenziabile ad affiliate e utenti, e, se Google si iscrive alle email di marketing del merchant, il diritto di accedervi, indicizzarle e memorizzarle. **L'opt-out dall'indicizzazione delle email non sta nei Termini**: va cercato nel pannello (sez. 16). Verificato il 21/09/2026.
 
 ---
 
@@ -167,7 +167,7 @@ Annunci di inventario locale e schede locali gratuite servono un negozio fisico:
 
 ## 14. Cosa è cambiato fra giugno e settembre 2026
 
-- **15/06/2026:** nuovi Termini di servizio (fonte terza, sez. 3).
+- **01/06/2026 (ultima modifica) e 15/06/2026 (accettazione per uso continuato):** nuovi Termini di servizio, ora letti sulla pagina ufficiale italiana (sez. 3).
 - **Giugno 2026:** report Prodotti popolari potenziato (sez. 11). **30/06/2026:** `video_link` in pubblicazione con avvisi di qualità (sez. 5).
 - **Luglio 2026:** "Merchant Center Next" torna a chiamarsi Merchant Center; nessuna azione richiesta ([17252069](https://support.google.com/merchants/answer/17252069?hl=en)). **15/07/2026:** annuncio del consolidamento delle norme (sez. 12). Checkout links estesi a FR, PL e altri: non Italia.
 - **18/08/2026:** Content API spenta; **01/09/2026** errori progressivi (sez. 4). Nella Merchant API: sovrascrittura resi a livello offerta (`returns`), integrazione UCP, notifiche `ACCOUNT_SERVICE` ([latest updates](https://developers.google.com/merchant/api/latest-updates)).
@@ -200,7 +200,7 @@ Annunci di inventario locale e schede locali gratuite servono un negozio fisico:
 - Su un account con plugin WooCommerce/Shopify: nel dettaglio origine dati compare la dicitura dell'API usata (Merchant API vs Content API)?
 - Se il feed invia `shipping` con `price` per l'Italia, la pagina "Spedizione e resi" segnala da qualche parte che le impostazioni account sono ignorate per quei prodotti?
 - Dopo una revisione fallita, il pannello mostra la durata del periodo di attesa o solo il pulsante disabilitato?
-- L'opt-out sull'uso delle email di marketing (Termini 15/06/2026): in quale menu sta, se esiste?
+- L'opt-out sull'uso delle email di marketing (Termini modificati il 01/06/2026): in quale menu sta, se esiste? Nei Termini non c'è.
 
 ---
 
