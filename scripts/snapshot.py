@@ -6,7 +6,7 @@
   scripts/snapshot.py --update   come --check, e poi salva il nuovo stato
 
 Per ogni URL citato in skills/*/SKILL.md scarica la pagina, toglie script, stili e tag,
-normalizza gli spazi e calcola un hash. Un hash diverso = pagina cambiata, da leggere.
+normalizza gli spazi e calcola un hash. Firma = insieme degli hash delle frasi; cambiata = almeno 3 frasi e il 5% diverse.
 Lo stato tiene anche il codice HTTP: 403/404/timeout sono "non leggibili", non "cambiati".
 """
 import concurrent.futures as cf, hashlib, json, os, re, ssl, sys, time, urllib.request, urllib.error
@@ -43,7 +43,7 @@ def urls_per_skill():
 
 def fetch(u):
     ctx=ssl.create_default_context(cafile=CA if os.path.exists(CA) else None)
-    req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0 (skill-snapshot)","Accept-Language":"it,en"})
+    req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0 (skill-snapshot)","Accept-Language":"en-US,en;q=0.9"})
     try:
         with urllib.request.urlopen(req,timeout=25,context=ctx) as r:
             body=r.read(2_000_000).decode(r.headers.get_content_charset() or "utf-8","replace")
@@ -55,7 +55,24 @@ def fetch(u):
     p=Text(); p.feed(body)
     txt=re.sub(r"\s+"," "," ".join(p.out)).strip()
     if len(txt)<200: return u,code,None   # pagina vuota o solo JS: non affidabile
-    return u,code,hashlib.sha256(txt.encode()).hexdigest()
+    return u,code,sentences(txt)
+
+def sentences(txt):
+    """Firma della pagina: hash delle frasi lunghe almeno 40 caratteri.
+    Le pagine Google inseriscono a ogni richiesta token numerici casuali: un hash unico
+    dell'intera pagina cambia sempre. Confrontando le frasi, quel rumore resta confinato
+    a una o due frasi e non fa scattare il segnale."""
+    out=set()
+    for s_ in re.split(r"(?<=[.!?])\s+", txt):
+        s_=s_.strip()
+        if len(s_)>=40: out.add(hashlib.sha256(s_.encode()).hexdigest()[:10])
+    return sorted(out)
+
+def differs(old, new, min_sent=3, min_frac=0.05):
+    """Cambiata davvero se almeno 3 frasi E almeno il 5% delle frasi sono diverse."""
+    if not old or not new: return False
+    o,n=set(old),set(new); d=len(o^n); tot=max(len(o|n),1)
+    return d>=min_sent and d/tot>=min_frac
 
 def run(mode):
     m=urls_per_skill()
@@ -69,7 +86,7 @@ def run(mode):
             prev=old["urls"].get(u)
             if h is None:
                 unreadable.append((u,code)); rec["hash"]=prev.get("hash") if prev else None
-            elif prev and prev.get("hash") and prev["hash"]!=h:
+            elif prev and prev.get("hash") and differs(prev["hash"] if isinstance(prev["hash"],list) else [], h):
                 changed.append(u); rec["changed"]=today
             new["urls"][u]=rec
     if mode in ("--init","--update"):
