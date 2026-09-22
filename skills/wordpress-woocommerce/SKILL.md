@@ -5,7 +5,7 @@ description: "Regole operative verificate su WordPress e WooCommerce per audit d
 
 # WordPress e WooCommerce: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 22 settembre 2026.**
 
 ---
 
@@ -40,7 +40,7 @@ Fonte: [upgrading](https://developer.wordpress.org/advanced-administration/upgra
 - Costanti in `wp-config.php`: `AUTOMATIC_UPDATER_DISABLED` a `true` spegne tutto ("fortemente sconsigliato"); `WP_AUTO_UPDATE_CORE` vale `true` (dev, minor, major), `false` (niente) o `'minor'`. In un audit si cercano queste due righe **prima** di dire "il sito si aggiorna da solo".
 - **Perché un sito resta bloccato** (elenco di cause verificate su casi reali, non da documento, salvo dove indicato): 1) **PHP troppo vecchio**: WordPress rifiuta un plugin che dichiara "Requires PHP" superiore a quello del server, e il core nuovo non compare se il server è sotto il minimo; 2) `AUTOMATIC_UPDATER_DISABLED` o `DISALLOW_FILE_MODS` lasciati da un'agenzia; 3) cartella `.git`/`.svn` rilevata: WordPress non fa auto-update major su siti sotto controllo di versione (doc ufficiale); 4) permessi file o credenziali FTP richieste dalla bacheca: l'auto-update salta in silenzio; 5) **plugin premium con licenza scaduta**: l'update esiste ma non arriva; 6) plugin "nulled" o fuori dal repository: nessun canale di aggiornamento.
 - 🔴 **Release di sicurezza si applicano il giorno stesso.** WordPress 7.1.1 (17/09/2026) ha chiuso **11 vulnerabilità** (XSS memorizzato, path traversal, bypass di autorizzazione), con backport fino alla 4.7 e raccomandazione "aggiornate immediatamente" ([7.1.1](https://wordpress.org/news/2026/09/wordpress-7-1-1-maintenance-and-security-release/)). Nel 2026 ci sono state anche 7.0.2, 7.0.3 e 7.0.4 di sicurezza fra luglio e agosto ([releases](https://wordpress.org/news/category/releases/)). Un contratto di manutenzione "trimestrale" non copre questo ritmo: serve l'auto-update minor acceso più un controllo mensile.
-- **WooCommerce** ([changelog](https://developer.woocommerce.com/changelog/)): 11.0 (04/08/2026, ritardata di una settimana per un fatal error trovato in RC), 11.0.1 (10/08, compatibilità WordPress 7.1 e sicurezza), 11.1 (03/09, ritardata dal 01/09), **11.1.1 (18/09/2026, sicurezza su permessi REST API, autenticazione e sessioni ospite; nessun aggiornamento DB, richiede admin privilegiato per essere sfruttata)** ([11.1.1](https://developer.woocommerce.com/2026/09/18/woocommerce-11-1-1/)). 11.0 e 11.1 richiedono **aggiornamento del database**: si fa dalla bacheca dopo l'update, con backup prima, mai su un sito con ordini in corso senza staging.
+- **WooCommerce** ([changelog](https://developer.woocommerce.com/changelog/)): 11.0 (04/08/2026, ritardata di una settimana per un fatal error trovato in RC), 11.0.1 (10/08, compatibilità WordPress 7.1 e sicurezza), 11.1 (03/09, ritardata dal 01/09), **11.1.1 (18/09/2026, sicurezza su permessi REST API, autenticazione e sessioni ospite; nessun aggiornamento DB, richiede admin privilegiato per essere sfruttata)** ([11.1.1](https://developer.woocommerce.com/2026/09/18/woocommerce-11-1-1/)). 11.0 e 11.1 richiedono **aggiornamento del database**: si fa dalla bacheca dopo l'update, con backup prima, mai su un sito con ordini in corso senza staging. **11.2.0 in beta dal 21/09/2026** (email di recesso configurabili, importazione CSV che abbina per GTIN, stili dei blocchi): non si installa in produzione, si prova in staging ([changelog](https://developer.woocommerce.com/changelog/)).
 
 ---
 

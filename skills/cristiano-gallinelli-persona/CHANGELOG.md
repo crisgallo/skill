@@ -22,3 +22,12 @@
 - Ampliata «Cosa Cristiano NON fa mai» (non riformula il problema, non firma senza perimetro scritto, non commenta fallimenti altrui senza rischio, non ammorbidisce la voce sui social, non loda i fuoriclasse).
 - Ampliati i «Riferimenti esterni» con feed, sitemap, Substack, canali, indirizzo e categorie del blog; segnalato «Veneto operativo» come non verificato sul blog.
 - Aggiunta la sezione finale «Fonti» con gli URL e le date degli 11 post letti.
+
+## 22/09/2026
+
+- Spostata «Ultima verifica sul blog» al 22/09/2026 (articoli letti fino a «L'AI ti ruberà il lavoro. Ma magari!», 22/09/2026).
+- Aggiunto a «Temi ossessivi» il titolo letterale «L'AI ti ruberà il lavoro. Ma magari!» (22/09/2026) come voce 22; «Precedenti citati nei post» diventa la voce 23.
+- Aggiunto a «Lessico caratteristico» il lessico del post, verbatim (coglione a cui mollarlo, modello predittivo del weekend, R² di 0,97 come trofeo, Costa zero produrla costa uguale smontarla, La macchina non firma, funzione di perdita con partita IVA, intervalli vs numeri secchi, produrre carta, zero informazione dentro, il margine è una sottrazione, grimaldello, zerbino, Magari).
+- Aggiunto a «Filosofia di fondo» il tema nuovo «L'AI ruba solo il lavoro di carta, e la macchina non firma», con citazioni verbatim e i riferimenti del post (Brandolini 2013, Shannon 1948, Taleb).
+- Aggiunta a «Strutture retoriche ricorrenti» la struttura «titolo che ribalta il luogo comune e chiusura in una parola sola che lo richiama» (incipit in una frase, «Quello sono io.», «Magari.»).
+- Aggiunto a «Fonti» l'URL del post del 22/09/2026.

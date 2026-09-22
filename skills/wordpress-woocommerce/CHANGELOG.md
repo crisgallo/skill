@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 22/09/2026
+- Sez. 1: WooCommerce 11.2.0 in beta dal 21/09/2026 (email di recesso configurabili, CSV per GTIN); solo staging (changelog ufficiale). Data in cima riscritta.
+
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: wordpress.org (requisiti, Settings Reading, permalink, releases 2026 con 7.0 del 20/05, 7.1 del 19/08 e 7.1.1 di sicurezza del 17/09), make.wordpress.org (tabella PHP/WordPress del core handbook aggiornata 19/08/2026 con ritiro dell'etichetta "beta support" a maggio 2026, tabella del team hosting, sitemap 5.5, Site Health cache checks 6.1, schedule 7.2), developer.wordpress.org (upgrading e auto-update, hardening, migrating, wp search-replace, filtro xmlrpc_enabled, optimization), developer.woocommerce.com (changelog, release calendar, note di 11.0, 11.1 e 11.1.1, politica L-1, configurazione cache), woocommerce.com/document (server requirements, HPOS, Cart/Checkout blocks, Google for WooCommerce e setup, Google Analytics for WooCommerce, Meta for WooCommerce, WooPayments paesi, tasse), wordpress.com/support e blog (plan features, plugins su tutti i piani a pagamento dal 02/04/2026, changelog 08/05/2026, Google Analytics, sitemaps, feeds, staging, Blaze e crediti), php.net supported versions, Google (GA4 ecommerce, WooCommerce Google tag 12973528, Site Kit Tag Manager), iubenda, Complianz, Cookiebot su wordpress.org, issue GitHub #4047 di Meta for WooCommerce.

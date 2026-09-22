@@ -5,7 +5,7 @@ description: "Regole operative verificate per configurare, igienizzare e interro
 
 # GA4: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 22 settembre 2026.**
 
 ---
 
@@ -93,7 +93,7 @@ Si costruisce la corrispondenza **tag → attivatore → nome evento** e la si c
 ### L'ordine è vincolante e sbagliarlo produce un filtro che non filtra
 
 1. **Prima la regola di traffico interno**: Amministrazione, Raccolta e modifica dei dati, Stream di dati, il tuo stream, Impostazioni tag, Definisci traffico interno. La regola scrive il parametro `traffic_type = internal` sugli hit che arrivano dagli IP indicati. `traffic_type` è l'unico parametro a cui si può assegnare un valore, `internal` è il default.
-2. **Poi il filtro dati** che esclude quel parametro: Amministrazione, Filtri dati. Massimo **10 filtri dati per proprietà**. ⚠️ Dall'11/06/2026 c'è un terzo tipo, il **filtro Hostname**, accanto a traffico interno e sviluppatore: esclude gli eventi per hostname, è la difesa contro le copie del sito su staging e i referral fantasma, conta nel limite dei 10 (https://support.google.com/analytics/answer/13296761, note di rilascio https://support.google.com/analytics/answer/9164320).
+2. **Poi il filtro dati** che esclude quel parametro: Amministrazione, Filtri dati. Massimo **10 filtri dati per proprietà**. ⚠️ Dall'11/06/2026 c'è un terzo tipo, il **filtro Hostname**, accanto a traffico interno e sviluppatore: esclude gli eventi per hostname, è la difesa contro le copie del sito su staging e i referral fantasma, conta nel limite dei 10 (https://support.google.com/analytics/answer/13296761, note di rilascio https://support.google.com/analytics/answer/9164320). 🔄 **Dal 21/09/2026 il filtro Hostname esiste anche in modalità Includi**: una lista di domini autorizzati a mandare eventi alla proprietà, tutto il resto fuori. Non si applica agli eventi del Measurement Protocol; gli hostname vuoti vengono bloccati in automatico (note di rilascio del 21/09/2026, https://support.google.com/analytics/answer/9164320). Su un sito con staging e sottodomini estranei è la forma più pulita del filtro.
 
 Invertirli significa attivare un filtro che non ha niente da filtrare. GA4 non avvisa. Fonte, con i passi nello stesso ordine: https://support.google.com/analytics/answer/10104470.
 

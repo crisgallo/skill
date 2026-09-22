@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 22/09/2026
+- Sez. 2: dal 21/09/2026 il filtro Hostname ha anche la modalità Includi (allowlist di domini); non copre il Measurement Protocol; hostname vuoti bloccati (note di rilascio GA4, https://support.google.com/analytics/answer/9164320). Data in cima riscritta.
+
 ## 20/09/2026
 
 - Partita dalla copia locale dell'autore del 19/09/2026 (che ha aggiunto l'osservazione sulla stella grigia di `purchase` sulla proprietà Sceglinatura), non dalla copia claude.ai del 12/08/2026. Aggiornata la data in testa a 20 settembre 2026.

@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 22 settembre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -66,7 +66,7 @@ Apertura e gestione anche dal **plugin Ads Manager dentro ChatGPT** (`chatgpt.co
 
 - ⛔ **Pubblici personalizzati non supportati** per campagne verso EEA o Svizzera, «where personalized ads are not yet available»: per una campagna sull'Italia le liste non servono né in inclusione né in esclusione. https://help.openai.com/en/articles/20001210-create-campaigns-for-chatgpt-ads · https://developers.openai.com/ads/custom-audiences
 - ⛔ **Account self-serve nuovi limitati al paese di casa**: «Some new self-serve ad accounts can initially advertise only in their home country… Selecting other countries does not override this restriction.» Si sblocca solo dopo verifica identità approvata **e** una spesa minima (non quantificata) nel paese di casa. Un account italiano nuovo può non riuscire a targetizzare altri paesi. https://help.openai.com/en/articles/20001210-create-campaigns-for-chatgpt-ads · https://help.openai.com/en/articles/20001217-troubleshooting-common-issues
-- ⚠️ **Targeting sub-nazionale in Italia: non verificato.** La FAQ dice «states or regions, cities, markets, and postal codes where available… may vary by country»; il catalogo `ads.openai.com/assets/openai-geotargets.csv` non era scaricabile (challenge Cloudflare). Si legge dal pannello.
+- ⚠️ **Targeting sub-nazionale in Italia: non verificato sul pannello.** Dal 22/09/2026 la pagina https://developers.openai.com/ads/campaign-targeting documenta il sub-nazionale via location ID presi dall'endpoint di lookup geografico, con esclusioni di regioni dentro un paese incluso; le campagne da product feed restano solo a livello paese. Quali località italiane esistano nel catalogo resta da vedere. La FAQ dice «states or regions, cities, markets, and postal codes where available… may vary by country»; il catalogo `ads.openai.com/assets/openai-geotargets.csv` non era scaricabile (challenge Cloudflare). Si legge dal pannello.
 - Personalizzazione non attiva in EEA/CH (§1); il testo AI-customizzato traduce nella lingua dell'utente (§7).
 - Contesto UE: ppc.land riporta la designazione di ChatGPT come «very large online search engine» (DSA) il 31/08/2026; non verificato su fonte primaria. https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify/
 
@@ -120,7 +120,7 @@ Budget giornaliero:
 
 **Geografia:** paese ISO 3166-1 alpha-2. Sub-nazionale (stati/regioni, città, mercati, CAP) «where available», «may vary by country»: non più limitato agli USA nella FAQ, ma per l'Italia **non verificato** (2.1). ⛔ Campagne da product feed: solo paese. Via API fino a 2.500 location ID. https://help.openai.com/en/articles/20001210-create-campaigns-for-chatgpt-ads · https://developers.openai.com/ads/campaign-targeting
 
-**Piattaforme (cinque, dal 10/09/2026):** Android app, Android web, Desktop web, iOS app, iOS web, in pannello e in Insights; nell'API `android_app`, `android_web`, `desktop_web`, `ios_app`, `ios_web`, con `web` che resta come gruppo di tutto il web. https://developers.openai.com/ads
+**Piattaforme (cinque, dal 10/09/2026; ⚠️ la pagina campaign-targeting al 22/09/2026 ne elenca ancora tre, `ios_app`, `android_app`, `web`: fa fede il changelog API):** Android app, Android web, Desktop web, iOS app, iOS web, in pannello e in Insights; nell'API `android_app`, `android_web`, `desktop_web`, `ios_app`, `ios_web`, con `web` che resta come gruppo di tutto il web. https://developers.openai.com/ads
 
 **Context hints:** fino a **2.000 per gruppo**, scritti come **frasi naturali e descrittive**, non come elenchi di termini. Articolo dedicato (20/09/2026): schema what/who/when, «a clear, natural phrase focused on one idea»; ⛔ gli hint «cannot enforce geographic limits, schedules, or exclusions». Nel Bulk API i gruppi hanno anche `exclusion_hints` (hint negativi), non documentati nell'help: da verificare se esposti nel pannello. https://help.openai.com/en/articles/20001521-write-context-hints-for-chatgpt-ads · https://developers.openai.com/ads/bulk-api
 

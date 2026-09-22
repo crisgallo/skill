@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 22/09/2026
+- Sez. 2.1 e 6: la pagina campaign-targeting (letta il 22/09/2026) documenta il targeting sub-nazionale via location ID e le esclusioni di regione; product feed solo a livello paese; per l'Italia resta da verificare sul pannello. Segnalata la discrepanza sulle piattaforme (tre sulla pagina, cinque nel changelog API). Data in cima riscritta.
+
 ## 20/09/2026
 
 - §0: aggiornata la data di verifica al 20/09/2026; aggiunte le regole 5 (leggere il changelog di developers.openai.com/ads a ogni verifica) e 6 (help.openai.com e openai.com rispondono 403 al fetch automatico); aggiunto il blocco datato «Cosa è cambiato dal 12/09/2026». Fonte: audit del 20/09/2026, https://developers.openai.com/ads
