@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # LinkedIn Ads (Campaign Manager): regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 23 settembre 2026.**
 
 **Dove le fonti ufficiali smentiscono la vulgata (verificato 20/09/2026):**
 
@@ -49,6 +49,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 - **Interessi e tratti** sono inferiti dal comportamento: per il B2B italiano sono la faccetta meno affidabile e vanno usati come "Restringi", mai come unico criterio. Regola operativa, non numero LinkedIn.
 - ⚠️ **Non si targettizza per età, genere, dati sensibili**: policy ([ads-policy](https://www.linkedin.com/legal/ads-policy)); età e genere sono comunque inferiti e vanno lasciati fuori da un B2B.
 - **Auto-Targeting** (per ad set "Classic", introdotto 29/09/2025): costruisce il pubblico da URL, nome prodotto, storico dell'account; nasce per le PMI, e resta un pubblico che non si legge riga per riga ([a7481946](https://www.linkedin.com/help/lms/answer/a7481946), [Social Media Today 29/09/2025](https://www.socialmediatoday.com/news/linkedin-adds-more-ai-automation-ad-elements-targeting-creative/761434/)). Su un account con ICP definito non si usa; su un test con budget minimo si può, ma si legge il report demografico prima di rinnovare.
+- **Buyer Groups** (pubblici generati automaticamente, pagina a425184 letta il 23/09/2026): si aggiungono **fino a tre categorie di prodotto** nell'ad set e LinkedIn costruisce il gruppo d'acquisto; nasce per pipeline e lead qualificati, e come tutti i pubblici automatici non si legge riga per riga (https://www.linkedin.com/help/lms/answer/a425184).
 
 ---
 

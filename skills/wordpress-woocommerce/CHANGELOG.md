@@ -1,5 +1,9 @@
 # Changelog wordpress-woocommerce
 
+## 23/09/2026
+- Sez. 1: WooCommerce 11.1.2 del 22/09/2026 (changelog ufficiale).
+- Sez. 8: Google for WooCommerce almeno 3.8.1 per la Merchant API; Google Analytics for WooCommerce non dismesso (doc ufficiali).
+
 ## 22/09/2026
 - Sez. 1: WooCommerce 11.2.0 in beta dal 21/09/2026 (email di recesso configurabili, CSV per GTIN); solo staging (changelog ufficiale). Data in cima riscritta.
 

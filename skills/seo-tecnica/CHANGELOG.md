@@ -1,5 +1,8 @@
 # Changelog seo-tecnica
 
+## 23/09/2026
+- Sez. 7: pagina page experience aggiornata il 22/09/2026 con le metriche sperimentali CrUX sugli annunci (numero, densità, peso).
+
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: Google Search Central (robots.txt intro e specifica, noindex, canonicalizzazione, codici HTTP e redirect, trasferimento sito con cambio URL, navigazione a faccette, paginazione e struttura URL e-commerce, crawl budget, sitemap e sitemap immagini, hreflang, galleria e pagine dei dati strutturati Product/Merchant listing/Organization/Breadcrumb/Article/FAQPage, Core Web Vitals e page experience, JavaScript SEO e rendering dinamico, title link, snippet, SEO starter guide, Google Immagini, operatore site:, contenuti utili, guida ai sistemi di ranking, policy spam con aggiornamento site reputation del 28/08/2026, AI features, guida all'ottimizzazione per l'IA generativa del 15/05/2026, core update, pagina degli aggiornamenti della documentazione e indice del blog); guida Search Console (rapporto Indicizzazione delle pagine 7440203, Cambio di indirizzo 9370220, rapporto CWV 9205520); web.dev/vitals; Search Status Dashboard (summary) per le date dei ranking update 2025-2026; blog.google sui controlli IA per i siti (03/06 e 31/08/2026).

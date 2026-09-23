@@ -5,7 +5,7 @@ description: "Regole operative verificate su Google Search Central per audit SEO
 
 # SEO tecnica (Google Search): regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 23 settembre 2026.**
 
 ---
 
@@ -111,7 +111,7 @@ Fonti: [core-web-vitals](https://developers.google.com/search/docs/appearance/co
 
 - Si misura al **75° percentile** delle visite reali, **mobile e desktop separati**; lo stato del gruppo di URL è quello della **metrica peggiore**. **Dati di campo (CrUX)** sono quelli che contano; **Lighthouse è laboratorio** (usa TBT come proxy dell'INP) e serve a trovare la causa, non a dichiarare il risultato. Un sito con poco traffico non compare nel rapporto CWV: "dati insufficienti" non vuol dire "tutto bene".
 - **Ranking**: Google dice che i CWV "sono in linea con ciò che i sistemi di ranking premiano" e che **"non esiste un singolo segnale"** di page experience; "Google mostra sempre il contenuto più pertinente anche se la page experience è mediocre" e un buon rapporto CWV **non garantisce** posizioni. Conseguenza: i CWV si sistemano per conversione e per non essere penalizzati a parità di contenuto, non si vendono come leva di ranking primaria. Punteggio Lighthouse 100 non è un KPI.
-- Autovalutazione page experience (Google): CWV buoni, HTTPS, resa su mobile, niente interstitial invadenti, pubblicità che non copre il contenuto, contenuto principale distinguibile.
+- Autovalutazione page experience (Google): CWV buoni, HTTPS, resa su mobile, niente interstitial invadenti, pubblicità che non copre il contenuto, contenuto principale distinguibile. ⚠️ Pagina aggiornata il 22/09/2026: cita le **metriche sperimentali CrUX sugli annunci** (numero, densità e peso degli ad) come strumento di controllo (https://developers.google.com/search/docs/appearance/page-experience). Su un sito con display invasivo si guardano prima di discutere di ranking.
 - Dopo una modifica, i dati di campo cambiano con **28 giorni** di finestra CrUX: regola empirica di terzi ampiamente citata, non riletta su fonte ufficiale il 20/09/2026 [DA VERIFICARE la finestra esatta sul rapporto CrUX].
 
 ---

@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 22 settembre 2026.**
+**Ultima verifica delle fonti: 23 settembre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -102,6 +102,8 @@ Nell'API le offerte sono in **micros** (1 unità = `1000000`); per il CPM si div
 
 ⚠️ **Nessun periodo di apprendimento dichiarato.** È un'assenza nella documentazione, non la prova che non esista.
 
+⛔ **oCPC: un solo evento di conversione standard attivo per campagna, niente eventi custom come obiettivo, e obiettivo ed evento non si cambiano dopo la creazione**: per ottimizzare su un altro evento si crea una campagna nuova. Si paga sempre il clic valido, mai la conversione; `max_bid_micros` è l'offerta CPA usata come input di ottimizzazione (https://developers.openai.com/ads/conversion-optimized-campaigns, letta il 23/09/2026).
+
 ## 5. Budget
 
 🔴 **Minimo giornaliero documentato per valuta** (tabella «Minimum Campaign Spend», pagina Campaigns, 20/09/2026): **EUR 15 €/giorno**, GBP 15, CHF 20, **USD 25**, PLN 65, SEK 175 (23 valute). Il developers doc dice solo «Daily minimums depend on the account currency». ⚠️ Si conferma comunque sul pannello: l'API risponde con l'importo richiesto nell'errore. https://help.openai.com/en/articles/20001210-create-campaigns-for-chatgpt-ads · https://developers.openai.com/ads/bidding-and-budgets
@@ -120,7 +122,7 @@ Budget giornaliero:
 
 **Geografia:** paese ISO 3166-1 alpha-2. Sub-nazionale (stati/regioni, città, mercati, CAP) «where available», «may vary by country»: non più limitato agli USA nella FAQ, ma per l'Italia **non verificato** (2.1). ⛔ Campagne da product feed: solo paese. Via API fino a 2.500 location ID. https://help.openai.com/en/articles/20001210-create-campaigns-for-chatgpt-ads · https://developers.openai.com/ads/campaign-targeting
 
-**Piattaforme (cinque, dal 10/09/2026; ⚠️ la pagina campaign-targeting al 22/09/2026 ne elenca ancora tre, `ios_app`, `android_app`, `web`: fa fede il changelog API):** Android app, Android web, Desktop web, iOS app, iOS web, in pannello e in Insights; nell'API `android_app`, `android_web`, `desktop_web`, `ios_app`, `ios_web`, con `web` che resta come gruppo di tutto il web. https://developers.openai.com/ads
+**Piattaforme (cinque, dal 10/09/2026; confermate il 23/09/2026 dalla pagina platform-targeting, che elenca `android_app`, `android_web`, `desktop_web`, `ios_app`, `ios_web` più `web` come gruppo legacy di tutto il web; `targeting.platforms` omesso o `null` = nessuna restrizione, https://developers.openai.com/ads/platform-targeting):** Android app, Android web, Desktop web, iOS app, iOS web, in pannello e in Insights; nell'API `android_app`, `android_web`, `desktop_web`, `ios_app`, `ios_web`, con `web` che resta come gruppo di tutto il web. https://developers.openai.com/ads
 
 **Context hints:** fino a **2.000 per gruppo**, scritti come **frasi naturali e descrittive**, non come elenchi di termini. Articolo dedicato (20/09/2026): schema what/who/when, «a clear, natural phrase focused on one idea»; ⛔ gli hint «cannot enforce geographic limits, schedules, or exclusions». Nel Bulk API i gruppi hanno anche `exclusion_hints` (hint negativi), non documentati nell'help: da verificare se esposti nel pannello. https://help.openai.com/en/articles/20001521-write-context-hints-for-chatgpt-ads · https://developers.openai.com/ads/bulk-api
 
@@ -194,6 +196,7 @@ Impression, clic, spesa, CTR, CPC medio, CPM medio, conversioni, per campagna, g
 
 `developers.openai.com/ads` documenta gestione campagne, offerte e budget, targeting, feed di prodotto, tracciamento, reporting e account, con riferimento per autenticazione, ad account, campagne, gruppi, inserzioni, insights, file e conversioni. 🔑 Il canale si può governare da script invece che a clic. Regole operative (20/09/2026):
 
+- **Bulk API** (limited preview, attivata per singolo ad account dal team OpenAI, 23/09/2026): fino a **1.000 operazioni per job**, corpo massimo 16 MiB, 512 KiB per operazione; tetti 5.000 campagne, 5.000 gruppi, 5.000 inserzioni attive o in pausa per account. https://developers.openai.com/ads/bulk-api
 - **Rate limit:** 600 richieste/min per endpoint, 1.200/min complessive per account e per IP; bulk job 10 richieste ogni 10 s.
 - **Offerte in micros** (1 unità = `1000000`); CPM diviso per 1.000; nel bulk il campo CPM è `max_cpm_bid_micros`.
 - `bidding_type`: `impressions`, `clicks`, `conversions`. Su un gruppo oCPC `max_bid_micros` è un **CPA** (§4).

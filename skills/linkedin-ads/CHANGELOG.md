@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 23/09/2026
+- Sez. 2: aggiunti i Buyer Groups (fino a tre categorie di prodotto) fra i pubblici generati automaticamente (a425184).
+
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: pagine Help LinkedIn Marketing Solutions (a423690 dimensione pubblico, a424655 e a417950 targeting, a1489764 e a423102 liste, a420433 e a420297 retargeting e retention, a1631056 predittivi, a423698 fine lookalike, a418929 Audience Expansion, a423409 / a425378 / a427359 Audience Network, a1337901 Brand Safety Hub, a421112 / a706289 / a420561 offerte e asta, a422101 / a427572 budget, a424570 obiettivi, a426534 / a424737 / a423663 / a737898 / a426057 specifiche formati, a421723 e a577123 Sponsored Messaging in UE, a1399568 Thought Leader Ads, a423447 / a423364 / a421867 Lead Gen Forms, a1444756 GDPR, a489169 / a423304 Insight Tag e cookie di prima parte, a1680223 / a1718034 CAPI e GTM, a426359 / a426349 / a420533 finestre e attribuzione, a422348 / a426154 / a424171 / a420170 reporting, a423449 Pagina, a468679 revisione, a417903 / a1340134 / a421456 IVA e fatturazione); LinkedIn Advertising Policies; Microsoft Learn (Conversions API 202609, Recent Marketing API Changes 202606–202609); pagina prodotto LAN e best practices budget su business.linkedin.com; Product Updates LMS (fermo al 31/03/2026).

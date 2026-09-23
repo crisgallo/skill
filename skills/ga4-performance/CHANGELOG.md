@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 23/09/2026
+- Sez. 5: limiti delle Dashboard (15 schede standard, 30 su 360, ruoli Editor e Amministratore, condivisione a tutta la proprietà, niente API, segmenti e confronti) dalla pagina 17217303.
+
 ## 22/09/2026
 - Sez. 2: dal 21/09/2026 il filtro Hostname ha anche la modalità Includi (allowlist di domini); non copre il Measurement Protocol; hostname vuoti bloccati (note di rilascio GA4, https://support.google.com/analytics/answer/9164320). Data in cima riscritta.
 

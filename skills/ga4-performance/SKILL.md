@@ -5,7 +5,7 @@ description: "Regole operative verificate per configurare, igienizzare e interro
 
 # GA4: regole operative
 
-**Ultima verifica delle fonti: 22 settembre 2026.**
+**Ultima verifica delle fonti: 23 settembre 2026.**
 
 ---
 
@@ -183,7 +183,7 @@ Nomi italiani che si cercano male e vanno saputi:
 
 ⚠️ La ricerca "sorgente/mezzo" restituisce quindici risultati quasi identici divisi fra *Attribuzione* e *Sorgente di traffico*, più le varianti CM360, DV360, SA360, manuale e primo utente. Quella che serve per leggere le campagne è **Sorgente/mezzo sessione** sotto *Sorgente di traffico*.
 
-📌 **Da ricontrollare a mano (nota del 20/09/2026)**: dall'11/06/2026 il catalogo ha la dimensione **Source group**, che raggruppa le sorgenti per piattaforma (Facebook/Instagram, TikTok, e retroattivamente ChatGPT, Perplexity): non è in tabella e serve per leggere il traffico AI; il conteggio 364/168 è probabilmente cambiato (note di rilascio https://support.google.com/analytics/answer/9164320).
+📌 **Da ricontrollare a mano (nota del 20/09/2026)**: dall'11/06/2026 il catalogo ha la dimensione **Source group**, che raggruppa le sorgenti per piattaforma (Facebook/Instagram, TikTok, e retroattivamente ChatGPT, Perplexity): non è in tabella e serve per leggere il traffico AI; il conteggio 364/168 è probabilmente cambiato (note di rilascio https://support.google.com/analytics/answer/9164320). Limiti documentati il 23/09/2026 (https://support.google.com/analytics/answer/17217303): **15 schede per dashboard** su proprietà standard, 30 su 360; creano e pubblicano solo Editor e Amministratori; ogni dashboard pubblicata è visibile a tutta la proprietà; niente API, niente segmenti, niente confronti per scheda. Per quello restano le esplorazioni.
 
 ### Il selettore di date: la sequenza che funziona
 

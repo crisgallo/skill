@@ -1,5 +1,10 @@
 # Changelog chatgpt-ads-performance
 
+## 23/09/2026
+- Sez. 6: piattaforme confermate dalla pagina platform-targeting (cinque più `web` legacy; omesso = nessuna restrizione); chiusa la discrepanza segnalata il 22/09.
+- Sez. 4: oCPC con un solo evento standard attivo, niente custom come obiettivo, obiettivo ed evento immutabili dopo la creazione (conversion-optimized-campaigns).
+- Sez. 11: limiti della Bulk API (1.000 operazioni per job, 16 MiB, 512 KiB, tetti 5.000; limited preview per account).
+
 ## 22/09/2026
 - Sez. 2.1 e 6: la pagina campaign-targeting (letta il 22/09/2026) documenta il targeting sub-nazionale via location ID e le esclusioni di regione; product feed solo a livello paese; per l'Italia resta da verificare sul pannello. Segnalata la discrepanza sulle piattaforme (tre sulla pagina, cinque nel changelog API). Data in cima riscritta.
 
