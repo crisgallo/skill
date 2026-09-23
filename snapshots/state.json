@@ -76017,5 +76017,143 @@
    ],
    "checked": "2026-09-23"
   }
+ },
+ "drive": {
+  "data": "2026-09-22",
+  "skills": {
+   "cristiano-gallinelli-persona": {
+    "drive": "45113",
+    "commit": "1c100f7"
+   },
+   "wordpress-woocommerce": {
+    "drive": "44326",
+    "commit": "1c100f7"
+   },
+   "chatgpt-ads-performance": {
+    "drive": "34168",
+    "commit": "1c100f7"
+   },
+   "ga4-performance": {
+    "drive": "45646",
+    "commit": "1c100f7"
+   },
+   "trustpilot": {
+    "drive": "44044",
+    "commit": "e743f50"
+   },
+   "google-merchant-center": {
+    "drive": "37387",
+    "commit": "e743f50"
+   },
+   "sviluppo-web": {
+    "drive": "42049",
+    "commit": "eca1fb7"
+   },
+   "substack-intelligence": {
+    "drive": "17135",
+    "commit": "29b96fe"
+   },
+   "seo-tecnica": {
+    "drive": "44070",
+    "commit": "0f9b326"
+   },
+   "redmine-harvest": {
+    "drive": "44988",
+    "commit": "eb17b1f"
+   },
+   "prestashop": {
+    "drive": "35508",
+    "commit": "1deef96"
+   },
+   "microsoft-ads": {
+    "drive": "49669",
+    "commit": "64f8986"
+   },
+   "meta-pixel-capi": {
+    "drive": "38922",
+    "commit": "97914eb"
+   },
+   "meta-ads-performance": {
+    "drive": "30353",
+    "commit": "692b945"
+   },
+   "looker-studio": {
+    "drive": "43132",
+    "commit": "784ab00"
+   },
+   "linkedin-ads": {
+    "drive": "47006",
+    "commit": "e594e86"
+   },
+   "gtm-server-side": {
+    "drive": "39116",
+    "commit": "0ed09b7"
+   },
+   "google-search-console": {
+    "drive": "37796",
+    "commit": "fef63ff"
+   },
+   "google-ads-performance": {
+    "drive": "25789",
+    "commit": "d1c1dff"
+   },
+   "creditsafe-monitoraggio-credito": {
+    "drive": "19630",
+    "commit": "29b96fe"
+   },
+   "consent-mode-privacy": {
+    "drive": "31828",
+    "commit": "f37effc"
+   },
+   "brevo": {
+    "drive": "47580",
+    "commit": "9957efc"
+   }
+  }
+ },
+ "chat": {
+  "ultima_lettura": "2026-09-23",
+  "feedback_visti": {
+   "feedback_tavole_carosello_chiare.md": {
+    "modificato": "2026-09-22",
+    "esito": "progetto Sceglinatura, non integrata"
+   },
+   "feedback_diciture_gia_sul_sito.md": {
+    "modificato": "2026-09-20",
+    "esito": "progetto Sceglinatura, non integrata"
+   },
+   "feedback_caricare_skill_prima_del_pannello.md": {
+    "modificato": "2026-09-20",
+    "esito": "regola di processo Cowork, non integrata; segnalata nel report"
+   },
+   "feedback_nomenclatura_campagne_sn26.md": {
+    "modificato": "2026-09-20",
+    "esito": "progetto Sceglinatura, non integrata"
+   },
+   "feedback_numeri_dal_pannello_non_da_ga4.md": {
+    "modificato": "2026-09-19",
+    "esito": "integrata in ga4-performance, google-ads-performance, meta-ads-performance il 23/09/2026"
+   },
+   "feedback_priorita_linee_prodotto.md": {
+    "modificato": "2026-09-19",
+    "esito": "progetto Sceglinatura, non integrata"
+   },
+   "feedback_armonia_fuori_perimetro.md": {
+    "modificato": "2026-09-19",
+    "esito": "abrogata dall'autore, ignorata"
+   },
+   "feedback_verifica_catalogo_prima_di_classificare.md": {
+    "modificato": "2026-09-19",
+    "esito": "integrata in google-ads-performance il 23/09/2026"
+   },
+   "feedback_checklist_vuota_commento_di_quadro.md": {
+    "modificato": "2026-09-19",
+    "esito": "regola Trello del progetto NEM, non integrata"
+   },
+   "feedback_card_apertura_e_rotazione.md": {
+    "modificato": "2026-09-19",
+    "esito": "regola Trello di processo, non integrata"
+   }
+  }
  }
 }

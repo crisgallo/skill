@@ -89,6 +89,8 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 - ⚠️ **Esperimenti: da aprile 2026 l'applicazione automatica dei risultati è attiva di default.** La regola sopra non la copre: si controlla **su ogni esperimento** creato ([ppcnewsfeed](https://ppcnewsfeed.com/ppc-news/2026-04/auto-apply-option-added-experiments/); Search Engine Land 473266 non leggibile, 403).
 - Collegamento con **GA4** attivo: serve per importare i pubblici e per leggere i **percorsi di conversione** invece del solo ultimo clic.
 
+📌 **Regola di Cristiano (chat Cowork del 19/09/2026, progetto Sceglinatura):** spesa, risultati, costo per risultato e ROAS si leggono **nel pannello che ha speso i soldi**: Google Ads per le campagne Google, Gestione inserzioni per quelle Meta. GA4 serve per **tendenze**, stagionalità, confronti fra periodi, vendite per prodotto totali e comportamento sul sito, **non per attribuire conversioni ai canali**. ⛔ Le due fonti non si mescolano nella stessa tabella di rendimento: se servono entrambe, sono due misure diverse, ciascuna con scritto quale pannello la dice. Il caso che l'ha generata: nel funnel GA4 per sessione gli acquisti senza sorgente erano 170 su 185 a luglio 2026 (92%) e 103 su 116 ad agosto (89%); `google/cpc` risultava 1 acquisto a luglio e 0 ad agosto mentre Google Ads ne dichiarava 120 e 93. I due sistemi non diranno mai lo stesso numero, e non è un difetto da riparare.
+
 ---
 
 ## 6. Demand Gen
@@ -131,6 +133,7 @@ Ordine di controllo che fa emergere i problemi:
 - Giudicare una campagna Search di agosto con i criteri di settembre: **la domanda è stagionale, l'asta anche**.
 - Aspettarsi che Search porti volume su una nicchia dove le ricerche non esistono: se il volume non c'è, la campagna che intercetta il **problema** (e non il prodotto) diventa la principale.
 - Dare per scontato che una campagna convertita ad AI Max si comporti come prima: si rilegge il rapporto termini di ricerca nella parte AI Max (sez. 1).
+- ⛔ **Classificare un termine di ricerca, un marchio o un prodotto deducendolo dal nome** ("sembra un concorrente"). Regola di Cristiano, chat Cowork del 19/09/2026 (progetto Sceglinatura): prima si verifica **sul sito del cliente** (campo di ricerca prodotti) o si chiede a lui; un'espressione regolare sui nomi è un'ipotesi, non una verifica. Il caso: su 297 termini esportati, `lenivox` e `ansiwit` erano stati messi fra i concorrenti ed erano prodotti a catalogo; `ansiwit` con zero conversioni per 41,76 € da "concorrente da escludere" diventa "scheda o pagina da capire". Stessa cifra, decisione opposta. Le classificazioni non verificate si consegnano dichiarate come tali, con il riferimento prodotto accanto a quelle verificate.
 
 ---
 

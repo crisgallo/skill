@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 23/09/2026
+- Sez. 3: aggiunta la regola di Cristiano dalla chat Cowork del 19/09/2026 (Sceglinatura, `feedback_numeri_dal_pannello_non_da_ga4.md`): spesa e risultati da Gestione inserzioni, GA4 solo per tendenze; niente tabelle miste. Data di verifica delle fonti invariata: non è una fonte web.
+
 ## 20/09/2026
 
 - Aggiornata la data in cima a "Ultima verifica delle fonti: 20 settembre 2026".

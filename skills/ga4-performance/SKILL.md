@@ -291,6 +291,8 @@ In GA4 i modelli sono **tre**: **basato sui dati**, **ultimo clic a pagamento e 
 
 Con più canali accesi insieme, "un form ogni duecento clic" attribuito all'ultimo clic **misura l'ordine di arrivo, non il contributo**. Il criterio di successo di una campagna che vive dentro un mix va definito sui **percorsi di conversione** (Pubblicità, Percorsi di conversione, https://support.google.com/analytics/answer/10607798), non sul rapporto standard.
 
+📌 **Regola di Cristiano (chat Cowork del 19/09/2026, progetto Sceglinatura):** spesa, risultati, costo per risultato e ROAS si leggono **nel pannello che ha speso i soldi**: Meta da Gestione inserzioni, Google da Google Ads. GA4 serve per **tendenze**, stagionalità, confronti fra periodi, vendite per prodotto totali e comportamento sul sito, **non per attribuire conversioni ai canali**. ⛔ Le due fonti non si mescolano nella stessa tabella di rendimento: se servono entrambe, sono due misure diverse, ciascuna con scritto quale pannello la dice. Il caso che l'ha generata: nel funnel GA4 per sessione gli acquisti senza sorgente erano 170 su 185 a luglio 2026 (92%) e 103 su 116 ad agosto (89%); `google/cpc` risultava 1 acquisto a luglio e 0 ad agosto mentre Google Ads ne dichiarava 120 e 93. I due sistemi non diranno mai lo stesso numero, e non è un difetto da riparare.
+
 ### Identità dei report
 
 Tre opzioni: **mista** (User-ID, ID dispositivo, poi modellazione), **osservata** (User-ID, poi ID dispositivo), **basata su dispositivi**. Cambia come GA4 unisce le sessioni della stessa persona e quindi il conteggio degli utenti. Si cambia in qualunque momento senza effetti permanenti sui dati (https://support.google.com/analytics/answer/10976610).

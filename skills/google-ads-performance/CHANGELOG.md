@@ -1,5 +1,9 @@
 # Changelog google-ads-performance
 
+## 23/09/2026
+- Sez. 5: aggiunta la regola di Cristiano dalla chat Cowork del 19/09/2026 (Sceglinatura, `feedback_numeri_dal_pannello_non_da_ga4.md`): i numeri della campagna si leggono in Google Ads, GA4 solo per tendenze; niente tabelle miste.
+- Sez. 8: aggiunta la voce sul classificare termini di ricerca dal nome (`feedback_verifica_catalogo_prima_di_classificare.md`, 19/09/2026): si verifica sul sito del cliente o si chiede, con il caso lenivox/ansiwit. Data di verifica delle fonti invariata: non sono fonti web.
+
 ## 20/09/2026
 
 - Aggiornata la data di verifica in cima a 20 settembre 2026 e aggiunto il blocco "Cosa è cambiato" con date (sez. 0, regola 3 dell'autore).

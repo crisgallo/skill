@@ -1,6 +1,7 @@
 # Changelog ga4-performance
 
 ## 23/09/2026
+- Sez. 6: aggiunta la regola di Cristiano dalla chat Cowork del 19/09/2026 (Sceglinatura, `feedback_numeri_dal_pannello_non_da_ga4.md`): i numeri di spesa e risultato si leggono nel pannello che spende, GA4 solo per tendenze ed esplorazioni; le due fonti non si mescolano in una tabella. Con i numeri del caso (acquisti senza sorgente 92% e 89%, google/cpc 1 e 0 contro 120 e 93). Data di verifica delle fonti invariata: non è una fonte web.
 - Sez. 5: limiti delle Dashboard (15 schede standard, 30 su 360, ruoli Editor e Amministratore, condivisione a tutta la proprietà, niente API, segmenti e confronti) dalla pagina 17217303.
 
 ## 22/09/2026

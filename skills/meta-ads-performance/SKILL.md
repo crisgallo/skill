@@ -91,6 +91,8 @@ Sulle inserzioni viste in Europa Meta addebita un sovrapprezzo per Paese **fuori
 
 ⚠️ Su un account vecchio le finestre sono spesso **disomogenee fra campagne** (1 giorno contro 7). Uniformarle prima di confrontare qualsiasi cosa.
 
+📌 **Regola di Cristiano (chat Cowork del 19/09/2026, progetto Sceglinatura):** spesa, risultati, costo per risultato e ROAS si leggono **nel pannello che ha speso i soldi**: Meta da Gestione inserzioni, Google da Google Ads. GA4 serve per **tendenze**, stagionalità, confronti fra periodi, vendite per prodotto totali e comportamento sul sito, **non per attribuire conversioni ai canali**. ⛔ Le due fonti non si mescolano nella stessa tabella di rendimento: se servono entrambe, sono due misure diverse, ciascuna con scritto quale pannello la dice. Il caso che l'ha generata: nel funnel GA4 per sessione gli acquisti senza sorgente erano 170 su 185 a luglio 2026 (92%) e 103 su 116 ad agosto (89%); `google/cpc` risultava 1 acquisto a luglio e 0 ad agosto mentre Google Ads ne dichiarava 120 e 93. I due sistemi non diranno mai lo stesso numero, e non è un difetto da riparare.
+
 ---
 
 ## 4. Pixel e Conversions API
