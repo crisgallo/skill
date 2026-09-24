@@ -1,5 +1,7 @@
 # Changelog trustpilot
 
+## 24/09/2026
+- Listino riletto il 24/09/2026 (plans USD, plans IT, pricing): prezzi e inviti invariati; TrustBox Enterprise da 22 a 23; aggiunta la prova gratuita di 14 giorni del piano Plus. Data di verifica in cima a 24 settembre 2026.
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: Guidelines for Businesses v7.2 (giugno 2026), Terms of Use and Sale for Businesses v9.0 (23/06/2026), Action we take (marzo 2026), Legal Brand Guidelines (feb 2023), pagine piani/prezzi USD ed EUR, Invitation API (developers.trustpilot.com), pagine feature inviti e analytics, corporate.trustpilot.com/trust, blog Releases and updates (Shopify 29/06 e 10/07/2026, HubSpot 10/08/2026, Product Review Pages 13/08/2026, Product updates aprile 2026), Changes to reported reviews; Google: Valutazioni negozio (2375474), review snippet structured data, Search Central blog 09/2019; AGCM comunicato PS12962 (provv. 31878, 4 milioni di euro).

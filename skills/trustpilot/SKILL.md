@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Trustpilot su un e-commerc
 
 # Trustpilot: regole operative
 
-**Ultima verifica delle fonti: 21 settembre 2026.**
+**Ultima verifica delle fonti: 24 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -21,7 +21,7 @@ description: "Regole operative verificate per gestire Trustpilot su un e-commerc
 
 **Senza piano a pagamento non si può mostrare TrustScore né stelline sul sito o nelle inserzioni.** Le Legal Brand Guidelines **v3.0 (settembre 2026)** dicono che sul Free si può citare Trustpilot solo "in testo semplice, con un link alla propria pagina profilo Trustpilot" (esempio ufficiale: "See our reviews on Trustpilot") e usare il Review Collector Widget per raccogliere recensioni; **vietati "loghi, Star Rating o grafiche a stelle, TrustScore, Star Label, Category Ranking o qualsiasi widget che mostri recensioni o valutazioni"** ([Legal Brand Guidelines v3.0, set 2026](https://corporate.trustpilot.com/legal/for-businesses/legal-brand-guidelines/sept-2026); sostituisce la v2.0 del feb 2023). Un e-commerce Free che mette "4,6 su Trustpilot" nell'annuncio Meta è in violazione.
 
-Piani come esposti il 20/09/2026 (prezzo per dominio, al mese, fatturazione annuale; ogni dominio si paga a parte; contratti a 12 mesi prepagati) ([plans USD](https://business.trustpilot.com/plans), [plans IT in EUR](https://it.business.trustpilot.com/plans)):
+Piani come esposti il 24/09/2026 (prezzo per dominio, al mese, fatturazione annuale; ogni dominio si paga a parte; contratti a 12 mesi prepagati) ([plans USD](https://business.trustpilot.com/plans), [plans IT in EUR](https://it.business.trustpilot.com/plans)):
 
 | Piano | Prezzo | Inviti/mese | TrustBox | Utenti | Domini |
 |---|---|---|---|---|---|
@@ -29,9 +29,10 @@ Piani come esposti il 20/09/2026 (prezzo per dominio, al mese, fatturazione annu
 | Starter | 79 €/mese (99 $) | 100 | 2 | 1 | 1 |
 | Plus | 189 €/mese (319 $) | 300 | 10 | 3 | fino a 3 |
 | Premium | 479 €/mese (799 $) | 1.000 | 21 | 10 | illimitati |
-| Enterprise | su preventivo | illimitati | 22 | 1.000 | illimitati |
+| Enterprise | su preventivo | illimitati | 23 | 1.000 | illimitati |
 
 - **Starter è solo per clienti nuovi con ricavi fino a 5 milioni di dollari** e include solo le integrazioni e-commerce; da Plus in su tutte le integrazioni. **Recensioni di prodotto, recensioni per sede e accesso API sono add-on**, non inclusi nel listino ([pricing](https://business.trustpilot.com/pricing)). Il prezzo dell'add-on non è pubblicato: [DA VERIFICARE] con il commerciale prima di promettere rich snippet di prodotto.
+- Plus ha una **prova gratuita di 14 giorni** (pagina plans USD, 24/09/2026); Starter no.
 - ⚠️ Prezzo EUR e USD non sono una conversione: sono due listini. Si cita quello della pagina italiana e si allega lo screenshot con data.
 - 🔴 **Rinnovo automatico di altri 12 mesi; disdetta almeno 30 giorni prima della scadenza**, via cancellation@trustpilot.com o dal pannello ([Terms of Use and Sale for Businesses v9.0, 23/06/2026](https://corporate.trustpilot.com/legal/for-businesses/terms-of-use-and-sale-for-businesses/jun-2026)). Si mette la scadenza in calendario il giorno della firma.
 - Alla fine del piano il profilo resta sul Free e **le recensioni restano pubbliche per sempre**, anche se si chiude l'account (stessi Termini). Non esiste "togliamo Trustpilot".
