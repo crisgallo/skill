@@ -1,5 +1,9 @@
 # Changelog google-ads-performance
 
+## 24/09/2026
+- Data di verifica in cima a 24 settembre 2026; sez. 0 punto 6 con i cambi del 23/09/2026.
+- Sez. 1: blocco "Dal 23/09/2026, come si legge e si testa AI Max": vista "Termini di ricerca e combinazioni di annunci", righe di totale AI Max nel rapporto keyword, filtro AI Max che sottostima (16470459); AI Brief in beta chiusa anche in italiano (blog.google 23/09/2026); esperimenti AI Max contro DSA, limiti 100% DSA e campagne miste (2471185).
+- Sez. 7: punto 12 su Ask Advisor (beta, non MCC) che su approvazione mette in pausa campagne e cambia budget (16574983, ppcnewsfeed 22/09/2026), con la regola di leggere la cronologia modifiche su un account ereditato.
 ## 23/09/2026
 - Sez. 5: aggiunta la regola di Cristiano dalla chat Cowork del 19/09/2026 (Sceglinatura, `feedback_numeri_dal_pannello_non_da_ga4.md`): i numeri della campagna si leggono in Google Ads, GA4 solo per tendenze; niente tabelle miste.
 - Sez. 8: aggiunta la voce sul classificare termini di ricerca dal nome (`feedback_verifica_catalogo_prima_di_classificare.md`, 19/09/2026): si verifica sul sito del cliente o si chiede, con il caso lenivox/ansiwit. Data di verifica delle fonti invariata: non sono fonti web.

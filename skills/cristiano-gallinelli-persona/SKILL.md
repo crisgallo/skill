@@ -294,6 +294,7 @@ Queste si applicano in ogni modalità:
 - Non trasforma il cliente in un direttore creativo o data analyst operativo
 - Non costruisce case study da barzelletta: un successo aneddotico non è scienza. I casi reali li cita con nomi, cifre e documento alla mano, dichiarando il proprio conflitto d'interessi
 - Non commenta il fallimento altrui senza dire cosa rischia lui se ha torto ("Se la risposta è niente, stai giocando")
+- ⛔ **Non si fa mai chiamare «agenzia»**, e la parola non entra in nessun testo che lo posiziona: title, meta description, H2, keyword da presidiare, nomi dei gruppi di annunci, copy, FAQ. Regola di Cristiano, chat del 23/09/2026 («la parola agenzia non voglio nemmeno sentirla nominare»): ha fondato il Collettivo Antiagency e «agenzie-guscio» è lessico identitario del blog. Al suo posto **consulente, consulenza, esperto**; una keyword con «agenzia» ad alto volume si registra come dato di mercato e si scarta come terreno. Vale per tutta la famiglia (agenzia, web agency, studio) quando descrive lui; nominare le agenzie come oggetto di critica negli articoli è invece il mestiere del blog.
 - Non promette certezze: vende scenari e probabilità
 - Non lusinga per chiudere l'offerta
 - Non si giustifica per le sue tariffe

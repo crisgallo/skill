@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 24 settembre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -29,6 +29,7 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 3. Aggiornando, si **riscrive la data** in cima e si annota **cosa è cambiato e da quando**, così si sa quali dati storici restano confrontabili.
 4. Segnali che è ora di ricontrollare: il pannello mostra voci che qui non sono descritte; un'impostazione non si trova più dove dovrebbe; un tipo di campagna viene sostituito da uno nuovo.
 5. La pagina annunci ufficiale (9048695) è ferma al 20/05/2026: per intercettare i cambi si leggono gli **avvisi in cima alle singole pagine Help** e il Developer Blog, non quella.
+6. **Cosa è cambiato il 23/09/2026** (blog.google, DMEXCO): AI Brief in beta chiusa anche in **italiano**; nuova vista **"Termini di ricerca e combinazioni di annunci"** e test AI Max contro DSA con esperimenti (sez. 1); **Ask Advisor** (beta) può mettere in pausa campagne e cambiare budget su approvazione (sez. 7, punto 12).
 
 ---
 
@@ -43,6 +44,8 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 ⚠️ **Su un account nuovo o con budget limitato la generica è la scelta sbagliata:** massimizza la copertura e brucia il budget prima di aver imparato qualcosa. Si parte con **frase ed esatta**, si guardano i termini di ricerca reali, e si allarga solo quando il volume di conversioni lo sostiene.
 
 ⚠️ **AI Max sostituisce la "generica di campagna" (dal 03/08/2026, conversione automatica 1–30/09/2026).** L'impostazione di campagna "solo corrispondenza generica" non si crea più (UI, Editor, API); le campagne che la usavano vengono convertite ad AI Max, con il solo "search term matching" attivo (anche "text customization" se avevano asset creati automaticamente). Le DSA migrano da febbraio 2027. Dopo la conversione si controlla: **search term matching, text customization ed espansione URL finale** sono attivabili singolarmente; le esclusioni negative continuano a valere; il rapporto termini di ricerca si separa in **keyword / AI Max**. Fonti: [13389795](https://support.google.com/google-ads/answer/13389795?hl=en), [blog.google](https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/), [Developer Blog 12/08/2026](https://ads-developers.googleblog.com/2026/08/migrate-campaign-level-broad-match-and.html), [ppc.land](https://ppc.land/google-ads-broad-match-campaigns-face-ai-max-auto-upgrade-on-september-1/).
+
+⚠️ **Dal 23/09/2026, come si legge e si testa AI Max.** (a) La vista **"Termini di ricerca e combinazioni di annunci"** (ex "Termini di ricerca e pagine di destinazione da AI Max") mostra per ogni termine titolo, pagina di destinazione, campagna e gruppo che hanno servito l'annuncio: è quella da aprire prima di giudicare una campagna convertita. Nel rapporto keyword ci sono due righe di totale, **"AI Max expanded matches"** (traffico da generica) e **"AI Max landing page matches"** (traffico da pagine e asset, fuori dalle keyword). ⛔ Il filtro **tipo di corrispondenza = AI Max sottostima**: esclude "Altri termini di ricerca" ([16470459](https://support.google.com/google-ads/answer/16470459?hl=en)). (b) **AI Brief** (istruzioni in linguaggio naturale su business, pubblico e messaggi) è in beta chiusa anche in **italiano** dal 23/09/2026; disponibilità generale non annunciata ([blog.google 23/09/2026](https://blog.google/products/ads-commerce/ai-max-language-reporting-features)). (c) **Test AI Max contro DSA**: si fa con un esperimento personalizzato aprendo le impostazioni DSA della bozza e scegliendo "Upgrade campaign", oppure con il modello *Esperimenti → AI Max per campagne Search*. Le campagne **100% DSA non possono usare i modelli**; nelle campagne miste il braccio di test converte **solo i gruppi non DSA** ([2471185](https://support.google.com/google-ads/answer/2471185?hl=en)). Google scrive che le DSA "si ritirano a favore di AI Max": il test va fatto prima di febbraio 2027, non dopo.
 
 🔴 **Frase ed esatta non tengono fuori dalle superfici AI.** Dal 04/09/2026 Google conferma un test in cui keyword esatte e a frase servono annunci anche in AI Mode (intento diretto). Nessuna pagina Help ufficiale trovata; fonte: [ppc.land](https://ppc.land/exact-and-phrase-match-keywords-gain-ai-mode-ads-in-google-test/).
 
@@ -122,6 +125,7 @@ Ordine di controllo che fa emergere i problemi:
 9. **Modello di attribuzione** (basato sui dati o ultimo clic) e coerenza fra campagne.
 10. **Target CPA/ROAS impostati prima del 17/08/2026**: ricontrollarli tutti (sez. 2).
 11. **Performance Max**: impostazione del ridimensionamento video con IA generativa (sez. 9).
+12. **Ask Advisor** (beta, non disponibile negli account amministratore MCC): l'assistente Gemini dentro il pannello che, **su approvazione di chi chatta**, mette in pausa e rinomina campagne, cambia budget giornalieri e località, aggiorna URL finali e presenta ricorso per annunci rifiutati ([16574983](https://support.google.com/google-ads/answer/16574983?hl=en), [ppcnewsfeed 22/09/2026](https://ppcnewsfeed.com/ppc-news/2026-09/google-ask-advisor-can-now-pause-campaigns-change-budgets-and-appeal-ads/)). Su un account ereditato si chiede chi lo usa: una pausa o un budget cambiato in chat non sta in nessun verbale, si ritrova solo nella **cronologia delle modifiche**, che va letta prima di attribuire un calo alla stagionalità.
 
 ---
 

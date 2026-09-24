@@ -1,5 +1,7 @@
 # Changelog cristiano-gallinelli-persona
 
+## 24/09/2026
+- «Cosa Cristiano NON fa mai»: aggiunta la regola dalla chat Cowork del 23/09/2026 (`feedback_mai_la_parola_agenzia.md`): mai «agenzia» per descriverlo, al suo posto consulente/consulenza/esperto; keyword con «agenzia» registrate come dato e scartate come terreno. Data di verifica sul blog invariata: non è una fonte web.
 ## 20/09/2026
 
 - Aggiunta sotto l'H1 la riga «Ultima verifica sul blog: 20/09/2026» (articoli letti fino a «A corpo o a ore», 08/09/2026; prima stesura 14/03/2026).
