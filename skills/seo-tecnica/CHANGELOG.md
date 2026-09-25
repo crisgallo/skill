@@ -1,5 +1,7 @@
 # Changelog seo-tecnica
 
+## 25/09/2026
+- Data di verifica a 25 settembre 2026. Sez. 14: September 2026 spam update dal 24/09/2026 (Search Status Dashboard) e regola di lettura di un calo dal 24/09. Sez. 6: VideoObject con creator/author e interactionStatistic chiariti (documentazione 24/09/2026); filtro multimodale in Search Console (blog Search Central 24/09/2026).
 ## 23/09/2026
 - Sez. 7: pagina page experience aggiornata il 22/09/2026 con le metriche sperimentali CrUX sugli annunci (numero, densità, peso).
 

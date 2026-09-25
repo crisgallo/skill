@@ -1,5 +1,7 @@
 # Changelog trustpilot
 
+## 25/09/2026
+- Data di verifica a 25 settembre 2026. Sez. 13: Product updates del 24/09/2026 (pagine recensione per prodotto, QR Code Collector, Location Reviews e API, Review Follow-up Targeting, Search Query Data, AI Search Market Insights, Multi-Domain e Custom Roles solo Enterprise).
 ## 24/09/2026
 - Listino riletto il 24/09/2026 (plans USD, plans IT, pricing): prezzi e inviti invariati; TrustBox Enterprise da 22 a 23; aggiunta la prova gratuita di 14 giorni del piano Plus. Data di verifica in cima a 24 settembre 2026.
 ## 20/09/2026

@@ -5,12 +5,12 @@ description: "Regole operative verificate per coordinare sviluppatori e agenzie 
 
 # Sviluppo web (lato PM e marketing): regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 25 settembre 2026.**
 
 **Cosa cambia fra il 2026 e il 2028 (per chi ha ancora la checklist del 2024):**
 
 - **Certificati TLS:** massimo di settore 200 giorni dal 15/03/2026, 100 dal 15/03/2027, 47 dal 15/03/2029; Let's Encrypt passa a 64 giorni dal 10/02/2027 e a 45 dal 16/02/2028, e **dal 04/06/2025 non manda più email di scadenza** (sez. 4).
-- **PHP 8.2 esce dal supporto di sicurezza il 31/12/2026; 8.4 esce dal supporto attivo lo stesso giorno.** PHP 8.6 è in beta (RC 1 prevista il 24/09/2026) (sez. 5).
+- **PHP 8.2 esce dal supporto di sicurezza il 31/12/2026; 8.4 esce dal supporto attivo lo stesso giorno.** PHP 8.6 è in release candidate (RC 2 dal 24/09/2026) (sez. 5). Il 24/09/2026 sono uscite le patch di sicurezza **8.2.34, 8.3.35 e 8.5.11**: vanno nel prossimo giro di manutenzione.
 - **WordPress 7.0 (20/05/2026)** ha tolto PHP 7.2 e 7.3; **WooCommerce 10.8+** richiede PHP 8.3 e propone PHP 8.1 minimo dalla 11.5 (gennaio 2027) (sez. 5).
 - **Accessibilità:** EAA applicabile dal 28/06/2025 anche all'e-commerce; **Linee guida AgID sull'accessibilità dei servizi pubblicate a marzo 2026**, vigilanza AgID (sez. 8).
 
@@ -92,7 +92,7 @@ Le quattro domande da fare e da mettere nel contratto:
 | 8.4 | 21/11/2024 | 31/12/2026 | 31/12/2028 |
 | 8.5 | 20/11/2025 | 31/12/2027 | 31/12/2029 |
 
-PHP 8.1 e precedenti sono **end of life**: nessuna patch di sicurezza. PHP 8.6 è in beta 3 dal 10/09/2026, RC 1 prevista il 24/09/2026 ([news 2026](https://www.php.net/archive/2026.php)); GA prevista il 19/11/2026 (data da fonte terza, php.watch, non su php.net alla data di verifica).
+PHP 8.1 e precedenti sono **end of life**: nessuna patch di sicurezza. PHP 8.6 è in **RC 2 dal 24/09/2026** (la RC 1 è stata saltata per un errore di pacchettizzazione; RC 3 prevista l'08/10/2026); lo stesso giorno sono uscite le release di sicurezza **8.2.34, 8.3.35 e 8.5.11** ([news 2026](https://www.php.net/archive/2026.php)); GA prevista il 19/11/2026 (data da fonte terza, php.watch, non su php.net alla data di verifica).
 
 🔴 **Regola:** in produzione solo un branch in supporto attivo o di sicurezza; **chi propone un nuovo sito su un PHP che esce dal supporto entro 12 mesi (oggi: 8.2) propone un debito tecnico con la data sopra.** Il cambio di versione PHP si prova in staging, mai in produzione: un plugin incompatibile produce un errore 500 su tutto il sito.
 

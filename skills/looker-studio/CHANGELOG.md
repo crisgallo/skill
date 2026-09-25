@@ -1,5 +1,7 @@
 # Changelog looker-studio
 
+## 25/09/2026
+- Data di verifica a 25 settembre 2026. Sez. 1: release del 24/09/2026 (stile in blocco, PostgreSQL su IP privato, fine supporto MySQL 5.6 e 5.7 dal 26/02/2027, 13 connettori partner nuovi) dalle release notes ufficiali.
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: release notes Data Studio (rinomina Looker Studio → Data Studio del 16/04/2026, voci 01/06–13/08/2026), blog Google Cloud sulla rinomina, pagine docs.cloud.google.com su credenziali, trasferimento proprietà (20 giorni), connettori GA4 / Google Ads / Search Console / Fogli / BigQuery, troubleshooting quota GA4, campionamento GA4 in Data Studio, unione dati (how blends work, blending tips), campi calcolati, intervalli di date, filtri, parametri, freschezza e cache, auto refresh, componenti a livello di report, condivisione, embed, invio programmato, Pro (about-pro, try-pro, subscription overview, prezzo 9 USD/utente/progetto/mese dalla pagina cloud.google.com/data-studio), copia report, sostituzione origine, estrazione dati, prestazioni; Google Analytics Data API quotas e reporting data expectations; Help GA4 su riga (other), soglie, identità di reporting, compatibilità, freschezza; Help Google Ads su "Tutte le conversioni"; Help e API Search Console.

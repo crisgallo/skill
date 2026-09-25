@@ -5,7 +5,7 @@ description: "Regole operative verificate su Google Search Central per audit SEO
 
 # SEO tecnica (Google Search): regole operative
 
-**Ultima verifica delle fonti: 23 settembre 2026.**
+**Ultima verifica delle fonti: 25 settembre 2026.**
 
 ---
 
@@ -87,6 +87,9 @@ Fonte: [localized-versions](https://developers.google.com/search/docs/specialty/
 ---
 
 ## 6. Dati strutturati che Google usa nel 2026
+
+- **VideoObject, 24/09/2026**: la documentazione aggiunge le proprietà `creator` e `author` e chiarisce i tipi ammessi in `interactionStatistic` ([video](https://developers.google.com/search/docs/appearance/structured-data/video), [aggiornamenti documentazione](https://developers.google.com/search/updates)). Chi ha video di prodotto sul sito aggiorna il markup nel prossimo rilascio, non è urgente.
+- **Search Console, 24/09/2026**: le ricerche fatte con un'immagine (Lens, Cerchia e cerca, upload) hanno un filtro proprio, "Web > Multimodal", senza query ([blog Search Central](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc)). Le immagini prodotto con `alt`, nome file e dati strutturati Product diventano misurabili come canale.
 
 Fonte: [galleria](https://developers.google.com/search/docs/appearance/structured-data/search-gallery) e [intro](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data). Formato **JSON-LD**; il markup deve descrivere **contenuto visibile**; i requisiti danno **eleggibilità, non garanzia** di visualizzazione. Si valida con il **Rich Results Test** (eleggibilità Google) e si monitora nei rapporti "Miglioramenti" di Search Console; lo Schema Markup Validator controlla solo la sintassi schema.org, non l'eleggibilità.
 
@@ -180,7 +183,7 @@ Fonti: [ai-features](https://developers.google.com/search/docs/appearance/ai-fea
 
 Fonte: [core-updates](https://developers.google.com/search/docs/appearance/core-updates), [Search Status Dashboard](https://status.search.google.com/summary).
 
-1. Si prende la data del calo e si confronta con la **dashboard**: ranking update recenti: **December 2025 core** (11/12/2025, 18 giorni), **February 2026 Discover update** (05/02/2026, 21 giorni), **March 2026 spam** (24/03), **March 2026 core** (27/03–08/04/2026), **May 2026 core** (21/05–02/06/2026), **June 2026 spam** (24/06, 2 giorni), **August 2026 spam** (18/08, 2 giorni e 16 ore). Nessun core update fra il 02/06 e il 20/09/2026: un calo di luglio–settembre 2026 **non è un core update** e va cercato altrove (migrazione, noindex, server, stagionalità, spam update se il sito ha contenuti a rischio).
+1. Si prende la data del calo e si confronta con la **dashboard**: ranking update recenti: **December 2025 core** (11/12/2025, 18 giorni), **February 2026 Discover update** (05/02/2026, 21 giorni), **March 2026 spam** (24/03), **March 2026 core** (27/03–08/04/2026), **May 2026 core** (21/05–02/06/2026), **June 2026 spam** (24/06, 2 giorni), **August 2026 spam** (18/08, 2 giorni e 16 ore), **September 2026 spam** (dal 24/09/2026 ore 09:15 PDT, globale, tutte le lingue, "fino a due settimane"; [incidente](https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu)). Nessun core update fra il 02/06 e il 25/09/2026: un calo di luglio–settembre 2026 **non è un core update** e va cercato altrove (migrazione, noindex, server, stagionalità); un calo **dal 24/09/2026** si confronta prima con lo spam update, che colpisce solo chi viola le policy spam.
 2. Si analizza **almeno una settimana intera dopo la fine del rollout**, confrontando "questa settimana con una settimana prima dell'inizio del rollout" (Rendimento → confronto di periodo; query e pagine, non solo totale).
 3. Non esiste un fix: si rilegge il sito con le domande di [creating-helpful-content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content). "Alcune modifiche hanno effetto in pochi giorni, ma possono servire diversi mesi", e il recupero può richiedere **il core update successivo**. Un piccolo calo di posizione non richiede "azioni drastiche".
 4. Prima di dire "core update" si escludono i cali tecnici: si guarda Indicizzazione delle pagine e Statistiche di scansione nello stesso periodo. Un calo che parte il giorno di un deploy è un deploy.

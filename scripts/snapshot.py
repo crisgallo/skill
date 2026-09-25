@@ -86,7 +86,9 @@ def run(mode):
     m=urls_per_skill()
     old=json.load(open(STATE)) if os.path.exists(STATE) else {"urls":{}, "locali":{}}
     today=date.today().isoformat()
-    new={"created":old.get("created",today),"updated":today,"locali":old.get("locali",{}),"urls":{}}
+    # le chiavi diverse da urls (locali, chat, drive, ...) restano come sono: le scrivono altri passi della routine
+    new={k:v for k,v in old.items() if k!="urls"}
+    new.update({"created":old.get("created",today),"updated":today,"locali":old.get("locali",{}),"urls":{}})
     changed=[]; unreadable=[]
     with cf.ThreadPoolExecutor(12) as ex:
         for u,code,h in ex.map(fetch, sorted(m)):

@@ -5,7 +5,7 @@ description: "Regole operative verificate per costruire e mantenere report mensi
 
 # Looker Studio (Data Studio): regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 25 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -18,6 +18,8 @@ description: "Regole operative verificate per costruire e mantenere report mensi
 ---
 
 ## 1. Il nome è cambiato: Looker Studio è Data Studio (dal 16/04/2026)
+
+- **Release del 24/09/2026** ([release notes](https://docs.cloud.google.com/data-studio/release-notes)): **stile in blocco** (si formattano insieme tutte le serie, dimensioni o metriche di un grafico, il singolo elemento sovrascrive il gruppo); PostgreSQL raggiungibile su **IP privato**; 🔴 **MySQL 5.6 e 5.7 non più supportati dal 26/02/2027**: le origini dati su quelle versioni smettono di caricare; 13 connettori partner nuovi, fra cui "Facebook Ads Analytics" (partner, non Meta: per i dati Meta resta il connettore terzo a pagamento di sez. 2).
 
 - **Annuncio 10/04/2026, in produzione dal 16/04/2026**: "We've rebranded Looker Studio as Data Studio". Looker Studio Pro diventa **Data Studio Pro**; "Gemini in Looker" diventa "Gemini in Data Studio". Report, origini dati e permessi restano identici, gli URL `lookerstudio.google.com` continuano a funzionare ([release notes 16/04/2026](https://docs.cloud.google.com/data-studio/release-notes), [blog Google Cloud](https://cloud.google.com/blog/products/data-analytics/looker-studio-is-data-studio)).
 - Conseguenza operativa: nelle offerte e nei report al cliente si scrive **"Data Studio (ex Looker Studio)"** almeno fino a fine 2026, perché il cliente conosce il nome vecchio. Looker (senza Studio) è un altro prodotto, a pagamento, con modello semantico LookML: non si confondono nei preventivi.

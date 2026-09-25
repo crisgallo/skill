@@ -5,7 +5,7 @@ description: "Regole operative verificate per aprire, alimentare e tenere pulito
 
 # Google Merchant Center: regole operative
 
-**Ultima verifica delle fonti: 21 settembre 2026.**
+**Ultima verifica delle fonti: 25 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -151,7 +151,7 @@ Le etichette `custom_label` sono l'unica leva pulita per separare margine, stagi
 
 ## 12. Norme che colpiscono gli shop italiani
 
-- **Consolidamento norme:** annuncio del 15/07/2026, in vigore da settembre 2026: norme Shopping ads e schede gratuite in un solo set, con indicazione di quali valgono solo per gli annunci; **nessun cambiamento sostanziale** ([annunci](https://support.google.com/merchants/announcements/6192467?hl=en), [6149970](https://support.google.com/merchants/answer/6149970?hl=en)).
+- **Consolidamento norme:** annuncio del 15/07/2026; **pagina unificata online, vista il 25/09/2026**: "Google's Shopping ads and listings policies", stesse sezioni per annunci e schede gratuite (contenuti vietati, pratiche vietate, contenuti con restrizioni, requisiti del sito) con l'etichetta "solo Shopping ads" su contenuti politici e protezioni per minori; **nessun cambiamento sostanziale** nelle regole ([annunci](https://support.google.com/merchants/announcements/6192467?hl=en), [6149970](https://support.google.com/merchants/answer/6149970?hl=en)).
 - **Promozioni:** da gennaio 2026 ammessi sconti sugli abbonamenti (`redemption_restriction: subscribe_and_save`) e abbreviazioni come BOGO ([16796881](https://support.google.com/merchants/answer/16796881?hl=en)); le promozioni disapprovate pesano sulla Qualità del negozio (sez. 7). Per l'Italia il prezzo barrato deve rispettare il prezzo più basso dei 30 giorni precedenti (Codice del consumo, art. 17-bis): un barrato gonfiato è insieme mismatch e Misrepresentation.
 - **Salute e farmaci:** farmaci con ricetta ammessi solo US/CA; OTC fuori dagli USA solo per farmacie certificate (LegitScript, poi domanda a Google, 5 giorni lavorativi); integratori non approvati vietati; per l'Italia vietati esplicitamente aborto e pillola del giorno dopo; **claim terapeutici su integratori e cosmetici = Misrepresentation** ([6150151](https://support.google.com/merchants/answer/6150151?hl=en)). Il catalogo "benessere" italiano va letto riga per riga.
 - **Alcol:** Italia fra i paesi **ammessi con limitazioni**; niente minori, niente claim su prestazioni o salute, niente consumo con veicoli; nessuna certificazione richiesta ([12077694](https://support.google.com/merchants/answer/12077694?hl=en)). Le enoteche passano, i testi "vino che fa bene al cuore" no.

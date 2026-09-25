@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 25/09/2026
+- Data di verifica a 25 settembre 2026. Sez. 5: "Investment strategy" nei Consigli, modalità Holistic e Growth, previsione a 7 giorni, regola di non applicare in blocco (16604266, pagina aggiornata al 24/09/2026); nota sull'avviso di calo del valore di conversione (seroundtable 24/09, non ufficiale).
 ## 24/09/2026
 - Data di verifica in cima a 24 settembre 2026; sez. 0 punto 6 con i cambi del 23/09/2026.
 - Sez. 1: blocco "Dal 23/09/2026, come si legge e si testa AI Max": vista "Termini di ricerca e combinazioni di annunci", righe di totale AI Max nel rapporto keyword, filtro AI Max che sottostima (16470459); AI Brief in beta chiusa anche in italiano (blog.google 23/09/2026); esperimenti AI Max contro DSA, limiti 100% DSA e campagne miste (2471185).

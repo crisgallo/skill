@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 24 settembre 2026.**
+**Ultima verifica delle fonti: 25 settembre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -89,6 +89,7 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 - **Tagging automatico attivo** (Amministrazione → Impostazioni account → Tagging automatico). Con quello acceso, il `gclid` porta in GA4 campagna, gruppo e parola chiave.
 - ⚠️ **Non si stratificano UTM manuali sugli URL di Google Ads.** Non perché rompano qualcosa: la guida ufficiale dice che **il tagging automatico ha la priorità sul tagging manuale** e gli UTM non bloccano l'importazione delle conversioni ([3095550](https://support.google.com/google-ads/answer/3095550?hl=en)). Il motivo è che non aggiungono niente al `gclid` e creano due nomenclature da riconciliare. Basta **nominare bene la campagna**. Gli UTM servono solo per strumenti che non leggono il `gclid`.
 - **Applicazione automatica dei consigli: disattivata** ([10279006](https://support.google.com/google-ads/answer/10279006?hl=en)). Con quella accesa Google modifica keyword, budget e asset da solo, e ci si ritrova con modifiche che nessuno ha deciso.
+- ⚠️ **"Investment strategy" nei Consigli** (scheda propria, pagina Help aggiornata al 24/09/2026, [16604266](https://support.google.com/google-ads/answer/16604266?hl=en)): strumento a livello di account che propone come spostare budget fra campagne, in due modalità. **Holistic** (quella consigliata da Google) **toglie budget alle campagne "meno efficienti"** e lo sposta sulle migliori, aggiungendo anche spesa settimanale; **Growth** aggiunge budget alle campagne limitate senza togliere niente. Compare quando almeno una campagna è limitata dal budget o "potrebbe ottenere molte più conversioni" a CPA o ROAS favorevole; le stime sono una **previsione a 7 giorni**; si applica con "Apply all". Su un account cliente si legge come una proposta di aumento di spesa: si guarda campagna per campagna, mai "Apply all", e la modalità Holistic non si accetta senza sapere quale campagna perde budget. Terze parti (seroundtable 24/09/2026, non ufficiale) segnalano anche un avviso di "calo del valore di conversione" quando si abbassa un budget: è un'indicazione di Google, non un dato.
 - ⚠️ **Esperimenti: da aprile 2026 l'applicazione automatica dei risultati è attiva di default.** La regola sopra non la copre: si controlla **su ogni esperimento** creato ([ppcnewsfeed](https://ppcnewsfeed.com/ppc-news/2026-04/auto-apply-option-added-experiments/); Search Engine Land 473266 non leggibile, 403).
 - Collegamento con **GA4** attivo: serve per importare i pubblici e per leggere i **percorsi di conversione** invece del solo ultimo clic.
 

@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Trustpilot su un e-commerc
 
 # Trustpilot: regole operative
 
-**Ultima verifica delle fonti: 24 settembre 2026.**
+**Ultima verifica delle fonti: 25 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -173,6 +173,8 @@ Fonte: [Legal Brand Guidelines v3.0, settembre 2026](https://corporate.trustpilo
 ---
 
 ## 13. Cosa è cambiato fra giugno e settembre 2026
+
+- **24/09/2026, Product updates September 2026** ([post](https://business.trustpilot.com/blog/releases-and-updates/product-updates-september-2026)): pagine pubbliche di **recensione per prodotto** (Trustpilot dichiara +1.548% di citazioni AI in una settimana su 418 aziende in beta: numero suo, non verificabile); **QR Code Review Collector** (già nei piani, sez. 1); **Location Reviews** con caricamento in blocco e **Location Reviews API** (add-on API); **Review Follow-up Targeting** (sondaggio automatico dopo parole chiave nella recensione); **Search Query Data** (cosa cercano i visitatori del profilo); **AI Search Market Insights** (quante volte ChatGPT, Claude e Perplexity citano il profilo rispetto ai concorrenti); **Multi-Domain Management e Custom Roles** solo Enterprise. Per un e-commerce italiano le due cose che cambiano il report mensile sono le pagine prodotto (rich snippet, sez. 8) e il dato sulle citazioni AI; il resto non si promette al cliente senza sapere su quale piano è.
 
 - **Giugno 2026**: Guidelines for Businesses **v7.2** ([jun-2026](https://corporate.trustpilot.com/legal/for-businesses/guidelines-for-businesses/jun-2026)) e Guidelines for Reviewers aggiornate; **Terms of Use and Sale v9.0 dal 23/06/2026** (rinnovo automatico, disdetta 30 giorni, recensioni permanenti). Diff rispetto alla v7.1: non pubblicato, [DA VERIFICARE].
 - **29/06 e 10/07/2026**: **nuova app Shopify** con Theme Editor nativo; configurazioni della legacy non migrano (sez. 4).

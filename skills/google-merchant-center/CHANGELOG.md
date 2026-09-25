@@ -1,5 +1,7 @@
 # Changelog google-merchant-center
 
+## 25/09/2026
+- Data di verifica a 25 settembre 2026. Sez. 12: la pagina delle norme Shopping unificate (annunci e schede gratuite) è online, vista il 25/09/2026, con le voci "solo Shopping ads" (6149970); le pagine Misrepresentation, abuso della rete, alcolici e salute sono rientrate nella stessa struttura senza cambi di regola.
 ## 21/09/2026
 - Sez. 3: Termini di servizio letti sulla pagina ufficiale italiana (merchants.google.com/mc/termsofservice/merchant_center/IT/latest): "Ultima modifica: 1 June 2026"; il 15/06/2026 delle fonti terze resta come data di accettazione per uso continuato. Aggiunta la clausola sull'accesso e indicizzazione delle email di marketing; l'opt-out non è nei Termini. Aggiornate sez. 14 e 16 di conseguenza. Data in cima riscritta.
 - Non verificato: dove sta l'opt-out nel pannello.
