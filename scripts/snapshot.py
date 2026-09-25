@@ -41,13 +41,21 @@ def urls_per_skill():
             m.setdefault(u,set()).add(name)
     return m
 
+BREVO_RE=re.compile(r"https://help\.brevo\.com/hc/[a-z-]+/articles/(\d+)")
+
 def fetch(u):
     ctx=ssl.create_default_context(cafile=CA if os.path.exists(CA) else None)
-    req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0 (skill-snapshot)","Accept-Language":"en-US,en;q=0.9"})
+    # help.brevo.com risponde 403 alle pagine HTML: si legge il corpo dall'API Zendesk (stesso contenuto).
+    m=BREVO_RE.match(u)
+    url=f"https://help.brevo.com/api/v2/help_center/en-us/articles/{m.group(1)}.json" if m else u
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (skill-snapshot)","Accept-Language":"en-US,en;q=0.9"})
     try:
         with urllib.request.urlopen(req,timeout=25,context=ctx) as r:
             body=r.read(2_000_000).decode(r.headers.get_content_charset() or "utf-8","replace")
             code=r.status
+            if m:
+                try: body=json.loads(body)["article"]["body"]
+                except Exception: return u,"ERR",None
     except urllib.error.HTTPError as e:
         return u,e.code,None
     except Exception as e:

@@ -28,7 +28,7 @@ Regola che vale per tutte le skill: le sezioni marcate **✅ VERIFICATO** con un
 | meta-pixel-capi | Pixel e Conversions API | 2-3 mesi |
 | looker-studio | Report per clienti (Data Studio dal 04/2026) | 2-3 mesi |
 | google-merchant-center | Feed, disapprovazioni, Shopping | 2-3 mesi |
-| brevo | Newsletter, automazioni, deliverability | 2-3 mesi |
+| brevo | Newsletter, automazioni, CRM (deal, pipeline, punteggi), deliverability; approfondimenti in references/ | 2-3 mesi |
 | trustpilot | Recensioni, TrustScore, Seller Ratings | 2-3 mesi |
 | wordpress-woocommerce | Manutenzione, SEO, tracking, WooCommerce | 2-3 mesi |
 | prestashop | Versioni, SEO, tracking, feed | 2-3 mesi |
