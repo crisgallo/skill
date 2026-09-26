@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 26/09/2026
+- 🟡 `references/automazioni.md`, sez. 8: l'articolo «Review your automation statistics» (22724507709714) è stato riscritto da Brevo il 25/09/2026 in tre viste (Quick statistics, Overview, Full report); aggiornati nomi delle voci del pannello laterale (*Finished*, *Removed*, *Active* al posto di *Contacts in progress*) e data della fonte. Numeri e regole invariati. Le altre 74 fonti Brevo rilette senza cambi.
+
 ## 25/09/2026
 - Richiesta di Cristiano (chat del 25/09): profondità da esperto su newsletter, automazioni e CRM. Letti 62 articoli di help.brevo.com via API Zendesk (date di aggiornamento 02/2026-24/09/2026).
 - Nuovi `references/newsletter.md` (liste e segmenti, condizioni, destinatari, mittente e impostazioni, Brevo Template Language, content visibility, blocco dinamico, programmazione e Send in batches, Send to new contacts, report scheda per scheda con formule MPP, igiene lista, ordine di controllo), `references/automazioni.md` (editor nuovo, stati, quote, tutti i trigger/azioni/regole con piani, ingresso/uscita, test, statistiche, log, dieci ricette, ordine di controllo), `references/crm.md` (pacchetti Sales e seat, oggetti e associazioni, attributi, pipeline e pipeline pesata, deal e import, report, punteggi SCORE_ e predittivi, formule, Meetings e Conversations, ordine di controllo).

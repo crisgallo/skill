@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 23 settembre 2026.**
+**Ultima verifica delle fonti: 26 settembre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -31,7 +31,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 - Settembre 2026: policy v1.6, rifiuto discrezionale per conflitto con interessi commerciali di OpenAI.
 - ~17/09/2026: Basics e Overview aggiornati: piano **«Go»** (non «Standard»); personalizzazione con segnali dall'esperienza ChatGPT, **non in EEA/CH**.
 - 19-20/09/2026: Billing aggiornata: importo del blocco carta mostrato nel setup; saldo residuo addebitato a fine mese; pausa efficace entro 24 ore.
-- Pagina Campaigns: tabella **«Minimum Campaign Spend» con EUR 15 €/giorno**; account nuovi limitati al paese di casa; 56 paesi self-serve; multi-account ammesso (tetto 10); Bid Cap oCPC = offerta CPA.
+- Pagina Campaigns: tabella **«Minimum Campaign Spend» con EUR 15 €/giorno**; account nuovi limitati al paese di casa; 56 paesi self-serve al 20/09, «più di 60» dal 24/09 (§2); multi-account ammesso (tetto 10); Bid Cap oCPC = offerta CPA.
 
 ## 1. Che cos'è e chi la vede
 
@@ -47,7 +47,7 @@ La selezione usa **contesto e intento della conversazione in corso**, la pagina 
 
 ## 2. Account
 
-✅ **Italia inclusa nel self-serve** (**56** paesi e regioni al 20/09/2026, erano 54 al 12/09). ⚠️ La lista dice dove può stare l'inserzionista, **non dove vengono servite le inserzioni** (§1). https://help.openai.com/en/articles/20001245-ads-manager-availability
+✅ **Italia inclusa nel self-serve** (**56** paesi e regioni al 20/09/2026, erano 54 al 12/09; dal 24/09/2026 OpenAI annuncia sette mercati asiatici in più, Indonesia, Malesia, Filippine, Singapore, Thailandia, Vietnam e Taiwan, e «più di 60 paesi»: l'annuncio su openai.com e la pagina Availability rispondono 403 al controllo del 26/09/2026, conteggio ripreso da [Marketing-Interactive, 24/09/2026](https://www.marketing-interactive.com/chatgpt-ads-makes-its-southeast-asia-debut) (terzi), `[DA VERIFICARE]` sul pannello). ⚠️ La lista dice dove può stare l'inserzionista, **non dove vengono servite le inserzioni** (§1). https://help.openai.com/en/articles/20001245-ads-manager-availability
 
 Apertura: dati aziendali, flusso di **verifica di identità o aziendale** con coda di revisione, poi Impostazioni. Il nome del fornitore «Persona» non trovato in nessuna fonte al 20/09/2026, da verificare sul pannello. Le campagne **possono non essere servite finché setup obbligatorio e revisione non sono completi**; nome brand e icona identificano l'inserzionista nelle inserzioni (la formula «senza nome e logo non si serve» non compare verbatim nelle fonti al 20/09/2026). ⛔ **Paese, valuta e fuso orario non si cambiano più.**
 
@@ -172,7 +172,7 @@ Il parametro di clic è **`oppref`**, appeso alla destinazione; il pixel lo mett
 
 ## 9. Report
 
-Impression, clic, spesa, CTR, CPC medio, CPM medio, conversioni, per campagna, gruppo e inserzione, con esportazione CSV cumulativa o giornaliera. **Segmentazioni: dispositivo, paese e piattaforma** (20/09/2026); ⚠️ via API il segmento platform non supporta le conversioni. Nuove colonne: eventi singoli, Order Created Sales e Order Created ROAS (solo da `order_created`), Click-through e View-through separate, «Conversions (by conv. time)». https://help.openai.com/en/articles/20001214-measure-results · https://developers.openai.com/ads/api-reference/insights
+Impression, clic, spesa, CTR, CPC medio, CPM medio, conversioni, per campagna, gruppo e inserzione, con esportazione CSV cumulativa o giornaliera. **Segmentazioni: dispositivo, paese e piattaforma** (20/09/2026); ⚠️ via API il segmento platform non supporta le conversioni. Via API Insights (26/09/2026): al massimo **2.000 righe** per richiesta, oltre arriva un **413** senza risultati parziali (si spezza il periodo o la lista di entità); fino a **365 giorni** per richiesta entro gli ultimi 5 anni; granularità oraria, giornaliera, mensile o totale; il breakdown platform distingue `web` (storico aggregato) da `android_web`, `desktop_web` e `ios_web` (https://developers.openai.com/ads/api-reference/insights). Nuove colonne: eventi singoli, Order Created Sales e Order Created ROAS (solo da `order_created`), Click-through e View-through separate, «Conversions (by conv. time)». https://help.openai.com/en/articles/20001214-measure-results · https://developers.openai.com/ads/api-reference/insights
 
 🔴 **Ritardi da non scambiare per guasti:** clic e CTR rapidi, **spesa fino a 7 ore**, **conversioni 24-48 ore**, e prima di segnalare un problema di consegna si aspettano **24 ore dal lancio**.
 

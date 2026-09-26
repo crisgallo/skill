@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 25 settembre 2026.**
+**Ultima verifica delle fonti: 26 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 

@@ -1,5 +1,7 @@
 # Changelog google-merchant-center
 
+## 26/09/2026
+- 🟡 Sez. 3, avviso prima della sospensione: le pagine Abuso della rete (6150118), Misrepresentation (6150127) e Alcol (12077694) sono cambiate il 26/09/2026 e ora dicono «7 or 28 calendar days to fix your issue»; la regola resta «almeno 7 giorni», aggiunta la precisazione. Rilette anche le terze parti sui nuovi Termini (Lemon Web, Searchen): nulla di nuovo rispetto alla sez. 3.
 ## 25/09/2026
 - Data di verifica a 25 settembre 2026. Sez. 12: la pagina delle norme Shopping unificate (annunci e schede gratuite) è online, vista il 25/09/2026, con le voci "solo Shopping ads" (6149970); le pagine Misrepresentation, abuso della rete, alcolici e salute sono rientrate nella stessa struttura senza cambi di regola.
 ## 21/09/2026

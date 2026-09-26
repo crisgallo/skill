@@ -1,5 +1,8 @@
 # Changelog cristiano-gallinelli-persona
 
+## 26/09/2026
+- 🔴 «Cosa Cristiano NON fa mai»: aggiunta la regola di scrittura dalle chat Cowork (`feedback_no_doppio_trattino.md` del 05/08/2026, confermata il 25/09/2026, e `feedback_testi_a_nome_di_cris_regole_prima.md` del 25/09/2026): niente trattino lungo o medio, al massimo un due punti per paragrafo, niente punto e virgola come colla, niente «·», «|», «//» come separatori, niente frasi che cominciano con «E»/«È», accenti veri, titoli di ruolo copiati da LinkedIn, con il controllo di uscita prima di consegnare. Caso: CV e lettera del 25/09/2026 bocciati. Le fonti web e la data «Ultima verifica sul blog» non cambiano.
+
 ## 24/09/2026
 - «Cosa Cristiano NON fa mai»: aggiunta la regola dalla chat Cowork del 23/09/2026 (`feedback_mai_la_parola_agenzia.md`): mai «agenzia» per descriverlo, al suo posto consulente/consulenza/esperto; keyword con «agenzia» registrate come dato e scartate come terreno. Data di verifica sul blog invariata: non è una fonte web.
 ## 20/09/2026

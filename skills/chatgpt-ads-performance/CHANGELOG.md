@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 26/09/2026
+- 🟡 Sez. 2 e sez. 0: dal 24/09/2026 ChatGPT Ads è in sette mercati asiatici in più e «più di 60 paesi» (annuncio OpenAI non leggibile, 403; conteggio da Marketing-Interactive, terzi, `[DA VERIFICARE]`). Sez. 9: limiti dell'API Insights (2.000 righe, 413, 365 giorni, granularità, valori platform) dalla pagina developers.openai.com cambiata il 26/09/2026. Nessuna regola operativa per l'Italia cambia.
 ## 23/09/2026
 - Sez. 6: piattaforme confermate dalla pagina platform-targeting (cinque più `web` legacy; omesso = nessuna restrizione); chiusa la discrepanza segnalata il 22/09.
 - Sez. 4: oCPC con un solo evento standard attivo, niente custom come obiettivo, obiettivo ed evento immutabili dopo la creazione (conversion-optimized-campaigns).
