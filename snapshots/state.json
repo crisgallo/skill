@@ -198,67 +198,23 @@
    }
   }
  },
- "pendenti": {
-  "brevo": {
-   "dal": "2026-09-26",
-   "livello": "minore",
-   "voci": [
-    "🟡 references/automazioni.md sez. 8: articolo «Review your automation statistics» riscritto da Brevo il 25/09/2026 in tre viste; nomi delle voci aggiornati (Finished, Removed, Active). Numeri invariati."
-   ]
-  },
-  "google-merchant-center": {
-   "dal": "2026-09-26",
-   "livello": "minore",
-   "voci": [
-    "🟡 Sez. 3: le pagine delle norme ora dicono «7 or 28 calendar days to fix your issue»; la regola «almeno 7 giorni» resta, aggiunta la precisazione.",
-    "🟡 Sez. 1: le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno; preorder/backorder compatibili con in_stock (3246284). Sez. 8: origini «inventario online» deprecate a favore delle supplementari (14990942). Troubleshooter prezzi 14280358 letto (finestra di 48 ore del feed)."
-   ]
-  },
-  "chatgpt-ads-performance": {
-   "dal": "2026-09-26",
-   "livello": "minore",
-   "voci": [
-    "🟡 Sez. 2: dal 24/09/2026 sette mercati asiatici in più, «più di 60 paesi» (fonte terza, DA VERIFICARE). Sez. 9: limiti dell'API Insights (2.000 righe, 413, 365 giorni)."
-   ]
-  },
-  "wordpress-woocommerce": {
-   "dal": "2026-09-28",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 2: WordPress 7.1.2 del 22/09/2026, release di sicurezza di gravità critica (inclusione di file PHP locale nella risoluzione dei template, CVE-2026-87902), backport fino alla 4.7, auto-update in background: su ogni sito cliente si controlla la versione 7.1.2 o successiva.",
-    "🟡 Fonti: pagina GTM 14842164 ora letta (un container per sito, nome = URL principale)."
-   ]
-  },
-  "ga4-performance": {
-   "dal": "2026-09-28",
-   "livello": "minore",
-   "voci": [
-    "🟡 Sez. 8, limiti: 10 dimensioni a livello articolo, 5 metriche calcolate, 24-48 ore prima di usare una definizione nuova, 48 ore di attesa dopo una cancellazione al limite (pagina 14240153)."
-   ]
-  },
-  "gtm-server-side": {
-   "dal": "2026-09-28",
-   "livello": "minore",
-   "voci": [
-    "🟡 Sez. 1: «un solo tag Google» ora cita la frase esatta di Google (13543899) e i 30 minuti prima che la raccolta dati parta (15756616)."
-   ]
-  }
- },
+ "pendenti": {},
  "ultima_mail": {
-  "brevo": "2026-09-25",
+  "brevo": "2026-09-28",
   "google-search-console": "2026-09-25",
   "seo-tecnica": "2026-09-25",
   "google-ads-performance": "2026-09-25",
   "looker-studio": "2026-09-25",
   "trustpilot": "2026-09-25",
-  "google-merchant-center": "2026-09-25",
+  "google-merchant-center": "2026-09-28",
   "sviluppo-web": "2026-09-25",
   "cristiano-gallinelli-persona": "2026-09-26",
-  "chatgpt-ads-performance": "2026-09-23",
-  "ga4-performance": "2026-09-23",
+  "chatgpt-ads-performance": "2026-09-28",
+  "ga4-performance": "2026-09-28",
   "linkedin-ads": "2026-09-23",
-  "wordpress-woocommerce": "2026-09-23",
-  "meta-ads-performance": "2026-09-23"
+  "wordpress-woocommerce": "2026-09-28",
+  "meta-ads-performance": "2026-09-23",
+  "gtm-server-side": "2026-09-28"
  },
  "urls": {
   "https://about.ads.microsoft.com/en-us/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier": {
