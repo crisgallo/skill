@@ -1,5 +1,7 @@
 # Changelog google-merchant-center
 
+## 28/09/2026
+- 🟡 Sez. 1: le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno, preorder/backorder compatibili con in_stock (3246284). Sez. 8: origini «inventario online» deprecate a favore delle supplementari (14990942). Fonti: troubleshooter prezzi 14280358 finalmente letto (albero interattivo, finestra di 48 ore del feed). Rilette senza cambi 12153802, 12159029, 12476548, 6069143, 6098334. Data di verifica al 28/09.
 ## 26/09/2026
 - 🟡 Sez. 3, avviso prima della sospensione: le pagine Abuso della rete (6150118), Misrepresentation (6150127) e Alcol (12077694) sono cambiate il 26/09/2026 e ora dicono «7 or 28 calendar days to fix your issue»; la regola resta «almeno 7 giorni», aggiunta la precisazione. Rilette anche le terze parti sui nuovi Termini (Lemon Web, Searchen): nulla di nuovo rispetto alla sez. 3.
 ## 25/09/2026

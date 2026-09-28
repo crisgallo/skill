@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, controllare e riparare il
 
 # Google Tag Manager, web e server-side: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 28 settembre 2026.**
 
 ---
 
@@ -23,7 +23,7 @@ description: "Regole operative verificate per montare, controllare e riparare il
 
 **Ogni ID di misurazione (G-, AW-, Pixel Meta) deve essere inizializzato una sola volta per pagina, da un solo posto.** Se lo stesso `G-XXXX` è nel tema, in un plugin (Site Kit, plugin WooCommerce/Shopify) e nel container GTM, ogni evento arriva doppio e nessun report lo dice: sessioni gonfie, tassi di conversione dimezzati, `purchase` doppie. È il primo controllo su ogni sito ereditato, prima di aprire il container ([Tag Diagnostics (14681508)](https://support.google.com/tagmanager/answer/14681508?hl=en) segnala le installazioni multiple; la verifica manuale è cercare `G-` e `gtag(` nel sorgente e nelle richieste di rete).
 
-- **Un solo tag Google per container**, con attivatore **Initialization - All Pages** ([15756616](https://support.google.com/tagmanager/answer/15756616?hl=en)). I tag evento GA4 riusano il Measurement ID e ereditano le impostazioni dal tag Google ([13543899](https://support.google.com/tagmanager/answer/13543899?hl=en)).
+- **Un solo tag Google per sito, quindi uno per container** («a single Google tag across your entire website», [13543899](https://support.google.com/tagmanager/answer/13543899?hl=en)), con attivatore **Initialization - All Pages**; la raccolta dati parte entro **30 minuti** dalla pubblicazione ([15756616](https://support.google.com/tagmanager/answer/15756616?hl=en), riletta il 28/09/2026). I tag evento GA4 riusano il Measurement ID e ereditano le impostazioni dal tag Google ([13543899](https://support.google.com/tagmanager/answer/13543899?hl=en)).
 - **Il Measurement ID sta in una variabile Costante**, e tutti i tag la referenziano. Non si scrive l'ID a mano in ogni tag e non si usa una tabella di ricerca sull'hostname che, su un dominio non previsto (staging, dominio di test del cliente), restituisce `undefined` e manda i dati nel vuoto senza errore.
 - 🔴 **Dal 09/07/2026 il prefisso dell'ID decide cosa può fare il container.** Un container caricato con `GTM-XXXX` esegue tutto; caricato con `G-XXXX` o `AW-XXXX` esegue **solo tag e variabili forniti da Google** (niente HTML personalizzato, niente Meta Pixel). Chi ha installato lo snippet con un percorso non standard o un ID prodotto se lo trova "ristretto" ([Release notes 09/07/2026](https://support.google.com/tagmanager/answer/4620708?hl=en), [17070049](https://support.google.com/tagmanager/answer/17070049?hl=en)).
 

@@ -1,5 +1,7 @@
 # Changelog gtm-server-side
 
+## 28/09/2026
+- 🟡 Sez. 1: la regola «un solo tag Google» ora cita la frase esatta di Google (13543899, un solo tag Google per tutto il sito) e i 30 minuti prima che la raccolta dati parta (15756616). Rilette senza cambi 6107056 (Anteprima), 10718549 (consenso), 13034206, 7201382 (DebugView), annunci GTM. Data di verifica al 28/09.
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: release notes GTM (4620708) con le voci 01/05, 22/06, 01/07, 09/07/2026; pagina "Updates to Google tag and Google Tag Manager" del 20/08/2026 (17079602); prefisso dell'ID e restrizioni (17070049); tag Google in GTM (15756616) e annuncio (13543899); eventi GA4 in GTM (13034206); tipi di attivatore (7679319); consenso in GTM (10718549) e consent mode (9976101); Anteprima (6107056), Tag Assistant (10039345), Tag Diagnostics (14681508); aree di lavoro (7059647), versioni e approvazioni (6107163), permessi (6107011); Google tag gateway (16816376 e developers); dataLayer e e-commerce GA4 (developers); server-side: intro, dominio personalizzato, invio dati, SST fundamentals lezione 5, consent mode server, debug, Cloud Run, App Engine, setup manuale; GA4 DebugView (7201382) e Tempo reale (9271392); Meta: deduplica Pixel/CAPI, CAPI Tag per GTM server, Using the API (Test Events); Stape: pricing (/price), plan tiers, billing, custom domain, Custom Loader, Cookie Keeper, zone server, Global vs EU, Meta CAPI setup, Unique Event ID, news 21/08/2026, blog costi 04/09/2025; Garante, Linee guida cookie 10/06/2021 (9677876).

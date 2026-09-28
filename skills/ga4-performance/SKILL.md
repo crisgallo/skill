@@ -5,7 +5,7 @@ description: "Regole operative verificate per configurare, igienizzare e interro
 
 # GA4: regole operative
 
-**Ultima verifica delle fonti: 23 settembre 2026.**
+**Ultima verifica delle fonti: 28 settembre 2026.**
 
 ---
 
@@ -348,7 +348,7 @@ Una dimensione con troppi valori distinti nel periodo fa collassare la coda in u
 
 ### Limiti da non sbagliare
 
-✅ Per proprietà standard (https://support.google.com/analytics/answer/12229528, https://support.google.com/analytics/answer/9267744): **50 dimensioni personalizzate a livello evento**, **50 metriche personalizzate**, **25 dimensioni a livello utente** (cioè 25 proprietà utente); **25 parametri per evento**; nome evento e nome parametro **40 caratteri**, valore parametro 100 (`page_title` 300, `page_referrer` 420, `page_location` 1000); nome proprietà utente 24, valore 36. Altri: 100 pubblici, 50 confronti salvati, 50 segmenti salvati, esportazione 100.000 righe.
+✅ Per proprietà standard (https://support.google.com/analytics/answer/12229528, https://support.google.com/analytics/answer/9267744): **50 dimensioni personalizzate a livello evento**, **50 metriche personalizzate**, **25 dimensioni a livello utente** (cioè 25 proprietà utente), **10 dimensioni a livello articolo**, **5 metriche calcolate**; una definizione nuova si usa nei report dopo **24-48 ore** e, se si è al limite, dopo una cancellazione bisogna aspettare **48 ore** prima di crearne altre (https://support.google.com/analytics/answer/14240153, riletta il 28/09/2026); **25 parametri per evento**; nome evento e nome parametro **40 caratteri**, valore parametro 100 (`page_title` 300, `page_referrer` 420, `page_location` 1000); nome proprietà utente 24, valore 36. Altri: 100 pubblici, 50 confronti salvati, 50 segmenti salvati, esportazione 100.000 righe.
 
 ---
 

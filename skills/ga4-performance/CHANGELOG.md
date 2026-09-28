@@ -1,5 +1,7 @@
 # Changelog ga4-performance
 
+## 28/09/2026
+- 🟡 Sez. 8, limiti: aggiunti 10 dimensioni a livello articolo, 5 metriche calcolate, 24-48 ore prima di poter usare una definizione nuova e 48 ore di attesa dopo una cancellazione al limite (pagina 14240153 cambiata il 28/09/2026). Rilette senza cambi di regola le pagine 10104470, 13296662 (filtri dati, 10 per proprietà, 24-36 ore) e 7201382 (DebugView). Data di verifica al 28/09.
 ## 23/09/2026
 - Sez. 6: aggiunta la regola di Cristiano dalla chat Cowork del 19/09/2026 (Sceglinatura, `feedback_numeri_dal_pannello_non_da_ga4.md`): i numeri di spesa e risultato si leggono nel pannello che spende, GA4 solo per tendenze ed esplorazioni; le due fonti non si mescolano in una tabella. Con i numeri del caso (acquisti senza sorgente 92% e 89%, google/cpc 1 e 0 contro 120 e 93). Data di verifica delle fonti invariata: non è una fonte web.
 - Sez. 5: limiti delle Dashboard (15 schede standard, 30 su 360, ruoli Editor e Amministratore, condivisione a tutta la proprietà, niente API, segmenti e confronti) dalla pagina 17217303.
