@@ -106,7 +106,7 @@
   }
  },
  "drive": {
-  "data": "2026-09-25",
+  "data": "2026-09-27",
   "skills": {
    "sviluppo-web": {
     "drive": "42317",
@@ -138,11 +138,11 @@
    },
    "brevo": {
     "drive": "56830",
-    "commit": "726019a"
+    "commit": "7ae7cde"
    },
    "cristiano-gallinelli-persona": {
-    "drive": "45820",
-    "commit": "da8e351"
+    "drive": "47196",
+    "commit": "7ae7cde"
    },
    "meta-ads-performance": {
     "drive": "31239",
