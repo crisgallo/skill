@@ -5,7 +5,7 @@ description: "Regole operative verificate per fare audit, brief agli sviluppator
 
 # PrestaShop: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 29 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -30,7 +30,7 @@ Stato al 20/09/2026:
 | **8.2.x** | supporto esteso dal 04/07/2025: solo falle, bug critici, nuovi hook. Ultima 8.2.8 del 18/08/2026. **Finisce con l'uscita di 10.0.0** | [build 8.2.8](https://build.prestashop-project.org/news/2026/prestashop-8-2-8-security-release/) |
 | **9.0.x** | fuori manutenzione dal 23/03/2026 (uscita di 9.1.0) | [build 9.1](https://build.prestashop-project.org/news/2026/prestashop-9-1-0-available/) |
 | **9.1.x** | **ramo stabile corrente**: 9.1.5 del 18/08/2026, dichiarata ultima della linea prima di 9.2; ramo cancellato dai repository | [build 9.1.5](https://build.prestashop-project.org/news/2026/prestashop-9-1-5-security-release/), [Core Monthly 08/2026](https://build.prestashop-project.org/news/2026/core-monthly-2026-08-01-2026-08-31/) |
-| **9.2** | feature freeze 09/07/2026, Beta 1 22/07/2026, **stabile non ancora uscita**: One Page Checkout nativo, Extra Properties, "Ask AI". Mai in produzione una beta | [build 9.2 beta](https://build.prestashop-project.org/news/2026/prestashop-9-2-beta1/) |
+| **9.2** | feature freeze 09/07/2026, Beta 1 22/07/2026, **RC1 21/09/2026** («ultimo traguardo prima della stabile»; PHP 8.1-8.5; nessun percorso di aggiornamento da beta o RC, solo installazione pulita), **stabile non ancora uscita**: One Page Checkout nativo, Extra Properties, "Ask AI", integrazione Klaviyo nativa. Mai in produzione una beta o una RC | [build 9.2 beta](https://build.prestashop-project.org/news/2026/prestashop-9-2-beta1/), [build 9.2 RC1](https://build.prestashop-project.org/news/2026/prestashop-9-2-rc1/) |
 
 **Matrice PHP ufficiale** ([devdocs 9](https://devdocs.prestashop-project.org/9/basics/installation/system-requirements/), [devdocs 8](https://devdocs.prestashop-project.org/8/basics/installation/system-requirements/), [devdocs 1.7](https://devdocs.prestashop-project.org/1.7/basics/installation/system-requirements/)):
 

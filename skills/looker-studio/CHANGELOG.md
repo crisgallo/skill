@@ -1,5 +1,7 @@
 # Changelog looker-studio
 
+## 29/09/2026
+- 🔴 Sez. 10: regola di Cristiano dalla regola globale «Report e numeri per il cliente» del 28/09/2026 (`feedback_report_e_numeri.md`, promossa da Sceglinatura): report sempre mensili, confronto «prima di noi contro con noi», una fonte per numero (pannello che spende, gestionale, GA4 solo tendenze), niente dati provvisori né ROAS gonfiati, appendice sul metodo in coda. Fonti web e data di verifica invariate.
 ## 25/09/2026
 - Data di verifica a 25 settembre 2026. Sez. 1: release del 24/09/2026 (stile in blocco, PostgreSQL su IP privato, fine supporto MySQL 5.6 e 5.7 dal 26/02/2027, 13 connettori partner nuovi) dalle release notes ufficiali.
 ## 20/09/2026

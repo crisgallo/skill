@@ -1,5 +1,7 @@
 # Changelog meta-pixel-capi
 
+## 29/09/2026
+- 🔴 Sez. 1: regola di Cristiano dalla chat Cowork di Sceglinatura dell'11/08/2026 (`feedback_nessuna_campagna_prima_della_capi.md`, ritoccata il 28/09): nessuna campagna si accende prima che la CAPI sia verificata in Gestione eventi (Browser e server), ordine di lavoro igiene GA4 → Stape → Meta → Google Ads → campagne. Fonti web e data di verifica invariate.
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: developers.facebook.com (parametri CAPI, evento server con finestra event_time 7 giorni e valori di action_source, customer information parameters e regole di hashing, deduplica event_id + event_name entro 48 ore, cookie _fbp/_fbc e costruzione da fbclid, using-the-api con batch da 1.000 e test_event_code, end-to-end con freschezza 1 ora, best practices EMQ, CAPI Tag per GTM server, offline events 62 giorni, app events, CAPI Gateway, riferimento Pixel con Purchase value+currency, conversion tracking con limiti 50 caratteri e 100 conversioni personalizzate, get started, Advanced Matching, GDPR fbq consent, data processing options LDU, Graph API changelog con scadenza Marketing API v24 il 06/10/2026), Business Tools Terms, annuncio Meta for Business del 15/04/2026 (Pixel con AI, CAPI abilitata da Meta), Shopify Help (livelli di condivisione dati), WooCommerce.com (Meta for WooCommerce), Stape helpdesk e blog, Garante privacy (provvedimento 284/2026).

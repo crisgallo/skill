@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 29/09/2026
+- 🔴 Sez. 3: regola di Cristiano dalle chat Cowork del Blog (05-07/08/2026), promossa a sapere globale il 28/09/2026 (`feedback_wp_ereditare_stile_blocchi.md`): un blocco o un campo nuovo non eredita lo stile dei vicini, si copiano attributi e classi da un elemento fratello e si verifica lo stile calcolato. Fonti web e data di verifica invariate.
 ## 28/09/2026
 - 🔴 Sez. 2: WordPress 7.1.2 del 22/09/2026, release di sicurezza di gravità critica (inclusione di file PHP locale nella risoluzione dei template, CVE-2026-87902), backport fino alla 4.7, auto-update in background: su ogni sito cliente si controlla la versione 7.1.2 o successiva. Trovata il 28/09 tramite la pagina del plugin Two-Factor (0.17.0, «tested up to 7.1.2») e confermata sul post ufficiale wordpress.org/news.
 - 🟡 Fonti: pagina GTM 14842164 ora letta (un container per sito, nome = URL principale). Rilette senza cambi la doc Google Analytics for WooCommerce, il post di WordPress 7.1 e la pagina del plugin Two-Factor. Data di verifica al 28/09.

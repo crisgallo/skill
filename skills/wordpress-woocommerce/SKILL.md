@@ -56,6 +56,7 @@ Fonte: [upgrading](https://developer.wordpress.org/advanced-administration/upgra
 6. **Checklist post-intervento** su produzione: login, checkout con ordine di prova e rimborso, form principale, pagine più visitate, GTM in Anteprima, Salute del sito senza errori critici.
 
 ⚠️ **Preventivo:** l'aggiornamento di un sito fermo da anni (WordPress ≤ 6.x, PHP 7.4/8.0, WooCommerce ≤ 8) non è un intervento, è una migrazione: i plugin morti vanno sostituiti, non aggiornati. Si preventiva a giornate con staging, non a forfait.
+- 📌 **Regola di Cristiano (chat Cowork Blog del 05, 06 e 07/08/2026, promossa a sapere globale il 28/09/2026, `feedback_wp_ereditare_stile_blocchi.md`):** **un contenuto nuovo non eredita lo stile di quelli accanto**, prende il default del tema: un blocco Gutenberg creato «pulito» in una pagina esistente esce con il font del body (sul blog, TeX Gyre Schola serif in mezzo al Libre Franklin), un `<p>` nudo in un campo ACF/SCF esce senza margini se il tema li dà solo a `p.p1`. Prima di scrivere in un contenitore esistente si legge il markup di un elemento fratello dello stesso tipo e se ne replicano attributi e classi, sia nel commento del blocco (`{"fontFamily":"libre-franklin"}`, per l'editor) sia nel tag (`class="has-libre-franklin-font-family"`, per il frontend); poi si verifica sul risultato renderizzato con `getComputedStyle(el).fontFamily` su un campione di `p` e `li`, confrontato con i blocchi vecchi. Vale per font, dimensioni, colori e spaziature. Sbagliato tre volte in tre giorni («che cazzo di font ci hai messo?»).
 
 ---
 

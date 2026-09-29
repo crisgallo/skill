@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 29/09/2026
+- 🟡 Sez. 8: la pagina delle chiavi API si chiama «API Keys & MCP» (Settings > SMTP & API), riscritta da Brevo il 28/09/2026: permesso dedicato, codice a 6 cifre, chiave visibile una volta sola, email al proprietario. Nessuna regola cambia. Data di verifica al 29/09.
 ## 26/09/2026
 - 🟡 `references/automazioni.md`, sez. 8: l'articolo «Review your automation statistics» (22724507709714) è stato riscritto da Brevo il 25/09/2026 in tre viste (Quick statistics, Overview, Full report); aggiornati nomi delle voci del pannello laterale (*Finished*, *Removed*, *Active* al posto di *Contacts in progress*) e data della fonte. Numeri e regole invariati. Le altre 74 fonti Brevo rilette senza cambi.
 

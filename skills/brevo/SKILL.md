@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 26 settembre 2026.**
+**Ultima verifica delle fonti: 29 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -164,7 +164,7 @@ Fonti lette il 25/09/2026 ([4409354969746](https://help.brevo.com/hc/en-us/artic
 
 ## 11. API e limiti
 
-Limiti generali: invio email `POST /v3/smtp/email` 1.000 richieste/s; SMS transazionali 150/s; eventi e contatti 10/s (36.000/ora); tutti gli altri endpoint **100 richieste/ora**; oltre risponde 429; limiti più alti su Professional/Enterprise ([developers.brevo.com/docs/api-limits](https://developers.brevo.com/docs/api-limits)). Le chiavi API si creano dalla pagina delle chiavi con scadenza opzionale ([209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Changelog API di settembre 2026: solo endpoint loyalty (02/09: `account-info` esteso; 03/09: stati transazione rinominati `pending→draft`, `complete→completed`, campo `balance`) ([changelog](https://developers.brevo.com/changelog)).
+Le chiavi si creano da **Settings > SMTP & API > API Keys & MCP** (pagina rinominata così, riletta il 29/09/2026: solo il proprietario o chi ha il permesso «API keys», codice di verifica a 6 cifre, chiave visibile una volta sola, email al proprietario a ogni creazione o cancellazione, [209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Limiti generali: invio email `POST /v3/smtp/email` 1.000 richieste/s; SMS transazionali 150/s; eventi e contatti 10/s (36.000/ora); tutti gli altri endpoint **100 richieste/ora**; oltre risponde 429; limiti più alti su Professional/Enterprise ([developers.brevo.com/docs/api-limits](https://developers.brevo.com/docs/api-limits)). Le chiavi API si creano dalla pagina delle chiavi con scadenza opzionale ([209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Changelog API di settembre 2026: solo endpoint loyalty (02/09: `account-info` esteso; 03/09: stati transazione rinominati `pending→draft`, `complete→completed`, campo `balance`) ([changelog](https://developers.brevo.com/changelog)).
 
 ---
 

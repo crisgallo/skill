@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 29/09/2026
+- 🔴 Sez. 2 e 4: regole di Cristiano dalle chat Cowork (`feedback_piattaforme_e_campagne.md`, globale dal 28/09/2026: campagne nuove come test con ipotesi, budget, durata e soglie fissate prima, modello approvato poi duplicato, schema unico dei nomi, perimetro filtrato alla fonte; `feedback_nessuna_campagna_prima_della_capi.md`, 11/08/2026: nessuna campagna prima della CAPI verificata). Fonti web e data di verifica invariate.
 ## 23/09/2026
 - Sez. 3: aggiunta la regola di Cristiano dalla chat Cowork del 19/09/2026 (Sceglinatura, `feedback_numeri_dal_pannello_non_da_ga4.md`): spesa e risultati da Gestione inserzioni, GA4 solo per tendenze; niente tabelle miste. Data di verifica delle fonti invariata: non è una fonte web.
 

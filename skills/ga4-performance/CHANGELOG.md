@@ -1,5 +1,7 @@
 # Changelog ga4-performance
 
+## 29/09/2026
+- 🔴 Sez. 1: regola di Cristiano dalla chat Cowork del Blog dell'11/08/2026, promossa a sapere globale il 28/09/2026 (`feedback_eventi_chiave_incrociare_col_container.md`): gli eventi chiave si puliscono incrociando la lista con gli Eventi recenti e con i tag del container GTM, mai guardando solo la lista; gli eventi della misurazione avanzata non si marcano come conversione; allineamento sui tre pannelli. Fonti web e data di verifica invariate (riga estesa, la skill resta a 399 righe).
 ## 28/09/2026
 - 🟡 Sez. 8, limiti: aggiunti 10 dimensioni a livello articolo, 5 metriche calcolate, 24-48 ore prima di poter usare una definizione nuova e 48 ore di attesa dopo una cancellazione al limite (pagina 14240153 cambiata il 28/09/2026). Rilette senza cambi di regola le pagine 10104470, 13296662 (filtri dati, 10 per proprietà, 24-36 ore) e 7201382 (DebugView). Data di verifica al 28/09.
 ## 23/09/2026

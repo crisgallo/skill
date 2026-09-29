@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 29/09/2026
+- 🔴 Sez. 3 e 5: regole di Cristiano dalle chat Cowork: campagne nuove come test con ipotesi, budget, durata e soglie fissate prima, modello approvato poi duplicato, schema unico dei nomi, perimetro filtrato alla fonte (`feedback_piattaforme_e_campagne.md`, globale dal 28/09/2026); CSV dei pannelli in formato italiano dichiarato nel lettore, righe Totale tagliate, controllo di una riga nota prima di comunicare un numero (`feedback_csv_numeri_italiani.md`, 13/08/2026). Fonti web e data di verifica invariate.
 ## 25/09/2026
 - Data di verifica a 25 settembre 2026. Sez. 5: "Investment strategy" nei Consigli, modalità Holistic e Growth, previsione a 7 giorni, regola di non applicare in blocco (16604266, pagina aggiornata al 24/09/2026); nota sull'avviso di calo del valore di conversione (seroundtable 24/09, non ufficiale).
 ## 24/09/2026

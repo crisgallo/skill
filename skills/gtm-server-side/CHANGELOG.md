@@ -1,5 +1,7 @@
 # Changelog gtm-server-side
 
+## 29/09/2026
+- 🔴 Sez. 3 e 4: due regole di Cristiano dalle chat Cowork del Blog (12-16/08/2026), promosse a sapere globale il 28/09/2026: le tendine del pannello GTM non si impostano via JavaScript su righe esistenti, riga nuova nasce con «contiene», si ricarica la pagina dopo ogni salvataggio, Page Path uguale a /slug/ (`feedback_gtm_select_via_js.md`); nei test in Anteprima i clic li fa Cristiano e Claude legge il Tag Assistant, scheda Variabili per chiudere la verifica, un secondo Tag Assistant rompe la sessione (`feedback_anteprima_gtm_divisione_lavoro.md`). Fonti web e data di verifica invariate.
 ## 28/09/2026
 - 🟡 Sez. 1: la regola «un solo tag Google» ora cita la frase esatta di Google (13543899, un solo tag Google per tutto il sito) e i 30 minuti prima che la raccolta dati parta (15756616). Rilette senza cambi 6107056 (Anteprima), 10718549 (consenso), 13034206, 7201382 (DebugView), annunci GTM. Data di verifica al 28/09.
 ## 20/09/2026
