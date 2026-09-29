@@ -311,62 +311,6 @@
   }
  },
  "pendenti": {
-  "cristiano-gallinelli-persona": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 «Cosa Cristiano NON fa mai»: regola di scrittura estesa con la regola globale «La voce di Cris» del 28/09 (dove vale, periodo lungo più colpo breve e mai il telegramma, una cosa per tavola di carosello, ruoli e nomi copiati da LinkedIn, agenzia vietata anche come web agency o studio, controllo di uscita)."
-   ]
-  },
-  "gtm-server-side": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 3 e 4: tendine del pannello GTM non impostabili via JavaScript su righe esistenti, riga nuova nasce con «contiene», ricaricare la pagina dopo ogni salvataggio, Page Path uguale a /slug/; nei test in Anteprima i clic li fa Cristiano e Claude legge il Tag Assistant (scheda Variabili chiude la verifica, un secondo Tag Assistant rompe la sessione)."
-   ]
-  },
-  "ga4-performance": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 1: gli eventi chiave si puliscono incrociando la lista con gli Eventi recenti e con i tag del container GTM; gli eventi della misurazione avanzata non si marcano come conversione; allineamento GA4, Google Ads, Meta."
-   ]
-  },
-  "wordpress-woocommerce": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 3: un blocco o un campo nuovo non eredita lo stile dei vicini: si copiano attributi e classi da un elemento fratello e si verifica lo stile calcolato."
-   ]
-  },
-  "meta-pixel-capi": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 1: nessuna campagna si accende prima che la CAPI sia verificata in Gestione eventi (Browser e server); ordine igiene GA4 → Stape → Meta → Google Ads → campagne."
-   ]
-  },
-  "meta-ads-performance": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 2 e 4: campagne nuove come test con ipotesi, budget, durata e soglie fissate prima; modello approvato poi duplicato; schema unico dei nomi; perimetro filtrato alla fonte; nessuna campagna prima della CAPI verificata."
-   ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 3 e 5: campagne nuove come test, modello approvato poi duplicato, schema dei nomi, perimetro filtrato alla fonte; CSV dei pannelli in formato italiano dichiarato nel lettore, righe Totale tagliate, controllo di una riga nota prima di comunicare un numero."
-   ]
-  },
-  "looker-studio": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 10: report per il cliente sempre mensili, confronto «prima di noi contro con noi», una fonte per numero (pannello che spende, gestionale, GA4 solo tendenze), niente dati provvisori né ROAS gonfiati, appendice sul metodo in coda."
-   ]
-  },
   "prestashop": {
    "dal": "2026-09-29",
    "livello": "minore",
@@ -386,18 +330,19 @@
   "brevo": "2026-09-28",
   "google-search-console": "2026-09-25",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-09-25",
-  "looker-studio": "2026-09-25",
+  "google-ads-performance": "2026-09-29",
+  "looker-studio": "2026-09-29",
   "trustpilot": "2026-09-25",
   "google-merchant-center": "2026-09-28",
   "sviluppo-web": "2026-09-25",
-  "cristiano-gallinelli-persona": "2026-09-26",
+  "cristiano-gallinelli-persona": "2026-09-29",
   "chatgpt-ads-performance": "2026-09-28",
-  "ga4-performance": "2026-09-28",
+  "ga4-performance": "2026-09-29",
   "linkedin-ads": "2026-09-23",
-  "wordpress-woocommerce": "2026-09-28",
-  "meta-ads-performance": "2026-09-23",
-  "gtm-server-side": "2026-09-28"
+  "wordpress-woocommerce": "2026-09-29",
+  "meta-ads-performance": "2026-09-29",
+  "gtm-server-side": "2026-09-29",
+  "meta-pixel-capi": "2026-09-29"
  },
  "urls": {
   "https://about.ads.microsoft.com/en-us/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier": {
