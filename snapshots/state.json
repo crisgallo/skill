@@ -359,6 +359,13 @@
     "🔴 Sez. 6: margine basso delle Stories corretto: 14% in alto, 35% in basso, 6% per lato per Stories e Reels, Facebook e Instagram (guide ufficiali lette il 30/09), non «circa 20%». Misure ufficiali: 9:16 a 1440x2560, Feed 4:5 a 1440x1800, massimo 30 MB; i Reels sconsigliano il testo sulle immagini.",
     "🟡 Sez. 6: testo, prezzi e claim nell'immagine da fonti terze concordi, marcato [DA VERIFICARE]: fine della regola del 20%, prezzi e sconti ammessi se uguali alla pagina, attributi personali, salute e benessere, immagini di catalogo."
    ]
+  },
+  "trello": {
+   "dal": "2026-09-30",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 Skill nuova, richiesta il 30/09/2026: piani e quote Trello, modello e tipi di card, le tue regole su checklist, date, commenti, passata completa e proattività, strumenti (script, connettore MCP, Chrome, API, webhook), automazioni, calendario, Planner, Inbox, AI, igiene di una board."
+   ]
   }
  },
  "ultima_mail": {
