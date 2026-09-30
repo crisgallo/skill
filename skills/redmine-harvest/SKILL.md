@@ -5,7 +5,7 @@ description: "Regole operative verificate per lavorare da subappaltatore dentro 
 
 # Redmine e Harvest: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 30 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -169,6 +169,7 @@ description: "Regole operative verificate per lavorare da subappaltatore dentro 
 **Harvest** ([Inside the new Harvest, 05/05/2026](https://www.getharvest.com/blog/inside-the-new-harvest); [In Season Summer 2026, 15/07/2026](https://www.getharvest.com/blog/in-season-summer-2026)):
 - **05/05/2026, "new Harvest"**: interfaccia rifatta; vista calendario; fatture white-label; report utilizzo e scaduto clienti (AR aging); e-fattura in formato UBL "per la conformità europea" (⚠️ non è la FatturaPA italiana: [DA VERIFICARE] se e come esporta verso SDI); addebito diretto e bonifico via Stripe; pausa delle fatture ricorrenti; QuickBooks Online bidirezionale; **sei ruoli predefiniti più ruoli personalizzati**; approvazione spese.
 - **Estate 2026**: custom report con salvataggio e condivisione, senza più il limite di 100 righe; Harvest MCP; azioni in blocco; **blocco automatico dei timesheet a calendario**; reparti come filtro dei report; costi orari per progetto; destinatari email predefiniti sulle fatture. Annunciati: Harvest AI, PTO, rimborsi spese, Gusto, dark mode, notification center.
+- **Autunno 2026** ([In Season Fall 2026, 29/09/2026](https://www.getharvest.com/blog/in-season-the-latest-from-harvest-fall-2026)): usciti **Time Off** (ferie e permessi con calendari festivi, maturazione, riporti e approvazioni, in rollout su tutti gli account), **progetti Fixed Fee con canone mensile ricorrente o milestone programmate** (fatturazione e grafico dei ricavi allineati al contratto), dark mode, Gusto, rimborsi via Stripe (solo USA), fatture Peppol/UBL (BE, FR, DE, NL, DK: l'Italia non c'è, lo SDI resta fuori da Harvest); in beta Dashboards (a tutti «nelle prossime settimane»), Harvest AI (l'amministratore decide se attivarlo) e il notification center; Forecast «continua a supportare le funzioni di oggi». Nulla di questo è verificato sul pannello.
 - Prezzo: listino a posto **più componente a consumo** su fatture/progetti/clienti/task (sez. 8); l'acquisizione da parte di Bending Spoons nel 2025 come causa è **fonte terza** (productive.io, onesuite.io), non dichiarata da Harvest.
 
 ---

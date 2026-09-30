@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 30/09/2026
+- 🔴 Sez. 8: l'articolo «Create and manage your API keys» (209467485), riscritto da Brevo il 29/09/2026 alle 12:43 UTC, aggiunge le regole di scadenza: scadenza da 7 giorni a 1 anno oppure nessuna (email 3 giorni prima), e disattivazione automatica di ogni chiave senza chiamate riuscite da 90 giorni anche se non ha scadenza (email 7 giorni prima); riattivazione dalla stessa pagina; opzione «Create MCP server API key». Cambia una soglia che decide se un'integrazione poco usata continua a funzionare. Data di verifica al 30/09.
 ## 29/09/2026
 - 🟡 Sez. 8: la pagina delle chiavi API si chiama «API Keys & MCP» (Settings > SMTP & API), riscritta da Brevo il 28/09/2026: permesso dedicato, codice a 6 cifre, chiave visibile una volta sola, email al proprietario. Nessuna regola cambia. Data di verifica al 29/09.
 ## 26/09/2026

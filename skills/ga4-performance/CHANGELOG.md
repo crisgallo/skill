@@ -1,5 +1,7 @@
 # Changelog ga4-performance
 
+## 30/09/2026
+- 🟡 Sez. 0: nota di rilascio del 29/09/2026 (9164320): le conversioni delle app entrano pienamente nei report di conversione (rendimento, analisi e modelli di attribuzione) per i clienti Google Ads; nessuna regola cambia per chi misura solo siti web. Il filtro Hostname in modalità Includi del 21/09 era già in sez. 2. Data di verifica al 30/09.
 ## 29/09/2026
 - 🔴 Sez. 1: regola di Cristiano dalla chat Cowork del Blog dell'11/08/2026, promossa a sapere globale il 28/09/2026 (`feedback_eventi_chiave_incrociare_col_container.md`): gli eventi chiave si puliscono incrociando la lista con gli Eventi recenti e con i tag del container GTM, mai guardando solo la lista; gli eventi della misurazione avanzata non si marcano come conversione; allineamento sui tre pannelli. Fonti web e data di verifica invariate (riga estesa, la skill resta a 399 righe).
 ## 28/09/2026

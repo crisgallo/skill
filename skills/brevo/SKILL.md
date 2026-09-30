@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 29 settembre 2026.**
+**Ultima verifica delle fonti: 30 settembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -164,7 +164,7 @@ Fonti lette il 25/09/2026 ([4409354969746](https://help.brevo.com/hc/en-us/artic
 
 ## 11. API e limiti
 
-Le chiavi si creano da **Settings > SMTP & API > API Keys & MCP** (pagina rinominata così, riletta il 29/09/2026: solo il proprietario o chi ha il permesso «API keys», codice di verifica a 6 cifre, chiave visibile una volta sola, email al proprietario a ogni creazione o cancellazione, [209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Limiti generali: invio email `POST /v3/smtp/email` 1.000 richieste/s; SMS transazionali 150/s; eventi e contatti 10/s (36.000/ora); tutti gli altri endpoint **100 richieste/ora**; oltre risponde 429; limiti più alti su Professional/Enterprise ([developers.brevo.com/docs/api-limits](https://developers.brevo.com/docs/api-limits)). Le chiavi API si creano dalla pagina delle chiavi con scadenza opzionale ([209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Changelog API di settembre 2026: solo endpoint loyalty (02/09: `account-info` esteso; 03/09: stati transazione rinominati `pending→draft`, `complete→completed`, campo `balance`) ([changelog](https://developers.brevo.com/changelog)).
+Le chiavi si creano da **Settings > SMTP & API > API Keys & MCP** (pagina rinominata così, riletta il 29/09/2026: solo il proprietario o chi ha il permesso «API keys», codice di verifica a 6 cifre, chiave visibile una volta sola, email al proprietario a ogni creazione o cancellazione, [209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Limiti generali: invio email `POST /v3/smtp/email` 1.000 richieste/s; SMS transazionali 150/s; eventi e contatti 10/s (36.000/ora); tutti gli altri endpoint **100 richieste/ora**; oltre risponde 429; limiti più alti su Professional/Enterprise ([developers.brevo.com/docs/api-limits](https://developers.brevo.com/docs/api-limits)). 🔴 **Scadenza e inattività delle chiavi** (articolo riscritto il 29/09/2026): alla creazione si sceglie una scadenza da **7 giorni a 1 anno** oppure nessuna, con email 3 giorni prima e il giorno stesso; ma **una chiave che non fa una chiamata riuscita per 90 giorni viene disattivata anche senza scadenza** (email 7 giorni prima e il giorno stesso): un'integrazione che chiama di rado va tenuta viva, o si riattiva la chiave dalla stessa pagina (*Deactivate* / *Activate API key*); l'opzione *Create MCP server API key* sostituisce la chiave appena creata con la versione MCP ([209467485](https://help.brevo.com/hc/en-us/articles/209467485)). Changelog API di settembre 2026: solo endpoint loyalty (02/09: `account-info` esteso; 03/09: stati transazione rinominati `pending→draft`, `complete→completed`, campo `balance`) ([changelog](https://developers.brevo.com/changelog)).
 
 ---
 
