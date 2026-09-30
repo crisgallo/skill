@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-09-29",
+  "ultima_lettura": "2026-09-30",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -214,6 +214,18 @@
    "2026-09-28_blog_feedback_*.md (trello_task_brevi, non_ricaricare_la_pagina_lenta, niente_task_dai_miei_dubbi, download_chrome_non_e_downloads, trello_commenti_api, no_tmp_residui, file_segnaposto_drive, trello_commento_dopo_ogni_blocco, orari_fuso_locale, no_pipe_nei_titoli, tavole_carosello_chiare, mai_la_parola_agenzia, paratassi)": {
     "modificato": "2026-09-28",
     "esito": "copie archiviate dal progetto Blog il 28/09: regole di processo o già integrate (agenzia, pipe, paratassi, carosello dentro la voce di Cris), non integrate a parte"
+   },
+   "feedback_gmail_espandere_thread.md": {
+    "modificato": "2026-09-29",
+    "esito": "regola di processo (connettore Gmail: search_threads tronca i thread, aprire sempre con get_thread), nessuna skill di piattaforma"
+   },
+   "feedback_deroga_checklist_segnalazioni_nem.md": {
+    "modificato": "2026-09-29",
+    "esito": "regola di progetto (Gruppo NEM, checklist segnalazioni su Trello), non integrata"
+   },
+   "2026-09-29_collettivo_feedback_*.md e 2026-09-29_calicantus_feedback_*.md (trello_batch_verifica, sheets_name_box_coordinate, no_trattini_lunghi, trello_card_numero_non_shortlink, gdoc_lunghi_workaround, anna_sempre_invitata_sal, sheets_drive_bypassa_filtri, no_tmp_residui, aggiornamenti_protocol, trello_calicantus_checklist_align)": {
+    "modificato": "2026-09-29",
+    "esito": "copie di archivio di regole di processo e di progetto (Trello, Sheets, Drive, Collettivo, Calicantus); no_trattini_lunghi già coperta dalla persona (riga sulla punteggiatura del 05/08 e 25/09)"
    }
   }
  },
@@ -316,6 +328,20 @@
    "livello": "minore",
    "voci": [
     "🟡 Sez. 1: PrestaShop 9.2 RC1 del 21/09/2026 (PHP 8.1-8.5, nessun upgrade da beta o RC), stabile non ancora uscita."
+   ]
+  },
+  "ga4-performance": {
+   "dal": "2026-09-30",
+   "livello": "minore",
+   "voci": [
+    "🟡 Sez. 0: nota di rilascio del 29/09/2026: conversioni delle app pienamente nei report di conversione per i clienti Google Ads; nessuna regola cambia per i siti web."
+   ]
+  },
+  "redmine-harvest": {
+   "dal": "2026-09-30",
+   "livello": "minore",
+   "voci": [
+    "🟡 Sez. 13: novità Harvest dell'autunno 2026 (Time Off, Fixed Fee con canone o milestone, Peppol senza Italia, Dashboards e Harvest AI in beta), nulla verificato sul pannello."
    ]
   }
  },
