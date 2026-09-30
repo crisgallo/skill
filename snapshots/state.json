@@ -317,17 +317,10 @@
    "voci": [
     "🟡 Sez. 1: PrestaShop 9.2 RC1 del 21/09/2026 (PHP 8.1-8.5, nessun upgrade da beta o RC), stabile non ancora uscita."
    ]
-  },
-  "brevo": {
-   "dal": "2026-09-29",
-   "livello": "minore",
-   "voci": [
-    "🟡 Sez. 8: la pagina delle chiavi API si chiama «API Keys & MCP», riscritta il 28/09 (permesso dedicato, codice a 6 cifre, chiave visibile una volta sola)."
-   ]
   }
  },
  "ultima_mail": {
-  "brevo": "2026-09-28",
+  "brevo": "2026-09-30",
   "google-search-console": "2026-09-25",
   "seo-tecnica": "2026-09-25",
   "google-ads-performance": "2026-09-29",
