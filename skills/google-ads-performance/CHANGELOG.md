@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 30/09/2026 (sera)
+- 🔴 Sez. 9: regola di Cristiano del 30/09/2026 (ScegliNatura, resa globale, via chat di manutenzione): nelle grafiche di prodotti con claim regolati solo i testi già presenti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola.
 ## 30/09/2026
 - 🔴 Sez. 4: regola di Cristiano dal collaudo del 29/09/2026 sul Blog (via chat di manutenzione del 30/09): un invio di prova senza gclid non entra in «Conversioni» né in «Tutte le conv.»; il tag si verifica dal riquadro «Ultimo ping evento» in Obiettivi > Conversioni; due errori da evitare (tag dato per rotto con colonne a zero, invii di prova sottratti).
 - 🔴 Sez. 9: nuova voce sulle immagini che passano la revisione, dalle pagine ufficiali rilette il 30/09/2026: PMax con almeno un'immagine senza overlay per proporzione e contenuto nell'80% centrale (14530211); niente testo o loghi sovrapposti sugli asset immagine di Google.com e YouTube Search (10347108); prezzo in grafica uguale alla pagina (Misrepresentation 6020955); claim di cura vietati (15595718); niente testo, loghi o watermark sulle immagini prodotto in Merchant Center (6324350); nessuna soglia del 20% di testo. Due dettagli della manutenzione non riletti marcati [DA VERIFICARE]. Data di verifica al 30/09.

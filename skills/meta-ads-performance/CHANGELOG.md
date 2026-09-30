@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 30/09/2026 (sera)
+- 🔴 Sez. 6: regola di Cristiano del 30/09/2026 (ScegliNatura, resa globale, via chat di manutenzione): nelle grafiche di prodotti con claim regolati solo i testi già presenti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola.
 ## 30/09/2026
 - 🔴 Sez. 6: corretto il margine basso delle Stories: le guide ufficiali di Instagram Stories, Facebook Stories e Facebook Reels (lette il 30/09/2026) danno 14% in alto, 35% in basso e 6% per lato per tutte, non «circa 20%» per le Stories. Aggiunte le misure ufficiali: 9:16 a 1440x2560 e Feed 4:5 a 1440x1800, massimo 30 MB; i Reels sconsigliano il testo sulle immagini.
 - 🟡 Sez. 6: nuova voce da fonti terze concordi, marcata [DA VERIFICARE] (Transparency Center non letto): fine della regola del 20% di testo, prezzi e sconti in immagine, attributi personali, salute e benessere, immagini di catalogo. Segnalata dalla chat di manutenzione del 30/09/2026. Data di verifica al 30/09.

@@ -357,6 +357,20 @@
    "voci": [
     "🔴 Sez. 4: attività che si ripetono (regola tua del 30/09, da ScegliNatura): non si riaprono le voci, ogni giro ha le sue voci con il mese nel nome, date da una regola fissa approvata una volta, le voci del giro dopo si accodano quando si spunta l'ultima, nessuna routine scrive sulla card."
    ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-09-30",
+   "livello": "sostanziale",
+   "voci": [
+    "Sez. 9: 🔴 Grafiche di prodotti con claim regolati (regola tua del 30/09, ScegliNatura): solo i testi già scritti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola."
+   ]
+  },
+  "meta-ads-performance": {
+   "dal": "2026-09-30",
+   "livello": "sostanziale",
+   "voci": [
+    "Sez. 6: 🔴 Grafiche di prodotti con claim regolati (regola tua del 30/09, ScegliNatura): solo i testi già scritti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola."
+   ]
   }
  },
  "ultima_mail": {
