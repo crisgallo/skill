@@ -343,13 +343,6 @@
    "voci": [
     "🟡 Sez. 13: novità Harvest dell'autunno 2026 (Time Off, Fixed Fee con canone o milestone, Peppol senza Italia, Dashboards e Harvest AI in beta), nulla verificato sul pannello."
    ]
-  },
-  "grafica-web-design": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Skill nuova, richiesta il 30/09/2026: colore e contrasto, tipografia, layout mobile-first, immagini e media, Core Web Vitals come vincolo di design, accessibilità e legge, pulsanti e form, brand kit e DNA del Collettivo, caroselli e slide con le tue regole, brief al grafico e controllo della consegna."
-   ]
   }
  },
  "ultima_mail": {
@@ -369,7 +362,8 @@
   "meta-ads-performance": "2026-09-30",
   "gtm-server-side": "2026-09-29",
   "meta-pixel-capi": "2026-09-29",
-  "trello": "2026-09-30"
+  "trello": "2026-09-30",
+  "grafica-web-design": "2026-09-30"
  },
  "urls": {
   "https://about.ads.microsoft.com/en-us/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier": {
