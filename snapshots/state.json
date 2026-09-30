@@ -343,36 +343,13 @@
    "voci": [
     "🟡 Sez. 13: novità Harvest dell'autunno 2026 (Time Off, Fixed Fee con canone o milestone, Peppol senza Italia, Dashboards e Harvest AI in beta), nulla verificato sul pannello."
    ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 4: collaudo di un tag di conversione (regola tua dal 29/09 sul Blog): un invio di prova senza gclid non entra in «Conversioni» né in «Tutte le conv.»; il tag si verifica dal riquadro «Ultimo ping evento» in Obiettivi > Conversioni; non dare per rotto un tag con le colonne a zero, non sottrarre invii di prova mai entrati.",
-    "🔴 Sez. 9: immagini che passano la revisione (pagine ufficiali rilette il 30/09): PMax con almeno un'immagine senza overlay per proporzione e contenuto nell'80% centrale; niente testo o loghi sovrapposti sugli asset immagine di Google.com e YouTube Search; prezzo in grafica uguale alla pagina; claim di cura vietati; niente testo, loghi o watermark sulle immagini prodotto in Merchant Center; nessuna soglia del 20% di testo."
-   ]
-  },
-  "meta-ads-performance": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 6: margine basso delle Stories corretto: 14% in alto, 35% in basso, 6% per lato per Stories e Reels, Facebook e Instagram (guide ufficiali lette il 30/09), non «circa 20%». Misure ufficiali: 9:16 a 1440x2560, Feed 4:5 a 1440x1800, massimo 30 MB; i Reels sconsigliano il testo sulle immagini.",
-    "🟡 Sez. 6: testo, prezzi e claim nell'immagine da fonti terze concordi, marcato [DA VERIFICARE]: fine della regola del 20%, prezzi e sconti ammessi se uguali alla pagina, attributi personali, salute e benessere, immagini di catalogo."
-   ]
-  },
-  "trello": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Skill nuova, richiesta il 30/09/2026: piani e quote Trello, modello e tipi di card, le tue regole su checklist, date, commenti, passata completa e proattività, strumenti (script, connettore MCP, Chrome, API, webhook), automazioni, calendario, Planner, Inbox, AI, igiene di una board."
-   ]
   }
  },
  "ultima_mail": {
   "brevo": "2026-09-30",
   "google-search-console": "2026-09-25",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-09-29",
+  "google-ads-performance": "2026-09-30",
   "looker-studio": "2026-09-29",
   "trustpilot": "2026-09-25",
   "google-merchant-center": "2026-09-28",
@@ -382,9 +359,10 @@
   "ga4-performance": "2026-09-29",
   "linkedin-ads": "2026-09-23",
   "wordpress-woocommerce": "2026-09-29",
-  "meta-ads-performance": "2026-09-29",
+  "meta-ads-performance": "2026-09-30",
   "gtm-server-side": "2026-09-29",
-  "meta-pixel-capi": "2026-09-29"
+  "meta-pixel-capi": "2026-09-29",
+  "trello": "2026-09-30"
  },
  "urls": {
   "https://about.ads.microsoft.com/en-us/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier": {
