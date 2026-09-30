@@ -343,6 +343,13 @@
    "voci": [
     "🟡 Sez. 13: novità Harvest dell'autunno 2026 (Time Off, Fixed Fee con canone o milestone, Peppol senza Italia, Dashboards e Harvest AI in beta), nulla verificato sul pannello."
    ]
+  },
+  "google-search-console": {
+   "dal": "2026-09-30",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 Sez. 2, 4 e 9: regole tue misurate il 30/09 su ScegliNatura: l'API Search Analytics (dataState final, 25.000 righe) dà totali mensili identici al pannello e arriva più indietro (18/05/2025 contro 28/05/2025); le query visibili coprono il 32-53% dei clic; il filtro brand nativo è solo nel pannello, dati dal 21/02/2026, brand più non brand fa il totale; un totale Web unico non si seleziona più e il rapporto IA generativa è solo nel pannello."
+   ]
   }
  },
  "ultima_mail": {
