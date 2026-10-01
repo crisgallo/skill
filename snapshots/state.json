@@ -95474,6 +95474,12 @@
     "mittente": "noreply@email.openai.com",
     "oggetto": "ChatGPT Ads Product Updates",
     "esito": "chatgpt-ads-performance sez. 0, 2, 7, 9 (tre nomi, bulk sheet product feed, stato revisione prodotti, conversioni non-goal via API); mercati asiatici già in skill"
+   },
+   "1a0ea04d6f237ac4": {
+    "data": "2026-09-28",
+    "mittente": "noreply@email.openai.com",
+    "oggetto": "Optimize your ChatGPT Ads toward conversions",
+    "esito": "promozionale (campagne a conversione, già in skill sez. 4): niente da integrare"
    }
   }
  }
