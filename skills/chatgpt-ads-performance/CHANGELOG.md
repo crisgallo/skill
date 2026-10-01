@@ -1,6 +1,7 @@
 # Changelog chatgpt-ads-performance
 
 ## 01/10/2026
+- 🔴 Sez. 0, 2, 7 e 9 (newsletter OpenAI del 30/09/2026 segnalata da Cristiano): tre nomi separati con le regole di pausa (brand ferma la consegna, legale riavvia la revisione); campagne da product feed in blocco da foglio e stato di revisione dei prodotti; conversioni oltre l'obiettivo nell'API con include attributed_events; mercati asiatici già in sez. 1.
 - 🔴 Sez. 0, 9, 11: changelog API del 30/09/2026: finestre di attribuzione e base temporale su tutti gli endpoint Insights con default 30 giorni clic, 1 giorno view, ad-event time (i totali includono le view-through); nuovo endpoint Audit Logs (solo chiave API). Data di verifica al 01/10.
 ## 26/09/2026
 - 🟡 Sez. 2 e sez. 0: dal 24/09/2026 ChatGPT Ads è in sette mercati asiatici in più e «più di 60 paesi» (annuncio OpenAI non leggibile, 403; conteggio da Marketing-Interactive, terzi, `[DA VERIFICARE]`). Sez. 9: limiti dell'API Insights (2.000 righe, 413, 365 giorni, granularità, valori platform) dalla pagina developers.openai.com cambiata il 26/09/2026. Nessuna regola operativa per l'Italia cambia.
