@@ -1,6 +1,7 @@
 # Changelog wordpress-woocommerce
 
 ## 01/10/2026
+- 🔴 Sez. 7: regola di Cristiano (chat di manutenzione, `wordpress.md`, 01/10/2026): procedura per modificare uno snippet WPCode da Chrome senza rischiare il sito (controllo anti cache, copia in localStorage con somma di controllo, replaceRange su marcatore, CRLF, cache x-ac, form agganciati). Non verificata su editor diversi da CodeMirror.
 - 🟡 Sez. 0: calendario WordPress 7.2 (Beta 1 20–22/10, RC1 17–19/11, code freeze 7–9/12, rilascio 8–10/12/2026) dalla pagina ufficiale; Gutenberg 24.1 del 30/09 (strumenti di design uniformi fra blocchi, nessuna regola cambia). Doc Google for WooCommerce riletta: invariata (3.8.1 per la Merchant API già scritto). Data di verifica al 01/10.
 ## 29/09/2026
 - 🔴 Sez. 3: regola di Cristiano dalle chat Cowork del Blog (05-07/08/2026), promossa a sapere globale il 28/09/2026 (`feedback_wp_ereditare_stile_blocchi.md`): un blocco o un campo nuovo non eredita lo stile dei vicini, si copiano attributi e classi da un elemento fratello e si verifica lo stile calcolato. Fonti web e data di verifica invariate.

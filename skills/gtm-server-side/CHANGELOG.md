@@ -1,5 +1,7 @@
 # Changelog gtm-server-side
 
+## 01/10/2026
+- 🔴 Sez. 4: regola di Cristiano sull'Anteprima corretta (chat di manutenzione, `gtm_e_consenso.md`, 01/10/2026): la pagina del sito si apre in una finestra nuova fuori dal gruppo di schede della chat, quindi clicca e compila sempre Cristiano anche se l'Anteprima l'ha aperta la chat; seconda sessione rompe il collegamento; dialogo «Arresta debug» si annulla; la scheda Tag Assistant non si chiude da Chrome. Finestra nuova confermata su 6107056.
 ## 29/09/2026
 - 🔴 Sez. 3 e 4: due regole di Cristiano dalle chat Cowork del Blog (12-16/08/2026), promosse a sapere globale il 28/09/2026: le tendine del pannello GTM non si impostano via JavaScript su righe esistenti, riga nuova nasce con «contiene», si ricarica la pagina dopo ogni salvataggio, Page Path uguale a /slug/ (`feedback_gtm_select_via_js.md`); nei test in Anteprima i clic li fa Cristiano e Claude legge il Tag Assistant, scheda Variabili per chiudere la verifica, un secondo Tag Assistant rompe la sessione (`feedback_anteprima_gtm_divisione_lavoro.md`). Fonti web e data di verifica invariate.
 ## 28/09/2026

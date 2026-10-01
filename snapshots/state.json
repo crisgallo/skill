@@ -341,9 +341,10 @@
   },
   "wordpress-woocommerce": {
    "dal": "2026-10-01",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "🟡 Sez. 0: calendario WordPress 7.2 (Beta 1 20–22/10, RC1 17–19/11, rilascio 8–10/12/2026); Gutenberg 24.1 del 30/09."
+    "🟡 Sez. 0: calendario WordPress 7.2 (Beta 1 20–22/10, RC1 17–19/11, rilascio 8–10/12/2026); Gutenberg 24.1 del 30/09.",
+    "🔴 Sez. 7: regola tua del 01/10 (Blog, snippet WPCode «GTM events (JS)»): procedura per modificare uno snippet WPCode da Chrome senza rischiare il sito (anti cache, copia di sicurezza con somma di controllo, inserimento su marcatore, CRLF, cache di pagina, form agganciati)."
    ]
   },
   "chatgpt-ads-performance": {
@@ -351,6 +352,13 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 Sez. 2, 7 e 9 (newsletter OpenAI del 30/09): nome account, nome brand e nome legale separati, con il cambio del brand che ferma la consegna fino all'approvazione e il cambio del nome legale che riavvia la revisione; campagne da product feed create in blocco da foglio e stato di revisione dei prodotti nella scheda Products; conversioni oltre l'obiettivo di campagna leggibili dall'API con include attributed_events."
+   ]
+  },
+  "gtm-server-side": {
+   "dal": "2026-10-01",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 Sez. 4: regola tua corretta il 01/10 (Blog): in Anteprima la pagina del sito si apre in una finestra nuova che la chat non vede, quindi clicchi e compili sempre tu; una seconda sessione rompe il collegamento; «Arresta debug» rimasto aperto si annulla; la scheda Tag Assistant la chiudi tu."
    ]
   }
  },
