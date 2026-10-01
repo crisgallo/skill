@@ -360,6 +360,14 @@
    "voci": [
     "🔴 Sez. 4: regola tua corretta il 01/10 (Blog): in Anteprima la pagina del sito si apre in una finestra nuova che la chat non vede, quindi clicchi e compili sempre tu; una seconda sessione rompe il collegamento; «Arresta debug» rimasto aperto si annulla; la scheda Tag Assistant la chiudi tu."
    ]
+  },
+  "google-merchant-center": {
+   "dal": "2026-09-26",
+   "livello": "minore",
+   "voci": [
+    "🟡 Sez. 3: dal 26/09/2026 le pagine delle norme (abuso della rete, misrepresentation, alcol) dicono «7 or 28 calendar days to fix your issue»; la regola resta «almeno 7 giorni», aggiunta la precisazione.",
+    "🟡 Sez. 1 e 8 (28/09): le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno, preorder e backorder compatibili con in_stock; origini «inventario online» deprecate a favore delle supplementari."
+   ]
   }
  },
  "ultima_mail": {
