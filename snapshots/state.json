@@ -95465,5 +95465,16 @@
    ],
    "checked": "2026-10-01"
   }
+ },
+ "newsletter": {
+  "ultima_lettura": "2026-10-01",
+  "viste": {
+   "1a0f2d6667188485": {
+    "data": "2026-09-30",
+    "mittente": "noreply@email.openai.com",
+    "oggetto": "ChatGPT Ads Product Updates",
+    "esito": "chatgpt-ads-performance sez. 0, 2, 7, 9 (tre nomi, bulk sheet product feed, stato revisione prodotti, conversioni non-goal via API); mercati asiatici già in skill"
+   }
+  }
  }
 }

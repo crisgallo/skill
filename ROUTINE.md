@@ -48,6 +48,13 @@ Tre fonti, in quest'ordine. Tutte hanno la precedenza su qualsiasi fonte web: so
   - ⚠️ La `modifiedTime` dei SKILL.md su Drive è l'ora della sincronizzazione, non della modifica: non serve a niente. Conta solo la dimensione.
   - Lo stato del confronto finisce in `snapshots/state.json` sotto `drive` (data dello snapshot, dimensione e commit corrispondente per skill).
 
+**B4. Newsletter di prodotto delle piattaforme nella Gmail di Cristiano** (aggiunto il 01/10/2026 su sua richiesta: la newsletter OpenAI del 30/09 conteneva quattro novità che il confronto delle pagine non aveva fatto emergere). Le piattaforme mandano i riepiloghi delle novità per mail, già riassunti: si leggono ogni giorno e si trattano come una fonte ufficiale (il mittente è la piattaforma stessa).
+  - ⚠️ **Cristiano archivia queste mail appena arrivano: la ricerca NON si limita alla inbox.** Si usa `search_threads` con `in:anywhere -in:trash -in:spam newer_than:2d` e un filtro sui mittenti noti, per esempio `{from:email.openai.com from:openai.com from:google.com from:facebookmail.com from:meta.com from:microsoft.com from:brevo.com from:trustpilot.com from:linkedin.com from:atlassian.com from:woocommerce.com from:prestashop.com from:getharvest.com from:redmine.org from:creditsafe.com from:substack.com}`; se i mittenti cambiano si aggiorna questa riga. Le anteprime della ricerca non bastano: ogni mail candidata si legge per intero con `get_message` in `PLAIN_TEXT`.
+  - Si contano solo le **mail di prodotto** (novità, release, policy, scadenze). Promozioni, fatture, avvisi di sicurezza dell'account, inviti a webinar e notifiche di campagne (budget, approvazioni) si ignorano e non si leggono.
+  - Ogni novità si verifica sulla pagina ufficiale linkata nella mail prima di scriverla; se la pagina non è leggibile (403) si scrive la regola con la mail come fonte e `[DA VERIFICARE]`. Il livello 🔴/🟡 segue la regola fissa 7, e la mail segue il passo D: una newsletter non è mai da sola un'urgenza.
+  - Registro in `snapshots/state.json` sotto `newsletter`: `ultima_lettura` e `viste` con, per ogni mail letta, id Gmail, data, mittente, oggetto ed esito (quali skill, o «niente da integrare»). Una mail già in `viste` non si rilegge.
+  - ⚠️ Mai rispondere, inoltrare, etichettare, archiviare o cancellare queste mail: si leggono soltanto.
+
 ### C. Verifica delle fonti, una skill per volta
 Per ogni cartella in `skills/`:
 1. Leggere `SKILL.md`, la riga "Ultima verifica delle fonti" e la finestra di freschezza dichiarata in sezione 0.
@@ -67,7 +74,7 @@ Per ogni cartella in `skills/`:
 - **Eccezione, stesso giorno anche se non è lunedì:** una patch di sicurezza di una piattaforma che Cristiano o i suoi clienti fanno girare (Redmine, PrestaShop, WordPress, WooCommerce) o una scadenza entro 14 giorni che richiede un'azione sul pannello (fine di una versione API, obbligo di policy, opt-out). In quel caso la mail parte subito con le sole skill urgenti; le altre aspettano il lunedì. Nel report si scrive perché era urgente.
 - Se il lunedì nessuna skill ha una modifica sostanziale: nessuna mail. Il repository resta comunque aggiornato ogni giorno: chi vuole lo zip prima della mail lo trova in `dist/`.
 - Se Cristiano scrive «manda la mail» in chat, la mail parte quel giorno con tutte le sostanziali in attesa, qualunque giorno sia.
-- **Se il connettore Gmail non è disponibile nella sessione** (succede quando la routine è stata creata senza connettori): stesso contenuto, ma si apre una **issue su GitHub** nel repository `crisgallo/skill` con gli strumenti `mcp__github__*` (titolo = oggetto della mail, corpo = corpo della mail). GitHub la recapita per email al proprietario del repository. Anche in questo caso: nessuna issue se nulla è cambiato.
+- **Se il connettore Gmail non è disponibile nella sessione**, il passo B4 si salta e lo si scrive nel report; per la mail del lunedì: (succede quando la routine è stata creata senza connettori) stesso contenuto, ma si apre una **issue su GitHub** nel repository `crisgallo/skill` con gli strumenti `mcp__github__*` (titolo = oggetto della mail, corpo = corpo della mail). GitHub la recapita per email al proprietario del repository. Anche in questo caso: nessuna issue se nulla è cambiato.
 - **Se il connettore Google Drive non è disponibile**, il passo B (B1, B2 e B3) si salta e lo si scrive nel report, così Cristiano sa che le modifiche locali e quelle delle chat di quel giorno non sono state raccolte.
 
 ## E. Prova di completamento (obbligatoria)
