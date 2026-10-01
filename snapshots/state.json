@@ -331,87 +331,12 @@
   }
  },
  "pendenti": {
-  "prestashop": {
-   "dal": "2026-09-29",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 Sez. 1: PrestaShop 9.2 RC1 del 21/09/2026 (PHP 8.1-8.5, nessun upgrade da beta o RC), stabile non ancora uscita.",
-    "🔴 Sez. 1 e 13: PrestaShop 9.2.0 stabile del 30/09/2026 (PHP 8.1-8.5, Update Assistant 7.6.6 da 9.0.x e 9.1.x, Hummingbird 2.1.2, interruttore «una pagina / quattro pagine» nel back office, Extra Properties, Ask AI); 9.1.x superato."
-   ]
-  },
   "ga4-performance": {
    "dal": "2026-09-30",
    "livello": "minore",
    "voci": [
     "🟡 Sez. 0: nota di rilascio del 29/09/2026: conversioni delle app pienamente nei report di conversione per i clienti Google Ads; nessuna regola cambia per i siti web.",
     "🟡 Sez. 0: interruzione del pannello GA4 la sera del 29/09/2026 (circa un'ora, fonte terza): controllare il 30/09 nei report di settembre prima di parlare di calo."
-   ]
-  },
-  "redmine-harvest": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 Sez. 13: novità Harvest dell'autunno 2026 (Time Off, Fixed Fee con canone o milestone, Peppol senza Italia, Dashboards e Harvest AI in beta), nulla verificato sul pannello.",
-    "🔴 Sez. 0 e 13: Redmine 7.0.2 e 6.1.5 del 01/10/2026: tre falle, due nell'API REST (soggetti di segnalazioni private e nomi di progetti privati esposti) e una XSS; le istanze 7.0.x e 6.1.x si aggiornano subito."
-   ]
-  },
-  "google-search-console": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 2, 4 e 9: regole tue misurate il 30/09 su ScegliNatura: l'API Search Analytics (dataState final, 25.000 righe) dà totali mensili identici al pannello e arriva più indietro (18/05/2025 contro 28/05/2025); le query visibili coprono il 32-53% dei clic; il filtro brand nativo è solo nel pannello, dati dal 21/02/2026, brand più non brand fa il totale; un totale Web unico non si seleziona più e il rapporto IA generativa è solo nel pannello."
-   ]
-  },
-  "trello": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 4: attività che si ripetono (regola tua del 30/09, da ScegliNatura): non si riaprono le voci, ogni giro ha le sue voci con il mese nel nome, date da una regola fissa approvata una volta, le voci del giro dopo si accodano quando si spunta l'ultima, nessuna routine scrive sulla card.",
-    "🟡 Sez. 0: le note di rilascio cloud settimanali di Atlassian si fermano al 30/09/2026 e passano a «What's new across Atlassian» (community.atlassian.com/release-notes)."
-   ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "Sez. 9: 🔴 Grafiche di prodotti con claim regolati (regola tua del 30/09, ScegliNatura): solo i testi già scritti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola.",
-    "🟡 Sez. 0: norme sulla pubblicità personalizzata dal 30/10/2026: alcolici personalizzabili su inventario YouTube (non in Egitto, India, Indonesia, Polonia; salute e minori restano vietati)."
-   ]
-  },
-  "meta-ads-performance": {
-   "dal": "2026-09-30",
-   "livello": "sostanziale",
-   "voci": [
-    "Sez. 6: 🔴 Grafiche di prodotti con claim regolati (regola tua del 30/09, ScegliNatura): solo i testi già scritti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola."
-   ]
-  },
-  "chatgpt-ads-performance": {
-   "dal": "2026-10-01",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 0, 9 e 11: dal 30/09/2026 l'API applica di default 30 giorni clic, 1 giorno view e ad-event time su tutti gli endpoint Insights (i totali includono le view-through: uno script che leggeva solo le post-clic vede salire le conversioni); nuovo endpoint Audit Logs, solo con chiave API."
-   ]
-  },
-  "microsoft-ads": {
-   "dal": "2026-10-01",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 9 e 13: post del 30/09/2026: liste aziende LinkedIn da 1.000 a 10.000 nomi, integrazione HubSpot, Optimization Experiments in GA su Search, Shopping, Audience e PMax, API SOAP dismessa il 31/01/2027.",
-    "🟡 Sez. 7: StatCounter Italia settembre 2026 (Google 87,31%, Bing 5,97%, Yahoo 5,00%, DuckDuckGo 0,69%)."
-   ]
-  },
-  "trustpilot": {
-   "dal": "2026-10-01",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 2, 3, 6 e 13: Guidelines for Businesses v7.3 (settembre 2026) al posto della v7.2: contenuto generato dall'AI fra i motivi di segnalazione; aggiunte le regole ufficiali che mancavano: tre giorni al recensore prima di segnalare «non basata su esperienza reale» e una sola recensione per recensore nel TrustScore. Listino riletto: invariato."
-   ]
-  },
-  "brevo": {
-   "dal": "2026-10-01",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 3: procedura ufficiale di riconferma del consenso (articolo riscritto il 30/09/2026): campagna con bottone «Sì, voglio continuare», segmento «Link clicked in an email», lista nuova dal segmento, export CSV per contatto come prova; sostituisce la riga «invio uno-a-uno verso il form»."
    ]
   },
   "wordpress-woocommerce": {
@@ -423,24 +348,27 @@
   }
  },
  "ultima_mail": {
-  "brevo": "2026-09-30",
-  "google-search-console": "2026-09-25",
+  "brevo": "2026-10-01",
+  "google-search-console": "2026-10-01",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-09-30",
+  "google-ads-performance": "2026-10-01",
   "looker-studio": "2026-09-29",
-  "trustpilot": "2026-09-25",
+  "trustpilot": "2026-10-01",
   "google-merchant-center": "2026-09-28",
   "sviluppo-web": "2026-09-25",
   "cristiano-gallinelli-persona": "2026-09-29",
-  "chatgpt-ads-performance": "2026-09-28",
+  "chatgpt-ads-performance": "2026-10-01",
   "ga4-performance": "2026-09-29",
   "linkedin-ads": "2026-09-23",
   "wordpress-woocommerce": "2026-09-29",
-  "meta-ads-performance": "2026-09-30",
+  "meta-ads-performance": "2026-10-01",
   "gtm-server-side": "2026-09-29",
   "meta-pixel-capi": "2026-09-29",
-  "trello": "2026-09-30",
-  "grafica-web-design": "2026-09-30"
+  "trello": "2026-10-01",
+  "grafica-web-design": "2026-09-30",
+  "prestashop": "2026-10-01",
+  "redmine-harvest": "2026-10-01",
+  "microsoft-ads": "2026-10-01"
  },
  "urls": {
   "https://about.ads.microsoft.com/en-us/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier": {
