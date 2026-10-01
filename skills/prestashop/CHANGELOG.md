@@ -1,5 +1,7 @@
 # Changelog prestashop
 
+## 01/10/2026
+- 🔴 Sez. 1, 13: PrestaShop 9.2.0 stabile del 30/09/2026 (PHP 8.1-8.5, Update Assistant 7.6.6 da 9.0.x/9.1.x, Hummingbird 2.1.2, interruttore one-page/quattro pagine, Extra Properties, Ask AI). 9.1.x superato, fine manutenzione [DA VERIFICARE]. Data di verifica al 01/10.
 ## 29/09/2026
 - 🟡 Sez. 1: PrestaShop 9.2 RC1 del 21/09/2026 (PHP 8.1-8.5, nessun upgrade da beta o RC, stabile non ancora uscita). Rilette senza cambi le pagine su 1.7.8 e 8.2.x in supporto esteso e la 8.2.8. Data di verifica al 29/09.
 ## 20/09/2026

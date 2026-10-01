@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 01/10/2026
+- 🟡 Sez. 0: norme pubblicità personalizzata dal 30/10/2026: alcolici personalizzabili su inventario YouTube (esclusi quattro paesi, salute e minori vietati). Pagina 17061251 (target dal 17/08) riletta: invariata. Data di verifica al 01/10.
 ## 30/09/2026 (sera)
 - 🔴 Sez. 9: regola di Cristiano del 30/09/2026 (ScegliNatura, resa globale, via chat di manutenzione): nelle grafiche di prodotti con claim regolati solo i testi già presenti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola.
 ## 30/09/2026

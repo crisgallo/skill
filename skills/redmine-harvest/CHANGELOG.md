@@ -1,5 +1,7 @@
 # Changelog redmine-harvest
 
+## 01/10/2026
+- 🔴 Sez. 0 e 13: Redmine 7.0.2 e 6.1.5 del 01/10/2026, tre falle di cui due nell'API REST (soggetti di segnalazioni private e nomi di progetti privati esposti) e una XSS DOM; Rails 8.1.4 / 7.2.4. Data di verifica al 01/10.
 ## 30/09/2026
 - 🟡 Sez. 13: novità Harvest dell'autunno 2026 dall'articolo «In Season Fall 2026» del 29/09/2026: Time Off su tutti gli account, progetti Fixed Fee con canone mensile o milestone, dark mode, Gusto, rimborsi Stripe (USA), fatture Peppol/UBL in cinque paesi senza l'Italia; in beta Dashboards, Harvest AI e notification center. Nessun numero e nulla verificato sul pannello, quindi minore. Data di verifica al 30/09 (Redmine: nessuna novità sulle fonti).
 ## 20/09/2026

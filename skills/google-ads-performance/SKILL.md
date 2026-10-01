@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 30 settembre 2026.**
+**Ultima verifica delle fonti: 1 ottobre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -16,6 +16,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 - **Dicembre 2025:** soglia minima remarketing **100 utenti attivi** su tutte le reti (sez. 7).
 - Modelli di attribuzione: restano solo **basato sui dati** e **ultimo clic** (sez. 4).
 - Aggiunta la sezione **9. Performance Max**, promessa dal titolo e assente.
+- **30/10/2026:** norme sulla pubblicità personalizzata: su inventario **YouTube** diventa ammessa la personalizzazione (pubblici, remarketing) per alcolici, prodotti correlati e bevande alternative all'alcol, non in Egitto, India, Indonesia e Polonia; restano vietati i target legati alla salute e verso i minori ([17598957](https://support.google.com/adspolicy/answer/17598957?hl=en)). Per un cliente vino o spirits cambia solo YouTube; Search e Display restano come prima.
 - Dati storici: CPA reali prima e dopo il 17/08/2026 non sono confrontabili a parità di target; rapporti termini di ricerca prima e dopo la migrazione AI Max vanno letti separando keyword e AI Max.
 
 ---

@@ -5,13 +5,13 @@ description: "Regole operative verificate su WordPress e WooCommerce per audit d
 
 # WordPress e WooCommerce: regole operative
 
-**Ultima verifica delle fonti: 28 settembre 2026.**
+**Ultima verifica delle fonti: 1 ottobre 2026.**
 
 ---
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
-1. **Finestra di freschezza: tre mesi per WordPress, sei settimane per WooCommerce.** WordPress fa tre major all'anno (7.0 il 20/05/2026, 7.1 il 19/08/2026, 7.2 prevista 8–10/12/2026) e release di sicurezza senza preavviso; WooCommerce esce **ogni 5 settimane** (beta il lunedì, major il martedì) e quasi ogni major porta un aggiornamento del database. Se la data qui sopra è più vecchia, prima di scrivere un preventivo o un brief si ricontrollano le sez. 1, 2 e 9.
+1. **Finestra di freschezza: tre mesi per WordPress, sei settimane per WooCommerce.** WordPress fa tre major all'anno (7.0 il 20/05/2026, 7.1 il 19/08/2026, 7.2 prevista 8–10/12/2026, Beta 1 20–22/10, RC1 17–19/11, code freeze 7–9/12, [pagina 7.2](https://make.wordpress.org/core/7-2/)) e release di sicurezza senza preavviso; WooCommerce esce **ogni 5 settimane** (beta il lunedì, major il martedì) e quasi ogni major porta un aggiornamento del database. Se la data qui sopra è più vecchia, prima di scrivere un preventivo o un brief si ricontrollano le sez. 1, 2 e 9.
 2. **Quando una fonte smentisce una regola scritta qui, si aggiorna la skill nello stesso turno**, si riscrive la data in cima e si annota cosa è cambiato e da quando.
 3. Due metà da tenere distinte: **conoscenza di dominio** (cosa dicono wordpress.org, developer.wordpress.org, woocommerce.com/document, developer.woocommerce.com, wordpress.com/support) e **meccanica del pannello** (sez. 14: cosa succede davvero dentro Bacheca, Salute del sito e WooCommerce → Impostazioni; si impara sbagliando e si scrive qui la prima volta).
 4. Dove si guardano i cambiamenti: [wordpress.org/news/category/releases](https://wordpress.org/news/category/releases/) · [make.wordpress.org/core](https://make.wordpress.org/core/) (schedule, dev notes) · [tabella PHP ufficiale](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/) · [developer.woocommerce.com/changelog](https://developer.woocommerce.com/changelog/) e [release calendar](https://developer.woocommerce.com/release-calendar/) · [wordpress.com/blog](https://wordpress.com/blog/) · [php.net/supported-versions](https://www.php.net/supported-versions.php).

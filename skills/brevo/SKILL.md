@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 30 settembre 2026.**
+**Ultima verifica delle fonti: 1 ottobre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -157,7 +157,7 @@ Fonti lette il 25/09/2026 ([4409354969746](https://help.brevo.com/hc/en-us/artic
 
 - **Si esclude dalle campagne principali chi non interagisce da 3-6 mesi** e lo si tratta con un flusso di riattivazione a parte; Brevo suggerisce di mettere in blocklist chi non ha aperto le ultime tre campagne, dopo un tentativo di winback ([360020418259](https://help.brevo.com/hc/en-us/articles/360020418259)).
 - **Pulizia almeno una volta l'anno**, e prima se salgono bounce, disiscrizioni e complaint. Candidati: segmento Unengaged, contatti creati **da più di 24 mesi** senza ordini, indirizzi generici (info@, sales@, noreply@), liste comprate (blocklist totale). Sempre **blocklist, mai cancellazione** ([5981839739538](https://help.brevo.com/hc/en-us/articles/5981839739538)).
-- Una lista **ferma da più di due anni** non è più considerata conforme: si riconferma il consenso con un invio uno-a-uno verso il form, non con una newsletter ([213405965](https://help.brevo.com/hc/en-us/articles/213405965), [360000454424](https://help.brevo.com/hc/en-us/articles/360000454424)).
+- Una lista **ferma da più di due anni** non è più considerata conforme ([213405965](https://help.brevo.com/hc/en-us/articles/213405965)); il consenso «vale per un tempo limitato» e va riconfermato a intervalli regolari. 🔴 **Procedura ufficiale di riconferma** ([360000454424](https://help.brevo.com/hc/en-us/articles/360000454424), riscritta il 30/09/2026): campagna dedicata, solo a chi ha già un opt-in e non si è disiscritto, con un **bottone** («Sì, voglio continuare a ricevere le email») che porta al sito o a una pagina di ringraziamento; poi in CRM > Contatti si segmenta con **Marketing > Email > Link clicked in an email** (campagna e URL del bottone), si crea una **lista nuova dal segmento** e da lì in poi si invia solo a quella; come prova si esporta il **report CSV per contatto** della campagna. Chi non clicca resta fuori. La versione precedente di questa riga («invio uno-a-uno verso il form») non è la procedura Brevo.
 - Gli **score** automatici (`SCORE_RFM`, `SCORE_ORDERING_BEHAVIOUR` con "Very late order", CLV) servono ai winback e-commerce; i predittivi (churn, CLV, acquisti) solo Professional/Enterprise con dati e-commerce ([30841377605010](https://help.brevo.com/hc/en-us/articles/30841377605010)).
 
 ---

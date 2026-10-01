@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 01/10/2026
+- 🔴 Sez. 3: procedura ufficiale di riconferma del consenso (articolo 360000454424 riscritto il 30/09/2026): campagna con bottone, segmento «Link clicked in an email», lista nuova dal segmento, export CSV per contatto come prova; sostituisce la riga «invio uno-a-uno verso il form». Articolo 360000454204 (form GDPR) riletto: invariato nelle regole. Data di verifica al 01/10.
 ## 30/09/2026
 - 🔴 Sez. 8: l'articolo «Create and manage your API keys» (209467485), riscritto da Brevo il 29/09/2026 alle 12:43 UTC, aggiunge le regole di scadenza: scadenza da 7 giorni a 1 anno oppure nessuna (email 3 giorni prima), e disattivazione automatica di ogni chiave senza chiamate riuscite da 90 giorni anche se non ha scadenza (email 7 giorni prima); riattivazione dalla stessa pagina; opzione «Create MCP server API key». Cambia una soglia che decide se un'integrazione poco usata continua a funzionare. Data di verifica al 30/09.
 ## 29/09/2026

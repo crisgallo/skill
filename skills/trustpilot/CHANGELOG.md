@@ -1,5 +1,8 @@
 # Changelog trustpilot
 
+## 01/10/2026
+- 🔴 Sez. 2, 3, 6, 13: Guidelines for Businesses v7.3 (settembre 2026) al posto della v7.2: contenuto AI fra i motivi di segnalazione, software di rilevazione sulle segnalate; aggiunte le regole ufficiali già presenti ma mai scritte qui: tre giorni al recensore prima di segnalare "non basata su esperienza reale" e una sola recensione per recensore nel TrustScore.
+- 🟡 Listino (pricing USD) riletto il 01/10: invariato. Data di verifica al 01/10.
 ## 25/09/2026
 - Data di verifica a 25 settembre 2026. Sez. 13: Product updates del 24/09/2026 (pagine recensione per prodotto, QR Code Collector, Location Reviews e API, Review Follow-up Targeting, Search Query Data, AI Search Market Insights, Multi-Domain e Custom Roles solo Enterprise).
 ## 24/09/2026

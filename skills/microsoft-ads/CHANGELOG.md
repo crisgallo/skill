@@ -1,5 +1,8 @@
 # Changelog microsoft-ads
 
+## 01/10/2026
+- 🔴 Sez. 9 e 13: post prodotto del 30/09/2026: liste aziende LinkedIn da 1.000 a 10.000 nomi, integrazione HubSpot in GA, Optimization Experiments in GA su Search/Shopping/Audience/PMax, API SOAP dismessa il 31/01/2027.
+- 🟡 Sez. 7: StatCounter Italia settembre 2026 (Google 87,31%, Bing 5,97%, Yahoo 5,00%, DuckDuckGo 0,69%). Data di verifica al 01/10.
 ## 20/09/2026
 
 - Prima stesura da fonti ufficiali: pagine help Microsoft Advertising lette sullo specchio learn.microsoft.com/advertising/msa-help (consenso UET e FAQ, setup UET e stati del tag, conversioni avanzate, cosa viene importato da Google Ads, importa campagne, import programmati, tipi di corrispondenza, generica, strategie di offerta, opzioni di budget, budget condiviso, rete Microsoft Advertising, distribuzione annunci, esclusioni, annunci in Copilot, FAQ remarketing, in-market, LinkedIn profile targeting, Customer Match, RSA, best practice Performance Max, upgrade DSA → PMax, import da Google Merchant Center, tasse e IVA, auto-apply), guida API import Google Ads e RSA, release notes API (13.0.29 del 04/08/2026), documentazione Clarity (UET e Clarity, 08/09/2026), blog about.ads.microsoft.com (AI Max GA 27/08/2026, product news agosto, giugno e aprile 2026, recap Activate 2026, "tre ere del web" aprile 2026, BMM maggio 2021, policy giugno 2023), pagina supporto Italia, Q&A Microsoft su IVA in fattura e traffico syndicated.

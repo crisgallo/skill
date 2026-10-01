@@ -5,7 +5,7 @@ description: "Regole operative verificate per configurare, igienizzare e interro
 
 # GA4: regole operative
 
-**Ultima verifica delle fonti: 30 settembre 2026.**
+**Ultima verifica delle fonti: 1 ottobre 2026.**
 
 ---
 
@@ -34,7 +34,7 @@ Primo giro di manutenzione sulle fonti ufficiali, con le note di rilascio GA4 (h
 - **Sezione 8, conservazione**: non tocca i confronti nei report standard, solo esplorazioni e canalizzazioni (https://support.google.com/analytics/answer/7667196).
 - **Sezione 2, referral**: stesso dominio e sottodomini sono già esclusi da soli; il traffico escluso eredita la sorgente precedente, non va sempre in diretto (https://support.google.com/analytics/answer/10327750).
 - **Chiusi i `[DA VERIFICARE]`** su eventi chiave (30/50), campionamento (10M), lookback (7/30 e 30/60/90) e definizioni personalizzate (50/50/25). Resta aperta la cardinalità.
-- **Novità agosto-settembre 2026** dalle note di rilascio: finestre di conversione personalizzate 11/08/2026 (sezione 6); Dashboard dentro Report 09/09/2026 (sezioni 3 e 5, https://support.google.com/analytics/answer/17217303); filtro Hostname 11/06/2026 (sezione 2, https://support.google.com/analytics/answer/13296761); dimensione Source group 11/06/2026 (sezione 4); raccolta Google Business Profile 08/06/2026 (sezione 5); importazione costi con valuta obbligatoria 28/07/2026 e report di validazione 10/08/2026 (sezione 5); conversioni delle app pienamente nei report di conversione (rendimento, analisi e modelli di attribuzione) per i clienti Google Ads 29/09/2026 (riguarda solo chi ha app collegate).
+- **Novità agosto-settembre 2026** dalle note di rilascio: finestre di conversione personalizzate 11/08/2026 (sezione 6); Dashboard dentro Report 09/09/2026 (sezioni 3 e 5, https://support.google.com/analytics/answer/17217303); filtro Hostname 11/06/2026 (sezione 2, https://support.google.com/analytics/answer/13296761); dimensione Source group 11/06/2026 (sezione 4); raccolta Google Business Profile 08/06/2026 (sezione 5); importazione costi con valuta obbligatoria 28/07/2026 e report di validazione 10/08/2026 (sezione 5); conversioni delle app pienamente nei report di conversione (rendimento, analisi e modelli di attribuzione) per i clienti Google Ads 29/09/2026 (riguarda solo chi ha app collegate). ⚠️ Interruzione del pannello la sera del 29/09/2026 (ora USA, notte del 30/09 in Italia), circa un'ora, chiusa da Google; nessun avviso ufficiale di dati persi trovato (cronaca [seroundtable](https://www.seroundtable.com/google-analytics-fix-42187.html), fonte terza): se nel report di settembre il 30/09 mostra un buco di sessioni, prima si confronta con un'altra fonte (Search Console, Ads, server) e poi si parla di calo.
 
 ---
 

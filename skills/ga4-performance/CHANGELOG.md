@@ -1,5 +1,7 @@
 # Changelog ga4-performance
 
+## 01/10/2026
+- 🟡 Sez. 0: interruzione del pannello GA4 del 29/09/2026 sera (ora USA), circa un'ora, fonte terza; controllo del 30/09 nei report di settembre prima di parlare di calo. Data di verifica al 01/10.
 ## 30/09/2026
 - 🟡 Sez. 0: nota di rilascio del 29/09/2026 (9164320): le conversioni delle app entrano pienamente nei report di conversione (rendimento, analisi e modelli di attribuzione) per i clienti Google Ads; nessuna regola cambia per chi misura solo siti web. Il filtro Hostname in modalità Includi del 21/09 era già in sez. 2. Data di verifica al 30/09.
 ## 29/09/2026

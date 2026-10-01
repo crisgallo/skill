@@ -5,14 +5,14 @@ description: "Regole operative verificate per usare Trello da project manager: p
 
 # Trello: regole operative
 
-**Ultima verifica delle fonti: 30 settembre 2026.**
+**Ultima verifica delle fonti: 1 ottobre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
 1. **Finestra di freschezza: due mesi.** Dal maggio 2025 Trello cambia a ritmo mensile (Inbox, Planner, mirror card, card completate, dipendenze, funzioni AI, OAuth 2.0 il 15/09/2026). Se la data in cima ha più di due mesi si rileggono prima di tutto: piani e quote, le pagine delle funzioni nuove e il changelog per sviluppatori.
 2. **Quando una fonte smentisce una regola scritta qui, si aggiorna la skill nello stesso turno**, si riscrive la data in cima e si annota cosa è cambiato e da quando.
 3. **Due metà da tenere distinte.** La conoscenza della piattaforma (verificata su support.atlassian.com/trello e developer.atlassian.com/cloud/trello) e le **regole di Cristiano** (sezioni 3-7 e 10, marcate 📌 con la data della chat e il file di memoria da cui vengono). Le seconde hanno la precedenza sulle prime: se Trello permette una cosa che Cristiano ha vietato, vale il divieto.
-4. Dove si guardano i cambiamenti: [What's new / Inside Atlassian, Trello](https://www.atlassian.com/blog/app/trello), [changelog API](https://developer.atlassian.com/cloud/trello/changelog/), [piani](https://support.atlassian.com/trello/docs/which-trello-plan-is-best-for-me/), [quote automazioni](https://support.atlassian.com/trello/docs/butler-quotas-and-limits/), [funzioni AI per piano](https://support.atlassian.com/trello/docs/manage-new-trello-features-as-an-enterprise-admin/).
+4. Dove si guardano i cambiamenti: [What's new / Inside Atlassian, Trello](https://www.atlassian.com/blog/app/trello), [What's new across Atlassian](https://community.atlassian.com/release-notes) (dal 01/10/2026 sostituisce le note di rilascio cloud settimanali su confluence.atlassian.com, ferme al 30/09/2026), [changelog API](https://developer.atlassian.com/cloud/trello/changelog/), [piani](https://support.atlassian.com/trello/docs/which-trello-plan-is-best-for-me/), [quote automazioni](https://support.atlassian.com/trello/docs/butler-quotas-and-limits/), [funzioni AI per piano](https://support.atlassian.com/trello/docs/manage-new-trello-features-as-an-enterprise-admin/).
 5. I numeri di questa skill vengono dalle pagine ufficiali lette il 30/09/2026 (prezzi da trello.com/pricing, in dollari, IVA esclusa). Le regole empiriche sono marcate come tali. Nulla di questa skill è marcato ✅ VERIFICATO: le osservazioni dal pannello di Cristiano sono citate come regole sue, con la data.
 
 ---

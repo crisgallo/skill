@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 01/10/2026
+- 🟡 Sez. 0: le note di rilascio cloud settimanali di Atlassian si fermano al 30/09/2026 e passano a «What's new across Atlassian» (community.atlassian.com/release-notes). Nessun cambiamento Trello nelle note del 7–28/09. Data di verifica al 01/10.
 ## 30/09/2026 (sera)
 - 🔴 Sez. 4: regola di Cristiano sulle attività che si ripetono (resa globale il 30/09/2026, da ScegliNatura, via chat di manutenzione): non si riaprono le voci, ogni giro ha le sue voci con il mese nel nome, date da una regola fissa approvata una volta, le voci del giro dopo si accodano nel passaggio che chiude l'ultima, nessuna routine scrive sulla card, l'audit del mattino avvisa se mancano.
 ## 30/09/2026

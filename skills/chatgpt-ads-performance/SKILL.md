@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 26 settembre 2026.**
+**Ultima verifica delle fonti: 1 ottobre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -32,6 +32,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 - ~17/09/2026: Basics e Overview aggiornati: piano **«Go»** (non «Standard»); personalizzazione con segnali dall'esperienza ChatGPT, **non in EEA/CH**.
 - 19-20/09/2026: Billing aggiornata: importo del blocco carta mostrato nel setup; saldo residuo addebitato a fine mese; pausa efficace entro 24 ore.
 - Pagina Campaigns: tabella **«Minimum Campaign Spend» con EUR 15 €/giorno**; account nuovi limitati al paese di casa; 56 paesi self-serve al 20/09, «più di 60» dal 24/09 (§2); multi-account ammesso (tetto 10); Bid Cap oCPC = offerta CPA.
+- 30/09/2026: **finestre di attribuzione e base temporale selezionabili anche sui quattro endpoint GET Insights**; omesse valgono **30 giorni clic, 1 giorno view, ad-event time**, i totali di conversione includono le view-through e possono non tornare con i report precedenti (impression, clic e spesa invariati). Nuovo endpoint **Audit Logs** (§9 e §11).
 
 ## 1. Che cos'è e chi la vede
 
@@ -178,6 +179,8 @@ Impression, clic, spesa, CTR, CPC medio, CPM medio, conversioni, per campagna, g
 
 **Attribuzione** (16/09/2026): finestra post clic **7, 14 o 30 giorni**; view-through **0 Day (disattivata) o 1 Day**. Solo reporting, last-touch, non tocca il bidding. 🔴 **Con 1 Day la colonna Conversions include le view-through**: per confrontare con GA4 si mette 0 Day o si legge la colonna Click-through. ⚠️ OpenAI avverte che i numeri **non coincideranno** con analytics di terze parti, anche per via della **misurazione modellata**. Quindi il pannello si usa per costo e consegna, il giudizio lo dà GA4. https://help.openai.com/en/articles/20001214-measure-results · https://openai.com/index/reimagining-advertising-with-ai/
 
+🔴 **Dal 30/09/2026 anche l'API applica le finestre di default quando i parametri sono omessi**: sui quattro GET Insights e su `POST /v1/conversions/insights` valgono `attribution_window_days` = 30, `view_through_attribution_window_days` = 1 e `attribution_time_basis` = `ad_event_time`. Uno script che prima leggeva solo le post-clic vede salire le conversioni, il CPA e il ROAS senza che sia cambiato nulla; per confrontare con GA4 si passa `view_through_attribution_window_days` = 0, per confrontare con Ads Manager si usano stesso intervallo, stessa base temporale e stesse finestre; `date_range.until` è inclusivo, `unix_range.end` esclusivo; `conversion_time` copre poco gli eventi non-goal. https://developers.openai.com/ads/reporting#understand-attribution
+
 **Parametri URL dinamici** `{campaign_id}`, `{ad_group_id}`, `{ad_id}`, `{ad_account_id}`, impostabili a livello campagna, gruppo o inserzione: il gruppo si legge in GA4 senza scrivere UTM a mano. https://help.openai.com/en/articles/20001214-measure-results
 
 ## 10. Policy
@@ -203,7 +206,8 @@ Impression, clic, spesa, CTR, CPC medio, CPM medio, conversioni, per campagna, g
 - Le campagne nascono in stato **`paused`**.
 - Piattaforme: `android_app`, `android_web`, `desktop_web`, `ios_app`, `ios_web`, `web` (10/09/2026). Geo: fino a 2.500 location ID, catalogo `ads.openai.com/assets/openai-geotargets.csv`.
 - Gruppi: `context_hints` e `exclusion_hints` (bulk API). Pubblici: add/remove/replace membri, bid multiplier (25/08/2026).
-- CAPI: `events[].user.obref` senza hash (16/07/2026). Insights: segmento platform senza conversioni.
+- CAPI: `events[].user.obref` senza hash (16/07/2026). Insights: segmento platform senza conversioni; dal 30/09/2026 parametri `attribution_window_days` (7/14/30, default 30), `view_through_attribution_window_days` (0/1, default 1) e `attribution_time_basis` (`ad_event_time` default, `conversion_time`) su tutti gli endpoint (§9).
+- **Audit Logs** (30/09/2026): `GET /audit_logs` elenca le modifiche a campagne, gruppi, inserzioni e altre risorse dell'account, con `before`/`after` per campo, `actor_type`/`actor_id`, `audit_log_type` (es. `update_campaign`) e timestamp `ts`; filtri `campaign_id` (include gruppi e inserzioni) e `ad_group_id`, `limit` 1-100 (default 50), cursori `after`/`before` da `last_id`/`first_id`, `order` asc/desc, nessun `total_count`. **Solo con chiave API Ads, non con token OAuth.** È il modo per sapere chi ha toccato cosa su un account condiviso con il cliente o con l'agenzia. https://developers.openai.com/ads/api-reference/audit-logs
 - Budget minimo: l'errore restituisce l'importo richiesto nella valuta dell'account.
 - 🔑 Il **changelog** in `developers.openai.com/ads` è la fonte più rapida sui cambi: si legge a ogni verifica (§0.5).
 
