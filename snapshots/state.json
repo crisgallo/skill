@@ -387,15 +387,6 @@
     "🟡 Sez. 1 e 8 (28/09): le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno, preorder e backorder compatibili con in_stock; origini «inventario online» deprecate a favore delle supplementari."
    ]
   },
-  "google-ads-performance": {
-   "dal": "2026-10-02",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 Sez. 0 e 7: dal 12/10/2026 promozioni automatiche su Search e Performance Max con asset posizione e senza asset promozione propri (email di servizio Google del 01/10): Google estrae coupon e offerte dal sito e le mette in annuncio, attivazione automatica a livello di account; si spegne da Campagne > Asset > Asset automatici a livello di account > Impostazioni avanzate > Promozioni automatiche, oppure si caricano promozioni manuali. Da decidere per ogni account con asset posizione prima del 12/10.",
-    "🔴 Sez. 0: dal 19/10/2026 norme sul nome dell'attività: nome diverso dal dominio ammesso se è il brand riconosciuto con relazione verificata e vendita diretta su quel dominio; esclusi rivenditori terzi, intermediari e affiliati. Pagina delle norme non ancora aggiornata.",
-    "🟡 Sez. 0: Customer Match a otto colonne, con IP e timestamp (non hashati). Sez. 6: dettagli della migrazione Display in Demand Gen (nome «#2», 100 campagne per lotto, 42 giorni di dati, 1-2 giorni di apprendimento)."
-   ]
-  },
   "seo-tecnica": {
    "dal": "2026-10-02",
    "livello": "minore",
@@ -408,7 +399,7 @@
   "brevo": "2026-10-01",
   "google-search-console": "2026-10-01",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-10-01",
+  "google-ads-performance": "2026-10-02",
   "looker-studio": "2026-09-29",
   "trustpilot": "2026-10-01",
   "google-merchant-center": "2026-09-28",
