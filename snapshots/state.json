@@ -399,7 +399,8 @@
    "dal": "2026-10-02",
    "livello": "sostanziale",
    "voci": [
-    "🔴 Sez. 9, 13 e 14: regola tua verificata il 02/10 (manutenzione): nelle Impostazioni predefinite delle campagne c'è un solo «Salva» e un mittente predefinito non verificato blocca tutto, esclusioni MPP e bot comprese; accenderle ricalcola subito anche le campagne già inviate (aperture da 23,23% a 17,49%, clic da 10,73% a 1,6% su un caso), quindi i report precedenti non sono confrontabili e la data va annotata."
+    "🔴 Sez. 9, 13 e 14: regola tua verificata il 02/10 (manutenzione): nelle Impostazioni predefinite delle campagne c'è un solo «Salva» e un mittente predefinito non verificato blocca tutto, esclusioni MPP e bot comprese; accenderle ricalcola subito anche le campagne già inviate (aperture da 23,23% a 17,49%, clic da 10,73% a 1,6% su un caso), quindi i report precedenti non sono confrontabili e la data va annotata.",
+    "🔴 Sez. 13: regola tua verificata il 02/10 (manutenzione): un modulo newsletter senza captcha e campo trappola si riempie di iscrizioni automatiche (nomi a caso, flusso continuo, conferme cliccate in 10-70 secondi da programmi); nei segmenti «Qualsiasi tipo di email» conta anche i clic sulle transazionali, quindi i bot passano per attivi; prima di ogni newsletter su un account ereditato si controllano i contatti recenti, i sospetti si escludono dal segmento e vanno in blocklist, al sito si chiedono captcha, campo trappola, limite per IP e iscrizione solo dopo la conferma."
    ]
   }
  },

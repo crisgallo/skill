@@ -1,6 +1,7 @@
 # Changelog brevo
 
 ## 02/10/2026
+- 🔴 Sez. 13: regola di Cristiano verificata il 02/10/2026 (chat di manutenzione): iscrizioni automatiche da moduli senza captcha (segni, conferme cliccate in 10-70 secondi, «Qualsiasi tipo di email» nei segmenti conta anche le transazionali); sospetti esclusi dal segmento e in blocklist, protezioni da chiedere al sito.
 - 🔴 Sez. 9, 13 e 14: regola di Cristiano verificata il 02/10/2026 (chat di manutenzione): le Impostazioni predefinite delle campagne hanno un solo «Salva» e un mittente predefinito non verificato blocca tutto, esclusioni MPP e bot comprese; l'accensione ricalcola subito anche le campagne già inviate (aperture 23,23% → 17,49%, clic 10,73% → 1,6% su un caso); domanda aperta della sez. 14 risolta.
 ## 01/10/2026
 - 🔴 Sez. 3: procedura ufficiale di riconferma del consenso (articolo 360000454424 riscritto il 30/09/2026): campagna con bottone, segmento «Link clicked in an email», lista nuova dal segmento, export CSV per contatto come prova; sostituisce la riga «invio uno-a-uno verso il form». Articolo 360000454204 (form GDPR) riletto: invariato nelle regole. Data di verifica al 01/10.
