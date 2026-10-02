@@ -349,10 +349,11 @@
  "pendenti": {
   "ga4-performance": {
    "dal": "2026-09-30",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 Sez. 0: nota di rilascio del 29/09/2026: conversioni delle app pienamente nei report di conversione per i clienti Google Ads; nessuna regola cambia per i siti web.",
-    "🟡 Sez. 0: interruzione del pannello GA4 la sera del 29/09/2026 (circa un'ora, fonte terza): controllare il 30/09 nei report di settembre prima di parlare di calo."
+    "🟡 Sez. 0: interruzione del pannello GA4 la sera del 29/09/2026 (circa un'ora, fonte terza): controllare il 30/09 nei report di settembre prima di parlare di calo.",
+    "🔴 Sez. 4: regola tua verificata sul pannello il 01/10 (manutenzione): il pulsante «Nuovo evento chiave» non c'è più; un evento non ancora arrivato si marca come chiave con «Crea evento», interruttore «Contrassegna come evento chiave» e «Crea con codice»; il valore predefinito parte a 1 USD e si salva anche scegliendo «Non impostare»: si corregge dal menu della riga e si controlla nella Cronologia delle modifiche."
    ]
   },
   "wordpress-woocommerce": {
@@ -392,6 +393,13 @@
    "livello": "minore",
    "voci": [
     "🟡 Sez. 14: spam update di settembre 2026 ancora in corso al 02/10 con una seconda ondata il 30/09 (fonte terza); pagina creating-helpful-content aggiornata il 01/10/2026 (chi, come, perché; automazione)."
+   ]
+  },
+  "brevo": {
+   "dal": "2026-10-02",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 Sez. 9, 13 e 14: regola tua verificata il 02/10 (manutenzione): nelle Impostazioni predefinite delle campagne c'è un solo «Salva» e un mittente predefinito non verificato blocca tutto, esclusioni MPP e bot comprese; accenderle ricalcola subito anche le campagne già inviate (aperture da 23,23% a 17,49%, clic da 10,73% a 1,6% su un caso), quindi i report precedenti non sono confrontabili e la data va annotata."
    ]
   }
  },

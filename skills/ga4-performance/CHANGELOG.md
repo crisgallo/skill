@@ -1,5 +1,7 @@
 # Changelog ga4-performance
 
+## 02/10/2026
+- 🔴 Sez. 4: regola di Cristiano verificata sul pannello il 01/10/2026 (chat di manutenzione): «Nuovo evento chiave» non esiste più; evento chiave anticipato con «Crea evento» + «Contrassegna come evento chiave» + «Crea con codice»; trappola del valore predefinito 1 USD che si salva anche scegliendo «Non impostare», correzione dal menu della riga. Riga estesa, 399 righe.
 ## 01/10/2026
 - 🟡 Sez. 0: interruzione del pannello GA4 del 29/09/2026 sera (ora USA), circa un'ora, fonte terza; controllo del 30/09 nei report di settembre prima di parlare di calo. Data di verifica al 01/10.
 ## 30/09/2026
