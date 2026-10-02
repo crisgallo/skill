@@ -1,5 +1,7 @@
 # Changelog gtm-server-side
 
+## 02/10/2026
+- 🟡 Sez. 11: documentazione Cookie Keeper riscritta il 02/10/2026 (oltre 40 cookie, attivazione per piattaforma, snippet del Custom Loader da aggiornare); piani invariati. Data di verifica al 02/10.
 ## 01/10/2026
 - 🔴 Sez. 4: regola di Cristiano sull'Anteprima corretta (chat di manutenzione, `gtm_e_consenso.md`, 01/10/2026): la pagina del sito si apre in una finestra nuova fuori dal gruppo di schede della chat, quindi clicca e compila sempre Cristiano anche se l'Anteprima l'ha aperta la chat; seconda sessione rompe il collegamento; dialogo «Arresta debug» si annulla; la scheda Tag Assistant non si chiude da Chrome. Finestra nuova confermata su 6107056.
 ## 29/09/2026

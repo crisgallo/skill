@@ -1,5 +1,7 @@
 # Changelog seo-tecnica
 
+## 02/10/2026
+- 🟡 Sez. 14: spam update di settembre 2026 ancora in corso al 02/10, seconda ondata del 30/09 (fonte terza); pagina creating-helpful-content aggiornata il 01/10/2026 (chi, come, perché; automazione). Data di verifica al 02/10.
 ## 25/09/2026
 - Data di verifica a 25 settembre 2026. Sez. 14: September 2026 spam update dal 24/09/2026 (Search Status Dashboard) e regola di lettura di un calo dal 24/09. Sez. 6: VideoObject con creator/author e interactionStatistic chiariti (documentazione 24/09/2026); filtro multimodale in Search Console (blog Search Central 24/09/2026).
 ## 23/09/2026

@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 1 ottobre 2026.**
+**Ultima verifica delle fonti: 2 ottobre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -34,6 +34,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 - Pagina Campaigns: tabella **«Minimum Campaign Spend» con EUR 15 €/giorno**; account nuovi limitati al paese di casa; 56 paesi self-serve al 20/09, «più di 60» dal 24/09 (§2); multi-account ammesso (tetto 10); Bid Cap oCPC = offerta CPA.
 - 30/09/2026: **finestre di attribuzione e base temporale selezionabili anche sui quattro endpoint GET Insights**; omesse valgono **30 giorni clic, 1 giorno view, ad-event time**, i totali di conversione includono le view-through e possono non tornare con i report precedenti (impression, clic e spesa invariati). Nuovo endpoint **Audit Logs** (§9 e §11).
 - 30/09/2026 (newsletter OpenAI «ChatGPT Ads Product Updates» del 30/09/2026 ricevuta da Cristiano): **caricamento in blocco delle campagne da product feed** da foglio (Campaigns > Bulk uploads > Bulk sheet, modello «Product feed», annunci generati in automatico); **stato di revisione dei prodotti** nella scheda Products; conversioni **oltre l'obiettivo di campagna** nell'API Insights; **nome account, nome brand e nome legale separati** in Settings > General (§2); inserzioni servite anche in Indonesia, Malesia, Filippine, Singapore, Thailandia, Vietnam e Taiwan (§1).
+- 02/10/2026: pagina **Hotel property feeds** (beta chiusa, solo inserzionisti approvati; schema `hotel_property_v1`, una riga per struttura, feed separato dal product feed): non riguarda l'e-commerce, si annota e basta.
 
 ## 1. Che cos'è e chi la vede
 

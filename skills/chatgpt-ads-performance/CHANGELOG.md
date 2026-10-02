@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 02/10/2026
+- 🟡 Sez. 0: feed alberghieri in beta chiusa (02/10/2026), non pertinenti. Pagine API rilette: nessun altro cambio. Data di verifica al 02/10.
 ## 01/10/2026
 - 🔴 Sez. 0, 2, 7 e 9 (newsletter OpenAI del 30/09/2026 segnalata da Cristiano): tre nomi separati con le regole di pausa (brand ferma la consegna, legale riavvia la revisione); campagne da product feed in blocco da foglio e stato di revisione dei prodotti; conversioni oltre l'obiettivo nell'API con include attributed_events; mercati asiatici già in sez. 1.
 - 🔴 Sez. 0, 9, 11: changelog API del 30/09/2026: finestre di attribuzione e base temporale su tutti gli endpoint Insights con default 30 giorni clic, 1 giorno view, ad-event time (i totali includono le view-through); nuovo endpoint Audit Logs (solo chiave API). Data di verifica al 01/10.
