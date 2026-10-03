@@ -445,6 +445,13 @@
    "voci": [
     "🔴 Sez. 4 e 5: regole tue del 02/10 (Trello): le voci nate dalla posta stanno su ogni card nella checklist «Email da gestire», numerate P1, P2, P3, e non si rinumerano; prendono la data con la regola fissa: scadenza della mail, altrimenti il giorno lavorativo dopo alle 09:00, oggi se urgente."
    ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-10-03",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 Sez. 0, 4 e 7: correzione verificata sul pannello il 02/10 (manutenzione): le conversioni avanzate web e lead non sono ancora un interruttore unico, in Impostazioni conversioni ci sono due righe con due metodi (Tag Google per il web, Google Tag Manager per i lead); si guarda quante righe mostra l'account prima di configurare. Lo stato «attiva» e la diagnostica compaiono solo dopo il primo invio con dati utente."
+   ]
   }
  },
  "ultima_mail": {

@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 03/10/2026
+- 🔴 Sez. 0, 4 e 7: correzione dalla chat di manutenzione (pannello verificato il 02/10/2026): le conversioni avanzate web e lead non sono ancora una funzione unica su un account reale, due righe con due metodi in Impostazioni conversioni; la guida 16884284 parla ancora al futuro. Aggiunto che lo stato «attiva» e la diagnostica compaiono solo dopo il primo invio con dati utente.
 ## 02/10/2026
 - 🔴 Sez. 0 e 7: promozioni automatiche dal 12/10/2026 su Search e PMax con asset posizione (email di servizio Google del 01/10, pagine 18057626 e 7175034): attivazione automatica, percorso per spegnerle, controllo in igiene.
 - 🔴 Sez. 0: norme sul nome dell'attività dal 19/10/2026 (email di servizio del 01/10): nome diverso dal dominio ammesso con relazione verificata, esclusi rivenditori e affiliati; pagina 14847993 non ancora aggiornata.
