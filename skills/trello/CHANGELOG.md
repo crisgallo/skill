@@ -1,6 +1,7 @@
 # Changelog trello
 
 ## 03/10/2026
+- 🔴 Sez. 4 e 5 (chat di manutenzione, decisioni di Cristiano del 02 e 03/10): eccezione «Appunti» con voci A1, A2, A3 dalla Inbox di Promemoria e la loro data; corretta la data delle voci P: giorno lavorativo dopo l'arrivo alle 09:00, oggi se urgente, mai oltre (la scadenza lontana va nel commento), pagamenti di banca a 30 giorni dalla fattura.
 - 🔴 Sez. 4 e 5: regole di Cristiano del 02/10/2026 (feedback_trello_checklist_numerate e feedback_trello_date_sui_task): le voci nate dalla posta stanno nella checklist «Email da gestire» numerate P1, P2, P3 e non si rinumerano; prendono la data con la regola fissa (scadenza della mail, altrimenti il giorno lavorativo dopo alle 09:00, oggi se urgente).
 ## 01/10/2026
 - 🟡 Sez. 0: le note di rilascio cloud settimanali di Atlassian si fermano al 30/09/2026 e passano a «What's new across Atlassian» (community.atlassian.com/release-notes). Nessun cambiamento Trello nelle note del 7–28/09. Data di verifica al 01/10.
