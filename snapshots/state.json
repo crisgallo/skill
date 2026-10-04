@@ -281,7 +281,7 @@
       },
       "feedback_pianificazione_spazio_calendario.md": {
         "modificato": "2026-10-04",
-        "esito": "integrata il 04/10/2026 in trello sez. 4, 5, 8 e 9 (spazio a calendario, durata nel titolo, trello.py sceglie l'ora)"
+        "esito": "integrata il 04/10/2026 in trello sez. 4, 5, 8 e 9 (spazio a calendario, durata nel titolo, trello.py sceglie l'ora; versione serale: festivi lavorabili, calendari dei task e spostamenti di Cristiano)"
       }
     }
   },
@@ -448,7 +448,8 @@
       "livello": "sostanziale",
       "voci": [
         "🔴 Sez. 4 e 5: regole tue del 02 e 03/10 (Trello): le voci nate dalla posta stanno su ogni card nella checklist «Email da gestire», numerate P1, P2, P3, con data al giorno lavorativo dopo l'arrivo alle 09:00, oggi se urgente, mai oltre (la scadenza lontana va nel commento; pagamenti banca a 30 giorni dalla fattura); gli appunti dettati a Promemoria vanno nella checklist «Appunti» come A1, A2, A3 con la data detta nell'appunto o il giorno lavorativo dopo alle 09:00; nessuna chat le rinumera.",
-        "🔴 04/10: sez. 4, 5, 8, 9: ogni voce ha il suo spazio a calendario (regola globale di Cristiano del 04/10/2026, feedback_pianificazione_spazio_calendario): giorno scelto da chi crea la voce, ora scelta da trello.py nel primo spazio libero (slot, --entro, --fissa, lucchetto), giornata 8-19 senza pausa dal 05/10, weekend lavorabile tranne Treviso, eventi di tutto il giorno bloccano, tre quarti del tempo libero, durata fra quadre dopo il numero a quarti d'ora, rate fisse a 15 min, calendari trello_task_job e trello_task_pvt"
+        "🔴 04/10: sez. 4, 5, 8, 9: ogni voce ha il suo spazio a calendario (regola globale di Cristiano del 04/10/2026, feedback_pianificazione_spazio_calendario): giorno scelto da chi crea la voce, ora scelta da trello.py nel primo spazio libero (slot, --entro, --fissa, lucchetto), giornata 8-19 senza pausa dal 05/10, weekend lavorabile tranne Treviso, eventi di tutto il giorno bloccano, tre quarti del tempo libero, durata fra quadre dopo il numero a quarti d'ora, rate fisse a 15 min, calendari trello_task_job e trello_task_pvt",
+        "🔴 04/10 sera: sez. 5, 8, 9: festivi lavorabili come i weekend; copia di ogni voce datata nei calendari Google trello_task_job e trello_task_pvt scritti da trello.py (durata, colori, segno trello-voce), al posto dei feed iCalendar in ritardo; Cristiano sposta i task sul calendario e trello.py sincronizza riporta data e stima su Trello e ricolloca le altre voci; date solo con trello.py, mai MCP o Chrome"
       ]
     },
     "google-ads-performance": {
