@@ -1,5 +1,7 @@
 # Changelog google-merchant-center
 
+## 05/10/2026
+- 🟡 Sez. 4: per WooCommerce la migrazione alla Merchant API richiede Google for WooCommerce 3.8.1 o successiva (documentazione WooCommerce letta il 05/10/2026).
 ## 28/09/2026
 - 🟡 Sez. 1: le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno, preorder/backorder compatibili con in_stock (3246284). Sez. 8: origini «inventario online» deprecate a favore delle supplementari (14990942). Fonti: troubleshooter prezzi 14280358 finalmente letto (albero interattivo, finestra di 48 ore del feed). Rilette senza cambi 12153802, 12159029, 12476548, 6069143, 6098334. Data di verifica al 28/09.
 ## 26/09/2026

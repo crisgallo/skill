@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 05/10/2026
+- 🟡 Sez. 0: aggiunta la pagina ufficiale della modifica sul nome dell'attività ([18287059](https://support.google.com/adspolicy/answer/18287059?hl=en), pubblicata il 01/10/2026): conferma condizioni ed esclusioni, dice solo «ottobre 2026»; il giorno resta [DA VERIFICARE] (19/10 nell'email di servizio, 16/10 per seroundtable). Non in skill: dal 05/10/2026 la policy «Government documents and services» ammette solo fornitori autorizzati da un sito governativo ([17260489](https://support.google.com/adspolicy/answer/17260489?hl=en)), fuori perimetro dei clienti.
 ## 03/10/2026
 - 🔴 Sez. 0, 4 e 7: correzione dalla chat di manutenzione (pannello verificato il 02/10/2026): le conversioni avanzate web e lead non sono ancora una funzione unica su un account reale, due righe con due metodi in Impostazioni conversioni; la guida 16884284 parla ancora al futuro. Aggiunto che lo stato «attiva» e la diagnostica compaiono solo dopo il primo invio con dati utente.
 ## 02/10/2026

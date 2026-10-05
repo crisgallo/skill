@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 05/10/2026
+- 🟡 Sez. 8: limiti di testo e tecnici delle guide immagine rilette il 05/10/2026: Facebook Stories 125/40 caratteri, larghezza minima 500 px, tolleranza 1 %, 8 secondi; Facebook Reels 40/55, 600×600, 3 %.
 ## 30/09/2026 (sera)
 - 🔴 Sez. 6: regola di Cristiano del 30/09/2026 (ScegliNatura, resa globale, via chat di manutenzione): nelle grafiche di prodotti con claim regolati solo i testi già presenti sulla scheda prodotto del sito, nessuna aggiunta; controllo a macchina parola per parola.
 ## 30/09/2026
