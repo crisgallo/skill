@@ -399,39 +399,6 @@
     }
   },
   "pendenti": {
-    "ga4-performance": {
-      "dal": "2026-09-30",
-      "livello": "sostanziale",
-      "voci": [
-        "🟡 Sez. 0: nota di rilascio del 29/09/2026: conversioni delle app pienamente nei report di conversione per i clienti Google Ads; nessuna regola cambia per i siti web.",
-        "🟡 Sez. 0: interruzione del pannello GA4 la sera del 29/09/2026 (circa un'ora, fonte terza): controllare il 30/09 nei report di settembre prima di parlare di calo.",
-        "🔴 Sez. 4: regola tua verificata sul pannello il 01/10 (manutenzione): il pulsante «Nuovo evento chiave» non c'è più; un evento non ancora arrivato si marca come chiave con «Crea evento», interruttore «Contrassegna come evento chiave» e «Crea con codice»; il valore predefinito parte a 1 USD e si salva anche scegliendo «Non impostare»: si corregge dal menu della riga e si controlla nella Cronologia delle modifiche."
-      ]
-    },
-    "wordpress-woocommerce": {
-      "dal": "2026-10-01",
-      "livello": "sostanziale",
-      "voci": [
-        "🟡 Sez. 0: calendario WordPress 7.2 (Beta 1 20–22/10, RC1 17–19/11, rilascio 8–10/12/2026); Gutenberg 24.1 del 30/09.",
-        "🔴 Sez. 7: regola tua del 01/10 (Blog, snippet WPCode «GTM events (JS)»): procedura per modificare uno snippet WPCode da Chrome senza rischiare il sito (anti cache, copia di sicurezza con somma di controllo, inserimento su marcatore, CRLF, cache di pagina, form agganciati)."
-      ]
-    },
-    "chatgpt-ads-performance": {
-      "dal": "2026-10-01",
-      "livello": "sostanziale",
-      "voci": [
-        "🔴 Sez. 2, 7 e 9 (newsletter OpenAI del 30/09): nome account, nome brand e nome legale separati, con il cambio del brand che ferma la consegna fino all'approvazione e il cambio del nome legale che riavvia la revisione; campagne da product feed create in blocco da foglio e stato di revisione dei prodotti nella scheda Products; conversioni oltre l'obiettivo di campagna leggibili dall'API con include attributed_events.",
-        "🟡 Sez. 0: feed alberghieri in beta chiusa (02/10/2026), non pertinenti."
-      ]
-    },
-    "gtm-server-side": {
-      "dal": "2026-10-01",
-      "livello": "sostanziale",
-      "voci": [
-        "🔴 Sez. 4: regola tua corretta il 01/10 (Blog): in Anteprima la pagina del sito si apre in una finestra nuova che la chat non vede, quindi clicchi e compili sempre tu; una seconda sessione rompe il collegamento; «Arresta debug» rimasto aperto si annulla; la scheda Tag Assistant la chiudi tu.",
-        "🟡 Sez. 11: documentazione Cookie Keeper di Stape riscritta il 02/10/2026 (oltre 40 cookie, attivazione per piattaforma, snippet del Custom Loader da aggiornare)."
-      ]
-    },
     "google-merchant-center": {
       "dal": "2026-09-26",
       "livello": "minore",
@@ -448,39 +415,6 @@
         "🟡 Sez. 14: spam update di settembre 2026 ancora in corso al 02/10 con una seconda ondata il 30/09 (fonte terza); pagina creating-helpful-content aggiornata il 01/10/2026 (chi, come, perché; automazione)."
       ]
     },
-    "brevo": {
-      "dal": "2026-10-02",
-      "livello": "sostanziale",
-      "voci": [
-        "🔴 Sez. 9, 13 e 14: regola tua verificata il 02/10 (manutenzione): nelle Impostazioni predefinite delle campagne c'è un solo «Salva» e un mittente predefinito non verificato blocca tutto, esclusioni MPP e bot comprese; accenderle ricalcola subito anche le campagne già inviate (aperture da 23,23% a 17,49%, clic da 10,73% a 1,6% su un caso), quindi i report precedenti non sono confrontabili e la data va annotata.",
-        "🔴 Sez. 13: regola tua verificata il 02/10 (manutenzione): un modulo newsletter senza captcha e campo trappola si riempie di iscrizioni automatiche (nomi a caso, flusso continuo, conferme cliccate in 10-70 secondi da programmi); nei segmenti «Qualsiasi tipo di email» conta anche i clic sulle transazionali, quindi i bot passano per attivi; prima di ogni newsletter su un account ereditato si controllano i contatti recenti, i sospetti si escludono dal segmento e vanno in blocklist, al sito si chiedono captcha, campo trappola, limite per IP e iscrizione solo dopo la conferma."
-      ]
-    },
-    "trello": {
-      "dal": "2026-10-03",
-      "livello": "sostanziale",
-      "voci": [
-        "🔴 Sez. 4 e 5: regole tue del 02 e 03/10 (Trello): le voci nate dalla posta stanno su ogni card nella checklist «Email da gestire», numerate P1, P2, P3, con data al giorno lavorativo dopo l'arrivo alle 09:00, oggi se urgente, mai oltre (la scadenza lontana va nel commento; pagamenti banca a 30 giorni dalla fattura); gli appunti dettati a Promemoria vanno nella checklist «Appunti» come A1, A2, A3 con la data detta nell'appunto o il giorno lavorativo dopo alle 09:00; nessuna chat le rinumera.",
-        "🔴 04/10: sez. 4, 5, 8, 9: ogni voce ha il suo spazio a calendario (regola globale di Cristiano del 04/10/2026, feedback_pianificazione_spazio_calendario): giorno scelto da chi crea la voce, ora scelta da trello.py nel primo spazio libero (slot, --entro, --fissa, lucchetto), giornata 8-19 senza pausa dal 05/10, weekend lavorabile tranne Treviso, eventi di tutto il giorno bloccano, tre quarti del tempo libero, durata fra quadre dopo il numero a quarti d'ora, rate fisse a 15 min, calendari trello_task_job e trello_task_pvt",
-        "🔴 04/10 sera: sez. 5, 8, 9: festivi lavorabili come i weekend; copia di ogni voce datata nei calendari Google trello_task_job e trello_task_pvt scritti da trello.py (durata, colori, segno trello-voce), al posto dei feed iCalendar in ritardo; Cristiano sposta i task sul calendario e trello.py sincronizza riporta data e stima su Trello e ricolloca le altre voci; date solo con trello.py, mai MCP o Chrome",
-        "🔴 05/10: sez. 3, 5, 9: Trello hub di tutte le cose da fare e Promemoria per avvisi, appunti e lista Spesa (regola globale del 04/10); sincronizza ogni 15 minuti con LaunchAgent sul Mac; ordine dei numeri dentro la checklist; Treviso workation, altri eventi di tutto il giorno si chiede prima"
-      ]
-    },
-    "google-ads-performance": {
-      "dal": "2026-10-03",
-      "livello": "sostanziale",
-      "voci": [
-        "🔴 Sez. 0, 4 e 7: correzione verificata sul pannello il 02/10 (manutenzione): le conversioni avanzate web e lead non sono ancora un interruttore unico, in Impostazioni conversioni ci sono due righe con due metodi (Tag Google per il web, Google Tag Manager per i lead); si guarda quante righe mostra l'account prima di configurare. Lo stato «attiva» e la diagnostica compaiono solo dopo il primo invio con dati utente.",
-        "🟡 05/10: sez. 0: pagina ufficiale della modifica sul nome dell'attività (18287059, «ottobre 2026», giorno da verificare 16 o 19/10)"
-      ]
-    },
-    "corsa-allenamento-salute": {
-      "dal": "2026-10-03",
-      "livello": "sostanziale",
-      "voci": [
-        "🔴 03/10: skill nuova (allenamento alla corsa per amatore adulto, dati Apple Watch e Salute, export.xml), confermata da Cristiano in chat il 03/10/2026"
-      ]
-    },
     "meta-ads-performance": {
       "dal": "2026-10-05",
       "livello": "minore",
@@ -490,27 +424,28 @@
     }
   },
   "ultima_mail": {
-    "brevo": "2026-10-01",
+    "brevo": "2026-10-05",
     "google-search-console": "2026-10-01",
     "seo-tecnica": "2026-09-25",
-    "google-ads-performance": "2026-10-02",
+    "google-ads-performance": "2026-10-05",
     "looker-studio": "2026-09-29",
     "trustpilot": "2026-10-01",
     "google-merchant-center": "2026-09-28",
     "sviluppo-web": "2026-09-25",
     "cristiano-gallinelli-persona": "2026-09-29",
-    "chatgpt-ads-performance": "2026-10-01",
-    "ga4-performance": "2026-09-29",
+    "chatgpt-ads-performance": "2026-10-05",
+    "ga4-performance": "2026-10-05",
     "linkedin-ads": "2026-09-23",
-    "wordpress-woocommerce": "2026-09-29",
+    "wordpress-woocommerce": "2026-10-05",
     "meta-ads-performance": "2026-10-01",
-    "gtm-server-side": "2026-09-29",
+    "gtm-server-side": "2026-10-05",
     "meta-pixel-capi": "2026-09-29",
-    "trello": "2026-10-01",
+    "trello": "2026-10-05",
     "grafica-web-design": "2026-09-30",
     "prestashop": "2026-10-01",
     "redmine-harvest": "2026-10-01",
-    "microsoft-ads": "2026-10-01"
+    "microsoft-ads": "2026-10-01",
+    "corsa-allenamento-salute": "2026-10-05"
   },
   "newsletter": {
     "ultima_lettura": "2026-10-05",
