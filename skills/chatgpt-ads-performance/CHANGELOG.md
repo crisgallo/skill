@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 06/10/2026
+- 🔴 Sez. 0 e 8: documentazione developers.openai.com del 06/10/2026 sui parametri di tracciamento dei product feed (precedenza Feed < Account < Campagna < Gruppo < Annuncio, tracking settings di account) e migrazione obbligatoria dall'ordine Legacy entro il 05/11/2026 con «Switch now» da amministratore. Sez. 0: annuncio OpenAI del 05/10/2026 del formato visivo accanto alle immagini generate (test solo USA, utenti Free e Go, dal mese in corso), nuovi partner di misurazione, piloti di brand suitability DoubleVerify e IAS, geo-test; non riguarda l'Italia (pagina ufficiale 403, letta via TechCrunch).
 ## 02/10/2026
 - 🟡 Sez. 0: feed alberghieri in beta chiusa (02/10/2026), non pertinenti. Pagine API rilette: nessun altro cambio. Data di verifica al 02/10.
 ## 01/10/2026

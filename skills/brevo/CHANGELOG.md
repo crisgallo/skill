@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 06/10/2026
+- 🔴 Sez. 11: `POST /contacts/batch` viene spento il 30/10/2026, si passa a `POST /v3/contacts/import` (changelog API Brevo, nota del 12/05/2026 letta il 06/10/2026); su un account ereditato si chiede all'integratore quale endpoint usa.
 ## 02/10/2026
 - 🔴 Sez. 13: regola di Cristiano verificata il 02/10/2026 (chat di manutenzione): iscrizioni automatiche da moduli senza captcha (segni, conferme cliccate in 10-70 secondi, «Qualsiasi tipo di email» nei segmenti conta anche le transazionali); sospetti esclusi dal segmento e in blocklist, protezioni da chiedere al sito.
 - 🔴 Sez. 9, 13 e 14: regola di Cristiano verificata il 02/10/2026 (chat di manutenzione): le Impostazioni predefinite delle campagne hanno un solo «Salva» e un mittente predefinito non verificato blocca tutto, esclusioni MPP e bot comprese; l'accensione ricalcola subito anche le campagne già inviate (aperture 23,23% → 17,49%, clic 10,73% → 1,6% su un caso); domanda aperta della sez. 14 risolta.
