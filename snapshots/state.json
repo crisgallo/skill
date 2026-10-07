@@ -136,8 +136,8 @@
     "esito": "integrata in meta-pixel-capi e meta-ads-performance il 29/09/2026"
    },
    "feedback_piattaforme_e_campagne.md": {
-    "modificato": "2026-10-01",
-    "esito": "integrata in google-ads-performance e meta-ads-performance il 29/09/2026 (test, modello, nomi, perimetro); Chrome di Cris e caricare la skill prima: regole di processo, nel report"
+    "modificato": "2026-10-07",
+    "esito": "integrata in google-ads-performance e meta-ads-performance il 29/09/2026 (test, modello, nomi, perimetro); 07/10: efficacia Eccellente in google-ads sez. 10; schede Chrome aperte e Chrome di Cris: regole di processo, nessuna skill del repository"
    },
    "feedback_report_e_numeri.md": {
     "modificato": "2026-09-28",
@@ -298,6 +298,10 @@
    "workflow_trello_cli.md": {
     "modificato": "2026-10-07",
     "esito": "integrata il 07/10/2026 in trello sez. 7 e 8 (commento con --voci-viste)"
+   },
+   "feedback_gads_efficacia_eccellente.md": {
+    "modificato": "2026-10-07",
+    "esito": "integrata in google-ads-performance sez. 10 il 07/10/2026"
    }
   }
  },
@@ -459,7 +463,8 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 07/10: sez. 9, 10 e 11 nuove (Performance Max diventa la 12), dalla copia locale di Cristiano del 05/09 su richiesta della chat [Blog] Ads #23: montaggio di una Search oltre il wizard (data di fine, secondo RSA, esclusioni, DSA, ACA, programmazione, IP), asset immagine su Search (niente overlay, requisiti di account 60 giorni e spesa 30 giorni), trappole del pannello, marchi nel testo (nessuna regola sul caso «Google Ads» nei titoli); efficacia dell'annuncio (non entra nell'asta, due RSA Buoni, quattro leve, pinning); nome e logo dell'attività (globo di default, spesa Search 28 giorni e verifica, 25 caratteri, logo, priorità, tempi)",
-    "🟡 07/10: sez. 1: AI Max, ACA e generica di campagna da settembre 2026, text customization ed espansione URL accese di default, non efficace su campagne limitate dal budget"
+    "🟡 07/10: sez. 1: AI Max, ACA e generica di campagna da settembre 2026, text customization ed espansione URL accese di default, non efficace su campagne limitate dal budget",
+    "🔴 07/10: sez. 10: regola di Cristiano: ogni annuncio adattabile si porta a efficacia «Eccellente», Buona non basta; si legge sul pannello al montaggio, quattro leve, posizioni fissate solo con più alternative"
    ]
   }
  },
