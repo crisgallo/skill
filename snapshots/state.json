@@ -448,13 +448,6 @@
    "voci": [
     "🔴 06/10: sez. 0 e 8: parametri di tracciamento dei product feed con precedenza Feed < Account < Campagna < Gruppo < Annuncio e migrazione obbligatoria dall'ordine Legacy entro il 05/11/2026 («Switch now» da amministratore); annuncio del 05/10 del formato visivo accanto alle immagini generate (test solo USA), nuovi partner di misurazione e piloti di brand suitability, non riguarda l'Italia"
    ]
-  },
-  "wordpress-woocommerce": {
-   "dal": "2026-10-07",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 07/10: sez. 0: WordPress 7.1.3 del 06/10/2026, release di sicurezza (7 falle e 4 bug, backport fino alla 4.7): su ogni sito cliente si verifica la 7.1.3 e si aggiorna il giorno stesso dove l'auto-update è spento"
-   ]
   }
  },
  "ultima_mail": {
@@ -470,7 +463,7 @@
   "chatgpt-ads-performance": "2026-10-05",
   "ga4-performance": "2026-10-05",
   "linkedin-ads": "2026-09-23",
-  "wordpress-woocommerce": "2026-10-05",
+  "wordpress-woocommerce": "2026-10-07",
   "meta-ads-performance": "2026-10-01",
   "gtm-server-side": "2026-10-05",
   "meta-pixel-capi": "2026-09-29",
