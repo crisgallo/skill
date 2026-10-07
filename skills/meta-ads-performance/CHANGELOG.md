@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 07/10/2026
+- 🟡 Blocco «Cosa è cambiato», sez. 5 e 6: annunci di Meta all'Advertising Week New York del 06/10/2026, dal post ufficiale su facebook.com/business/news letto il 07/10/2026: video generato dalle immagini statiche in Advantage+ Creative disponibile a tutti (stato di default non dichiarato, [DA VERIFICARE] sul pannello), Customer Lifecycle Strategy con proposta di esclusione dei clienti esistenti nelle campagne di acquisizione, pubblici descritti a parole in Targeting dettagliato entro fine 2026, generazione video in Ads Creative Studio e video da catalogo in test o beta. Nota che /business/news si legge, a differenza di /business/help.
 ## 05/10/2026
 - 🟡 Sez. 8: limiti di testo e tecnici delle guide immagine rilette il 05/10/2026: Facebook Stories 125/40 caratteri, larghezza minima 500 px, tolleranza 1 %, 8 secondi; Facebook Reels 40/55, 600×600, 3 %.
 ## 30/09/2026 (sera)

@@ -17,6 +17,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 - **27-28/07/2026:** Advantage+ Creative riscrive di default il testo dentro le immagini (sez. 6).
 - **06/08/2026:** suddivisioni dispositivo/ora/frequenza opt-in (sez. 7). **10/08/2026:** pubblici di sola esclusione (sez. 5).
 - **19-21/08/2026:** avviata la rimozione delle esclusioni di posizionamento a livello di gruppo (sez. 2).
+- **06/10/2026 (Advertising Week New York):** video generato dalle immagini statiche in Advantage+ Creative disponibile a tutti; Customer Lifecycle Strategy per le campagne di acquisizione; pubblici descritti a parole in Targeting dettagliato entro fine anno (sez. 5 e 6).
 
 ---
 
@@ -129,6 +130,7 @@ Sulle inserzioni viste in Europa Meta addebita un sovrapprezzo per Paese **fuori
 - **Pubblici di sola esclusione (dal 10/08/2026):** pubblico da lista clienti usabile solo per escludere, contrassegnato in libreria, **non convertibile in pubblico normale e non usabile come fonte di lookalike**. Fonti: [socialmediatoday 10/08/2026](https://www.socialmediatoday.com/news/meta-adds-dedicated-ad-exclusion-audiences/827520/) · [jonloomer](https://www.jonloomer.com/exclusion-only-custom-audiences/) · [commonthreadco](https://commonthreadco.com/blogs/coachs-corner/meta-exclusion-only-audiences-ecommerce-2026).
 - **Etichette sui pubblici (dal 16/07/2026):** lookalike e pubblici salvati **non sono etichettabili**, non cercarli per etichetta ([admakeai agosto 2026](https://admakeai.com/blog/meta-ads-updates-august-2026)).
 - **Meta One (abbonamento, dal 15/09/2026):** Competitive Insights, Custom Audience Insights, programmazione e badge verificati sono dietro paywall. Se uno strumento di lettura dei pubblici manca, può essere l'abbonamento e non un errore: da verificare sul pannello ([adsuploader](https://adsuploader.com/blog/meta-ads-updates)).
+- **Customer Lifecycle Strategy (dal 06/10/2026, per tutti gli inserzionisti):** si dichiara che la campagna è di acquisizione e il pannello propone di escludere i clienti esistenti («marketers can specify that a campaign is for acquisition, and they'll receive recommendations about excluding existing customers»). Il suggerimento va letto insieme alla retention a 730 giorni dei pubblici Acquisto: l'esclusione proposta può coprire due anni di clienti. **Pubblici descritti a parole in Targeting dettagliato:** annunciati per fine 2026, non ancora nel pannello. Fonte: [post ufficiale Meta, Advertising Week New York, 06/10/2026](https://www.facebook.com/business/news/advertising-week-new-york-2026) (letto il 07/10/2026).
 
 ---
 
@@ -143,6 +145,7 @@ Sulle inserzioni viste in Europa Meta addebita un sovrapprezzo per Paese **fuori
 - I video vanno pensati **muti**: in feed l'audio parte spento.
 - Se un elemento di firma (nome del prodotto, dominio, richiamo) sta ai bordi del fotogramma, nel verticale finisce **sotto l'interfaccia**. Va ancorato all'area sicura, non al bordo.
 - ⚠️ **Dal 27-28/07/2026 Advantage+ Creative riscrive di default il testo dentro le immagini caricate:** genera fino a 8 varianti di titolo sull'immagine mantenendo font, colori e layout. Il controllo su testo e area sicura non è più solo del file: si disattiva per singola creatività, oppure si limitano i termini in Branding (parole vietate, tono). Fonti: [commonthreadco](https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026) · [admakeai agosto 2026](https://admakeai.com/blog/meta-ads-updates-august-2026).
+- 🟡 **Dal 06/10/2026 Advantage+ Creative genera video dalle immagini statiche caricate, disponibile a tutti gli inserzionisti** (post ufficiale di Meta per l'Advertising Week New York, letto il 07/10/2026: «advertisers and agencies can now generate video from existing static assets», «now generally available»). Il post non dice se è attivo di default come la riscrittura del testo: `[DA VERIFICARE]` sul pannello alla prima creatività caricata dopo questa data, controllando i miglioramenti Advantage+ attivi su ogni creatività statica, perché un video generato dall'immagine ha area sicura e testo diversi dal file approvato. La generazione video dentro Ads Creative Studio e i video da catalogo sono ancora in test o beta. Fonte: [facebook.com/business/news](https://www.facebook.com/business/news/advertising-week-new-york-2026) (le pagine /business/news si leggono da questo ambiente, a differenza di /business/help).
 
 ---
 

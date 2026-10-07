@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 07/10/2026
+- 🔴 Sez. 3, 5 e 9 (chat Cowork, versioni del 06/10/2026 pomeriggio di `feedback_pianificazione_spazio_calendario.md` e `feedback_trello_hub_promemoria.md`, lette su Drive): un'ora detta da Cristiano si tiene anche fuori dalle 8-19 con `--fissa`; in un giorno bloccato si mette una voce solo col suo permesso (`--fissa --giorno-bloccato`); l'ordine dei numeri della checklist vale anche negli orari, con le eccezioni del «non prima di» e della scadenza; gli avvisi di Promemoria si scrivono per intero, con giorno della settimana e mese in italiano.
 ## 06/10/2026
 - 🔴 Sez. 5 e 9 (chat Cowork, versione del 06/10/2026 di `feedback_pianificazione_spazio_calendario.md`, letta su Drive): un task non fatto resta dov'era fino alle 19 e le non fatte si rimettono in fila dopo le 19 con un avviso solo; il tempo che si libera si riempie, con il limite `--non-prima` (comandi `nonprima` e `anticipabile`); le stime imparano dai task fatti (`stime_storico.jsonl`, correzione da 5 misure per tipo, tabella mensile `trello.py stime`); una voce con scadenza non cede il posto per l'ordine dei numeri e il giorno della scadenza passa davanti (06/10); le voci datate prima del 04/10 slittano come le altre e tengono la scadenza solo se dichiarata; voci di routine senza stima 15 minuti.
 ## 05/10/2026

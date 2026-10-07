@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 07/10/2026
+- 🔴 Sez. 0: WordPress 7.1.3 del 06/10/2026, release di sicurezza con 7 falle (fra cui lettura senza login dei commenti di post privati, SQL injection nell'export WXR, XSS in Commenti e negli embed Imgur) e 4 bug; backport fino alla 4.7; su ogni sito cliente si verifica la 7.1.3 e si aggiorna il giorno stesso dove l'auto-update è spento.
 ## 01/10/2026
 - 🔴 Sez. 7: regola di Cristiano (chat di manutenzione, `wordpress.md`, 01/10/2026): procedura per modificare uno snippet WPCode da Chrome senza rischiare il sito (controllo anti cache, copia in localStorage con somma di controllo, replaceRange su marcatore, CRLF, cache x-ac, form agganciati). Non verificata su editor diversi da CodeMirror.
 - 🟡 Sez. 0: calendario WordPress 7.2 (Beta 1 20–22/10, RC1 17–19/11, code freeze 7–9/12, rilascio 8–10/12/2026) dalla pagina ufficiale; Gutenberg 24.1 del 30/09 (strumenti di design uniformi fra blocchi, nessuna regola cambia). Doc Google for WooCommerce riletta: invariata (3.8.1 per la Merchant API già scritto). Data di verifica al 01/10.
