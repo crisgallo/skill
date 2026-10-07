@@ -200,8 +200,8 @@
     "esito": "versione del 04/10 allineata alla regola dello spazio a calendario, già in trello sez. 5"
    },
    "feedback_trello_passata_completa.md": {
-    "modificato": "2026-09-28",
-    "esito": "regola Trello, non integrata"
+    "modificato": "2026-10-07",
+    "esito": "integrata il 07/10/2026 in trello sez. 7 (controllo dello strumento sulle voci aperte di oggi)"
    },
    "feedback_trello_proattivo.md": {
     "modificato": "2026-09-28",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-10-06",
-    "esito": "integrata il 04-07/10/2026 in trello sez. 4, 5, 8 e 9 (versione del 06/10 13:56: ora fuori 8-19 con --fissa, giorno bloccato solo col permesso, ordine dei numeri anche negli orari con le eccezioni non-prima e scadenza)"
+    "modificato": "2026-10-07",
+    "esito": "integrata il 04-07/10/2026 in trello sez. 4, 5, 8 e 9 (versione del 07/10 08:23: Banca Etica nel suo giorno, avvisi al massimo uno all'ora col motivo)"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-10-06",
@@ -294,6 +294,10 @@
    "feedback_weekend_mai_e_capacita_trasferte.md": {
     "modificato": "2026-10-04",
     "esito": "superata dal 04/10/2026, citata in trello sez. 5"
+   },
+   "workflow_trello_cli.md": {
+    "modificato": "2026-10-07",
+    "esito": "integrata il 07/10/2026 in trello sez. 7 e 8 (commento con --voci-viste)"
    }
   }
  },
@@ -432,7 +436,8 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 06/10: sez. 5 e 9 (versione del 06/10 della regola sullo spazio a calendario): un task non fatto resta dov'era fino alle 19 e le non fatte si rimettono in fila dopo le 19 con un avviso solo; il tempo che si libera si riempie con il limite --non-prima; le stime imparano dai task fatti (stime_storico, correzione da 5 misure, tabella mensile trello.py stime); una voce con scadenza non cede il posto per l'ordine dei numeri e il giorno della scadenza passa davanti; le voci datate prima del 04/10 slittano come le altre",
-    "🔴 07/10: sez. 3, 5 e 9 (versioni del 06/10 pomeriggio): un'ora detta da Cristiano si tiene anche fuori dalle 8-19 con --fissa; in un giorno bloccato una voce entra solo col suo permesso (--fissa --giorno-bloccato); l'ordine dei numeri vale anche negli orari, salvo «non prima di» e scadenza; avvisi di Promemoria per intero, in italiano, con task, card e cosa è successo"
+    "🔴 07/10: sez. 3, 5 e 9 (versioni del 06/10 pomeriggio): un'ora detta da Cristiano si tiene anche fuori dalle 8-19 con --fissa; in un giorno bloccato una voce entra solo col suo permesso (--fissa --giorno-bloccato); l'ordine dei numeri vale anche negli orari, salvo «non prima di» e scadenza; avvisi di Promemoria per intero, in italiano, con task, card e cosa è successo",
+    "🔴 07/10 (seconda): sez. 5, 7, 8 e 9: trello.py commento non pubblica se la card ha voci aperte scadute o di oggi e le elenca (--voci-viste dopo averle guardate); le voci di Banca Etica restano nel loro giorno anche senza --non-prima; avvisi a Cristiano al massimo uno all'ora, ognuno col motivo, niente avviso per i suoi spostamenti e per gli aggiustamenti d'ora"
    ]
   },
   "brevo": {

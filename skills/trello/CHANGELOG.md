@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 07/10/2026 (seconda)
+- 🔴 Sez. 5, 7, 8 e 9 (versioni del 07/10/2026 08:17-08:23 di `feedback_pianificazione_spazio_calendario.md`, `feedback_trello_passata_completa.md` e `workflow_trello_cli.md`, lette su Drive; segnalate dalla chat [Manutenzione] Sistema #12): `trello.py commento` non pubblica se la card ha voci aperte scadute o di oggi e le elenca, `--voci-viste` dopo averle guardate (proposta di Progetto Kappa col sì di Cristiano del 07/10); le voci della card Banca Etica restano nel loro giorno anche senza `--non-prima`; avvisi a Cristiano al massimo uno all'ora, ognuno col motivo dello spostamento, senza avviso per gli spostamenti suoi e per gli aggiustamenti d'ora.
 ## 07/10/2026
 - 🔴 Sez. 3, 5 e 9 (chat Cowork, versioni del 06/10/2026 pomeriggio di `feedback_pianificazione_spazio_calendario.md` e `feedback_trello_hub_promemoria.md`, lette su Drive): un'ora detta da Cristiano si tiene anche fuori dalle 8-19 con `--fissa`; in un giorno bloccato si mette una voce solo col suo permesso (`--fissa --giorno-bloccato`); l'ordine dei numeri della checklist vale anche negli orari, con le eccezioni del «non prima di» e della scadenza; gli avvisi di Promemoria si scrivono per intero, con giorno della settimana e mese in italiano.
 ## 06/10/2026
