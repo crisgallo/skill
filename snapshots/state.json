@@ -448,6 +448,14 @@
    "voci": [
     "🔴 06/10: sez. 0 e 8: parametri di tracciamento dei product feed con precedenza Feed < Account < Campagna < Gruppo < Annuncio e migrazione obbligatoria dall'ordine Legacy entro il 05/11/2026 («Switch now» da amministratore); annuncio del 05/10 del formato visivo accanto alle immagini generate (test solo USA), nuovi partner di misurazione e piloti di brand suitability, non riguarda l'Italia"
    ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-10-07",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 07/10: sez. 9, 10 e 11 nuove (Performance Max diventa la 12), dalla copia locale di Cristiano del 05/09 su richiesta della chat [Blog] Ads #23: montaggio di una Search oltre il wizard (data di fine, secondo RSA, esclusioni, DSA, ACA, programmazione, IP), asset immagine su Search (niente overlay, requisiti di account 60 giorni e spesa 30 giorni), trappole del pannello, marchi nel testo (nessuna regola sul caso «Google Ads» nei titoli); efficacia dell'annuncio (non entra nell'asta, due RSA Buoni, quattro leve, pinning); nome e logo dell'attività (globo di default, spesa Search 28 giorni e verifica, 25 caratteri, logo, priorità, tempi)",
+    "🟡 07/10: sez. 1: AI Max, ACA e generica di campagna da settembre 2026, text customization ed espansione URL accese di default, non efficace su campagne limitate dal budget"
+   ]
   }
  },
  "ultima_mail": {
