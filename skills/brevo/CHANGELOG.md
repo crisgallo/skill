@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 08/10/2026
+- 🟡 Sez. 11: dal changelog API (06-07/10/2026): autenticazione OAuth 2.0 machine-to-machine accanto alla chiave API, guide SMTP per Base44, Bolt.new, Lovable, n8n, v0 e Supabase Auth. Nessuna regola cambiata.
 ## 06/10/2026
 - 🔴 Sez. 11: `POST /contacts/batch` viene spento il 30/10/2026, si passa a `POST /v3/contacts/import` (changelog API Brevo, nota del 12/05/2026 letta il 06/10/2026); su un account ereditato si chiede all'integratore quale endpoint usa.
 ## 02/10/2026

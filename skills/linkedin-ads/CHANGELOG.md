@@ -1,5 +1,7 @@
 # Changelog linkedin-ads
 
+## 08/10/2026
+- 🟡 Sez. Conversions API: pagina a1718034 (CAPI via GTM) aggiornata il 07/10/2026: un container server Stape per account idoneo senza costi dal setup guidato di Campaign Manager, condizioni di pubblicazione automatica, dati dopo qualche ora, dedup con eventId. Nessuna regola cambiata.
 ## 23/09/2026
 - Sez. 2: aggiunti i Buyer Groups (fino a tre categorie di prodotto) fra i pubblici generati automaticamente (a425184).
 

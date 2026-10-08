@@ -1,5 +1,7 @@
 # Changelog redmine-harvest
 
+## 08/10/2026
+- 🔴 Sez. 3: regola di Cristiano del 07/10/2026 (`feedback_email_solo_bozza.md`, globale): sul project Redmine di Webgriffe la chat scrive la nota e non salva, pubblica Cristiano; stato, assegnatario e percentuale non si toccano; dopo la pubblicazione si rilegge la versione salvata. Vale per Euroricambi, Takara e Shipminds.
 ## 01/10/2026
 - 🔴 Sez. 0 e 13: Redmine 7.0.2 e 6.1.5 del 01/10/2026, tre falle di cui due nell'API REST (soggetti di segnalazioni private e nomi di progetti privati esposti) e una XSS DOM; Rails 8.1.4 / 7.2.4. Data di verifica al 01/10.
 ## 30/09/2026

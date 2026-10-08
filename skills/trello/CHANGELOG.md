@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 08/10/2026
+- 🔴 Sez. 5 e 9 (versione del 07/10/2026 16:24 di `feedback_pianificazione_spazio_calendario.md`, letta su Drive): le voci della card Piante non si spostano mai; `--mai-spostare` per un task che Cristiano dice di non muovere, resta all'ora data anche a tempo scaduto; avviso una volta sola se un appuntamento nuovo si sovrappone a una voce messa da Cristiano, senza spostarla.
 ## 07/10/2026 (seconda)
 - 🔴 Sez. 5, 7, 8 e 9 (versioni del 07/10/2026 08:17-08:23 di `feedback_pianificazione_spazio_calendario.md`, `feedback_trello_passata_completa.md` e `workflow_trello_cli.md`, lette su Drive; segnalate dalla chat [Manutenzione] Sistema #12): `trello.py commento` non pubblica se la card ha voci aperte scadute o di oggi e le elenca, `--voci-viste` dopo averle guardate (proposta di Progetto Kappa col sì di Cristiano del 07/10); le voci della card Banca Etica restano nel loro giorno anche senza `--non-prima`; avvisi a Cristiano al massimo uno all'ora, ognuno col motivo dello spostamento, senza avviso per gli spostamenti suoi e per gli aggiustamenti d'ora.
 ## 07/10/2026

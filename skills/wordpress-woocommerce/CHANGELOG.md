@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 08/10/2026
+- 🔴 Sez. 0: WooCommerce 11.2.0 del 07/10/2026 con fix di sicurezza (Cc/Ccn sulle email di account, link di download, permessi degli shop manager, Blueprint solo da super admin su multisito, tracking d'uso), aggiornamento del database richiesto, conflitto con PublishPress Future fino a 4.10.3; novità: email di recesso, CSV per GTIN, campi data nel checkout. Release notes ufficiali lette l'08/10/2026.
 ## 07/10/2026
 - 🔴 Sez. 0: WordPress 7.1.3 del 06/10/2026, release di sicurezza con 7 falle (fra cui lettura senza login dei commenti di post privati, SQL injection nell'export WXR, XSS in Commenti e negli embed Imgur) e 4 bug; backport fino alla 4.7; su ogni sito cliente si verifica la 7.1.3 e si aggiorna il giorno stesso dove l'auto-update è spento.
 ## 01/10/2026
