@@ -1,5 +1,7 @@
 # Changelog seo-tecnica
 
+## 09/10/2026
+- 🟡 Sez. 14: September 2026 spam update completato l'08/10/2026 (14 giorni), dalla dashboard di stato di Google Search.
 ## 02/10/2026
 - 🟡 Sez. 14: spam update di settembre 2026 ancora in corso al 02/10, seconda ondata del 30/09 (fonte terza); pagina creating-helpful-content aggiornata il 01/10/2026 (chi, come, perché; automazione). Data di verifica al 02/10.
 ## 25/09/2026

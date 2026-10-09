@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 09/10/2026
+- 🟡 Sez. 1: crediti email prepagati (articolo 4409354969746 aggiornato l'08/10/2026): pacchetti da 5.000 a 1 milione, non scadono, funzioni Starter, add-on non rimborsabili; articolo prezzi 208589409 riletto, stessi numeri.
 ## 08/10/2026
 - 🟡 Sez. 11: dal changelog API (06-07/10/2026): autenticazione OAuth 2.0 machine-to-machine accanto alla chiave API, guide SMTP per Base44, Bolt.new, Lovable, n8n, v0 e Supabase Auth. Nessuna regola cambiata.
 ## 06/10/2026

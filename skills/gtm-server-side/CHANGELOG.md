@@ -1,5 +1,7 @@
 # Changelog gtm-server-side
 
+## 09/10/2026
+- 🔴 Sez. 9: nota di rilascio GTM dell'08/10/2026: i container si inizializzano al caricamento con o senza gtag('config') e i comandi config compaiono nel dataLayer come eventi gtag.config; controllo degli attivatori evento personalizzato con jolly e snippet gtag.js su ogni pagina per chi usa ancora il codice config. 🟡 17/09/2026: riepilogo di versione suggerito dall'AI.
 ## 02/10/2026
 - 🟡 Sez. 11: documentazione Cookie Keeper riscritta il 02/10/2026 (oltre 40 cookie, attivazione per piattaforma, snippet del Custom Loader da aggiornare); piani invariati. Data di verifica al 02/10.
 ## 01/10/2026

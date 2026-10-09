@@ -1,5 +1,7 @@
 # Changelog sviluppo-web
 
+## 09/10/2026
+- 🟡 Sez. 0 e 5: PHP 8.6.0 RC 3 uscita l'08/10/2026, RC 4 prevista il 22/10 (php.net).
 ## 25/09/2026
 - Data di verifica a 25 settembre 2026. Sez. 0 e 5: PHP 8.6 RC 2 del 24/09/2026 (RC 1 saltata, RC 3 l'08/10), release di sicurezza 8.2.34, 8.3.35 e 8.5.11 del 24/09/2026 (php.net).
 ## 20/09/2026

@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 09/10/2026
+- 🟡 Sez. 9: regola di Cristiano del 07/10/2026 (`feedback_task_di_progetto_chiedi_alla_chat.md`, letta su Drive): prima di proporre di anticipare o spostare un task di un progetto si chiede alla chat del progetto quali dipendenze ha; il calendario non le conosce.
 ## 08/10/2026
 - 🔴 Sez. 5 e 9 (versione del 07/10/2026 16:24 di `feedback_pianificazione_spazio_calendario.md`, letta su Drive): le voci della card Piante non si spostano mai; `--mai-spostare` per un task che Cristiano dice di non muovere, resta all'ora data anche a tempo scaduto; avviso una volta sola se un appuntamento nuovo si sovrappone a una voce messa da Cristiano, senza spostarla.
 ## 07/10/2026 (seconda)

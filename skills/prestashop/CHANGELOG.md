@@ -1,5 +1,7 @@
 # Changelog prestashop
 
+## 09/10/2026
+- 🟡 Sez. versioni: Core Monthly di settembre (08/10/2026): Hummingbird 2.1.2 con 9.2, moduli nativi aggiornati, nessuna 9.2.1 annunciata, PS Summit 4-5/11 con anteprima di PrestaShop 10.
 ## 01/10/2026
 - 🔴 Sez. 1, 13: PrestaShop 9.2.0 stabile del 30/09/2026 (PHP 8.1-8.5, Update Assistant 7.6.6 da 9.0.x/9.1.x, Hummingbird 2.1.2, interruttore one-page/quattro pagine, Extra Properties, Ask AI). 9.1.x superato, fine manutenzione [DA VERIFICARE]. Data di verifica al 01/10.
 ## 29/09/2026
