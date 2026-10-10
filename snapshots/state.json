@@ -64,8 +64,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_trello_checklist_avanzamento.md": {
-    "modificato": "2026-09-30",
-    "esito": "regola Trello, non integrata (ritocco del 28/09)"
+    "modificato": "2026-10-10",
+    "esito": "integrata in trello sez. 4 il 10/10/2026 (eccezione della mail programmata)"
    },
    "feedback_titoli_checklist_corti.md": {
     "modificato": "2026-09-25",
@@ -458,7 +458,8 @@
     "🔴 07/10 (seconda): sez. 5, 7, 8 e 9: trello.py commento non pubblica se la card ha voci aperte scadute o di oggi e le elenca (--voci-viste dopo averle guardate); le voci di Banca Etica restano nel loro giorno anche senza --non-prima; avvisi a Cristiano al massimo uno all'ora, ognuno col motivo, niente avviso per i suoi spostamenti e per gli aggiustamenti d'ora",
     "🔴 08/10: sez. 5 e 9: le voci della card Piante non si spostano mai; --mai-spostare per un task che Cristiano dice di non muovere; avviso una volta sola se un appuntamento nuovo si sovrappone a una voce messa da lui",
     "🟡 09/10: sez. 9: prima di proporre di anticipare o spostare un task di un progetto si chiede alla chat del progetto quali dipendenze ha",
-    "🔴 10/10: sez. 4 e 5: trello.py giornata <data> <ora> allunga o accorcia la giornata quando lo dice Cristiano; le voci della Pvt con un CRO nel nome non vanno a calendario e non si spostano; le azioni nostre di un verbale diventano voci datate nella stessa passata (data detta in call o giorno lavorativo dopo, senza --fissa); una voce creata per errore si spunta con commento «chiusa senza lavoro»"
+    "🔴 10/10: sez. 4 e 5: trello.py giornata <data> <ora> allunga o accorcia la giornata quando lo dice Cristiano; le voci della Pvt con un CRO nel nome non vanno a calendario e non si spostano; le azioni nostre di un verbale diventano voci datate nella stessa passata (data detta in call o giorno lavorativo dopo, senza --fissa); una voce creata per errore si spunta con commento «chiusa senza lavoro»",
+    "🟡 10/10: sez. 4: una mail programmata da Cristiano non apre la voce del controllo dell'invio; l'«invio programmato» tolto dagli esempi della regola delle due voci"
    ]
   },
   "brevo": {
