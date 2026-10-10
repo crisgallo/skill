@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 10/10/2026
+- 🟡 Sez. 0: WooCommerce 11.2.1 del 09/10/2026, correttiva (checkout classico senza campi indirizzo, CAP nel checkout a blocchi), senza fix di sicurezza né aggiornamento del database.
 ## 08/10/2026
 - 🔴 Sez. 0: WooCommerce 11.2.0 del 07/10/2026 con fix di sicurezza (Cc/Ccn sulle email di account, link di download, permessi degli shop manager, Blueprint solo da super admin su multisito, tracking d'uso), aggiornamento del database richiesto, conflitto con PublishPress Future fino a 4.10.3; novità: email di recesso, CSV per GTIN, campi data nel checkout. Release notes ufficiali lette l'08/10/2026.
 ## 07/10/2026

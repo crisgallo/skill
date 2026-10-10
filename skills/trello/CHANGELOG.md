@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 10/10/2026
+- 🔴 Sez. 4 e 5 (versioni del 09/10/2026 di `feedback_pianificazione_spazio_calendario.md`, `feedback_trello_date_sui_task.md`, `feedback_verbali_e_sal.md` e `feedback_bloccato_fai_l_alternativa.md`, lette su Drive): `trello.py giornata <data> <ora>` allunga o accorcia la giornata quando lo dice Cristiano; le voci della Pvt con un CRO nel nome non vanno a calendario e non si spostano; le azioni nostre di un verbale diventano voci datate nella stessa passata (data detta in call o giorno lavorativo dopo, senza `--fissa`); una voce creata per errore si spunta con un commento «chiusa senza lavoro» invece di chiederne la cancellazione.
 ## 09/10/2026
 - 🟡 Sez. 9: regola di Cristiano del 07/10/2026 (`feedback_task_di_progetto_chiedi_alla_chat.md`, letta su Drive): prima di proporre di anticipare o spostare un task di un progetto si chiede alla chat del progetto quali dipendenze ha; il calendario non le conosce.
 ## 08/10/2026

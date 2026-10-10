@@ -1,5 +1,7 @@
 # Changelog ga4-performance
 
+## 10/10/2026
+- 🟡 Sez. 0: nota di rilascio del 05/10/2026, User Groups Admin API per gestire i gruppi di utenti via API; nessuna regola cambiata.
 ## 02/10/2026
 - 🔴 Sez. 4: regola di Cristiano verificata sul pannello il 01/10/2026 (chat di manutenzione): «Nuovo evento chiave» non esiste più; evento chiave anticipato con «Crea evento» + «Contrassegna come evento chiave» + «Crea con codice»; trappola del valore predefinito 1 USD che si salva anche scegliendo «Non impostare», correzione dal menu della riga. Riga estesa, 399 righe.
 ## 01/10/2026
