@@ -1,5 +1,8 @@
 # Changelog gtm-server-side
 
+## 12/10/2026
+- 🟡 Sez. 7: prezzi Stape riletti sulla pagina pricing: Pro 20 $/mese a pagamento mensile (17 con l'annuale), Business 100 (83), Enterprise 200 (167); prima la skill riportava solo le cifre dell'annuale come prezzo mensile.
+
 ## 09/10/2026
 - 🔴 Sez. 9: nota di rilascio GTM dell'08/10/2026: i container si inizializzano al caricamento con o senza gtag('config') e i comandi config compaiono nel dataLayer come eventi gtag.config; controllo degli attivatori evento personalizzato con jolly e snippet gtag.js su ogni pagina per chi usa ancora il codice config. 🟡 17/09/2026: riepilogo di versione suggerito dall'AI.
 ## 02/10/2026
