@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 13/10/2026
+- 🟡 Sez. 9: regola di Cristiano dell'11/10/2026 (`feedback_passate_calendario_distanziate.md`, letta su Drive): mai due passate di `trello.py sincronizza` a pochi minuti di distanza, si aspetta quella automatica o 15 minuti e si prova con `--prova`; verifica su Google, non solo sul Mac.
+
 ## 12/10/2026
 - 🔴 Sez. 5, 8 e 9 (versione dell'11/10/2026 08:33 di `feedback_pianificazione_spazio_calendario.md`, letta su Drive): la giornata va dalle 9 alle 19 con pausa 13-14, tutti i giorni weekend e festivi compresi, riempita per intero (superate la giornata 8-19 senza pausa del 05/10 e la regola dei tre quarti); margine 21-23 solo per le voci con la scadenza quel giorno, con l'avviso «stasera N task dopo cena»; la misura delle stime parte da `trello.py inizia <card> <voce>`, lanciato dalla chat prima di cominciare un task chiesto da Cristiano (10/10), e le misure fra due spunte non valgono più; gli avvisi in Promemoria a ogni passata con solo titolo e numeri (cambi di oggi e sovrapposizioni), senza motivo (10/10, supera l'avviso orario col motivo del 07/10).
 

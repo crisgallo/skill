@@ -1,5 +1,8 @@
 # Changelog gtm-server-side
 
+## 13/10/2026
+- 🟡 Sez. 9: nota di rilascio GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: i container mandano i dati direttamente ai prodotti Google senza un gtag.js separato, destinazioni e tag collegati; disponibilità generale del flusso opt-in del 20/08.
+
 ## 12/10/2026
 - 🟡 Sez. 7: prezzi Stape riletti sulla pagina pricing: Pro 20 $/mese a pagamento mensile (17 con l'annuale), Business 100 (83), Enterprise 200 (167); prima la skill riportava solo le cifre dell'annuale come prezzo mensile.
 
