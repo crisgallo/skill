@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 14/10/2026
+- 🔴 Sez. 2: blocco «Metodo di test e lettura dei dati» dal corso «La cultura del dato» di Cristiano (lezioni 3b, 5 e 6 lette su Drive) e dalla sua decisione del 14/10/2026 su ScegliNatura («si testa finché non si trova l'assetto migliore»), su richiesta della chat [ScegliNatura] Ecommerce #29: quattro criteri di stop fissati prima, niente peeking, lettura solo alla data e sopra il minimo di osservazioni, campione contro differenza, «non significativo» non è «uguale», significatività statistica e pratica, clic non sono vendite, correlazione e causalità, sei domande davanti a un report, campione rappresentativo.
+
 ## 08/10/2026
 - 🟡 Sez. 6: guide immagine Facebook Feed e Instagram Stories rilette l'08/10/2026 (le quattro guide risultavano cambiate): Feed testo principale 50-150 caratteri, titolo 27, tolleranza 3 %; Instagram Stories 125 caratteri, 500 px, 1 %, aree 14/35/6 % invariate.
 ## 07/10/2026
