@@ -406,6 +406,10 @@
    "feedback_storia_effetto_televisore.md": {
     "modificato": "2026-10-13",
     "esito": "regola di progetto Blog (storia Instagram con effetto televisore), non integrata"
+   },
+   "concetti_corsi_ads_per_skill.md": {
+    "modificato": "2026-10-14",
+    "esito": "proposta della chat [ScegliNatura] Ecommerce #29 (cartella del progetto): regole di metodo A integrate in google-ads-performance e meta-ads-performance il 14/10/2026 dopo verifica delle lezioni su Drive; regole tecniche B e C e punti dalle checklist non integrati, fonti non lette qui"
    }
   }
  },
@@ -534,11 +538,12 @@
   },
   "meta-ads-performance": {
    "dal": "2026-10-05",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 05/10: sez. 8: limiti di testo Facebook Stories 125/40 e Reels 40/55, minimi e tolleranze delle guide immagine",
     "🟡 07/10: blocco «Cosa è cambiato», sez. 5 e 6: Advertising Week New York 06/10 (post ufficiale): video dalle immagini statiche in Advantage+ Creative per tutti ([DA VERIFICARE] se attivo di default), Customer Lifecycle Strategy con esclusione proposta dei clienti esistenti, pubblici descritti a parole in Targeting dettagliato entro fine anno",
-    "🟡 08/10: sez. 6: Facebook Feed testo principale 50-150 e titolo 27, tolleranza 3 %; Instagram Stories 125 caratteri, 500 px, 1 %"
+    "🟡 08/10: sez. 6: Facebook Feed testo principale 50-150 e titolo 27, tolleranza 3 %; Instagram Stories 125 caratteri, 500 px, 1 %",
+    "🔴 14/10: sez. 2: metodo di test e lettura dei dati dai corsi di Cristiano (lezioni 3b, 5 e 6 de «La cultura del dato») e dalla sua decisione del 14/10 su ScegliNatura, su richiesta della chat [ScegliNatura] Ecommerce #29: quattro criteri di stop fissati prima, niente peeking, lettura solo alla data e sopra il minimo di osservazioni, campione contro differenza, «non significativo» non è «uguale», significatività statistica e pratica, clic non sono vendite, correlazione e causalità, sei domande davanti a un report, campione rappresentativo"
    ]
   },
   "linkedin-ads": {
@@ -611,6 +616,13 @@
    "livello": "minore",
    "voci": [
     "🟡 14/10: sez. 8: via CAPI si mandano tutti gli eventi di conversione, non solo quelli con oppref, per includere le view-through (documentazione OpenAI del 14/10)"
+   ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-10-14",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 14/10: sez. 3: metodo di test e lettura dei dati dai corsi di Cristiano (lezioni 3b, 5 e 6 de «La cultura del dato») e dalla sua decisione del 14/10 su ScegliNatura, su richiesta della chat [ScegliNatura] Ecommerce #29: quattro criteri di stop fissati prima, niente peeking, lettura solo alla data e sopra il minimo di osservazioni, campione contro differenza, «non significativo» non è «uguale», significatività statistica e pratica, clic non sono vendite, correlazione e causalità, sei domande davanti a un report, campione rappresentativo"
    ]
   }
  },
