@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 14/10/2026
+- 🟡 Sez. 9 e 11: regola di Cristiano del 13/10/2026 (confronti fra campagne solo a parità di giorni dall'invio, `feedback_report_e_numeri.md`); changelog del 13/10/2026: endpoint del token OAuth M2M su api.brevo.com e scope esplicito (senza scope il token riceve tutti gli scope dell'app).
+
 ## 09/10/2026
 - 🟡 Sez. 1: crediti email prepagati (articolo 4409354969746 aggiornato l'08/10/2026): pacchetti da 5.000 a 1 milione, non scadono, funzioni Starter, add-on non rimborsabili; articolo prezzi 208589409 riletto, stessi numeri.
 ## 08/10/2026

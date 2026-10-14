@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 14/10/2026
+- 🟡 Sez. 9: versione del 13-14/10/2026 di `feedback_pianificazione_spazio_calendario.md` (letta su Drive): dal 13/10 le copie dei task le scrive `trello.py` direttamente su Google con la Calendar API, non più dal Calendario del Mac via EventKit (che fra il 09 e il 12/10 aveva rimesso versioni vecchie cinque volte).
+
 ## 13/10/2026
 - 🟡 Sez. 9: regola di Cristiano dell'11/10/2026 (`feedback_passate_calendario_distanziate.md`, letta su Drive): mai due passate di `trello.py sincronizza` a pochi minuti di distanza, si aspetta quella automatica o 15 minuti e si prova con `--prova`; verifica su Google, non solo sul Mac.
 

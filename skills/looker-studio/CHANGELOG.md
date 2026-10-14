@@ -1,5 +1,8 @@
 # Changelog looker-studio
 
+## 14/10/2026
+- 🟡 Sez. 9: regola di Cristiano del 13/10/2026 (`feedback_report_e_numeri.md`, letta su Drive): ogni confronto mette i paragonati sullo stesso piano e con gli stessi fattori (finestra, periodo, definizioni, vista dei dati), altrimenti si rimanda.
+
 ## 29/09/2026
 - 🔴 Sez. 10: regola di Cristiano dalla regola globale «Report e numeri per il cliente» del 28/09/2026 (`feedback_report_e_numeri.md`, promossa da Sceglinatura): report sempre mensili, confronto «prima di noi contro con noi», una fonte per numero (pannello che spende, gestionale, GA4 solo tendenze), niente dati provvisori né ROAS gonfiati, appendice sul metodo in coda. Fonti web e data di verifica invariate.
 ## 25/09/2026

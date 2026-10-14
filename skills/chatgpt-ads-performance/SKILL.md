@@ -169,7 +169,7 @@ Il parametro di clic è **`oppref`**, appeso alla destinazione; il pixel lo mett
 
 **Conversions API:** endpoint **`https://bzr.openai.com/v1/events?pid=<PIXEL-ID>`**, autenticazione **Bearer**. Fino a **1.000 eventi** per richiesta; ogni evento ha `id`, `type`, `timestamp_ms`, `action_source`, `user`, `data`. ⛔ Timestamp **entro 7 giorni** e non oltre 10 minuti nel futuro. ⛔ **Se un evento fallisce, fallisce tutto il lotto.**
 
-🔴 **Deduplicazione:** `id` della API uguale a `event_id` del pixel, stesso Pixel ID, stesso `custom_event_name` sugli eventi custom. Vince il primo arrivato. È la stessa forma della CAPI di Meta.
+🔴 **Deduplicazione:** `id` della API uguale a `event_id` del pixel, stesso Pixel ID, stesso `custom_event_name` sugli eventi custom. Vince il primo arrivato. È la stessa forma della CAPI di Meta. 🟡 **Si mandano via CAPI tutti gli eventi di conversione, non solo quelli con un `oppref`**: così le conversioni view-through entrano nelle metriche della campagna (raccomandazione aggiunta alla pagina Conversions API il 14/10/2026, https://developers.openai.com/ads/conversions-api).
 
 **Qualità degli eventi** (20/09/2026): per ogni data source c'è un **punteggio** e nove avvisi con nome e rimedio: email/customer ID mancanti, `oppref` non collegato, eventi CAPI in ritardo oltre 1 ora, match da rivedere, troppe conversioni sulla stessa interazione, matching aggiuntivo scarso, pochi tipi di evento, poca attività pixel/CAPI, goal senza eventi. Aggiornata ogni giorno su sette giorni pieni. ⚠️ La scala 1-10 è riportata da ppc.land, non vista nella pagina OpenAI: si lavora sugli avvisi. https://help.openai.com/en/articles/20001513-understand-and-improve-event-quality
 

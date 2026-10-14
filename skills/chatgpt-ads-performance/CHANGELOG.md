@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 14/10/2026
+- 🟡 Sez. 8: documentazione OpenAI del 14/10/2026: via CAPI si mandano tutti gli eventi di conversione, non solo quelli con `oppref`, per includere le view-through nelle metriche.
+
 ## 10/10/2026
 - 🔴 Sez. 8: la documentazione OpenAI (supported-events, cambiata il 09-10/10/2026) definisce `contents[].amount` come prezzo per unità con `quantity` a parte e l'`amount` di evento come valore dell'intero evento, con l'esempio 2 x 79900 = 159800; prima la riga era ambigua. Da verificare come le integrazioni attive riempiono `contents`.
 ## 06/10/2026
