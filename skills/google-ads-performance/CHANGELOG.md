@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 15/10/2026
+- 🔴 Sez. 12 e sez. 0: priorità dei canali e allocazione del budget (blog.google, 14/10/2026) per Search, Shopping, PMax e Demand Gen: canali Alta o Bassa priorità, percentuale massima di budget giornaliero sui bassi, «Google channels» in PMax e Demand Gen; da febbraio 2027 rimossa la ripartizione attuale nelle Search con Rete Display accesa (Display a Bassa priorità con 50 % per tenerla). Sez. 0: metrica Data Strength Uplift annunciata il 13/10/2026 nel Demand Gen Drop, non ancora vista su un account.
 ## 14/10/2026
 - 🔴 Sez. 3: blocco «Metodo di test e lettura dei dati» dal corso «La cultura del dato» di Cristiano (lezioni 3b, 5 e 6 lette su Drive) e dalla sua decisione del 14/10/2026 su ScegliNatura («si testa finché non si trova l'assetto migliore»), su richiesta della chat [ScegliNatura] Ecommerce #29: quattro criteri di stop fissati prima, niente peeking, lettura solo alla data e sopra il minimo di osservazioni, campione contro differenza, «non significativo» non è «uguale», significatività statistica e pratica, clic non sono vendite, correlazione e causalità, sei domande davanti a un report, campione rappresentativo.
 

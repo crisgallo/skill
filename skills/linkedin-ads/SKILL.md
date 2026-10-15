@@ -170,13 +170,14 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 ---
 
-## 15. Novità giugno–settembre 2026 (verificate su learn.microsoft.com)
+## 15. Novità giugno–ottobre 2026 (verificate su learn.microsoft.com)
 
 - **202606 (giugno)**: CTA "Non interessato" reso automatico su Conversation e Message ads; Dynamic UTM con `CREATIVE_NAME`; Company Intelligence API con lookback 365 giorni e costo per lead qualificato.
 - **202607 (luglio)**: `SHA256_IP_ADDRESS` in CAPI; per gli InMail a obiettivo lead la selezione creativa **OPTIMIZED** diventa default; i predittivi espongono l'`id`.
 - **202608 (agosto)**: Matched Audiences API in GA; **tetto 1.000 segmenti DMP per account** (429 oltre); tipi conversione **MQL e SQL**; campi DSA pagante/beneficiario sui campaign group; stop geo legacy 31/08/2026; **sunset versione 202508 il 17/08/2026**.
 - **202609 (settembre)**: hash nome/cognome in CAPI; **finestra 180 giorni** per più tipi di conversione; pivot DMA nel reporting; sunset 202510 il 15/10/2026.
-- **UI di Campaign Manager**: nessun annuncio datato trovato per giugno–settembre 2026: la pagina Product Updates è ferma al 31/03/2026 (conversion lift a livello campagna, Brand Lift rinnovato, Draft with AI, varianti IA, Flexible Ad Creation fino a 64 combinazioni, Brand Kit, Event ads e Live); le rassegne mensili di terzi (mean.ceo agosto e settembre 2026) dichiarano "nessun lancio confermato". Qualunque connettore o script che usa la Marketing API va migrato entro il 15/10/2026 (fonte: [recent-changes](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-09)).
+- 🟡 **202610 (ottobre, letta il 15/10/2026)**: campo `metadata` di sola lettura sulle creatività (formato, titolo, testo, landing, asset; si chiede con `fields`, non lo danno i finder); filtro `jobFunction` nella Company Intelligence API (solo con `LAST_90_DAYS`); metriche **`memberFollows` e `memberProfileClicks`** in `/adAnalytics` per Sponsored Update e Thought Leader Ads; Boost API per i post di membri e pagine. **Breaking change**: dalla **202611** le liste publisher (`/adPublisherRestrictions`) richiedono `surface` = `LAN` o `CTV`, altrimenti 400; dal **15/12/2026** una lista va abbinata a campagne dello stesso tipo di placement su ogni versione (le liste già attaccate continuano a funzionare). Sunset: **202510 il 15/10/2026**, **202511 il 16/11/2026**.
+- **UI di Campaign Manager**: nessun annuncio datato trovato per giugno–settembre 2026: la pagina Product Updates è ferma al 31/03/2026 (conversion lift a livello campagna, Brand Lift rinnovato, Draft with AI, varianti IA, Flexible Ad Creation fino a 64 combinazioni, Brand Kit, Event ads e Live); le rassegne mensili di terzi (mean.ceo agosto e settembre 2026) dichiarano "nessun lancio confermato". Qualunque connettore o script che usa la Marketing API va tenuto almeno alla 202511 fino al 16/11/2026 e poi oltre (fonte: [recent-changes](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-10)).
 
 ---
 
