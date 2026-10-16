@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 16/10/2026
+- 🟡 Sez. 8: pagina Conversions API riletta il 16/10/2026: le liste dei campi plurali dell'advanced matching accettano al massimo tre valori (anche unendo singolare e plurale), oltre HTTP 400 senza troncamento (prima: usati i primi tre, resto ignorato); `android_advertising_id` (GAID) solo via CAPI, IDFA non supportato, ID tutti zero ignorati; changelog del 19/08/2026 con i campi plurali e il GAID in CAPI e i nuovi campi del pixel.
 ## 14/10/2026
 - 🟡 Sez. 8: documentazione OpenAI del 14/10/2026: via CAPI si mandano tutti gli eventi di conversione, non solo quelli con `oppref`, per includere le view-through nelle metriche.
 

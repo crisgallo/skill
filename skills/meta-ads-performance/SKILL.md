@@ -18,6 +18,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 - **06/08/2026:** suddivisioni dispositivo/ora/frequenza opt-in (sez. 7). **10/08/2026:** pubblici di sola esclusione (sez. 5).
 - **19-21/08/2026:** avviata la rimozione delle esclusioni di posizionamento a livello di gruppo (sez. 2).
 - **06/10/2026 (Advertising Week New York):** video generato dalle immagini statiche in Advantage+ Creative disponibile a tutti; Customer Lifecycle Strategy per le campagne di acquisizione; pubblici descritti a parole in Targeting dettagliato entro fine anno (sez. 5 e 6).
+- 🟡 **15/10/2026 (Brand Building Summit, post ufficiale letto il 16/10/2026):** prodotti per il brand, non per la performance: **Ads Super Burst** (finestra prenotata da 3 a 24 ore con copertura e prezzo stimati in Reach Planner, esclusiva di categoria opzionale; in GA «questo mese» a fasi, senza elenco dei mercati); **First Impression Ads** (prima inserzione del feed Facebook all'apertura, un brand al giorno; test solo USA); **Reels Trending Ads** con 15 argomenti fissi e stagionali, esclusioni di pubblico «entro l'anno»; **Aggregated View Time** (tempo totale con il brand in una settimana, alpha). Nessuna di queste cambia le regole di questa skill; su un pannello italiano si verifica se la voce esiste prima di promettere qualcosa.
 
 ---
 

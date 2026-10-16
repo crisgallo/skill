@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 16/10/2026
+- 🔴 Sez. 4 e 12: regola di Cristiano del 15/10/2026 (`feedback_trello_voce_nuova_si_accoda.md`, globale): il numero di una voce nuova lo decide la sua data fra le voci aperte, le aperte successive scalano di uno, chiuse in testa, lo fa `trello.py nuova` e il numero non cambia più dopo la nascita; supera la regola del 05/09 (si accoda al primo numero libero) e il riordino per `due` del 07/09. Attività ricorrenti: le voci del giro dopo prendono il numero per data. In «cosa non fare» resta vietata solo la rinumerazione a mano.
 ## 15/10/2026
 - 🔴 Sez. 5: regola di Cristiano del 14/10/2026 (`feedback_trello_date_sui_task.md`, letta su Drive): quando è lui a chiedere una voce senza dire il giorno, il giorno lo sceglie la chat con un criterio di lavoro dichiarato e glielo dice dopo in una riga; resta il divieto del 28/09 di aprire voci di propria iniziativa senza una data vera.
 

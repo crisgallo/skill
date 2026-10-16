@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 16/10/2026
+- 🟡 Sez. 0: Brand Building Summit del 15/10/2026 (post ufficiale): Ads Super Burst in GA a fasi (finestra 3-24 ore, Reach Planner, esclusiva di categoria), First Impression Ads in test solo USA, Reels Trending Ads con 15 argomenti ed esclusioni di pubblico entro l'anno, Aggregated View Time in alpha. Prodotti per il brand, nessuna regola cambiata.
 ## 14/10/2026
 - 🔴 Sez. 2: blocco «Metodo di test e lettura dei dati» dal corso «La cultura del dato» di Cristiano (lezioni 3b, 5 e 6 lette su Drive) e dalla sua decisione del 14/10/2026 su ScegliNatura («si testa finché non si trova l'assetto migliore»), su richiesta della chat [ScegliNatura] Ecommerce #29: quattro criteri di stop fissati prima, niente peeking, lettura solo alla data e sopra il minimo di osservazioni, campione contro differenza, «non significativo» non è «uguale», significatività statistica e pratica, clic non sono vendite, correlazione e causalità, sei domande davanti a un report, campione rappresentativo.
 
