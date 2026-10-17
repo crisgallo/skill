@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 17/10/2026
+- 🟡 Sez. 4: mail di servizio Google Ads del 16/10/2026: dal 16/11/2026 Data Manager tratta per default dati clienti cifrati in un Trusted Execution Environment, hash SHA-256 ancora accettati, nessuna azione; pagina ufficiale non trovata, data [DA VERIFICARE].
 ## 15/10/2026
 - 🔴 Sez. 12 e sez. 0: priorità dei canali e allocazione del budget (blog.google, 14/10/2026) per Search, Shopping, PMax e Demand Gen: canali Alta o Bassa priorità, percentuale massima di budget giornaliero sui bassi, «Google channels» in PMax e Demand Gen; da febbraio 2027 rimossa la ripartizione attuale nelle Search con Rete Display accesa (Display a Bassa priorità con 50 % per tenerla). Sez. 0: metrica Data Strength Uplift annunciata il 13/10/2026 nel Demand Gen Drop, non ancora vista su un account.
 ## 14/10/2026

@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 17/10/2026
+- 🟡 Sez. 0 e 8: newsletter OpenAI del 16/10/2026: pagina Conversions di Ads Manager ridisegnata con avvisi collegati a Diagnostics, mail settimanale di rendimento, Bug report e Product feedback dal menu account, test di formati visivi più larghi e del formato a più immagini (solo USA), nuovi partner di misurazione (Northbeam, DV Rockerbox, INCRMNTAL; Kochava, Tenjin, Airbridge; pagine 403, [DA VERIFICARE]).
 ## 16/10/2026
 - 🟡 Sez. 8: pagina Conversions API riletta il 16/10/2026: le liste dei campi plurali dell'advanced matching accettano al massimo tre valori (anche unendo singolare e plurale), oltre HTTP 400 senza troncamento (prima: usati i primi tre, resto ignorato); `android_advertising_id` (GAID) solo via CAPI, IDFA non supportato, ID tutti zero ignorati; changelog del 19/08/2026 con i campi plurali e il GAID in CAPI e i nuovi campi del pixel.
 ## 14/10/2026

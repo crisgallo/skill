@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 17/10/2026
+- 🟡 Sez. 11: changelog API 14-17/10/2026: filtri `modifiedSince`/`createdSince` sull'export contatti, endpoint di scansione wallet pass, export senza risultati che risponde 200 vuoto (prima 202 con processId), app OAuth pubbliche con Brevo CLI 2.5.0.
 ## 14/10/2026
 - 🟡 Sez. 9 e 11: regola di Cristiano del 13/10/2026 (confronti fra campagne solo a parità di giorni dall'invio, `feedback_report_e_numeri.md`); changelog del 13/10/2026: endpoint del token OAuth M2M su api.brevo.com e scope esplicito (senza scope il token riceve tutti gli scope dell'app).
 

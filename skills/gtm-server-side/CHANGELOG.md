@@ -1,5 +1,7 @@
 # Changelog gtm-server-side
 
+## 17/10/2026
+- 🟡 Sez. 9: dettaglio dell'ottimizzazione dei container dalle note Stape del 16/10/2026 (terza parte): tag Destination per GA, Google Ads e Floodlight, impostazioni condivise, procedura guidata, accessi in lettura al container, «Manage data transmission settings» per il consenso, Anteprima con richieste trattenute.
 ## 13/10/2026
 - 🟡 Sez. 9: nota di rilascio GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: i container mandano i dati direttamente ai prodotti Google senza un gtag.js separato, destinazioni e tag collegati; disponibilità generale del flusso opt-in del 20/08.
 
