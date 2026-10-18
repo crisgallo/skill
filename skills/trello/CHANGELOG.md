@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 18/10/2026
+- 🔴 Sez. 5 e 9: versione del 17/10/2026 di `feedback_pianificazione_spazio_calendario.md`: feriali lunghi 9-13, 14-19:30 e 21-23 dal 14/10 (weekend e festivi 9-19 con pausa, margine serale solo per le scadenze), comando `trello.py pausa <durata>` (14/10), task dello stesso cliente a blocchi dentro ogni tratto libero (15/10), chi sposta i task oltre il singolo chiesto avvisa la manutenzione con un messaggio solo (17/10).
 ## 16/10/2026
 - 🔴 Sez. 4 e 12: regola di Cristiano del 15/10/2026 (`feedback_trello_voce_nuova_si_accoda.md`, globale): il numero di una voce nuova lo decide la sua data fra le voci aperte, le aperte successive scalano di uno, chiuse in testa, lo fa `trello.py nuova` e il numero non cambia più dopo la nascita; supera la regola del 05/09 (si accoda al primo numero libero) e il riordino per `due` del 07/09. Attività ricorrenti: le voci del giro dopo prendono il numero per data. In «cosa non fare» resta vietata solo la rinumerazione a mano.
 ## 15/10/2026

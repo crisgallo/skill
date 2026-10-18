@@ -1,5 +1,7 @@
 # Changelog ebay-venditore
 
+## 18/10/2026
+- 🟡 Sez. 10 e 13: dal log della chat eBay del 17-18/10: il limite di valore mensile si consuma con il prezzo delle inserzioni attive (bozze in coda), proposta con Protezione acquisti (1.244,39 visti dall'acquirente, 1.218,92 incassati), bozza che scade dopo 75 giorni, prezzo consigliato eBay sotto i venduti, editor della descrizione, eBay Spedizioni BRT con assicurazione 35 euro; verifica bancaria chiusa il 17/10.
 ## 17/10/2026
 - 🟡 Sez. 0, 8, 10 e 13: account di Cristiano letto dalla chat del progetto eBay il 16/10/2026 (log su Drive): break13, dal 2003, 118 feedback al 100 %, privato, limite da 1 oggetto / 10 euro a 20 oggetti / 2.000 euro dopo la chat con l'operatore, verifica bancaria con estratto conto (5-7 giorni lavorativi, pagamenti in sospeso), Spazio soluzioni che può mostrare «0 problemi» con la verifica fallita.
 ## 16/10/2026

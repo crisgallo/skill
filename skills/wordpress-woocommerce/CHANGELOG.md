@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 18/10/2026
+- 🟡 Sez. 1: WooCommerce 11.2.1 del 09/10/2026 (non di sicurezza): indirizzo nel checkout classico e CAP nel checkout a blocchi.
 ## 14/10/2026
 - 🟡 Sez. 0: calendario di WordPress 7.2 con le date ufficiali (Beta 1 20/10, RC1 17/11, code freeze 07/12, rilascio 08/12/2026).
 

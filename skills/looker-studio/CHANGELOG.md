@@ -1,5 +1,7 @@
 # Changelog looker-studio
 
+## 18/10/2026
+- 🟡 Sez. 14: pagina embed riletta (agg. 13/10/2026): link solo dalla finestra Incorpora, larghezza e altezza, interruttore «Show report navigation in embedded mode», watermark e schermo intero fissi.
 ## 14/10/2026
 - 🟡 Sez. 9: regola di Cristiano del 13/10/2026 (`feedback_report_e_numeri.md`, letta su Drive): ogni confronto mette i paragonati sullo stesso piano e con gli stessi fattori (finestra, periodo, definizioni, vista dei dati), altrimenti si rimanda.
 

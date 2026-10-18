@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 18/10/2026
+- 🟡 Sez. 3: rimando alla funzione del Pixel dal 12/11/2026 (conversioni recuperate sul dispositivo): un salto di conversioni attribuite in quella settimana non è la campagna.
 ## 16/10/2026
 - 🟡 Sez. 0: Brand Building Summit del 15/10/2026 (post ufficiale): Ads Super Burst in GA a fasi (finestra 3-24 ore, Reach Planner, esclusiva di categoria), First Impression Ads in test solo USA, Reels Trending Ads con 15 argomenti ed esclusioni di pubblico entro l'anno, Aggregated View Time in alpha. Prodotti per il brand, nessuna regola cambiata.
 ## 14/10/2026

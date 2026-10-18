@@ -1,5 +1,7 @@
 # Changelog meta-pixel-capi
 
+## 18/10/2026
+- 🔴 Sez. 5: dal 12/11/2026 il Pixel recupera conversioni misurate sul dispositivo del cliente (email già data al sito più dati temporanei del dispositivo, che restano sul dispositivo), accesa per default sui dataset che inviano eventi, disattivabile in Gestione eventi; fonte la mail di Meta del 18/10/2026 a un account di Cristiano, pagina ufficiale non trovata, meccanica [DA VERIFICARE].
 ## 29/09/2026
 - 🔴 Sez. 1: regola di Cristiano dalla chat Cowork di Sceglinatura dell'11/08/2026 (`feedback_nessuna_campagna_prima_della_capi.md`, ritoccata il 28/09): nessuna campagna si accende prima che la CAPI sia verificata in Gestione eventi (Browser e server), ordine di lavoro igiene GA4 → Stape → Meta → Google Ads → campagne. Fonti web e data di verifica invariate.
 ## 20/09/2026
