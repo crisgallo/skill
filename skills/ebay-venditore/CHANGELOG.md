@@ -1,5 +1,7 @@
 # Changelog ebay-venditore
 
+## 19/10/2026
+- 🟡 Sez. 6, 10 e 13: dal log della chat eBay del 18/10: una vendita non libera il limite mensile (si azzera il 1°), secondo aumento negato dall'assistenza; etichetta BRT punto di ritiro con firma 5,45 euro e spedizione entro 2 giorni, errore «Indirizzo del mittente non valido» con indirizzo incompleto, proposte sotto il minimo rifiutate in automatico; Protezione acquisti verificata sui numeri (1.250 pagati, 1.218,92 incassati).
 ## 18/10/2026
 - 🟡 Sez. 10 e 13: dal log della chat eBay del 17-18/10: il limite di valore mensile si consuma con il prezzo delle inserzioni attive (bozze in coda), proposta con Protezione acquisti (1.244,39 visti dall'acquirente, 1.218,92 incassati), bozza che scade dopo 75 giorni, prezzo consigliato eBay sotto i venduti, editor della descrizione, eBay Spedizioni BRT con assicurazione 35 euro; verifica bancaria chiusa il 17/10.
 ## 17/10/2026
