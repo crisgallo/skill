@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 20/10/2026
+- 🔴 Sez. 5 e 6: versione del 20/10/2026 di `feedback_pianificazione_spazio_calendario.md`: dal 20/10 tutte le giornate cominciano alle 10 (feriali e weekend fuori da Treviso 10-23 senza pause, Treviso 10-18:30 e weekend non lavorabile, festivi 10-19 più 21-23 per le scadenze), dal 19/10 niente pause pranzo e cena, slot «Pausa» a calendario con precedenza su tutto, voci rimaste indietro rimesse per prime al buongiorno; regola globale «Serve a:» del 19/10 (`feedback_documenti_serve_a.md`): il commento della voce che produce un documento lo linka, documento senza voce non si scrive.
 ## 18/10/2026
 - 🔴 Sez. 5 e 9: versione del 17/10/2026 di `feedback_pianificazione_spazio_calendario.md`: feriali lunghi 9-13, 14-19:30 e 21-23 dal 14/10 (weekend e festivi 9-19 con pausa, margine serale solo per le scadenze), comando `trello.py pausa <durata>` (14/10), task dello stesso cliente a blocchi dentro ogni tratto libero (15/10), chi sposta i task oltre il singolo chiesto avvisa la manutenzione con un messaggio solo (17/10).
 ## 16/10/2026

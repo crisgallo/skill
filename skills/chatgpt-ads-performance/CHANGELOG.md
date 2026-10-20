@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 20/10/2026
+- 🟡 Sez. 6: `llms-full.txt` del 20/10/2026: nuovo valore di piattaforma `unknown` (client mancante o non riconosciuto, app Windows e macOS), `web` include i client web non classificati.
 ## 17/10/2026
 - 🟡 Sez. 0 e 8: newsletter OpenAI del 16/10/2026: pagina Conversions di Ads Manager ridisegnata con avvisi collegati a Diagnostics, mail settimanale di rendimento, Bug report e Product feedback dal menu account, test di formati visivi più larghi e del formato a più immagini (solo USA), nuovi partner di misurazione (Northbeam, DV Rockerbox, INCRMNTAL; Kochava, Tenjin, Airbridge; pagine 403, [DA VERIFICARE]).
 ## 16/10/2026

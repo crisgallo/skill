@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 20/10/2026
+- 🟡 Sez. 0 e 7: mail di servizio Google Ads del 19/10/2026 sulla dichiarazione annunci politici UE (notifica standard): campagne dichiarate «contiene» non pubblicate nell'UE dal 22/09/2025; dal 01/04/2026 un account con campagne non dichiarate vede fallire via API e script tutte le modifiche alle campagne (pagina Ads API agg. 14/10/2026, ppc.land 26/02/2026); si dichiara a livello di account sugli account ereditati.
 ## 17/10/2026
 - 🟡 Sez. 4: mail di servizio Google Ads del 16/10/2026: dal 16/11/2026 Data Manager tratta per default dati clienti cifrati in un Trusted Execution Environment, hash SHA-256 ancora accettati, nessuna azione; pagina ufficiale non trovata, data [DA VERIFICARE].
 ## 15/10/2026
