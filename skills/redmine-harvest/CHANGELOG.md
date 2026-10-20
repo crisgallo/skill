@@ -1,5 +1,7 @@
 # Changelog redmine-harvest
 
+## 20/10/2026
+- 🟡 Sez. 2: regola di Cristiano del 20/10/2026 (`feedback_email_solo_bozza.md`, via manutenzione #16): le email si scrivono prima in chat, correzioni in chat, bozza Gmail solo col via libera e con il testo identico; il via libera non autorizza l'invio.
 ## 08/10/2026
 - 🔴 Sez. 3: regola di Cristiano del 07/10/2026 (`feedback_email_solo_bozza.md`, globale): sul project Redmine di Webgriffe la chat scrive la nota e non salva, pubblica Cristiano; stato, assegnatario e percentuale non si toccano; dopo la pubblicazione si rilegge la versione salvata. Vale per Euroricambi, Takara e Shipminds.
 ## 01/10/2026
