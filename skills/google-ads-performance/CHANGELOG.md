@@ -1,6 +1,7 @@
 # Changelog google-ads-performance
 
 ## 21/10/2026
+- 🔴 Sez. 13 nuova, su richiesta di Cristiano (chat Shipminds, 21/10/2026): aprire un account Google Ads intestato a un cliente da zero: fuso, valuta e paese per sempre (9842104), creazione dall'MCC o senza campagna (6139186, 6366720), collegamento a un altro gestore (7459601), profilo pagamenti del cliente e livelli di accesso per chi mette la carta (2375375, 9978556, 6372672), verifica dell'inserzionista con 30+30 giorni e pausa (9703665, 15588490, 9872152, 9872280), sospensioni e account correlati (2375414).
 - 🟡 Sez. 6: «Demand Gen drop» di ottobre (blog Google 13/10/2026): metrica Data Strength Uplift in arrivo, Data Manager su DV360 e GA, conversioni avanzate presto su DV360 e GA; il +20 % con Tag Gateway è analisi interna Google.
 ## 20/10/2026
 - 🟡 Sez. 0 e 7: mail di servizio Google Ads del 19/10/2026 sulla dichiarazione annunci politici UE (notifica standard): campagne dichiarate «contiene» non pubblicate nell'UE dal 22/09/2025; dal 01/04/2026 un account con campagne non dichiarate vede fallire via API e script tutte le modifiche alle campagne (pagina Ads API agg. 14/10/2026, ppc.land 26/02/2026); si dichiara a livello di account sugli account ereditati.
