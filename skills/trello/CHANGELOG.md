@@ -1,7 +1,7 @@
 # Changelog trello
 
 ## 21/10/2026
-- 🔴 Sez. 5: versione del pomeriggio del 20/10/2026 di `feedback_pianificazione_spazio_calendario.md`: a Treviso fino alle 18 (non 18:30), avviso secco «Calendario di oggi cambiato» anche per gli spostamenti di Cristiano, sovrapposizioni fra voci fisse sciolte dalla passata (vince l'appuntamento, poi il numero più basso, poi la voce fissata prima), voce senza spazio prima della scadenza che passa davanti alle meno urgenti e altrimenti va dopo la scadenza con avviso «Oltre la scadenza».
+- 🔴 Sez. 5 e 9: versione del pomeriggio del 20/10/2026 di `feedback_pianificazione_spazio_calendario.md`: a Treviso fino alle 18 (non 18:30), avviso secco «Calendario di oggi cambiato» anche per gli spostamenti di Cristiano, sovrapposizioni fra voci fisse sciolte dalla passata (vince l'appuntamento, poi il numero più basso, poi la voce fissata prima), voce senza spazio prima della scadenza che passa davanti alle meno urgenti e altrimenti va dopo la scadenza con avviso «Oltre la scadenza».
 ## 20/10/2026
 - 🔴 Sez. 5 e 6: versione del 20/10/2026 di `feedback_pianificazione_spazio_calendario.md`: dal 20/10 tutte le giornate cominciano alle 10 (feriali e weekend fuori da Treviso 10-23 senza pause, Treviso 10-18:30 e weekend non lavorabile, festivi 10-19 più 21-23 per le scadenze), dal 19/10 niente pause pranzo e cena, slot «Pausa» a calendario con precedenza su tutto, voci rimaste indietro rimesse per prime al buongiorno; regola globale «Serve a:» del 19/10 (`feedback_documenti_serve_a.md`): il commento della voce che produce un documento lo linka, documento senza voce non si scrive.
 ## 18/10/2026
