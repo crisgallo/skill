@@ -132,6 +132,7 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 - Pubblici: **da marzo 2026 i segmenti lookalike sono "suggerimenti", non vincoli** (opt-out via modulo). Un lookalike caricato non limita la consegna a quel pubblico ([13541369](https://support.google.com/google-ads/answer/13541369?hl=en)).
 
 ---
+- 🟡 **«Demand Gen drop» di ottobre 2026** ([blog Google Ads & Commerce, 13/10/2026](https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/)): nessun formato nuovo, solo dati di prima parte. In arrivo in Google Ads la metrica **Data Strength Uplift** (quanto le conversioni guadagnano dalla configurazione dei dati), **Data Manager** esteso a DV360 e Google Analytics, conversioni avanzate «presto» su DV360 e GA senza data. Il «+20 % di conversioni» per chi usa Google Tag Gateway è un'analisi interna Google su due settimane di giugno 2026, non riproducibile: si cita come dato Google, non come attesa per il cliente.
 
 ## 7. Igiene di un account ereditato
 
