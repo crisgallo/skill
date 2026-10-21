@@ -133,6 +133,7 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 - 🟡 **«Demand Gen drop» di ottobre 2026** ([blog Google Ads & Commerce, 13/10/2026](https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/)): nessun formato nuovo, solo dati di prima parte. In arrivo in Google Ads la metrica **Data Strength Uplift** (quanto le conversioni guadagnano dalla configurazione dei dati), **Data Manager** esteso a DV360 e Google Analytics, conversioni avanzate «presto» su DV360 e GA senza data. Il «+20 % di conversioni» per chi usa Google Tag Gateway è un'analisi interna Google su due settimane di giugno 2026, non riproducibile: si cita come dato Google, non come attesa per il cliente.
 
 ---
+
 ## 7. Igiene di un account ereditato
 
 - **Dichiarazione annunci politici UE a livello di account**: se manca su qualche campagna, i tool esterni e gli script falliscono su tutte le modifiche alle campagne dal 01/04/2026 e il pannello chiede la dichiarazione prima di cambiare località o raggio (sez. 0, 20/10/2026). Per un cliente commerciale la risposta è sempre «non contiene»: si dichiara a livello di account e si va avanti.
