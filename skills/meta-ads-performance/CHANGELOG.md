@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 22/10/2026
+- 🟡 Sez. 9: Developer Policies Meta 10.6.a (annuncio 28/04/2026, in vigore dal 03/02/2027): chi compra per conto del cliente deve rivelare su richiesta spesa Meta separata dalle fee, configurazione e report; 10.5 account pubblicitario separato per ogni inserzionista finale.
 ## 21/10/2026
 - 🔴 Sez. 9 nuova, su richiesta di Cristiano (chat Shipminds, 21/10/2026): aprire da zero un portfolio aziendale e un account pubblicitario intestati a un cliente: limite di portfolio per persona, account pubblicitario con valuta e fuso fissi che non si trasferisce (1 account nei portfolio nuovi, 3 dopo la prima campagna pagata), accesso alla Pagina esistente, Instagram, persone e partner, pagamenti, verifica dell'azienda con documenti italiani, limiti di spesa e blocchi iniziali. Pagine Meta Business non leggibili via fetch: testo Meta da copie di terzi, punti [DA VERIFICARE] sul pannello.
 - Non verificato: limite di 2 portfolio per persona, nome dei permessi finanziari, menu in italiano dei Partner, lista ufficiale dei documenti.

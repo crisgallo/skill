@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 22/10/2026
+- 🔴 Sez. 4 e 5: regole di Cristiano del 21/10/2026: una risposta che chiude la domanda ma porta lavoro apre la sua voce datata con il link alla mail (`feedback_lavoro_con_cris.md`); «buonanotte» chiude la giornata e fa slittare le voci non fatte (`feedback_pianificazione_spazio_calendario.md`, versione delle 20:26).
 ## 21/10/2026
 - 🔴 Sez. 5 e 9: versione del pomeriggio del 20/10/2026 di `feedback_pianificazione_spazio_calendario.md`: a Treviso fino alle 18 (non 18:30), avviso secco «Calendario di oggi cambiato» anche per gli spostamenti di Cristiano, sovrapposizioni fra voci fisse sciolte dalla passata (vince l'appuntamento, poi il numero più basso, poi la voce fissata prima), voce senza spazio prima della scadenza che passa davanti alle meno urgenti e altrimenti va dopo la scadenza con avviso «Oltre la scadenza».
 ## 20/10/2026

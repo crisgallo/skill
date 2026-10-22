@@ -1,5 +1,7 @@
 # Changelog sviluppo-web
 
+## 22/10/2026
+- 🔴 Sez. 0 e 5: avviso di sicurezza php.net del 21/10/2026: due vulnerabilità critiche con RCE senza autenticazione (CVE-2026-109618, CVE-2026-109619, CVSS 9.2), corrette in 8.5.12, 8.4.27, 8.3.36 e 8.2.35, backport di sorgente per 7.4-8.1; aggiornare subito ogni sito, mitigazioni temporanee elencate.
 ## 09/10/2026
 - 🟡 Sez. 0 e 5: PHP 8.6.0 RC 3 uscita l'08/10/2026, RC 4 prevista il 22/10 (php.net).
 ## 25/09/2026

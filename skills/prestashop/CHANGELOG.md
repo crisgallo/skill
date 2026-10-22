@@ -1,5 +1,7 @@
 # Changelog prestashop
 
+## 22/10/2026
+- 🔴 Sez. 1: avviso di sicurezza php.net del 21/10/2026 (due RCE critiche nel runtime PHP, CVSS 9.2) e avviso PrestaShop dello stesso giorno: la patch è dell'hosting, non di PrestaShop; versioni corrette 8.2.35, 8.3.36, 8.4.27, 8.5.12; controllo in Parametri avanzati > Informazioni, conferma scritta dell'hosting con riavvio dei processi, mitigazioni temporanee.
 ## 09/10/2026
 - 🟡 Sez. versioni: Core Monthly di settembre (08/10/2026): Hummingbird 2.1.2 con 9.2, moduli nativi aggiornati, nessuna 9.2.1 annunciata, PS Summit 4-5/11 con anteprima di PrestaShop 10.
 ## 01/10/2026

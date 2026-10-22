@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 22/10/2026
+- 🔴 Sez. 1: avviso di sicurezza php.net del 21/10/2026 (due RCE critiche senza autenticazione, CVSS 9.2): versioni corrette 8.2.35, 8.3.36, 8.4.27, 8.5.12; controllo della versione PHP in Salute del sito e aggiornamento immediato tramite l'hosting; siti su 8.1 o inferiore da spostare su 8.3 subito.
 ## 18/10/2026
 - 🟡 Sez. 1: WooCommerce 11.2.1 del 09/10/2026 (non di sicurezza): indirizzo nel checkout classico e CAP nel checkout a blocchi.
 ## 14/10/2026
