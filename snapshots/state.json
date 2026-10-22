@@ -592,37 +592,11 @@
         "🟡 15/10: sez. 15: Marketing API 202610 (metadata creatività, jobFunction, metriche memberFollows e memberProfileClicks, Boost API); breaking change surface sulle liste publisher dalla 202611, abbinamento obbligatorio dal 15/12/2026; sunset 202510 il 15/10 e 202511 il 16/11/2026"
       ]
     },
-    "prestashop": {
-      "dal": "2026-10-09",
-      "livello": "sostanziale",
-      "voci": [
-        "🟡 09/10: Hummingbird 2.1.2 con 9.2, moduli nativi di settembre, nessuna 9.2.1, PS Summit 4-5/11 con anteprima di PrestaShop 10",
-        "🔴 22/10: sez. 1: RCE PHP del 21/10 e avviso PrestaShop: la patch è dell'hosting non di PrestaShop, controllo in Parametri avanzati > Informazioni, conferma scritta con riavvio dei processi, mitigazioni"
-      ]
-    },
-    "sviluppo-web": {
-      "dal": "2026-10-09",
-      "livello": "sostanziale",
-      "voci": [
-        "🟡 09/10: PHP 8.6.0 RC 3 uscita l'08/10/2026, RC 4 prevista il 22/10",
-        "🔴 22/10: sez. 0 e 5: avviso php.net del 21/10: due RCE critiche senza autenticazione nel runtime PHP (CVE-2026-109618/109619, CVSS 9.2), corrette in 8.5.12, 8.4.27, 8.3.36, 8.2.35, backport per 7.4-8.1; aggiornare subito tramite l'hosting, mitigazioni temporanee"
-      ]
-    },
     "ga4-performance": {
       "dal": "2026-10-10",
       "livello": "minore",
       "voci": [
         "🟡 10/10: sez. 0: User Groups Admin API del 05/10/2026 per gestire i gruppi di utenti via API"
-      ]
-    },
-    "wordpress-woocommerce": {
-      "dal": "2026-10-10",
-      "livello": "sostanziale",
-      "voci": [
-        "🟡 10/10: sez. 0: WooCommerce 11.2.1 del 09/10/2026, correttiva senza fix di sicurezza né aggiornamento del database",
-        "🟡 14/10: sez. 0: calendario ufficiale di WordPress 7.2 (Beta 1 20/10, RC1 17/11, code freeze 07/12, rilascio 08/12/2026)",
-        "🟡 18/10: sez. 1: WooCommerce 11.2.1 del 09/10 (non di sicurezza: checkout classico e CAP)",
-        "🔴 22/10: sez. 1: stesse RCE PHP del 21/10: controllo della versione in Salute del sito, patch dall'hosting, siti su 8.1 o inferiore su 8.3 subito"
       ]
     },
     "gtm-server-side": {
@@ -717,18 +691,18 @@
     "looker-studio": "2026-09-29",
     "trustpilot": "2026-10-01",
     "google-merchant-center": "2026-09-28",
-    "sviluppo-web": "2026-09-25",
+    "sviluppo-web": "2026-10-22",
     "cristiano-gallinelli-persona": "2026-09-29",
     "chatgpt-ads-performance": "2026-10-12",
     "ga4-performance": "2026-10-05",
     "linkedin-ads": "2026-09-23",
-    "wordpress-woocommerce": "2026-10-08",
+    "wordpress-woocommerce": "2026-10-22",
     "meta-ads-performance": "2026-10-19",
     "gtm-server-side": "2026-10-12",
     "meta-pixel-capi": "2026-10-19",
     "trello": "2026-10-19",
     "grafica-web-design": "2026-09-30",
-    "prestashop": "2026-10-01",
+    "prestashop": "2026-10-22",
     "redmine-harvest": "2026-10-12",
     "microsoft-ads": "2026-10-01",
     "corsa-allenamento-salute": "2026-10-05",
