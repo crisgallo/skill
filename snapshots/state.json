@@ -1,11 +1,11 @@
 {
  "created": "2026-09-21",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "locali": {
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-22",
+  "ultima_lettura": "2026-10-23",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -604,7 +604,8 @@
    "livello": "minore",
    "voci": [
     "🟡 13/10: sez. 9: release note GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: dati direttamente ai prodotti Google senza gtag.js separato, disponibilità generale del flusso opt-in del 20/08",
-    "🟡 17/10: sez. 9: dettaglio dell'ottimizzazione dei container (tag Destination, procedura guidata, impostazioni di trasmissione dati per il consenso) dalle note Stape del 16/10"
+    "🟡 17/10: sez. 9: dettaglio dell'ottimizzazione dei container (tag Destination, procedura guidata, impostazioni di trasmissione dati per il consenso) dalle note Stape del 16/10",
+    "🟡 23/10: sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape il server-to-server non è toccato; controllare quota Apple in GA4 e cali dopo l'aggiornamento"
    ]
   },
   "looker-studio": {
@@ -681,6 +682,13 @@
     "🔴 21/10: sez. 9 nuova (richiesta di Cristiano, chat Shipminds): aprire da zero un portfolio aziendale e un account pubblicitario intestati a un cliente: limiti di portfolio e account, valuta e fuso fissi, account non trasferibile, Pagina esistente, Instagram, persone e partner, pagamenti, verifica dell'azienda con documenti italiani, limiti di spesa e blocchi iniziali (pagine Meta non leggibili via fetch, punti [DA VERIFICARE])",
     "🟡 22/10: sez. 9: Developer Policies Meta 10.6.a dal 03/02/2027: chi compra per il cliente deve rivelare su richiesta spesa Meta separata dalle fee, configurazione e report; 10.5 account separato per inserzionista"
    ]
+  },
+  "meta-pixel-capi": {
+   "dal": "2026-10-23",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 23/10: sez. 5: pagina ufficiale Meta 4237575203200036: la misurazione delle conversioni sul dispositivo (voce «Measure conversions on customer devices», accesa per default) non è attiva per le persone nell'UE e nel Regno Unito; per un cliente italiano con pubblico UE dal 12/11 non cambia nulla; lavora accanto a Pixel e CAPI, attribuzione invariata (nota Stape del 22/10)"
+   ]
   }
  },
  "ultima_mail": {
@@ -710,7 +718,7 @@
   "social-media-manager": "2026-10-19"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-22",
+  "ultima_lettura": "2026-10-23",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

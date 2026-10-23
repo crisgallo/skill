@@ -1,5 +1,8 @@
 # Changelog meta-pixel-capi
 
+## 23/10/2026
+- 🔴 Sez. 5: pagina ufficiale Meta 4237575203200036 letta dal sorgente: la misurazione sul dispositivo (voce «Measure conversions on customer devices», accesa per default) **non è attiva per le persone nell'UE e nel Regno Unito**; per un cliente italiano con pubblico UE dal 12/11 non cambia nulla; lavora accanto a Pixel e CAPI, attribuzione invariata; nota Stape del 22/10. Fonti aggiunte.
+
 ## 18/10/2026
 - 🔴 Sez. 5: dal 12/11/2026 il Pixel recupera conversioni misurate sul dispositivo del cliente (email già data al sito più dati temporanei del dispositivo, che restano sul dispositivo), accesa per default sui dataset che inviano eventi, disattivabile in Gestione eventi; fonte la mail di Meta del 18/10/2026 a un account di Cristiano, pagina ufficiale non trovata, meccanica [DA VERIFICARE].
 ## 29/09/2026

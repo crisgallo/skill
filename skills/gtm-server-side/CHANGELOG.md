@@ -1,5 +1,8 @@
 # Changelog gtm-server-side
 
+## 23/10/2026
+- 🟡 Sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape (22/10) il server-to-server non è toccato; controllo della quota Apple in GA4 e dei cali dopo l'aggiornamento. Fonti aggiunte.
+
 ## 17/10/2026
 - 🟡 Sez. 9: dettaglio dell'ottimizzazione dei container dalle note Stape del 16/10/2026 (terza parte): tag Destination per GA, Google Ads e Floodlight, impostazioni condivise, procedura guidata, accessi in lettura al container, «Manage data transmission settings» per il consenso, Anteprima con richieste trattenute.
 ## 13/10/2026
