@@ -1,5 +1,8 @@
 # Changelog google-merchant-center
 
+## 24/10/2026
+- 🔴 Sez. 3: dal 29/10/2026 Merchant Center richiede una passkey per azioni sensibili (aggiungere utenti, assegnare permessi; l'accesso non cambia); la passkey di Google Ads vale anche qui; da creare prima del 29/10 su ogni Account Google che amministra un Merchant Center. Fonte: email di servizio Google del 22/10/2026, pagina ufficiale non trovata [DA VERIFICARE].
+
 ## 05/10/2026
 - 🟡 Sez. 4: per WooCommerce la migrazione alla Merchant API richiede Google for WooCommerce 3.8.1 o successiva (documentazione WooCommerce letta il 05/10/2026).
 ## 28/09/2026

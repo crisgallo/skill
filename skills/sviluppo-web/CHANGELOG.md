@@ -1,5 +1,8 @@
 # Changelog sviluppo-web
 
+## 24/10/2026
+- 🟡 Sez. 0: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione `session.upload_progress.enabled=0` del 21/10 resta al suo posto; riguarda solo chi cambia il serialize handler a runtime. Fonte aggiunta.
+
 ## 22/10/2026
 - 🔴 Sez. 0 e 5: avviso di sicurezza php.net del 21/10/2026: due vulnerabilità critiche con RCE senza autenticazione (CVE-2026-109618, CVE-2026-109619, CVSS 9.2), corrette in 8.5.12, 8.4.27, 8.3.36 e 8.2.35, backport di sorgente per 7.4-8.1; aggiornare subito ogni sito, mitigazioni temporanee elencate.
 ## 09/10/2026

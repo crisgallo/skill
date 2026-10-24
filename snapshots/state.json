@@ -1,11 +1,11 @@
 {
  "created": "2026-09-21",
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "locali": {
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-23",
+  "ultima_lettura": "2026-10-24",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -136,8 +136,8 @@
     "esito": "integrata in meta-pixel-capi e meta-ads-performance il 29/09/2026"
    },
    "feedback_piattaforme_e_campagne.md": {
-    "modificato": "2026-10-07",
-    "esito": "integrata in google-ads-performance e meta-ads-performance il 29/09/2026 (test, modello, nomi, perimetro); 07/10: efficacia Eccellente in google-ads sez. 10; schede Chrome aperte e Chrome di Cris: regole di processo, nessuna skill del repository"
+    "modificato": "2026-10-23",
+    "esito": "23/10: regola sulla chiusura dei gruppi di schede Chrome a fine lavoro: regola di processo, nessuna skill del repository; le regole precedenti erano già integrate (29/09, 07/10)"
    },
    "feedback_report_e_numeri.md": {
     "modificato": "2026-10-13",
@@ -454,47 +454,79 @@
   }
  },
  "drive": {
-  "data": "2026-10-22",
+  "data": "2026-10-24",
   "skills": {
-   "brevo": {
-    "drive": "63744",
-    "commit": "962a1a3"
+   "wordpress-woocommerce": {
+    "drive": "52312",
+    "commit": "db8eb2f"
    },
-   "chatgpt-ads-performance": {
-    "drive": "43735",
-    "commit": "329073e"
+   "prestashop": {
+    "drive": "38575",
+    "commit": "db8eb2f"
    },
-   "consent-mode-privacy": {
-    "drive": "31828",
-    "commit": "f37effc"
+   "sviluppo-web": {
+    "drive": "44301",
+    "commit": "db8eb2f"
    },
-   "corsa-allenamento-salute": {
-    "drive": "37711",
-    "commit": "aa09841"
+   "skill-creator": "sconosciuta",
+   "google-ads-performance": {
+    "drive": "59073",
+    "commit": "66b3939"
    },
-   "creditsafe-monitoraggio-credito": {
-    "drive": "19630",
-    "commit": "29b96fe"
+   "meta-pixel-capi": {
+    "drive": "41017",
+    "commit": "4c3877a"
    },
-   "cristiano-gallinelli-persona": {
-    "drive": "48635",
-    "commit": "3102ea1"
+   "meta-ads-performance": {
+    "drive": "42479",
+    "commit": "4c3877a"
+   },
+   "trello": {
+    "drive": "71058",
+    "commit": "4c3877a"
+   },
+   "social-media-manager": {
+    "drive": "36770",
+    "commit": "cc701d4"
    },
    "ebay-venditore": {
     "drive": "39092",
     "commit": "abb0d05"
    },
+   "google-workspace": "sconosciuta",
+   "gtm-server-side": {
+    "drive": "43916",
+    "commit": "d5c3125"
+   },
+   "redmine-harvest": {
+    "drive": "47304",
+    "commit": "3a0fd55"
+   },
+   "chatgpt-ads-performance": {
+    "drive": "43735",
+    "commit": "329073e"
+   },
+   "brevo": {
+    "drive": "63744",
+    "commit": "962a1a3"
+   },
+   "computer-use": "sconosciuta",
+   "corsa-allenamento-salute": {
+    "drive": "37711",
+    "commit": "aa09841"
+   },
    "ga4-performance": {
     "drive": "50364",
     "commit": "0cc08fb"
    },
-   "google-ads-performance": {
-    "drive": "59073",
-    "commit": "66b3939"
+   "pptx": "sconosciuta",
+   "microsoft-ads": {
+    "drive": "50964",
+    "commit": "39b9e4b"
    },
-   "google-merchant-center": {
-    "drive": "37573",
-    "commit": "370c032"
+   "trustpilot": {
+    "drive": "47010",
+    "commit": "39b9e4b"
    },
    "google-search-console": {
     "drive": "41004",
@@ -504,76 +536,52 @@
     "drive": "30253",
     "commit": "23dc675"
    },
-   "gtm-server-side": {
-    "drive": "43916",
-    "commit": "d5c3125"
-   },
-   "linkedin-ads": {
-    "drive": "47358",
-    "commit": "02c21d8"
-   },
+   "docx": "sconosciuta",
+   "docs": "sconosciuta",
    "looker-studio": {
     "drive": "45183",
     "commit": "3102ea1"
    },
-   "meta-ads-performance": {
-    "drive": "42479",
-    "commit": "4c3877a"
+   "cristiano-gallinelli-persona": {
+    "drive": "48635",
+    "commit": "3102ea1"
    },
-   "meta-pixel-capi": {
-    "drive": "41017",
-    "commit": "4c3877a"
-   },
-   "microsoft-ads": {
-    "drive": "50964",
-    "commit": "39b9e4b"
-   },
-   "prestashop": {
-    "drive": "36763",
-    "commit": "39b9e4b"
-   },
-   "redmine-harvest": {
-    "drive": "47304",
-    "commit": "3a0fd55"
+   "google-merchant-center": {
+    "drive": "37573",
+    "commit": "370c032"
    },
    "seo-tecnica": {
     "drive": "45381",
     "commit": "370c032"
    },
-   "social-media-manager": {
-    "drive": "36770",
-    "commit": "cc701d4"
+   "linkedin-ads": {
+    "drive": "47358",
+    "commit": "02c21d8"
    },
+   "built-in-browser": "sconosciuta",
    "substack-intelligence": {
     "drive": "17135",
     "commit": "29b96fe"
    },
-   "sviluppo-web": {
-    "drive": "42317",
-    "commit": "370c032"
+   "creditsafe-monitoraggio-credito": {
+    "drive": "19630",
+    "commit": "29b96fe"
    },
-   "trello": {
-    "drive": "71058",
-    "commit": "4c3877a"
-   },
-   "trustpilot": {
-    "drive": "47010",
-    "commit": "39b9e4b"
-   },
-   "wordpress-woocommerce": {
-    "drive": "50195",
-    "commit": "3a0fd55"
+   "consent-mode-privacy": {
+    "drive": "31828",
+    "commit": "f37effc"
    }
   }
  },
  "pendenti": {
   "google-merchant-center": {
    "dal": "2026-09-26",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 Sez. 3: dal 26/09/2026 le pagine delle norme (abuso della rete, misrepresentation, alcol) dicono «7 or 28 calendar days to fix your issue»; la regola resta «almeno 7 giorni», aggiunta la precisazione.",
     "🟡 Sez. 1 e 8 (28/09): le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno, preorder e backorder compatibili con in_stock; origini «inventario online» deprecate a favore delle supplementari.",
-    "🟡 05/10: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API"
+    "🟡 05/10: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API",
+    "🔴 24/10: sez. 3: dal 29/10/2026 Merchant Center richiede una passkey per azioni sensibili (aggiungere utenti, assegnare permessi; l'accesso non cambia); la passkey di Google Ads vale anche qui; da creare prima del 29/10 su ogni Account Google che amministra un Merchant Center (email di servizio Google del 22/10, pagina ufficiale non trovata)"
    ]
   },
   "seo-tecnica": {
@@ -689,6 +697,27 @@
    "voci": [
     "🔴 23/10: sez. 5: pagina ufficiale Meta 4237575203200036: la misurazione delle conversioni sul dispositivo (voce «Measure conversions on customer devices», accesa per default) non è attiva per le persone nell'UE e nel Regno Unito; per un cliente italiano con pubblico UE dal 12/11 non cambia nulla; lavora accanto a Pixel e CAPI, attribuzione invariata (nota Stape del 22/10)"
    ]
+  },
+  "sviluppo-web": {
+   "dal": "2026-10-24",
+   "livello": "minore",
+   "voci": [
+    "🟡 24/10: sez. 0: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
+   ]
+  },
+  "wordpress-woocommerce": {
+   "dal": "2026-10-24",
+   "livello": "minore",
+   "voci": [
+    "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
+   ]
+  },
+  "prestashop": {
+   "dal": "2026-10-24",
+   "livello": "minore",
+   "voci": [
+    "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
+   ]
   }
  },
  "ultima_mail": {
@@ -718,7 +747,7 @@
   "social-media-manager": "2026-10-19"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-23",
+  "ultima_lettura": "2026-10-24",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -785,6 +814,12 @@
     "mittente": "noreply@ads.google.com",
     "oggetto": "[Promemoria] Rivedi la tua dichiarazione relativa agli annunci politici nell'Unione europea",
     "esito": "google-ads-performance sez. 0 e 7 (🟡): dichiarazione annunci politici UE, notifica standard"
+   },
+   "1a164bb22435386e": {
+    "data": "2026-10-22",
+    "mittente": "googlebase-noreply@google.com",
+    "oggetto": "You'll soon need a passkey for Merchant Center",
+    "esito": "integrata in google-merchant-center sez. 3 (🔴 24/10): passkey obbligatoria dal 29/10/2026 per aggiungere utenti e assegnare permessi; pagina ufficiale non trovata [DA VERIFICARE]"
    }
   }
  },

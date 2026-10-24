@@ -1,5 +1,8 @@
 # Changelog prestashop
 
+## 24/10/2026
+- 🟡 Sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione `session.upload_progress.enabled=0` del 21/10 resta al suo posto; riguarda solo chi cambia il serialize handler a runtime. Fonte aggiunta.
+
 ## 22/10/2026
 - 🔴 Sez. 1: avviso di sicurezza php.net del 21/10/2026 (due RCE critiche nel runtime PHP, CVSS 9.2) e avviso PrestaShop dello stesso giorno: la patch è dell'hosting, non di PrestaShop; versioni corrette 8.2.35, 8.3.36, 8.4.27, 8.5.12; controllo in Parametri avanzati > Informazioni, conferma scritta dell'hosting con riavvio dei processi, mitigazioni temporanee.
 ## 09/10/2026

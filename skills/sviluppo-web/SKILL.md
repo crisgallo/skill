@@ -11,6 +11,7 @@ description: "Regole operative verificate per coordinare sviluppatori e agenzie 
 
 - **Certificati TLS:** massimo di settore 200 giorni dal 15/03/2026, 100 dal 15/03/2027, 47 dal 15/03/2029; Let's Encrypt passa a 64 giorni dal 10/02/2027 e a 45 dal 16/02/2028, e **dal 04/06/2025 non manda più email di scadenza** (sez. 4).
 - **PHP 8.2 esce dal supporto di sicurezza il 31/12/2026; 8.4 esce dal supporto attivo lo stesso giorno.** PHP 8.6 è in release candidate (RC 3 dall'08/10/2026, RC 4 prevista il 22/10) (sez. 5). Il 24/09/2026 sono uscite le patch di sicurezza **8.2.34, 8.3.35 e 8.5.11**. 🔴 **21/10/2026, due vulnerabilità critiche nel runtime PHP con esecuzione di codice remoto senza autenticazione** (CVE-2026-109618 e CVE-2026-109619, CVSS v4 9.2; [avviso php.net](https://www.php.net/archive/2026.php#2026-10-21-5)): corrette in **8.5.12, 8.4.27, 8.3.36 e 8.2.35**; per 7.4, 8.0 e 8.1, fuori supporto, solo backport di sorgente su GitHub e patch dei fornitori LTS. A rischio ogni installazione che serve richieste web (PHP-FPM, Apache con mod_php, php-cgi, FrankenPHP, LiteSpeed), con un exploit dimostrato in cui «an unauthenticated request can trigger the attack before any application code runs». **Si aggiorna oggi, su ogni sito, chiedendo all'hosting la versione installata**; le mitigazioni temporanee (`memory_limit=-1` via `php_admin_value`, `post_max_size` basso, `session.upload_progress.enabled=0`, su 8.5 `fatal_error_backtraces=0`, poi riavvio dei worker) riducono l'esposizione e non sostituiscono la patch.
+- 🟡 **23/10/2026, avviso informativo php.net «Session upload progress»** ([archivio 2026](https://www.php.net/archive/2026.php), voce del 23/10, CVE-2026-115560 con avviso completo a seguire): nessuna release nuova; riguarda solo le applicazioni che impostano `session.serialize_handler` a `php_binary` o `php_serialize` e lo cambiano in `php` a runtime con `ini_set()` con il progresso di upload attivo; la correzione arriverà con il normale ciclo di bugfix. **La mitigazione `session.upload_progress.enabled=0` del 21/10 si lascia al suo posto** anche dopo aver aggiornato PHP; chi non la aveva messa la mette ora, chi non cambia mai il serialize handler a runtime può tenere la funzione accesa.
 
 - **WordPress 7.0 (20/05/2026)** ha tolto PHP 7.2 e 7.3; **WooCommerce 10.8+** richiede PHP 8.3 e propone PHP 8.1 minimo dalla 11.5 (gennaio 2027) (sez. 5).
 - **Accessibilità:** EAA applicabile dal 28/06/2025 anche all'e-commerce; **Linee guida AgID sull'accessibilità dei servizi pubblicate a marzo 2026**, vigilanza AgID (sez. 8).
@@ -233,6 +234,8 @@ Titolo con il risultato atteso; **criteri di accettazione** verificabili ("il fo
 - **Firmare un preventivo senza esclusioni e senza gestione delle change request.**
 
 ## Fonti (verificate 20/09/2026)
+
+**Aggiunte il 24/10/2026:** [php.net, archivio 2026 (avviso del 23/10 su session upload progress)](https://www.php.net/archive/2026.php).
 
 **Ufficiali**
 - PHP: [Supported versions](https://www.php.net/supported-versions.php) · [News 2026 (8.6 alpha/beta/RC)](https://www.php.net/archive/2026.php)

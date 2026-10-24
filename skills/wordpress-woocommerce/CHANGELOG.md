@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 24/10/2026
+- 🟡 Sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione `session.upload_progress.enabled=0` del 21/10 resta al suo posto; riguarda solo chi cambia il serialize handler a runtime. Fonte aggiunta.
+
 ## 22/10/2026
 - 🔴 Sez. 1: avviso di sicurezza php.net del 21/10/2026 (due RCE critiche senza autenticazione, CVSS 9.2): versioni corrette 8.2.35, 8.3.36, 8.4.27, 8.5.12; controllo della versione PHP in Salute del sito e aggiornamento immediato tramite l'hosting; siti su 8.1 o inferiore da spostare su 8.3 subito.
 ## 18/10/2026
