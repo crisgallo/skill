@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 25/10/2026
+- 🟡 Sez. 0 e 11: `llms-full.txt` del 25/10/2026: nuovo setting di feed `is_full_refresh` (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina. Opt-in, default invariato.
+
 ## 20/10/2026
 - 🟡 Sez. 6: `llms-full.txt` del 20/10/2026: nuovo valore di piattaforma `unknown` (client mancante o non riconosciuto, app Windows e macOS), `web` include i client web non classificati.
 ## 17/10/2026
