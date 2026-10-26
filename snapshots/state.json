@@ -578,16 +578,6 @@
   }
  },
  "pendenti": {
-  "google-merchant-center": {
-   "dal": "2026-09-26",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 Sez. 3: dal 26/09/2026 le pagine delle norme (abuso della rete, misrepresentation, alcol) dicono «7 or 28 calendar days to fix your issue»; la regola resta «almeno 7 giorni», aggiunta la precisazione.",
-    "🟡 Sez. 1 e 8 (28/09): le automazioni non funzionano sui prodotti che cambiano prezzo o disponibilità più di una volta al giorno, preorder e backorder compatibili con in_stock; origini «inventario online» deprecate a favore delle supplementari.",
-    "🟡 05/10: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API",
-    "🔴 24/10: sez. 3: dal 29/10/2026 Merchant Center richiede una passkey per azioni sensibili (aggiungere utenti, assegnare permessi; l'accesso non cambia); la passkey di Google Ads vale anche qui; da creare prima del 29/10 su ogni Account Google che amministra un Merchant Center (email di servizio Google del 22/10, pagina ufficiale non trovata)"
-   ]
-  },
   "seo-tecnica": {
    "dal": "2026-10-02",
    "livello": "minore",
@@ -663,44 +653,11 @@
     "🟡 17/10: sez. 9: carta intestata di Cristiano (regola del 16/10): strumento, font e colori dell'identità del blog"
    ]
   },
-  "trello": {
-   "dal": "2026-10-20",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 20/10: sez. 5 e 6: dal 20/10 le giornate cominciano alle 10 (feriali e weekend fuori da Treviso 10-23 senza pause, Treviso 10-18:30, festivi 10-19 più 21-23 per le scadenze), slot «Pausa» con precedenza su tutto, voci rimaste indietro per prime al buongiorno (versione del 20/10 di feedback_pianificazione_spazio_calendario.md); regola «Serve a:» del 19/10 sui documenti e sui commenti delle voci",
-    "🔴 21/10: sez. 5 e 9: versione del pomeriggio del 20/10 di feedback_pianificazione_spazio_calendario.md: Treviso fino alle 18, avviso secco «Calendario di oggi cambiato» anche per i suoi spostamenti, sovrapposizioni fra voci fisse sciolte dalla passata, voce senza spazio prima della scadenza che passa davanti alle meno urgenti o va dopo la scadenza con avviso «Oltre la scadenza»",
-    "🔴 22/10: sez. 4 e 5: regole di Cristiano del 21/10: una risposta che chiude la domanda ma porta lavoro apre la sua voce con il link alla mail; «buonanotte» chiude la giornata e fa slittare le voci non fatte"
-   ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-10-20",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 20/10: sez. 0 e 7: dichiarazione annunci politici UE (mail di servizio 19/10, pagina Ads API agg. 14/10): campagne dichiarate non pubblicate nell'UE dal 22/09/2025, dal 01/04/2026 account con campagne non dichiarate bloccati via API e script sulle modifiche alle campagne",
-    "🟡 21/10: sez. 6: Demand Gen drop di ottobre (blog Google 13/10): metrica Data Strength Uplift in arrivo, Data Manager su DV360 e GA, conversioni avanzate presto su DV360 e GA; il +20 % con Tag Gateway è analisi interna Google",
-    "🔴 21/10: sez. 13 nuova (richiesta di Cristiano, chat Shipminds): aprire un account Google Ads intestato a un cliente da zero: fuso, valuta e paese per sempre, creazione dall'MCC o senza campagna, collegamento a un altro gestore, profilo pagamenti del cliente e livelli di accesso, verifica dell'inserzionista 30+30 giorni e pausa, sospensioni e account correlati"
-   ]
-  },
   "redmine-harvest": {
    "dal": "2026-10-20",
    "livello": "minore",
    "voci": [
     "🟡 20/10: sez. 2: email prima in chat, bozza Gmail solo col via libera di Cristiano e con il testo identico, invio sempre suo (regola globale feedback_email_solo_bozza del 20/10, via manutenzione #16)"
-   ]
-  },
-  "meta-ads-performance": {
-   "dal": "2026-10-21",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 21/10: sez. 9 nuova (richiesta di Cristiano, chat Shipminds): aprire da zero un portfolio aziendale e un account pubblicitario intestati a un cliente: limiti di portfolio e account, valuta e fuso fissi, account non trasferibile, Pagina esistente, Instagram, persone e partner, pagamenti, verifica dell'azienda con documenti italiani, limiti di spesa e blocchi iniziali (pagine Meta non leggibili via fetch, punti [DA VERIFICARE])",
-    "🟡 22/10: sez. 9: Developer Policies Meta 10.6.a dal 03/02/2027: chi compra per il cliente deve rivelare su richiesta spesa Meta separata dalle fee, configurazione e report; 10.5 account separato per inserzionista"
-   ]
-  },
-  "meta-pixel-capi": {
-   "dal": "2026-10-23",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 23/10: sez. 5: pagina ufficiale Meta 4237575203200036: la misurazione delle conversioni sul dispositivo (voce «Measure conversions on customer devices», accesa per default) non è attiva per le persone nell'UE e nel Regno Unito; per un cliente italiano con pubblico UE dal 12/11 non cambia nulla; lavora accanto a Pixel e CAPI, attribuzione invariata (nota Stape del 22/10)"
    ]
   },
   "sviluppo-web": {
@@ -729,20 +686,20 @@
   "brevo": "2026-10-12",
   "google-search-console": "2026-10-01",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-10-19",
+  "google-ads-performance": "2026-10-26",
   "looker-studio": "2026-09-29",
   "trustpilot": "2026-10-01",
-  "google-merchant-center": "2026-09-28",
+  "google-merchant-center": "2026-10-26",
   "sviluppo-web": "2026-10-22",
   "cristiano-gallinelli-persona": "2026-09-29",
   "chatgpt-ads-performance": "2026-10-12",
   "ga4-performance": "2026-10-05",
   "linkedin-ads": "2026-09-23",
   "wordpress-woocommerce": "2026-10-22",
-  "meta-ads-performance": "2026-10-19",
+  "meta-ads-performance": "2026-10-26",
   "gtm-server-side": "2026-10-12",
-  "meta-pixel-capi": "2026-10-19",
-  "trello": "2026-10-19",
+  "meta-pixel-capi": "2026-10-26",
+  "trello": "2026-10-26",
   "grafica-web-design": "2026-09-30",
   "prestashop": "2026-10-22",
   "redmine-harvest": "2026-10-12",
