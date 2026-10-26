@@ -683,27 +683,6 @@
     "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
    ]
   },
-  "trello": {
-   "dal": "2026-10-26",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 26/10: sez. 7, 8 e 9: regole di Cristiano e opzioni di trello.py dal 13 al 23/10 (manutenzione #17): ordine della checklist per numero con le chiuse in testa e riordino automatico; opzioni --card, --sovrapponi, --non-prima senza data, commento --file, rifiuto delle card archiviate, inizia con i documenti già scritti, proposta della riga di tempo su done; appuntamento senza durata = 30 minuti, compleanni e promemoria bloccano solo se occupati; titoli delle copie a calendario con la traccia"
-   ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-10-26",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 26/10: sez. 5, 9 e 12: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e, dopo la pubblicazione, rilettura dei parametri e prova; su Google tagging automatico o suffisso già in uso, prova senza clic a pagamento [DA VERIFICARE]; brief senza i quattro punti rifiutati dal controllo automatico"
-   ]
-  },
-  "meta-ads-performance": {
-   "dal": "2026-10-26",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 26/10: sez. 6: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM dello standard del progetto, destinazione sulla pagina giusta, pulsante sempre («Usa post esistente» solo se il post ha già link e pulsante) e clic di prova dopo la pubblicazione; caso del 23/10, due video senza UTM e senza destinazione"
-   ]
-  },
   "microsoft-ads": {
    "dal": "2026-10-26",
    "livello": "sostanziale",
