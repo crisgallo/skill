@@ -1,11 +1,11 @@
 {
  "created": "2026-09-21",
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "locali": {
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-25",
+  "ultima_lettura": "2026-10-26",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -450,11 +450,15 @@
    "feedback_ore_cris_tracking_harvest.md": {
     "modificato": "2026-10-20",
     "esito": "regola locale Gruppo NEM (ore di Cristiano su Harvest dalla durata dei task, raddoppiate, solo col via libera): non integrata"
+   },
+   "feedback_routine_e_mac_spento.md": {
+    "modificato": "2026-10-25",
+    "esito": "25/10: regola globale sulle routine col Mac spento (riga di recupero nei SKILL.md delle routine, buonanotte, guardiano, guardia della posta su Apps Script): regola di processo del sistema locale, nessuna skill del repository"
    }
   }
  },
  "drive": {
-  "data": "2026-10-24",
+  "data": "2026-10-26",
   "skills": {
    "wordpress-woocommerce": {
     "drive": "52312",
@@ -748,7 +752,7 @@
   "social-media-manager": "2026-10-19"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-25",
+  "ultima_lettura": "2026-10-26",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
