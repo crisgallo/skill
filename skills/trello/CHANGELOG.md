@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 26/10/2026
+- 🔴 Sez. 7, 8 e 9: regole di Cristiano e opzioni di `trello.py` dal 13 al 23/10/2026 (manutenzione #17 col sì di Cristiano del 26/10): ordine della checklist per numero con le chiuse in testa (15/10) e riordino automatico dopo ogni voce nuova; opzioni `--card`, `--sovrapponi`, `--non-prima` senza data, `commento --file`, rifiuto delle card archiviate, `inizia` con i documenti già scritti, proposta della riga di tempo su `done`; appuntamento senza durata = 30 minuti, compleanni e promemoria bloccano solo se occupati; titoli delle copie a calendario con la traccia. Le regole su giornata dalle 10, pausa, scadenze, sovrapposizioni, buongiorno e buonanotte, «Serve a:» erano già integrate il 20, 21 e 22/10.
+
 ## 22/10/2026
 - 🔴 Sez. 4 e 5: regole di Cristiano del 21/10/2026: una risposta che chiude la domanda ma porta lavoro apre la sua voce datata con il link alla mail (`feedback_lavoro_con_cris.md`); «buonanotte» chiude la giornata e fa slittare le voci non fatte (`feedback_pianificazione_spazio_calendario.md`, versione delle 20:26).
 ## 21/10/2026

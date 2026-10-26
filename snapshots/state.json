@@ -680,6 +680,13 @@
    "voci": [
     "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
    ]
+  },
+  "trello": {
+   "dal": "2026-10-26",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 26/10: sez. 7, 8 e 9: regole di Cristiano e opzioni di trello.py dal 13 al 23/10 (manutenzione #17): ordine della checklist per numero con le chiuse in testa e riordino automatico; opzioni --card, --sovrapponi, --non-prima senza data, commento --file, rifiuto delle card archiviate, inizia con i documenti già scritti, proposta della riga di tempo su done; appuntamento senza durata = 30 minuti, compleanni e promemoria bloccano solo se occupati; titoli delle copie a calendario con la traccia"
+   ]
   }
  },
  "ultima_mail": {
