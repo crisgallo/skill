@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 26/10/2026
+- 🔴 Sez. 7: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e clic di prova dopo la pubblicazione; brief senza i quattro punti rifiutati dal controllo automatico.
+
 ## 15/10/2026
 - 🟡 Sez. 15: versione 202610 della Marketing API (recent-changes letta il 15/10/2026): `metadata` sulle creatività, filtro `jobFunction` in Company Intelligence, metriche `memberFollows` e `memberProfileClicks`, Boost API; breaking change `surface` (LAN o CTV) sulle liste publisher dalla 202611, abbinamento obbligatorio dal 15/12/2026; sunset 202510 il 15/10/2026 e 202511 il 16/11/2026. Titolo della sezione esteso a ottobre.
 ## 08/10/2026

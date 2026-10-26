@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 26/10/2026
+- 🔴 Sez. 6: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con UTM dello standard del progetto, destinazione sulla pagina giusta, pulsante sempre («Usa post esistente» solo se il post ha già link e pulsante) e clic di prova dopo la pubblicazione; caso del 23/10 (due video senza UTM e senza destinazione); brief senza i quattro punti rifiutati dal controllo automatico.
+
 ## 22/10/2026
 - 🟡 Sez. 9: Developer Policies Meta 10.6.a (annuncio 28/04/2026, in vigore dal 03/02/2027): chi compra per conto del cliente deve rivelare su richiesta spesa Meta separata dalle fee, configurazione e report; 10.5 account pubblicitario separato per ogni inserzionista finale.
 ## 21/10/2026

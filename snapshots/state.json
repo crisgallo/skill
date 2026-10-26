@@ -588,10 +588,11 @@
   },
   "linkedin-ads": {
    "dal": "2026-10-08",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 08/10: Conversions API via GTM: un container Stape per account idoneo senza costi, condizioni di pubblicazione automatica, dati dopo qualche ora, dedup con eventId (pagina a1718034 del 07/10)",
-    "🟡 15/10: sez. 15: Marketing API 202610 (metadata creatività, jobFunction, metriche memberFollows e memberProfileClicks, Boost API); breaking change surface sulle liste publisher dalla 202611, abbinamento obbligatorio dal 15/12/2026; sunset 202510 il 15/10 e 202511 il 16/11/2026"
+    "🟡 15/10: sez. 15: Marketing API 202610 (metadata creatività, jobFunction, metriche memberFollows e memberProfileClicks, Boost API); breaking change surface sulle liste publisher dalla 202611, abbinamento obbligatorio dal 15/12/2026; sunset 202510 il 15/10 e 202511 il 16/11/2026",
+    "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e clic di prova dopo la pubblicazione"
    ]
   },
   "ga4-performance": {
@@ -628,13 +629,14 @@
   },
   "chatgpt-ads-performance": {
    "dal": "2026-10-14",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 14/10: sez. 8: via CAPI si mandano tutti gli eventi di conversione, non solo quelli con oppref, per includere le view-through (documentazione OpenAI del 14/10)",
     "🟡 16/10: sez. 8: liste plurali dell'advanced matching al massimo tre valori con HTTP 400 oltre (prima troncate), android_advertising_id solo via CAPI, changelog del 19/08 (pagina Conversions API del 16/10)",
     "🟡 17/10: sez. 0 e 8: newsletter OpenAI del 16/10: pagina Conversions ridisegnata, mail settimanale di rendimento, feedback dal menu, test formati visivi, partner di misurazione Northbeam, DV Rockerbox, INCRMNTAL, Kochava, Tenjin, Airbridge",
     "🟡 20/10: sez. 6: llms-full.txt del 20/10: valore di piattaforma unknown (app Windows e macOS), web include i client web non classificati",
-    "🟡 25/10: sez. 0 e 11: llms-full.txt del 25/10: nuovo setting di feed is_full_refresh (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina"
+    "🟡 25/10: sez. 0 e 11: llms-full.txt del 25/10: nuovo setting di feed is_full_refresh (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina",
+    "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM e parametri dinamici dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione"
    ]
   },
   "ebay-venditore": {
@@ -686,6 +688,27 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 26/10: sez. 7, 8 e 9: regole di Cristiano e opzioni di trello.py dal 13 al 23/10 (manutenzione #17): ordine della checklist per numero con le chiuse in testa e riordino automatico; opzioni --card, --sovrapponi, --non-prima senza data, commento --file, rifiuto delle card archiviate, inizia con i documenti già scritti, proposta della riga di tempo su done; appuntamento senza durata = 30 minuti, compleanni e promemoria bloccano solo se occupati; titoli delle copie a calendario con la traccia"
+   ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-10-26",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 26/10: sez. 5, 9 e 12: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e, dopo la pubblicazione, rilettura dei parametri e prova; su Google tagging automatico o suffisso già in uso, prova senza clic a pagamento [DA VERIFICARE]; brief senza i quattro punti rifiutati dal controllo automatico"
+   ]
+  },
+  "meta-ads-performance": {
+   "dal": "2026-10-26",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 26/10: sez. 6: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM dello standard del progetto, destinazione sulla pagina giusta, pulsante sempre («Usa post esistente» solo se il post ha già link e pulsante) e clic di prova dopo la pubblicazione; caso del 23/10, due video senza UTM e senza destinazione"
+   ]
+  },
+  "microsoft-ads": {
+   "dal": "2026-10-26",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 26/10: sez. 9: regola di Cristiano del 25/10 (manutenzione #17): ogni annuncio nasce con parametri URL dello standard del progetto (rilettura dopo l'importazione da Google), URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e prova dopo la pubblicazione"
    ]
   }
  },

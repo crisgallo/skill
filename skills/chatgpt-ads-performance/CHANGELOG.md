@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 26/10/2026
+- 🔴 Sez. 7: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione; brief senza i quattro punti rifiutati dal controllo automatico.
+
 ## 25/10/2026
 - 🟡 Sez. 0 e 11: `llms-full.txt` del 25/10/2026: nuovo setting di feed `is_full_refresh` (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina. Opt-in, default invariato.
 

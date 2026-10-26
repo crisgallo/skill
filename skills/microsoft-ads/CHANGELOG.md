@@ -1,5 +1,8 @@
 # Changelog microsoft-ads
 
+## 26/10/2026
+- 🔴 Sez. 9: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni annuncio nasce con parametri URL dello standard del progetto, URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e prova dopo la pubblicazione; brief senza i quattro punti rifiutati dal controllo automatico.
+
 ## 01/10/2026
 - 🔴 Sez. 9 e 13: post prodotto del 30/09/2026: liste aziende LinkedIn da 1.000 a 10.000 nomi, integrazione HubSpot in GA, Optimization Experiments in GA su Search/Shopping/Audience/PMax, API SOAP dismessa il 31/01/2027.
 - 🟡 Sez. 7: StatCounter Italia settembre 2026 (Google 87,31%, Bing 5,97%, Yahoo 5,00%, DuckDuckGo 0,69%). Data di verifica al 01/10.

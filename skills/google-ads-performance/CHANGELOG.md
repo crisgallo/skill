@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 26/10/2026
+- 🔴 Sez. 5, 9 e 12: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, URL di destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e, dopo la pubblicazione, rilettura dei parametri e clic di prova; su Google tagging automatico o suffisso già in uso, prova senza clic a pagamento [DA VERIFICARE]; i brief senza i quattro punti vengono rifiutati dal controllo automatico. Rimandi in sez. 9 e 12.
+
 ## 21/10/2026
 - 🔴 Sez. 13 nuova, su richiesta di Cristiano (chat Shipminds, 21/10/2026): aprire un account Google Ads intestato a un cliente da zero: fuso, valuta e paese per sempre (9842104), creazione dall'MCC o senza campagna (6139186, 6366720), collegamento a un altro gestore (7459601), profilo pagamenti del cliente e livelli di accesso per chi mette la carta (2375375, 9978556, 6372672), verifica dell'inserzionista con 30+30 giorni e pausa (9703665, 15588490, 9872152, 9872280), sospensioni e account correlati (2375414).
 - 🟡 Sez. 6: «Demand Gen drop» di ottobre (blog Google 13/10/2026): metrica Data Strength Uplift in arrivo, Data Manager su DV360 e GA, conversioni avanzate presto su DV360 e GA; il +20 % con Tag Gateway è analisi interna Google.
