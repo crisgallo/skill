@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 27/10/2026
+- 🔴 Sez. 13: annuncio di servizio Google Ads del 26/10/2026: dall'11/11/2026 passkey obbligatoria per le azioni sensibili (aggiungere utenti, collegare account; l'accesso non cambia), rollout per account con notifica; pagine ufficiali 16917887, 16968810 e 17423445: abbinamento in 1-2 giorni, 24-48 ore di blocco, piena attività dopo 7 giorni, passkey Android automatiche non valide, email gratuite bloccate in un pilota. Fonti aggiunte.
+
 ## 26/10/2026
 - 🔴 Sez. 5, 9 e 12: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, URL di destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e, dopo la pubblicazione, rilettura dei parametri e clic di prova; su Google tagging automatico o suffisso già in uso, prova senza clic a pagamento [DA VERIFICARE]; i brief senza i quattro punti vengono rifiutati dal controllo automatico. Rimandi in sez. 9 e 12.
 

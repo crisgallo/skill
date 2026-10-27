@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 27/10/2026
+- 🟡 Sez. 1: WooCommerce 11.3 in beta dal 26/10/2026, rilascio nella settimana del 09/11; rimozione dell'endpoint MCP deprecato a favore del WordPress MCP Adapter (post del 21/10), avvisi su PHP < 8.1.
+
 ## 24/10/2026
 - 🟡 Sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione `session.upload_progress.enabled=0` del 21/10 resta al suo posto; riguarda solo chi cambia il serialize handler a runtime. Fonte aggiunta.
 

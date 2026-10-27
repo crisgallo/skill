@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 27/10/2026
+- 🟡 Sez. 11: articolo 209467485 aggiornato il 26/10/2026: chiavi Restricted per risorsa o Full, validità 7 giorni-1 anno o senza scadenza, disattivazione dopo 90 giorni senza chiamate riuscite con email 7 giorni prima, chiave MCP opzionale.
+
 ## 17/10/2026
 - 🟡 Sez. 11: changelog API 14-17/10/2026: filtri `modifiedSince`/`createdSince` sull'export contatti, endpoint di scansione wallet pass, export senza risultati che risponde 200 vuoto (prima 202 con processId), app OAuth pubbliche con Brevo CLI 2.5.0.
 ## 14/10/2026

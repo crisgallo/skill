@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 27/10/2026
+- 🟡 Sez. 7: pagina Thought Leader Ads aggiornata da LinkedIn il 26/10/2026: ammessi anche testo, documento e Live Event; CTA solo sugli Event ads; permessi richiesti sulla Pagina; nessun tetto alle richieste; 3° grado solo nel Creator Marketplace; metriche memberFollows e clic al profilo.
+
 ## 26/10/2026
 - 🔴 Sez. 7: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e clic di prova dopo la pubblicazione; brief senza i quattro punti rifiutati dal controllo automatico.
 

@@ -1,5 +1,8 @@
 # Changelog gtm-server-side
 
+## 27/10/2026
+- 🟡 Sez. 11: pagina Cookie Keeper di Stape aggiornata il 26/10/2026: 39 cookie standard con le durate per famiglia (13 mesi GA, 400 giorni affiliazioni, 90 giorni cookie pubblicitari, 1 mese ttclid), master cookie dai plugin, test con Safari 16.4+.
+
 ## 23/10/2026
 - 🟡 Sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape (22/10) il server-to-server non è toccato; controllo della quota Apple in GA4 e dei cali dopo l'aggiornamento. Fonti aggiunte.
 

@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 27/10/2026
+- 🟡 Sez. 0, 7 e 11: changelog OpenAI del 26/10/2026: inserzioni con 4-6 immagini quadrate (`creative.file_ids`) per gli account abilitati, stesso titolo, testo e destinazione, campagne Reach/Clicks/Conversions con offerta fissa, regole di aggiornamento; nessun cambio per gli account non abilitati.
+
 ## 26/10/2026
 - 🔴 Sez. 7: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione; brief senza i quattro punti rifiutati dal controllo automatico.
 

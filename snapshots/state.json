@@ -1,11 +1,11 @@
 {
  "created": "2026-09-21",
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "locali": {
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-26",
+  "ultima_lettura": "2026-10-27",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-10-21",
-    "esito": "versione delle 20:26 del 21/10 (buonanotte chiude la giornata): integrata in trello sez. 5 (🔴, 22/10)"
+    "modificato": "2026-10-26",
+    "esito": "27/10: versione del 26/10: nota sulla stima corretta dallo strumento (si lascia, rinomina solo per un task diverso) integrata in trello sez. 9 (🟡); il resto già integrato il 20-22/10 e il 26/10"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-10-06",
@@ -458,7 +458,7 @@
   }
  },
  "drive": {
-  "data": "2026-10-26",
+  "data": "2026-10-27",
   "skills": {
    "wordpress-woocommerce": {
     "drive": "52312",
@@ -592,7 +592,8 @@
    "voci": [
     "🟡 08/10: Conversions API via GTM: un container Stape per account idoneo senza costi, condizioni di pubblicazione automatica, dati dopo qualche ora, dedup con eventId (pagina a1718034 del 07/10)",
     "🟡 15/10: sez. 15: Marketing API 202610 (metadata creatività, jobFunction, metriche memberFollows e memberProfileClicks, Boost API); breaking change surface sulle liste publisher dalla 202611, abbinamento obbligatorio dal 15/12/2026; sunset 202510 il 15/10 e 202511 il 16/11/2026",
-    "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e clic di prova dopo la pubblicazione"
+    "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e clic di prova dopo la pubblicazione",
+    "🟡 27/10: sez. 7: Thought Leader Ads (pagina del 26/10): ammessi anche testo, documento e Live Event, CTA solo sugli Event ads, nessun tetto alle richieste, 3° grado solo nel Creator Marketplace"
    ]
   },
   "ga4-performance": {
@@ -608,7 +609,8 @@
    "voci": [
     "🟡 13/10: sez. 9: release note GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: dati direttamente ai prodotti Google senza gtag.js separato, disponibilità generale del flusso opt-in del 20/08",
     "🟡 17/10: sez. 9: dettaglio dell'ottimizzazione dei container (tag Destination, procedura guidata, impostazioni di trasmissione dati per il consenso) dalle note Stape del 16/10",
-    "🟡 23/10: sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape il server-to-server non è toccato; controllare quota Apple in GA4 e cali dopo l'aggiornamento"
+    "🟡 23/10: sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape il server-to-server non è toccato; controllare quota Apple in GA4 e cali dopo l'aggiornamento",
+    "🟡 27/10: sez. 11: pagina Cookie Keeper di Stape del 26/10: 39 cookie standard con le durate per famiglia, master cookie dai plugin, test con Safari 16.4+"
    ]
   },
   "looker-studio": {
@@ -624,7 +626,8 @@
    "livello": "minore",
    "voci": [
     "🟡 14/10: sez. 9 e 11: due campagne si confrontano solo a parità di giorni dall'invio (regola di Cristiano del 13/10); endpoint del token OAuth M2M su api.brevo.com e scope esplicito (changelog 13/10)",
-    "🟡 17/10: sez. 11: changelog API 14-17/10 (filtri export contatti, wallet pass, export vuoto 200, app OAuth pubbliche)"
+    "🟡 17/10: sez. 11: changelog API 14-17/10 (filtri export contatti, wallet pass, export vuoto 200, app OAuth pubbliche)",
+    "🟡 27/10: sez. 11: articolo chiavi API aggiornato il 26/10: Restricted/Full, validità 7 giorni-1 anno, disattivazione dopo 90 giorni senza chiamate, chiave MCP"
    ]
   },
   "chatgpt-ads-performance": {
@@ -636,7 +639,8 @@
     "🟡 17/10: sez. 0 e 8: newsletter OpenAI del 16/10: pagina Conversions ridisegnata, mail settimanale di rendimento, feedback dal menu, test formati visivi, partner di misurazione Northbeam, DV Rockerbox, INCRMNTAL, Kochava, Tenjin, Airbridge",
     "🟡 20/10: sez. 6: llms-full.txt del 20/10: valore di piattaforma unknown (app Windows e macOS), web include i client web non classificati",
     "🟡 25/10: sez. 0 e 11: llms-full.txt del 25/10: nuovo setting di feed is_full_refresh (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina",
-    "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM e parametri dinamici dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione"
+    "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM e parametri dinamici dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione",
+    "🟡 27/10: sez. 0, 7 e 11: changelog OpenAI del 26/10: inserzioni con 4-6 immagini quadrate (creative.file_ids) per gli account abilitati, offerta fissa, regole di aggiornamento"
    ]
   },
   "ebay-venditore": {
@@ -673,7 +677,8 @@
    "dal": "2026-10-24",
    "livello": "minore",
    "voci": [
-    "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
+    "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto",
+    "🟡 27/10: sez. 1: WooCommerce 11.3 in beta dal 26/10, rilascio nella settimana del 09/11; rimozione dell'endpoint MCP deprecato a favore del WordPress MCP Adapter"
    ]
   },
   "prestashop": {
@@ -688,6 +693,27 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 26/10: sez. 9: regola di Cristiano del 25/10 (manutenzione #17): ogni annuncio nasce con parametri URL dello standard del progetto (rilettura dopo l'importazione da Google), URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e prova dopo la pubblicazione"
+   ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-10-27",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 27/10: sez. 13: annuncio di servizio Google Ads del 26/10: dall'11/11/2026 passkey obbligatoria per le azioni sensibili (aggiungere utenti, collegare account; l'accesso non cambia), rollout per account; abbinamento in 1-2 giorni, 24-48 ore di blocco, piena attività dopo 7 giorni, passkey Android automatiche non valide, email gratuite bloccate in un pilota (pagine 16917887, 16968810, 17423445)"
+   ]
+  },
+  "google-merchant-center": {
+   "dal": "2026-10-27",
+   "livello": "minore",
+   "voci": [
+    "🟡 27/10: sez. 3: stesso obbligo di passkey su Google Ads dall'11/11/2026; abbinamento in 1-2 giorni, piena attività dopo 7: si crea subito"
+   ]
+  },
+  "trello": {
+   "dal": "2026-10-27",
+   "livello": "minore",
+   "voci": [
+    "🟡 27/10: sez. 9: la stima corretta da trello.py nuova dalle misure non è un errore e si lascia, rinomina solo per un task diverso dal suo tipo (feedback del 26/10)"
    ]
   }
  },
@@ -718,7 +744,7 @@
   "social-media-manager": "2026-10-19"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-26",
+  "ultima_lettura": "2026-10-27",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -791,6 +817,12 @@
     "mittente": "googlebase-noreply@google.com",
     "oggetto": "You'll soon need a passkey for Merchant Center",
     "esito": "integrata in google-merchant-center sez. 3 (🔴 24/10): passkey obbligatoria dal 29/10/2026 per aggiungere utenti e assegnare permessi; pagina ufficiale non trovata [DA VERIFICARE]"
+   },
+   "1a1790ed1728cb41": {
+    "data": "2026-10-26",
+    "mittente": "googleads-noreply@google.com",
+    "oggetto": "Azione richiesta: crea una passkey oggi stesso e proteggi il tuo account Google Ads",
+    "esito": "integrata in google-ads-performance sez. 13 (🔴 27/10): dall'11/11/2026 passkey obbligatoria per le azioni sensibili; verificata sulle pagine 16917887, 16968810, 17423445"
    }
   }
  },

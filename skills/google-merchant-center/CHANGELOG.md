@@ -1,5 +1,8 @@
 # Changelog google-merchant-center
 
+## 27/10/2026
+- 🟡 Sez. 3: stesso obbligo di passkey su Google Ads dall'11/11/2026 (annuncio di servizio del 26/10); abbinamento in 1-2 giorni, piena attività dopo 7: la passkey si crea subito. Rimando a google-ads-performance sez. 13.
+
 ## 24/10/2026
 - 🔴 Sez. 3: dal 29/10/2026 Merchant Center richiede una passkey per azioni sensibili (aggiungere utenti, assegnare permessi; l'accesso non cambia); la passkey di Google Ads vale anche qui; da creare prima del 29/10 su ogni Account Google che amministra un Merchant Center. Fonte: email di servizio Google del 22/10/2026, pagina ufficiale non trovata [DA VERIFICARE].
 
