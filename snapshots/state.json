@@ -715,6 +715,13 @@
    "voci": [
     "🟡 27/10: sez. 9: la stima corretta da trello.py nuova dalle misure non è un errore e si lascia, rinomina solo per un task diverso dal suo tipo (feedback del 26/10)"
    ]
+  },
+  "google-cloud": {
+   "dal": "2026-10-27",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 27/10: skill nuova su richiesta di Cristiano: progetti e organizzazione, fatturazione e IVA Italia, Free Tier, ruoli IAM, account di servizio e chiavi API, BigQuery per GA4 e Search Console con prezzi e controllo dei costi, Cloud Run per il server GTM, OAuth e verifica, Google Ads API senza developer token dal 09/09/2026, quote Apps Script, igiene di un progetto ereditato"
+   ]
   }
  },
  "ultima_mail": {
