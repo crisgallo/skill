@@ -35,6 +35,7 @@ Regola che vale per tutte le skill: le sezioni marcate **✅ VERIFICATO** con un
 | prestashop | Versioni, SEO, tracking, feed | 2-3 mesi |
 | sviluppo-web | Coordinare sviluppatori: ambienti, deploy, go-live | 3 mesi |
 | redmine-harvest | Ore, task e fatturazione come subfornitore | 3 mesi |
+| viaggi-treno-italia | Treni Trenitalia e Italo, corriere, metro e taxi, tariffe e rimborsi, scioperi, fattura e spese di viaggio | 2 mesi |
 | creditsafe-monitoraggio-credito | Creditsafe, verificato a mano | a evento |
 | substack-intelligence | Newsletter «Matematica e Marketing» | a evento |
 | cristiano-gallinelli-persona | La voce di Cristiano, dal blog | settimanale |
