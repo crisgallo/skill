@@ -726,6 +726,13 @@
     "🟡 27/10: sez. 9: la stima corretta da trello.py nuova dalle misure non è un errore e si lascia, rinomina solo per un task diverso dal suo tipo (feedback del 26/10)",
     "🔴 28/10: sez. 9: regole di Cristiano del 27/10: sul calendario ogni voce occupa almeno 30 minuti anche con stima da 15, e le voci cominciano all'ora o alla mezz'ora, mai al quarto d'ora"
    ]
+  },
+  "meta-ads-performance": {
+   "dal": "2026-10-28",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 28/10: sez. 6 e 7: opzione del catalogo «Aggiornamenti automatici per i video dei prodotti» accesa di default: attacca agli articoli video ricavati anche da inserzioni spente da mesi, che le inserzioni a catalogo con «Consenti video del prodotto» mostrano; «Rifiuta video», conteggio del filtro non aggiornato, cosa fare quando si spengono creatività o si eredita un catalogo (verificato sul pannello il 28/10, manutenzione #17)"
+   ]
   }
  },
  "ultima_mail": {

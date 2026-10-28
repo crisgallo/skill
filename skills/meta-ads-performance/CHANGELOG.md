@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 28/10/2026
+- 🔴 Sez. 6 e 7: verificato sul pannello il 28/10/2026 (manutenzione #17 su richiesta di Cristiano): l'opzione «Aggiornamenti automatici per i video dei prodotti» del catalogo, accesa di default, attacca agli articoli video ricavati anche da inserzioni spente da mesi e le inserzioni a catalogo con «Consenti video del prodotto» li mostrano; pulsante «Rifiuta video», conteggio del filtro che non si aggiorna, cosa fare quando si spengono creatività o si eredita un catalogo; punto 11 nella lettura del pannello.
+
 ## 26/10/2026
 - 🔴 Sez. 6: regola di Cristiano del 25/10/2026 (`feedback_piattaforme_e_campagne.md`, via manutenzione #17): ogni inserzione nasce con UTM dello standard del progetto, destinazione sulla pagina giusta, pulsante sempre («Usa post esistente» solo se il post ha già link e pulsante) e clic di prova dopo la pubblicazione; caso del 23/10 (due video senza UTM e senza destinazione); brief senza i quattro punti rifiutati dal controllo automatico.
 
