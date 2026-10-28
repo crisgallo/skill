@@ -1,5 +1,8 @@
 # Changelog looker-studio
 
+## 28/10/2026
+- 🟡 Sez. 17: pagina Improve performance aggiornata il 26/10/2026: tabelle materializzate al posto delle viste pesanti, Storage Read API con i permessi readsessions, estratto 100 MB senza freschezza.
+
 ## 18/10/2026
 - 🟡 Sez. 14: pagina embed riletta (agg. 13/10/2026): link solo dalla finestra Incorpora, larghezza e altezza, interruttore «Show report navigation in embedded mode», watermark e schermo intero fissi.
 ## 14/10/2026

@@ -1,11 +1,11 @@
 {
  "created": "2026-09-21",
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "locali": {
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-27",
+  "ultima_lettura": "2026-10-28",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-10-26",
-    "esito": "27/10: versione del 26/10: nota sulla stima corretta dallo strumento (si lascia, rinomina solo per un task diverso) integrata in trello sez. 9 (🟡); il resto già integrato il 20-22/10 e il 26/10"
+    "modificato": "2026-10-27",
+    "esito": "28/10: versione del 27/10: minimo 30 minuti a calendario e inizio all'ora o alla mezz'ora integrati in trello sez. 9 (🔴)"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-10-06",
@@ -436,8 +436,8 @@
     "esito": "regola globale «Serve a:» sui documenti; la parte sui commenti delle voci integrata in trello sez. 6"
    },
    "feedback_tono_nicolo_mr_apps.md": {
-    "modificato": "2026-10-19",
-    "esito": "regola locale ScegliNatura (tono con Nicolò di Mr Apps), non integrata"
+    "modificato": "2026-10-27",
+    "esito": "regola locale di progetto (ScegliNatura), tono con un fornitore e priorità delle risposte: non integrata"
    },
    "feedback_verifica_sent_prima_draft.md": {
     "modificato": "2026-10-20",
@@ -454,11 +454,19 @@
    "feedback_routine_e_mac_spento.md": {
     "modificato": "2026-10-25",
     "esito": "25/10: regola globale sulle routine col Mac spento (riga di recupero nei SKILL.md delle routine, buonanotte, guardiano, guardia della posta su Apps Script): regola di processo del sistema locale, nessuna skill del repository"
+   },
+   "feedback_niente_legame_almaphyto.md": {
+    "modificato": "2026-10-27",
+    "esito": "regola locale di progetto (ScegliNatura), riservata: non integrata"
+   },
+   "feedback_registro_niente_uscita_collaboratori.md": {
+    "modificato": "2026-10-27",
+    "esito": "regola locale di progetto (ScegliNatura): non integrata"
    }
   }
  },
  "drive": {
-  "data": "2026-10-27",
+  "data": "2026-10-28",
   "skills": {
    "wordpress-woocommerce": {
     "drive": "52312",
@@ -474,20 +482,20 @@
    },
    "skill-creator": "sconosciuta",
    "google-ads-performance": {
-    "drive": "59073",
-    "commit": "66b3939"
+    "drive": "72024",
+    "commit": "5d998ce"
    },
    "meta-pixel-capi": {
-    "drive": "41017",
-    "commit": "4c3877a"
+    "drive": "43014",
+    "commit": "13915ff"
    },
    "meta-ads-performance": {
-    "drive": "42479",
-    "commit": "4c3877a"
+    "drive": "53976",
+    "commit": "5d998ce"
    },
    "trello": {
-    "drive": "71058",
-    "commit": "4c3877a"
+    "drive": "77999",
+    "commit": "b05f1b3"
    },
    "social-media-manager": {
     "drive": "36770",
@@ -551,8 +559,8 @@
     "commit": "3102ea1"
    },
    "google-merchant-center": {
-    "drive": "37573",
-    "commit": "370c032"
+    "drive": "39846",
+    "commit": "bd4057f"
    },
    "seo-tecnica": {
     "drive": "45381",
@@ -618,7 +626,8 @@
    "livello": "minore",
    "voci": [
     "🟡 14/10: sez. 9: regola di Cristiano del 13/10: ogni confronto mette i paragonati sullo stesso piano e con gli stessi fattori (finestra, periodo, definizioni, vista dei dati)",
-    "🟡 18/10: sez. 14: pagina embed, interruttore navigazione in modalità incorporata"
+    "🟡 18/10: sez. 14: pagina embed, interruttore navigazione in modalità incorporata",
+    "🟡 28/10: sez. 17: pagina Improve performance del 26/10: tabelle materializzate al posto delle viste pesanti, Storage Read API con i permessi readsessions"
    ]
   },
   "brevo": {
@@ -627,7 +636,8 @@
    "voci": [
     "🟡 14/10: sez. 9 e 11: due campagne si confrontano solo a parità di giorni dall'invio (regola di Cristiano del 13/10); endpoint del token OAuth M2M su api.brevo.com e scope esplicito (changelog 13/10)",
     "🟡 17/10: sez. 11: changelog API 14-17/10 (filtri export contatti, wallet pass, export vuoto 200, app OAuth pubbliche)",
-    "🟡 27/10: sez. 11: articolo chiavi API aggiornato il 26/10: Restricted/Full, validità 7 giorni-1 anno, disattivazione dopo 90 giorni senza chiamate, chiave MCP"
+    "🟡 27/10: sez. 11: articolo chiavi API aggiornato il 26/10: Restricted/Full, validità 7 giorni-1 anno, disattivazione dopo 90 giorni senza chiamate, chiave MCP",
+    "🟡 28/10: sez. 9: articoli sul reinvio del 27/10: «Requeue» rinominato «Send to new contacts», «Resume campaign», reinvio ai non-aperti una volta sola e non con lotti o warm-up"
    ]
   },
   "chatgpt-ads-performance": {
@@ -711,9 +721,10 @@
   },
   "trello": {
    "dal": "2026-10-27",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "🟡 27/10: sez. 9: la stima corretta da trello.py nuova dalle misure non è un errore e si lascia, rinomina solo per un task diverso dal suo tipo (feedback del 26/10)"
+    "🟡 27/10: sez. 9: la stima corretta da trello.py nuova dalle misure non è un errore e si lascia, rinomina solo per un task diverso dal suo tipo (feedback del 26/10)",
+    "🔴 28/10: sez. 9: regole di Cristiano del 27/10: sul calendario ogni voce occupa almeno 30 minuti anche con stima da 15, e le voci cominciano all'ora o alla mezz'ora, mai al quarto d'ora"
    ]
   }
  },
@@ -745,7 +756,7 @@
   "google-cloud": "2026-10-27"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-27",
+  "ultima_lettura": "2026-10-28",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

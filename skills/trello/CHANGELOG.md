@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 28/10/2026
+- 🔴 Sez. 9: regole di Cristiano del 27/10/2026 (`feedback_pianificazione_spazio_calendario.md`): sul calendario ogni voce occupa almeno 30 minuti anche con stima da 15, e le voci cominciano all'ora o alla mezz'ora, mai al quarto d'ora; la stima nel titolo resta quella vera.
+
 ## 27/10/2026
 - 🟡 Sez. 9: versione del 26/10/2026 di `feedback_pianificazione_spazio_calendario.md`: la stima corretta da `trello.py nuova` dalle misure non è un errore e si lascia, si rimette con `rinomina` solo per un task diverso dal suo tipo; voce senza stima = un'ora.
 

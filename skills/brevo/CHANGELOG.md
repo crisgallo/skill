@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 28/10/2026
+- 🟡 Sez. 9: articoli sul reinvio aggiornati il 27/10/2026: «Requeue» rinominato «Send to new contacts», «Resume campaign» per le sospese, reinvio ai non-aperti una volta sola e non con lotti o warm-up, duplicare per i nuovi contatti sconsigliato.
+
 ## 27/10/2026
 - 🟡 Sez. 11: articolo 209467485 aggiornato il 26/10/2026: chiavi Restricted per risorsa o Full, validità 7 giorni-1 anno o senza scadenza, disattivazione dopo 90 giorni senza chiamate riuscite con email 7 giorni prima, chiave MCP opzionale.
 
