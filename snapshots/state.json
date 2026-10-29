@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-28",
+  "ultima_lettura": "2026-10-29",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -466,24 +466,15 @@
   }
  },
  "drive": {
-  "data": "2026-10-28",
+  "data": "2026-10-29",
   "skills": {
-   "wordpress-woocommerce": {
-    "drive": "52312",
-    "commit": "db8eb2f"
+   "google-cloud": {
+    "drive": "37114",
+    "commit": "44c87a6"
    },
-   "prestashop": {
-    "drive": "38575",
-    "commit": "db8eb2f"
-   },
-   "sviluppo-web": {
-    "drive": "44301",
-    "commit": "db8eb2f"
-   },
-   "skill-creator": "sconosciuta",
-   "google-ads-performance": {
-    "drive": "72024",
-    "commit": "5d998ce"
+   "google-merchant-center": {
+    "drive": "39846",
+    "commit": "bd4057f"
    },
    "meta-pixel-capi": {
     "drive": "43014",
@@ -493,9 +484,25 @@
     "drive": "53976",
     "commit": "5d998ce"
    },
+   "google-ads-performance": {
+    "drive": "72024",
+    "commit": "5d998ce"
+   },
    "trello": {
     "drive": "77999",
     "commit": "b05f1b3"
+   },
+   "prestashop": {
+    "drive": "38575",
+    "commit": "db8eb2f"
+   },
+   "wordpress-woocommerce": {
+    "drive": "52312",
+    "commit": "db8eb2f"
+   },
+   "sviluppo-web": {
+    "drive": "44301",
+    "commit": "db8eb2f"
    },
    "social-media-manager": {
     "drive": "36770",
@@ -505,24 +512,22 @@
     "drive": "39092",
     "commit": "abb0d05"
    },
-   "google-workspace": "sconosciuta",
    "gtm-server-side": {
     "drive": "43916",
     "commit": "d5c3125"
-   },
-   "redmine-harvest": {
-    "drive": "47304",
-    "commit": "3a0fd55"
    },
    "chatgpt-ads-performance": {
     "drive": "43735",
     "commit": "329073e"
    },
+   "redmine-harvest": {
+    "drive": "47304",
+    "commit": "3a0fd55"
+   },
    "brevo": {
     "drive": "63744",
     "commit": "962a1a3"
    },
-   "computer-use": "sconosciuta",
    "corsa-allenamento-salute": {
     "drive": "37711",
     "commit": "aa09841"
@@ -531,13 +536,12 @@
     "drive": "50364",
     "commit": "0cc08fb"
    },
-   "pptx": "sconosciuta",
-   "microsoft-ads": {
-    "drive": "50964",
-    "commit": "39b9e4b"
-   },
    "trustpilot": {
     "drive": "47010",
+    "commit": "39b9e4b"
+   },
+   "microsoft-ads": {
+    "drive": "50964",
     "commit": "39b9e4b"
    },
    "google-search-console": {
@@ -548,8 +552,6 @@
     "drive": "30253",
     "commit": "23dc675"
    },
-   "docx": "sconosciuta",
-   "docs": "sconosciuta",
    "looker-studio": {
     "drive": "45183",
     "commit": "3102ea1"
@@ -557,10 +559,6 @@
    "cristiano-gallinelli-persona": {
     "drive": "48635",
     "commit": "3102ea1"
-   },
-   "google-merchant-center": {
-    "drive": "39846",
-    "commit": "bd4057f"
    },
    "seo-tecnica": {
     "drive": "45381",
@@ -570,7 +568,6 @@
     "drive": "47358",
     "commit": "02c21d8"
    },
-   "built-in-browser": "sconosciuta",
    "substack-intelligence": {
     "drive": "17135",
     "commit": "29b96fe"
@@ -601,7 +598,8 @@
     "🟡 08/10: Conversions API via GTM: un container Stape per account idoneo senza costi, condizioni di pubblicazione automatica, dati dopo qualche ora, dedup con eventId (pagina a1718034 del 07/10)",
     "🟡 15/10: sez. 15: Marketing API 202610 (metadata creatività, jobFunction, metriche memberFollows e memberProfileClicks, Boost API); breaking change surface sulle liste publisher dalla 202611, abbinamento obbligatorio dal 15/12/2026; sunset 202510 il 15/10 e 202511 il 16/11/2026",
     "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con parametri URL dello standard del progetto, destinazione sulla pagina giusta, invito all'azione dove il formato lo prevede e clic di prova dopo la pubblicazione",
-    "🟡 27/10: sez. 7: Thought Leader Ads (pagina del 26/10): ammessi anche testo, documento e Live Event, CTA solo sugli Event ads, nessun tetto alle richieste, 3° grado solo nel Creator Marketplace"
+    "🟡 27/10: sez. 7: Thought Leader Ads (pagina del 26/10): ammessi anche testo, documento e Live Event, CTA solo sugli Event ads, nessun tetto alle richieste, 3° grado solo nel Creator Marketplace",
+    "🟡 29/10: sez. 2: limiti di selezione del targeting (200 per località e nomi azienda, 100 per gli altri attributi, una lingua del profilo per ad set fra 35, pubblici predittivi aggiornati ogni giorno), pagina a424655 aggiornata il 28/10"
    ]
   },
   "ga4-performance": {
@@ -764,7 +762,7 @@
   "viaggi-treno-italia": "2026-10-28"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-28",
+  "ultima_lettura": "2026-10-29",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 29/10/2026
+- 🟡 Sez. 2: limiti di selezione del targeting dalla pagina a424655 aggiornata il 28/10/2026: 200 per località e nomi azienda, 100 per ogni altro attributo (la skill diceva 200 per le opzioni demografiche), una lingua del profilo per ad set fra 35, pubblici predittivi aggiornati ogni giorno. Minore perché nessuna campagna reale tocca quei tetti.
+
 ## 27/10/2026
 - 🟡 Sez. 7: pagina Thought Leader Ads aggiornata da LinkedIn il 26/10/2026: ammessi anche testo, documento e Live Event; CTA solo sugli Event ads; permessi richiesti sulla Pagina; nessun tetto alle richieste; 3° grado solo nel Creator Marketplace; metriche memberFollows e clic al profilo.
 
