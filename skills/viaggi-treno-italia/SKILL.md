@@ -5,7 +5,7 @@ description: "Regole operative verificate per organizzare gli spostamenti di lav
 
 # Viaggi di lavoro in treno e corriera in Italia: regole operative
 
-**Ultima verifica delle fonti: 28 ottobre 2026.**
+**Ultima verifica delle fonti: 30 ottobre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -46,7 +46,7 @@ Le pagine lette il 28/10/2026 ([tariffe](https://www.trenitalia.com/it/html/tren
 
 ## 3. CartaFRECCIA: chiude il 31/12/2026
 
-Dalla [pagina CartaFRECCIA](https://www.trenitalia.com/it/cartafreccia.html) letta il 28/10/2026: **il programma termina il 31/12/2026; i punti restano spendibili fino al 31/03/2027.** Fino ad allora i livelli sono Argento (+10% punti, FrecciaClub, 2 upgrade), Oro (+25%, 3 upgrade, FrecciaLounge con un ospite, cambio a bordo, canale WhatsApp), Platino (+50%, 4 upgrade, un biglietto omaggio, SuperFlex) e Platino Infinito. **Le soglie di punti per livello non sono pubblicate** nella pagina letta **[DA VERIFICARE]**. Regola pratica: chi ha punti li usa prima della scadenza; non si pianifica una strategia di accumulo su un programma che chiude; se Trenitalia annuncia il programma sostitutivo si riscrive questa sezione.
+Dalla [pagina CartaFRECCIA](https://www.trenitalia.com/it/cartafreccia.html) letta il 28/10/2026: **il programma termina il 31/12/2026; i punti restano spendibili fino al 31/03/2027.** Fino ad allora i livelli sono Argento (+10% punti, FrecciaClub, 2 upgrade), Oro (+25%, 3 upgrade, FrecciaLounge con un ospite, cambio a bordo, canale WhatsApp), Platino (+50%, 4 upgrade, FrecciaLounge con due ospiti, un biglietto omaggio, SuperFlex) e Platino Infinito (+100%, 5 upgrade, unico livello che non scade; pagina riletta il 30/10/2026). **Le soglie di punti per livello non sono pubblicate** nella pagina letta **[DA VERIFICARE]**. Regola pratica: chi ha punti li usa prima della scadenza; non si pianifica una strategia di accumulo su un programma che chiude; se Trenitalia annuncia il programma sostitutivo si riscrive questa sezione.
 
 ---
 
@@ -70,7 +70,7 @@ Fonti: [tariffe](https://www.italotreno.com/it/il-treno/tariffe), [termini e con
 - **Low Cost**: cambio **fino a 72 ore prima** della partenza con **sovrapprezzo del 60%** più l'eventuale differenza di prezzo; **nessun rimborso**; niente cambio nome.
 - **Economy**: **cambi illimitati fino a 3 minuti prima** con **sovrapprezzo del 20%** più differenza; **rimborso del 40%** del prezzo (trattenuta 60%).
 - **Flex**: cambi illimitati, **anche di nome**, senza sovrapprezzo (si paga solo la differenza); **rimborso dell'80%**.
-- **Opzioni a pagamento**: **Opzione Rimborso** (rimborso dell'80% chiesto **fino a 72 ore prima**, su tariffe che non lo prevedono), **Extra Tempo** (10 €, salire su un altro treno vicino [DA VERIFICARE] le finestre esatte), **Parti Ora** (15 €, fino a 2 ore prima, servono almeno due treni utili; il suo prezzo non concorre all'indennizzo).
+- **Opzioni a pagamento**: **Opzione Rimborso** (rimborso dell'80% chiesto **fino a 72 ore prima**, su tariffe che non lo prevedono), **Extra Tempo** (supplemento di 10 €: con il treno perso si sale su un altro Italo entro **un'ora**; la tariffa Flex lo comprende, pagina tariffe riletta il 30/10/2026), **Parti Ora** (15 € a passeggero, si anticipa fino a 2 ore e solo il giorno della partenza, servono almeno due treni utili; il suo prezzo non concorre all'indennizzo).
 - **Dal contratto 01/10/2026**: la rinuncia al viaggio si chiede **fino a 3 minuti prima**; il **riaccredito arriva entro 30 giorni**, mai in contanti; il cambio si fa con **Codice Biglietto e nominativo** sul sito, in app o al 060708 (Pronto Italo), non via email. A bordo senza biglietto valido si paga **penale del 20% sulla tariffa Bordo**; il viaggio irregolare costa **200 €, ridotti a 130 € se pagati entro 30 giorni**.
 - **Italo Più** (promozione dei livelli fino al 30/11/2026): 1 punto per euro, doppi su Flex; livelli **Member, Premium (800 punti), Privilege (3.000), Privilege Plus (6.000)**; benefici crescenti (Fast Track, upgrade 2/4/6, accessi lounge 1/20/illimitati); i punti valgono **fino al 30/05/2027**, il biglietto premio si usa entro 180 giorni, il livello si ricalcola ogni 12 mesi. Date e soglie sono promozionali: si rileggono dopo il 30/11/2026.
 - **Italobus e Itabus**: dal giugno 2023 il biglietto treno più bus è **unico**, i punti maturano solo sulla tratta treno; cambio e rimborso della tratta bus seguono la tariffa del biglietto, ma le condizioni specifiche del bus **[DA VERIFICARE]** sulla pagina dedicata, non letta.

@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-29",
+  "ultima_lettura": "2026-10-30",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-10-27",
-    "esito": "28/10: versione del 27/10: minimo 30 minuti a calendario e inizio all'ora o alla mezz'ora integrati in trello sez. 9 (🔴)"
+    "modificato": "2026-10-29",
+    "esito": "30/10: riletto per intero, stesse regole della versione del 27/10 (tutte già in trello sez. 9), nessuna regola nuova"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-10-06",
@@ -466,7 +466,7 @@
   }
  },
  "drive": {
-  "data": "2026-10-29",
+  "data": "2026-10-30",
   "skills": {
    "google-cloud": {
     "drive": "37114",
@@ -635,7 +635,8 @@
     "🟡 14/10: sez. 9 e 11: due campagne si confrontano solo a parità di giorni dall'invio (regola di Cristiano del 13/10); endpoint del token OAuth M2M su api.brevo.com e scope esplicito (changelog 13/10)",
     "🟡 17/10: sez. 11: changelog API 14-17/10 (filtri export contatti, wallet pass, export vuoto 200, app OAuth pubbliche)",
     "🟡 27/10: sez. 11: articolo chiavi API aggiornato il 26/10: Restricted/Full, validità 7 giorni-1 anno, disattivazione dopo 90 giorni senza chiamate, chiave MCP",
-    "🟡 28/10: sez. 9: articoli sul reinvio del 27/10: «Requeue» rinominato «Send to new contacts», «Resume campaign», reinvio ai non-aperti una volta sola e non con lotti o warm-up"
+    "🟡 28/10: sez. 9: articoli sul reinvio del 27/10: «Requeue» rinominato «Send to new contacts», «Resume campaign», reinvio ai non-aperti una volta sola e non con lotti o warm-up",
+    "🟡 30/10: sez. 11: changelog API di ottobre (removeTrackingPixel solo Enterprise, OAuth M2M, filtri export, export vuoto 200)"
    ]
   },
   "chatgpt-ads-performance": {
@@ -648,7 +649,8 @@
     "🟡 20/10: sez. 6: llms-full.txt del 20/10: valore di piattaforma unknown (app Windows e macOS), web include i client web non classificati",
     "🟡 25/10: sez. 0 e 11: llms-full.txt del 25/10: nuovo setting di feed is_full_refresh (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina",
     "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM e parametri dinamici dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione",
-    "🟡 27/10: sez. 0, 7 e 11: changelog OpenAI del 26/10: inserzioni con 4-6 immagini quadrate (creative.file_ids) per gli account abilitati, offerta fissa, regole di aggiornamento"
+    "🟡 27/10: sez. 0, 7 e 11: changelog OpenAI del 26/10: inserzioni con 4-6 immagini quadrate (creative.file_ids) per gli account abilitati, offerta fissa, regole di aggiornamento",
+    "🟡 30/10: sez. 0 e 11: beta Hotel con campagne via API (solo USA, CPC manuale), endpoint `items/query` per feed di prodotto e Hotel (idonei senza approvazione, limit 1-500), `start_time` omesso non è più partenza immediata (llms-full.txt del 30/10)"
    ]
   },
   "ebay-venditore": {
@@ -731,6 +733,13 @@
    "voci": [
     "🔴 28/10: sez. 6 e 7: opzione del catalogo «Aggiornamenti automatici per i video dei prodotti» accesa di default: attacca agli articoli video ricavati anche da inserzioni spente da mesi, che le inserzioni a catalogo con «Consenti video del prodotto» mostrano; «Rifiuta video», conteggio del filtro non aggiornato, cosa fare quando si spengono creatività o si eredita un catalogo (verificato sul pannello il 28/10, manutenzione #17)"
    ]
+  },
+  "viaggi-treno-italia": {
+   "dal": "2026-10-30",
+   "livello": "minore",
+   "voci": [
+    "🟡 30/10: sez. 3 e 5: Platino Infinito (+100%, 5 upgrade, non scade), Extra Tempo un'ora compreso nella Flex, Parti Ora 15 € solo il giorno della partenza (pagine rilette il 30/10)"
+   ]
   }
  },
  "ultima_mail": {
@@ -762,7 +771,7 @@
   "viaggi-treno-italia": "2026-10-28"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-29",
+  "ultima_lettura": "2026-10-30",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

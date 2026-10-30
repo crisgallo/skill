@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 30/10/2026
+- 🟡 Sez. 0 e 11: `llms-full.txt` del 30/10/2026: beta Hotel con campagne via API (solo USA, CPC manuale, un annuncio modello per gruppo), endpoint generico `POST /v1/feeds/{feed_id}/items/query` per feed di prodotto e Hotel (articoli idonei senza approvazione, limit 1-500), `start_time` omesso non significa più partenza immediata. Nessuna regola operativa per i clienti italiani cambia.
+
 ## 27/10/2026
 - 🟡 Sez. 0, 7 e 11: changelog OpenAI del 26/10/2026: inserzioni con 4-6 immagini quadrate (`creative.file_ids`) per gli account abilitati, stesso titolo, testo e destinazione, campagne Reach/Clicks/Conversions con offerta fissa, regole di aggiornamento; nessun cambio per gli account non abilitati.
 

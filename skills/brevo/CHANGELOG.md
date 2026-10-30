@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 30/10/2026
+- 🟡 Sez. 11: changelog API di ottobre 2026 (letto il 30/10): `removeTrackingPixel` solo Enterprise, OAuth 2.0 machine-to-machine con endpoint spostato il 13/10, filtri `modifiedSince` e `createdSince` sugli export, export vuoto risponde 200. Nessuna regola operativa cambia.
 ## 28/10/2026
 - 🟡 Sez. 9: articoli sul reinvio aggiornati il 27/10/2026: «Requeue» rinominato «Send to new contacts», «Resume campaign» per le sospese, reinvio ai non-aperti una volta sola e non con lotti o warm-up, duplicare per i nuovi contatti sconsigliato.
 
