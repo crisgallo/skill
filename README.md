@@ -23,7 +23,7 @@ Regola che vale per tutte le skill: le sezioni marcate **✅ VERIFICATO** con un
 | ga4-performance | GA4: eventi chiave, filtri, esplorazioni, raccolte | 2-3 mesi |
 | google-search-console | Search Console e SEO dai dati veri | 2-3 mesi |
 | seo-tecnica | SEO tecnica e on-page, migrazioni | 2-3 mesi |
-| gtm-server-side | GTM web e server (Stape) | 2-3 mesi |
+| gtm | GTM, container web e server (Stape), siti editoriali in costruzione; fino al 30/10/2026 «gtm-server-side» | 2-3 mesi |
 | consent-mode-privacy | Consent Mode v2, Garante, CMP | 2 mesi |
 | meta-pixel-capi | Pixel e Conversions API | 2-3 mesi |
 | looker-studio | Report per clienti (Data Studio dal 04/2026) | 2-3 mesi |

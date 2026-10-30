@@ -1,5 +1,7 @@
-# Changelog gtm-server-side
+# Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 30/10/2026
+- 🔴 Skill rinominata da «gtm-server-side» a «gtm» su richiesta di Cristiano (chat Gruppo NEM, 30/10/2026): copre il container web e quello server, e il nome vecchio faceva pensare al solo server. Descrizione e titolo aggiornati, nota in sez. 0. Nuova sez. 15 «Siti editoriali» con i soli quattro temi (video, paywall e abbonati, più testate su container separati, articoli in webview nelle app), tutti [DA VERIFICARE]: le regole arrivano dal lavoro sul pannello dal 09/11/2026. Su claude.ai va eliminata la skill gtm-server-side e caricata gtm.
 ## 27/10/2026
 - 🟡 Sez. 11: pagina Cookie Keeper di Stape aggiornata il 26/10/2026: 39 cookie standard con le durate per famiglia (13 mesi GA, 400 giorni affiliazioni, 90 giorni cookie pubblicitari, 1 mese ttclid), master cookie dai plugin, test con Safari 16.4+.
 

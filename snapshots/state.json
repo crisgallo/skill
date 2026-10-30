@@ -512,10 +512,6 @@
     "drive": "39092",
     "commit": "abb0d05"
    },
-   "gtm-server-side": {
-    "drive": "43916",
-    "commit": "d5c3125"
-   },
    "chatgpt-ads-performance": {
     "drive": "43735",
     "commit": "329073e"
@@ -579,6 +575,10 @@
    "consent-mode-privacy": {
     "drive": "31828",
     "commit": "f37effc"
+   },
+   "gtm": {
+    "drive": "43916",
+    "commit": "d5c3125"
    }
   }
  },
@@ -607,16 +607,6 @@
    "livello": "minore",
    "voci": [
     "🟡 10/10: sez. 0: User Groups Admin API del 05/10/2026 per gestire i gruppi di utenti via API"
-   ]
-  },
-  "gtm-server-side": {
-   "dal": "2026-10-13",
-   "livello": "minore",
-   "voci": [
-    "🟡 13/10: sez. 9: release note GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: dati direttamente ai prodotti Google senza gtag.js separato, disponibilità generale del flusso opt-in del 20/08",
-    "🟡 17/10: sez. 9: dettaglio dell'ottimizzazione dei container (tag Destination, procedura guidata, impostazioni di trasmissione dati per il consenso) dalle note Stape del 16/10",
-    "🟡 23/10: sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape il server-to-server non è toccato; controllare quota Apple in GA4 e cali dopo l'aggiornamento",
-    "🟡 27/10: sez. 11: pagina Cookie Keeper di Stape del 26/10: 39 cookie standard con le durate per famiglia, master cookie dai plugin, test con Safari 16.4+"
    ]
   },
   "looker-studio": {
@@ -734,6 +724,17 @@
     "🔴 28/10: sez. 6 e 7: opzione del catalogo «Aggiornamenti automatici per i video dei prodotti» accesa di default: attacca agli articoli video ricavati anche da inserzioni spente da mesi, che le inserzioni a catalogo con «Consenti video del prodotto» mostrano; «Rifiuta video», conteggio del filtro non aggiornato, cosa fare quando si spengono creatività o si eredita un catalogo (verificato sul pannello il 28/10, manutenzione #17)",
     "🔴 30/10: sez. 6: immagini 4:5 e 1:1 con la fascia alta libera (circa 15%, 270 px su 1800) per l'intestazione «Inserzione» in Storie, Reel e Feed del profilo; anteprima di ogni posizionamento guardata dalla chat prima di pubblicare o riaccendere, con un elemento coperto non si pubblica (regole di Cristiano del 30/10, chat ScegliNatura via Ecommerce #34)"
    ]
+  },
+  "gtm": {
+   "dal": "2026-10-13",
+   "livello": "sostanziale",
+   "voci": [
+    "🟡 13/10: sez. 9: release note GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: dati direttamente ai prodotti Google senza gtag.js separato, disponibilità generale del flusso opt-in del 20/08",
+    "🟡 17/10: sez. 9: dettaglio dell'ottimizzazione dei container (tag Destination, procedura guidata, impostazioni di trasmissione dati per il consenso) dalle note Stape del 16/10",
+    "🟡 23/10: sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape il server-to-server non è toccato; controllare quota Apple in GA4 e cali dopo l'aggiornamento",
+    "🟡 27/10: sez. 11: pagina Cookie Keeper di Stape del 26/10: 39 cookie standard con le durate per famiglia, master cookie dai plugin, test con Safari 16.4+",
+    "🔴 30/10: skill rinominata «gtm» (era gtm-server-side) su richiesta di Cristiano (chat Gruppo NEM); nuova sez. 15 «Siti editoriali» con i temi video, paywall e abbonati, più testate, webview, tutti [DA VERIFICARE] fino al lavoro sul pannello dal 09/11/2026"
+   ]
   }
  },
  "ultima_mail": {
@@ -751,7 +752,6 @@
   "linkedin-ads": "2026-09-23",
   "wordpress-woocommerce": "2026-10-22",
   "meta-ads-performance": "2026-10-26",
-  "gtm-server-side": "2026-10-12",
   "meta-pixel-capi": "2026-10-26",
   "trello": "2026-10-26",
   "grafica-web-design": "2026-09-30",
@@ -762,7 +762,8 @@
   "ebay-venditore": "2026-10-16",
   "social-media-manager": "2026-10-19",
   "google-cloud": "2026-10-27",
-  "viaggi-treno-italia": "2026-10-28"
+  "viaggi-treno-italia": "2026-10-28",
+  "gtm": "2026-10-12"
  },
  "newsletter": {
   "ultima_lettura": "2026-10-30",
@@ -15712,7 +15713,7 @@
   },
   "https://developers.facebook.com/docs/marketing-api/conversions-api": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -15739,7 +15740,7 @@
   },
   "https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events": {
    "skills": [
-    "gtm-server-side",
+    "gtm",
     "meta-pixel-capi"
    ],
    "status": 200,
@@ -15767,7 +15768,7 @@
   },
   "https://developers.facebook.com/docs/marketing-api/conversions-api/guides/gtm-server-side": {
    "skills": [
-    "gtm-server-side",
+    "gtm",
     "meta-pixel-capi"
    ],
    "status": 200,
@@ -15837,7 +15838,7 @@
   },
   "https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api": {
    "skills": [
-    "gtm-server-side",
+    "gtm",
     "meta-pixel-capi"
    ],
    "status": 200,
@@ -16208,7 +16209,7 @@
   },
   "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm": {
    "skills": [
-    "gtm-server-side",
+    "gtm",
     "sviluppo-web",
     "wordpress-woocommerce"
    ],
@@ -25978,7 +25979,7 @@
   },
   "https://developers.google.com/tag-platform/learn/sst-fundamentals/5-sst-setup-analytics": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26443,7 +26444,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/datalayer": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26545,7 +26546,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/gateway": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26564,7 +26565,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/app-engine-setup": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26700,7 +26701,7 @@
   "https://developers.google.com/tag-platform/tag-manager/server-side/cloud-run-setup-guide": {
    "skills": [
     "google-cloud",
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26796,7 +26797,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/consent-mode": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26866,7 +26867,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/custom-domain": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26900,7 +26901,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/debug": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -26959,7 +26960,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/intro": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -27060,7 +27061,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/manual-setup-guide": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -27168,7 +27169,7 @@
   },
   "https://developers.google.com/tag-platform/tag-manager/server-side/send-data": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -65093,7 +65094,7 @@
   },
   "https://ppc.land/google-tag-gateway/": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68522,7 +68523,7 @@
   },
   "https://stape.io/blog/how-much-does-server-gtm-cost": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68606,7 +68607,7 @@
   },
   "https://stape.io/helpdesk/documentation/add-custom-domain-in-stape": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68677,7 +68678,7 @@
   },
   "https://stape.io/helpdesk/documentation/cookie-keeper-power-up": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68725,7 +68726,7 @@
   },
   "https://stape.io/helpdesk/documentation/custom-loader-power-up": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68774,7 +68775,7 @@
   },
   "https://stape.io/helpdesk/documentation/how-billing-works": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68837,7 +68838,7 @@
   },
   "https://stape.io/helpdesk/documentation/how-to-set-up-meta-conversions-api": {
    "skills": [
-    "gtm-server-side",
+    "gtm",
     "meta-pixel-capi"
    ],
    "status": 200,
@@ -68914,7 +68915,7 @@
   },
   "https://stape.io/helpdesk/documentation/plan-tiers-and-limits": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68946,7 +68947,7 @@
   },
   "https://stape.io/helpdesk/documentation/sgtm-server-locations-zones": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68960,7 +68961,7 @@
   },
   "https://stape.io/helpdesk/documentation/unique-event-id": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -68974,7 +68975,7 @@
   },
   "https://stape.io/helpdesk/knowledgebase/what-is-the-difference-between-global-sgtm-hosting-and-eu-sgtm-hosting": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -69007,7 +69008,7 @@
   },
   "https://stape.io/news": {
    "skills": [
-    "gtm-server-side",
+    "gtm",
     "meta-pixel-capi"
    ],
    "status": 200,
@@ -69034,7 +69035,7 @@
   },
   "https://stape.io/news/google-tag-gtm-updates": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -69164,7 +69165,7 @@
   },
   "https://stape.io/news/webkit-identity-resolution-restrictions": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -69202,7 +69203,7 @@
   },
   "https://stape.io/price": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -75534,7 +75535,7 @@
   },
   "https://support.google.com/analytics/answer/7201382?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -75957,7 +75958,7 @@
   },
   "https://support.google.com/analytics/answer/9271392?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -76280,7 +76281,7 @@
   },
   "https://support.google.com/analytics/answer/9976101?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -85831,7 +85832,7 @@
   },
   "https://support.google.com/tagmanager/announcements/15205707?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -85862,7 +85863,7 @@
   },
   "https://support.google.com/tagmanager/answer/10039345?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86023,7 +86024,7 @@
   },
   "https://support.google.com/tagmanager/answer/10718549?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86253,7 +86254,7 @@
   },
   "https://support.google.com/tagmanager/answer/13034206?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86343,7 +86344,7 @@
   },
   "https://support.google.com/tagmanager/answer/13543899?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86603,7 +86604,7 @@
   },
   "https://support.google.com/tagmanager/answer/14681508?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86791,7 +86792,7 @@
   },
   "https://support.google.com/tagmanager/answer/15756616?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86857,7 +86858,7 @@
   },
   "https://support.google.com/tagmanager/answer/16816376?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86916,7 +86917,7 @@
   },
   "https://support.google.com/tagmanager/answer/17070049?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86940,7 +86941,7 @@
   },
   "https://support.google.com/tagmanager/answer/17079602?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -86985,7 +86986,7 @@
   },
   "https://support.google.com/tagmanager/answer/4620708?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -87404,7 +87405,7 @@
   },
   "https://support.google.com/tagmanager/answer/6107011?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -87483,7 +87484,7 @@
   },
   "https://support.google.com/tagmanager/answer/6107056?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -87537,7 +87538,7 @@
   },
   "https://support.google.com/tagmanager/answer/6107163?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -87608,7 +87609,7 @@
   },
   "https://support.google.com/tagmanager/answer/7059647?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -87679,7 +87680,7 @@
   },
   "https://support.google.com/tagmanager/answer/7679319?hl=en": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -93133,7 +93134,7 @@
   },
   "https://usehardal.com/blog/stape-pricing": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -94452,7 +94453,7 @@
   },
   "https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [
@@ -106848,7 +106849,7 @@
   "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9677876": {
    "skills": [
     "consent-mode-privacy",
-    "gtm-server-side",
+    "gtm",
     "prestashop"
    ],
    "status": 200,
@@ -117437,7 +117438,7 @@
   },
   "https://www.simoahava.com/analytics/fpid-cookie-google-analytics-server-side-tagging/": {
    "skills": [
-    "gtm-server-side"
+    "gtm"
    ],
    "status": 200,
    "hash": [

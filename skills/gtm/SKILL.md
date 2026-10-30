@@ -1,9 +1,9 @@
 ---
-name: "gtm-server-side"
-description: "Regole operative verificate per montare, controllare e riparare il tracciamento con Google Tag Manager, container web e container server (Stape o Google Cloud): dataLayer ed eventi e-commerce GA4, tag Google e tag evento GA4, attivatori che sparano doppio, Anteprima e Tag Assistant, versioni e permessi, consenso dentro GTM, dominio personalizzato, client GA4, cookie FPID, Meta Conversions API con event_id, piani e limiti Stape, costi. Usala ogni volta che si tocca un container GTM, si installa il server-side, si sposta un pixel sul server, si eredita un container altrui o un numero in GA4 o Meta non torna."
+name: "gtm"
+description: "Regole operative verificate per montare, controllare e riparare il tracciamento con Google Tag Manager (GTM), sia il container web sia il container server (Stape o Google Cloud): dataLayer ed eventi e-commerce GA4, tag Google e tag evento GA4, attivatori che sparano doppio, Anteprima e Tag Assistant, versioni e permessi, consenso dentro GTM, dominio personalizzato, client GA4, cookie FPID, Meta Conversions API con event_id, piani e limiti Stape, costi. Usala ogni volta che si tocca un container GTM, si installa il server-side, si sposta un pixel sul server, si eredita un container altrui, un numero in GA4 o Meta non torna, o si misura un sito editoriale (video, paywall, più testate, webview)."
 ---
 
-# Google Tag Manager, web e server-side: regole operative
+# Google Tag Manager (gtm), container web e server: regole operative
 
 **Ultima verifica delle fonti: 2 ottobre 2026.**
 
@@ -16,6 +16,7 @@ description: "Regole operative verificate per montare, controllare e riparare il
 3. Due metà da tenere distinte: **conoscenza di dominio** (come si comportano GTM, GA4, Meta: si verifica sulle fonti ufficiali) e **meccanica del pannello** (sez. 12: si impara sbagliando, si scrive qui la prima volta). Nulla in questa skill è marcato VERIFICATO sul pannello: è la prima stesura.
 4. Dove si guardano i cambiamenti: [Release notes GTM (4620708)](https://support.google.com/tagmanager/answer/4620708?hl=en), [Annunci GTM](https://support.google.com/tagmanager/announcements/15205707?hl=en), [Stape news](https://stape.io/news), [Stape pricing](https://stape.io/price), [Meta CAPI changelog](https://developers.facebook.com/docs/marketing-api/conversions-api).
 5. ⚠️ Le regole con soglie numeriche di terzi sono etichettate "regola empirica di terzi, non numero Google/Stape/Meta". Le voci **[DA VERIFICARE]** non si citano a un cliente.
+6. **Rinominata «gtm» il 30/10/2026 (prima «gtm-server-side»)** su richiesta di Cristiano (chat Gruppo NEM): il nome vecchio faceva pensare al solo server, ma la skill copre anche il container web (dataLayer, tag, attivatori, Anteprima, versioni, permessi, consenso). Chi trova il nome vecchio in una regola o in un'altra skill lo aggiorna. La **sez. 15 «Siti editoriali» è in costruzione**: i temi sono fissati, le regole arrivano dal lavoro sul pannello dal 09/11/2026, e fino ad allora ogni punto è [DA VERIFICARE]. Il tracciamento delle app (Firebase) resta fuori.
 
 ---
 
@@ -191,6 +192,17 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 - Creare il container sull'account del consulente o dell'agenzia.
 - Pubblicare versioni senza nome.
 - Accettare il banner "ottimizza il container" del 20/08/2026 su un container ereditato senza leggere cosa cambia.
+
+---
+
+## 15. Siti editoriali: video, paywall, più testate, webview (in costruzione dal 09/11/2026)
+
+Sezione aperta il 30/10/2026 su richiesta di Cristiano (chat Gruppo NEM): sta prendendo in mano il tracciamento di un gruppo editoriale con più testate. **Qui non c'è ancora nessuna regola verificata**: i quattro temi sono fissati, il contenuto arriva dal lavoro sul pannello a partire dal 09/11/2026 e dalla documentazione ufficiale Google già citata in Fonti. Finché un punto è marcato [DA VERIFICARE] non si cita come regola.
+
+- **Tracciamento video** [DA VERIFICARE]: player (YouTube incorporato, player proprietari, live), eventi di avvio, avanzamento e completamento, come si evita il doppio conteggio fra il player e il tag GA4, cosa manda l'attivatore «Video di YouTube» nativo di GTM e cosa no.
+- **Paywall e abbonati** [DA VERIFICARE]: stato dell'utente (anonimo, registrato, abbonato) nel dataLayer, articoli contati come letti dietro il muro, eventi di sottoscrizione e rinnovo, proprietà utente in GA4, cosa non si manda mai (dati personali in chiaro).
+- **Più testate su container separati con lo stesso piano di misurazione** [DA VERIFICARE]: un container per testata, stesso dataLayer e stessi nomi di evento, cosa si copia fra container (esportazione e importazione, aree di lavoro), permessi per redazione e tecnici, container server condiviso o separato.
+- **Articoli aperti in webview dentro le app** [DA VERIFICARE]: come si riconosce il traffico da webview, cosa si rompe (cookie, consenso, referrer) e cosa si misura lo stesso. Il tracciamento nativo delle app (Firebase) è fuori da questa skill.
 
 ---
 
