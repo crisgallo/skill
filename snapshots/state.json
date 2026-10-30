@@ -725,15 +725,18 @@
     "🔴 30/10: sez. 6: immagini 4:5 e 1:1 con la fascia alta libera (circa 15%, 270 px su 1800) per l'intestazione «Inserzione» in Storie, Reel e Feed del profilo; anteprima di ogni posizionamento guardata dalla chat prima di pubblicare o riaccendere, con un elemento coperto non si pubblica (regole di Cristiano del 30/10, chat ScegliNatura via Ecommerce #34)"
    ]
   },
-  "gtm": {
-   "dal": "2026-10-13",
-   "livello": "sostanziale",
+  "google-cloud": {
+   "dal": "2026-10-30",
+   "livello": "minore",
    "voci": [
-    "🟡 13/10: sez. 9: release note GTM del 12/10/2026 «Optimizing Google Tag Manager containers»: dati direttamente ai prodotti Google senza gtag.js separato, disponibilità generale del flusso opt-in del 20/08",
-    "🟡 17/10: sez. 9: dettaglio dell'ottimizzazione dei container (tag Destination, procedura guidata, impostazioni di trasmissione dati per il consenso) dalle note Stape del 16/10",
-    "🟡 23/10: sez. 11: annuncio WebKit del 19/10/2026 (iOS, iPadOS, macOS, visionOS 27): blocco a livello di dominio dei servizi terzi di risoluzione delle identità via email; secondo Stape il server-to-server non è toccato; controllare quota Apple in GA4 e cali dopo l'aggiornamento",
-    "🟡 27/10: sez. 11: pagina Cookie Keeper di Stape del 26/10: 39 cookie standard con le durate per famiglia, master cookie dai plugin, test con Safari 16.4+",
-    "🔴 30/10: skill rinominata «gtm» (era gtm-server-side) su richiesta di Cristiano (chat Gruppo NEM); nuova sez. 15 «Siti editoriali» con i temi video, paywall e abbonati, più testate, webview, tutti [DA VERIFICARE] fino al lavoro sul pannello dal 09/11/2026"
+    "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm"
+   ]
+  },
+  "meta-pixel-capi": {
+   "dal": "2026-10-30",
+   "livello": "minore",
+   "voci": [
+    "🟡 30/10: sez. 5: rimandi alla skill rinominata gtm"
    ]
   }
  },
@@ -763,7 +766,7 @@
   "social-media-manager": "2026-10-19",
   "google-cloud": "2026-10-27",
   "viaggi-treno-italia": "2026-10-28",
-  "gtm": "2026-10-12"
+  "gtm": "2026-10-30"
  },
  "newsletter": {
   "ultima_lettura": "2026-10-30",

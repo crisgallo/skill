@@ -1,5 +1,7 @@
 # Changelog meta-pixel-capi
 
+## 30/10/2026
+- 🟡 Sez. 5: rimandi aggiornati alla skill `gtm` (fino al 30/10/2026 `gtm-server-side`).
 ## 23/10/2026
 - 🔴 Sez. 5: pagina ufficiale Meta 4237575203200036 letta dal sorgente: la misurazione sul dispositivo (voce «Measure conversions on customer devices», accesa per default) **non è attiva per le persone nell'UE e nel Regno Unito**; per un cliente italiano con pubblico UE dal 12/11 non cambia nulla; lavora accanto a Pixel e CAPI, attribuzione invariata; nota Stape del 22/10. Fonti aggiunte.
 
