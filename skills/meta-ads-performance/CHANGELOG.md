@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 30/10/2026
+- 🔴 Sez. 6: due regole di Cristiano del 30/10/2026 (chat ScegliNatura, via Ecommerce #34): le immagini 4:5 e 1:1 che escono anche in Storie, Reel o Feed del profilo tengono libera la fascia alta (circa 15%, 270 px su 1800) per l'intestazione «Inserzione»; prima di pubblicare o riaccendere la chat guarda lei stessa l'anteprima di ogni posizionamento in «Modi in cui verrà visualizzata la tua inserzione», e con un elemento coperto non si pubblica. Caso del 29/10/2026: carosello 4:5 con il logo a 110 px dal bordo, coperto in Storie e Reel, inserzioni fermate da Cristiano.
 ## 28/10/2026
 - 🔴 Sez. 6 e 7: verificato sul pannello il 28/10/2026 (manutenzione #17 su richiesta di Cristiano): l'opzione «Aggiornamenti automatici per i video dei prodotti» del catalogo, accesa di default, attacca agli articoli video ricavati anche da inserzioni spente da mesi e le inserzioni a catalogo con «Consenti video del prodotto» li mostrano; pulsante «Rifiuta video», conteggio del filtro che non si aggiorna, cosa fare quando si spengono creatività o si eredita un catalogo; punto 11 nella lettura del pannello.
 
