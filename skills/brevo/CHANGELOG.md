@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 31/10/2026
+- 🟡 Sez. 11: articolo sulle chiavi API ritoccato il 30/10/2026: email al proprietario a ogni chiave creata o cancellata, stato read-only dopo una compromissione.
 ## 30/10/2026
 - 🟡 Sez. 11: changelog API di ottobre 2026 (letto il 30/10): `removeTrackingPixel` solo Enterprise, OAuth 2.0 machine-to-machine con endpoint spostato il 13/10, filtri `modifiedSince` e `createdSince` sugli export, export vuoto risponde 200. Nessuna regola operativa cambia.
 ## 28/10/2026

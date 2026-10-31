@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, importare da Google Ads, 
 
 # Microsoft Advertising: regole operative
 
-**Ultima verifica delle fonti: 1 ottobre 2026.**
+**Ultima verifica delle fonti: 31 ottobre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -43,6 +43,8 @@ description: "Regole operative verificate per montare, importare da Google Ads, 
 - **Obiettivi importati da Google Ads** (funzione in pilota, "non disponibile a tutti"): passano **solo** gli obiettivi tag-based di tipo URL di destinazione creati in Google Ads, non quelli GA4 né SA360 né custom-event; l'attribuzione basata sui dati diventa **ultimo clic**; **il tag UET va comunque installato**, l'obiettivo importato è vuoto finché non riceve eventi ([cosa viene importato](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_importwhatinfo)).
 
 ---
+
+- 🔴 **Conversions API disponibile a tutti (post ufficiale «What's new in Microsoft Advertising this October» del 27/10/2026, letto il 31/10/2026, [blog](https://about.ads.microsoft.com/en/blog/post/october-2026/build-steer-and-measure-your-campaigns-with-ai-whats-new-in-microsoft-advertising-this-october)):** collegamento **server-to-server** di sito, app, CRM e cassa a Microsoft Advertising in tempo reale, **accanto al tag UET, non al suo posto** (copre i tocchi che il browser perde). Si integra in modo diretto, **via Google Tag Manager** o tramite partner, fra cui **Stape**. Prima di montarla valgono le regole della sez. 1 sul consenso: un evento server senza consenso in EEA è lo stesso problema del tag. Deduplica con l'UET, nomi degli eventi e meccanica del pannello [DA VERIFICARE]: la pagina di documentazione non è ancora stata letta.
 
 ## 3. Importazione da Google Ads: cosa passa, cosa no, cosa si rompe dopo
 
@@ -99,7 +101,7 @@ Fonte: [strategie di offerta](https://learn.microsoft.com/en-us/advertising/msa-
 ## 7. La rete in Italia e i partner di ricerca
 
 - La rete Search Microsoft serve **Bing, AOL, Yahoo, DuckDuckGo, Ecosia e partner**; la rete Audience serve MSN, Microsoft Start, Edge (nuova scheda), Outlook.com e publisher partner ([rete Microsoft Advertising](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_aboutadvertisingnetwork)). Microsoft non pubblica un dato ufficiale di reach per l'Italia: la pagina "Microsoft Search Network data" offre solo Global, US, UK, CA, AU, IN ([search data](https://about.ads.microsoft.com/en-us/insights/planning-tools/microsoft-search-network-data)).
-- **Numero di terzi, non numero Microsoft**: StatCounter, Italia, settembre 2026, tutti i dispositivi: Google 87,31%, **Bing 5,97%, Yahoo 5,00%, DuckDuckGo 0,69%** (agosto: 89,18 / 4,83 / 4,07 / 0,79: il dato oscilla di mese in mese) ([StatCounter Italia](https://gs.statcounter.com/search-engine-market-share/all/italy)). Yahoo e DuckDuckGo sono serviti da Microsoft Advertising, quindi la quota indirizzabile è la somma, quasi tutta desktop e utenza Windows/Edge. Si usa per stimare il volume (fra un decimo e un ottavo di Google, dipende dal mese e dal settore), non per promettere numeri.
+- **Numero di terzi, non numero Microsoft**: StatCounter, Italia, ottobre 2026, tutti i dispositivi: Google 88,06%, **Bing 5,83%, Yahoo 4,61%, DuckDuckGo 0,64%** (settembre: 87,31 / 5,98 / 5,00 / 0,69; agosto: 89,07 / 4,89 / 4,13 / 0,79: il dato oscilla di mese in mese; CSV di StatCounter letto il 31/10/2026) ([StatCounter Italia](https://gs.statcounter.com/search-engine-market-share/all/italy)). Yahoo e DuckDuckGo sono serviti da Microsoft Advertising, quindi la quota indirizzabile è la somma, quasi tutta desktop e utenza Windows/Edge. Si usa per stimare il volume (fra un decimo e un ottavo di Google, dipende dal mese e dal settore), non per promettere numeri.
 - **Distribuzione annunci** è un'impostazione **di gruppo di annunci**: *Intera rete Microsoft Advertising* (siti Microsoft + "select partner traffic" tipo Yahoo, riportato in aggregato senza dettaglio per dominio + "additional partner traffic": Ask.com, Forbes e i syndicated) oppure *Siti Microsoft e traffico selezionato* ([distribuzione](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_aboutaddistributionhidden)). Non esiste più l'opzione "solo syndicated".
 - 🔴 **Il traffico syndicated è il punto dove si brucia budget senza accorgersene**: le segnalazioni a Microsoft parlano di publisher spazzatura e clic bot, e la risposta ufficiale è "report + esclusioni, oppure uscire dai partner" ([Q&A 2023](https://learn.microsoft.com/en-us/answers/questions/2288905/syndicated-campaigns-generate-lots-of-spam-traffic)). Procedura: rapporto **Website URL (publisher)** ogni settimana nelle prime settimane, poi mensile; esclusioni sito **fino a 2.500 URL**, con quelle di gruppo che sovrascrivono quelle di campagna; **non si possono escludere Bing, AOL e Yahoo search**; app via colonna *Mobile Bundle*; **IP: max 100 per campagna**, solo IPv4 ([esclusioni](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_proc_addexclusions)). Su un account nuovo e piccolo si parte da *Siti Microsoft e traffico selezionato* e si allarga solo con dati.
 - **Copilot**: tutte le campagne eleggibili sono **automaticamente dentro, senza opt-out e senza metriche separate**; gli annunci Search vanno in Copilot **solo se hanno un logo** (estensione logo o logo automatico); PMax e annunci Shopping sono i formati privilegiati; le negative valgono; gli annunci di farmaci con prescrizione escono solo con disclaimer ([annunci in Copilot](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_adsforcopilot), aggiornata 02/09/2026). I formati conversazionali (Showroom, Offer Highlights) sono su mercati anglofoni; Offer Highlights si alimenta dal Merchant Center ([blog aprile 2026](https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web)). Italia `[DA VERIFICARE]`.
@@ -140,6 +142,8 @@ Fonte: [best practice PMax](https://learn.microsoft.com/en-us/advertising/msa-he
 
 ---
 
+- 🔴 **Controlli nuovi su Performance Max (post ufficiale del 27/10/2026, letto il 31/10/2026):** **targeting per età e genere disponibile a tutti** (inclusione ed esclusione di fasce d'età e generi), **targeting per dispositivo** in arrivo «nelle prossime settimane»; **report dei termini di ricerca e approfondimenti sull'asta** già disponibili, **report termine di ricerca con pagina di destinazione** da metà novembre 2026. **Linee guida di messaggio** (messaging guidelines) in **pilota aperto** per Performance Max e per le campagne Search con AI Max: fino a **40 regole** per il testo generato dall'AI (claim da evitare, toni, parole preferite), da scrivere **prima** di accendere la generazione automatica. Nomi dei menu nel pannello italiano [DA VERIFICARE]. Dal pannello nuovo la **creazione guidata dall'AI** monta una PMax dal sito e dai materiali caricati (piano, linee guida, immagini) in una «fotografia dell'azienda» modificabile: si rivede budget, offerta, testi e asset prima di pubblicare, come per ogni campagna generata.
+
 ## 11. Fatturazione e IVA per un account italiano
 
 - **La partita IVA va inserita all'apertura dell'account e si può modificare in Impostazioni → Impostazioni account → matita → Business location → VAT ID**; possono farlo Super Admin e utenti Standard; la validazione richiede **fino a 3 giorni**. **Senza numero IVA Microsoft addebita l'IVA**; con numero IVA valido la fattura mostra **"VAT 0% reverse charge"** ([tasse e IVA](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_taxvatinfo), [Q&A IVA](https://learn.microsoft.com/en-us/answers/questions/2289747/vat-on-invoices)).
@@ -172,6 +176,8 @@ Fonte: [best practice PMax](https://learn.microsoft.com/en-us/advertising/msa-he
 - Dati storici: CPA prima e dopo l'accensione di AI Max non sono confrontabili a parità di keyword (parte "AI optimized" da leggere a parte); i target CPA impostati con Max CPC prima del 01/10/2026 non si replicano dopo.
 
 ---
+
+- **27/10/2026**: Conversions API disponibile a tutti (sez. 2); PMax con targeting età e genere, dispositivi in arrivo, report termini di ricerca e asta, pagina di destinazione da metà novembre; messaging guidelines in pilota aperto, fino a 40 regole (sez. 10); creazione della prima campagna guidata dall'AI.
 
 ## 14. Igiene di un account ereditato: ordine di controllo
 

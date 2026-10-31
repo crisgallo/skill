@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 31/10/2026
+- 🔴 Sez. 7 e 9: tre regole di Cristiano del 30/10/2026 (`feedback_pianificazione_spazio_calendario.md` e `feedback_lavoro_con_cris.md`): nei giorni fuori casa le voci della card Piante vanno al primo giorno a casa alla stessa ora; nessun avviso dei cambi di calendario, resta solo «Oltre la scadenza»; un problema visto e non risolto si propone come voce con nome, stima e data, da aprire col sì di Cristiano.
 ## 28/10/2026
 - 🔴 Sez. 9: regole di Cristiano del 27/10/2026 (`feedback_pianificazione_spazio_calendario.md`): sul calendario ogni voce occupa almeno 30 minuti anche con stima da 15, e le voci cominciano all'ora o alla mezz'ora, mai al quarto d'ora; la stima nel titolo resta quella vera.
 

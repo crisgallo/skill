@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-30",
+  "ultima_lettura": "2026-10-31",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -152,8 +152,8 @@
     "esito": "regola di processo sulla manutenzione delle skill, già coperta dalla routine, non integrata"
    },
    "feedback_lavoro_con_cris.md": {
-    "modificato": "2026-10-21",
-    "esito": "versione delle 19:08 del 21/10 (una risposta che porta lavoro apre la sua voce): integrata in trello sez. 4 (🔴, 22/10); il resto regola di processo"
+    "modificato": "2026-10-30",
+    "esito": "31/10: regola del 30/10 «un problema visto e non risolto si propone come voce con nome, stima e data»: integrata in trello sez. 7 (🔴); il resto è regola di processo già vista"
    },
    "feedback_verbali_e_sal.md": {
     "modificato": "2026-10-09",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-10-29",
-    "esito": "30/10: riletto per intero, stesse regole della versione del 27/10 (tutte già in trello sez. 9), nessuna regola nuova"
+    "modificato": "2026-10-30",
+    "esito": "31/10: versione del 30/10 (31.094 byte): piante al primo giorno a casa nei giorni fuori casa, niente avvisi dei cambi di calendario, evento cancellato rimesso senza avviso: integrate in trello sez. 9 (🔴)"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-10-06",
@@ -420,8 +420,8 @@
     "esito": "regola LOCALE ScegliNatura (grafiche montate identiche alle bozze approvate), non integrata"
    },
    "feedback_carta_intestata.md": {
-    "modificato": "2026-10-16",
-    "esito": "regola di processo globale (documenti ufficiali sulla carta intestata via carta_intestata.py); font e colori dell'identità integrati in grafica-web-design sez. 9 il 17/10/2026"
+    "modificato": "2026-10-30",
+    "esito": "31/10: righe di servizio del 30/10 (lo script si ferma su «Serve a:»/«Usato in:», --togli-note): regola di processo, non integrata"
    },
    "feedback_verify_claims.md": {
     "modificato": "2026-10-17",
@@ -432,8 +432,8 @@
     "esito": "regola di processo (la verifica copre tutto il perimetro; calendario solo con sovrapposizioni.py), non integrata"
    },
    "feedback_documenti_serve_a.md": {
-    "modificato": "2026-10-19",
-    "esito": "regola globale «Serve a:» sui documenti; la parte sui commenti delle voci integrata in trello sez. 6"
+    "modificato": "2026-10-30",
+    "esito": "31/10: punto 5 del 30/10 (documento condiviso con il cliente senza «Serve a», numeri di voce e note interne; carta_intestata.py --togli-note): regola di processo, non integrata"
    },
    "feedback_tono_nicolo_mr_apps.md": {
     "modificato": "2026-10-27",
@@ -462,6 +462,10 @@
    "feedback_registro_niente_uscita_collaboratori.md": {
     "modificato": "2026-10-27",
     "esito": "regola locale di progetto (ScegliNatura): non integrata"
+   },
+   "feedback_verticale_sul_chiesto.md": {
+    "modificato": "2026-10-30",
+    "esito": "31/10: solo il rimando del 30/10 alla proposta di voce; regola di processo, non integrata"
    }
   }
  },
@@ -626,7 +630,8 @@
     "🟡 17/10: sez. 11: changelog API 14-17/10 (filtri export contatti, wallet pass, export vuoto 200, app OAuth pubbliche)",
     "🟡 27/10: sez. 11: articolo chiavi API aggiornato il 26/10: Restricted/Full, validità 7 giorni-1 anno, disattivazione dopo 90 giorni senza chiamate, chiave MCP",
     "🟡 28/10: sez. 9: articoli sul reinvio del 27/10: «Requeue» rinominato «Send to new contacts», «Resume campaign», reinvio ai non-aperti una volta sola e non con lotti o warm-up",
-    "🟡 30/10: sez. 11: changelog API di ottobre (removeTrackingPixel solo Enterprise, OAuth M2M, filtri export, export vuoto 200)"
+    "🟡 30/10: sez. 11: changelog API di ottobre (removeTrackingPixel solo Enterprise, OAuth M2M, filtri export, export vuoto 200)",
+    "🟡 31/10: sez. 11: email al proprietario a ogni chiave API creata o cancellata, stato read-only dopo compromissione (articolo del 30/10)"
    ]
   },
   "chatgpt-ads-performance": {
@@ -640,7 +645,8 @@
     "🟡 25/10: sez. 0 e 11: llms-full.txt del 25/10: nuovo setting di feed is_full_refresh (PATCH /v1/feeds/{id}/settings): con l'opzione attiva ogni caricamento completo via SFTP sostituisce il catalogo e i prodotti assenti vengono cancellati entro un giorno; non tocca la Delta API; rimettere false non ripristina",
     "🔴 26/10: sez. 7: regola di Cristiano del 25/10 (manutenzione #17): ogni inserzione nasce con UTM e parametri dinamici dello standard del progetto, destinazione sulla pagina giusta, invito all'azione e clic di prova dopo la pubblicazione",
     "🟡 27/10: sez. 0, 7 e 11: changelog OpenAI del 26/10: inserzioni con 4-6 immagini quadrate (creative.file_ids) per gli account abilitati, offerta fissa, regole di aggiornamento",
-    "🟡 30/10: sez. 0 e 11: beta Hotel con campagne via API (solo USA, CPC manuale), endpoint `items/query` per feed di prodotto e Hotel (idonei senza approvazione, limit 1-500), `start_time` omesso non è più partenza immediata (llms-full.txt del 30/10)"
+    "🟡 30/10: sez. 0 e 11: beta Hotel con campagne via API (solo USA, CPC manuale), endpoint `items/query` per feed di prodotto e Hotel (idonei senza approvazione, limit 1-500), `start_time` omesso non è più partenza immediata (llms-full.txt del 30/10)",
+    "🔴 31/10: sez. 0, 2, 7 e 11: più immagini in open beta per tutti (Ad format > «Multiple images»), 89 paesi dal 21/10, miglioramenti creativi self-serve [DA VERIFICARE], scheda standard più larga (newsletter OpenAI del 30/10)"
    ]
   },
   "ebay-venditore": {
@@ -692,7 +698,8 @@
    "dal": "2026-10-26",
    "livello": "sostanziale",
    "voci": [
-    "🔴 26/10: sez. 9: regola di Cristiano del 25/10 (manutenzione #17): ogni annuncio nasce con parametri URL dello standard del progetto (rilettura dopo l'importazione da Google), URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e prova dopo la pubblicazione"
+    "🔴 26/10: sez. 9: regola di Cristiano del 25/10 (manutenzione #17): ogni annuncio nasce con parametri URL dello standard del progetto (rilettura dopo l'importazione da Google), URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e prova dopo la pubblicazione",
+    "🔴 31/10: sez. 2, 10 e 13: Conversions API disponibile a tutti (server-to-server accanto all'UET, via GTM o Stape), PMax con targeting età e genere, report termini di ricerca e asta, pagina di destinazione da metà novembre, messaging guidelines in pilota aperto (40 regole), creazione guidata dall'AI (post Microsoft del 27/10); 🟡 sez. 7 StatCounter ottobre (Bing 5,83%)"
    ]
   },
   "google-ads-performance": {
@@ -714,7 +721,8 @@
    "livello": "sostanziale",
    "voci": [
     "🟡 27/10: sez. 9: la stima corretta da trello.py nuova dalle misure non è un errore e si lascia, rinomina solo per un task diverso dal suo tipo (feedback del 26/10)",
-    "🔴 28/10: sez. 9: regole di Cristiano del 27/10: sul calendario ogni voce occupa almeno 30 minuti anche con stima da 15, e le voci cominciano all'ora o alla mezz'ora, mai al quarto d'ora"
+    "🔴 28/10: sez. 9: regole di Cristiano del 27/10: sul calendario ogni voce occupa almeno 30 minuti anche con stima da 15, e le voci cominciano all'ora o alla mezz'ora, mai al quarto d'ora",
+    "🔴 31/10: sez. 7 e 9: piante al primo giorno a casa nei giorni fuori casa, niente avvisi dei cambi di calendario (resta «Oltre la scadenza»), un problema visto e non risolto si propone come voce con nome, stima e data (regole di Cristiano del 30/10)"
    ]
   },
   "meta-ads-performance": {
@@ -769,7 +777,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-30",
+  "ultima_lettura": "2026-10-31",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -848,6 +856,12 @@
     "mittente": "googleads-noreply@google.com",
     "oggetto": "Azione richiesta: crea una passkey oggi stesso e proteggi il tuo account Google Ads",
     "esito": "integrata in google-ads-performance sez. 13 (🔴 27/10): dall'11/11/2026 passkey obbligatoria per le azioni sensibili; verificata sulle pagine 16917887, 16968810, 17423445"
+   },
+   "1a18d55ea3391734": {
+    "data": "2026-10-30",
+    "mittente": "noreply@email.openai.com",
+    "oggetto": "ChatGPT Ads Product Updates",
+    "esito": "chatgpt-ads-performance sez. 0, 2, 7, 11 (🔴 più immagini open beta per tutti; 89 paesi; miglioramenti creativi [DA VERIFICARE]; scheda più larga; Shopify internazionale già in skill)"
    }
   }
  },

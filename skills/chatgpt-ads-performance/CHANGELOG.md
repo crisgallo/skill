@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 31/10/2026
+- 🔴 Sez. 0, 2, 7 e 11: newsletter OpenAI del 30/10/2026: inserzioni con più immagini in open beta per tutti (Ad format > «Multiple images»), 89 paesi dal 21/10 (Italia già inclusa), miglioramenti creativi self-serve (riscrittura di titoli e descrizioni, traduzione, pagine più pertinenti; default e interruttore [DA VERIFICARE], articolo 403), scheda standard più larga su desktop, Shopify in tutti i paesi.
 ## 30/10/2026
 - 🟡 Sez. 0 e 11: `llms-full.txt` del 30/10/2026: beta Hotel con campagne via API (solo USA, CPC manuale, un annuncio modello per gruppo), endpoint generico `POST /v1/feeds/{feed_id}/items/query` per feed di prodotto e Hotel (articoli idonei senza approvazione, limit 1-500), `start_time` omesso non significa più partenza immediata. Nessuna regola operativa per i clienti italiani cambia.
 

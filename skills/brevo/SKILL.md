@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 30 ottobre 2026.**
+**Ultima verifica delle fonti: 31 ottobre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -171,7 +171,7 @@ Le chiavi si creano da **Settings > SMTP & API > API Keys & MCP** (pagina rinomi
 
 🟡 **Changelog API di ottobre 2026** ([developers.brevo.com/changelog](https://developers.brevo.com/changelog), letto il 30/10/2026): dal 29/10 il parametro `removeTrackingPixel: true` invia una email transazionale **senza il pixel di apertura**, ma **solo sui piani Enterprise** (per le PMI non cambia nulla: le aperture restano stimate come in sez. 7); dal 06/10 autenticazione **OAuth 2.0 machine-to-machine** per le app partner (token di circa un'ora, nessun refresh token; endpoint spostato il 13/10 su `api.brevo.com/realms/partner/oauth/token`); dal 14/10 gli export dei contatti accettano i filtri `modifiedSince` e `createdSince` (data e ora RFC 3339) e dal 16/10 un export senza risultati risponde 200 con un oggetto vuoto, non più un errore. Nessuna regola operativa delle sezioni precedenti cambia.
 
-🟡 **Articolo sulle chiavi API aggiornato il 26/10/2026** ([209467485](https://help.brevo.com/hc/en-us/articles/209467485), letto il 27/10 via API Zendesk): le chiavi sono **Restricted** (None, Read, Read/write o All per risorsa) oppure **Full** (tutte le risorse, anche future); le chiavi nate prima dei permessi restano a pieno accesso finché non si modificano; validità da **7 giorni a 1 anno** o senza scadenza, promemoria 3 giorni prima e il giorno stesso; **una chiave senza chiamate riuscite per 90 giorni viene disattivata anche se non ha scadenza**, con email 7 giorni prima e il giorno stesso: un'integrazione che gira di rado (export trimestrale, script di chiusura) va richiamata o ricreata; togliere un permesso che un'integrazione usa produce «Access denied for resource»; l'opzione «Create MCP server API key» crea una chiave MCP al posto di quella standard. Non è scritto quando queste regole sono entrate in vigore.
+🟡 **Articolo sulle chiavi API aggiornato il 26/10/2026** ([209467485](https://help.brevo.com/hc/en-us/articles/209467485), letto il 27/10 via API Zendesk): le chiavi sono **Restricted** (None, Read, Read/write o All per risorsa) oppure **Full** (tutte le risorse, anche future); le chiavi nate prima dei permessi restano a pieno accesso finché non si modificano; validità da **7 giorni a 1 anno** o senza scadenza, promemoria 3 giorni prima e il giorno stesso; **una chiave senza chiamate riuscite per 90 giorni viene disattivata anche se non ha scadenza**, con email 7 giorni prima e il giorno stesso: un'integrazione che gira di rado (export trimestrale, script di chiusura) va richiamata o ricreata; togliere un permesso che un'integrazione usa produce «Access denied for resource»; l'opzione «Create MCP server API key» crea una chiave MCP al posto di quella standard. Non è scritto quando queste regole sono entrate in vigore. Rilettura del 31/10/2026 (articolo ritoccato il 30/10): a ogni chiave creata o cancellata il proprietario dell'account riceve un'email con IP e località; una chiave può risultare **read-only** quando Brevo l'ha bloccata dopo una compromissione.
 
 ---
 
