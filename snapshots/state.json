@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-10-31",
+  "ultima_lettura": "2026-11-01",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -470,7 +470,7 @@
   }
  },
  "drive": {
-  "data": "2026-10-30",
+  "data": "2026-10-31",
   "skills": {
    "google-cloud": {
     "drive": "37114",
@@ -581,8 +581,12 @@
     "commit": "f37effc"
    },
    "gtm": {
-    "drive": "43916",
-    "commit": "d5c3125"
+    "drive": "49919",
+    "commit": "e386148"
+   },
+   "viaggi-treno-italia": {
+    "drive": "33586",
+    "commit": "8f04766"
    }
   }
  },
@@ -699,7 +703,8 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 26/10: sez. 9: regola di Cristiano del 25/10 (manutenzione #17): ogni annuncio nasce con parametri URL dello standard del progetto (rilettura dopo l'importazione da Google), URL finale sulla pagina giusta, invito all'azione dove il formato lo prevede e prova dopo la pubblicazione",
-    "🔴 31/10: sez. 2, 10 e 13: Conversions API disponibile a tutti (server-to-server accanto all'UET, via GTM o Stape), PMax con targeting età e genere, report termini di ricerca e asta, pagina di destinazione da metà novembre, messaging guidelines in pilota aperto (40 regole), creazione guidata dall'AI (post Microsoft del 27/10); 🟡 sez. 7 StatCounter ottobre (Bing 5,83%)"
+    "🔴 31/10: sez. 2, 10 e 13: Conversions API disponibile a tutti (server-to-server accanto all'UET, via GTM o Stape), PMax con targeting età e genere, report termini di ricerca e asta, pagina di destinazione da metà novembre, messaging guidelines in pilota aperto (40 regole), creazione guidata dall'AI (post Microsoft del 27/10); 🟡 sez. 7 StatCounter ottobre (Bing 5,83%)",
+    "🟡 01/11: Fonti: etichetta StatCounter aggiornata a ottobre 2026"
    ]
   },
   "google-ads-performance": {
@@ -777,7 +782,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-10-31",
+  "ultima_lettura": "2026-11-01",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

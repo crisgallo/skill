@@ -1,5 +1,7 @@
 # Changelog microsoft-ads
 
+## 01/11/2026
+- 🟡 Fonti: etichetta StatCounter aggiornata a ottobre 2026 (CSV letto il 31/10).
 ## 31/10/2026
 - 🔴 Sez. 2, 10 e 13: post ufficiale Microsoft del 27/10/2026: Conversions API disponibile a tutti (server-to-server accanto all'UET, via GTM o partner come Stape), PMax con targeting per età e genere, dispositivi in arrivo, report termini di ricerca e approfondimenti sull'asta, pagina di destinazione da metà novembre, messaging guidelines in pilota aperto (fino a 40 regole), creazione guidata dall'AI; marcati [DA VERIFICARE] deduplica e nomi dei menu. 🟡 Sez. 7: quota StatCounter Italia di ottobre 2026 (Bing 5,83%).
 ## 26/10/2026
