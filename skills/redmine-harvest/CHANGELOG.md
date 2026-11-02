@@ -1,5 +1,7 @@
 # Changelog redmine-harvest
 
+## 02/11/2026
+- 🔴 Sez. 0 e 13: patch di sicurezza Redmine 7.0.3, 6.1.6 e 6.0.12 del 01/11/2026 (Security Advisories lette il 02/11): scope OAuth ignorato nel filtro dei progetti e ReDoS nelle macro wiki (alte), scope OAuth aggirati alla creazione di progetti e XSS riflessa in attachments#edit_all (moderate), validate_back_url (bassa); cosa chiedere all'agenzia che ospita Redmine.
 ## 20/10/2026
 - 🟡 Sez. 2: regola di Cristiano del 20/10/2026 (`feedback_email_solo_bozza.md`, via manutenzione #16): le email si scrivono prima in chat, correzioni in chat, bozza Gmail solo col via libera e con il testo identico; il via libera non autorizza l'invio.
 ## 08/10/2026

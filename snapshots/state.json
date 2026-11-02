@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-01",
+  "ultima_lettura": "2026-11-02",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -236,8 +236,8 @@
     "esito": "integrata il 30/09/2026 in google-ads-performance e meta-ads-performance (claim regolati); dettagli di script di progetto non integrati"
    },
    "feedback_skill_prima_di_ogni_attivita.md": {
-    "modificato": "2026-10-03",
-    "esito": "regola globale di processo aggiornata il 03/10 (la chat delle skill si chiama «[Skill] Gestione #N», richieste solo col sì di Cristiano), non integrata"
+    "modificato": "2026-11-01",
+    "esito": "02/11: versione del 01/11 (Chrome rifiuta i pannelli senza la skill caricata, controllo nei brief dei sottoagenti, trello.py inizia stampa «CARICA ORA»): regola di processo sulle skill, non integrata"
    },
    "feedback_email_solo_bozza.md": {
     "modificato": "2026-10-20",
@@ -466,11 +466,15 @@
    "feedback_verticale_sul_chiesto.md": {
     "modificato": "2026-10-30",
     "esito": "31/10: solo il rimando del 30/10 alla proposta di voce; regola di processo, non integrata"
+   },
+   "feedback_approvazione_una_volta.md": {
+    "modificato": "2026-11-01",
+    "esito": "02/11: regola locale ScegliNatura (approvazioni dei referenti una volta sola), non integrata"
    }
   }
  },
  "drive": {
-  "data": "2026-10-31",
+  "data": "2026-11-01",
   "skills": {
    "google-cloud": {
     "drive": "37114",
@@ -671,9 +675,10 @@
   },
   "redmine-harvest": {
    "dal": "2026-10-20",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "🟡 20/10: sez. 2: email prima in chat, bozza Gmail solo col via libera di Cristiano e con il testo identico, invio sempre suo (regola globale feedback_email_solo_bozza del 20/10, via manutenzione #16)"
+    "🟡 20/10: sez. 2: email prima in chat, bozza Gmail solo col via libera di Cristiano e con il testo identico, invio sempre suo (regola globale feedback_email_solo_bozza del 20/10, via manutenzione #16)",
+    "🔴 02/11: sez. 0 e 13: patch di sicurezza Redmine 7.0.3, 6.1.6 e 6.0.12 del 01/11/2026 (scope OAuth ignorato nel filtro dei progetti e ReDoS nelle macro wiki, alte; scope OAuth aggirati alla creazione di progetti e XSS riflessa in attachments#edit_all, moderate; validate_back_url, bassa): far aggiornare il Redmine dell'agenzia e controllare gli scope dei token OAuth"
    ]
   },
   "sviluppo-web": {
@@ -782,7 +787,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-01",
+  "ultima_lettura": "2026-11-02",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
