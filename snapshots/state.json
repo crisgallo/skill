@@ -621,7 +621,7 @@
   },
   "brevo": {
    "dal": "2026-10-14",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 14/10: sez. 9 e 11: due campagne si confrontano solo a parità di giorni dall'invio (regola di Cristiano del 13/10); endpoint del token OAuth M2M su api.brevo.com e scope esplicito (changelog 13/10)",
     "🟡 17/10: sez. 11: changelog API 14-17/10 (filtri export contatti, wallet pass, export vuoto 200, app OAuth pubbliche)",
@@ -629,7 +629,8 @@
     "🟡 28/10: sez. 9: articoli sul reinvio del 27/10: «Requeue» rinominato «Send to new contacts», «Resume campaign», reinvio ai non-aperti una volta sola e non con lotti o warm-up",
     "🟡 30/10: sez. 11: changelog API di ottobre (removeTrackingPixel solo Enterprise, OAuth M2M, filtri export, export vuoto 200)",
     "🟡 31/10: sez. 11: email al proprietario a ogni chiave API creata o cancellata, stato read-only dopo compromissione (articolo del 30/10)",
-    "🟡 03/11: sez. 11: API ordini con shipping e SKU (30/10) e ordinamento stabile su GET /orders (02/11)"
+    "🟡 03/11: sez. 11: API ordini con shipping e SKU (30/10) e ordinamento stabile su GET /orders (02/11)",
+    "🔴 03/11: sez. 9, 12 e Fonti: Linee guida del Garante sui tracking pixel nelle e-mail (provv. 284 del 17/04/2026, GU 29/04/2026, adeguamento entro il 29/10/2026): consenso preventivo per il pixel che misura il singolo destinatario, deroghe, informativa, rifiuto del solo pixel con link o icona in ogni e-mail; su Brevo consenso per contatto o tracciamento anonimo; corretta la riga che diceva «per l'Italia nessuna indicazione del Garante»"
    ]
   },
   "ebay-venditore": {
@@ -680,7 +681,8 @@
    "dal": "2026-10-30",
    "livello": "minore",
    "voci": [
-    "🟡 30/10: sez. 5: rimandi alla skill rinominata gtm"
+    "🟡 30/10: sez. 5: rimandi alla skill rinominata gtm",
+    "🟡 03/11: sez. 8: termine di adeguamento alle Linee guida del Garante sui tracking pixel riscritto 29/10/2026 (sei mesi dalla GU del 29/04/2026), rinvio a brevo sez. 9"
    ]
   },
   "trello": {

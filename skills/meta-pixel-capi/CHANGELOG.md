@@ -1,5 +1,7 @@
 # Changelog meta-pixel-capi
 
+## 03/11/2026
+- 🟡 Sez. 8: termine di adeguamento alle Linee guida del Garante sui tracking pixel riscritto 29/10/2026 (sei mesi dalla GU del 29/04/2026), rinvio a brevo sez. 9.
 ## 30/10/2026
 - 🟡 Sez. 5: rimandi aggiornati alla skill `gtm` (fino al 30/10/2026 `gtm-server-side`).
 ## 23/10/2026

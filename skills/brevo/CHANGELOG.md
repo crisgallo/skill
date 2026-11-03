@@ -1,6 +1,7 @@
 # Changelog brevo
 
 ## 03/11/2026
+- 🔴 Sez. 9, 12 e Fonti: Linee guida del Garante sui tracking pixel nelle e-mail (provv. n. 284 del 17/04/2026, GU n. 98 del 29/04/2026, adeguamento entro il 29/10/2026): consenso preventivo per il pixel che misura il singolo destinatario, deroghe (statistica aggregata, sicurezza, comunicazioni dovute), informativa, rifiuto del solo pixel con link o icona; cosa fare su Brevo (consenso per contatto o tracciamento anonimo), revoca granulare [DA VERIFICARE]. Correzione della riga precedente che diceva «per l'Italia nessuna indicazione del Garante» (segnalazione della chat di manutenzione del 03/11).
 - 🟡 Sez. 11: changelog API del 30/10 e 02/11: campi `shipping` e SKU sugli ordini, parametro `secondarySortByModifiedAt` su GET /orders. Articoli CRM 360019003659 e 360019089760 riletti il 03/11: coerenti con references/crm.md.
 ## 31/10/2026
 - 🟡 Sez. 11: articolo sulle chiavi API ritoccato il 30/10/2026: email al proprietario a ogni chiave creata o cancellata, stato read-only dopo una compromissione.
