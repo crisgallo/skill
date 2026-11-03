@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-02",
+  "ultima_lettura": "2026-11-03",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -152,8 +152,8 @@
     "esito": "regola di processo sulla manutenzione delle skill, già coperta dalla routine, non integrata"
    },
    "feedback_lavoro_con_cris.md": {
-    "modificato": "2026-10-30",
-    "esito": "31/10: regola del 30/10 «un problema visto e non risolto si propone come voce con nome, stima e data»: integrata in trello sez. 7 (🔴); il resto è regola di processo già vista"
+    "modificato": "2026-11-02",
+    "esito": "03/11: eccezione della chat Posta del 02/11 (niente resoconto ogni quarto d'ora, solo cose utili): regola di processo, non integrata"
    },
    "feedback_verbali_e_sal.md": {
     "modificato": "2026-10-09",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-10-30",
-    "esito": "31/10: versione del 30/10 (31.094 byte): piante al primo giorno a casa nei giorni fuori casa, niente avvisi dei cambi di calendario, evento cancellato rimesso senza avviso: integrate in trello sez. 9 (🔴)"
+    "modificato": "2026-11-02",
+    "esito": "03/11: versione del 02/11 (32.168 byte): voci del Collettivo solo nei weekend lavorabili, appuntamenti anche da Google: integrate in trello sez. 9 (🔴)"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-10-06",
@@ -468,13 +468,13 @@
     "esito": "31/10: solo il rimando del 30/10 alla proposta di voce; regola di processo, non integrata"
    },
    "feedback_approvazione_una_volta.md": {
-    "modificato": "2026-11-01",
-    "esito": "02/11: regola locale ScegliNatura (approvazioni dei referenti una volta sola), non integrata"
+    "modificato": "2026-11-02",
+    "esito": "03/11: regola locale ScegliNatura ampliata il 02/11, non integrata"
    }
   }
  },
  "drive": {
-  "data": "2026-11-01",
+  "data": "2026-11-02",
   "skills": {
    "google-cloud": {
     "drive": "37114",
@@ -628,7 +628,8 @@
     "🟡 27/10: sez. 11: articolo chiavi API aggiornato il 26/10: Restricted/Full, validità 7 giorni-1 anno, disattivazione dopo 90 giorni senza chiamate, chiave MCP",
     "🟡 28/10: sez. 9: articoli sul reinvio del 27/10: «Requeue» rinominato «Send to new contacts», «Resume campaign», reinvio ai non-aperti una volta sola e non con lotti o warm-up",
     "🟡 30/10: sez. 11: changelog API di ottobre (removeTrackingPixel solo Enterprise, OAuth M2M, filtri export, export vuoto 200)",
-    "🟡 31/10: sez. 11: email al proprietario a ogni chiave API creata o cancellata, stato read-only dopo compromissione (articolo del 30/10)"
+    "🟡 31/10: sez. 11: email al proprietario a ogni chiave API creata o cancellata, stato read-only dopo compromissione (articolo del 30/10)",
+    "🟡 03/11: sez. 11: API ordini con shipping e SKU (30/10) e ordinamento stabile su GET /orders (02/11)"
    ]
   },
   "ebay-venditore": {
@@ -656,10 +657,11 @@
   },
   "wordpress-woocommerce": {
    "dal": "2026-10-24",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto",
-    "🟡 27/10: sez. 1: WooCommerce 11.3 in beta dal 26/10, rilascio nella settimana del 09/11; rimozione dell'endpoint MCP deprecato a favore del WordPress MCP Adapter"
+    "🟡 27/10: sez. 1: WooCommerce 11.3 in beta dal 26/10, rilascio nella settimana del 09/11; rimozione dell'endpoint MCP deprecato a favore del WordPress MCP Adapter",
+    "🔴 03/11: sez. 2: WordPress 7.1.4 del 28/10/2026, release di sicurezza (RCE nella finestra di upgrade, XSS memorizzati multipli, DoS Interactivity API, changeset del Customizer leggibili senza login): verificare 7.1.4 o successiva su ogni sito cliente, aggiornare subito dove l'auto-update è spento"
    ]
   },
   "prestashop": {
@@ -688,6 +690,20 @@
    "livello": "minore",
    "voci": [
     "🟡 30/10: sez. 5: rimandi alla skill rinominata gtm"
+   ]
+  },
+  "trello": {
+   "dal": "2026-11-03",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 03/11: sez. 9: voci del Collettivo solo nei weekend lavorabili, mai feriali né festivi infrasettimanali (SOLO_WEEKEND); appuntamenti letti anche da Google dal 30/10 (regola di Cristiano del 02/11)"
+   ]
+  },
+  "linkedin-ads": {
+   "dal": "2026-11-03",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 03/11: sez. 7: i post dei paesi DMA non sono sponsorizzabili come Thought Leader Ads (pagina a5964111 del 02/11); per i B2B italiani formato da dare per non disponibile, criterio [DA VERIFICARE]"
    ]
   }
  },
@@ -720,7 +736,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-02",
+  "ultima_lettura": "2026-11-03",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

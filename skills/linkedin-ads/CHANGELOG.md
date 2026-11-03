@@ -1,5 +1,7 @@
 # Changelog linkedin-ads
 
+## 03/11/2026
+- 🔴 Sez. 7: pagina a5964111 aggiornata il 02/11/2026: i post dei paesi DMA non sono individuabili né sponsorizzabili come Thought Leader Ads; per i B2B italiani il formato va dato per non disponibile sui post dei membri italiani, criterio esatto [DA VERIFICARE] sul pannello; menu Sponsorship Permissions > Requests and Posts.
 ## 29/10/2026
 - 🟡 Sez. 2: limiti di selezione del targeting dalla pagina a424655 aggiornata il 28/10/2026: 200 per località e nomi azienda, 100 per ogni altro attributo (la skill diceva 200 per le opzioni demografiche), una lingua del profilo per ad set fra 35, pubblici predittivi aggiornati ogni giorno. Minore perché nessuna campagna reale tocca quei tetti.
 

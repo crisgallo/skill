@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 03/11/2026
+- 🔴 Sez. 9: regola di Cristiano del 02/11/2026 (`feedback_pianificazione_spazio_calendario.md`): le voci del Collettivo, progetto non retribuito, vanno solo nei weekend lavorabili (mai feriali né festivi infrasettimanali), `SOLO_WEEKEND` in `agenda.py`; dal 30/10 gli appuntamenti si leggono anche da Google quando il Calendario del Mac non li restituisce.
 ## 31/10/2026
 - 🔴 Sez. 7 e 9: tre regole di Cristiano del 30/10/2026 (`feedback_pianificazione_spazio_calendario.md` e `feedback_lavoro_con_cris.md`): nei giorni fuori casa le voci della card Piante vanno al primo giorno a casa alla stessa ora; nessun avviso dei cambi di calendario, resta solo «Oltre la scadenza»; un problema visto e non risolto si propone come voce con nome, stima e data, da aprire col sì di Cristiano.
 ## 28/10/2026

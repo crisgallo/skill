@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 03/11/2026
+- 🔴 Sez. 2: WordPress 7.1.4 del 28/10/2026, release di sicurezza a ciclo breve (esecuzione di codice remoto nella finestra di upgrade, XSS memorizzati multipli, DoS nell'Interactivity API, changeset del Customizer leggibili senza login): verificare 7.1.4 o successiva su ogni sito cliente, aggiornare il giorno stesso dove l'auto-update è spento. Sfuggita ai giri dal 28/10 perché la pagina della release non era fra gli URL fotografati.
 ## 27/10/2026
 - 🟡 Sez. 1: WooCommerce 11.3 in beta dal 26/10/2026, rilascio nella settimana del 09/11; rimozione dell'endpoint MCP deprecato a favore del WordPress MCP Adapter (post del 21/10), avvisi su PHP < 8.1.
 

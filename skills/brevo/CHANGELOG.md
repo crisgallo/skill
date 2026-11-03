@@ -1,5 +1,7 @@
 # Changelog brevo
 
+## 03/11/2026
+- 🟡 Sez. 11: changelog API del 30/10 e 02/11: campi `shipping` e SKU sugli ordini, parametro `secondarySortByModifiedAt` su GET /orders. Articoli CRM 360019003659 e 360019089760 riletti il 03/11: coerenti con references/crm.md.
 ## 31/10/2026
 - 🟡 Sez. 11: articolo sulle chiavi API ritoccato il 30/10/2026: email al proprietario a ogni chiave creata o cancellata, stato read-only dopo una compromissione.
 ## 30/10/2026
