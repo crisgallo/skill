@@ -91,6 +91,7 @@ Se una delle tre è falsa, si ripete commit e push finché non è vera. Chiudere
 - Mandare una mail quando non è cambiato nulla, o per modifiche solo minori (non vanno mai per mail), o con un oggetto diverso da `Skill aggiornate`, o in un giorno diverso dal lunedì senza un'urgenza (patch di sicurezza, scadenza entro 14 giorni) o una richiesta esplicita di Cristiano.
 - Scrivere "VERIFICATO" su qualcosa letto da una pagina web.
 - Accorciare una skill per farla stare: se serve spazio, si sposta materiale in un file `references/` nella stessa cartella e si linka.
+- **Aprire voci sulla card Trello «[Skill] Gestione»** (chat di manutenzione, 03/11/2026): le voci delle mail «Skill aggiornate» nella checklist «Email da gestire» le apre la routine della posta, e le date le scrive solo `trello.py` sul Mac di Cristiano, che le mette anche a calendario. Qui si manda la mail e basta. Quando Cristiano scrive «P<n> fatta», si verifica la copia sincronizzata, si spunta la voce e si lascia il commento, come per P1 e P2.
 
 ## Dove gira la routine, e come si sposta
 
