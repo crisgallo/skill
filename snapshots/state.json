@@ -655,15 +655,6 @@
     "🟡 24/10: sez. 0: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto"
    ]
   },
-  "wordpress-woocommerce": {
-   "dal": "2026-10-24",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 24/10: sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione session.upload_progress.enabled=0 del 21/10 resta al suo posto",
-    "🟡 27/10: sez. 1: WooCommerce 11.3 in beta dal 26/10, rilascio nella settimana del 09/11; rimozione dell'endpoint MCP deprecato a favore del WordPress MCP Adapter",
-    "🔴 03/11: sez. 2: WordPress 7.1.4 del 28/10/2026, release di sicurezza (RCE nella finestra di upgrade, XSS memorizzati multipli, DoS Interactivity API, changeset del Customizer leggibili senza login): verificare 7.1.4 o successiva su ogni sito cliente, aggiornare subito dove l'auto-update è spento"
-   ]
-  },
   "prestashop": {
    "dal": "2026-10-24",
    "livello": "minore",
@@ -720,7 +711,7 @@
   "chatgpt-ads-performance": "2026-11-02",
   "ga4-performance": "2026-10-05",
   "linkedin-ads": "2026-11-02",
-  "wordpress-woocommerce": "2026-10-22",
+  "wordpress-woocommerce": "2026-11-03",
   "meta-ads-performance": "2026-11-02",
   "meta-pixel-capi": "2026-10-26",
   "trello": "2026-11-02",
