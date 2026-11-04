@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 04/11/2026
+- 🔴 Sez. 2: aggiornamento di sicurezza WooPayments del 03/11/2026 (funzione abbonamenti, estende la correzione di agosto), tabella delle versioni corrette e cosa fare su ogni negozio.
+- 🟡 Sez. 0: calendario 7.2 riletto il 04/11 (Beta 3 il 28/10 con la 7.1.4, Beta 4 il 03/11, Beta 5 il 10/11, RC3 l'01/12); uscita confermata l'08/12/2026.
 ## 03/11/2026
 - 🔴 Sez. 2: WordPress 7.1.4 del 28/10/2026, release di sicurezza a ciclo breve (esecuzione di codice remoto nella finestra di upgrade, XSS memorizzati multipli, DoS nell'Interactivity API, changeset del Customizer leggibili senza login): verificare 7.1.4 o successiva su ogni sito cliente, aggiornare il giorno stesso dove l'auto-update è spento. Sfuggita ai giri dal 28/10 perché la pagina della release non era fra gli URL fotografati.
 ## 27/10/2026

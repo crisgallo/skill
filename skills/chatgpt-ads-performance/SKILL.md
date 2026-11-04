@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 31 ottobre 2026.**
+**Ultima verifica delle fonti: 4 novembre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -69,7 +69,7 @@ Apertura e gestione anche dal **plugin Ads Manager dentro ChatGPT** (`chatgpt.co
 
 - **Limiti di spesa account** (giornaliero e per intervallo di date, 09/09/2026): **solo account a fattura postpagata**; con la carta esistono solo budget campagna e soglia. https://developers.openai.com/ads
 - **Pausa non immediata:** dopo la pausa gli annunci possono uscire ancora **fino a 24 ore** e la spesa resta fatturabile. https://help.openai.com/en/articles/20001216-billing-payment
-- **Credito di benvenuto:** ads.openai.com espone «Get $500 ad credit when you spend $500»; la scadenza a 90 giorni è di fonti terze, non di OpenAI. https://ads.openai.com/
+- **Credito di benvenuto:** ads.openai.com espone «Get $500 ad credit when you spend $500»; la scadenza a 90 giorni è di fonti terze, non di OpenAI. https://ads.openai.com/ 🟡 Mail «OpenAI Ads Platform» del 02/11/2026 (invito al webinar «2026 ChatGPT Ads Holiday Playbook» del 04/11): credito pubblicitario a chi apre l'account Ads Manager **entro il 31/12/2026** e spende sulla prima campagna; importo e condizioni sulla pagina ads.openai.com/holiday, che risponde 403 ai fetch [DA VERIFICARE].
 - **Integrazioni** (16/09/2026): **HubSpot** ovunque ChatGPT Ads è attivo, Italia inclusa (campagne, lead nel CRM, performance); app **Shopify** USA dal 16/09, **internazionale dal 23/09/2026** (sync catalogo + pixel server). https://help.openai.com/en/articles/20001522-set-up-chatgpt-ads-in-hubspot · https://openai.com/index/reimagining-advertising-with-ai/
 
 ### 2.1 🔴 Vincoli specifici per Italia / EEA (verificati 20/09/2026)

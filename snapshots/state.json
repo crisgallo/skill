@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-03",
+  "ultima_lettura": "2026-11-04",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -240,8 +240,8 @@
     "esito": "02/11: versione del 01/11 (Chrome rifiuta i pannelli senza la skill caricata, controllo nei brief dei sottoagenti, trello.py inizia stampa «CARICA ORA»): regola di processo sulle skill, non integrata"
    },
    "feedback_email_solo_bozza.md": {
-    "modificato": "2026-10-20",
-    "esito": "versione del 20/10 con la regola «prima la chat, poi la bozza»: già integrata in redmine-harvest sez. 2 il 20/10 dal messaggio della manutenzione"
+    "modificato": "2026-11-03",
+    "esito": "04/11: regola globale di processo (mai inviare mail per conto di Cristiano; dal 03/11 anche gli inviti a calendario solo col suo sì e con gli invitati scelti da lui), non riguarda le skill del repository; le routine seguono il loro prompt"
    },
    "feedback_una_domanda_alla_volta.md": {
     "modificato": "2026-10-02",
@@ -470,12 +470,56 @@
    "feedback_approvazione_una_volta.md": {
     "modificato": "2026-11-02",
     "esito": "03/11: regola locale ScegliNatura ampliata il 02/11, non integrata"
+   },
+   "feedback_email_solo_bozza.prima_2026-11-03.md": {
+    "modificato": "2026-11-03",
+    "esito": "04/11: copia di sicurezza della versione precedente, nulla da fare"
    }
   }
  },
  "drive": {
-  "data": "2026-11-02",
+  "data": "2026-11-03",
   "skills": {
+   "wordpress-woocommerce": {
+    "drive": "55077",
+    "commit": "3cc64aa"
+   },
+   "chatgpt-ads-performance": {
+    "drive": "54219",
+    "commit": "245c890"
+   },
+   "linkedin-ads": {
+    "drive": "51808",
+    "commit": "bb73d9f"
+   },
+   "microsoft-ads": {
+    "drive": "55158",
+    "commit": "8933c60"
+   },
+   "trello": {
+    "drive": "81721",
+    "commit": "245c890"
+   },
+   "meta-ads-performance": {
+    "drive": "57616",
+    "commit": "d8fc50e"
+   },
+   "google-ads-performance": {
+    "drive": "74572",
+    "commit": "a4bf558"
+   },
+   "redmine-harvest": {
+    "drive": "49365",
+    "commit": "6679ea7"
+   },
+   "gtm": {
+    "drive": "49919",
+    "commit": "e386148"
+   },
+   "viaggi-treno-italia": {
+    "drive": "33586",
+    "commit": "8f04766"
+   },
    "google-cloud": {
     "drive": "37114",
     "commit": "44c87a6"
@@ -488,24 +532,8 @@
     "drive": "43014",
     "commit": "13915ff"
    },
-   "meta-ads-performance": {
-    "drive": "53976",
-    "commit": "5d998ce"
-   },
-   "google-ads-performance": {
-    "drive": "72024",
-    "commit": "5d998ce"
-   },
-   "trello": {
-    "drive": "77999",
-    "commit": "b05f1b3"
-   },
    "prestashop": {
     "drive": "38575",
-    "commit": "db8eb2f"
-   },
-   "wordpress-woocommerce": {
-    "drive": "52312",
     "commit": "db8eb2f"
    },
    "sviluppo-web": {
@@ -519,14 +547,6 @@
    "ebay-venditore": {
     "drive": "39092",
     "commit": "abb0d05"
-   },
-   "chatgpt-ads-performance": {
-    "drive": "43735",
-    "commit": "329073e"
-   },
-   "redmine-harvest": {
-    "drive": "47304",
-    "commit": "3a0fd55"
    },
    "brevo": {
     "drive": "63744",
@@ -542,10 +562,6 @@
    },
    "trustpilot": {
     "drive": "47010",
-    "commit": "39b9e4b"
-   },
-   "microsoft-ads": {
-    "drive": "50964",
     "commit": "39b9e4b"
    },
    "google-search-console": {
@@ -568,10 +584,6 @@
     "drive": "45381",
     "commit": "370c032"
    },
-   "linkedin-ads": {
-    "drive": "47358",
-    "commit": "02c21d8"
-   },
    "substack-intelligence": {
     "drive": "17135",
     "commit": "29b96fe"
@@ -583,14 +595,6 @@
    "consent-mode-privacy": {
     "drive": "31828",
     "commit": "f37effc"
-   },
-   "gtm": {
-    "drive": "49919",
-    "commit": "e386148"
-   },
-   "viaggi-treno-italia": {
-    "drive": "33586",
-    "commit": "8f04766"
    }
   }
  },
@@ -682,7 +686,30 @@
    "dal": "2026-11-03",
    "livello": "sostanziale",
    "voci": [
-    "🔴 03/11: sez. 7: i post dei paesi DMA non sono sponsorizzabili come Thought Leader Ads (pagina a5964111 del 02/11); per i B2B italiani formato da dare per non disponibile, criterio [DA VERIFICARE]"
+    "🔴 03/11: sez. 7: i post dei paesi DMA non sono sponsorizzabili come Thought Leader Ads (pagina a5964111 del 02/11); per i B2B italiani formato da dare per non disponibile, criterio [DA VERIFICARE]",
+    "🟡 04/11: sez. 7: pagina a421723 (Sponsored Messaging) aggiornata il 03/11: inglese solo su profili in inglese, Draft with AI solo in inglese, obiettivi per formato, Flowchart"
+   ]
+  },
+  "brevo": {
+   "dal": "2026-11-04",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 04/11: sez. 9: procedura Brevo per il consenso al pixel per contatto (Settings > Contacts > Per-contact pixel tracking consent, sconosciuti su No, casella nei form, link «Revoke pixel tracking consent link» o placeholder nel footer che toglie il solo pixel e tiene l'iscrizione, campo API contactPixelTrackingConsent, conta la finalità non il canale), articolo aggiornato il 03/11; menu del tracciamento anonimo; vademecum del Garante del 05/10: tracking pixel fra le ispezioni del secondo semestre 2026"
+   ]
+  },
+  "wordpress-woocommerce": {
+   "dal": "2026-11-04",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 04/11: sez. 2: aggiornamento di sicurezza WooPayments del 03/11/2026 (funzione abbonamenti), versioni corrette da 9.0.1 a 11.2.1, controllo su ogni negozio anche con auto-update",
+    "🟡 04/11: sez. 0: calendario 7.2 riletto (Beta 4 il 03/11, Beta 5 il 10/11, RC3 l'01/12, uscita l'08/12/2026)"
+   ]
+  },
+  "chatgpt-ads-performance": {
+   "dal": "2026-11-04",
+   "livello": "minore",
+   "voci": [
+    "🟡 04/11: sez. 2: mail OpenAI Ads del 02/11: credito per gli account Ads Manager aperti entro il 31/12/2026, importo [DA VERIFICARE]; llms-full.txt del 04/11 senza la riga <custom_field>"
    ]
   }
  },
@@ -715,7 +742,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-03",
+  "ultima_lettura": "2026-11-04",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -800,6 +827,18 @@
     "mittente": "noreply@email.openai.com",
     "oggetto": "ChatGPT Ads Product Updates",
     "esito": "chatgpt-ads-performance sez. 0, 2, 7, 11 (🔴 più immagini open beta per tutti; 89 paesi; miglioramenti creativi [DA VERIFICARE]; scheda più larga; Shopify internazionale già in skill)"
+   },
+   "1a19d3dd9e4fb7d0": {
+    "data": "2026-11-02",
+    "mittente": "noreply@email.openai.com",
+    "oggetto": "Two days away: Your 2026 ChatGPT Ads Holiday Playbook",
+    "esito": "invito al webinar del 04/11; unica novità il credito per gli account aperti entro il 31/12/2026 (chatgpt-ads-performance sez. 2, 🟡, pagina ads.openai.com/holiday 403)"
+   },
+   "1a1a0a32d36b6f07": {
+    "data": "2026-11-03",
+    "mittente": "ads-noreply@google.com",
+    "oggetto": "Get rewarded for creating business impact",
+    "esito": "programma Google Ads Rewards (punti per obiettivi), non è una novità di prodotto, nulla da integrare"
    }
   }
  },

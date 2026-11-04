@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 04/11/2026
+- 🟡 Sez. 2: mail OpenAI Ads del 02/11 (webinar Holiday Playbook del 04/11): credito per gli account Ads Manager aperti entro il 31/12/2026, importo [DA VERIFICARE]. `llms-full.txt` del 04/11: tolta la riga sul campo `<custom_field>` degli eventi `data.type = custom`, nessun altro cambiamento.
 ## 31/10/2026
 - 🔴 Sez. 0, 2, 7 e 11: newsletter OpenAI del 30/10/2026: inserzioni con più immagini in open beta per tutti (Ad format > «Multiple images»), 89 paesi dal 21/10 (Italia già inclusa), miglioramenti creativi self-serve (riscrittura di titoli e descrizioni, traduzione, pagine più pertinenti; default e interruttore [DA VERIFICARE], articolo 403), scheda standard più larga su desktop, Shopify in tutti i paesi.
 ## 30/10/2026

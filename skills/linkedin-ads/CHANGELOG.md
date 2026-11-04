@@ -1,5 +1,7 @@
 # Changelog linkedin-ads
 
+## 04/11/2026
+- 🟡 Sez. 7: pagina a421723 (Sponsored Messaging) aggiornata il 03/11: lingua inglese solo su profili in inglese, Draft with AI solo in inglese, obiettivi per formato, Flowchart dei clic.
 ## 03/11/2026
 - 🔴 Sez. 7: pagina a5964111 aggiornata il 02/11/2026: i post dei paesi DMA non sono individuabili né sponsorizzabili come Thought Leader Ads; per i B2B italiani il formato va dato per non disponibile sui post dei membri italiani, criterio esatto [DA VERIFICARE] sul pannello; menu Sponsorship Permissions > Requests and Posts.
 ## 29/10/2026
