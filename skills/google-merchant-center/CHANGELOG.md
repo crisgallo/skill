@@ -1,5 +1,7 @@
 # Changelog google-merchant-center
 
+## 05/11/2026
+- 🟡 Sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; impostazione delle etichette IA anche in Merchant Center, rinvio a google-ads-performance.
 ## 27/10/2026
 - 🟡 Sez. 3: stesso obbligo di passkey su Google Ads dall'11/11/2026 (annuncio di servizio del 26/10); abbinamento in 1-2 giorni, piena attività dopo 7: la passkey si crea subito. Rimando a google-ads-performance sez. 13.
 

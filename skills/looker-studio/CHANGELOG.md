@@ -1,5 +1,7 @@
 # Changelog looker-studio
 
+## 05/11/2026
+- 🟡 Sez. 7: misure di grafo BigQuery importate come metriche ad aggregazione fissa (pagina del connettore aggiornata il 04/11).
 ## 28/10/2026
 - 🟡 Sez. 17: pagina Improve performance aggiornata il 26/10/2026: tabelle materializzate al posto delle viste pesanti, Storage Read API con i permessi readsessions, estratto 100 MB senza freschezza.
 

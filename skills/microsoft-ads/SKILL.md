@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, importare da Google Ads, 
 
 # Microsoft Advertising: regole operative
 
-**Ultima verifica delle fonti: 31 ottobre 2026.**
+**Ultima verifica delle fonti: 5 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -25,7 +25,7 @@ description: "Regole operative verificate per montare, importare da Google Ads, 
 - **Consent Mode**: il tag UET si carica prima del banner con default `denied`, poi `update` a `granted`. In EEA il default enforced è `denied`: se il sito non manda `granted` dopo l'accettazione, le conversioni si perdono. Codice: `window.uetq.push('consent','default',{'ad_storage':'denied'})` e `window.uetq.push('consent','update',{'ad_storage':'granted'})` ([setup consenso](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_uet_consent)). Microsoft raccomanda l'**Advanced** (tag caricato subito, dati anonimi in denied) rispetto al Basic (tag bloccato fino al consenso).
 - **TCF**: aggiungere i vendor **Microsoft (ID 1126)** e **Xandr (ID 32)** e le finalità 1, 2, 3, 4, 7, 9, 10 nella CMP (FAQ consenso). Se non si implementa niente, UET prova a leggere da solo i segnali TCF (`enableAutoConsent`, attivo di default); Microsoft comunque raccomanda l'implementazione esplicita.
 - CMP italiane nella lista ufficiale: **Iubenda**, **My Agile Privacy**; più Cookiebot, Complianz, CookieYes, Didomi, OneTrust, Usercentrics; **il template GTM ufficiale** legge il consenso della CMP (setup consenso).
-- ⚠️ **Clarity ha un consenso separato** da impostare a parte, anche se è agganciato allo stesso tag UET (setup consenso).
+- ⚠️ **Clarity ha un consenso separato** da impostare a parte, anche se è agganciato allo stesso tag UET (setup consenso). 🟡 [Post Microsoft Advertising del 04/11/2026](https://about.ads.microsoft.com/en-us/blog/post/november-2026/whats-new-in-microsoft-clarity-agent-insights-faster-answers-and-ai-discovery): Clarity aggiunge **Agent Activity** (quali agenti IA visitano il sito, cosa fanno e dove si bloccano), **Conversational Analytics** (domande in linguaggio naturale con risposte basate sulle registrazioni) e **Brand Agents** (prodotti e servizi trovabili in Copilot e Bing, prenotazioni locali); disponibilità e attivazione sul blog di Clarity, non letto [DA VERIFICARE].
 - **Verifica**: UET Tag Helper, parametro `asc` = `G` dopo consenso, `D` prima; in console `window.uetq.uetConfig.consent.enabled` → `true`. Sul pannello: Conversioni → tag UET, colonna **Consent signal**: *Healthy* = segnale valido su >75% degli eventi negli ultimi 7 giorni, *Moderate* 0–75%, *Missing* 0% (setup consenso). Un tag *Missing* su un sito italiano è un account che non misura.
 - 🔴 Microsoft dichiara che verifica se i cookie `MUID`, `_uetvid`, `_uetsid`, `MSPTC` vengono scritti **prima** del banner o **dopo un rifiuto**: in quel caso blocca tracciamento e liste (FAQ consenso). Le conversioni modellate sono annunciate ma "in arrivo": oggi il dato negato è perso, non stimato.
 

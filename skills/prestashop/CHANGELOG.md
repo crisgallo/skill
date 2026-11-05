@@ -1,5 +1,7 @@
 # Changelog prestashop
 
+## 05/11/2026
+- 🟡 Sez. 1: Core Monthly di ottobre 2026 (03/11): consolidamento 9.2, Admin API con scope obbligatorio, 170 PR; nessuna release nuova.
 ## 24/10/2026
 - 🟡 Sez. 1: avviso informativo php.net del 23/10/2026 su session upload progress (CVE-2026-115560): nessuna release nuova, la mitigazione `session.upload_progress.enabled=0` del 21/10 resta al suo posto; riguarda solo chi cambia il serialize handler a runtime. Fonte aggiunta.
 

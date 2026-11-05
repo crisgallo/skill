@@ -1,5 +1,7 @@
 # Changelog wordpress-woocommerce
 
+## 05/11/2026
+- 🔴 Sez. 1: WooCommerce 11.2.2 del 04/11/2026, release di sicurezza con aggiornamento del database (Store API, chiavi REST, attributi, checkout, CSV, endpoint wc-admin); cosa fare e cosa può rompersi.
 ## 04/11/2026
 - 🔴 Sez. 2: aggiornamento di sicurezza WooPayments del 03/11/2026 (funzione abbonamenti, estende la correzione di agosto), tabella delle versioni corrette e cosa fare su ogni negozio.
 - 🟡 Sez. 0: calendario 7.2 riletto il 04/11 (Beta 3 il 28/10 con la 7.1.4, Beta 4 il 03/11, Beta 5 il 10/11, RC3 l'01/12); uscita confermata l'08/12/2026.

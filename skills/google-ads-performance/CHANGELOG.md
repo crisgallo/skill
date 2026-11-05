@@ -1,5 +1,7 @@
 # Changelog google-ads-performance
 
+## 05/11/2026
+- 🔴 Sez. 12: etichette per i contenuti creati o modificati con l'IA (pagina 17140115, rimandi aggiunti il 04/11 alle norme sugli asset immagine, alle immagini PMax e ai video): dichiarazione nel Centro annunci e sovrimpressione visibile per le campagne con target UE, colonna «AI label» nella Libreria asset, etichette automatiche non rimovibili.
 ## 27/10/2026
 - 🔴 Sez. 13: annuncio di servizio Google Ads del 26/10/2026: dall'11/11/2026 passkey obbligatoria per le azioni sensibili (aggiungere utenti, collegare account; l'accesso non cambia), rollout per account con notifica; pagine ufficiali 16917887, 16968810 e 17423445: abbinamento in 1-2 giorni, 24-48 ore di blocco, piena attività dopo 7 giorni, passkey Android automatiche non valide, email gratuite bloccate in un pilota. Fonti aggiunte.
 

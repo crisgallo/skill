@@ -5,7 +5,7 @@ description: "Regole operative verificate per costruire e mantenere report mensi
 
 # Looker Studio (Data Studio): regole operative
 
-**Ultima verifica delle fonti: 25 settembre 2026.**
+**Ultima verifica delle fonti: 5 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -96,6 +96,7 @@ description: "Regole operative verificate per costruire e mantenere report mensi
 - Con BigQuery si può usare un **account di servizio** come credenziale: è l'unico connettore dove il problema della sez. 2 ha una soluzione strutturale.
 
 ---
+- 🟡 **Misure di grafo BigQuery** (pagina [connect-to-google-bigquery](https://docs.cloud.google.com/looker/docs/studio/connect-to-google-bigquery) aggiornata il 04/11/2026): collegando un grafo BigQuery, le misure definite nel grafo entrano come metriche dell'origine dati, usabili in grafici, campi calcolati, variabili di risultato e controlli; l'aggregazione è fissa (la decide il grafo in BigQuery), si possono cambiare solo tipo di dato e descrizione. Caso raro per un report marketing: si annota perché la pagina è quella del connettore che si legge per GA4 e Search Console su BigQuery.
 
 ## 8. Unione dati (blend): join, limiti, errori tipici
 

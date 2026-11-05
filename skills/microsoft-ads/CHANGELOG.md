@@ -1,5 +1,7 @@
 # Changelog microsoft-ads
 
+## 05/11/2026
+- 🟡 Sez. 2: Clarity del 04/11/2026: Agent Activity, Conversational Analytics, Brand Agents (post Microsoft Advertising), disponibilità [DA VERIFICARE].
 ## 01/11/2026
 - 🟡 Fonti: etichetta StatCounter aggiornata a ottobre 2026 (CSV letto il 31/10).
 ## 31/10/2026
