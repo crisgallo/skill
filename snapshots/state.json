@@ -192,8 +192,8 @@
     "esito": "regola di progetto, non integrata"
    },
    "feedback_trello_checklist_numerate.md": {
-    "modificato": "2026-10-03",
-    "esito": "integrata il 03/10/2026 in trello sez. 4 (checklist «Email da gestire», voci P1, P2, P3)"
+    "modificato": "2026-11-05",
+    "esito": "05/11: regola di Cristiano integrata in trello sez. 4 (🔴) su segnalazione della chat di manutenzione, prima del giro del 06/11"
    },
    "feedback_trello_date_sui_task.md": {
     "modificato": "2026-10-14",
@@ -682,7 +682,8 @@
    "dal": "2026-11-03",
    "livello": "sostanziale",
    "voci": [
-    "🔴 03/11: sez. 9: voci del Collettivo solo nei weekend lavorabili, mai feriali né festivi infrasettimanali (SOLO_WEEKEND); appuntamenti letti anche da Google dal 30/10 (regola di Cristiano del 02/11)"
+    "🔴 03/11: sez. 9: voci del Collettivo solo nei weekend lavorabili, mai feriali né festivi infrasettimanali (SOLO_WEEKEND); appuntamenti letti anche da Google dal 30/10 (regola di Cristiano del 02/11)",
+    "🔴 05/11: sez. 4: checklist in fila per numero dall'alto, numeri mai cambiati, «Email da gestire» e «Appunti» in fondo; trello.py ordina e lista (tua regola del 05/11, feedback_trello_checklist_numerate.md)"
    ]
   },
   "linkedin-ads": {

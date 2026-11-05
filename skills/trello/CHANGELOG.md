@@ -1,5 +1,7 @@
 # Changelog trello
 
+## 05/11/2026
+- 🔴 Sez. 4: regola di Cristiano del 05/11 (`feedback_trello_checklist_numerate.md`, via chat di manutenzione): le checklist stanno in fila per numero dall'alto, i numeri non si cambiano, «Email da gestire» e «Appunti» in fondo; `trello.py ordina` e `trello.py lista` al posto giusto.
 ## 03/11/2026
 - 🔴 Sez. 9: regola di Cristiano del 02/11/2026 (`feedback_pianificazione_spazio_calendario.md`): le voci del Collettivo, progetto non retribuito, vanno solo nei weekend lavorabili (mai feriali né festivi infrasettimanali), `SOLO_WEEKEND` in `agenda.py`; dal 30/10 gli appuntamenti si leggono anche da Google quando il Calendario del Mac non li restituisce.
 ## 31/10/2026
