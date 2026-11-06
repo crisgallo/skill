@@ -1,5 +1,7 @@
 # Changelog linkedin-ads
 
+## 06/11/2026
+- 🟡 Sez. 7: pagina a426057 aggiornata il 05/11: effetto del pulsante Not Interested, CTA persistente in fondo allo schermo (graduale, non su iOS).
 ## 04/11/2026
 - 🟡 Sez. 7: pagina a421723 (Sponsored Messaging) aggiornata il 03/11: lingua inglese solo su profili in inglese, Draft with AI solo in inglese, obiettivi per formato, Flowchart dei clic.
 ## 03/11/2026

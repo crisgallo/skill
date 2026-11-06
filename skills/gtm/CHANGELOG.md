@@ -1,5 +1,7 @@
 # Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 06/11/2026
+- 🔴 Sez. 7 e 0: immagine del server container 4.5.0 (08/10/2026) e 4.6.0 (29/10/2026) con aggiornamenti di sicurezza, dove si legge la versione, Stape aggiorna da sé e su Cloud Run si ridistribuisce; circa 7 volte più spazio di configurazione (Stape, 15/10) [DA VERIFICARE]; pagina delle release notes del server aggiunta alle fonti da guardare.
 ## 30/10/2026
 - 🔴 Skill rinominata da «gtm-server-side» a «gtm» su richiesta di Cristiano (chat Gruppo NEM, 30/10/2026): copre il container web e quello server, e il nome vecchio faceva pensare al solo server. Descrizione e titolo aggiornati, nota in sez. 0. Nuova sez. 15 «Siti editoriali» con i soli quattro temi (video, paywall e abbonati, più testate su container separati, articoli in webview nelle app), tutti [DA VERIFICARE]: le regole arrivano dal lavoro sul pannello dal 09/11/2026. Su claude.ai va eliminata la skill gtm-server-side e caricata gtm.
 ## 27/10/2026

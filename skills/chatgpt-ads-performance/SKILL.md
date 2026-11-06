@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 4 novembre 2026.**
+**Ultima verifica delle fonti: 6 novembre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -101,6 +101,8 @@ Limiti in caricamento massivo: 5.000 campagne, 5.000 gruppi, 5.000 inserzioni. �
 ⛔ Una campagna esistente **non si converte** in oCPC né in oCPM, né tra loro: si crea nuova, col tracciamento già attivo e almeno un evento standard in arrivo.
 
 Tre strategie: **offerta fissa** («Manual: Max bid»), **massimizza i clic**, **massimizza le conversioni**. 🔴 **Maximize results è il default sui gruppi nuovi idonei**: l'offerta fissa va scelta esplicitamente. OpenAI dichiara che **non garantisce** CPA, CPC o ROAS obiettivo. https://help.openai.com/en/articles/20001425-maximize-results-bid-strategy
+
+🔴 **Dal 09/11/2026 arrivano Target CPA e Target CPC; Max Bid e Max CPC spariscono il 01/01/2027** (mail «An update to your bidding options in ChatGPT Ads» di OpenAI Ads Platform del 05/11/2026). Per le campagne a conversione **Target CPA** sostituisce Max Bid sulle campagne nuove: si indica il costo medio per conversione desiderato e il sistema regola offerte e consegna verso quel valore. Per le campagne a clic **Target CPC** sostituisce Max CPC: non è più un tetto per singola asta, il sistema può offrire sopra o sotto il target in ogni asta puntando alla media indicata e al massimo dei clic nel budget. Le campagne esistenti continuano con Max Bid o Max CPC e si possono passare al target da Ads Manager; **il 01/01/2027 passano in automatico** a Target CPA o Target CPC. «Maximize results» (autobid) si chiama ora **intelligent bidding** e resta il default. Cosa fare prima del passaggio: controllare che Pixel o Conversions API mandino l'evento scelto alla sorgente dati collegata e leggere gli avvisi di **Event Quality Score**; scegliere il target dal CPA o CPC reale recente, perché un target stretto o un segnale debole riducono la consegna e lasciano budget non speso. Articolo di riferimento `help.openai.com/en/articles/20001634` (403 ai fetch, [DA VERIFICARE] sulla pagina e sul pannello il 09/11).
 
 **Offerta di partenza consigliata: 3-5 $ per clic, solo per CPC.** ⚠️ È alto per il mercato italiano: va confrontato col costo di una **lettura**, non con un CPC.
 

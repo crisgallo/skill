@@ -1,5 +1,7 @@
 # Changelog meta-pixel-capi
 
+## 06/11/2026
+- 🔴 Sez. 9: Marketing API v27.0 dal 04/11/2026; v24.0 disponibile fino al 10/11/2026 secondo la tabella del changelog (non 06/10); v25.0 fino al 23/02/2027.
 ## 03/11/2026
 - 🟡 Sez. 8: termine di adeguamento alle Linee guida del Garante sui tracking pixel riscritto 29/10/2026 (sei mesi dalla GU del 29/04/2026), rinvio a brevo sez. 9.
 ## 30/10/2026

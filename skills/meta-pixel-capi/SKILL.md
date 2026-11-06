@@ -5,7 +5,7 @@ description: "Regole operative verificate per installare, controllare e riparare
 
 # Meta Pixel e Conversions API: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 6 novembre 2026.**
 
 Questa skill approfondisce la sezione 4 della skill `meta-ads-performance` e non la contraddice: la fase di apprendimento, le finestre di attribuzione e i pubblici restano lì. Qui c'è il tracciamento: cosa arriva a Meta, come, e come si capisce se è rotto.
 
@@ -135,7 +135,7 @@ Regole trasversali:
 
 ## 10. Versioni Marketing API
 
-- 🔴 **Marketing API v24.0 scade il 06/10/2026** ([Graph API changelog](https://developers.facebook.com/docs/graph-api/changelog/)); v25.0 dal 18/02/2026 e v26.0 dal 29/07/2026 con scadenza "TBD". Le chiamate CAPI pinnate a `graph.facebook.com/v24.0/` vanno portate a v26 prima di ottobre; stessa data in `meta-ads-performance` sez. 4. Le versioni Graph API hanno date diverse (v24 Graph fino al 18/02/2028): non confondere le due tabelle.
+- 🔴 **Marketing API v24.0 scade il 06/10/2026** ([Graph API changelog](https://developers.facebook.com/docs/graph-api/changelog/)); v25.0 dal 18/02/2026 e v26.0 dal 29/07/2026 con scadenza "TBD". Le chiamate CAPI pinnate a `graph.facebook.com/v24.0/` vanno portate a v26 prima di ottobre; stessa data in `meta-ads-performance` sez. 4. Le versioni Graph API hanno date diverse (v24 Graph fino al 18/02/2028): non confondere le due tabelle. 🔴 **Aggiornamento del 06/11/2026** (tabella delle versioni nel [Marketing API changelog](https://developers.facebook.com/documentation/ads-commerce/marketing-api/marketing-api-changelog)): **v27.0 è uscita il 04/11/2026** ed è la versione corrente; **v24.0 resta disponibile fino al 10/11/2026** (la tabella dice 10/11, non 06/10: fa fede la tabella), v25.0 fino al 23/02/2027, v26.0 e v27.0 «TBD». Chi ha chiamate CAPI pinnate a `v24.0` ha pochi giorni; le pagine di developers.facebook.com rispondono 400 ai fetch automatici dal 06/11, lette con un agente.
 - Il tag Stape e il tag ufficiale Meta scelgono la versione da soli: si aggiornano i **template** dalla Galleria; il codice fatto in casa (plugin custom, script PHP) è quello che resta indietro.
 
 ---

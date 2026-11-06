@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-05",
+  "ultima_lettura": "2026-11-06",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -474,15 +474,19 @@
    "feedback_email_solo_bozza.prima_2026-11-03.md": {
     "modificato": "2026-11-03",
     "esito": "04/11: copia di sicurezza della versione precedente, nulla da fare"
+   },
+   "feedback_creativita_testi_tab_e_reel.md": {
+    "modificato": "2026-11-05",
+    "esito": "06/11: regola locale di un progetto (testi delle creatività dalle tab della scheda, solo reel già fatti), non integrata"
    }
   }
  },
  "drive": {
-  "data": "2026-11-04",
+  "data": "2026-11-05",
   "skills": {
    "wordpress-woocommerce": {
-    "drive": "55077",
-    "commit": "3cc64aa"
+    "drive": "55907",
+    "commit": "2a6bfbe"
    },
    "chatgpt-ads-performance": {
     "drive": "54219",
@@ -549,8 +553,8 @@
     "commit": "abb0d05"
    },
    "brevo": {
-    "drive": "63744",
-    "commit": "962a1a3"
+    "drive": "73425",
+    "commit": "2a6bfbe"
    },
    "corsa-allenamento-salute": {
     "drive": "37711",
@@ -672,10 +676,11 @@
   },
   "meta-pixel-capi": {
    "dal": "2026-10-30",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 30/10: sez. 5: rimandi alla skill rinominata gtm",
-    "🟡 03/11: sez. 8: termine di adeguamento alle Linee guida del Garante sui tracking pixel riscritto 29/10/2026 (sei mesi dalla GU del 29/04/2026), rinvio a brevo sez. 9"
+    "🟡 03/11: sez. 8: termine di adeguamento alle Linee guida del Garante sui tracking pixel riscritto 29/10/2026 (sei mesi dalla GU del 29/04/2026), rinvio a brevo sez. 9",
+    "🔴 06/11: sez. 9: Marketing API v27.0 dal 04/11/2026, v24.0 disponibile fino al 10/11/2026 (tabella del changelog), v25.0 fino al 23/02/2027"
    ]
   },
   "trello": {
@@ -691,14 +696,16 @@
    "livello": "sostanziale",
    "voci": [
     "🔴 03/11: sez. 7: i post dei paesi DMA non sono sponsorizzabili come Thought Leader Ads (pagina a5964111 del 02/11); per i B2B italiani formato da dare per non disponibile, criterio [DA VERIFICARE]",
-    "🟡 04/11: sez. 7: pagina a421723 (Sponsored Messaging) aggiornata il 03/11: inglese solo su profili in inglese, Draft with AI solo in inglese, obiettivi per formato, Flowchart"
+    "🟡 04/11: sez. 7: pagina a421723 (Sponsored Messaging) aggiornata il 03/11: inglese solo su profili in inglese, Draft with AI solo in inglese, obiettivi per formato, Flowchart",
+    "🟡 06/11: sez. 7: pagina a426057: pulsante Not Interested, CTA persistente in fondo allo schermo (graduale, non iOS)"
    ]
   },
   "chatgpt-ads-performance": {
    "dal": "2026-11-04",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "🟡 04/11: sez. 2: mail OpenAI Ads del 02/11: credito per gli account Ads Manager aperti entro il 31/12/2026, importo [DA VERIFICARE]; llms-full.txt del 04/11 senza la riga <custom_field>"
+    "🟡 04/11: sez. 2: mail OpenAI Ads del 02/11: credito per gli account Ads Manager aperti entro il 31/12/2026, importo [DA VERIFICARE]; llms-full.txt del 04/11 senza la riga <custom_field>",
+    "🔴 06/11: sez. 4: dal 09/11/2026 Target CPA e Target CPC al posto di Max Bid e Max CPC sulle campagne nuove, i vecchi modelli cessano il 01/01/2027, «Maximize results» diventa «intelligent bidding», controlli su Pixel/CAPI ed EQS (mail OpenAI del 05/11)"
    ]
   },
   "google-ads-performance": {
@@ -713,6 +720,20 @@
    "livello": "minore",
    "voci": [
     "🟡 05/11: sez. 2: Clarity del 04/11: Agent Activity, Conversational Analytics, Brand Agents, disponibilità [DA VERIFICARE]"
+   ]
+  },
+  "gtm": {
+   "dal": "2026-11-06",
+   "livello": "sostanziale",
+   "voci": [
+    "🔴 06/11: sez. 7 e 0: immagine del server container 4.5.0 (08/10) e 4.6.0 (29/10) con aggiornamenti di sicurezza: Stape aggiorna da sé, su Cloud Run si ridistribuisce; circa 7 volte più spazio di configurazione [DA VERIFICARE]"
+   ]
+  },
+  "redmine-harvest": {
+   "dal": "2026-11-06",
+   "livello": "minore",
+   "voci": [
+    "🟡 06/11: sez. 8: Harvest Teams 11 $ a posto al mese senza impegno annuale"
    ]
   }
  },
@@ -745,7 +766,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-05",
+  "ultima_lettura": "2026-11-06",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -842,6 +863,18 @@
     "mittente": "ads-noreply@google.com",
     "oggetto": "Get rewarded for creating business impact",
     "esito": "programma Google Ads Rewards (punti per obiettivi), non è una novità di prodotto, nulla da integrare"
+   },
+   "1a1acf1d9598d172": {
+    "data": "2026-11-05",
+    "mittente": "noreply@email.openai.com",
+    "oggetto": "An update to your bidding options in ChatGPT Ads",
+    "esito": "integrata in chatgpt-ads-performance sez. 4 (🔴): Target CPA e Target CPC dal 09/11, Max Bid e Max CPC cessano il 01/01/2027"
+   },
+   "1a1acd845f5e7057": {
+    "data": "2026-11-05",
+    "mittente": "googleads-noreply@google.com",
+    "oggetto": "Azione richiesta: crea una passkey oggi stesso e proteggi il tuo account Google Ads",
+    "esito": "ripetizione della mail del 26/10 (già in google-ads-performance sez. 13), stesso testo, nulla di nuovo"
    }
   }
  },

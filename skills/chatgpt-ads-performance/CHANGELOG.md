@@ -1,5 +1,7 @@
 # Changelog chatgpt-ads-performance
 
+## 06/11/2026
+- 🔴 Sez. 4: dal 09/11/2026 Target CPA (conversioni) e Target CPC (clic) al posto di Max Bid e Max CPC sulle campagne nuove; i due vecchi modelli cessano il 01/01/2027; «Maximize results» diventa «intelligent bidding»; controlli su Pixel/CAPI ed EQS prima del passaggio (mail OpenAI del 05/11).
 ## 04/11/2026
 - 🟡 Sez. 2: mail OpenAI Ads del 02/11 (webinar Holiday Playbook del 04/11): credito per gli account Ads Manager aperti entro il 31/12/2026, importo [DA VERIFICARE]. `llms-full.txt` del 04/11: tolta la riga sul campo `<custom_field>` degli eventi `data.type = custom`, nessun altro cambiamento.
 ## 31/10/2026

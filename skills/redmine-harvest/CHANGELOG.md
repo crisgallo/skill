@@ -1,5 +1,7 @@
 # Changelog redmine-harvest
 
+## 06/11/2026
+- 🟡 Sez. 8: prezzo mensile Harvest Teams senza impegno annuale 11 $ a posto (pagina pricing del 06/11); Enterprise mensile [DA VERIFICARE].
 ## 02/11/2026
 - 🔴 Sez. 0 e 13: patch di sicurezza Redmine 7.0.3, 6.1.6 e 6.0.12 del 01/11/2026 (Security Advisories lette il 02/11): scope OAuth ignorato nel filtro dei progetti e ReDoS nelle macro wiki (alte), scope OAuth aggirati alla creazione di progetti e XSS riflessa in attachments#edit_all (moderate), validate_back_url (bassa); cosa chiedere all'agenzia che ospita Redmine.
 ## 20/10/2026
