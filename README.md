@@ -16,7 +16,7 @@ Regola che vale per tutte le skill: le sezioni marcate **✅ VERIFICATO** con un
 | Skill | Cosa copre | Freschezza |
 |---|---|---|
 | google-ads-performance | Search, Demand Gen, Performance Max | 2-3 mesi |
-| meta-ads-performance | Gestione inserzioni Meta | 2-3 mesi |
+| meta-ads-performance | Gestione inserzioni Meta, portfolio e account per un cliente, follower Instagram | 2-3 mesi |
 | chatgpt-ads-performance | Ads Manager di OpenAI, in beta | 1 mese |
 | microsoft-ads | Microsoft Advertising, import da Google | 2-3 mesi |
 | linkedin-ads | Campaign Manager per B2B | 2-3 mesi |

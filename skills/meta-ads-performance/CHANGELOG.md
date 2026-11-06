@@ -1,5 +1,7 @@
 # Changelog meta-ads-performance
 
+## 06/11/2026
+- 🔴 Sez. 10 nuova (richiesta di Cristiano via chat [Blog] Ads #23): far crescere i follower di un profilo Instagram: nessun obiettivo follower, Traffico con luogo della conversione «Profilo Instagram o Facebook» e obiettivo di prestazioni «Visite al profilo Instagram», colonne «Visite al profilo Instagram» e «Instagram follows» (dal 07/07/2025, alcuni account), Insights a 90 giorni con Follow, Persone che non seguono più e Follower netti, stima dell'incrementale e del costo per follower, Metti in evidenza contro Gestione inserzioni (Apple 30% da iOS), trappole; descrizione aggiornata.
 ## 30/10/2026
 - 🔴 Sez. 6: due regole di Cristiano del 30/10/2026 (chat ScegliNatura, via Ecommerce #34): le immagini 4:5 e 1:1 che escono anche in Storie, Reel o Feed del profilo tengono libera la fascia alta (circa 15%, 270 px su 1800) per l'intestazione «Inserzione»; prima di pubblicare o riaccendere la chat guarda lei stessa l'anteprima di ogni posizionamento in «Modi in cui verrà visualizzata la tua inserzione», e con un elemento coperto non si pubblica. Caso del 29/10/2026: carosello 4:5 con il logo a 110 px dal bordo, coperto in Storie e Reel, inserzioni fermate da Cristiano.
 ## 28/10/2026
