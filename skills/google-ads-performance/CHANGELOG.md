@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 07/11/2026
+- 🟡 Sez. 0: pagina API sulla dichiarazione politica UE aggiornata al 30/10/2026: dalla v26 il campo è facoltativo solo per le campagne che non puntano l'UE in positivo; per le campagne italiane nulla cambia. Data in cima al 07/11/2026.
+
 ## 05/11/2026
 - 🔴 Sez. 12: etichette per i contenuti creati o modificati con l'IA (pagina 17140115, rimandi aggiunti il 04/11 alle norme sugli asset immagine, alle immagini PMax e ai video): dichiarazione nel Centro annunci e sovrimpressione visibile per le campagne con target UE, colonna «AI label» nella Libreria asset, etichette automatiche non rimovibili.
 ## 27/10/2026

@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-06",
+  "ultima_lettura": "2026-11-07",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -152,8 +152,8 @@
     "esito": "regola di processo sulla manutenzione delle skill, già coperta dalla routine, non integrata"
    },
    "feedback_lavoro_con_cris.md": {
-    "modificato": "2026-11-02",
-    "esito": "03/11: eccezione della chat Posta del 02/11 (niente resoconto ogni quarto d'ora, solo cose utili): regola di processo, non integrata"
+    "modificato": "2026-11-06",
+    "esito": "07/11: regola di processo globale sul modo di lavorare con Cristiano, non per le skill del repo"
    },
    "feedback_verbali_e_sal.md": {
     "modificato": "2026-10-09",
@@ -236,8 +236,8 @@
     "esito": "integrata il 30/09/2026 in google-ads-performance e meta-ads-performance (claim regolati); dettagli di script di progetto non integrati"
    },
    "feedback_skill_prima_di_ogni_attivita.md": {
-    "modificato": "2026-11-01",
-    "esito": "02/11: versione del 01/11 (Chrome rifiuta i pannelli senza la skill caricata, controllo nei brief dei sottoagenti, trello.py inizia stampa «CARICA ORA»): regola di processo sulle skill, non integrata"
+    "modificato": "2026-11-06",
+    "esito": "07/11: regola di processo globale (leggere le skill prima di ogni attività), non per le skill del repo"
    },
    "feedback_email_solo_bozza.md": {
     "modificato": "2026-11-03",
@@ -478,15 +478,27 @@
    "feedback_creativita_testi_tab_e_reel.md": {
     "modificato": "2026-11-05",
     "esito": "06/11: regola locale di un progetto (testi delle creatività dalle tab della scheda, solo reel già fatti), non integrata"
+   },
+   "feedback_registro_creativita.md": {
+    "modificato": "2026-11-06",
+    "esito": "07/11: regola locale di un progetto (registro delle creatività ScegliNatura), non integrata"
+   },
+   "feedback_piano_editoriale_tutte_le_categorie.md": {
+    "modificato": "2026-11-06",
+    "esito": "07/11: regola locale del progetto blog (piano editoriale su tutte le categorie), non integrata"
+   },
+   "feedback_testi_sito_scientifici_marketing.md": {
+    "modificato": "2026-11-06",
+    "esito": "07/11: regola locale di un progetto (testi del sito, registro scientifico e marketing), non integrata"
    }
   }
  },
  "drive": {
-  "data": "2026-11-05",
+  "data": "2026-11-06",
   "skills": {
    "wordpress-woocommerce": {
-    "drive": "55907",
-    "commit": "2a6bfbe"
+    "drive": "57183",
+    "commit": "741822e"
    },
    "chatgpt-ads-performance": {
     "drive": "54219",
@@ -613,9 +625,10 @@
   },
   "ga4-performance": {
    "dal": "2026-10-10",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "🟡 10/10: sez. 0: User Groups Admin API del 05/10/2026 per gestire i gruppi di utenti via API"
+    "🟡 10/10: sez. 0: User Groups Admin API del 05/10/2026 per gestire i gruppi di utenti via API",
+    "07/11 🔴 sez. 7: Data Manager in Google Analytics (beta) dal 06/11/2026, hub unico in Amministrazione per stream, collegamenti e importazioni, mappa delle connessioni con Correggi; non attivare la stessa importazione anche in Google Ads (conversioni doppie)"
    ]
   },
   "looker-studio": {
@@ -703,7 +716,8 @@
    "dal": "2026-11-05",
    "livello": "sostanziale",
    "voci": [
-    "🔴 05/11: sez. 12: etichette per i contenuti creati o modificati con l'IA (pagina 17140115): dichiarazione nel Centro annunci e sovrimpressione visibile sugli annunci per le campagne con target UE, colonna «AI label» nella Libreria asset, etichette automatiche non rimovibili, [DA VERIFICARE] sul pannello"
+    "🔴 05/11: sez. 12: etichette per i contenuti creati o modificati con l'IA (pagina 17140115): dichiarazione nel Centro annunci e sovrimpressione visibile sugli annunci per le campagne con target UE, colonna «AI label» nella Libreria asset, etichette automatiche non rimovibili, [DA VERIFICARE] sul pannello",
+    "07/11 🟡 sez. 0: pagina API dichiarazione politica UE agg. 30/10: dalla v26 campo facoltativo solo per campagne che non puntano l UE in positivo; per l Italia nulla cambia"
    ]
   },
   "microsoft-ads": {
@@ -725,6 +739,21 @@
    "livello": "minore",
    "voci": [
     "🟡 06/11: sez. 8: Harvest Teams 11 $ a posto al mese senza impegno annuale"
+   ]
+  },
+  "wordpress-woocommerce": {
+   "dal": "2026-11-07",
+   "livello": "sostanziale",
+   "voci": [
+    "07/11 🔴 sez. 2: da WooCommerce 11.2 le release di sicurezza richieste delle estensioni del Marketplace si installano da sole sui negozi collegati con abbonamento attivo, anche con gli automatici spenti; release di sicurezza dedicate; PHP 7.4 e 8.0 fino alla 11.5, 11.6 (febbraio 2027) richiede 8.1+; controllo versione dopo ogni patch, staging compresi",
+    "07/11 🟡 sez. 1: PHP 8.3+ dei requisiti è il raccomandato, il minimo tecnico è più basso"
+   ]
+  },
+  "social-media-manager": {
+   "dal": "2026-11-07",
+   "livello": "minore",
+   "voci": [
+    "07/11 🟡 sez. 8: analisi Pagina LinkedIn, aggiunte le schede Comparse della Pagina, Newsletter ed Employer brand"
    ]
   }
  },
@@ -757,7 +786,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-06",
+  "ultima_lettura": "2026-11-07",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

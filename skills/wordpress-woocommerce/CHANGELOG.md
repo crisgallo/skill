@@ -1,5 +1,9 @@
 # Changelog wordpress-woocommerce
 
+## 07/11/2026
+- 🔴 Sez. 2: post Woo del 06/11/2026 sulla sicurezza: da WooCommerce 11.2 le release di sicurezza «richieste» delle estensioni del Marketplace si installano da sole sui negozi collegati con abbonamento attivo anche con gli automatici spenti; release di sicurezza dedicate (Critical/High nella patch successiva, Medium/Low dopo la minor); PHP 7.4 e 8.0 supportati fino alla 11.5, 11.6 (febbraio 2027) richiede 8.1+; controllo della versione dopo ogni patch, staging compresi.
+- 🟡 Sez. 1: precisato che il PHP 8.3+ dei requisiti è il raccomandato, il minimo tecnico è più basso. Fonti e data in cima al 07/11/2026.
+
 ## 05/11/2026
 - 🔴 Sez. 1: WooCommerce 11.2.2 del 04/11/2026, release di sicurezza con aggiornamento del database (Store API, chiavi REST, attributi, checkout, CSV, endpoint wc-admin); cosa fare e cosa può rompersi.
 ## 04/11/2026

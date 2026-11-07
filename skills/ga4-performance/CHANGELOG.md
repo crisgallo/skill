@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 07/11/2026
+- 🔴 Sez. 7: Data Manager in Google Analytics (beta) dal 06/11/2026, hub unico in Amministrazione per stream, collegamenti e importazioni, mappa delle connessioni con pulsante Correggi; avviso sul doppio conteggio se la stessa importazione è attiva anche in Google Ads. Sez. 0 e Fonti aggiornate; data in cima al 07/11/2026.
+
 ## 10/10/2026
 - 🟡 Sez. 0: nota di rilascio del 05/10/2026, User Groups Admin API per gestire i gruppi di utenti via API; nessuna regola cambiata.
 ## 02/10/2026
