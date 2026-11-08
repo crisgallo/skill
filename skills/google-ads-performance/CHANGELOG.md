@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 08/11/2026
+- 🔴 Sez. 14 nuova (richiesta di Cristiano via chat [Blog] Ads #24): stato «Pubblicazione di annunci con limitazioni» (Limited ad serving): cos'è e come si vede (notifica nell'account, nessuna disapprovazione), chi è inserzionista qualificato, lo scenario «relazioni con i brand poco chiare o annunci generici», come scrivere annunci di servizi su piattaforme altrui (dominio fissato in posizione 1, rapporto dichiarato, brand proprio in chiaro), modulo di ricorso con campi e tempi (5 giorni lavorativi), opzioni DSA per l'UE, estensione a Demand Gen e Performance Max (agosto 2026, entro il 2028), cosa non fare. Descrizione e Fonti aggiornate; data in cima all'08/11/2026.
+
 ## 07/11/2026
 - 🟡 Sez. 0: pagina API sulla dichiarazione politica UE aggiornata al 30/10/2026: dalla v26 il campo è facoltativo solo per le campagne che non puntano l'UE in positivo; per le campagne italiane nulla cambia. Data in cima al 07/11/2026.
 
