@@ -1,5 +1,8 @@
 # Changelog redmine-harvest
 
+## 08/11/2026
+- 🟡 Sez. 9: news 164 di Redmine ora leggibile (letta l'08/11): conferma le cinque falle del 01/11, aggiunge le correzioni su sessioni e password scadute e la politica di patch per il ramo legacy 6.0.x. Data in cima all'08/11/2026.
+
 ## 06/11/2026
 - 🟡 Sez. 8: prezzo mensile Harvest Teams senza impegno annuale 11 $ a posto (pagina pricing del 06/11); Enterprise mensile [DA VERIFICARE].
 ## 02/11/2026

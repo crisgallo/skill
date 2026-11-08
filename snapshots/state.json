@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-07",
+  "ultima_lettura": "2026-11-08",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -484,8 +484,8 @@
     "esito": "07/11: regola locale di un progetto (registro delle creatività ScegliNatura), non integrata"
    },
    "feedback_piano_editoriale_tutte_le_categorie.md": {
-    "modificato": "2026-11-06",
-    "esito": "07/11: regola locale del progetto blog (piano editoriale su tutte le categorie), non integrata"
+    "modificato": "2026-11-07",
+    "esito": "08/11: regola locale del progetto blog (giro delle categorie sospeso dal 07/11, solo Fact checking finché decide Cris), non integrata"
    },
    "feedback_testi_sito_scientifici_marketing.md": {
     "modificato": "2026-11-06",
@@ -494,47 +494,43 @@
   }
  },
  "drive": {
-  "data": "2026-11-06",
+  "data": "2026-11-07",
   "skills": {
-   "wordpress-woocommerce": {
-    "drive": "57183",
-    "commit": "741822e"
+   "brevo": {
+    "drive": "73425",
+    "commit": "2a6bfbe"
    },
    "chatgpt-ads-performance": {
     "drive": "54219",
     "commit": "245c890"
    },
-   "linkedin-ads": {
-    "drive": "51808",
-    "commit": "bb73d9f"
+   "consent-mode-privacy": {
+    "drive": "31828",
+    "commit": "f37effc"
    },
-   "microsoft-ads": {
-    "drive": "55158",
-    "commit": "8933c60"
+   "corsa-allenamento-salute": {
+    "drive": "37711",
+    "commit": "aa09841"
    },
-   "trello": {
-    "drive": "81721",
-    "commit": "245c890"
+   "creditsafe-monitoraggio-credito": {
+    "drive": "19630",
+    "commit": "29b96fe"
    },
-   "meta-ads-performance": {
-    "drive": "57616",
-    "commit": "d8fc50e"
+   "cristiano-gallinelli-persona": {
+    "drive": "48635",
+    "commit": "3102ea1"
+   },
+   "ebay-venditore": {
+    "drive": "39092",
+    "commit": "abb0d05"
+   },
+   "ga4-performance": {
+    "drive": "50364",
+    "commit": "0cc08fb"
    },
    "google-ads-performance": {
     "drive": "74572",
     "commit": "a4bf558"
-   },
-   "redmine-harvest": {
-    "drive": "49365",
-    "commit": "6679ea7"
-   },
-   "gtm": {
-    "drive": "49919",
-    "commit": "e386148"
-   },
-   "viaggi-treno-italia": {
-    "drive": "33586",
-    "commit": "8f04766"
    },
    "google-cloud": {
     "drive": "37114",
@@ -544,42 +540,6 @@
     "drive": "39846",
     "commit": "bd4057f"
    },
-   "meta-pixel-capi": {
-    "drive": "43014",
-    "commit": "13915ff"
-   },
-   "prestashop": {
-    "drive": "38575",
-    "commit": "db8eb2f"
-   },
-   "sviluppo-web": {
-    "drive": "44301",
-    "commit": "db8eb2f"
-   },
-   "social-media-manager": {
-    "drive": "36770",
-    "commit": "cc701d4"
-   },
-   "ebay-venditore": {
-    "drive": "39092",
-    "commit": "abb0d05"
-   },
-   "brevo": {
-    "drive": "73425",
-    "commit": "2a6bfbe"
-   },
-   "corsa-allenamento-salute": {
-    "drive": "37711",
-    "commit": "aa09841"
-   },
-   "ga4-performance": {
-    "drive": "50364",
-    "commit": "0cc08fb"
-   },
-   "trustpilot": {
-    "drive": "47010",
-    "commit": "39b9e4b"
-   },
    "google-search-console": {
     "drive": "41004",
     "commit": "0041f95"
@@ -588,29 +548,69 @@
     "drive": "30253",
     "commit": "23dc675"
    },
+   "gtm": {
+    "drive": "49919",
+    "commit": "e386148"
+   },
+   "linkedin-ads": {
+    "drive": "51808",
+    "commit": "bb73d9f"
+   },
    "looker-studio": {
     "drive": "45183",
     "commit": "3102ea1"
    },
-   "cristiano-gallinelli-persona": {
-    "drive": "48635",
-    "commit": "3102ea1"
+   "meta-ads-performance": {
+    "drive": "57616",
+    "commit": "d8fc50e"
+   },
+   "meta-pixel-capi": {
+    "drive": "43014",
+    "commit": "13915ff"
+   },
+   "microsoft-ads": {
+    "drive": "55158",
+    "commit": "8933c60"
+   },
+   "prestashop": {
+    "drive": "38575",
+    "commit": "db8eb2f"
+   },
+   "redmine-harvest": {
+    "drive": "49365",
+    "commit": "6679ea7"
    },
    "seo-tecnica": {
     "drive": "45381",
     "commit": "370c032"
    },
+   "social-media-manager": {
+    "drive": "36770",
+    "commit": "cc701d4"
+   },
    "substack-intelligence": {
     "drive": "17135",
     "commit": "29b96fe"
    },
-   "creditsafe-monitoraggio-credito": {
-    "drive": "19630",
-    "commit": "29b96fe"
+   "sviluppo-web": {
+    "drive": "44301",
+    "commit": "db8eb2f"
    },
-   "consent-mode-privacy": {
-    "drive": "31828",
-    "commit": "f37effc"
+   "trello": {
+    "drive": "81721",
+    "commit": "245c890"
+   },
+   "trustpilot": {
+    "drive": "47010",
+    "commit": "39b9e4b"
+   },
+   "viaggi-treno-italia": {
+    "drive": "33586",
+    "commit": "8f04766"
+   },
+   "wordpress-woocommerce": {
+    "drive": "57183",
+    "commit": "741822e"
    }
   }
  },
@@ -738,7 +738,8 @@
    "dal": "2026-11-06",
    "livello": "minore",
    "voci": [
-    "🟡 06/11: sez. 8: Harvest Teams 11 $ a posto al mese senza impegno annuale"
+    "🟡 06/11: sez. 8: Harvest Teams 11 $ a posto al mese senza impegno annuale",
+    "08/11 🟡 sez. 9: news 164 letta, conferma le patch del 01/11 e aggiunge sessioni/password scadute e politica di patch per il ramo 6.0.x"
    ]
   },
   "wordpress-woocommerce": {
@@ -754,6 +755,13 @@
    "livello": "minore",
    "voci": [
     "07/11 🟡 sez. 8: analisi Pagina LinkedIn, aggiunte le schede Comparse della Pagina, Newsletter ed Employer brand"
+   ]
+  },
+  "meta-ads-performance": {
+   "dal": "2026-11-08",
+   "livello": "minore",
+   "voci": [
+    "08/11 🟡 sez. 0: aggiornamento delle Condizioni Meta del 20/11/2026 sospeso (pagina ufficiale 2481113349080785); restano le condizioni attuali"
    ]
   }
  },
@@ -786,7 +794,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-07",
+  "ultima_lettura": "2026-11-08",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

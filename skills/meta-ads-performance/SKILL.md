@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Meta Ads: regole operative
 
-**Ultima verifica delle fonti: 6 novembre 2026.**
+**Ultima verifica delle fonti: 8 novembre 2026.**
 
 🔄 **Cosa è cambiato (verifica del 20/09/2026), con la data del cambio di Meta, non quella in cui ce ne siamo accorti:**
 
@@ -19,6 +19,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 - **19-21/08/2026:** avviata la rimozione delle esclusioni di posizionamento a livello di gruppo (sez. 2).
 - **06/10/2026 (Advertising Week New York):** video generato dalle immagini statiche in Advantage+ Creative disponibile a tutti; Customer Lifecycle Strategy per le campagne di acquisizione; pubblici descritti a parole in Targeting dettagliato entro fine anno (sez. 5 e 6).
 - 🟡 **15/10/2026 (Brand Building Summit, post ufficiale letto il 16/10/2026):** prodotti per il brand, non per la performance: **Ads Super Burst** (finestra prenotata da 3 a 24 ore con copertura e prezzo stimati in Reach Planner, esclusiva di categoria opzionale; in GA «questo mese» a fasi, senza elenco dei mercati); **First Impression Ads** (prima inserzione del feed Facebook all'apertura, un brand al giorno; test solo USA); **Reels Trending Ads** con 15 argomenti fissi e stagionali, esclusioni di pubblico «entro l'anno»; **Aggregated View Time** (tempo totale con il brand in una settimana, alpha). Nessuna di queste cambia le regole di questa skill; su un pannello italiano si verifica se la voce esiste prima di promettere qualcosa.
+- 🟡 **08/11/2026, condizioni di Meta: l'aggiornamento del 20/11/2026 è sospeso.** Meta aveva annunciato per il 20/11/2026 un aggiornamento delle Condizioni commerciali, delle Condizioni del catalogo prodotti, delle Condizioni per le inserzioni self-service e delle Condizioni dell'IA generativa per le creatività (le condizioni IA sarebbero confluite nelle self-service, quelle del catalogo nelle commerciali; cronaca [Segwise](https://segwise.ai/blog/meta-ads-updates)). La pagina ufficiale ([Centro assistenza 2481113349080785](https://www.facebook.com/business/help/2481113349080785), resa con il browser l'08/11/2026) dice che **gli aggiornamenti sono sospesi e non entreranno in vigore il 20/11/2026**; restano in vigore le condizioni attuali e le pratiche di crawling non cambiano (robots.txt). Niente da fare sugli account: se un pannello chiede di accettare condizioni nuove, prima si guarda la data della pagina.
 
 ---
 
