@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-08",
+  "ultima_lettura": "2026-11-09",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -184,8 +184,8 @@
     "esito": "regola di processo Cowork, non integrata"
    },
    "feedback_tabella_vicinanza_rotazione.md": {
-    "modificato": "2026-09-28",
-    "esito": "regola di processo Cowork, non integrata"
+    "modificato": "2026-11-07",
+    "esito": "09/11: regola di processo globale (rotazione delle chat, pagina di stato), non per le skill del repo"
    },
    "feedback_kappa_no_trello.md": {
     "modificato": "2026-09-28",
@@ -364,8 +364,8 @@
     "esito": "regola di processo (citare le regole nel merito); letta il 13/10/2026 nella cartella di memoria del 12/10, datata maggio-settembre 2026, non integrata"
    },
    "feedback_memoria_pesante_digest_tiered.md": {
-    "modificato": "2026-10-12",
-    "esito": "regola di processo (digest, non archiviazione); letta il 13/10/2026 nella cartella di memoria del 12/10, datata maggio-settembre 2026, non integrata"
+    "modificato": "2026-11-07",
+    "esito": "09/11: regola di processo globale (digest della memoria, note di passaggio), non per le skill del repo"
    },
    "feedback_drive_autosync_local.md": {
     "modificato": "2026-10-12",
@@ -428,8 +428,8 @@
     "esito": "regola di processo (verificare le affermazioni; caso del 17/10: prima di dire che qualcuno non ha risposto si cerca il thread in Gmail), non integrata"
    },
    "feedback_verifica_intera.md": {
-    "modificato": "2026-10-17",
-    "esito": "regola di processo (la verifica copre tutto il perimetro; calendario solo con sovrapposizioni.py), non integrata"
+    "modificato": "2026-11-07",
+    "esito": "09/11: regola di processo globale (verifica su tutto il perimetro, lista Di Cris riverificata), non per le skill del repo"
    },
    "feedback_documenti_serve_a.md": {
     "modificato": "2026-10-30",
@@ -494,7 +494,7 @@
   }
  },
  "drive": {
-  "data": "2026-11-07",
+  "data": "2026-11-08",
   "skills": {
    "brevo": {
     "drive": "73425",
@@ -561,12 +561,12 @@
     "commit": "3102ea1"
    },
    "meta-ads-performance": {
-    "drive": "57616",
-    "commit": "d8fc50e"
+    "drive": "64507",
+    "commit": "281eda5"
    },
    "meta-pixel-capi": {
-    "drive": "43014",
-    "commit": "13915ff"
+    "drive": "43640",
+    "commit": "6ea5ecc"
    },
    "microsoft-ads": {
     "drive": "55158",
@@ -718,7 +718,8 @@
    "voci": [
     "🔴 05/11: sez. 12: etichette per i contenuti creati o modificati con l'IA (pagina 17140115): dichiarazione nel Centro annunci e sovrimpressione visibile sugli annunci per le campagne con target UE, colonna «AI label» nella Libreria asset, etichette automatiche non rimovibili, [DA VERIFICARE] sul pannello",
     "07/11 🟡 sez. 0: pagina API dichiarazione politica UE agg. 30/10: dalla v26 campo facoltativo solo per campagne che non puntano l UE in positivo; per l Italia nulla cambia",
-    "08/11 🔴 sez. 14 nuova: stato «Pubblicazione di annunci con limitazioni» (Limited ad serving): cos è, chi è qualificato, scenario brand poco chiari o annunci generici, come scrivere gli annunci di servizi su piattaforme altrui, ricorso (modulo, campi, 5 giorni lavorativi), opzioni DSA UE, Demand Gen e Performance Max"
+    "08/11 🔴 sez. 14 nuova: stato «Pubblicazione di annunci con limitazioni» (Limited ad serving): cos è, chi è qualificato, scenario brand poco chiari o annunci generici, come scrivere gli annunci di servizi su piattaforme altrui, ricorso (modulo, campi, 5 giorni lavorativi), opzioni DSA UE, Demand Gen e Performance Max",
+    "09/11 🟡 sez. 14: caso di prima mano sul ricorso: ricevuta automatica (niente account nuovi prima della risposta), esito positivo in circa 16 ore, se negativo si risponde alla mail di esito"
    ]
   },
   "microsoft-ads": {
@@ -795,7 +796,7 @@
   "gtm": "2026-10-30"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-08",
+  "ultima_lettura": "2026-11-09",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -904,6 +905,18 @@
     "mittente": "googleads-noreply@google.com",
     "oggetto": "Azione richiesta: crea una passkey oggi stesso e proteggi il tuo account Google Ads",
     "esito": "ripetizione della mail del 26/10 (già in google-ads-performance sez. 13), stesso testo, nulla di nuovo"
+   },
+   "1a1ba9ae52a554e4": {
+    "data": "2026-11-08",
+    "mittente": "ads-support@google.com",
+    "oggetto": "[caso] Ricorso ricevuto per la pubblicazione di annunci con limitazioni",
+    "esito": "google-ads-performance sez. 14 (ricevuta del ricorso, niente account nuovi prima della risposta)"
+   },
+   "1a1be134bcdb922a": {
+    "data": "2026-11-09",
+    "mittente": "ads-support@google.com",
+    "oggetto": "Re: [caso] Risposta alla tua email (ricorso accolto)",
+    "esito": "google-ads-performance sez. 14 (esito positivo in circa 16 ore)"
    }
   }
  },
