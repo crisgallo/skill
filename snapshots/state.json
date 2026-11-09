@@ -623,14 +623,6 @@
     "🟡 09/10: sez. 14: September 2026 spam update completato l'08/10/2026 (14 giorni)"
    ]
   },
-  "ga4-performance": {
-   "dal": "2026-10-10",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 10/10: sez. 0: User Groups Admin API del 05/10/2026 per gestire i gruppi di utenti via API",
-    "07/11 🔴 sez. 7: Data Manager in Google Analytics (beta) dal 06/11/2026, hub unico in Amministrazione per stream, collegamenti e importazioni, mappa delle connessioni con Correggi; non attivare la stessa importazione anche in Google Ads (conversioni doppie)"
-   ]
-  },
   "looker-studio": {
    "dal": "2026-10-14",
    "livello": "minore",
@@ -687,53 +679,11 @@
     "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm"
    ]
   },
-  "trello": {
-   "dal": "2026-11-03",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 03/11: sez. 9: voci del Collettivo solo nei weekend lavorabili, mai feriali né festivi infrasettimanali (SOLO_WEEKEND); appuntamenti letti anche da Google dal 30/10 (regola di Cristiano del 02/11)",
-    "🔴 05/11: sez. 4: checklist in fila per numero dall'alto, numeri mai cambiati, «Email da gestire» e «Appunti» in fondo; trello.py ordina e lista (tua regola del 05/11, feedback_trello_checklist_numerate.md)"
-   ]
-  },
-  "linkedin-ads": {
-   "dal": "2026-11-03",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 03/11: sez. 7: i post dei paesi DMA non sono sponsorizzabili come Thought Leader Ads (pagina a5964111 del 02/11); per i B2B italiani formato da dare per non disponibile, criterio [DA VERIFICARE]",
-    "🟡 04/11: sez. 7: pagina a421723 (Sponsored Messaging) aggiornata il 03/11: inglese solo su profili in inglese, Draft with AI solo in inglese, obiettivi per formato, Flowchart",
-    "🟡 06/11: sez. 7: pagina a426057: pulsante Not Interested, CTA persistente in fondo allo schermo (graduale, non iOS)"
-   ]
-  },
-  "chatgpt-ads-performance": {
-   "dal": "2026-11-04",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 04/11: sez. 2: mail OpenAI Ads del 02/11: credito per gli account Ads Manager aperti entro il 31/12/2026, importo [DA VERIFICARE]; llms-full.txt del 04/11 senza la riga <custom_field>",
-    "🔴 06/11: sez. 4: dal 09/11/2026 Target CPA e Target CPC al posto di Max Bid e Max CPC sulle campagne nuove, i vecchi modelli cessano il 01/01/2027, «Maximize results» diventa «intelligent bidding», controlli su Pixel/CAPI ed EQS (mail OpenAI del 05/11)"
-   ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-11-05",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 05/11: sez. 12: etichette per i contenuti creati o modificati con l'IA (pagina 17140115): dichiarazione nel Centro annunci e sovrimpressione visibile sugli annunci per le campagne con target UE, colonna «AI label» nella Libreria asset, etichette automatiche non rimovibili, [DA VERIFICARE] sul pannello",
-    "07/11 🟡 sez. 0: pagina API dichiarazione politica UE agg. 30/10: dalla v26 campo facoltativo solo per campagne che non puntano l UE in positivo; per l Italia nulla cambia",
-    "08/11 🔴 sez. 14 nuova: stato «Pubblicazione di annunci con limitazioni» (Limited ad serving): cos è, chi è qualificato, scenario brand poco chiari o annunci generici, come scrivere gli annunci di servizi su piattaforme altrui, ricorso (modulo, campi, 5 giorni lavorativi), opzioni DSA UE, Demand Gen e Performance Max",
-    "09/11 🟡 sez. 14: caso di prima mano sul ricorso: ricevuta automatica (niente account nuovi prima della risposta), esito positivo in circa 16 ore, se negativo si risponde alla mail di esito"
-   ]
-  },
   "microsoft-ads": {
    "dal": "2026-11-05",
    "livello": "minore",
    "voci": [
     "🟡 05/11: sez. 2: Clarity del 04/11: Agent Activity, Conversational Analytics, Brand Agents, disponibilità [DA VERIFICARE]"
-   ]
-  },
-  "gtm": {
-   "dal": "2026-11-06",
-   "livello": "sostanziale",
-   "voci": [
-    "🔴 06/11: sez. 7 e 0: immagine del server container 4.5.0 (08/10) e 4.6.0 (29/10) con aggiornamenti di sicurezza: Stape aggiorna da sé, su Cloud Run si ridistribuisce; circa 7 volte più spazio di configurazione [DA VERIFICARE]"
    ]
   },
   "redmine-harvest": {
@@ -742,14 +692,6 @@
    "voci": [
     "🟡 06/11: sez. 8: Harvest Teams 11 $ a posto al mese senza impegno annuale",
     "08/11 🟡 sez. 9: news 164 letta, conferma le patch del 01/11 e aggiunge sessioni/password scadute e politica di patch per il ramo 6.0.x"
-   ]
-  },
-  "wordpress-woocommerce": {
-   "dal": "2026-11-07",
-   "livello": "sostanziale",
-   "voci": [
-    "07/11 🔴 sez. 2: da WooCommerce 11.2 le release di sicurezza richieste delle estensioni del Marketplace si installano da sole sui negozi collegati con abbonamento attivo, anche con gli automatici spenti; release di sicurezza dedicate; PHP 7.4 e 8.0 fino alla 11.5, 11.6 (febbraio 2027) richiede 8.1+; controllo versione dopo ogni patch, staging compresi",
-    "07/11 🟡 sez. 1: PHP 8.3+ dei requisiti è il raccomandato, il minimo tecnico è più basso"
    ]
   },
   "social-media-manager": {
@@ -771,19 +713,19 @@
   "brevo": "2026-11-04",
   "google-search-console": "2026-10-01",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-11-02",
+  "google-ads-performance": "2026-11-09",
   "looker-studio": "2026-09-29",
   "trustpilot": "2026-10-01",
   "google-merchant-center": "2026-10-26",
   "sviluppo-web": "2026-10-22",
   "cristiano-gallinelli-persona": "2026-09-29",
-  "chatgpt-ads-performance": "2026-11-02",
-  "ga4-performance": "2026-10-05",
-  "linkedin-ads": "2026-11-02",
-  "wordpress-woocommerce": "2026-11-05",
+  "chatgpt-ads-performance": "2026-11-09",
+  "ga4-performance": "2026-11-09",
+  "linkedin-ads": "2026-11-09",
+  "wordpress-woocommerce": "2026-11-09",
   "meta-ads-performance": "2026-11-06",
   "meta-pixel-capi": "2026-11-06",
-  "trello": "2026-11-02",
+  "trello": "2026-11-09",
   "grafica-web-design": "2026-09-30",
   "prestashop": "2026-10-22",
   "redmine-harvest": "2026-11-02",
@@ -793,7 +735,7 @@
   "social-media-manager": "2026-10-19",
   "google-cloud": "2026-10-27",
   "viaggi-treno-italia": "2026-10-28",
-  "gtm": "2026-10-30"
+  "gtm": "2026-11-09"
  },
  "newsletter": {
   "ultima_lettura": "2026-11-09",
