@@ -5,7 +5,7 @@ description: "Intelligence e presidio operativo della newsletter Substack «Mate
 
 # Substack Intelligence — monitoraggio e presidio per «Matematica e Marketing»
 
-**Ultima verifica sul campo: 08/09/2026** (montaggio del secondo cross-post). Prima verifica: 28/08/2026.
+**Ultima verifica sul campo: 10/11/2026** (uscita «Google e Meta si rubano le stesse vendite», 09-10/11/2026). Verifiche precedenti: 08/09/2026 (secondo cross-post), 28/08/2026 (prima).
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -114,9 +114,42 @@ niente che non si sia riletto.
 - ⚠️ **La descrizione dell'anteprima social eredita il sottotitolo** e supera i 160 caratteri
   consigliati ogni volta che il sottotitolo è lungo. Non si scrive un testo nuovo: si incolla la
   **meta description già approvata sul blog**, che è la stessa stringa decisa per l'articolo.
+- 🔴 **Ogni campo delle Opzioni SEO ha il suo «Salva», e salvarne uno annulla le modifiche non
+  salvate dell'altro** (uscita del 09-10/11/2026). Si compila e si salva un campo alla volta:
+  prima la descrizione, «Salva», poi l'URL, «Salva», e si rilegge tutto alla fine.
+  **Descrizione SEO**: di serie è il sottotitolo; ci va la **meta description del blog
+  (120-160 caratteri)**. **URL**: di serie è troncato; ci va lo **slug intero del blog**.
+  **Titolo SEO**: il titolo dell'articolo, se sta entro **60 caratteri**.
 - **La copertina si carica dentro «Modifica l'anteprima social»**, non in una sezione separata.
   Il campo consiglia **1200x630** (1,91 a 1). La copertina standard del blog è **1200x670**
   (1,79) ed entra intera: si controlla guardandola, non fidandosi del riquadro.
+
+### «Prosegui»: si apre solo per controllare
+Il pulsante «Prosegui» in alto a destra apre il pannello di invio. Si apre **solo per leggere**:
+**invio email acceso** (ogni articolo parte anche per email), **test del titolo spento**,
+data e ora di programmazione. Si esce con **«Annulla»**. ⚠️ Il pulsante **«Invia a tutti ora»
+pubblica subito**: non si tocca, il click resta di Cris (regola dura qui sopra).
+
+### ⚠️ Il post può uscire vuoto: il caso del 10/11/2026 e il rimedio
+Il post programmato per le 9:00 è uscito alle **9:16 con titolo nullo e corpo vuoto sul web**,
+mentre la bozza era integra; **la mail invece è partita completa** (in Gmail stesso oggetto e
+stessa dimensione della seconda). «Aggiorna ora» non mandava nessuna richiesta e
+`POST /api/v1/drafts/<id>/publish` restava appeso oltre 30 secondi; la pagina di stato di
+Substack non segnalava incidenti. **Causa non trovata.** Da qui tre regole:
+1. **Dopo l'ora programmata si legge subito la pagina pubblica** (titolo, H2, link), senza
+   aspettare la verifica successiva.
+2. **Rimedio usato il 10/11/2026**: nuova bozza con `POST /api/v1/drafts` (campi
+   `draft_title`, `draft_subtitle`, `draft_body`, `draft_bylines` copiati dalla bozza integra),
+   poi `PUT /api/v1/drafts/<nuovo>` con `cover_image` e `search_engine_description`; i tag
+   dall'interfaccia. Il post vuoto si toglie dalla pubblicazione con
+   `POST /api/v1/drafts/<id>/unpublish` (la chiamata resta appesa, ma `is_published` risulta
+   `false`). Lo slug si sposta con `PUT` del campo `slug` **prima sul vecchio** (slug di
+   parcheggio) **e poi sul nuovo**, così l'indirizzo del blog resta quello annunciato.
+3. ⚠️ **Errore da non ripetere: ripubblicando con l'email, gli iscritti hanno ricevuto due
+   mail.** Prima di rimandare una mail si guarda la **copia arrivata in Gmail**
+   (`from:substack.com`, oggetto e dimensione), **non lo stato del post**: il post vuoto sul
+   web non vuol dire mail non partita. Se la mail è arrivata, la ripubblicazione va fatta
+   **solo web**, senza invio.
 
 ### Tag di Substack
 ⚠️ **I tag di Substack non sono i tag di WordPress.** La decisione «zero tag» riguarda i tag di
@@ -137,6 +170,10 @@ Il copia-incolla **manuale** fatto da Cris dal blog funziona: una selezione uten
 comporta diversamente. Quindi la divisione del lavoro è: **io preparo tutto il resto, il corpo
 lo incolla lui.** Dirlo subito, non dopo mezz'ora di tentativi.
 
+- 📌 **Le Fonti hanno sempre il link, anche se la pagina è già linkata nel testo (Cristiano,
+  09/11/2026).** I link nella bozza si inseriscono **selezionando il testo dal DOM, poi `cmd+K`
+  e Invio**: incollare l'URL in chiaro o scrivere il markdown non produce un link.
+
 Si lascia la bozza con **un solo paragrafo bianco**, così l'incolla di Cris parte pulito.
 
 ### Tabelle: mai native, sempre immagine
@@ -155,6 +192,10 @@ centrale. L'immagine si genera una volta e serve per tutte e tre le piattaforme.
    **già** nell'input: un click in più lo chiude e quello che si digita **finisce nell'articolo**.
    Si controlla `document.activeElement` prima di scrivere e si **conferma con Invio**, senza
    cercare un pulsante OK.
+
+3. Il 09-10/11/2026 un alt da **277 caratteri** è entrato; è entrato anche scrivendolo con
+   `form_input` e confermando con **OK**: quando il pulsante c'è si usa, quando non c'è vale
+   l'Invio del punto 2. Si rilegge comunque il campo.
 
 **Riuso:** l'alt della copertina è lo stesso già scritto sull'allegato nella libreria di
 WordPress. Non si inventa un testo nuovo per la stessa immagine.
@@ -178,6 +219,10 @@ Intestazione: banner «Matematica e marketing... e altri problemi irrisolvibili�
 
 **Corollario:** quello che si vede nell'editor non è quello che riceve l'iscritto. Prima di
 giudicare un invio, si guarda anche il preamble.
+
+⚠️ **Altra cosa è la firma dell'autore sotto il titolo (byline).** La sera del 09/11/2026
+c'era; la mattina del 10/11 il post risultava senza, con il pulsante «Aggiungi firma».
+Nella checklist si ricontrolla **il giorno dell'uscita**, non solo la sera prima.
 
 ### ⚠️ Trappola della clipboard (vale per ogni automazione browser)
 `cmd+c` aggiorna la clipboard **solo se prima si è dato il focus a quel tab con un click reale**.
@@ -213,6 +258,14 @@ non a occhio, e si riporta ogni voce con esito.
 9. **Formattazione**: zero `blockquote` spuri (sintomo dell'incolla sporco).
 10. **Link**: contarli e leggerli tutti, verificando che puntino dove dicono.
 11. **Firma**: NON nel corpo. Si verifica in `/publish/settings/preamble`.
+12. **Firma dell'autore (byline) sotto il titolo**: presente **il giorno dell'uscita** (il 10/11/2026
+    era sparita nella notte).
+13. **Opzioni SEO**: descrizione uguale alla meta description del blog, URL uguale allo slug intero,
+    entrambi **salvati** (un campo alla volta).
+14. **Pannello «Prosegui»**: invio email acceso, test del titolo spento, data e ora giuste; si chiude con
+    «Annulla».
+15. **Dopo l'ora programmata**: pagina pubblica letta subito (titolo, H2, link) e copia della mail
+    controllata in Gmail prima di qualunque reinvio.
 
 Se una voce non torna, si dice quale e si propone la correzione. **Non si dichiara mai pronta
 una bozza che non si è verificata voce per voce.**
