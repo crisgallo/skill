@@ -722,13 +722,6 @@
    "voci": [
     "10/11 🔴 sez. 9: tua regola del 09/11: un appuntamento creato dopo non sposta le voci fisse; sopra un viaggio nessuna voce nuova"
    ]
-  },
-  "substack-intelligence": {
-   "dal": "2026-11-10",
-   "livello": "sostanziale",
-   "voci": [
-    "10/11 🔴 M4 (tua richiesta del 10/11 via chat Blog e manutenzione): Opzioni SEO con un Salva per campo (descrizione = meta description, URL = slug intero, titolo entro 60), pannello Prosegui solo per controllare, caso del post uscito vuoto sul web con mail partita e rimedio via API, mai rimandare la mail senza guardare Gmail, pagina pubblica letta subito dopo l ora, firma dell autore ricontrollata il giorno dell uscita, Fonti sempre con il link (tua regola del 09/11), alt da 277 caratteri; checklist voci 12-15"
-   ]
   }
  },
  "ultima_mail": {
@@ -757,7 +750,8 @@
   "social-media-manager": "2026-10-19",
   "google-cloud": "2026-10-27",
   "viaggi-treno-italia": "2026-10-28",
-  "gtm": "2026-11-09"
+  "gtm": "2026-11-09",
+  "substack-intelligence": "2026-11-10"
  },
  "newsletter": {
   "ultima_lettura": "2026-11-10",
