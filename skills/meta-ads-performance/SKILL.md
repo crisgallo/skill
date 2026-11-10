@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Meta Ads: regole operative
 
-**Ultima verifica delle fonti: 8 novembre 2026.**
+**Ultima verifica delle fonti: 10 novembre 2026.**
 
 🔄 **Cosa è cambiato (verifica del 20/09/2026), con la data del cambio di Meta, non quella in cui ce ne siamo accorti:**
 
@@ -127,6 +127,8 @@ Sulle inserzioni viste in Europa Meta addebita un sovrapprezzo per Paese **fuori
 ---
 
 ## 5. Pubblici
+
+- 🔴 **Marketing API v27.0 (dal 04/11/2026, [changelog v27.0](https://developers.facebook.com/documentation/ads-commerce/marketing-api/marketing-api-changelog/version27.0), letto con un agente il 10/11/2026): tre default nuovi che si vedono anche dal pannello.** 1) **«Raggiungi più persone su altri dispositivi mobili» acceso di default** sui gruppi di inserzioni nuovi delle campagne **Vendite** che non usano il luogo della conversione App e hanno un targeting per dispositivo o sistema operativo (`targeting_automation.individual_setting.device` salvato a 1 se non lo si imposta; non per le categorie speciali; i gruppi esistenti non cambiano): chi vuole restare sui dispositivi scelti lo spegne ogni volta, su v27 da subito e su tutte le versioni circa 90 giorni dopo (data da confermare). 2) **Product showcase acceso da solo** quando Meta ha «alta confidenza» che un set di prodotti del catalogo corrisponda all'inserzione (per esempio un set collezione che corrisponde all'URL della collezione); non sceglie mai «Tutti i prodotti»; si esce con `product_extensions.enroll_status = OPT_OUT`. 3) **Lookalike senza paese o località**: `lookalike_spec.country` e `location_spec` vengono rifiutati su v27 e dopo circa 90 giorni ovunque; le Lookalike esistenti restano. In più: `meta_moment_maker_spec` deprecato a favore di `product_type` `ADS_BURST` / `ADS_SUPER_BURST` su reach and frequency; sui moduli dei Lead Ads il campo `phone_otp_verification_type` (`NOT_ENABLED`, `OTP_REQUIRED`, `OTP_OPTIONAL`); Catalog Batch API `/{catalog-id}/batch` deprecata a favore di `items_batch`. Nessuna modifica alla Conversions API in v27. Per chi monta a mano: dopo ogni gruppo nuovo si rilegge la scheda Posizionamenti e dispositivi e la scheda creatività prima di pubblicare (sez. 7).
 
 - **Due soglie, non una.** Corretto il 20/09/2026: prima qui c'era "circa 1000 persone, sotto non è pubblicabile e non genera lookalike", ed era impreciso. **Minimo tecnico per creare un lookalike: 100 persone dello stesso Paese** nella fonte; 1.000-5.000 è la raccomandazione di qualità. **Minimo pratico per la consegna: ~1000**: sotto, Meta mostra l'avviso "pubblico troppo piccolo" e rallenta o limita la consegna, non blocca la pubblicazione. Un lookalike "non disponibile" quasi sempre significa **fonte troppo magra**, non un errore. Fonti: [jonloomer](https://www.jonloomer.com/meta-ads-lookalike-audiences/) · [adnabu](https://blog.adnabu.com/facebook/facebook-lookalike-audiences/) · [tribeupacademy](https://tribeupacademy.com/meta-ads-retargeting-audience-too-small/); pagina ufficiale [1523083297982009](https://www.facebook.com/business/help/1523083297982009) non leggibile via fetch il 20/09/2026.
 - Le fonti **non sono equivalenti**: su un profilo con poco traffico web, le **interazioni con il profilo Instagram a 365 giorni** possono valere decine di migliaia di persone mentre i visitatori del sito a 180 giorni restano sotto mille. **Guardare i numeri prima di decidere su cosa poggiare il retargeting.**

@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 10/11/2026
+- 🔴 Sez. 9: regola di Cristiano del 09/11/2026: un appuntamento creato dopo non sposta le voci fisse (restano sotto, avviso una volta per coppia); sopra un viaggio nessuna voce nuova.
+
 ## 05/11/2026
 - 🔴 Sez. 4: regola di Cristiano del 05/11 (`feedback_trello_checklist_numerate.md`, via chat di manutenzione): le checklist stanno in fila per numero dall'alto, i numeri non si cambiano, «Email da gestire» e «Appunti» in fondo; `trello.py ordina` e `trello.py lista` al posto giusto.
 ## 03/11/2026

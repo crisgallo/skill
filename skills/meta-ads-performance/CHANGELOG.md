@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 10/11/2026
+- 🔴 Sez. 5: Marketing API v27.0 del 04/11/2026: «Raggiungi più persone su altri dispositivi mobili» acceso di default sui gruppi nuovi delle campagne Vendite, Product showcase acceso da solo con alta confidenza, Lookalike senza paese o località, moment maker deprecato, OTP sui Lead Ads, Catalog Batch API deprecata; nessuna modifica CAPI. Data in cima al 10/11/2026.
+
 ## 08/11/2026
 - 🟡 Sez. 0: l'aggiornamento delle Condizioni commerciali, catalogo, inserzioni self-service e IA generativa previsto per il 20/11/2026 è sospeso (pagina ufficiale 2481113349080785, resa l'08/11); restano le condizioni attuali. Data in cima all'08/11/2026.
 

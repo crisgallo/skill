@@ -1,5 +1,8 @@
 # Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 10/11/2026
+- 🟡 Sez. 9: release note del 09/11/2026: le visualizzazioni di pagina su modifica cronologia si registrano anche al ripristino dalla back/forward cache. Data in cima al 10/11/2026.
+
 ## 06/11/2026
 - 🔴 Sez. 7 e 0: immagine del server container 4.5.0 (08/10/2026) e 4.6.0 (29/10/2026) con aggiornamenti di sicurezza, dove si legge la versione, Stape aggiorna da sé e su Cloud Run si ridistribuisce; circa 7 volte più spazio di configurazione (Stape, 15/10) [DA VERIFICARE]; pagina delle release notes del server aggiunta alle fonti da guardare.
 ## 30/10/2026

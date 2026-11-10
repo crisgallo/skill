@@ -1,5 +1,8 @@
 # Changelog prestashop
 
+## 10/11/2026
+- 🔴 Sez. 1: release di sicurezza PrestaShop 9.2.1 e 8.2.9 del 09/11/2026 (18 e 15 falle, in gran parte High, diverse senza account: installer, codici sconto, ordini doppi, reset password; chiavi webservice in multinegozio; SVG e import dal back office; Admin API solo su 9); moduli ps_emailsubscription 3.0.1 e GDPR; cosa fare oggi. Tabella versioni aggiornata; data in cima al 10/11/2026.
+
 ## 05/11/2026
 - 🟡 Sez. 1: Core Monthly di ottobre 2026 (03/11): consolidamento 9.2, Admin API con scope obbligatorio, 170 PR; nessuna release nuova.
 ## 24/10/2026
