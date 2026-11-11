@@ -218,6 +218,15 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 - Usare un feed Merchant Center che espone prezzi diversi da quelli della pagina per il gruppo "Visitatore".
 - Comprare un modulo Addons senza leggere la compatibilità con la major di destinazione e il numero di negozi coperti.
 - Fidarsi di un canonical o di un hreflang "perché il tema lo fa": si legge il sorgente.
+- Importare da CSV un campo solo (per esempio gli accessori) su prodotti esistenti senza aver provato su un prodotto e ricontrollato categorie, categoria principale e numero dei prodotti (sez. 17).
+
+---
+
+## 17. Import CSV dei prodotti: gli accessori non si aggiornano in sicurezza (verificato sul back office di un negozio 8.0.4 il 10/11/2026)
+
+- 🔴 **Caso reale.** Import da Parametri avanzati > Importa > Prodotti di un CSV con le sole colonne **ID** e **«Accessori (x,y,z...)»** per aggiornare gli accessori di prodotti esistenti. Con **«Forza tutti gli ID» = No** l'ID del file viene ignorato e nasce **un prodotto nuovo, vuoto e attivo**, in Home, con il link `friendly-url-autogeneration-failed`. Con **«Forza tutti gli ID» = Sì** gli accessori finiscono nel prodotto giusto, ma **le categorie si riducono a una sola e cambia la categoria principale**, e con lei l'URL canonico (sez. 4); prezzo, quantità, stato e link restano.
+- **Come si fa invece.** Gli accessori si salvano dalla **scheda prodotto del back office** (pagina legacy di PrestaShop 8, campo `form[step1][related_products][data][]`), anche con uno script che passa prodotto per prodotto. Prima e dopo il salvataggio si confrontano **tutti i campi della scheda**, non solo gli accessori. Poi Parametri avanzati > Prestazioni > **«Pulisci la cache»**, altrimenti le schede mostrano ancora gli accessori vecchi.
+- **Regola per ogni import su prodotti esistenti:** prova su un prodotto solo e controllo, oltre al campo importato, di **categorie, categoria principale e numero totale dei prodotti** nel catalogo. Un import che «è andato bene» sul campo giusto può aver creato un prodotto fantasma o spostato la categoria principale.
 
 ---
 

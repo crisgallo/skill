@@ -731,6 +731,13 @@
    "voci": [
     "11/11 🔴 sez. 9: documentazione del Pixel (11/11): view-through con finestra fissa di 1 giorno, metrica separata a livello di campagna, non incluse in Conversions (al contrario della nota del 16/09); vale la documentazione, pannello [DA VERIFICARE]; consenso del Pixel e sorgenti CSP"
    ]
+  },
+  "prestashop": {
+   "dal": "2026-11-11",
+   "livello": "sostanziale",
+   "voci": [
+    "11/11 🔴 sez. 17 nuova: l'import CSV dei prodotti con sole colonne ID e Accessori non aggiorna in sicurezza (prodotto vuoto con Forza ID = No, categorie ridotte a una e canonical cambiato con Forza ID = Sì); accessori dalla scheda prodotto, confronto dei campi, Pulisci la cache, prova su un prodotto con controllo di categorie e numero prodotti"
+   ]
   }
  },
  "ultima_mail": {
