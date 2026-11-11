@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 11/11/2026
+- 🔴 Sez. 10: regola di Cristiano del 10/11/2026: commento sulla card a ogni lavoro chiuso, card riletta dopo ogni compattazione (voci aperte e commenti degli ultimi 7 giorni, vale la card), rotazione dalla quinta compattazione annunciata dalla chat.
+
 ## 10/11/2026
 - 🔴 Sez. 9: regola di Cristiano del 09/11/2026: un appuntamento creato dopo non sposta le voci fisse (restano sotto, avviso una volta per coppia); sopra un viaggio nessuna voce nuova.
 

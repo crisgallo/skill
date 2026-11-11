@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-10",
+  "ultima_lettura": "2026-11-11",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -44,8 +44,8 @@
     "esito": "regola Trello del progetto NEM, non integrata"
    },
    "feedback_card_apertura_e_rotazione.md": {
-    "modificato": "2026-09-28",
-    "esito": "regola Trello, non integrata (ritocco del 28/09)"
+    "modificato": "2026-11-10",
+    "esito": "11/11: versione del 10/11 (pagina di stato aggiornata a ogni lavoro chiuso, soglia 70% abolita): integrata in trello sez. 10"
    },
    "feedback_mai_la_parola_agenzia.md": {
     "modificato": "2026-09-23",
@@ -180,8 +180,8 @@
     "esito": "regola di processo Cowork, non integrata"
    },
    "feedback_chat_rotation_signals.md": {
-    "modificato": "2026-09-28",
-    "esito": "regola di processo Cowork, non integrata"
+    "modificato": "2026-11-10",
+    "esito": "11/11: versione del 10/11 (rotazione dalla quinta compattazione, commento sulla card a ogni lavoro chiuso, card riletta dopo ogni compattazione): la parte Trello integrata in trello sez. 10, il resto è processo"
    },
    "feedback_tabella_vicinanza_rotazione.md": {
     "modificato": "2026-11-07",
@@ -502,67 +502,55 @@
   }
  },
  "drive": {
-  "data": "2026-11-09",
+  "data": "2026-11-10",
   "skills": {
-   "brevo": {
-    "drive": "73425",
-    "commit": "2a6bfbe"
+   "substack-intelligence": {
+    "drive": "21154",
+    "commit": "1000cb6"
+   },
+   "prestashop": {
+    "drive": "42771",
+    "commit": "d387661"
+   },
+   "trello": {
+    "drive": "83635",
+    "commit": "0cba487"
+   },
+   "linkedin-ads": {
+    "drive": "53434",
+    "commit": "6ea5ecc"
    },
    "chatgpt-ads-performance": {
-    "drive": "54219",
-    "commit": "245c890"
+    "drive": "55877",
+    "commit": "6ea5ecc"
    },
-   "consent-mode-privacy": {
-    "drive": "31828",
-    "commit": "f37effc"
-   },
-   "corsa-allenamento-salute": {
-    "drive": "37711",
-    "commit": "aa09841"
-   },
-   "creditsafe-monitoraggio-credito": {
-    "drive": "19630",
-    "commit": "29b96fe"
-   },
-   "cristiano-gallinelli-persona": {
-    "drive": "48635",
-    "commit": "3102ea1"
-   },
-   "ebay-venditore": {
-    "drive": "39092",
-    "commit": "abb0d05"
+   "gtm": {
+    "drive": "51055",
+    "commit": "6ea5ecc"
    },
    "ga4-performance": {
-    "drive": "50364",
-    "commit": "0cc08fb"
+    "drive": "52411",
+    "commit": "fc5a58d"
+   },
+   "wordpress-woocommerce": {
+    "drive": "59536",
+    "commit": "fc5a58d"
    },
    "google-ads-performance": {
-    "drive": "74572",
-    "commit": "a4bf558"
-   },
-   "google-cloud": {
-    "drive": "37114",
-    "commit": "44c87a6"
-   },
-   "google-merchant-center": {
-    "drive": "39846",
-    "commit": "bd4057f"
-   },
-   "google-search-console": {
-    "drive": "41004",
-    "commit": "0041f95"
+    "drive": "86554",
+    "commit": "b103e93"
    },
    "grafica-web-design": {
     "drive": "30253",
     "commit": "23dc675"
    },
-   "gtm": {
-    "drive": "49919",
-    "commit": "e386148"
+   "google-merchant-center": {
+    "drive": "39846",
+    "commit": "bd4057f"
    },
-   "linkedin-ads": {
-    "drive": "51808",
-    "commit": "bb73d9f"
+   "google-cloud": {
+    "drive": "37114",
+    "commit": "44c87a6"
    },
    "looker-studio": {
     "drive": "45183",
@@ -572,53 +560,65 @@
     "drive": "64507",
     "commit": "281eda5"
    },
-   "meta-pixel-capi": {
-    "drive": "43640",
-    "commit": "6ea5ecc"
+   "social-media-manager": {
+    "drive": "36770",
+    "commit": "cc701d4"
    },
-   "microsoft-ads": {
-    "drive": "55158",
-    "commit": "8933c60"
-   },
-   "prestashop": {
-    "drive": "38575",
-    "commit": "db8eb2f"
+   "cristiano-gallinelli-persona": {
+    "drive": "48635",
+    "commit": "3102ea1"
    },
    "redmine-harvest": {
     "drive": "49365",
     "commit": "6679ea7"
    },
-   "seo-tecnica": {
-    "drive": "45381",
-    "commit": "370c032"
-   },
-   "social-media-manager": {
-    "drive": "36770",
-    "commit": "cc701d4"
-   },
-   "substack-intelligence": {
-    "drive": "17135",
-    "commit": "29b96fe"
-   },
    "sviluppo-web": {
     "drive": "44301",
     "commit": "db8eb2f"
-   },
-   "trello": {
-    "drive": "81721",
-    "commit": "245c890"
-   },
-   "trustpilot": {
-    "drive": "47010",
-    "commit": "39b9e4b"
    },
    "viaggi-treno-italia": {
     "drive": "33586",
     "commit": "8f04766"
    },
-   "wordpress-woocommerce": {
-    "drive": "57183",
-    "commit": "741822e"
+   "consent-mode-privacy": {
+    "drive": "31828",
+    "commit": "f37effc"
+   },
+   "seo-tecnica": {
+    "drive": "45381",
+    "commit": "370c032"
+   },
+   "google-search-console": {
+    "drive": "41004",
+    "commit": "0041f95"
+   },
+   "ebay-venditore": {
+    "drive": "39092",
+    "commit": "abb0d05"
+   },
+   "trustpilot": {
+    "drive": "47010",
+    "commit": "39b9e4b"
+   },
+   "meta-pixel-capi": {
+    "drive": "43640",
+    "commit": "6ea5ecc"
+   },
+   "corsa-allenamento-salute": {
+    "drive": "37711",
+    "commit": "aa09841"
+   },
+   "creditsafe-monitoraggio-credito": {
+    "drive": "19630",
+    "commit": "29b96fe"
+   },
+   "brevo": {
+    "drive": "73425",
+    "commit": "2a6bfbe"
+   },
+   "microsoft-ads": {
+    "drive": "55158",
+    "commit": "8933c60"
    }
   }
  },
@@ -720,7 +720,15 @@
    "dal": "2026-11-10",
    "livello": "sostanziale",
    "voci": [
-    "10/11 🔴 sez. 9: tua regola del 09/11: un appuntamento creato dopo non sposta le voci fisse; sopra un viaggio nessuna voce nuova"
+    "10/11 🔴 sez. 9: tua regola del 09/11: un appuntamento creato dopo non sposta le voci fisse; sopra un viaggio nessuna voce nuova",
+    "11/11 🔴 sez. 10: tua regola del 10/11: commento sulla card a ogni lavoro chiuso, card riletta dopo ogni compattazione (ultimi 7 giorni, vale la card), chat girata dalla quinta compattazione e lo dice lei"
+   ]
+  },
+  "chatgpt-ads-performance": {
+   "dal": "2026-11-11",
+   "livello": "sostanziale",
+   "voci": [
+    "11/11 🔴 sez. 9: documentazione del Pixel (11/11): view-through con finestra fissa di 1 giorno, metrica separata a livello di campagna, non incluse in Conversions (al contrario della nota del 16/09); vale la documentazione, pannello [DA VERIFICARE]; consenso del Pixel e sorgenti CSP"
    ]
   }
  },
@@ -754,7 +762,7 @@
   "substack-intelligence": "2026-11-10"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-10",
+  "ultima_lettura": "2026-11-11",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

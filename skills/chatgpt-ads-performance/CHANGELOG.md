@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 11/11/2026
+- 🔴 Sez. 9: la documentazione del Measurement Pixel (11/11) dice che le view-through hanno finestra fissa di un giorno, sono una metrica separata a livello di campagna e non entrano in Conversions, al contrario della nota del 16/09; vale la documentazione, pannello [DA VERIFICARE]. Aggiunti consenso del Pixel e sorgenti CSP. Data in cima all'11/11/2026.
+
 ## 06/11/2026
 - 🔴 Sez. 4: dal 09/11/2026 Target CPA (conversioni) e Target CPC (clic) al posto di Max Bid e Max CPC sulle campagne nuove; i due vecchi modelli cessano il 01/01/2027; «Maximize results» diventa «intelligent bidding»; controlli su Pixel/CAPI ed EQS prima del passaggio (mail OpenAI del 05/11).
 ## 04/11/2026
