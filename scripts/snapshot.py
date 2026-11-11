@@ -39,6 +39,14 @@ def urls_per_skill():
             u=u.rstrip(".,;:*_")
             if u.endswith(")"): u=u[:-1]
             m.setdefault(u,set()).add(name)
+    # URL extra non citati nelle skill (segnali di terzi, blog): una riga per URL, poi spazio e nome della skill
+    extra=os.path.join(os.path.dirname(SKILLS),"snapshots","fonti_extra.txt")
+    if os.path.isfile(extra):
+        for line in open(extra,encoding="utf-8"):
+            line=line.strip()
+            if not line or line.startswith("#"): continue
+            parts=line.split()
+            m.setdefault(parts[0],set()).add(parts[1] if len(parts)>1 else "segnali")
     return m
 
 BREVO_RE=re.compile(r"https://help\.brevo\.com/hc/[a-z-]+/articles/(\d+)")

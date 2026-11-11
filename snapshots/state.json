@@ -707,7 +707,8 @@
    "voci": [
     "08/11 🟡 sez. 0: aggiornamento delle Condizioni Meta del 20/11/2026 sospeso (pagina ufficiale 2481113349080785); restano le condizioni attuali",
     "10/11 🔴 sez. 5: Marketing API v27.0 (04/11): «Raggiungi più persone su altri dispositivi mobili» acceso di default sui gruppi nuovi delle campagne Vendite, Product showcase acceso da solo con alta confidenza, Lookalike senza paese o località, moment maker deprecato, OTP sui Lead Ads, Catalog Batch API deprecata; nessuna modifica CAPI",
-    "11/11 🟡 sez. 1: come Meta sceglie le inserzioni nel 2026 (post ufficiali di ingegneria su GEM, GenRecs Tokenization e Andromeda, ottobre 2026): niente da impostare nel pannello, confermano pubblici larghi e consolidamento"
+    "11/11 🟡 sez. 1: come Meta sceglie le inserzioni nel 2026 (post ufficiali di ingegneria su GEM, GenRecs Tokenization e Andromeda, ottobre 2026): niente da impostare nel pannello, confermano pubblici larghi e consolidamento",
+    "11/11 🟡 sez. 5: un pubblico per ogni creatività nello stesso gruppo (creative audience pairing), campo API documentato, pannello [DA VERIFICARE]"
    ]
   },
   "gtm": {
@@ -729,7 +730,8 @@
    "dal": "2026-11-11",
    "livello": "sostanziale",
    "voci": [
-    "11/11 🔴 sez. 9: documentazione del Pixel (11/11): view-through con finestra fissa di 1 giorno, metrica separata a livello di campagna, non incluse in Conversions (al contrario della nota del 16/09); vale la documentazione, pannello [DA VERIFICARE]; consenso del Pixel e sorgenti CSP"
+    "11/11 🔴 sez. 9: documentazione del Pixel (11/11): view-through con finestra fissa di 1 giorno, metrica separata a livello di campagna, non incluse in Conversions (al contrario della nota del 16/09); vale la documentazione, pannello [DA VERIFICARE]; consenso del Pixel e sorgenti CSP",
+    "11/11 🔴 sez. 8: sessione di test del Pixel in Ads Manager (Conversions > Data Source > Test, etichetta Test per 30 minuti, gli eventi di test contano)"
    ]
   },
   "prestashop": {
@@ -737,6 +739,23 @@
    "livello": "sostanziale",
    "voci": [
     "11/11 🔴 sez. 17 nuova: l'import CSV dei prodotti con sole colonne ID e Accessori non aggiorna in sicurezza (prodotto vuoto con Forza ID = No, categorie ridotte a una e canonical cambiato con Forza ID = Sì); accessori dalla scheda prodotto, confronto dei campi, Pulisci la cache, prova su un prodotto con controllo di categorie e numero prodotti"
+   ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-11-11",
+   "livello": "sostanziale",
+   "voci": [
+    "11/11 🔴 sez. 2: esplorazione Smart Bidding (tolleranza ROAS; tutte le PMax senza feed, beta Shopping e PMax con feed) e modalità promozione; obiettivi del ciclo di vita del cliente (valore nuovo cliente, alto valore, solo nuovi clienti anche con CPA target, re-engagement solo PMax, fedeltà, nuovi potenziali clienti; moltiplicatori della stampa [DA VERIFICARE])",
+    "11/11 🔴 sez. 4: risposte qualificanti nei moduli per i lead, solo Search, azione «Lead form - Response qualified (Google-hosted)», domanda obbligatoria",
+    "11/11 🟡 sez. 1: inserzioni in AI Mode in 10 nuovi paesi dal 28/10/2026, Italia esclusa, multiturn negli USA",
+    "11/11 🟡 sez. 4: Attributed branded searches (ABS), pagina Accelerate"
+   ]
+  },
+  "linkedin-ads": {
+   "dal": "2026-11-11",
+   "livello": "minore",
+   "voci": [
+    "11/11 🟡 sez. 15: CTV Ads via Display & Video 360 dal 22/10/2026, disponibilità italiana [DA VERIFICARE]"
    ]
   }
  },
@@ -909,6 +928,12 @@
     "mittente": "selvaggialucarelli@substack.com",
     "oggetto": "L'inchiesta su Diaco",
     "esito": "saltata: fuori perimetro"
+   },
+   "1a1cae8f030ffb6c": {
+    "data": "2026-11-11",
+    "mittente": "info@adworldexperience.it",
+    "oggetto": "Ci risiamo + le ultime top PPC news",
+    "esito": "segnale: google-ads-performance, meta-ads-performance, linkedin-ads, chatgpt-ads-performance; fonti ufficiali trovate per 7 voci su 20 (News-Parade 23-30/10 e 1-6/11); 5 già in skill; 6 non confermate; 2 fuori perimetro"
    }
   }
  },

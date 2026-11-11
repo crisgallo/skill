@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 11/11/2026
+- 🔴 Sez. 2: esplorazione Smart Bidding (tolleranza ROAS, estesa a tutte le PMax senza feed, beta su Shopping e PMax con feed) e modalità promozione; obiettivi del ciclo di vita del cliente (valore nuovo cliente, alto valore, solo nuovi clienti anche con CPA target, re-engagement solo PMax, membri fedeltà, modalità nuovi potenziali clienti; moltiplicatori percentuali della stampa [DA VERIFICARE]). 🔴 Sez. 4: risposte qualificanti nei moduli per i lead (solo Search, azione «Lead form - Response qualified», domanda obbligatoria). 🟡 Sez. 1: inserzioni in AI Mode in 10 nuovi paesi dal 28/10, Italia esclusa, multiturn negli USA. 🟡 Sez. 4: Attributed branded searches, pagina Accelerate. Segnali dalle News-Parade di ADworld Experience (regola B4-bis), fonti solo ufficiali. Data in cima all'11/11/2026.
+
 ## 09/11/2026
 - 🟡 Sez. 14: caso di prima mano sul ricorso per la Pubblicazione di annunci con limitazioni: ricevuta automatica (niente account nuovi prima della risposta), esito positivo in circa 16 ore, mail di esito a cui rispondere se negativo. Data in cima al 09/11/2026.
 

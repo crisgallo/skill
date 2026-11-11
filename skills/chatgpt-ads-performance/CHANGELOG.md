@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 11/11/2026 (sera)
+- 🔴 Sez. 8: sessione di test del Pixel in Ads Manager (Conversions > Data Source > Test; etichetta Test nell'Event Stream per 30 minuti, stessa origine, campionamento, gli eventi di test contano), dalla nuova sezione dei docs ufficiali comparsa fra il 04 e l'11/11/2026.
+
 ## 11/11/2026
 - 🔴 Sez. 9: la documentazione del Measurement Pixel (11/11) dice che le view-through hanno finestra fissa di un giorno, sono una metrica separata a livello di campagna e non entrano in Conversions, al contrario della nota del 16/09; vale la documentazione, pannello [DA VERIFICARE]. Aggiunti consenso del Pixel e sorgenti CSP. Data in cima all'11/11/2026.
 

@@ -1,0 +1,4 @@
+# URL monitorati da snapshot.py oltre a quelli citati nelle skill: <url> <skill o etichetta>
+# ADworld Experience, riassunti settimanali Top 10 PPC News-Parade (aggiunto l'11/11/2026 su richiesta di Cristiano)
+https://www.adworldexperience.it/category/google-ads/ google-ads-performance
+https://www.adworldexperience.it/category/facebook-ads/ meta-ads-performance

@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 11/11/2026
+- 🟡 Sez. 15: CTV Ads acquistabili anche via Display & Video 360 dal 22/10/2026 (pressroom), disponibilità per account italiani [DA VERIFICARE]. Segnale dalle News-Parade di ADworld Experience; fonti aggiunte; data in cima all'11/11/2026.
+
 ## 06/11/2026
 - 🟡 Sez. 7: pagina a426057 aggiornata il 05/11: effetto del pulsante Not Interested, CTA persistente in fondo allo schermo (graduale, non su iOS).
 ## 04/11/2026
