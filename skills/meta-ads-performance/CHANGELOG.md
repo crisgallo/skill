@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 11/11/2026
+- 🟡 Sez. 1: nuova sottosezione sui post ufficiali Engineering at Meta su GEM (13/10), GenRecs Tokenization (19/10) e Andromeda (28/10/2026): modello centrale unico, token semantici al posto degli ID, recupero a oltre un miliardo di inserzioni al secondo; niente da impostare nel pannello, confermano pubblici larghi e consolidamento; dichiarazioni su targeting e avvio delle creatività citate come stampa (AdExchanger). Segnale dalla newsletter dataMesh (prima applicazione della regola B4-bis). Fonti aggiunte; data in cima all'11/11/2026.
+
 ## 10/11/2026
 - 🔴 Sez. 5: Marketing API v27.0 del 04/11/2026: «Raggiungi più persone su altri dispositivi mobili» acceso di default sui gruppi nuovi delle campagne Vendite, Product showcase acceso da solo con alta confidenza, Lookalike senza paese o località, moment maker deprecato, OTP sui Lead Ads, Catalog Batch API deprecata; nessuna modifica CAPI. Data in cima al 10/11/2026.
 

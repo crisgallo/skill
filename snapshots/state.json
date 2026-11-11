@@ -706,7 +706,8 @@
    "livello": "sostanziale",
    "voci": [
     "08/11 🟡 sez. 0: aggiornamento delle Condizioni Meta del 20/11/2026 sospeso (pagina ufficiale 2481113349080785); restano le condizioni attuali",
-    "10/11 🔴 sez. 5: Marketing API v27.0 (04/11): «Raggiungi più persone su altri dispositivi mobili» acceso di default sui gruppi nuovi delle campagne Vendite, Product showcase acceso da solo con alta confidenza, Lookalike senza paese o località, moment maker deprecato, OTP sui Lead Ads, Catalog Batch API deprecata; nessuna modifica CAPI"
+    "10/11 🔴 sez. 5: Marketing API v27.0 (04/11): «Raggiungi più persone su altri dispositivi mobili» acceso di default sui gruppi nuovi delle campagne Vendite, Product showcase acceso da solo con alta confidenza, Lookalike senza paese o località, moment maker deprecato, OTP sui Lead Ads, Catalog Batch API deprecata; nessuna modifica CAPI",
+    "11/11 🟡 sez. 1: come Meta sceglie le inserzioni nel 2026 (post ufficiali di ingegneria su GEM, GenRecs Tokenization e Andromeda, ottobre 2026): niente da impostare nel pannello, confermano pubblici larghi e consolidamento"
    ]
   },
   "gtm": {
@@ -883,6 +884,24 @@
     "mittente": "ads-support@google.com",
     "oggetto": "Re: [caso] Risposta alla tua email (ricorso accolto)",
     "esito": "google-ads-performance sez. 14 (esito positivo in circa 16 ore)"
+   },
+   "1a1c9248e86500c3": {
+    "data": "2026-11-11",
+    "mittente": "filippotrocca@substack.com",
+    "oggetto": "Meta cambia come sceglie gli annunci e come conta le vendite",
+    "esito": "segnale: meta-ads-performance, fonte ufficiale trovata (tre post Engineering at Meta di ottobre 2026); misurazione sul dispositivo già in meta-pixel-capi sez. 5"
+   },
+   "1a1c936bd3340ad3": {
+    "data": "2026-11-11",
+    "mittente": "giorgiotaverniti@substack.com",
+    "oggetto": "AI Effect: Aranzulla -72% di utili, Google Search solo +12% di ricavi",
+    "esito": "saltata: cronaca finanziaria, nessuna novità di piattaforma"
+   },
+   "1a1c96fee11d8061": {
+    "data": "2026-11-11",
+    "mittente": "selvaggialucarelli@substack.com",
+    "oggetto": "L'inchiesta su Diaco",
+    "esito": "saltata: fuori perimetro"
    }
   }
  },
