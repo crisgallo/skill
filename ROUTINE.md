@@ -55,6 +55,13 @@ Tre fonti, in quest'ordine. Tutte hanno la precedenza su qualsiasi fonte web: so
   - Registro in `snapshots/state.json` sotto `newsletter`: `ultima_lettura` e `viste` con, per ogni mail letta, id Gmail, data, mittente, oggetto ed esito (quali skill, o «niente da integrare»). Una mail già in `viste` non si rilegge.
   - ⚠️ Mai rispondere, inoltrare, etichettare, archiviare o cancellare queste mail: si leggono soltanto.
 
+**B4-bis. Newsletter di terzi come segnale, non come fonte** (aggiunto l'11/11/2026 su richiesta di Cristiano). Nella stessa ricerca di B4 passano anche le newsletter di terzi che Cristiano riceve su Substack e simili (per esempio Taverniti, Trocca, Merenda, dataMesh): fino all'11/11 si ignoravano. Da oggi si leggono come **segnale per andare a cercare la fonte ufficiale**.
+  - Si leggono per intero solo quelle il cui oggetto o anteprima tocca una piattaforma coperta da una skill (Google Ads, GA4, Meta, LinkedIn, Microsoft, OpenAI, Brevo, WordPress, PrestaShop, Trello, Redmine, Trustpilot, Substack stesso). Le altre (opinione, cronaca, podcast) si saltano senza leggerle.
+  - Per ogni novità citata si cerca la **pagina ufficiale** (centro assistenza, release notes, changelog, post ufficiale). Solo quella entra nella skill, con la regola fissa 7 per il livello. La newsletter di terzi si cita al massimo come cronaca, mai come fonte di un numero.
+  - Se la fonte ufficiale non esiste o non è leggibile, la novità **non entra** nella skill: si annota nel report come «segnale non confermato» e si ricontrolla nei giri successivi.
+  - Registro come per B4, in `newsletter.viste`, con esito «segnale: <skill>, fonte ufficiale trovata/non trovata» oppure «saltata: fuori perimetro». La ricerca Gmail resta quella di B4: i mittenti Substack non si escludono più con `-from:no-reply@substack.com`, tranne i codici di accesso e i commenti (`forum@mg1.substack.com`, `reaction@mg1.substack.com`).
+  - ⚠️ Valgono gli stessi divieti di B4: mai rispondere, inoltrare, etichettare, archiviare o cancellare.
+
 ### C. Verifica delle fonti, una skill per volta
 Per ogni cartella in `skills/`:
 1. Leggere `SKILL.md`, la riga "Ultima verifica delle fonti" e la finestra di freschezza dichiarata in sezione 0.
