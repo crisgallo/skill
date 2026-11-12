@@ -959,6 +959,42 @@
     "mittente": "info@adworldexperience.it",
     "oggetto": "Ci risiamo + le ultime top PPC news",
     "esito": "segnale: google-ads-performance, meta-ads-performance, linkedin-ads, chatgpt-ads-performance; fonti ufficiali trovate per 7 voci su 20 (News-Parade 23-30/10 e 1-6/11); 5 già in skill; 6 non confermate; 2 fuori perimetro"
+   },
+   "1a1ca626186df38d": {
+    "data": "2026-11-11",
+    "mittente": "michele@aibuildersclub.it",
+    "oggetto": "Ho provato Fable 5.2 su 6 lavori",
+    "esito": "segnale strumenti: Claude Fable 5.2 lanciato il 09/11/2026 (release notes Anthropic, fonte ufficiale trovata); confronto con Opus 5.5, inclusione nel Pro fino al 16/11 e reset dei limiti riportati solo dalla newsletter; nessuna skill copre Claude, annotato nel report"
+   },
+   "1a1b0a262dd98d63": {
+    "data": "2026-11-06",
+    "mittente": "michele@aibuildersclub.it",
+    "oggetto": "6 nuove regole per usare Claude",
+    "esito": "segnale strumenti: pratiche d'uso di Claude (obiettivo invece del compito, brief di tre righe al posto del piano, revisione da una chat nuova, skill invece di agenti, cinque revisori); opinione di terzi su materiale Anthropic non citato, nessuna skill da aggiornare"
+   },
+   "1a1a396ca6944aee": {
+    "data": "2026-11-03",
+    "mittente": "michele@aibuildersclub.it",
+    "oggetto": "Benvenuto nella Community di AI Builders Club!",
+    "esito": "saltata: mail di benvenuto"
+   },
+   "1a1c98730abde653": {
+    "data": "2026-11-11",
+    "mittente": "noreply@skool.com",
+    "oggetto": "Weekly digest for Wed, Nov 4 2026",
+    "esito": "saltata: riepilogo Skool di soli link (video Harness)"
+   },
+   "1a1b6bff18996a74": {
+    "data": "2026-11-07",
+    "mittente": "noreply@skool.com",
+    "oggetto": "1 new notification (video Harness)",
+    "esito": "saltata: notifica Skool, video YouTube"
+   },
+   "1a1cf4ac3253d995": {
+    "data": "2026-11-12",
+    "mittente": "noreply@skool.com",
+    "oggetto": "1 new notification (video Fable 5.2 contro Opus 5.5)",
+    "esito": "saltata: notifica Skool, stesso contenuto della newsletter dell'11/11"
    }
   }
  },
