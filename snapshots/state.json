@@ -782,6 +782,13 @@
    "voci": [
     "12/11 🟡 sez. 9: pagina Trenitalia dei treni garantiti riorganizzata, due elenchi per la lunga percorrenza"
    ]
+  },
+  "strumenti-ai": {
+   "dal": "2026-11-12",
+   "livello": "sostanziale",
+   "voci": [
+    "12/11 🔴 skill nuova (richiesta di Cristiano del 12/11/2026): modelli e prezzi API, piani e limiti d'uso, skill personalizzate (formato, limiti, caricamento, sincronizzazione), Claude Code (CLAUDE.md, impostazioni, permessi, compattazione, subagenti, costi), sessioni cloud e attività pianificate, connettori MCP, Cowork, pratiche d'uso, cosa non fare mai; 21 pagine ufficiali lette il 12/11/2026"
+   ]
   }
  },
  "ultima_mail": {
