@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-11",
+  "ultima_lettura": "2026-11-12",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -104,8 +104,8 @@
     "esito": "regola di progetto NEM (ore di Ale, Blueprint Tracker), non integrata"
    },
    "feedback_voce_di_cris.md": {
-    "modificato": "2026-09-28",
-    "esito": "integrata in cristiano-gallinelli-persona il 29/09/2026 (regola globale del 28/09)"
+    "modificato": "2026-11-11",
+    "esito": "versione dell'11/11 (regola «quanto basta» sulla lunghezza) integrata in cristiano-gallinelli-persona il 12/11/2026 (📌 🔴); la versione del 28/09 era già integrata il 29/09"
    },
    "feedback_descrittori_fedeli_a_linkedin.md": {
     "modificato": "2026-09-28",
@@ -404,8 +404,8 @@
     "esito": "regola di processo (non chiedere le rotazioni a Cris); letta il 13/10/2026 nella cartella di memoria del 12/10, datata maggio-settembre 2026, non integrata"
    },
    "feedback_storia_effetto_televisore.md": {
-    "modificato": "2026-10-13",
-    "esito": "regola di progetto Blog (storia Instagram con effetto televisore), non integrata"
+    "modificato": "2026-11-11",
+    "esito": "regola di progetto Blog (storia e reel con effetto televisore; dall'11/11 nel reel le prime 400 px restano vuote), non integrata"
    },
    "concetti_corsi_ads_per_skill.md": {
     "modificato": "2026-10-14",
@@ -669,7 +669,8 @@
    "livello": "minore",
    "voci": [
     "🟡 27/10: sez. 3: stesso obbligo di passkey su Google Ads dall'11/11/2026; abbinamento in 1-2 giorni, piena attività dopo 7: si crea subito",
-    "🟡 05/11: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; etichette IA anche in Merchant Center"
+    "🟡 05/11: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; etichette IA anche in Merchant Center",
+    "12/11 🟡 sez. 2: Misrepresentation, condizioni della transazione nascoste vietate; offerte non disponibili senza sospensione immediata"
    ]
   },
   "google-cloud": {
@@ -715,7 +716,8 @@
    "dal": "2026-11-10",
    "livello": "minore",
    "voci": [
-    "10/11 🟡 sez. 9: release note del 09/11: page view su modifica cronologia anche al ripristino dalla back/forward cache"
+    "10/11 🟡 sez. 9: release note del 09/11: page view su modifica cronologia anche al ripristino dalla back/forward cache",
+    "12/11 🟡 sez. 10: lista delle diagnosi della Diagnostica dei tag"
    ]
   },
   "trello": {
@@ -748,7 +750,9 @@
     "11/11 🔴 sez. 2: esplorazione Smart Bidding (tolleranza ROAS; tutte le PMax senza feed, beta Shopping e PMax con feed) e modalità promozione; obiettivi del ciclo di vita del cliente (valore nuovo cliente, alto valore, solo nuovi clienti anche con CPA target, re-engagement solo PMax, fedeltà, nuovi potenziali clienti; moltiplicatori della stampa [DA VERIFICARE])",
     "11/11 🔴 sez. 4: risposte qualificanti nei moduli per i lead, solo Search, azione «Lead form - Response qualified (Google-hosted)», domanda obbligatoria",
     "11/11 🟡 sez. 1: inserzioni in AI Mode in 10 nuovi paesi dal 28/10/2026, Italia esclusa, multiturn negli USA",
-    "11/11 🟡 sez. 4: Attributed branded searches (ABS), pagina Accelerate"
+    "11/11 🟡 sez. 4: Attributed branded searches (ABS), pagina Accelerate",
+    "12/11 🔴 sez. 4: la pagina GTM 12131703 dichiara completata la migrazione all'impostazione unica dei dati forniti dall'utente (tag, Data Manager, API insieme); resta la regola di leggere il pannello",
+    "12/11 🟡 sez. 0: aggiornamenti delle norme dell'11/11/2026 (categorie vietate nel targeting per interesse, impersonazione di personaggi pubblici con l'IA, telemedicina NABP, norma Sicurezza dei minori da gennaio 2027); sez. 4 colonne per le ricerche di brand; sez. 8 avviso 7 giorni marchi; sez. 12 2-3 settimane per leggere gli asset"
    ]
   },
   "linkedin-ads": {
@@ -756,6 +760,36 @@
    "livello": "minore",
    "voci": [
     "11/11 🟡 sez. 15: CTV Ads via Display & Video 360 dal 22/10/2026, disponibilità italiana [DA VERIFICARE]"
+   ]
+  },
+  "cristiano-gallinelli-persona": {
+   "dal": "2026-11-12",
+   "livello": "sostanziale",
+   "voci": [
+    "12/11 🔴 Tono generale: regola di Cristiano dell'11/11/2026, la lunghezza è «quanto basta», nessun tetto di parole o caratteri salvo i limiti tecnici"
+   ]
+  },
+  "wordpress-woocommerce": {
+   "dal": "2026-11-12",
+   "livello": "sostanziale",
+   "voci": [
+    "12/11 🔴 sez. 2: patch di sicurezza del WooCommerce Stripe Gateway dell'11/11/2026, aggiornare a 11.2.0 o 11.1.2 (acquisti fraudolenti; password in chiaro negli ordini con la 10.9.0, pulizia e avviso dalla 11.1.0; richiede WordPress 6.9 e WooCommerce 11.0; verifica su ogni sito, staging compresi)",
+    "12/11 🔴 sez. 2: WooCommerce 11.3.0 dell'11/11/2026 (aggiornamento del database, On-Sale Badge, pagina Rimborsi e resi con dati strutturati, REST API e MCP)",
+    "12/11 🟡 sez. 2: CISA KEV del 03/11/2026, CVE-2026-119977 di WordPress core (7.1.4) sfruttata attivamente"
+   ]
+  },
+  "ga4-performance": {
+   "dal": "2026-11-12",
+   "livello": "minore",
+   "voci": [
+    "12/11 🟡 sez. 7: sezione Pubblicità secondo la pagina riorganizzata (report e dimensione Integrazione)"
+   ]
+  },
+  "viaggi-treno-italia": {
+   "dal": "2026-11-12",
+   "livello": "minore",
+   "voci": [
+    "12/11 🟡 sez. 9: pagina Trenitalia dei treni garantiti riorganizzata, due elenchi per la lunga percorrenza"
    ]
   }
  },
@@ -789,7 +823,7 @@
   "substack-intelligence": "2026-11-10"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-11",
+  "ultima_lettura": "2026-11-12",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",

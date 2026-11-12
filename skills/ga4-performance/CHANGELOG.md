@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 12/11/2026
+- 🟡 Sez. 7: sezione Pubblicità secondo la pagina ufficiale riorganizzata (prodotti da collegare, report Istantanea, Percorsi di attribuzione, Rendimento delle conversioni, report per prodotto, Annunci publisher; dimensione Integrazione nel Report view). Data in cima al 12/11/2026.
+
 ## 07/11/2026
 - 🔴 Sez. 7: Data Manager in Google Analytics (beta) dal 06/11/2026, hub unico in Amministrazione per stream, collegamenti e importazioni, mappa delle connessioni con pulsante Correggi; avviso sul doppio conteggio se la stessa importazione è attiva anche in Google Ads. Sez. 0 e Fonti aggiornate; data in cima al 07/11/2026.
 

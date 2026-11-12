@@ -5,7 +5,7 @@ description: "Regole operative verificate per configurare, igienizzare e interro
 
 # GA4: regole operative
 
-**Ultima verifica delle fonti: 7 novembre 2026.**
+**Ultima verifica delle fonti: 12 novembre 2026.**
 
 ---
 
@@ -331,6 +331,7 @@ Il sintomo è scritto dentro GTM su ogni tag evento: *"Impossibile rilevare se i
 
 ⚠️ **Per i tag la fonte di verità è la Modalità Anteprima di GTM o la Gestione eventi della piattaforma, mai le richieste di rete.**
 
+- 🟡 **Sezione Pubblicità, pagina ufficiale riorganizzata** ([10607798](https://support.google.com/analytics/answer/10607798), riletta il 12/11/2026): si vede solo dopo il collegamento a un prodotto pubblicitario Google (Google Ads, Campaign Manager 360, Display & Video 360, Search Ads 360; AdMob, Ad Manager e AdSense per il report Annunci publisher) e poi è aperta a tutti gli utenti della proprietà. I report elencati oggi: **Istantanea pubblicità**, **Percorsi di attribuzione degli eventi chiave**, **Rendimento delle conversioni** (per le conversioni condivise con un account Google Ads), i report di rendimento per prodotto collegato (campagne Google Ads, CM360, DV360, Search Ads) e **Annunci publisher**. Nel «Report view» si passa da «Google Analytics, tutti i canali» a «Google Ads» con la dimensione **Integrazione**: due viste che non tornano fra loro per costruzione (sez. 6). Nomi italiani del menu [DA VERIFICARE] sul pannello.
 ---
 
 ## 8. Cardinalità, campionamento, conservazione

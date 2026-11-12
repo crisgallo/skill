@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 12/11/2026
+- 🟡 Sez. 9: pagina Trenitalia dei treni garantiti riorganizzata (due elenchi per la lunga percorrenza secondo il tipo di sciopero, categoria indicata nel dettaglio del treno, fasce regionali confermate). Data in cima al 12/11/2026.
+
 ## 30/10/2026
 - 🟡 Sez. 3 e 5: pagine CartaFRECCIA e tariffe Italo rilette il 30/10/2026: Platino Infinito (+100%, 5 upgrade, non scade), lounge con due ospiti per Platino; Extra Tempo è un'ora su un altro Italo, compreso nella Flex (tolto il [DA VERIFICARE]); Parti Ora 15 € a passeggero solo il giorno della partenza.
 ## 28/10/2026

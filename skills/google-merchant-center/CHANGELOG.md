@@ -1,5 +1,8 @@
 # Changelog google-merchant-center
 
+## 12/11/2026
+- 🟡 Sez. 2: norma Misrepresentation riletta il 12/11/2026: vietato nascondere le condizioni della transazione (tempi di evasione, limiti al rimborso) prima dell'acquisto; offerte non disponibili senza sospensione immediata senza avviso. Data in cima al 12/11/2026.
+
 ## 05/11/2026
 - 🟡 Sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; impostazione delle etichette IA anche in Merchant Center, rinvio a google-ads-performance.
 ## 27/10/2026

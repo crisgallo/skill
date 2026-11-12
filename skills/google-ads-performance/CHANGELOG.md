@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 12/11/2026
+- 🔴 Sez. 4: la pagina GTM 12131703 dichiara completata per tutti la migrazione all'impostazione unica dei dati forniti dall'utente (tag, Data Manager, API insieme); resta la regola di Cristiano di leggere il pannello. 🟡 Sez. 0: aggiornamenti delle norme dell'11/11/2026 (pubblicità personalizzata e categorie vietate, impersonazione di personaggi pubblici con l'IA anche se dichiarata, telemedicina NABP in tre paesi, norma Sicurezza dei minori da gennaio 2027). 🟡 Sez. 4: colonne da aggiungere quando le ricerche di brand mostrano zero. 🟡 Sez. 8: avviso di almeno 7 giorni prima della sospensione per i marchi (pagina italiana). 🟡 Sez. 12: 2-3 settimane prima di leggere Efficacia dell'annuncio e sostituire asset. Data in cima al 12/11/2026.
+
 ## 11/11/2026
 - 🔴 Sez. 2: esplorazione Smart Bidding (tolleranza ROAS, estesa a tutte le PMax senza feed, beta su Shopping e PMax con feed) e modalità promozione; obiettivi del ciclo di vita del cliente (valore nuovo cliente, alto valore, solo nuovi clienti anche con CPA target, re-engagement solo PMax, membri fedeltà, modalità nuovi potenziali clienti; moltiplicatori percentuali della stampa [DA VERIFICARE]). 🔴 Sez. 4: risposte qualificanti nei moduli per i lead (solo Search, azione «Lead form - Response qualified», domanda obbligatoria). 🟡 Sez. 1: inserzioni in AI Mode in 10 nuovi paesi dal 28/10, Italia esclusa, multiturn negli USA. 🟡 Sez. 4: Attributed branded searches, pagina Accelerate. Segnali dalle News-Parade di ADworld Experience (regola B4-bis), fonti solo ufficiali. Data in cima all'11/11/2026.
 

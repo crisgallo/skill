@@ -5,7 +5,7 @@ description: "Regole operative verificate per aprire, alimentare e tenere pulito
 
 # Google Merchant Center: regole operative
 
-**Ultima verifica delle fonti: 5 novembre 2026.**
+**Ultima verifica delle fonti: 12 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -39,7 +39,7 @@ Merchant Center cambia nomi di menu, attributi obbligatori e date di enforcement
 
 - **Avviso:** per la maggior parte delle violazioni arriva un'email di avviso **almeno 7 giorni prima** della sospensione (dal 26/09/2026 le tre pagine delle norme dicono «7 or 28 calendar days to fix your issue»: il termine dipende dalla violazione, mai meno di 7), con i prodotti che restano visibili ma "a rendimento limitato" ([6150118](https://support.google.com/merchants/answer/6150118?hl=en), [12153802](https://support.google.com/merchants/answer/12153802?hl=en)). Per le violazioni "egregie" (Misrepresentation, malware) **nessun avviso: sospensione immediata** ([6150127](https://support.google.com/merchants/answer/6150127?hl=en)). [DA VERIFICARE] alcune pagine citano finestre di 28 giorni per casi specifici: non trovato su pagina ufficiale leggibile.
 - **Revisione:** si richiede da Home → "Rivedi e correggi" o da Richiede attenzione; dura **3-7 giorni lavorativi**; ogni revisione fallita allunga il **periodo di attesa** in cui il pulsante è disabilitato e l'account resta sospeso ([13693195](https://support.google.com/merchants/answer/13693195?hl=en)). Quindi **non si chiede la revisione prima di aver sistemato tutto**: ogni tentativo bruciato costa giorni.
-- **Cosa Google pretende sul sito, non nel feed** (Misrepresentation, [6150127](https://support.google.com/merchants/answer/6150127?hl=en)): ragione sociale e contatti reali (per l'Italia: P.IVA, indirizzo fisico, email e telefono funzionanti), **politica di reso e rimborso** visibile senza login, condizioni di spedizione, metodi di pagamento, prezzi completi senza costi nascosti. Un e-commerce senza pagina resi o con la P.IVA solo nel footer di una landing è il sospeso tipico italiano.
+- **Cosa Google pretende sul sito, non nel feed** (Misrepresentation, [6150127](https://support.google.com/merchants/answer/6150127?hl=en)): ragione sociale e contatti reali (per l'Italia: P.IVA, indirizzo fisico, email e telefono funzionanti), **politica di reso e rimborso** visibile senza login, condizioni di spedizione, metodi di pagamento, prezzi completi senza costi nascosti. Un e-commerce senza pagina resi o con la P.IVA solo nel footer di una landing è il sospeso tipico italiano. 🟡 Pagina riletta il 12/11/2026, due passaggi nuovi: è vietato **nascondere le condizioni della transazione** (termini post acquisto, tempi di evasione, limiti al rimborso) non dichiarandole in modo chiaro e costante prima che il cliente compri, per esempio un tempo di consegna in evidenza e i giorni di lavorazione in un testo secondario; e per le **offerte non disponibili** le violazioni **non portano alla sospensione immediata senza avviso**.
 - **Collegamento con account Google Ads sospesi** è di per sé una violazione "Abuso della rete" ([6150118](https://support.google.com/merchants/answer/6150118?hl=en)): prima di collegare un Ads ereditato si controlla il suo stato.
 - Il rendimento "limitato" durante l'avviso non si vede quasi mai in Google Ads: si controlla in Merchant Center, non nelle campagne.
 

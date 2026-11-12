@@ -1,5 +1,8 @@
 # Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 12/11/2026
+- 🟡 Sez. 10: lista delle diagnosi della Diagnostica dei tag secondo la pagina ufficiale riorganizzata (un solo amministratore, domini aggiuntivi, config fuori ordine, conversion linker mancante, UA legacy, consenso SEE mancante o fuori ordine, tasso di consenso 0%, tag troppo in basso). Data in cima al 12/11/2026.
+
 ## 10/11/2026
 - 🟡 Sez. 9: release note del 09/11/2026: le visualizzazioni di pagina su modifica cronologia si registrano anche al ripristino dalla back/forward cache. Data in cima al 10/11/2026.
 

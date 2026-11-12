@@ -5,7 +5,7 @@ description: "Regole operative verificate per organizzare gli spostamenti di lav
 
 # Viaggi di lavoro in treno e corriera in Italia: regole operative
 
-**Ultima verifica delle fonti: 30 ottobre 2026.**
+**Ultima verifica delle fonti: 12 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -113,6 +113,7 @@ Letto il 28/10/2026 su [adriabus.eu](https://www.adriabus.eu/) e [orari](https:/
 ## 9. Scioperi: fasce garantite, treni garantiti, dove si controllano
 
 - **Treni regionali Trenitalia** ([treni garantiti in caso di sciopero](https://www.trenitalia.com/it/informazioni/treni_garantiti_incasodisciopero.app.html)): nei giorni **feriali** sono garantite le fasce **6-9 e 18-21**; nei **festivi 7-10 e 18-21** (per alcune regioni elenchi propri, Alto Adige a parte). I treni in corsa al momento dello sciopero arrivano a destinazione se entro un'ora di percorso; **lunga percorrenza**: elenco dei treni garantiti nelle **Tabelle A e B** (PDF sulla stessa pagina). **Italo** pubblica i treni «garantiti» e «non garantiti» sul sito: un treno non garantito **non è soppresso**, può partire, ma non ci si conta.
+- 🟡 **Pagina Trenitalia riorganizzata (riletta il 12/11/2026):** per la lunga percorrenza ci sono **due elenchi distinti** e si sceglie in base al tipo di sciopero: l'elenco dei treni garantiti nei giorni feriali e festivi, e un elenco a parte che vale **solo quando lo sciopero è nazionale generale per il rinnovo del CCNL, oppure cade in un giorno festivo, dura al massimo 24 ore e inizia alle 21:00 del giorno prima**. Nel dettaglio del singolo treno (anche dalla «ricerca semplificata») è scritto per quale categoria di sciopero è garantito. Per il Regionale restano le fasce 6-9 e 18-21 nei feriali e 7-10 e 18-21 nei festivi, con l'elenco per regione da selezionare; un treno già in viaggio che richiede più di un'ora può fermarsi in una stazione precedente alla destinazione.
 - **Corriere**: ogni azienda pubblica le proprie fasce garantite nell'avviso di sciopero (Adriabus, sez. 8); di norma coprono le ore di pendolarismo, ma **le fasce cambiano da azienda ad azienda** e si leggono sull'avviso, non si presumono.
 - **Dove si controllano**: calendario del Ministero dei trasporti ([scioperi.mit.gov.it](https://scioperi.mit.gov.it/mit2/public/scioperi)) e Commissione di garanzia ([cgsse.it](https://www.cgsse.it/)), poi i siti dei vettori. Entrambi i siti pubblici **non si leggono via fetch** (503): la chat li apre nel browser dell'utente o chiede all'utente di aprirli.
 - **Preavviso**: la legge 146/1990 impone un preavviso minimo di **10 giorni** per i servizi pubblici essenziali, con rarefazione fra scioperi dello stesso bacino **[DA VERIFICARE sul testo di legge]**: il 28/10 normattiva mostrava solo l'art. 1. Regola pratica: uno sciopero nazionale è noto almeno dieci giorni prima, quindi **si controlla il calendario quando si compra** e di nuovo la sera prima; quello che compare dopo è di norma una revoca o un'adesione locale.

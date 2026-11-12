@@ -1,5 +1,8 @@
 # Changelog cristiano-gallinelli-persona
 
+## 12/11/2026
+- 🔴 «Tono generale», voce Lunghezza: regola di Cristiano dell'11/11/2026 (globale, `feedback_voce_di_cris.md`): la lunghezza è «quanto basta», nessun tetto di parole o caratteri salvo i limiti tecnici delle piattaforme; un testo non si accorcia per arrivare a un numero. Fonti web e data «Ultima verifica sul blog» invariate.
+
 ## 29/09/2026
 - 🔴 «Cosa Cristiano NON fa mai»: la regola di scrittura del 26/09 è stata estesa con la regola globale «La voce di Cris» del 28/09/2026 (`feedback_voce_di_cris.md`, promossa dal progetto Blog): dove vale (testi pubblici e a chi lo valuta, non le email di lavoro), periodo lungo più colpo breve e mai il telegramma, una cosa sola per tavola di carosello, ruoli, descrizioni e nomi copiati da LinkedIn parola per parola, «agenzia» vietata anche come web agency o studio, controllo di uscita completo. Fonti web e data «Ultima verifica sul blog» invariate.
 ## 26/09/2026

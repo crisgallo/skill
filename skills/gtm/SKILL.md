@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, controllare e riparare il
 
 # Google Tag Manager (gtm), container web e server: regole operative
 
-**Ultima verifica delle fonti: 10 novembre 2026.**
+**Ultima verifica delle fonti: 12 novembre 2026.**
 
 ---
 
@@ -137,6 +137,7 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 5. **Meta Gestione eventi > Origini dati > Pixel > Eventi di prova**: l'evento deve comparire con origine **Server** e, se il Pixel web è attivo, la coppia deve risultare **deduplicata**; poi si guarda la **Qualità dell'abbinamento eventi** ([using-the-api](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Stape Meta CAPI](https://stape.io/helpdesk/documentation/how-to-set-up-meta-conversions-api)).
 6. Il giorno dopo: report GA4 standard e colonna Conversioni di Ads/Meta. I punti 1-5 dicono che il colpo parte; solo i report dicono che è stato accettato.
 
+- 🟡 **Diagnostica dei tag (Tag Diagnostics), pagina ufficiale riorganizzata** ([14681508](https://support.google.com/tagmanager/answer/14681508), riletta il 12/11/2026): si apre dalle impostazioni del tag Google e mostra uno stato di qualità più una lista di diagnosi, ognuna con il rimedio. Quelle che si incontrano in un audit: **un solo amministratore** sull'account; **domini aggiuntivi** rilevati e non dichiarati nelle impostazioni del tag; **comando config fuori ordine** (eventi gtag mandati prima del config); **conversion linker mancante** con tag Google Ads o Floodlight nel container; **tag Universal Analytics legacy** ancora in pagina; **pagine senza consenso per gli utenti SEE** e **consenso per la personalizzazione degli annunci mancante**; **consenso installato fuori ordine**; **tasso di consenso 0%** (si manda sempre `ad_user_data` negato, ovunque o in alcune regioni fuori dal SEE: tipico di un default negato senza geolocalizzazione, sez. 6); **tag troppo in basso nella pagina**. Gli avvisi si possono ignorare dal pannello, ma in un container ereditato si leggono prima di toccare qualsiasi tag (sez. 12).
 ---
 
 ## 11. Stape, Google Cloud, costi, ad blocker, ITP
