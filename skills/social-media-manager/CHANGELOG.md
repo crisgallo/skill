@@ -1,5 +1,8 @@
 # Changelog social-media-manager
 
+## 13/11/2026
+- 🟡 Sez. 3: dato Buffer del 12/11/2026 sulla durata dei reel (90 secondi-3 minuti, +4-7% di copertura), coerente con la regola dei 3 minuti. Data in cima al 13/11/2026.
+
 ## 07/11/2026
 - 🟡 Sez. 8: la pagina LinkedIn sull'analisi Pagina (agg. 06/11/2026) elenca anche le schede Comparse della Pagina, Newsletter ed Employer brand; aggiunte all'elenco. Data in cima al 07/11/2026.
 

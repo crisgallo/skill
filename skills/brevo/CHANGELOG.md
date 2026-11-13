@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 13/11/2026
+- 🔴 Sez. 10: changelog API del 10/11/2026 su ordini ed eventi (date UTC con Z, aggiornamenti che si accodano, endpoint singolo vivo e batch con historical: true per lo storico, eventi via API salvati come personalizzati e quindi senza automazioni e-commerce, tracker o trackEvent per il carrello); webhook con api_key_name e campi di automazione. 🟡 Sez. 1: prezzi annuali della pagina prezzi. Data in cima al 13/11/2026.
+
 ## 04/11/2026
 - 🔴 Sez. 9: procedura sul pannello per il consenso al pixel per contatto (Settings > Contacts > Per-contact pixel tracking consent, «Track contacts whose consent is unknown» su No, attributi creati, casella nei form, link «Revoke pixel tracking consent link» o placeholder `{{ revoke_open_pixel_tracking }}` nel footer, campo API `contactPixelTrackingConsent`, finalità non canale), dall'articolo 37113920427922 aggiornato il 03/11; chiuso il [DA VERIFICARE] di ieri: la revoca del solo pixel con iscrizione mantenuta è coperta. Menu del tracciamento anonimo (11643306229906). Vademecum del Garante del 05/10: tracking pixel fra le ispezioni del secondo semestre 2026. Altri otto articoli Brevo con data 03/11 riletti: nessun numero cambiato.
 ## 03/11/2026

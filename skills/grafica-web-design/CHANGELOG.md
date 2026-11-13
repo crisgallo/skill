@@ -1,5 +1,8 @@
 # Changelog grafica-web-design
 
+## 13/11/2026
+- 🟡 Sez. 2: CSS Color 4, nuova Candidate Recommendation Draft del 12/11/2026 (nessuna regola cambia). Data in cima al 13/11/2026.
+
 ## 17/10/2026
 - 🟡 Sez. 9: regola di Cristiano del 16/10/2026 (`feedback_carta_intestata.md`, globale): documenti ufficiali sulla carta intestata creata dallo strumento dal Google Doc approvato; font (Playfair Display, Helvetica Neue) e colori (bronzo #C2853D, inchiostro #1F1D1A, grigio #6F6455, carta #F8F5D7, linea #C3C1AE) dell'identità del blog.
 ## 30/09/2026

@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 # Social media manager (Facebook, Instagram, LinkedIn): regole operative
 
-**Ultima verifica delle fonti: 7 novembre 2026.**
+**Ultima verifica delle fonti: 13 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -41,7 +41,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 - **Esplora**: pesa «molto di più» l'informazione sul post che la relazione; azioni previste **like, salvataggi, condivisioni**. È il posto dove un contenuto utile a sconosciuti cresce.
 - **Reels**: attività di chi guarda, storia con l'autore, informazioni sul reel (audio, immagini, popolarità), chi pubblica; azioni previste **ricondivisione, visione fino alla fine, like, apertura della pagina dell'audio**, più sondaggi sul «vale il tuo tempo».
 - 🔴 **Instagram riduce la visibilità dei reel a bassa risoluzione, con watermark di altre app, muti, con bordi, fatti per lo più di testo o già pubblicati su Instagram** (stessa pagina). Un reel TikTok ricaricato con il logo è il caso tipico. Le Linee guida sui consigli valgono per Esplora, Reels, Ricerca, post e account suggeriti: un account che le viola ripetutamente **esce dai consigli per un periodo**.
-- **Reel oltre i 3 minuti non vengono consigliati a chi non segue l'account** ([Help Instagram, Reels](https://www.facebook.com/help/instagram/2720958398006062)): il reel per crescere sta sotto i 3 minuti, quello lungo è per i follower.
+- **Reel oltre i 3 minuti non vengono consigliati a chi non segue l'account** ([Help Instagram, Reels](https://www.facebook.com/help/instagram/2720958398006062)): il reel per crescere sta sotto i 3 minuti, quello lungo è per i follower. 🟡 Dato di terzi coerente ([Buffer, 12/11/2026, 2,7 milioni di reel](https://buffer.com/resources/instagram-grid/)): i reel **fra 90 secondi e 3 minuti** hanno raggiunto il 4-7% di persone in più rispetto alla media del proprio account; è una correlazione su account Buffer, non una regola Instagram.
 - **Trial reels** (10/12/2024): un reel mostrato **prima ai non follower**, fuori dalla griglia e dalla scheda Reels, con dati dopo circa 24 ore e confronto con le prove precedenti; si può far condividere in automatico a tutti se rende bene **nelle prime 72 ore** ([Instagram Creators](https://creators.instagram.com/blog/instagram-trial-reels)). Si usa per testare un formato nuovo senza sporcare il profilo.
 
 **Facebook** ([Meta Transparency Center, Feed, agg. 11/06/2025](https://transparency.meta.com/features/ranking-and-content/)): «migliaia di segnali» e **oltre 100 modelli di previsione** in quattro famiglie (azioni probabili, tempo di visione, interesse per chi pubblica, reazioni degli altri), più i sondaggi «vale il tuo tempo». Segnali che tolgono distribuzione: probabilità di **nascondere, silenziare, smettere di seguire, segnalare o reagire con rabbia**, contenuti valutati falsi dai fact-checker, probabili violazioni degli Standard. **Clickbait, engagement bait e disinformazione verificata vengono declassati** in Feed ([tipi di contenuto declassati, agg. 02/07/2025](https://transparency.meta.com/features/approach-to-ranking/types-of-content-we-demote/)): «commenta sì se sei d'accordo» è engagement bait.

@@ -5,7 +5,7 @@ description: "Regole operative verificate per leggere e usare Google Search Cons
 
 # Google Search Console: regole operative
 
-**Ultima verifica delle fonti: 30 settembre 2026.**
+**Ultima verifica delle fonti: 13 novembre 2026.**
 
 ---
 
@@ -71,6 +71,7 @@ description: "Regole operative verificate per leggere e usare Google Search Cons
 ## 4. Novità 2026: report IA generativa, controllo IA, EEA
 
 - **24/09/2026, filtro multimodale**: nel rapporto Rendimento (Search e report IA generativa) il tipo di ricerca Web si divide in Text-based e Multimodal; senza query, con pagine, paesi, dispositivi, date (sez. 2, punto 11). 📌 Misurato da Cristiano il 30/09/2026 (ScegliNatura): **un totale Web unico non si seleziona più** dal pannello, si sommano le due viste; il rapporto IA generativa esiste **solo nel pannello**, non nell'API, solo impressioni, e sulla proprietà di ScegliNatura parte dal 18/05/2026. Nello stesso giorno Google ha avviato il **September 2026 spam update** (dalle 09:15 PDT, globale, tutte le lingue, fino a due settimane; [Search Status Dashboard](https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu)): un calo dal 24/09 su un sito con contenuti a rischio si legge prima lì che nel rapporto Rendimento.
+- 🟡 **Anomalia dei dati 9-11/11/2026 nel report IA generativa** ([pagina delle anomalie, 6211453](https://support.google.com/webmasters/answer/6211453), letta il 13/11/2026): un errore di registrazione ha **abbassato le impressioni** del report Rendimento IA generativa di Search per i dati dal 9 all'11 novembre; il 13/08 lo stesso tipo di errore aveva toccato clic e impressioni di Discover. Un calo di «quota di visibilità in feature IA» in quei giorni non è un calo vero: nel report al cliente si annota l'anomalia e si confronta la settimana dopo.
 
 - **Rapporti "Rendimento IA generativa" (Search e Discover)**, annunciati il 03/06/2026, disponibili a tutti dal 31/08/2026 ([blog 03/06/2026](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports), [16984139](https://support.google.com/webmasters/answer/16984139?hl=en), [16983858](https://support.google.com/webmasters/answer/16983858?hl=en)). Mostrano **solo impressioni** in AI Overviews e AI Mode (Search) e nelle feature IA di Discover, per **pagina, Paese, dispositivo (solo Search), data**. **Niente clic, niente CTR, niente query.** Gli esperimenti Search Labs sono esclusi. Quei dati "sono inclusi nel rapporto Rendimento complessivo" (tipo Web): il rapporto IA è una vista, non una somma aggiuntiva. Il rapporto non compare se le impressioni IA sono poche.
 - ⚠️ Nel report al cliente le impressioni IA si presentano come **"quota di visibilità in feature IA"**, non come traffico: non c'è un clic da attribuire. Un calo di CTR sul tipo Web con impressioni stabili è il segnale tipico dell'AI Overview che risponde senza clic; la prova è il confronto impressioni IA / impressioni Web per pagina.

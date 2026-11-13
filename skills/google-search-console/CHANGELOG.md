@@ -1,5 +1,8 @@
 # Changelog google-search-console
 
+## 13/11/2026
+- 🟡 Sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa (pagina ufficiale delle anomalie). Data in cima al 13/11/2026.
+
 ## 30/09/2026
 - 🔴 Sez. 2, 4 e 9: regole di Cristiano misurate il 30/09/2026 su ScegliNatura (via chat di manutenzione): l'API Search Analytics con dataState final e 25.000 righe dà totali mensili identici al pannello (16 mesi su 16) e arriva più indietro (18/05/2025 contro 28/05/2025); le query visibili coprono il 32-53% dei clic; il filtro brand nativo (`%40BRANDED` / `%40NON_BRANDED`) è solo nel pannello, con dati dal 21/02/2026, e brand più non brand fa il totale; dal 24/09 un totale Web unico non si seleziona più e il rapporto IA generativa è solo nel pannello. Pagina API riletta (aggiornata l'11/08/2026): confermati type, dataState, rowLimit 25.000 e assenza di un filtro brand. Data di verifica al 30/09.
 ## 25/09/2026

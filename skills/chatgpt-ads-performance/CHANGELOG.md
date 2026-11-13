@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 13/11/2026
+- 🔴 Sez. 6: le campagne da product feed si targetizzano anche per regioni e mercati dentro il paese dal 12/11/2026 (mail OpenAI del 12/11), località italiane [DA VERIFICARE]. 🔴 Sez. 11: filtri dei product set con più condizioni sullo stesso campo in Ads Manager; i docs API dicono ancora il contrario. Data in cima al 13/11/2026.
+
 ## 11/11/2026 (sera)
 - 🔴 Sez. 8: sessione di test del Pixel in Ads Manager (Conversions > Data Source > Test; etichetta Test nell'Event Stream per 30 minuti, stessa origine, campionamento, gli eventi di test contano), dalla nuova sezione dei docs ufficiali comparsa fra il 04 e l'11/11/2026.
 

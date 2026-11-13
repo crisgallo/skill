@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-12",
+  "ultima_lettura": "2026-11-13",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -236,8 +236,8 @@
     "esito": "integrata il 30/09/2026 in google-ads-performance e meta-ads-performance (claim regolati); dettagli di script di progetto non integrati"
    },
    "feedback_skill_prima_di_ogni_attivita.md": {
-    "modificato": "2026-11-06",
-    "esito": "07/11: regola di processo globale (leggere le skill prima di ogni attività), non per le skill del repo"
+    "modificato": "2026-11-12",
+    "esito": "versione del 12/11 (controlli locali sulle voci) integrata in strumenti-ai sez. 8 il 13/11/2026 (📌 🔴); prima registrata come regola di processo"
    },
    "feedback_email_solo_bozza.md": {
     "modificato": "2026-11-03",
@@ -498,111 +498,31 @@
    "feedback_lettura_meno_invasiva.md": {
     "modificato": "2026-11-05",
     "esito": "10/11: regola di processo (lettura meno invasiva; numeri delle voci mai cambiati), già coperta da trello sez. 4"
+   },
+   "feedback_fare_non_far_fare.md": {
+    "modificato": "2026-11-12",
+    "esito": "regola globale di Cristiano del 12/11 (la chat fa dopo il permesso), integrata in strumenti-ai sez. 8 il 13/11/2026 (📌 🔴)"
+   },
+   "feedback_leggi_log_altro_mac.md": {
+    "modificato": "2026-11-12",
+    "esito": "regola della manutenzione sui due Mac, non integrata"
    }
   }
  },
  "drive": {
-  "data": "2026-11-10",
+  "data": "2026-11-12",
   "skills": {
-   "substack-intelligence": {
-    "drive": "21154",
-    "commit": "1000cb6"
-   },
-   "prestashop": {
-    "drive": "42771",
-    "commit": "d387661"
-   },
-   "trello": {
-    "drive": "83635",
-    "commit": "0cba487"
-   },
-   "linkedin-ads": {
-    "drive": "53434",
-    "commit": "6ea5ecc"
+   "brevo": {
+    "drive": "73425",
+    "commit": "2a6bfbe"
    },
    "chatgpt-ads-performance": {
     "drive": "55877",
     "commit": "6ea5ecc"
    },
-   "gtm": {
-    "drive": "51055",
-    "commit": "6ea5ecc"
-   },
-   "ga4-performance": {
-    "drive": "52411",
-    "commit": "fc5a58d"
-   },
-   "wordpress-woocommerce": {
-    "drive": "59536",
-    "commit": "fc5a58d"
-   },
-   "google-ads-performance": {
-    "drive": "86554",
-    "commit": "b103e93"
-   },
-   "grafica-web-design": {
-    "drive": "30253",
-    "commit": "23dc675"
-   },
-   "google-merchant-center": {
-    "drive": "39846",
-    "commit": "bd4057f"
-   },
-   "google-cloud": {
-    "drive": "37114",
-    "commit": "44c87a6"
-   },
-   "looker-studio": {
-    "drive": "45183",
-    "commit": "3102ea1"
-   },
-   "meta-ads-performance": {
-    "drive": "64507",
-    "commit": "281eda5"
-   },
-   "social-media-manager": {
-    "drive": "36770",
-    "commit": "cc701d4"
-   },
-   "cristiano-gallinelli-persona": {
-    "drive": "48635",
-    "commit": "3102ea1"
-   },
-   "redmine-harvest": {
-    "drive": "49365",
-    "commit": "6679ea7"
-   },
-   "sviluppo-web": {
-    "drive": "44301",
-    "commit": "db8eb2f"
-   },
-   "viaggi-treno-italia": {
-    "drive": "33586",
-    "commit": "8f04766"
-   },
    "consent-mode-privacy": {
     "drive": "31828",
     "commit": "f37effc"
-   },
-   "seo-tecnica": {
-    "drive": "45381",
-    "commit": "370c032"
-   },
-   "google-search-console": {
-    "drive": "41004",
-    "commit": "0041f95"
-   },
-   "ebay-venditore": {
-    "drive": "39092",
-    "commit": "abb0d05"
-   },
-   "trustpilot": {
-    "drive": "47010",
-    "commit": "39b9e4b"
-   },
-   "meta-pixel-capi": {
-    "drive": "43640",
-    "commit": "6ea5ecc"
    },
    "corsa-allenamento-salute": {
     "drive": "37711",
@@ -612,13 +532,101 @@
     "drive": "19630",
     "commit": "29b96fe"
    },
-   "brevo": {
-    "drive": "73425",
-    "commit": "2a6bfbe"
+   "cristiano-gallinelli-persona": {
+    "drive": "48635",
+    "commit": "3102ea1"
+   },
+   "ebay-venditore": {
+    "drive": "39092",
+    "commit": "abb0d05"
+   },
+   "ga4-performance": {
+    "drive": "52411",
+    "commit": "fc5a58d"
+   },
+   "google-ads-performance": {
+    "drive": "86554",
+    "commit": "b103e93"
+   },
+   "google-cloud": {
+    "drive": "37114",
+    "commit": "44c87a6"
+   },
+   "google-merchant-center": {
+    "drive": "39846",
+    "commit": "bd4057f"
+   },
+   "google-search-console": {
+    "drive": "41004",
+    "commit": "0041f95"
+   },
+   "grafica-web-design": {
+    "drive": "30253",
+    "commit": "23dc675"
+   },
+   "gtm": {
+    "drive": "51055",
+    "commit": "6ea5ecc"
+   },
+   "linkedin-ads": {
+    "drive": "53434",
+    "commit": "6ea5ecc"
+   },
+   "looker-studio": {
+    "drive": "45183",
+    "commit": "3102ea1"
+   },
+   "meta-ads-performance": {
+    "drive": "64507",
+    "commit": "281eda5"
+   },
+   "meta-pixel-capi": {
+    "drive": "43640",
+    "commit": "6ea5ecc"
    },
    "microsoft-ads": {
     "drive": "55158",
     "commit": "8933c60"
+   },
+   "prestashop": {
+    "drive": "42771",
+    "commit": "d387661"
+   },
+   "redmine-harvest": {
+    "drive": "49365",
+    "commit": "6679ea7"
+   },
+   "seo-tecnica": {
+    "drive": "45381",
+    "commit": "370c032"
+   },
+   "social-media-manager": {
+    "drive": "36770",
+    "commit": "cc701d4"
+   },
+   "substack-intelligence": {
+    "drive": "21154",
+    "commit": "1000cb6"
+   },
+   "sviluppo-web": {
+    "drive": "44301",
+    "commit": "db8eb2f"
+   },
+   "trello": {
+    "drive": "83635",
+    "commit": "0cba487"
+   },
+   "trustpilot": {
+    "drive": "47010",
+    "commit": "39b9e4b"
+   },
+   "viaggi-treno-italia": {
+    "drive": "33586",
+    "commit": "8f04766"
+   },
+   "wordpress-woocommerce": {
+    "drive": "59536",
+    "commit": "fc5a58d"
    }
   }
  },
@@ -654,7 +662,8 @@
    "dal": "2026-10-17",
    "livello": "minore",
    "voci": [
-    "🟡 17/10: sez. 9: carta intestata di Cristiano (regola del 16/10): strumento, font e colori dell'identità del blog"
+    "🟡 17/10: sez. 9: carta intestata di Cristiano (regola del 16/10): strumento, font e colori dell'identità del blog",
+    "13/11 🟡 sez. 2: CSS Color 4, CRD del 12/11/2026"
    ]
   },
   "sviluppo-web": {
@@ -677,7 +686,8 @@
    "dal": "2026-10-30",
    "livello": "minore",
    "voci": [
-    "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm"
+    "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm",
+    "13/11 🟡 sez. 5: prezzi del Data Transfer Service, connettori Alphabet gratuiti"
    ]
   },
   "microsoft-ads": {
@@ -699,7 +709,8 @@
    "dal": "2026-11-07",
    "livello": "minore",
    "voci": [
-    "07/11 🟡 sez. 8: analisi Pagina LinkedIn, aggiunte le schede Comparse della Pagina, Newsletter ed Employer brand"
+    "07/11 🟡 sez. 8: analisi Pagina LinkedIn, aggiunte le schede Comparse della Pagina, Newsletter ed Employer brand",
+    "13/11 🟡 sez. 3: dato Buffer sulla durata dei reel"
    ]
   },
   "meta-ads-performance": {
@@ -733,7 +744,8 @@
    "livello": "sostanziale",
    "voci": [
     "11/11 🔴 sez. 9: documentazione del Pixel (11/11): view-through con finestra fissa di 1 giorno, metrica separata a livello di campagna, non incluse in Conversions (al contrario della nota del 16/09); vale la documentazione, pannello [DA VERIFICARE]; consenso del Pixel e sorgenti CSP",
-    "11/11 🔴 sez. 8: sessione di test del Pixel in Ads Manager (Conversions > Data Source > Test, etichetta Test per 30 minuti, gli eventi di test contano)"
+    "11/11 🔴 sez. 8: sessione di test del Pixel in Ads Manager (Conversions > Data Source > Test, etichetta Test per 30 minuti, gli eventi di test contano)",
+    "13/11 🔴 sez. 6 e 11: campagne da product feed targetizzabili per regioni e mercati dentro il paese dal 12/11/2026 (Italia [DA VERIFICARE]); filtri dei product set con più condizioni sullo stesso campo in Ads Manager (docs API ancora contrari)"
    ]
   },
   "prestashop": {
@@ -787,7 +799,22 @@
    "dal": "2026-11-12",
    "livello": "sostanziale",
    "voci": [
-    "12/11 🔴 skill nuova (richiesta di Cristiano del 12/11/2026): modelli e prezzi API, piani e limiti d'uso, skill personalizzate (formato, limiti, caricamento, sincronizzazione), Claude Code (CLAUDE.md, impostazioni, permessi, compattazione, subagenti, costi), sessioni cloud e attività pianificate, connettori MCP, Cowork, pratiche d'uso, cosa non fare mai; 21 pagine ufficiali lette il 12/11/2026"
+    "12/11 🔴 skill nuova (richiesta di Cristiano del 12/11/2026): modelli e prezzi API, piani e limiti d'uso, skill personalizzate (formato, limiti, caricamento, sincronizzazione), Claude Code (CLAUDE.md, impostazioni, permessi, compattazione, subagenti, costi), sessioni cloud e attività pianificate, connettori MCP, Cowork, pratiche d'uso, cosa non fare mai; 21 pagine ufficiali lette il 12/11/2026",
+    "13/11 🔴 sez. 8: regole di Cristiano «la chat fa dopo il permesso» (12/11) e «la skill si carica prima di ogni attività» (aggiornata 12/11); 🟡 sez. 6 caso Atlassian MCP v2"
+   ]
+  },
+  "brevo": {
+   "dal": "2026-11-13",
+   "livello": "sostanziale",
+   "voci": [
+    "13/11 🔴 sez. 10: changelog API del 10/11/2026 su ordini ed eventi (date UTC con Z, batch con historical: true per lo storico, eventi via API senza automazioni e-commerce, tracker o trackEvent per il carrello, webhook con api_key_name); 🟡 sez. 1 prezzi annuali"
+   ]
+  },
+  "google-search-console": {
+   "dal": "2026-11-13",
+   "livello": "minore",
+   "voci": [
+    "13/11 🟡 sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa"
    ]
   }
  },
@@ -821,7 +848,7 @@
   "substack-intelligence": "2026-11-10"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-12",
+  "ultima_lettura": "2026-11-13",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1002,6 +1029,36 @@
     "mittente": "noreply@skool.com",
     "oggetto": "1 new notification (video Fable 5.2 contro Opus 5.5)",
     "esito": "saltata: notifica Skool, stesso contenuto della newsletter dell'11/11"
+   },
+   "1a1d0992a9401957": {
+    "data": "2026-11-12",
+    "mittente": "noreply@email.openai.com",
+    "oggetto": "ChatGPT Ads Product Updates",
+    "esito": "chatgpt-ads-performance sez. 6 e 11 (🔴: geografia sub-nazionale per le campagne da feed, filtri dei product set a più condizioni; intelligent bidding e Target CPA/CPC già in skill)"
+   },
+   "1a1d1db55f7d761d": {
+    "data": "2026-11-12",
+    "mittente": "info@e.atlassian.com",
+    "oggetto": "More tools, more products: upgrade Atlassian MCP",
+    "esito": "strumenti-ai sez. 6 (🟡: MCP v2, v1 fino al 01/03/2027, connettori Claude da rifare; Trello non coinvolto)"
+   },
+   "1a1d34af5680dd4a": {
+    "data": "2026-11-13",
+    "mittente": "CloudPlatform-noreply@google.com",
+    "oggetto": "Security alert for your reCAPTCHA key",
+    "esito": "avviso tecnico su una chiave reCAPTCHA di un cliente, non newsletter: saltato"
+   },
+   "1a1d3bc105d7a6e0": {
+    "data": "2026-11-13",
+    "mittente": "bariccoale@substack.com",
+    "oggetto": "W 1.2 · Icone",
+    "esito": "saltata: fuori perimetro (anche la copia in spagnolo)"
+   },
+   "1a1d3b81d36a72bd": {
+    "data": "2026-11-13",
+    "mittente": "simonavoglinolevy@substack.com",
+    "oggetto": "Parlare della morte porta sfiga",
+    "esito": "saltata: fuori perimetro"
    }
   }
  },

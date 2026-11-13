@@ -1,5 +1,8 @@
 # Changelog google-cloud
 
+## 13/11/2026
+- 🟡 Sez. 5: prezzi del Data Transfer Service riletti (connettori Alphabet gratuiti, terzi a slot-ora, anteprime gratuite, Google Play 25 $). Data in cima al 13/11/2026.
+
 ## 30/10/2026
 - 🟡 Sez. 0 e 7: rimando aggiornato alla skill `gtm` (fino al 30/10/2026 `gtm-server-side`).
 ## 27/10/2026
