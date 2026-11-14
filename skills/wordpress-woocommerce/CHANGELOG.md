@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 14/11/2026
+- 🔴 Sez. 1: requisiti raccomandati WordPress, MySQL 8.4 o superiore al posto di 8.0 (pagina ufficiale riletta il 14/11/2026). Data in cima al 14/11/2026.
+
 ## 12/11/2026
 - 🔴 Sez. 2: patch di sicurezza del WooCommerce Stripe Gateway dell'11/11/2026 (11.2.0 o 11.1.2; acquisti fraudolenti; password in chiaro negli ordini con la 10.9.0, pulizia e avviso dalla 11.1.0; richiede WordPress 6.9 e WooCommerce 11.0; procedura di verifica e di downgrade controllato). 🔴 WooCommerce 11.3.0 dell'11/11/2026 (aggiornamento DB, On-Sale Badge, pagina Rimborsi e resi con dati strutturati, REST API e MCP). 🟡 CISA KEV del 03/11: CVE-2026-119977 di WordPress core sfruttata attivamente. Data in cima al 12/11/2026.
 

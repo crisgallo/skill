@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 14/11/2026
+- 🟡 Sez. 3: segmenti sotto i 300 sommabili nello stesso ad set, segmenti in costruzione assegnabili, URL della Pagina nelle liste aziende, Companies Hub (pagina a420864 riletta). Data in cima al 14/11/2026.
+
 ## 11/11/2026
 - 🟡 Sez. 15: CTV Ads acquistabili anche via Display & Video 360 dal 22/10/2026 (pressroom), disponibilità per account italiani [DA VERIFICARE]. Segnale dalle News-Parade di ADworld Experience; fonti aggiunte; data in cima all'11/11/2026.
 

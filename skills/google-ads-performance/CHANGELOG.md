@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 14/11/2026
+- 🟡 Sez. 13: dettagli della pagina ufficiale sulle passkey (dispositivo principale, browser supportati, 1-2 giorni per l'aggancio, stato degli utenti). Data in cima al 14/11/2026.
+
 ## 12/11/2026
 - 🔴 Sez. 4: la pagina GTM 12131703 dichiara completata per tutti la migrazione all'impostazione unica dei dati forniti dall'utente (tag, Data Manager, API insieme); resta la regola di Cristiano di leggere il pannello. 🟡 Sez. 0: aggiornamenti delle norme dell'11/11/2026 (pubblicità personalizzata e categorie vietate, impersonazione di personaggi pubblici con l'IA anche se dichiarata, telemedicina NABP in tre paesi, norma Sicurezza dei minori da gennaio 2027). 🟡 Sez. 4: colonne da aggiungere quando le ricerche di brand mostrano zero. 🟡 Sez. 8: avviso di almeno 7 giorni prima della sospensione per i marchi (pagina italiana). 🟡 Sez. 12: 2-3 settimane prima di leggere Efficacia dell'annuncio e sostituire asset. Data in cima al 12/11/2026.
 

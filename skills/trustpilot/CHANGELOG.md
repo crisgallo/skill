@@ -1,5 +1,8 @@
 # Changelog trustpilot
 
+## 14/11/2026
+- 🔴 Sez. 4: quota di inviti per mese di calendario con azzeramento il 1°, conteggio alla data di invio effettivo, inviti combinati, stato «Limite raggiunto» non riprogrammato da solo, controllo di metà mese e riprogrammazione al mese dopo (risposta del supporto Trustpilot del 13/11/2026). Data in cima al 14/11/2026.
+
 ## 01/10/2026
 - 🔴 Sez. 2, 3, 6, 13: Guidelines for Businesses v7.3 (settembre 2026) al posto della v7.2: contenuto AI fra i motivi di segnalazione, software di rilevazione sulle segnalate; aggiunte le regole ufficiali già presenti ma mai scritte qui: tre giorni al recensore prima di segnalare "non basata su esperienza reale" e una sola recensione per recensore nel TrustScore.
 - 🟡 Listino (pricing USD) riletto il 01/10: invariato. Data di verifica al 01/10.

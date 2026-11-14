@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 14/11/2026
+- 🟡 Sez. 0, 1, 2: Claude Code 2.1.325; raccomandazione ufficiale «start with Opus 5.5 for most workloads»; `/usage` con la ripartizione del consumo per skill, subagenti, plugin e MCP, `/insights`. Pagine di Claude Code aggiornate il 12/11 sera: regole riscontrate invariate. Data in cima al 14/11/2026.
+
 ## 13/11/2026
 - 🔴 Sez. 8: due regole globali di Cristiano, «la chat fa dopo il permesso» (12/11/2026) e «la skill apposita si carica prima di ogni attività» (01/10, aggiornata il 12/11/2026: ricarica dopo la compattazione, skill sopra 20 KB a un sottoagente, Competenze su Cowork, controlli locali dal 01/11 e dal 12/11). 🟡 Sez. 6: caso Atlassian MCP v2 (v1 fino al 01/03/2027, connettori v1 su Claude da rifare, Trello escluso). Data in cima al 13/11/2026.
 

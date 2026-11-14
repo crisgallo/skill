@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # LinkedIn Ads (Campaign Manager): regole operative
 
-**Ultima verifica delle fonti: 11 novembre 2026.**
+**Ultima verifica delle fonti: 14 novembre 2026.**
 
 **Dove le fonti ufficiali smentiscono la vulgata (verificato 20/09/2026):**
 
@@ -55,7 +55,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 ## 3. Matched Audiences e pubblici predittivi
 
-- **Ogni pubblico Matched deve raggiungere 300 account membro** per essere usato; costruzione fino a **48 ore** ([a420864](https://www.linkedin.com/help/lms/answer/a420864), [a420297](https://www.linkedin.com/help/lms/answer/a420297)).
+- **Ogni pubblico Matched deve raggiungere 300 account membro** per essere usato; costruzione fino a **48 ore** ([a420864](https://www.linkedin.com/help/lms/answer/a420864), [a420297](https://www.linkedin.com/help/lms/answer/a420297)). 🟡 Pagina riletta il 14/11/2026: **un segmento sotto i 300 si può sommare ad altri segmenti nello stesso ad set** per arrivare alla soglia; un segmento ancora «in costruzione» si può già assegnare; nella lista aziende l'**URL della Pagina** (linkedin.com/company/nome) alza il tasso di abbinamento; le metriche per azienda delle liste caricate si leggono in **Companies Hub** (Plan > Companies).
 - **Liste contatti**: almeno **300 righe**, max **20 MB / 300.000 record**; email (in chiaro o SHA-256), oppure nome+cognome (+azienda), oppure device ID; LinkedIn suggerisce **almeno 10.000 email** per superare i 300 abbinati ([a1489764](https://www.linkedin.com/help/lms/answer/a1489764)). Tradotto: una lista CRM italiana da 2.000 nominativi con email aziendali **spesso non arriva a 300 abbinati**; si carica, si aspetta 48 ore, si guarda il numero prima di promettere retargeting CRM. Il tasso di abbinamento non è pubblicato da LinkedIn; ogni percentuale citata è di terzi.
 - **Liste aziende**: almeno 300 righe, max 300.000; nome, sito, dominio email, URL Pagina o ticker; consigliate **1.000+ aziende**; il pubblico scade se non usato entro 90 giorni ([a423102](https://www.linkedin.com/help/lms/answer/a423102)).
 - **Retargeting sito**: richiede Insight Tag; lookback **30, 60, 90, 180 giorni** (fino a 365 per video, Pagina, eventi, moduli); il pubblico **inizia a riempirsi dal giorno in cui lo crei**, non retroattivo; regole URL "inizia con / uguale / contiene" ([a420433](https://www.linkedin.com/help/lms/answer/a420433), [a420297](https://www.linkedin.com/help/lms/answer/a420297)). Su un sito B2B italiano da poche migliaia di visite/mese il retargeting 30 giorni non arriva a 300: si parte con 90 o 180.

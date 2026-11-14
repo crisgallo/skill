@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 14/11/2026
+- 🟡 Sez. 9: correzione della nota del 12/11 sui treni garantiti (le condizioni dell'elenco speciale sono cumulative); avviso Adriabus per lo sciopero generale del 20/11/2026 con le fasce. Data in cima al 14/11/2026.
+
 ## 12/11/2026
 - 🟡 Sez. 9: pagina Trenitalia dei treni garantiti riorganizzata (due elenchi per la lunga percorrenza secondo il tipo di sciopero, categoria indicata nel dettaglio del treno, fasce regionali confermate). Data in cima al 12/11/2026.
 

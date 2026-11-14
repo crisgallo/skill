@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 14/11/2026
+- 🟡 Sez. 10: release di prodotto riletta (Content Hub al posto della Content Library dal 12/10, pagina di report per automazione dal 14/10, quattro priorità dei task CRM dal 04/11). Data in cima al 14/11/2026.
+
 ## 13/11/2026
 - 🔴 Sez. 10: changelog API del 10/11/2026 su ordini ed eventi (date UTC con Z, aggiornamenti che si accodano, endpoint singolo vivo e batch con historical: true per lo storico, eventi via API salvati come personalizzati e quindi senza automazioni e-commerce, tracker o trackEvent per il carrello); webhook con api_key_name e campi di automazione. 🟡 Sez. 1: prezzi annuali della pagina prezzi. Data in cima al 13/11/2026.
 
