@@ -1,5 +1,8 @@
 # Changelog microsoft-ads
 
+## 15/11/2026
+- 🔴 Sez. 5: Max CPC via API non più impostabile dal 12/01/2027 sulle nuove campagne non-portfolio (errore esplicito; portfolio esclusi; campagne esistenti lo tengono ma non lo rimettono). Sez. 13: cronologia 23/09 e versioning API 09/11.
+
 ## 05/11/2026
 - 🟡 Sez. 2: Clarity del 04/11/2026: Agent Activity, Conversational Analytics, Brand Agents (post Microsoft Advertising), disponibilità [DA VERIFICARE].
 ## 01/11/2026
