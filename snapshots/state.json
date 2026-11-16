@@ -694,14 +694,6 @@
     "13/11 🟡 sez. 5: prezzi del Data Transfer Service, connettori Alphabet gratuiti"
    ]
   },
-  "microsoft-ads": {
-   "dal": "2026-11-05",
-   "livello": "sostanziale",
-   "voci": [
-    "🟡 05/11: sez. 2: Clarity del 04/11: Agent Activity, Conversational Analytics, Brand Agents, disponibilità [DA VERIFICARE]",
-    "15/11 🔴 sez. 5: Max CPC via API non più impostabile dal 12/01/2027 sulle nuove campagne non-portfolio (errore esplicito, portfolio esclusi, campagne esistenti lo tengono ma non lo rimettono); sez. 13 cronologia 23/09 e versioning API 09/11"
-   ]
-  },
   "redmine-harvest": {
    "dal": "2026-11-06",
    "livello": "minore",
@@ -718,60 +710,12 @@
     "13/11 🟡 sez. 3: dato Buffer sulla durata dei reel"
    ]
   },
-  "meta-ads-performance": {
-   "dal": "2026-11-08",
-   "livello": "sostanziale",
-   "voci": [
-    "08/11 🟡 sez. 0: aggiornamento delle Condizioni Meta del 20/11/2026 sospeso (pagina ufficiale 2481113349080785); restano le condizioni attuali",
-    "10/11 🔴 sez. 5: Marketing API v27.0 (04/11): «Raggiungi più persone su altri dispositivi mobili» acceso di default sui gruppi nuovi delle campagne Vendite, Product showcase acceso da solo con alta confidenza, Lookalike senza paese o località, moment maker deprecato, OTP sui Lead Ads, Catalog Batch API deprecata; nessuna modifica CAPI",
-    "11/11 🟡 sez. 1: come Meta sceglie le inserzioni nel 2026 (post ufficiali di ingegneria su GEM, GenRecs Tokenization e Andromeda, ottobre 2026): niente da impostare nel pannello, confermano pubblici larghi e consolidamento",
-    "11/11 🟡 sez. 5: un pubblico per ogni creatività nello stesso gruppo (creative audience pairing), campo API documentato, pannello [DA VERIFICARE]"
-   ]
-  },
   "gtm": {
    "dal": "2026-11-10",
    "livello": "minore",
    "voci": [
     "10/11 🟡 sez. 9: release note del 09/11: page view su modifica cronologia anche al ripristino dalla back/forward cache",
     "12/11 🟡 sez. 10: lista delle diagnosi della Diagnostica dei tag"
-   ]
-  },
-  "trello": {
-   "dal": "2026-11-10",
-   "livello": "sostanziale",
-   "voci": [
-    "10/11 🔴 sez. 9: tua regola del 09/11: un appuntamento creato dopo non sposta le voci fisse; sopra un viaggio nessuna voce nuova",
-    "11/11 🔴 sez. 10: tua regola del 10/11: commento sulla card a ogni lavoro chiuso, card riletta dopo ogni compattazione (ultimi 7 giorni, vale la card), chat girata dalla quinta compattazione e lo dice lei"
-   ]
-  },
-  "chatgpt-ads-performance": {
-   "dal": "2026-11-11",
-   "livello": "sostanziale",
-   "voci": [
-    "11/11 🔴 sez. 9: documentazione del Pixel (11/11): view-through con finestra fissa di 1 giorno, metrica separata a livello di campagna, non incluse in Conversions (al contrario della nota del 16/09); vale la documentazione, pannello [DA VERIFICARE]; consenso del Pixel e sorgenti CSP",
-    "11/11 🔴 sez. 8: sessione di test del Pixel in Ads Manager (Conversions > Data Source > Test, etichetta Test per 30 minuti, gli eventi di test contano)",
-    "13/11 🔴 sez. 6 e 11: campagne da product feed targetizzabili per regioni e mercati dentro il paese dal 12/11/2026 (Italia [DA VERIFICARE]); filtri dei product set con più condizioni sullo stesso campo in Ads Manager (docs API ancora contrari)"
-   ]
-  },
-  "prestashop": {
-   "dal": "2026-11-11",
-   "livello": "sostanziale",
-   "voci": [
-    "11/11 🔴 sez. 17 nuova: l'import CSV dei prodotti con sole colonne ID e Accessori non aggiorna in sicurezza (prodotto vuoto con Forza ID = No, categorie ridotte a una e canonical cambiato con Forza ID = Sì); accessori dalla scheda prodotto, confronto dei campi, Pulisci la cache, prova su un prodotto con controllo di categorie e numero prodotti",
-    "16/11 🔴 sez. 10: avviso critico del 14/11/2026 sul modulo Slider Revolution for PrestaShop (CVE-2026-117360, CVSS 9.8, RCE senza autenticazione, sfruttato in rete, nessuna patch): sostituire il modulo e cancellarne i file, disattivarlo non basta; blocco dei percorsi dal web server nell'attesa; controllo file e credenziali"
-   ]
-  },
-  "google-ads-performance": {
-   "dal": "2026-11-11",
-   "livello": "sostanziale",
-   "voci": [
-    "11/11 🔴 sez. 2: esplorazione Smart Bidding (tolleranza ROAS; tutte le PMax senza feed, beta Shopping e PMax con feed) e modalità promozione; obiettivi del ciclo di vita del cliente (valore nuovo cliente, alto valore, solo nuovi clienti anche con CPA target, re-engagement solo PMax, fedeltà, nuovi potenziali clienti; moltiplicatori della stampa [DA VERIFICARE])",
-    "11/11 🔴 sez. 4: risposte qualificanti nei moduli per i lead, solo Search, azione «Lead form - Response qualified (Google-hosted)», domanda obbligatoria",
-    "11/11 🟡 sez. 1: inserzioni in AI Mode in 10 nuovi paesi dal 28/10/2026, Italia esclusa, multiturn negli USA",
-    "11/11 🟡 sez. 4: Attributed branded searches (ABS), pagina Accelerate",
-    "12/11 🔴 sez. 4: la pagina GTM 12131703 dichiara completata la migrazione all'impostazione unica dei dati forniti dall'utente (tag, Data Manager, API insieme); resta la regola di leggere il pannello",
-    "12/11 🟡 sez. 0: aggiornamenti delle norme dell'11/11/2026 (categorie vietate nel targeting per interesse, impersonazione di personaggi pubblici con l'IA, telemedicina NABP, norma Sicurezza dei minori da gennaio 2027); sez. 4 colonne per le ricerche di brand; sez. 8 avviso 7 giorni marchi; sez. 12 2-3 settimane per leggere gli asset",
-    "14/11 🟡 sez. 13: dettagli ufficiali sulle passkey (dispositivo principale, browser, 1-2 giorni)"
    ]
   },
   "linkedin-ads": {
@@ -781,13 +725,6 @@
     "11/11 🟡 sez. 15: CTV Ads via Display & Video 360 dal 22/10/2026, disponibilità italiana [DA VERIFICARE]",
     "14/11 🟡 sez. 3: segmenti sotto i 300 sommabili, URL della Pagina nelle liste aziende, Companies Hub",
     "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro"
-   ]
-  },
-  "cristiano-gallinelli-persona": {
-   "dal": "2026-11-12",
-   "livello": "sostanziale",
-   "voci": [
-    "12/11 🔴 Tono generale: regola di Cristiano dell'11/11/2026, la lunghezza è «quanto basta», nessun tetto di parole o caratteri salvo i limiti tecnici"
    ]
   },
   "ga4-performance": {
@@ -805,42 +742,11 @@
     "14/11 🟡 sez. 9: condizioni cumulative dell'elenco speciale dei treni garantiti (correzione), sciopero generale del 20/11/2026"
    ]
   },
-  "strumenti-ai": {
-   "dal": "2026-11-12",
-   "livello": "sostanziale",
-   "voci": [
-    "12/11 🔴 skill nuova (richiesta di Cristiano del 12/11/2026): modelli e prezzi API, piani e limiti d'uso, skill personalizzate (formato, limiti, caricamento, sincronizzazione), Claude Code (CLAUDE.md, impostazioni, permessi, compattazione, subagenti, costi), sessioni cloud e attività pianificate, connettori MCP, Cowork, pratiche d'uso, cosa non fare mai; 21 pagine ufficiali lette il 12/11/2026",
-    "13/11 🔴 sez. 8: regole di Cristiano «la chat fa dopo il permesso» (12/11) e «la skill si carica prima di ogni attività» (aggiornata 12/11); 🟡 sez. 6 caso Atlassian MCP v2",
-    "14/11 🟡 sez. 0, 1, 2: Claude Code 2.1.325, «start with Opus 5.5», /usage con ripartizione del consumo"
-   ]
-  },
-  "brevo": {
-   "dal": "2026-11-13",
-   "livello": "sostanziale",
-   "voci": [
-    "13/11 🔴 sez. 10: changelog API del 10/11/2026 su ordini ed eventi (date UTC con Z, batch con historical: true per lo storico, eventi via API senza automazioni e-commerce, tracker o trackEvent per il carrello, webhook con api_key_name); 🟡 sez. 1 prezzi annuali",
-    "14/11 🟡 sez. 10: Content Hub, pagina di report per automazione, priorità dei task CRM"
-   ]
-  },
   "google-search-console": {
    "dal": "2026-11-13",
    "livello": "minore",
    "voci": [
     "13/11 🟡 sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa"
-   ]
-  },
-  "trustpilot": {
-   "dal": "2026-11-14",
-   "livello": "sostanziale",
-   "voci": [
-    "14/11 🔴 sez. 4: quota di inviti per mese di calendario (azzeramento il 1°, conteggio alla data di invio, combinati, stato «Limite raggiunto» non riprogrammato da solo, controllo di metà mese), dalla risposta del supporto Trustpilot del 13/11/2026"
-   ]
-  },
-  "wordpress-woocommerce": {
-   "dal": "2026-11-14",
-   "livello": "sostanziale",
-   "voci": [
-    "14/11 🔴 sez. 1: requisiti raccomandati WordPress, MySQL 8.4 o superiore al posto di 8.0"
    ]
   },
   "consent-mode-privacy": {
@@ -852,33 +758,34 @@
   }
  },
  "ultima_mail": {
-  "brevo": "2026-11-04",
+  "brevo": "2026-11-16",
   "google-search-console": "2026-10-01",
   "seo-tecnica": "2026-09-25",
-  "google-ads-performance": "2026-11-09",
+  "google-ads-performance": "2026-11-16",
   "looker-studio": "2026-09-29",
-  "trustpilot": "2026-10-01",
+  "trustpilot": "2026-11-16",
   "google-merchant-center": "2026-10-26",
   "sviluppo-web": "2026-10-22",
-  "cristiano-gallinelli-persona": "2026-09-29",
-  "chatgpt-ads-performance": "2026-11-09",
+  "cristiano-gallinelli-persona": "2026-11-16",
+  "chatgpt-ads-performance": "2026-11-16",
   "ga4-performance": "2026-11-09",
   "linkedin-ads": "2026-11-09",
-  "wordpress-woocommerce": "2026-11-12",
-  "meta-ads-performance": "2026-11-06",
+  "wordpress-woocommerce": "2026-11-16",
+  "meta-ads-performance": "2026-11-16",
   "meta-pixel-capi": "2026-11-06",
-  "trello": "2026-11-09",
+  "trello": "2026-11-16",
   "grafica-web-design": "2026-09-30",
-  "prestashop": "2026-11-10",
+  "prestashop": "2026-11-16",
   "redmine-harvest": "2026-11-02",
-  "microsoft-ads": "2026-11-02",
+  "microsoft-ads": "2026-11-16",
   "corsa-allenamento-salute": "2026-10-05",
   "ebay-venditore": "2026-10-16",
   "social-media-manager": "2026-10-19",
   "google-cloud": "2026-10-27",
   "viaggi-treno-italia": "2026-10-28",
   "gtm": "2026-11-09",
-  "substack-intelligence": "2026-11-10"
+  "substack-intelligence": "2026-11-10",
+  "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
   "ultima_lettura": "2026-11-16",
