@@ -5,7 +5,7 @@ description: "Regole operative verificate per fare audit, brief agli sviluppator
 
 # PrestaShop: regole operative
 
-**Ultima verifica delle fonti: 10 novembre 2026.**
+**Ultima verifica delle fonti: 16 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -141,6 +141,7 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 2. **Patch applicate**: 9.1.5 e 8.2.8 (18/08/2026) chiudono 5 falle, 3 High (formula injection CSV, SSRF import, spoofing `X-Forwarded-For`); lo spoofing IP richiede **anche** la configurazione corretta del proxy/CDN, non basta aggiornare ([build 8.2.8](https://build.prestashop-project.org/news/2026/prestashop-8-2-8-security-release/)). 9.1.3 del 20/05/2026 chiudeva una XSS Critical nel servizio clienti.
 3. **Security Charter**: CVE pubblicata per ogni falla ≥ 7.5, mai fix silenziosi ([prestashop.com/security-charter](https://prestashop.com/security-charter/)). Le advisory dei moduli (anche di Addons) escono su [security.friendsofpresta.org](https://security.friendsofpresta.org/): si controlla lì la lista moduli del negozio.
 4. **Moduli solo dal Marketplace o dal sito ufficiale dell'autore**, mai zip "nulled": la maggior parte delle compromissioni passa da moduli.
+   - 🔴 **Avviso critico del 14/11/2026, modulo «Slider Revolution for PrestaShop» (`revsliderprestashop`, SmartDataSoft)**: CVE-2026-117360, CVSS 9.8, **esecuzione di codice remoto senza autenticazione** (i controller admin del modulo eseguono le azioni AJAX prima del controllo di accesso di PrestaShop; in alcune versioni anche `modules/revsliderprestashop/ajax.php` e `rs-plugin/css/captions.php` sono raggiungibili dal pubblico). Vulnerabili **tutte le versioni esaminate, dalla 4.1.4 alla 6.2.22.5**, **nessuna versione corretta** (il fornitore non ha risposto, la mail di supporto rimbalza), **sfruttamento già osservato su un negozio compromesso** (webshell scritta attraverso il modulo). **Cosa fare**: se il negozio ha il modulo, chiedere allo sviluppatore di **sostituirlo con un modulo mantenuto e cancellare tutti i file del modulo**: disattivarlo dal back office **non basta**, i file PHP restano raggiungibili; nell'attesa, bloccare dal web server l'accesso pubblico ai percorsi del modulo (bloccare solo i controller `AdminRevolutionslider*` non chiude `ajax.php` e `captions.php`). Poi controllare file PHP non autorizzati e modifiche recenti ai file e, se c'è compromissione, cambiare le credenziali esposte (database incluse). Fonte: [advisory Friends of Presta del 14/11/2026](https://security.friendsofpresta.org/modules/2026/11/14/revsliderprestashop-cve-2026-117360.html), letta il 16/11/2026; nessuna dichiarazione del fornitore.
 5. **Backup** file + DB automatici e testati con un ripristino, prima di ogni aggiornamento.
 6. **Debug mode a No** (sez. 3): espone percorsi e query.
 
@@ -231,6 +232,8 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 ---
 
 ## Fonti (verificate 20/09/2026)
+
+**Aggiunte il 16/11/2026 (sez. 10):** [CVE-2026-117360, revsliderprestashop (Friends of Presta, 14/11/2026)](https://security.friendsofpresta.org/modules/2026/11/14/revsliderprestashop-cve-2026-117360.html).
 
 **Aggiunte il 24/10/2026:** [php.net, archivio 2026 (avviso del 23/10 su session upload progress)](https://www.php.net/archive/2026.php).
 

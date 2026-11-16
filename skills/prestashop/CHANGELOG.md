@@ -1,5 +1,8 @@
 # Changelog prestashop
 
+## 16/11/2026
+- 🔴 Sez. 10: avviso critico del 14/11/2026 sul modulo Slider Revolution for PrestaShop (CVE-2026-117360, CVSS 9.8, RCE senza autenticazione, sfruttato in rete, nessuna patch): sostituire il modulo e cancellarne i file, disattivarlo non basta; blocco dei percorsi dal web server nell'attesa; controllo file e credenziali.
+
 ## 11/11/2026
 - 🔴 Sez. 17 nuova (caso verificato sul back office di un negozio 8.0.4 il 10/11/2026, via chat [Manutenzione] Sistema #25): l'import CSV con sole colonne ID e Accessori crea un prodotto vuoto attivo con «Forza tutti gli ID» = No e riduce le categorie a una cambiando categoria principale e canonical con = Sì; gli accessori si salvano dalla scheda prodotto (campo related_products), confronto di tutti i campi prima e dopo, poi Pulisci la cache; prova su un prodotto con controllo di categorie e numero prodotti. Bullet in sez. 16.
 

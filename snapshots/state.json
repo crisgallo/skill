@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-15",
+  "ultima_lettura": "2026-11-16",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -757,7 +757,8 @@
    "dal": "2026-11-11",
    "livello": "sostanziale",
    "voci": [
-    "11/11 🔴 sez. 17 nuova: l'import CSV dei prodotti con sole colonne ID e Accessori non aggiorna in sicurezza (prodotto vuoto con Forza ID = No, categorie ridotte a una e canonical cambiato con Forza ID = Sì); accessori dalla scheda prodotto, confronto dei campi, Pulisci la cache, prova su un prodotto con controllo di categorie e numero prodotti"
+    "11/11 🔴 sez. 17 nuova: l'import CSV dei prodotti con sole colonne ID e Accessori non aggiorna in sicurezza (prodotto vuoto con Forza ID = No, categorie ridotte a una e canonical cambiato con Forza ID = Sì); accessori dalla scheda prodotto, confronto dei campi, Pulisci la cache, prova su un prodotto con controllo di categorie e numero prodotti",
+    "16/11 🔴 sez. 10: avviso critico del 14/11/2026 sul modulo Slider Revolution for PrestaShop (CVE-2026-117360, CVSS 9.8, RCE senza autenticazione, sfruttato in rete, nessuna patch): sostituire il modulo e cancellarne i file, disattivarlo non basta; blocco dei percorsi dal web server nell'attesa; controllo file e credenziali"
    ]
   },
   "google-ads-performance": {
@@ -778,7 +779,8 @@
    "livello": "minore",
    "voci": [
     "11/11 🟡 sez. 15: CTV Ads via Display & Video 360 dal 22/10/2026, disponibilità italiana [DA VERIFICARE]",
-    "14/11 🟡 sez. 3: segmenti sotto i 300 sommabili, URL della Pagina nelle liste aziende, Companies Hub"
+    "14/11 🟡 sez. 3: segmenti sotto i 300 sommabili, URL della Pagina nelle liste aziende, Companies Hub",
+    "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro"
    ]
   },
   "cristiano-gallinelli-persona": {
@@ -840,6 +842,13 @@
    "voci": [
     "14/11 🔴 sez. 1: requisiti raccomandati WordPress, MySQL 8.4 o superiore al posto di 8.0"
    ]
+  },
+  "consent-mode-privacy": {
+   "dal": "2026-11-16",
+   "livello": "minore",
+   "voci": [
+    "16/11 🟡 sez. CMP: programma partner Google riletto, tre livelli (Gold, Silver, Bronze), livelli dei CMP citati confermati, bollino App-ready"
+   ]
   }
  },
  "ultima_mail": {
@@ -872,7 +881,7 @@
   "substack-intelligence": "2026-11-10"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-15",
+  "ultima_lettura": "2026-11-16",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1118,6 +1127,18 @@
     "data": "2026-11-14",
     "mittente": "substack.com",
     "oggetto": "Merenda (newsletter del 14/11)",
+    "esito": "saltata: fuori perimetro"
+   },
+   "1a1e30f58b126a66": {
+    "data": "2026-11-16",
+    "mittente": "frankmerenda@substack.com",
+    "oggetto": "Ho menato l'Uomo Ragno",
+    "esito": "saltata: fuori perimetro"
+   },
+   "1a1e067b2e621210": {
+    "data": "2026-11-15",
+    "mittente": "selvaggialucarelli@substack.com",
+    "oggetto": "'O lui, o me'. Perché tra D'Urso e Mariotto è finita così male",
     "esito": "saltata: fuori perimetro"
    }
   }

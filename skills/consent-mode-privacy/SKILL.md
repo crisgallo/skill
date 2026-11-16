@@ -5,7 +5,7 @@ description: "Regole operative verificate per Google Consent Mode v2, banner coo
 
 # Consent Mode e privacy cookie: regole operative
 
-**Ultima verifica delle fonti: 20 settembre 2026.**
+**Ultima verifica delle fonti: 16 novembre 2026.**
 
 **Cosa è cambiato nel 2026 (per chi arriva da una configurazione del 2024-2025):**
 
@@ -119,7 +119,7 @@ Fonte: [tabella di confronto](https://developers.google.com/tag-platform/securit
 
 ## 7. CMP e GTM: la catena che regge
 
-- **Si usa un CMP del programma partner Google** (Gold: iubenda, Cookiebot/Usercentrics, OneTrust, Didomi, CookieYes, Axeptio; Silver: Complianz) ([cmppartnerprogram.withgoogle.com](https://cmppartnerprogram.withgoogle.com/)). Un banner fatto in casa è ammesso ma allora `default`/`update` e il registro dei consensi li si scrive e li si prova da soli.
+- **Si usa un CMP del programma partner Google** (Gold: iubenda, Cookiebot/Usercentrics, OneTrust, Didomi, CookieYes, Axeptio; Silver: Complianz) ([cmppartnerprogram.withgoogle.com](https://cmppartnerprogram.withgoogle.com/)). Un banner fatto in casa è ammesso ma allora `default`/`update` e il registro dei consensi li si scrive e li si prova da soli. 🟡 Pagina riletta il 16/11/2026: i partner sono classificati in **tre livelli, Gold, Silver e Bronze**, su «customer support and ease of technical integration»; iubenda, Cookiebot/Usercentrics, OneTrust, Didomi, CookieYes, Axeptio, Cookie Script e Termly restano Gold, Complianz e Osano Silver; alcuni (iubenda, Usercentrics, Didomi, CookieYes, Axeptio) hanno anche il bollino **«App-ready»** per il consent mode nelle app con Firebase e i partner di attribuzione. La pagina ricorda che «Nothing prevents advertisers from using a CMP that is not a partner (yet) to adopt Consent Mode».
 - **Ordine di caricamento: CMP prima di GTM, GTM prima di tutto il resto.** Con il template GTM del CMP (galleria community) l'ordine è garantito solo se il tag template ha l'attivatore **Inizializzazione del consenso - Tutte le pagine**. Con lo script CMP nel `<head>` deve stare **sopra** lo snippet GTM.
 - **iubenda:** template "Controlli per la privacy e soluzione per cookie iubenda", attivatore Inizializzazione del consenso, configurazione incollata dalla sezione *Incorpora* con "Automaticamente tramite modello GTM", consensi predefiniti per scopo tutti negati; Consent Mode v2 si attiva anche con l'autoblocking ([14546074](https://support.google.com/tagmanager/answer/14546074?hl=it), [iubenda help](https://www.iubenda.com/en/help/161602-attiva-google-consent-mode-con-iubenda/)).
 - **Cookiebot:** template "Cookiebot CMP" con il Domain Group ID sull'attivatore Inizializzazione del consenso; Consent Mode attivo di default; Google consiglia di sostituire gli attivatori "page load" dei tag terzi con l'evento personalizzato `cookie_consent_update` ([14546767](https://support.google.com/tagmanager/answer/14546767?hl=en)). Mappatura categorie → tipi: statistiche → `analytics_storage`; marketing → `ad_storage`, `ad_user_data`, `ad_personalization`; preferenze → `functionality_storage`, `personalization_storage` (pagina Cookiebot 403 il 20/09/2026, mappatura da documentazione terza).

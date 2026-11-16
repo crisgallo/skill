@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # LinkedIn Ads (Campaign Manager): regole operative
 
-**Ultima verifica delle fonti: 14 novembre 2026.**
+**Ultima verifica delle fonti: 16 novembre 2026.**
 
 **Dove le fonti ufficiali smentiscono la vulgata (verificato 20/09/2026):**
 
@@ -111,6 +111,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 ## 8. Lead Gen Forms
 
 - Fino a **12 campi profilo** precompilati, **3 domande personalizzate** (100 caratteri), **5 caselle di consenso** (500 caratteri ciascuna), **20 campi nascosti** (UTM, ID ad set, owner); titolo 60, dettagli 160, ringraziamento 300, privacy 2.000; **URL della privacy obbligatorio** ([a423364](https://www.linkedin.com/help/lms/answer/a423364), [a423447](https://www.linkedin.com/help/lms/answer/a423447)). LinkedIn consiglia **3–4 campi**: ogni campo in più abbassa il completamento, ma ogni campo in meno abbassa la qualità. Per il B2B italiano: email aziendale + azienda + ruolo + una domanda qualificante, e telefono solo se qualcuno chiama davvero.
+- 🟡 Pagina a423364 riletta il 16/11/2026 (procedura di creazione del modulo rivista): le sezioni del modulo sono **Dettagli** (nome, lingua, titolo e descrizione dell'offerta), **Dettagli lead** (campi standard e domande personalizzate), **Conferma** (ringraziamento con pagina di destinazione **o link di prenotazione di un appuntamento**) e **Impostazioni** (campi nascosti per il tracciamento, nomi dei campi nell'export o nella sincronizzazione CRM). Titolo, dettagli e conferma hanno il pulsante **«Personalize text»** con **macro** (dati del profilo del membro) per una versione personalizzata del testo: utile per il nome dell'azienda nel ringraziamento, da non usare per far sembrare il modulo scritto a mano. Nomi dei menu nel pannello italiano [DA VERIFICARE].
 - 🔴 **Il modulo precompilato produce lead che non ricordano di aver compilato niente.** Il lead va contattato entro ore, non giorni. Senza integrazione CRM (Zapier, HubSpot, Salesforce, Make: [a1680223](https://www.linkedin.com/help/lms/answer/a1680223)) i lead si scaricano in CSV a mano, servono **viewer sull'account + Lead Gen Forms manager sulla Pagina** ([a421867](https://www.linkedin.com/help/lms/answer/a421867)).
 - **Conservazione: 365 giorni**, poi cancellazione automatica ("Lead data is deleted from LinkedIn's servers automatically after 365 days", [a1444756](https://www.linkedin.com/help/lms/answer/a1444756); "one year", [a421867](https://www.linkedin.com/help/lms/answer/a421867)). Le metriche restano. Si esporta comunque ogni settimana: il cliente è titolare, LinkedIn no.
 - **GDPR**: il cliente è responsabile della base giuridica; la casella di consenso marketing si aggiunge come disclosure checkbox, non si dà per scontata. Regola operativa italiana, non LinkedIn.
@@ -231,6 +232,8 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 ---
 
 ## Fonti (verificate 20/09/2026)
+
+**Riletta il 16/11/2026 (sez. 8):** [Lead Gen Form, creazione e sezioni (a423364)](https://www.linkedin.com/help/lms/answer/a423364).
 
 **Aggiunte l'11/11/2026 (sez. 15):** [CTV Ads via Display & Video 360 (pressroom, 22/10/2026)](https://news.linkedin.com/2026/linkedins-ctv-ads-now-available-through-display-and-video-360) · [pagina CTV Ads](https://business.linkedin.com/advertise/ads/sponsored-content/connected-tv-ads).
 

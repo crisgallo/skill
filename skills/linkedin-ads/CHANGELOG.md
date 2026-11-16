@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 16/11/2026
+- 🟡 Sez. 8: pagina a423364 riletta, sezioni del modulo (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro.
+
 ## 14/11/2026
 - 🟡 Sez. 3: segmenti sotto i 300 sommabili nello stesso ad set, segmenti in costruzione assegnabili, URL della Pagina nelle liste aziende, Companies Hub (pagina a420864 riletta). Data in cima al 14/11/2026.
 
