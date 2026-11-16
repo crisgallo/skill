@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 16/11/2026
+- 🔴 Sez. 4, 5, 7 e 12: regole di Cristiano del 16/11/2026 (via Mother): numeri delle voci fissi (primo libero, spuntate comprese, nessuna rinumerazione; supera la numerazione per data del 15/10), sul calendario l'ordine dentro una checklist lo dà la data, dipendenze solo con `--dopo` (nuova, due, riapri, `trello.py dopo`) oltre alle fasi di ordine_checklist.json e alle voci pre-16/11 nate entro 10 minuti, fra due voci fisse cede quella che aspetta l'altra, il calendario lo governa Mother e Cristiano non sposta niente a mano.
+
 ## 11/11/2026
 - 🔴 Sez. 10: regola di Cristiano del 10/11/2026: commento sulla card a ogni lavoro chiuso, card riletta dopo ogni compattazione (voci aperte e commenti degli ultimi 7 giorni, vale la card), rotazione dalla quinta compattazione annunciata dalla chat.
 
