@@ -1,6 +1,7 @@
 # Changelog social-media-manager
 
 ## 17/11/2026
+- 🔴 Sez. 13 nuova: storie in evidenza di Instagram (nome di una parola da 5-6 lettere e di marketing, provato sul telefono; dentro una raccolta non si riordina e si parte dalla più vecchia, quindi al massimo tre storie togliendo la più vecchia; copertina 1080x1080 e cerchio 72 px, un segno solo), regole di Cristiano del 17/11/2026 via Mother.
 - 🔴 Sez. 2, 4, 5, 7, 8 e 12: 12 saperi verificati in pratica (via Mother #28): LinkedIn (campi ProseMirror del profilo, competenze e Servizi, cache del link in primo piano, editor degli articoli in iframe, ricerche di contenuti come URL), Instagram e Business Suite (sticker link con fbclid e utm_id, storie senza Instagram collegato, misure delle storie in evidenza, Sposta nelle bozze, commenti e funzioni solo da app, Accesso parziale, avviso sulla metrica Copertura).
 
 ## 13/11/2026
