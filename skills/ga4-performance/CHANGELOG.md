@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 17/11/2026
+- 🔴 Sez. 2, 4, 5, 8, 9 e tre sezioni nuove (Pubblici e dimensioni personalizzate; page_view doppi sui siti editoriali; Lettura dei numeri, casi): 17 saperi verificati in pratica dalle chat di progetto (via Mother #28): IPv6 nel traffico interno, filtri regex sugli eventi nuovi, raccolte, preset 28 giorni, limiti dei nomi, costruttore di pubblici, archiviazione delle dimensioni, link diretti, ruolo ereditato, Cestino, eventi a passi, nomi troncati, page_view doppi e misura su BigQuery, prodotti con due nomi, rimborsi negativi, categoria salute.
+
 ## 12/11/2026
 - 🟡 Sez. 7: sezione Pubblicità secondo la pagina ufficiale riorganizzata (prodotti da collegare, report Istantanea, Percorsi di attribuzione, Rendimento delle conversioni, report per prodotto, Annunci publisher; dimensione Integrazione nel Report view). Data in cima al 12/11/2026.
 

@@ -1,5 +1,8 @@
 # Changelog ebay-venditore
 
+## 17/11/2026
+- 🔴 Sez. 2, 4, 6, 7, 8, 10 e 13: 8 saperi verificati in pratica (via Mother #28): limite iniziale di un account privato e aumento via chat, limite mensile che conta il venduto, verifica del conto bancario, proposte e incasso netto della Protezione acquisti, etichetta e indirizzo del mittente, da Compralo Subito ad asta, dispositivo Apple con reset non verificato, procedura della bozza da Chrome.
+
 ## 19/10/2026
 - 🟡 Sez. 6, 10 e 13: dal log della chat eBay del 18/10: una vendita non libera il limite mensile (si azzera il 1°), secondo aumento negato dall'assistenza; etichetta BRT punto di ritiro con firma 5,45 euro e spedizione entro 2 giorni, errore «Indirizzo del mittente non valido» con indirizzo incompleto, proposte sotto il minimo rifiutate in automatico; Protezione acquisti verificata sui numeri (1.250 pagati, 1.218,92 incassati).
 ## 18/10/2026

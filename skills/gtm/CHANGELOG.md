@@ -1,5 +1,8 @@
 # Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 17/11/2026
+- 🔴 Sez. 3, 4, 5, 8, 10, 13 e 15: 11 saperi verificati in pratica (via Mother #28): trasformazioni dei nomi evento sul server limitate al tag Meta, ordine di pubblicazione web poi server per l'event_id, Phone Number Formatter, errore di invio dell'area di lavoro, due tag di conversione sullo stesso invio, tabella di ricerca senza default, verifica da fuori rete, aree di lavoro nella nuova interfaccia, email in chiaro a Meta dalla variabile Impostazioni evento, player video di terzi, import di una modifica in JSON.
+
 ## 12/11/2026
 - 🟡 Sez. 10: lista delle diagnosi della Diagnostica dei tag secondo la pagina ufficiale riorganizzata (un solo amministratore, domini aggiuntivi, config fuori ordine, conversion linker mancante, UA legacy, consenso SEE mancante o fuori ordine, tasso di consenso 0%, tag troppo in basso). Data in cima al 12/11/2026.
 

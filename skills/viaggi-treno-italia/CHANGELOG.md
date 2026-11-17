@@ -1,6 +1,7 @@
 # Changelog viaggi-treno-italia
 
 ## 17/11/2026
+- 🔴 Sez. 3 e 14: 3 saperi verificati in pratica (via Mother #28): posti singoli solo in Business, scelta del posto a 4 euro, sconti CartaFRECCIA (10 euro ogni 300 punti, massimo due per biglietto, sole Frecce da 20 euro, upgrade a 500 punti).
 - 🟡 Sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026, dalla pagina dei treni garantiti.
 
 ## 14/11/2026

@@ -1,6 +1,7 @@
 # Changelog meta-pixel-capi
 
 ## 17/11/2026
+- 🔴 Sez. 1, 2, 5, 11 e 13: 6 saperi verificati in pratica (via Mother #28): account nuovo aperto da un partner, «Genera token d'accesso» grigio per pixel personale, EMQ 0,0 per eventi fermi e dominio invalid.invalid, ID del pixel diversi dal feed con il modulo PrestaShop, eventi personalizzati della categoria salute e catalogo, valore degli acquisti in «Valore risultati».
 - 🟡 Sez. 3: eventi offline via CAPI con action_source physical_store (Offline Conversions API «legacy»), parametro net_revenue per il margine, nessuna ottimizzazione sul margine documentata.
 
 ## 06/11/2026

@@ -1,6 +1,7 @@
 # Changelog linkedin-ads
 
 ## 17/11/2026
+- 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti.
 - 🔴 Sez. 10: versione API 202611: SHA256_PHONE nella Conversions API, billingReference, Boost API, surface obbligatorio sulle liste publisher; sunset 202511 il 16/11/2026 e 202601 il 15/01/2027.
 
 ## 16/11/2026

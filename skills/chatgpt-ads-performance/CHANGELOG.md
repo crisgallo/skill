@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 17/11/2026
+- 🔴 Sez. 3, 4, 7 e 8: 4 saperi verificati in pratica sul Blog (via Mother #28): indicatore dell'offerta CPC e pavimento a 1,95 €, una sola immagine per inserzione, utm_term={ad_id} in GA4 e colonna ID annuncio, «Pubblica» che lascia tutto spento.
+
 ## 13/11/2026
 - 🔴 Sez. 6: le campagne da product feed si targetizzano anche per regioni e mercati dentro il paese dal 12/11/2026 (mail OpenAI del 12/11), località italiane [DA VERIFICARE]. 🔴 Sez. 11: filtri dei product set con più condizioni sullo stesso campo in Ads Manager; i docs API dicono ancora il contrario. Data in cima al 13/11/2026.
 

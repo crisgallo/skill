@@ -29,6 +29,9 @@ description: "Regole operative verificate per leggere e usare Google Search Cons
 - Ai fini GDPR i dati GSC sono aggregati e senza identificativi utente: non entra nel registro trattamenti come dato personale, ma **l'accesso va dato a account nominativi**, mai a un Gmail condiviso dell'agenzia.
 - Le **platform properties** (Instagram, TikTok, X, YouTube) sono disponibili a tutti dal 29/07/2026 e mostrano il rendimento dei post su Search, Discover e Google News; si aggiungono da Search Console e si collegano al Search profile ([blog 29/07/2026](https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide)). Servono ai clienti che spingono i video su YouTube, non a un e-commerce.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `search_console_e_bigquery.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Avviso di indicizzazione e sottodomini di staging.** La proprietà Dominio legge anche i sottodomini. Una mail su «nuovi motivi che impediscono l'indicizzazione» con centinaia di pagine non indicizzate riguardava quasi tutta un sottodominio di staging sullo stesso dominio (bloccate da robots.txt, 404, canonical, duplicate, scansionate e non indicizzate). Del sito vero c'erano solo i redirect da http e da www (301, giusti) e due file JavaScript di WordPress. Si apre il report Pagine e si filtra per host (Il Collettivo, 12/10/2026).
+
 ---
 
 ## 2. Rapporto Rendimento: come si legge un numero prima di metterlo in un report
@@ -114,6 +117,9 @@ description: "Regole operative verificate per leggere e usare Google Search Cons
 
 **Sitemap** ([7451001](https://support.google.com/webmasters/answer/7451001?hl=en)): stati *Riuscito*, *Errori*, *Impossibile recuperare*; max 50.000 URL e 50 MB non compressi per file, indice di sitemap max 50.000 sitemap e "can't list other sitemap index files". "Pagine rilevate" è quante URL sono state lette, "there is no guarantee that a page URL discovered in a sitemap has been or will be crawled or indexed". La sitemap contiene **solo URL canonici, indicizzabili, con 200**: un e-commerce che mette in sitemap varianti e pagine noindex produce un rapporto Pagine pieno di "duplicati" auto-inflitti. Il rapporto Pagine si legge filtrato per sitemap: la differenza fra "inviate" e "indicizzate" è il numero che va nel report.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `search_console_e_bigquery.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Convalida e cache.** La prima convalida è fallita perché Googlebot ha riscansionato e la cache gli ha servito la pagina vecchia; la colonna «Ultima scansione» l'ha mostrato. La seconda, attesa per due settimane dopo, è arrivata in due giorni: «Google ha convalidato la correzione dei problemi di tipo Dati strutturati Breadcrumb» (Blog, 07-09/09/2026).
+
 ---
 
 ## 7. Esperienza, link, azioni manuali, sicurezza, rimozioni
@@ -124,6 +130,9 @@ description: "Regole operative verificate per leggere e usare Google Search Cons
 - **Azioni manuali** ([9044175](https://support.google.com/webmasters/answer/9044175?hl=en)): revisore umano, parziale (pattern di URL) o su tutto il sito. Si corregge su **tutte** le pagine, si documenta ("the exact quality issue, steps you've taken to fix, outcome"), si invia una sola richiesta di riconsiderazione e si aspetta: "several days or weeks". Non si reinvia prima della risposta. Tipi che toccano PMI ed e-commerce: dati strutturati ingannevoli (recensioni finte, prezzi non corrispondenti), link innaturali, contenuti scarni, site reputation (sezione 4).
 - **Problemi di sicurezza** ([9044101](https://support.google.com/webmasters/answer/9044101?hl=en)): contenuti compromessi, malware, social engineering; producono etichette in SERP e interstitial in Chrome, quindi il traffico crolla prima ancora del ranking. Si pulisce, si chiude la falla, si chiede la revisione; la comunicazione arriva solo via email ai proprietari: **l'email del proprietario verificato deve essere una casella letta**.
 - **Rimozioni** ([9689846](https://support.google.com/webmasters/answer/9689846?hl=en)): "A successful request lasts only about six months", "does not prevent Google from crawling your page, only from showing it". Per URL esatto o per prefisso. Rimozione permanente solo con 404/410, noindex o password. ⛔ Mai usare *Rimuovi per prefisso* su una cartella viva durante una migrazione: si nasconde mezzo catalogo per sei mesi.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `search_console_e_bigquery.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Breadcrumb con `@id` orfano.** Tolto il nodo `BreadcrumbList` dal grafo JSON-LD della home, nella `CollectionPage` restava la proprietà `breadcrumb` che puntava al suo `@id`: Search Console ha segnalato un problema Breadcrumb critico, «campo mancante `itemListElement`», su una pagina. Il difetto è un riferimento pendente, non una briciola sbagliata (Blog, 04/09/2026).
 
 ---
 
@@ -206,6 +215,16 @@ description: "Regole operative verificate per leggere e usare Google Search Cons
 - **Migrare senza aver esportato i 16 mesi** della vecchia proprietà e senza export BigQuery acceso sulla nuova.
 - **Essere l'unico proprietario verificato** di una proprietà del cliente.
 - **Fidarsi di un dato degli ultimi 2-3 giorni** in un report: è preliminare.
+
+---
+
+## 14. Stralcio in SERP (snippet)
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `search_console_e_bigquery.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Stralcio della home sul nome proprio.** Cercando il nome del titolare, lo stralcio era fatto dall'alt della foto e dalla riga del copyright, non dalla meta description. Con `data-nosnippet` (filtro `render_block`) su piede, etichette e fascia con la foto, e l'alt riscritto, lo stralcio è tornato alla description: non si governa quale testo Google usa, ma quali testi ha a disposizione (Blog, 14-23/09/2026, una query sola).
+
+---
+
 
 ---
 

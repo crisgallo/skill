@@ -51,6 +51,10 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 - **Auto-Targeting** (per ad set "Classic", introdotto 29/09/2025): costruisce il pubblico da URL, nome prodotto, storico dell'account; nasce per le PMI, e resta un pubblico che non si legge riga per riga ([a7481946](https://www.linkedin.com/help/lms/answer/a7481946), [Social Media Today 29/09/2025](https://www.socialmediatoday.com/news/linkedin-adds-more-ai-automation-ad-elements-targeting-creative/761434/)). Su un account con ICP definito non si usa; su un test con budget minimo si può, ma si legge il report demografico prima di rinnovare.
 - **Buyer Groups** (pubblici generati automaticamente, pagina a425184 letta il 23/09/2026): si aggiungono **fino a tre categorie di prodotto** nell'ad set e LinkedIn costruisce il gruppo d'acquisto; nasce per pipeline e lead qualificati, e come tutti i pubblici automatici non si legge riga per riga (https://www.linkedin.com/help/lms/answer/a425184).
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `linkedin_ads.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **La portata prevista non serve per i preventivi.** A 30 giorni la portata prevista è uguale a ogni budget e sottostima molto: in un caso prevedeva da 7 a 14 volte meno persone di quelle raggiunte davvero nel primo mese. Nel pannello di previsione non ci sono impression né CPM. Per le stime si usano la dimensione del pubblico e la penetrazione reale di una campagna simile (cliente B2B, 18/10/2026).
+- **Lingue del profilo non offerte.** Il profilo di lingua offre l'inglese ma non lo swahili, che fra Google Ads, LinkedIn e Meta c'è solo su Meta. Un segmento di prodotti del settore ricambi non si trova più fra quelli selezionabili (cliente B2B, ottobre 2026; osservazione senza metodo di verifica [DA VERIFICARE]).
+
 ---
 
 ## 3. Matched Audiences e pubblici predittivi
@@ -202,6 +206,9 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 11. **Pagina e permessi**: chi è super admin della Pagina, chi ha Creative manager sull'account.
 12. **Brand Safety Hub**: blocklist e categorie IAB a livello account; report publisher se la LAN è accesa.
 13. **Connettori e script** su Marketing API: versione in uso, sunset 15/10/2026.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `linkedin_ads.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Il gruppo di campagne nasce acceso.** Creato per una bozza di stima, il gruppo risultava «Campagna programmata» (ereditato dalla creazione) anche col set dentro in Bozza, spento e senza annunci. Per chiudere tutto si elimina il set, poi si spegne ed elimina il gruppo (cliente B2B, 18/10/2026).
 
 ---
 

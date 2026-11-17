@@ -1,6 +1,7 @@
 # Changelog google-search-console
 
 ## 17/11/2026
+- 🔴 Sez. 1, 6, 7 e sezione nuova «Stralcio in SERP (snippet)»: 4 saperi verificati in pratica (via Mother #28): avviso di indicizzazione dovuto a un sottodominio di staging, Breadcrumb con @id orfano, convalida fallita per la cache, stralcio della home governato con data-nosnippet.
 - 🟡 Sez. 9: API Search Analytics con filtro brandedClassification (BRANDED/NON_BRANDED, dal 21/02/2026), tipo webMultimodal e filterLists.
 
 ## 13/11/2026

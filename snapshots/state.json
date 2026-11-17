@@ -675,11 +675,12 @@
   },
   "ebay-venditore": {
    "dal": "2026-10-17",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 17/10: sez. 0, 8, 10 e 13: account di Cristiano dalla chat eBay del 16/10 (break13, privato, 118 feedback, limite da 1/10 euro a 20/2.000 dopo chat con l'operatore, verifica bancaria in corso)",
     "🟡 18/10: sez. 10 e 13: limite di valore consumato dalle inserzioni attive, proposta con Protezione acquisti, bozze a 75 giorni, prezzo consigliato eBay, eBay Spedizioni BRT (log della chat eBay)",
-    "🟡 19/10: sez. 6, 10 e 13: una vendita non libera il limite mensile (si azzera il 1°), aumento negato dall'assistenza; etichetta BRT punto di ritiro con firma 5,45 euro, spedizione entro 2 giorni, indirizzo mittente completo; proposte sotto il minimo rifiutate in automatico; Protezione acquisti verificata sui numeri (log della chat eBay del 18/10)"
+    "🟡 19/10: sez. 6, 10 e 13: una vendita non libera il limite mensile (si azzera il 1°), aumento negato dall'assistenza; etichetta BRT punto di ritiro con firma 5,45 euro, spedizione entro 2 giorni, indirizzo mittente completo; proposte sotto il minimo rifiutate in automatico; Protezione acquisti verificata sui numeri (log della chat eBay del 18/10)",
+    "17/11 🔴 Sez. 2, 4, 6, 7, 8, 10 e 13: 8 saperi verificati in pratica (via Mother #28): limite iniziale di un account privato e aumento via chat, limite mensile che conta il venduto, verifica del conto bancario, proposte e incasso netto della Protezione acquisti, etichetta e indirizzo del mittente, da Compralo Subito ad asta, dispositivo Apple con reset non verificato, procedura della bozza da Chrome."
    ]
   },
   "grafica-web-design": {
@@ -699,43 +700,48 @@
   },
   "google-merchant-center": {
    "dal": "2026-10-27",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 27/10: sez. 3: stesso obbligo di passkey su Google Ads dall'11/11/2026; abbinamento in 1-2 giorni, piena attività dopo 7: si crea subito",
     "🟡 05/11: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; etichette IA anche in Merchant Center",
-    "12/11 🟡 sez. 2: Misrepresentation, condizioni della transazione nascoste vietate; offerte non disponibili senza sospensione immediata"
+    "12/11 🟡 sez. 2: Misrepresentation, condizioni della transazione nascoste vietate; offerte non disponibili senza sospensione immediata",
+    "17/11 🔴 Sez. 4, 8, 10, 12 e sezione nuova «Valutazioni dei prodotti (stelle su Shopping)»: 9 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): Foglio Google come origine supplementare, componente aggiuntivo per le origini supplementari, requisiti e stato delle valutazioni dei prodotti, «Pagina del prodotto non disponibile» per lentezza, effetti dei «Trovati da Google», diagnostica incoerente, promozioni con omaggio, «Pubblicità personalizzata: difficoltà personali»."
    ]
   },
   "google-cloud": {
    "dal": "2026-10-30",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm",
-    "13/11 🟡 sez. 5: prezzi del Data Transfer Service, connettori Alphabet gratuiti"
+    "13/11 🟡 sez. 5: prezzi del Data Transfer Service, connettori Alphabet gratuiti",
+    "17/11 🔴 Sez. 5 e 6: 2 saperi verificati in pratica (via Mother #28): accesso BigQuery a tempo per un assessment (Data Viewer, Job User, Metadata Viewer, Resource Viewer; oppure Service Account Admin e Project IAM Admin), eventi GA4 esclusi dall'export da dichiarare per iscritto."
    ]
   },
   "redmine-harvest": {
    "dal": "2026-11-06",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "🟡 06/11: sez. 8: Harvest Teams 11 $ a posto al mese senza impegno annuale",
-    "08/11 🟡 sez. 9: news 164 letta, conferma le patch del 01/11 e aggiunge sessioni/password scadute e politica di patch per il ramo 6.0.x"
+    "08/11 🟡 sez. 9: news 164 letta, conferma le patch del 01/11 e aggiunge sessioni/password scadute e politica di patch per il ramo 6.0.x",
+    "17/11 🔴 Sez. 3, 4, 8, 10 e 15: 9 saperi verificati in pratica (via Mother #28): API interna di Harvest dalla sessione web (POST/PATCH/DELETE /time/api), note senza il tempo del tecnico, Start e vista Settimana, project Redmine di un'agenzia partner (campi Da e A, durata con la virgola, testo pubblicato dal consulente, form di modifica, menzioni, primo caricamento)."
    ]
   },
   "social-media-manager": {
    "dal": "2026-11-07",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "07/11 🟡 sez. 8: analisi Pagina LinkedIn, aggiunte le schede Comparse della Pagina, Newsletter ed Employer brand",
-    "13/11 🟡 sez. 3: dato Buffer sulla durata dei reel"
+    "13/11 🟡 sez. 3: dato Buffer sulla durata dei reel",
+    "17/11 🔴 Sez. 2, 4, 5, 7, 8 e 12: 12 saperi verificati in pratica (via Mother #28): LinkedIn (campi ProseMirror del profilo, competenze e Servizi, cache del link in primo piano, editor degli articoli in iframe, ricerche di contenuti come URL), Instagram e Business Suite (sticker link con fbclid e utm_id, storie senza Instagram collegato, misure delle storie in evidenza, Sposta nelle bozze, commenti e funzioni solo da app, Accesso parziale, avviso sulla metrica Copertura)."
    ]
   },
   "gtm": {
    "dal": "2026-11-10",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "10/11 🟡 sez. 9: release note del 09/11: page view su modifica cronologia anche al ripristino dalla back/forward cache",
-    "12/11 🟡 sez. 10: lista delle diagnosi della Diagnostica dei tag"
+    "12/11 🟡 sez. 10: lista delle diagnosi della Diagnostica dei tag",
+    "17/11 🔴 Sez. 3, 4, 5, 8, 10, 13 e 15: 11 saperi verificati in pratica (via Mother #28): trasformazioni dei nomi evento sul server limitate al tag Meta, ordine di pubblicazione web poi server per l'event_id, Phone Number Formatter, errore di invio dell'area di lavoro, due tag di conversione sullo stesso invio, tabella di ricerca senza default, verifica da fuori rete, aree di lavoro nella nuova interfaccia, email in chiaro a Meta dalla variabile Impostazioni evento, player video di terzi, import di una modifica in JSON."
    ]
   },
   "linkedin-ads": {
@@ -745,38 +751,43 @@
     "11/11 🟡 sez. 15: CTV Ads via Display & Video 360 dal 22/10/2026, disponibilità italiana [DA VERIFICARE]",
     "14/11 🟡 sez. 3: segmenti sotto i 300 sommabili, URL della Pagina nelle liste aziende, Companies Hub",
     "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro",
-    "17/11 🔴 sez. 10: API 202611 (SHA256_PHONE nella CAPI, billingReference, Boost API, surface obbligatorio), sunset 202511 il 16/11/2026 e 202601 il 15/01/2027"
+    "17/11 🔴 sez. 10: API 202611 (SHA256_PHONE nella CAPI, billingReference, Boost API, surface obbligatorio), sunset 202511 il 16/11/2026 e 202601 il 15/01/2027",
+    "17/11 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti."
    ]
   },
   "ga4-performance": {
    "dal": "2026-11-12",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "12/11 🟡 sez. 7: sezione Pubblicità secondo la pagina riorganizzata (report e dimensione Integrazione)"
+    "12/11 🟡 sez. 7: sezione Pubblicità secondo la pagina riorganizzata (report e dimensione Integrazione)",
+    "17/11 🔴 Sez. 2, 4, 5, 8, 9 e tre sezioni nuove (Pubblici e dimensioni personalizzate; page_view doppi sui siti editoriali; Lettura dei numeri, casi): 17 saperi verificati in pratica dalle chat di progetto (via Mother #28): IPv6 nel traffico interno, filtri regex sugli eventi nuovi, raccolte, preset 28 giorni, limiti dei nomi, costruttore di pubblici, archiviazione delle dimensioni, link diretti, ruolo ereditato, Cestino, eventi a passi, nomi troncati, page_view doppi e misura su BigQuery, prodotti con due nomi, rimborsi negativi, categoria salute."
    ]
   },
   "viaggi-treno-italia": {
    "dal": "2026-11-12",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "12/11 🟡 sez. 9: pagina Trenitalia dei treni garantiti riorganizzata, due elenchi per la lunga percorrenza",
     "14/11 🟡 sez. 9: condizioni cumulative dell'elenco speciale dei treni garantiti (correzione), sciopero generale del 20/11/2026",
-    "17/11 🟡 sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026"
+    "17/11 🟡 sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026",
+    "17/11 🔴 Sez. 3 e 14: 3 saperi verificati in pratica (via Mother #28): posti singoli solo in Business, scelta del posto a 4 euro, sconti CartaFRECCIA (10 euro ogni 300 punti, massimo due per biglietto, sole Frecce da 20 euro, upgrade a 500 punti)."
    ]
   },
   "google-search-console": {
    "dal": "2026-11-13",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "13/11 🟡 sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa",
-    "17/11 🟡 sez. 9: API Search Analytics con brandedClassification (dal 21/02/2026), webMultimodal e filterLists"
+    "17/11 🟡 sez. 9: API Search Analytics con brandedClassification (dal 21/02/2026), webMultimodal e filterLists",
+    "17/11 🔴 Sez. 1, 6, 7 e sezione nuova «Stralcio in SERP (snippet)»: 4 saperi verificati in pratica (via Mother #28): avviso di indicizzazione dovuto a un sottodominio di staging, Breadcrumb con @id orfano, convalida fallita per la cache, stralcio della home governato con data-nosnippet."
    ]
   },
   "consent-mode-privacy": {
    "dal": "2026-11-16",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "16/11 🟡 sez. CMP: programma partner Google riletto, tre livelli (Gold, Silver, Bronze), livelli dei CMP citati confermati, bollino App-ready"
+    "16/11 🟡 sez. CMP: programma partner Google riletto, tre livelli (Gold, Silver, Bronze), livelli dei CMP citati confermati, bollino App-ready",
+    "17/11 🔴 Sez. 7, 11 e 12: 14 saperi verificati in pratica dalle chat di progetto (via Mother #28): CMP sotto GTM e default negato come rete di sicurezza, Complianz gratuito senza Consent Mode e con il modello di Simo Ahava, prova dei tre stati, regole GTM per lingua, crollo degli Utenti attivi da CMP, script iniettato dal container, limiti del Complianz gratuito, Iubenda senza googleConsentMode, prove con Chrome headless, banner su iPhone, Modalità provvisoria, Iubenda senza evento di cambio consenso."
    ]
   },
   "trello": {
@@ -784,7 +795,8 @@
    "livello": "sostanziale",
    "voci": [
     "16/11 🔴 sez. 4, 5, 7, 12: regole di Cristiano del 16/11 (via Mother): numeri delle voci fissi (primo libero, nessuna rinumerazione; supera la numerazione per data del 15/10), ordine a calendario per data, dipendenze solo con --dopo, fra voci fisse cede quella che aspetta, calendario governato da Mother",
-    "17/11 🔴 sez. 3, 4, 5, 10: niente avvisi in Promemoria (guasti a Mother), dati di Cristiano cercati prima su Trello, numero mai riusato e rinomina che rifiuta, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage"
+    "17/11 🔴 sez. 3, 4, 5, 10: niente avvisi in Promemoria (guasti a Mother), dati di Cristiano cercati prima su Trello, numero mai riusato e rinomina che rifiuta, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage",
+    "17/11 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori."
    ]
   },
   "strumenti-ai": {
@@ -798,21 +810,67 @@
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 sez. 4: rettifiche delle conversioni con ID ordine, lette dalle offerte solo nei 7 giorni, nei report fino a 54, ritiro irreversibile; 🟡 sez. 2: Search Journey Awareness nello Smart Bidding"
+    "17/11 🔴 sez. 4: rettifiche delle conversioni con ID ordine, lette dalle offerte solo nei 7 giorni, nei report fino a 54, ritiro irreversibile; 🟡 sez. 2: Search Journey Awareness nello Smart Bidding",
+    "17/11 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati."
    ]
   },
   "brevo": {
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva; sez. 5: Brevo PushOwl unico collegamento Shopify, import che sovrascrive attributi e iscrizioni"
+    "17/11 🔴 sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva; sez. 5: Brevo PushOwl unico collegamento Shopify, import che sovrascrive attributi e iscrizioni",
+    "17/11 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA."
    ]
   },
   "meta-pixel-capi": {
    "dal": "2026-11-17",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "17/11 🟡 sez. 3: eventi offline via CAPI (physical_store, Offline Conversions API legacy), parametro net_revenue, nessuna ottimizzazione sul margine documentata"
+    "17/11 🟡 sez. 3: eventi offline via CAPI (physical_store, Offline Conversions API legacy), parametro net_revenue, nessuna ottimizzazione sul margine documentata",
+    "17/11 🔴 Sez. 1, 2, 5, 11 e 13: 6 saperi verificati in pratica (via Mother #28): account nuovo aperto da un partner, «Genera token d'accesso» grigio per pixel personale, EMQ 0,0 per eventi fermi e dominio invalid.invalid, ID del pixel diversi dal feed con il modulo PrestaShop, eventi personalizzati della categoria salute e catalogo, valore degli acquisti in «Valore risultati»."
+   ]
+  },
+  "chatgpt-ads-performance": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 Sez. 3, 4, 7 e 8: 4 saperi verificati in pratica sul Blog (via Mother #28): indicatore dell'offerta CPC e pavimento a 1,95 €, una sola immagine per inserzione, utm_term={ad_id} in GA4 e colonna ID annuncio, «Pubblica» che lascia tutto spento."
+   ]
+  },
+  "meta-ads-performance": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 Sez. 1, 2, 5, 6, 7 e 9: 19 saperi verificati in pratica dalle chat di progetto (via Mother #28): feed supplementare da Foglio Google, copie di inserzioni rotte, reel Instagram come inserzione, budget di campagna e data d'inizio, posizionamenti Facebook, etichette del portfolio, targeting Advantage+ con obiettivo Traffico, colonna destra, consegna fra inserzioni dello stesso gruppo, elementi eliminati, modulo di creazione, Libreria inserzioni, spegnimento, SMS della Fatturazione, insiemi di prodotti, modello grafico del catalogo, «Mostra prodotti», verifica dell'azienda, storie programmate."
+   ]
+  },
+  "prestashop": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 Sez. 10: CVE-2026-54159 di ps_facetedsearch (3.0.0-4.0.3, RCE senza autenticazione, CVSS 10, corretta nella 4.0.4, GHSA del 10/07/2026): controllo della versione in Moduli e aggiornamento immediato. Nota sulla fonte dell'avviso Slider Revolution (sola advisory Friends of Presta, non su NVD).",
+    "17/11 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup."
+   ]
+  },
+  "substack-intelligence": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 Sezioni nuove «Tracciamento sulla pubblicazione (pixel e GA4)» e «Impostazioni della pubblicazione che non salvano», più «Dove stanno i dati» e «Opzioni SEO e anteprima social»: 5 saperi verificati in pratica sul Blog (via Mother #28): pixel Meta e GA4 non caricati, impostazioni che non salvano, cosa vede un visitatore, immagini dalla CDN e cover_image vuota."
+   ]
+  },
+  "trustpilot": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 Sez. 1, 4, 5 e 9: 7 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): quota inviti del contratto e non del listino, prezzi della quota extra, risposte alle recensioni di prodotto non eliminabili, impostazioni degli inviti trovate su un Plus, valutazioni negozio e prodotto su Google via Trustpilot (feed automatico, modulo di Google), modello d'invito del modulo PrestaShop e utenti."
+   ]
+  },
+  "wordpress-woocommerce": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 Sez. 2, 4, 5, 6, 7, 10 e 14: 33 saperi verificati in pratica dalle chat di progetto (via Mother #28): WP Super Cache, cache mobile del tema, prova dei form CF7 e Jetpack, Complianz, registro 404 di Redirection, AIOSEO (schema, sitemap, rotte REST, llms.txt), WP_DEBUG via WPCode, REST con X-WP-Nonce, aggiornamenti automatici, antispam dei moduli, PageSpeed, WordPress.com (newsletter, Publicize, pingback, theme.json, cache di bordo), wptexturize, tema a blocchi, ACF, editor dei temi, trappole WPCode, Jetpack immagini, GTM4WP."
    ]
   }
  },

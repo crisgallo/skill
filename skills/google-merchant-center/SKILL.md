@@ -66,6 +66,9 @@ Merchant Center cambia nomi di menu, attributi obbligatori e date di enforcement
 - **Shopify / WooCommerce:** l'app ufficiale sincronizza ma raramente espone `custom_label`, `product_type` puliti o il `link` della variante: si affianca un'origine supplementare (sez. 8).
 - **Feed label:** fino a 20 caratteri, solo A-Z maiuscole, 0-9, trattino e underscore; **non si cambia dopo la creazione dell'origine**; per un solo paese si usa il codice paese `IT` ([14994087](https://support.google.com/merchants/answer/14994087?hl=en)).
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `merchant_center.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Origine automatica «Trovati da Google», effetti osservati.** Ogni 24 ore prende anche pagine non prodotto (archivi e articoli del blog, disapprovati per prezzo mancante) e rimette i prodotti che il venditore tiene fuori dal feed: una linea esclusa per regola compariva e spariva a giorni alterni e il totale oscillava di decine di righe senza che il feed cambiasse. Con una PMax su «Tutti i prodotti da tutti i feed» la protezione era solo nei gruppi di schede per ID con «Tutto il resto» escluso (e-commerce, 15/10 e 11/11/2026).
+
 ---
 
 ## 5. Attributi per l'Italia
@@ -122,6 +125,10 @@ Le etichette `custom_label` sono l'unica leva pulita per separare margine, stagi
 - Un'**origine dati supplementare** integra o sovrascrive attributi dell'origine principale, abbinata per `id`; **non aggiunge né rimuove prodotti** e non vive da sola; le vecchie origini «inventario online» sono **deprecate** e sostituite dalle supplementari ([14990942](https://support.google.com/merchants/answer/14990942?hl=en), 28/09/2026) ([15624457](https://support.google.com/merchants/answer/15624457?hl=en), [15157604](https://support.google.com/merchants/answer/15157604?hl=en)). Uso tipico: Google Sheet con `id`, `custom_label_0`, `product_type`, `google_product_category` sopra il feed del plugin.
 - **Regole attributi** (Origini dati → regole): "Imposta su", "Estrai", "Prendi più recente" ([14994083](https://support.google.com/merchants/answer/14994083?hl=en)); se si cambia l'`id` in principale e supplementare, prima la principale ([14993352](https://support.google.com/merchants/answer/14993352?hl=en)). Le regole si usano per etichette e categorie, **non per "correggere" prezzo o disponibilità**: quello va sistemato alla fonte, altrimenti si fabbrica il mismatch della sez. 1.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `merchant_center.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **«Origini supplementari» compare solo dopo un componente aggiuntivo.** La scheda esce dopo «Advanced data source management» (Impostazioni > Componenti aggiuntivi). Prima, «Aggiungi origine prodotto» crea solo origini principali e l'indirizzo createSupplementalFeed rimanda ai componenti. Dopo: «Add supplemental product data», file o Foglio Google, con la stessa etichetta del feed e la stessa lingua della principale ([14990942](https://support.google.com/merchants/answer/14990942); e-commerce, 17-18/10/2026).
+- **Foglio Google come origine supplementare.** Creandola il pannello fa scegliere solo il file e legge la prima scheda: un'altra scheda va portata al primo posto. Con più origini supplementari il pannello non mostra priorità: sul prodotto di prova il valore finale era quello dell'origine più nuova (una sola prova). `custom_number_0` non è riconosciuto da Merchant (e-commerce, 01/11/2026).
+
 ---
 
 ## 9. Collegamento con Google Ads: Shopping e Performance Max
@@ -138,6 +145,10 @@ Le etichette `custom_label` sono l'unica leva pulita per separare margine, stagi
 - La scheda **Prodotti → Richiede attenzione** (ex Diagnostica) mostra 3 card con i problemi a maggior impatto e il numero di prodotti colpiti; l'interruttore **"Correzioni prioritarie"** nasconde i problemi a impatto basso: **si spegne** quando si fa igiene, altrimenti gli avvisi minori spariscono dalla vista; "Visualizza cronologia" dà l'andamento degli stati per periodo, paese e con/senza annunci; ogni vista si scarica in CSV ([12476548](https://support.google.com/merchants/answer/12476548?hl=en)).
 - Stati: Approvato, Limitato (solo alcuni paesi o metodi), Non approvato, In revisione, In elaborazione; la revisione richiede **fino a 3-5 giorni lavorativi per Shopping e "alcune settimane" per le schede gratuite** ([12488713](https://support.google.com/merchants/answer/12488713?hl=en)). "Visibilità" la controlla il merchant, "Stato" lo controlla Google.
 - I problemi a livello prodotto restano isolati; quelli a livello account colpiscono tutto ([12153802](https://support.google.com/merchants/answer/12153802?hl=en)). Si parte sempre dalle card in alto, non dall'elenco.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `merchant_center.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **«Pagina del prodotto non disponibile» per lentezza.** Due schede disapprovate per «caricamento troppo lungo» al campionamento di Google (una con l'URL della combinazione `#/confezioni-…`), mentre un curl con user agent di Googlebot le riceveva in meno di un secondo. Con «Richiedi il controllo del sito web» («fino a 12 ore») una è tornata «Approvato» il giorno dopo, l'altra dopo due giorni. Due casi in tre giorni sono un segnale per la cache del sito (e-commerce, 15-17/10/2026).
+- **Diagnostica incoerente.** La stessa diagnostica, letta alle 10:36 e alle 17:43 dello stesso giorno, attribuiva «crudeltà verso gli animali» e «integratori non approvati» a prodotti diversi; la lettura del giorno dopo ha confermato la prima. Un problema si ricontrolla sul dettaglio del prodotto prima di agire (e-commerce, 15-16/10/2026).
 
 ---
 
@@ -158,6 +169,10 @@ Le etichette `custom_label` sono l'unica leva pulita per separare margine, stagi
 - **Salute e farmaci:** farmaci con ricetta ammessi solo US/CA; OTC fuori dagli USA solo per farmacie certificate (LegitScript, poi domanda a Google, 5 giorni lavorativi); integratori non approvati vietati; per l'Italia vietati esplicitamente aborto e pillola del giorno dopo; **claim terapeutici su integratori e cosmetici = Misrepresentation** ([6150151](https://support.google.com/merchants/answer/6150151?hl=en)). Il catalogo "benessere" italiano va letto riga per riga.
 - **Alcol:** Italia fra i paesi **ammessi con limitazioni**; niente minori, niente claim su prestazioni o salute, niente consumo con veicoli; nessuna certificazione richiesta ([12077694](https://support.google.com/merchants/answer/12077694?hl=en)). Le enoteche passano, i testi "vino che fa bene al cuore" no.
 - Restano soggetti a restrizioni: adulti, gioco d'azzardo, marchi, alimenti HFSS ([6149970](https://support.google.com/merchants/answer/6149970?hl=en)).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `merchant_center.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Promozioni con omaggio.** Il titolo dice il prodotto regalato, l'omaggio va indicato nel carrello o nel checkout, l'Italia è ammessa, la promozione si invia almeno 24 ore prima e l'approvazione richiede 24-72 ore: un omaggio a sorpresa non passa ([2877565](https://support.google.com/merchants/answer/2877565), [2877578](https://support.google.com/merchants/answer/2877578), [7322422](https://support.google.com/merchants/answer/7322422), lette il 06/11/2026).
+- **«Pubblicità personalizzata: difficoltà personali».** Limita solo il remarketing dinamico in Italia; Shopping, PMax e schede gratuite restano attivi. Dipende dal contenuto di titoli e pagine, non dalla categoria Google: più della metà dei prodotti limitati era già in «Vitamine e integratori». Cambiare la categoria non la toglie e non va usata per aggirarla; il ricorso sarebbe falso, perché sono davvero prodotti per la salute (e-commerce, 16/10/2026).
 
 ---
 
@@ -218,6 +233,17 @@ Annunci di inventario locale e schede locali gratuite servono un negozio fisico:
 - Confrontare i report rendimento di Merchant Center a cavallo del 01/07/2026 senza dirlo al cliente.
 - Lasciare in feed un plugin che parla ancora Content API dopo il 01/09/2026.
 - Mettere in Shopping integratori con claim terapeutici o vini con claim salutistici.
+
+---
+
+## 18. Valutazioni dei prodotti (stelle su Shopping)
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `merchant_center.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Requisiti.** Il programma è diverso dalle Valutazioni negozio. Servono almeno 50 recensioni di prodotto in tutto, da un aggregatore supportato o da un'origine dati caricata almeno una volta al mese; abbinamento soprattutto per GTIN, altrimenti marca più MPN, SKU o URL (meno precisi); revisione 2-4 settimane; salute e integratori non esclusi. Modulo: support.google.com/merchants/troubleshooter/10994881; con un aggregatore approvato il «Sì» rimanda al partner, che manda il feed ([14549080](https://support.google.com/merchants/answer/14549080), letta il 14/10/2026).
+- **Stato di un caso senza GTIN.** Il programma risultava «Attivo» il 09/11/2026 con la nota «stelle solo con GTIN»: i prodotti senza GTIN (MPN uguale allo SKU del servizio di recensioni) non avevano ancora le stelle. Non verificato se l'abbinamento per marca più MPN basti [DA VERIFICARE] (e-commerce, controllo previsto a fine novembre 2026).
+
+---
+
 
 ---
 

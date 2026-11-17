@@ -1,5 +1,8 @@
 # Changelog social-media-manager
 
+## 17/11/2026
+- 🔴 Sez. 2, 4, 5, 7, 8 e 12: 12 saperi verificati in pratica (via Mother #28): LinkedIn (campi ProseMirror del profilo, competenze e Servizi, cache del link in primo piano, editor degli articoli in iframe, ricerche di contenuti come URL), Instagram e Business Suite (sticker link con fbclid e utm_id, storie senza Instagram collegato, misure delle storie in evidenza, Sposta nelle bozze, commenti e funzioni solo da app, Accesso parziale, avviso sulla metrica Copertura).
+
 ## 13/11/2026
 - 🟡 Sez. 3: dato Buffer del 12/11/2026 sulla durata dei reel (90 secondi-3 minuti, +4-7% di copertura), coerente con la regola dei 3 minuti. Data in cima al 13/11/2026.
 

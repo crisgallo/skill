@@ -92,6 +92,9 @@ Apertura e gestione anche dal **plugin Ads Manager dentro ChatGPT** (`chatgpt.co
 
 Limiti in caricamento massivo: 5.000 campagne, 5.000 gruppi, 5.000 inserzioni. ⚠️ Il bulk CSV accetta solo obiettivo «Views or Clicks» e non crea campagne da feed (20/09/2026). https://help.openai.com/en/articles/20001218-bulk-upload-campaign-schema-checklist
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `chatgpt_ads.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **«Pubblica» lascia tutto spento.** Crea campagna, gruppi e inserzioni spenti, che si accendono a mano (Blog, 21/09/2026).
+
 ## 4. Obiettivi e offerte
 
 **CPM** (mille impression), **CPC** (clic valido), **oCPC** (si paga a **clic**, si ottimizza sulle conversioni post clic), **oCPM** (si paga a **impression**, si ottimizza su conversioni post clic **e post visualizzazione**; «generally available» e modello consigliato da OpenAI dal **16/09/2026**). https://help.openai.com/en/articles/20001412-conversion-optimized-campaigns · https://openai.com/index/reimagining-advertising-with-ai/
@@ -115,6 +118,9 @@ Nell'API le offerte sono in **micros** (1 unità = `1000000`); per il CPM si div
 ⚠️ **Nessun periodo di apprendimento dichiarato.** È un'assenza nella documentazione, non la prova che non esista.
 
 ⛔ **oCPC: un solo evento di conversione standard attivo per campagna, niente eventi custom come obiettivo, e obiettivo ed evento non si cambiano dopo la creazione**: per ottimizzare su un altro evento si crea una campagna nuova. Si paga sempre il clic valido, mai la conversione; `max_bid_micros` è l'offerta CPA usata come input di ottimizzazione (https://developers.openai.com/ads/conversion-optimized-campaigns, letta il 23/09/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `chatgpt_ads.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Indicatore dell'offerta (CPC).** «Potrebbe non essere erogata» fino a 1,90 € e «Offerta competitiva» con tre barre da 1,95 € in su, uguale a 2, 5 o 20 €: rileva un pavimento e non dice se alzando l'offerta si compra più inventario. Il segnaposto suggerisce la soglia (1,95), il valore precompilato è un altro (2,60); range accettato 0,01-65,00 €. Con offerta 2,60 il CPC reale è stato 1,63 €. «Scarta bozza» esce dal wizard senza residui (Blog, 13/09/2026).
 
 ## 5. Budget
 
@@ -161,6 +167,9 @@ Budget giornaliero:
 
 - 🟡 **Miglioramenti creativi e scheda più larga (newsletter OpenAI del 30/10/2026; articolo [20001614](https://help.openai.com/en/articles/20001614-creative-enhancements-for-chatgpt-ads) non leggibile, 403):** sulle campagne self-serve OpenAI può **riscrivere titoli e descrizioni** a partire dall'annuncio e dalla pagina di destinazione, **tradurre** il testo e **mandare a pagine più pertinenti del sito**. Se è acceso di default e dove si spegne è [DA VERIFICARE] sul pannello: finché non si verifica, per i clienti con claim regolati (integratori, salute) si controllano le anteprime e si tiene la stessa cautela della riscrittura automatica di Meta (`meta-ads-performance` sez. 6). La **scheda annuncio standard è più larga su desktop**, usa campagne e creatività esistenti e non chiede nulla all'inserzionista.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `chatgpt_ads.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Immagini.** Una sola immagine per inserzione: per provarne due si duplica l'inserzione («Duplica annuncio») (Blog, 21/09/2026; dal 30/10/2026 esiste il formato a più immagini, sez. 7, che è un'altra cosa).
+
 ## 8. Tracciamento
 
 Pixel `oaiq`, SDK da `https://bzrcdn.openai.com/sdk/oaiq.min.js`:
@@ -192,6 +201,9 @@ Il parametro di clic è **`oppref`**, appeso alla destinazione; il pixel lo mett
 🔴 **Parametri di tracciamento sui product feed (documentazione del 06/10/2026, [tracking parameters](https://developers.openai.com/ads/campaign-management#tracking-parameters)):** precedenza dal più basso al più alto `Feed < Account < Campagna < Gruppo < Annuncio`; una chiave configurata sovrascrive la stessa chiave nell'URL del feed (`utm_medium=search` nel feed più `utm_medium=paid` in campagna dà `paid`), le chiavi del feed non configurate restano. I singoli prodotti non hanno un annuncio proprio: valgono le impostazioni dell'annuncio. Gli account ancora in **Legacy** (feed con la precedenza più alta) migrano entro il **05/11/2026** con «Switch now» nel banner di Ads Manager, solo da amministratore; prima di migrare si confrontano gli UTM che oggi arrivano in GA4 con quelli configurati, perché dopo lo switch vincono questi ultimi.
 
 🔴 **Sessione di test del Pixel in Ads Manager** ([Measurement Pixel, developers.openai.com](https://developers.openai.com/ads/measurement-pixel), sezione «Test your Pixel in Ads Manager» comparsa nell'export dei docs fra il 04 e l'11/11/2026): **Conversions > Data Source**, menu a tre punti sul Web Pixel, **Test**, si incolla l'URL di una pagina con il Pixel installato e **Start testing**; si naviga sul sito che si apre e si torna all'**Event Stream**, dove gli eventi della sessione hanno l'etichetta **Test** e si aprono per leggere nomi e dettagli. L'etichetta dura **fino a 30 minuti** e vale solo per il Pixel scelto, nella scheda aperta e sulla stessa origine: **altri domini e sottodomini non entrano** nella sessione. Con molti eventi l'Event Stream mostra **un campione**, e gli eventi possono arrivare in ritardo; il test usa le impostazioni di consenso già in vigore e **gli eventi di test contano nelle statistiche normali** (non si fanno acquisti di prova su un account vivo senza saperlo). «Exit test view» chiude solo la vista filtrata, non l'etichettatura sul sito. È il controllo da fare prima di accendere una campagna a conversione e dopo ogni cambio al container GTM (sez. 13).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `chatgpt_ads.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **`utm_term={ad_id}`.** Nel campo «Parametri di query» arriva in GA4 come «Termine manuale della sessione», nella forma `ad_` più 32 caratteri esadecimali, diverso per ogni inserzione. La colonna «URL» del pannello non lo stampa. Per tradurre l'id nel nome serve la colonna «ID annuncio»: scheda Annunci, Modifica colonne, cerca «ID», Configurazione (Blog, 24/09/2026).
 ---
 
 ## 9. Report

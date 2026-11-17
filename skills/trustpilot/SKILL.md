@@ -38,6 +38,9 @@ Piani come esposti il 24/09/2026 (prezzo per dominio, al mese, fatturazione annu
 - Alla fine del piano il profilo resta sul Free e **le recensioni restano pubbliche per sempre**, anche se si chiude l'account (stessi Termini). Non esiste "togliamo Trustpilot".
 - **Gli inviti oltre la quota**: i Termini non dicono cosa succede. [DA VERIFICARE] sul pannello se vengono bloccati o messi in coda.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `trustpilot.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Quota inviti del contratto, non del listino.** Su un Plus sottoscritto prima del listino attuale il pannello mostra una quota mensile di inviti più bassa di quella del listino (300): vale la quota del contratto, che si legge in Piani e fatturazione. Gli inviti oltre quota risultano «non inviati per limite raggiunto» e non si recuperano il mese dopo. Tasso e tempo di risposta ci sono solo sugli ultimi 12 mesi; il dettaglio per stato è del Premium (e-commerce, 09/10/2026). **Prezzi a video della quota extra** (pannello, 14/10/2026): +100 inviti 19 €/mese, +200 39 €, +500 79 €; «Plus migliorato» con 300 inviti a 189 €/mese e rinnovo anticipato; Premium da 539 €.
+
 ---
 
 ## 2. TrustScore: come si calcola e cosa serve per un 4,x
@@ -83,6 +86,10 @@ Fonte unica: [Guidelines for Businesses v7.3, settembre 2026](https://corporate.
 - **Etichette** ([review labels](https://help.trustpilot.com/s/article/About-Trustpilots-review-labels?language=en_US), estratti): **Verified** = invito automatico legato a una transazione (AFS, integrazione, API email) oppure documentazione fornita dal recensore; **Invited** = invito da file, Business Generated Link, Invitation Link API, in-app collector; **Unprompted** = organica, basic link, link univoco, Review Collector. ⚠️ **Le recensioni da Basic Invitation (link nella propria newsletter) non sono Verified e non contano per Google Seller Ratings** (sez. 9). Su inviti manuali/file le finestre d'accesso sono temporanee e la quota torna a quella del piano quando scadono ([manual invitation access](https://help.trustpilot.com/s/article/I-lost-access-to-manual-invitations?language=en_US), estratto).
 - Promemoria: il follow-up è dichiarato portare "in media il 35% di recensioni in più" ([review invitations](https://business.trustpilot.com/features/review-invitations)): numero marketing Trustpilot, non misurato sul cliente.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `trustpilot.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Impostazioni degli inviti trovate su un Plus.** Invito sul servizio dopo 1 settimana, sul prodotto separato 2 settimane dopo, promemoria a 15 giorni acceso, frequenza per cliente senza limite (l'opzione «al massimo una volta ogni X» c'è, ma era spenta), deduplica solo sullo stesso numero d'ordine, nessun filtro per prodotto, gruppo o buono nel pannello. Cambiate in: frequenza 3 mesi, promemoria spento, servizio a 3 settimane, prodotto «In contemporanea all'invito alla recensione dei servizi» (e-commerce, 14/10/2026).
+- **Modello d'invito del modulo PrestaShop e utenti.** L'invito di servizio usava il modello «For non-purchase experiences», scritto per chi non ha comprato: si cambia in «For purchase experiences (Best in test)» dal modulo del back office. Il pannello Trustpilot non mostra quale modello usa l'integrazione (solo il Premium): fa fede il modulo. Sul Plus gli utenti erano al massimo (3) e il contatto principale si toglie solo tramite l'assistenza (e-commerce, 07/10-14/11/2026).
+
 ---
 
 ## 5. Rispondere alle recensioni
@@ -93,6 +100,9 @@ Fonte unica: [Guidelines for Businesses v7.3, settembre 2026](https://corporate.
 - Regola operativa per il collaboratore social/CRM: rispondere a tutte le 1-3 stelle **entro 48 ore lavorative** (regola interna, non numero Trustpilot), in italiano, senza template identico copiato dieci volte; un fatto, una scusa se dovuta, un canale di contatto generico (email assistenza), niente promessa di rimborso pubblica. Alle 5 stelle si risponde a campione, non è obbligatorio.
 - **Non si risponde chiedendo di alzare le stelle** e non si offre nulla in cambio della modifica: è un incentivo (sez. 3). Il recensore può modificare la recensione da solo dopo il chiarimento.
 - Se la recensione viola le linee guida per i recensori, **si segnala invece di rispondere** (sez. 6).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `trustpilot.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Le risposte alle recensioni di prodotto non si eliminano.** In Trustpilot Business, Recensioni dei prodotti, una risposta pubblicata si può solo modificare («Modifica risposta»), nessun «Elimina» (verificato col supporto il 23/10/2026): i consumatori ricevono notifiche anche via email, «è una strada a senso unico». L'assistente automatico della chat dà istruzioni generiche che qui non valgono. Dopo «Pubblica» si aspettano alcuni secondi e si rilegge prima di ripubblicare, anche nei brief dei sottoagenti (un doppione è stato corretto con un testo di scuse).
 
 ---
 
@@ -134,6 +144,9 @@ Scala di enforcement ([Action we take, marzo 2026](https://corporate.trustpilot.
 - **Contano solo le recensioni verificate** (AFS, integrazioni, API email); **le Basic Invitation non contano** (stessa FAQ). Se il collaboratore raccoglie con il link in newsletter, il conteggio per Google non cresce.
 - Non c'è un collegamento account da fare: Trustpilot passa i dati a Google; comparsa tipica **2-6 settimane** dopo il raggiungimento dei requisiti, a discrezione di Google, che **non garantisce** la visualizzazione (stessa FAQ). Controllo: `https://www.google.com/shopping/ratings/account/lookup?q=dominio.it`.
 - In Google Ads compare come asset automatico (stelle, numero di valutazioni, eventuale qualificatore come tempo di consegna). Non si scrivono stelline né "4,7★" nel testo dell'annuncio: la policy editoriale Google vieta simboli usati in modo "gimmicky" ([6021546](https://support.google.com/adspolicy/answer/6021546)); [DA VERIFICARE] l'applicazione al caso specifico prima di contestare un rifiuto.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `trustpilot.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Valutazioni negozio e prodotto via Trustpilot.** Le Valutazioni negozio arrivano da sole, con un punteggio diverso dal TrustScore (viste attive il 15/10/2026 su un account, tutte da recensioni Trustpilot). Per quelle di prodotto la guida «Trustpilot and Google Shopping» dice che il feed va ogni giorno a Google, senza costi, se SKU, URL o GTIN combaciano con Merchant, con almeno 50 recensioni e almeno 3 per prodotto (confermato dal supporto il 05/11/2026). Nel pannello Trustpilot non compare nessuna integrazione Google: non vuol dire che il feed non parta. **Il modulo di Google**: in Merchant Center con le «Valutazioni dei prodotti» spente, rispondendo al modulo che le recensioni arrivano da un aggregatore approvato, il modulo non si apre e Google chiede di far inviare il feed al partner; il supporto Trustpilot: invio automatico e incluso, senza attivazione né costi, ID di Merchant Center non collegato a mano, servono un account Google Ads, un Merchant Center e i prodotti inviati a Shopping. Vale la risposta del supporto, non quella dell'account manager.
 
 ---
 

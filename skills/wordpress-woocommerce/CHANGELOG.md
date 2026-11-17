@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 17/11/2026
+- 🔴 Sez. 2, 4, 5, 6, 7, 10 e 14: 33 saperi verificati in pratica dalle chat di progetto (via Mother #28): WP Super Cache, cache mobile del tema, prova dei form CF7 e Jetpack, Complianz, registro 404 di Redirection, AIOSEO (schema, sitemap, rotte REST, llms.txt), WP_DEBUG via WPCode, REST con X-WP-Nonce, aggiornamenti automatici, antispam dei moduli, PageSpeed, WordPress.com (newsletter, Publicize, pingback, theme.json, cache di bordo), wptexturize, tema a blocchi, ACF, editor dei temi, trappole WPCode, Jetpack immagini, GTM4WP.
+
 ## 14/11/2026
 - 🔴 Sez. 1: requisiti raccomandati WordPress, MySQL 8.4 o superiore al posto di 8.0 (pagina ufficiale riletta il 14/11/2026). Data in cima al 14/11/2026.
 

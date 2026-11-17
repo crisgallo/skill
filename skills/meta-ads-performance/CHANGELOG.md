@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 17/11/2026
+- 🔴 Sez. 1, 2, 5, 6, 7 e 9: 19 saperi verificati in pratica dalle chat di progetto (via Mother #28): feed supplementare da Foglio Google, copie di inserzioni rotte, reel Instagram come inserzione, budget di campagna e data d'inizio, posizionamenti Facebook, etichette del portfolio, targeting Advantage+ con obiettivo Traffico, colonna destra, consegna fra inserzioni dello stesso gruppo, elementi eliminati, modulo di creazione, Libreria inserzioni, spegnimento, SMS della Fatturazione, insiemi di prodotti, modello grafico del catalogo, «Mostra prodotti», verifica dell'azienda, storie programmate.
+
 ## 11/11/2026 (sera)
 - 🟡 Sez. 5: un pubblico per ogni creatività nello stesso gruppo (creative audience pairing): campo `creative_audience_pairing_persona` documentato nella Ad reference v27.0 (età 18-65, generi); interruttore e vincoli del pannello solo da terzi, [DA VERIFICARE]. Segnale dalle News-Parade di ADworld Experience; fonte aggiunta.
 

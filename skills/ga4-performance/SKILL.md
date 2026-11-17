@@ -115,6 +115,9 @@ Una regola su IP funziona finché l'IP non cambia. Su una linea residenziale ruo
 
 ⚠️ **Se l'ID misurazione dei tag GA4 è statico (e deve esserlo, vedi sezione 7), in Anteprima gli hit vanno in produzione.** In quel caso il filtro IP è l'unica difesa e va tenuto vivo.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Regola IP del traffico interno, solo gli indirizzi che contiene.** Con il solo IPv4 della linea, le visite che escono in IPv6 non vengono segnate come interne. Si aggiunge alla regola la condizione col prefisso IPv6 /64 della rete. Il prefisso lo assegna il fornitore e può cambiare: allora la regola torna a valere solo in IPv4 (Il Collettivo, 12/10/2026; stesso limite sul Blog).
+
 ### Esclusione dei referral indesiderati
 
 **Non pulisce un referral: gli toglie il ruolo di sorgente.** L'esclusione aggiunge `ignore_referrer=true` all'evento; per la regola dell'ultimo clic non diretto la sessione **eredita la sorgente precedente se c'è**, altrimenti finisce in *diretto*. In entrambi i casi si perde l'informazione su chi lo ha portato (https://support.google.com/analytics/answer/10327750).
@@ -202,6 +205,9 @@ Il comportamento non è quello di un normale range picker.
 
 Prima di procedere si rilegge la pillola sotto il nome dell'esplorazione: deve dire *Personalizzato* con le due date giuste.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **«Ultimi 28 giorni» si ferma a ieri**: il 17/08 il preset dava 20 luglio-16 agosto (Blog, 17/08/2026).
+
 ### Il nome dell'esplorazione e delle schede
 
 🔴 **Digitare nel campo del nome interlaccia il testo con il segnaposto e produce mostri.** Scrivendo "PAID: acquisizione, atterraggio, conversione" sopra "Esplorazione senza titolo" è uscito `PAID: acquisizione, atterEsplorazione senza titolo`, due volte, anche selezionando tutto prima.
@@ -209,6 +215,9 @@ Prima di procedere si rilegge la pillola sotto il nome dell'esplorazione: deve d
 ✅ **Il modo affidabile**: dare il fuoco al campo, selezionare tutto il contenuto e inserire il testo in un colpo solo, in modo che il framework registri un evento di input vero. Poi **rileggere il valore del campo**, non fidarsi di quello che si vede a schermo perché è troncato con i puntini.
 
 Il nome della **scheda** si modifica con un doppio clic sull'etichetta della scheda attiva. Le schede non attive collassano in una pastiglia numerata: si vede il nome solo di quella aperta.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Nome troncato in silenzio.** Il campo accetta 50 caratteri e tronca a metà parola senza avviso. Si rilegge dopo averlo scritto; funziona: fuoco sul campo, `cmd+a`, poi digitare (cliente B2B, 20/08/2026).
 
 ### Righe, valori, chip
 
@@ -228,6 +237,9 @@ Duplicare porta con sé anche l'intervallo di date e il numero di righe, che son
 ### Amministrazione: i link diretti non funzionano
 
 ⚠️ Navigare a mano su un URL del tipo `/admin/keyevents` **rimbalza alla home**. Ad Amministrazione si arriva dall'ingranaggio in basso a sinistra, e agli eventi chiave da lì: **Visualizzazione dei dati, Eventi**, scheda *Eventi chiave*. 📌 **Regola di Cristiano (chat di manutenzione Cowork, verificato sul pannello di una sua proprietà il 01/10/2026 con controprova nella Cronologia delle modifiche, `ga4-performance.md` locale del Blog):** il pulsante **«Nuovo evento chiave» non c'è più** (né in Amministrazione > Eventi, né nei menu «Configurazioni personalizzate» e «Crea»; `/admin/events/keyevents` rimanda alla home dei rapporti). Per marcare come chiave un evento **che non è ancora arrivato**: **«Crea evento»**, nome esatto, interruttore **«Contrassegna come evento chiave»** acceso, poi **«Crea con codice»**, che registra solo il nome senza regole derivate («Crea senza codice» crea invece una regola derivata da un altro evento e non serve). ⛔ Trappola: nel pannello «Crea un evento» il **valore predefinito parte a 1 USD**; un clic su «Non impostare» ha mostrato il radio selezionato e i campi grigi, ma il salvataggio ha registrato comunque `defaultConversionValue {USD, 1}` (creato 11:37:19, corretto 11:39:41). Correzione: dal menu a tre puntini della riga, **«Imposta il valore predefinito» > «Non impostare» > salva di nuovo**, e si controlla nella Cronologia delle modifiche. Su una proprietà senza ricavi un valore finto entra nei rapporti e, se l'evento si importa in Google Ads, diventa valore di conversione.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Eccezione:** i link diretti delle definizioni personalizzate (`/#/p<id>/admin/customdefinitions/hub`) funzionano e vengono riscritti con l'id dell'account (Blog, 12/08/2026).
 
 ---
 
@@ -249,11 +261,17 @@ I report standard vivono dentro **raccolte**, le raccolte si compongono di **arg
 
 📌 **Da ricontrollare a mano (nota del 20/09/2026)**: dal 09/09/2026 il menu Report ha un pulsante *+ Crea* con la voce *Dashboard* accanto alla Libreria (https://support.google.com/analytics/answer/17217303); l'editor di raccolta potrebbe essere stato ritoccato e quanto sopra va riverificato alla prima occasione.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Il messaggio «Report salvato in …»** dice dove è finito il report (la Libreria), non che sia agganciato a una raccolta: la prova è la colonna «Raccolta» nella Libreria e la voce nel menu. Salvare una raccolta non dà messaggio. Una dimensione secondaria aggiunta col «+» è temporanea finché non si usa «Salva le modifiche al report corrente»; nell'editor il Salva è in basso (Blog, 12-17/08/2026).
+
 ### Report personalizzati contro esplorazioni
 
 Quando serve una domanda su misura che deve **restare nel menu**, essere **condivisa** e avere un **periodo mobile**, la risposta è un **report dettagliato personalizzato** (Libreria, Crea nuovo report, Crea report dettagliato, Vuoto), non una esplorazione. Massimo 12 metriche per report e 150 report personalizzati per proprietà (https://support.google.com/analytics/answer/10445879). La descrizione ha un limite di **255 caratteri**, verificato: il testo oltre quella soglia viene troncato in silenzio (non documentato, resta osservazione di pannello). Per un cruscotto di KPI condiviso, dal 09/09/2026 c'è la Dashboard (sezione 3).
 
 Un report dettagliato accetta **più dimensioni**: la prima è quella predefinita, le altre diventano selezionabili da un menu sopra la tabella. Due dimensioni in un report solo valgono due report.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Filtro di un report personalizzato su un evento appena pubblicato.** «Corrisponde esattamente a» è una tendina che pesca dai valori già elaborati: un evento nuovo risponde «Nessun risultato trovato» e Invio non forza il valore. Si passa a «corrisponde a regex» (`^nome_evento$`, campo di testo da 250 caratteri) (Blog, 16/08/2026).
 
 ### Cosa mettere nel menu, e cosa no
 
@@ -353,6 +371,9 @@ Una dimensione con troppi valori distinti nel periodo fa collassare la coda in u
 
 ✅ Per proprietà standard (https://support.google.com/analytics/answer/12229528, https://support.google.com/analytics/answer/9267744): **50 dimensioni personalizzate a livello evento**, **50 metriche personalizzate**, **25 dimensioni a livello utente** (cioè 25 proprietà utente), **10 dimensioni a livello articolo**, **5 metriche calcolate**; una definizione nuova si usa nei report dopo **24-48 ore** e, se si è al limite, dopo una cancellazione bisogna aspettare **48 ore** prima di crearne altre (https://support.google.com/analytics/answer/14240153, riletta il 28/09/2026); **25 parametri per evento**; nome evento e nome parametro **40 caratteri**, valore parametro 100 (`page_title` 300, `page_referrer` 420, `page_location` 1000); nome proprietà utente 24, valore 36. Altri: 100 pubblici, 50 confronti salvati, 50 segmenti salvati, esportazione 100.000 righe.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Limiti senza avviso nei nomi e nelle descrizioni.** La descrizione di un pubblico si tronca a 100 caratteri (`maxLength`, il nome arriva a 255) senza messaggio: si vede rileggendo `input.value`. Nel nome di una dimensione personalizzata il trattino non è ammesso («deve contenere lettere, numeri, spazi o trattini bassi e deve iniziare con una lettera»), nei nomi dei pubblici sì (Blog, 12 e 19/08/2026).
+
 ---
 
 ## 9. Igiene di una proprietà ereditata: ordine di controllo
@@ -370,6 +391,10 @@ Ordine che fa emergere i problemi nell'ordine in cui contano. **Il primo punto v
 9. **Identità dei report**, **modello di attribuzione**, **finestre di lookback e di conversione**, e il Consent Mode in Google Ads per i segnali, prima di leggere qualunque numero.
 10. **Definizioni personalizzate**: quante ne sono state bruciate e per cosa, contro i limiti della sezione 8.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Ruolo ereditato dall'account.** Un indirizzo esterno era amministratore dell'account e delle proprietà: togliendo i permessi dalla proprietà il ruolo restava, ereditato dall'account. Si è tolto dall'account e si è verificato che account e proprietà (anche quella di debug) avessero un solo utente (Il Collettivo, 11/10/2026).
+- **Cestino delle proprietà.** «Sposta la proprietà nel Cestino» la mette nel cestino dell'account con la data di eliminazione definitiva (35 giorni dopo nel caso visto): fino ad allora si recupera (Il Collettivo, 11/10/2026).
+
 ---
 
 ## 10. Cosa non fare mai
@@ -384,6 +409,35 @@ Ordine che fa emergere i problemi nell'ordine in cui contano. **Il primo punto v
 - **Dire "l'evento è rotto" perché ha zero dati.** Una pagina con tre utenti in ventotto giorni produce zero clic anche se il tag è perfetto. La prova si fa in Anteprima.
 - **Usare una esplorazione come report ricorrente da distribuire.** È privata, non si crea via API e l'intervallo personalizzato è fisso. Per un cruscotto condiviso c'è la Dashboard, per una tabella il report dettagliato.
 - **Potare il menu di Google invece di costruirne uno nostro.** Togliere le voci vuote è metà del lavoro: l'altra metà è che il menu deve avere in cima la domanda che ci si fa ogni giorno.
+
+---
+
+## 11. Pubblici e dimensioni personalizzate: meccanica del pannello
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Costruttore di pubblici, la metrica «Sessioni» non c'è.** C'è solo «Sessioni con basso livello di coinvolgimento»: si usa l'evento `session_start` con «Conteggio eventi» (sotto «Altro»); «almeno due sessioni» è `> 1`. Il radio «Imposta sul limite massimo» della durata si sposta quando sparisce il riquadro Errori: si clicca per ultimo e si rilegge (Blog, 12/08/2026).
+- **Archiviare una dimensione personalizzata non cancella i dati.** Il pannello avvisa che non si annulla e invalida le esplorazioni private che la usano; ri-registrandola con lo stesso parametro i dati storici sono tornati (Blog, 12/08/2026).
+
+---
+
+## 12. page_view doppi sui siti editoriali
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Tre cause viste su un gruppo editoriale** (22/10-02/11/2026): (1) apertura diretta di un articolo: per una regola di sequenza fra due eventi partivano due `page_view` e un solo `view_article` (affidabile); (2) vignette di Google: `#google_vignette` nell'URL era contato come pagina nuova dallo script delle pagine viste virtuali, e il doppio è sparito solo disattivando lo script della vignetta; (3) pagina che si ricarica da sola entro un secondo.
+- **Misura su BigQuery.** Contando le pagine caricate due volte a meno di 2 secondi nell'export GA4: eccesso dal 22% al 33,6% per sito, oltre il 93% da una sola causa. Dopo le correzioni i doppi sono scesi dal 30-40% a meno dello 0,3%, con residui sotto il 2% senza causa certa (gruppo editoriale, 30/10 e 06/11/2026).
+
+---
+
+## 13. Lettura dei numeri: casi
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `ga4.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Evento unico a passi, il totale inganna.** Un evento che scatta a ogni passo (avvio, passi 1-5) ha dato un conteggio letto come «verifiche completate»: le completate (passo 5) erano zero. Per un percorso a passi si legge il conteggio per valore del parametro (righe `category` e `action`) e si confronta lo stesso passo fra periodi (cliente B2B, 20/08/2026).
+- **Un prodotto con due nomi.** Quando cambia il titolo di un prodotto GA4 tratta il nome breve e quello lungo come due articoli: ogni analisi per prodotto va normalizzata sui nomi, se no i totali si spaccano (e-commerce, 19/09/2026).
+- **Rimborsi come transazioni negative.** Arrivano come transazioni negative (in una settimana più transazioni che acquisti) e le «Entrate» sono nette dei rimborsi: da ricordare in ogni confronto fra GA4 e fatturato (e-commerce, 21/09/2026).
+- **Categoria di settore salute.** «Raccolta dei dati forniti dagli utenti» risulta «non disponibile per la categoria di settore» su una proprietà di integratori (e-commerce, 21/09/2026).
+
+---
+
 
 ---
 

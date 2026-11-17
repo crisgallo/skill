@@ -1,5 +1,8 @@
 # Changelog google-merchant-center
 
+## 17/11/2026
+- 🔴 Sez. 4, 8, 10, 12 e sezione nuova «Valutazioni dei prodotti (stelle su Shopping)»: 9 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): Foglio Google come origine supplementare, componente aggiuntivo per le origini supplementari, requisiti e stato delle valutazioni dei prodotti, «Pagina del prodotto non disponibile» per lentezza, effetti dei «Trovati da Google», diagnostica incoerente, promozioni con omaggio, «Pubblicità personalizzata: difficoltà personali».
+
 ## 12/11/2026
 - 🟡 Sez. 2: norma Misrepresentation riletta il 12/11/2026: vietato nascondere le condizioni della transazione (tempi di evasione, limiti al rimborso) prima dell'acquisto; offerte non disponibili senza sospensione immediata senza avviso. Data in cima al 12/11/2026.
 

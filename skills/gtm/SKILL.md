@@ -56,6 +56,9 @@ Ordine di esecuzione degli attivatori di pagina: **Consent Initialization → In
 Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello stesso secondo (sez. 10).
 - 📌 **Regola di Cristiano (chat Cowork Blog del 12 e 16/08/2026, promossa a sapere globale il 28/09/2026, `feedback_gtm_select_via_js.md`):** le tendine del pannello GTM, web e server, sono `<select>` Angular: impostarle via JavaScript funziona solo su una riga **appena creata**; su una riga preesistente il pannello mostra il valore nuovo e il salvataggio scrive quello vecchio (il 12/08 una trasformazione Meta è stata salvata con «diverso da» invece di «uguale a», e solo il ricarico della pagina l'ha rivelato). Quindi: una riga di condizione nuova nasce con **contiene**, non con «è uguale a»; per un operatore diverso si aggiunge la riga nuova, la si imposta nello stesso giro e si cancella la vecchia con il suo ⊖; **dopo ogni salvataggio si ricarica la pagina e si rilegge l'elenco**, mai fidarsi del riepilogo del pannello; `Escape` chiude l'intero pannello, non la tendina; chiuso un pannello la lista degli attivatori si ridispone e le coordinate vecchie non valgono più. Forma consigliata delle condizioni di pagina: **`Page Path` è uguale a `/slug/`**, letto dal menu o dalla sitemap; «contiene» aggancia gli slug simili e `Page URL` porta dentro dominio, query string e frammento. Vale anche per la tendina *Event Name* dei tag Facebook Pixel by Stape.
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Tabella di ricerca con `setDefaultValue: false`.** Con Page Path e righe solo per alcune lingue, sulle altre il parametro (`category`) arriva vuoto: l'evento scatta ma non si classifica. Si legge nel `gtm.js` pubblico e si aggiungono le righe (portoghese con prefisso `pt-pt`, non `pt`) (cliente B2B, agosto 2026).
+
 ---
 
 ## 4. Anteprima, Tag Assistant e come i colpi di debug arrivano in produzione
@@ -66,6 +69,9 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 - Se il parametro di debug rompe il sito (checkout che rigetta l'URL), si deseleziona **Includi segnale di debug nell'URL** nel dominio dell'Anteprima ([10039345](https://support.google.com/tagmanager/answer/10039345?hl=en)).
 - **Anteprima del container server**: pulsante Anteprima sul container server; il pannello sinistro elenca le richieste HTTP in arrivo (`collect?v=2&...`) e sotto ogni richiesta gli eventi creati dal client; le schede **Tags** (sparato / fallito e quante volte), **Variables**, **Event Data**, **Console** (errori dei tag). Un tag che "fallisce" qui fallisce anche in produzione, in silenzio ([debug](https://developers.google.com/tag-platform/tag-manager/server-side/debug)).
 - Un container nuovo ha già una versione iniziale, quindi l'Anteprima funziona subito; su un container vecchio senza versioni pubblicate l'Anteprima non si connette ([Release notes](https://support.google.com/tagmanager/answer/4620708?hl=en)).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Due tag di conversione Google Ads sullo stesso invio.** Nell'elenco dell'Anteprima sembrano identici e «Riuscito» non basta: si apre il tag e si leggono ID ed etichetta. Il `gtm.js` pubblico dice che i tag esistono, non su quale account scaricano: il suffisso dell'etichetta identifica l'account e un tag storico può puntare a un altro (cliente B2B, agosto-settembre 2026).
 
 ---
 
@@ -78,6 +84,10 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 - **Il flusso di approvazione esiste solo in Tag Manager 360** ([6107163](https://support.google.com/tagmanager/answer/6107163?hl=en)): sul container standard il controllo è solo nei permessi.
 - **Permessi**: account **Utente / Amministratore**; container **Nessun accesso / Lettura / Modifica / Approvazione / Pubblicazione**. Modifica crea aree e modifica ma non crea versioni né pubblica; Approvazione crea versioni ma non pubblica; Pubblicazione fa tutto ([6107011](https://support.google.com/tagmanager/answer/6107011?hl=en)). Il cliente è **Amministratore dell'account** (è suo); l'agenzia e lo sviluppatore del tema hanno **Modifica** sul container; **Pubblicazione** solo chi risponde del dato. Il container non si crea mai sull'account del consulente.
 - Le note su tag, attivatori e variabili esistono (API v2 e interfaccia): ogni tag creato porta una nota con data e motivo ([Release notes](https://support.google.com/tagmanager/answer/4620708?hl=en)).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **«Errore di invio dell'area di lavoro».** Su «Pubblica e crea versione» è comparso due volte con il permesso Pubblicazione già verificato in Gestione utenti. Su una scheda caricata da poco è passata al primo colpo: sembra dovuta a una scheda aperta a lungo. Prima di riprovare si controlla in Versioni che non sia nata una versione nascosta (cliente B2B, 15/08/2026).
+- **Importare in GTM una modifica preparata come JSON.** Amministrazione > Importa contenitore, «Unifica» con «sovrascrivi i conflitti», in un'area di lavoro nuova. Per un modello personalizzato non della Galleria il tag ha tipo `cvt_<containerId>_<templateId>` e il modello id `cvt_temp_public_id`, se no «Tipo di entità sconosciuto». L'Anteprima ha dato «1 modificato, 3 aggiunti»: il modo più rapido e preciso per una modifica scritta in JSON (gruppo editoriale, 16/11/2026).
 
 ---
 
@@ -113,6 +123,12 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 - **`fbp` e `fbc`** arrivano da soli se il server è sul dominio proprio; sull'endpoint predefinito vanno passati come variabili Cookie di prima parte dal web container ([gtm-server-side](https://developers.facebook.com/docs/marketing-api/conversions-api/guides/gtm-server-side)). Email e telefono si mandano **hashati SHA-256** e solo con consenso (sez. 6).
 - 🔴 **`test_event_code` non è un ambiente di prova.** "Gli eventi inviati con test_event_code non vengono scartati: entrano in Gestione eventi e vengono usati per targeting e misurazione" ([using-the-api](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api)). Serve solo a vederli nella scheda Eventi di prova; **si toglie prima di pubblicare** ([gtm-server-side](https://developers.facebook.com/docs/marketing-api/conversions-api/guides/gtm-server-side)).
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Server, trasformazioni dei nomi evento.** Per far coincidere sul server i nomi con quelli del Pixel (`generate_lead` in `Lead`, un evento personalizzato in un nome standard) le trasformazioni vanno limitate al solo tag Meta, se no rinominano anche gli eventi verso GA4 e rompono gli eventi chiave. Con due moduli la condizione si scrive in negativo («diverso da» un id): con due condizioni positive, se il parametro manca nessuna trasformazione si applica e Meta riceve un evento non standard che non deduplica (Blog, 12/08/2026).
+- **Deduplica Meta e ordine di pubblicazione.** L'`event_id` lo porta al server il tag GA4, non quello Meta: sistemare solo i tag Meta del browser lascia i nuovi eventi contati doppi. Si pubblica prima il container web (aggiunge l'`event_id`) e poi il server; al contrario, nella finestra fra le due gli eventi partono senza identificativo. Finestra misurata: due minuti (Blog, 12 e 17/08/2026).
+- **Telefono per Meta e Google Ads.** Un tag aveva `+39{{variabile}}` col prefisso incollato a mano, che si rompe se l'utente scrive già `+39` o `0039`. Si usa la variabile Phone Number Formatter di GTM (paese IT, formato E.164), la stessa che serve a Google Ads (Blog, 13/08/2026).
+- **Email in chiaro a Meta dalla variabile Impostazioni evento di GA4.** Su sette testate il tag Meta prendeva le proprietà dalla variabile Impostazioni evento di GA4: l'email andava a Meta in chiaro, oltre che cifrata (SHA-256). Tolta la variabile, Gestione eventi non segnalava più «Bloccati alcuni dati». Nel `gtm.js` pubblicato `vtp_objectPropertiesFromVariable` non deve essere `true` nei tag Meta; l'email sta solo nella corrispondenza avanzata (`em`, `user_email`). Ricontrollato su 16 container (gruppo editoriale, 28/10-09/11/2026).
+
 ---
 
 ## 9. Cosa ha cambiato Google fra giugno e ottobre 2026
@@ -138,6 +154,9 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 6. Il giorno dopo: report GA4 standard e colonna Conversioni di Ads/Meta. I punti 1-5 dicono che il colpo parte; solo i report dicono che è stato accettato.
 
 - 🟡 **Diagnostica dei tag (Tag Diagnostics), pagina ufficiale riorganizzata** ([14681508](https://support.google.com/tagmanager/answer/14681508), riletta il 12/11/2026): si apre dalle impostazioni del tag Google e mostra uno stato di qualità più una lista di diagnosi, ognuna con il rimedio. Quelle che si incontrano in un audit: **un solo amministratore** sull'account; **domini aggiuntivi** rilevati e non dichiarati nelle impostazioni del tag; **comando config fuori ordine** (eventi gtag mandati prima del config); **conversion linker mancante** con tag Google Ads o Floodlight nel container; **tag Universal Analytics legacy** ancora in pagina; **pagine senza consenso per gli utenti SEE** e **consenso per la personalizzazione degli annunci mancante**; **consenso installato fuori ordine**; **tasso di consenso 0%** (si manda sempre `ad_user_data` negato, ovunque o in alcune regioni fuori dal SEE: tipico di un default negato senza geolocalizzazione, sez. 6); **tag troppo in basso nella pagina**. Gli avvisi si possono ignorare dal pannello, ma in un container ereditato si leggono prima di toccare qualsiasi tag (sez. 12).
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Verifica da fuori rete.** Se lo sviluppatore ha i tracciamenti bloccati dalla sua rete non vede i propri push: la verifica di un bug (push doppio) la fa un altro da una rete pulita (cliente B2B, giugno 2026, secondo quanto riferito).
 ---
 
 ## 11. Stape, Google Cloud, costi, ad blocker, ITP
@@ -179,6 +198,9 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 - Nel pannello Stape, superata la quota con l'upgrade automatico spento, la dashboard mostra un avviso o il container si ferma senza notifica e-mail?
 - Il filtro traffico interno di GA4 esclude anche i colpi che arrivano dal server container (IP del server invece dell'utente)?
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Aree di lavoro nella nuova interfaccia.** Nella Panoramica nuova l'area di lavoro si apre dal menu ⋮ della scheda «Modifiche in attesa» > «Scegli il workspace»; da lì «+» crea un'area nuova (gruppo editoriale, 11/11/2026).
+
 ---
 
 ## 14. Cosa non fare mai
@@ -206,6 +228,9 @@ Sezione aperta il 30/10/2026 su richiesta di Cristiano (chat Gruppo NEM): sta pr
 - **Paywall e abbonati** [DA VERIFICARE]: stato dell'utente (anonimo, registrato, abbonato) nel dataLayer, articoli contati come letti dietro il muro, eventi di sottoscrizione e rinnovo, proprietà utente in GA4, cosa non si manda mai (dati personali in chiaro).
 - **Più testate su container separati con lo stesso piano di misurazione** [DA VERIFICARE]: un container per testata, stesso dataLayer e stessi nomi di evento, cosa si copia fra container (esportazione e importazione, aree di lavoro), permessi per redazione e tecnici, container server condiviso o separato.
 - **Articoli aperti in webview dentro le app** [DA VERIFICARE]: come si riconosce il traffico da webview, cosa si rompe (cookie, consenso, referrer) e cosa si misura lo stesso. Il tracciamento nativo delle app (Firebase) è fuori da questa skill.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Video di un player di terzi, titolo sbagliato e play doppi.** Se il widget non ha il titolo nel markup il player ripiega su `document.title` (confermato per iscritto dal fornitore) o su un segnaposto «Demo Video». Il video «sticky» in un angolo produceva anche due `video_play` insieme. Corretto aggiungendo il `title` al markup del widget, esteso agli sticky e verificato su più pagine: prima di toccare il tag si guarda cosa passa il widget (gruppo editoriale, maggio-giugno 2026).
 
 ---
 

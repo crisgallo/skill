@@ -1,6 +1,7 @@
 # Changelog brevo
 
 ## 17/11/2026
+- 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA.
 - 🔴 Sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva, abbonamento che continua. Sez. 5: Brevo PushOwl unico collegamento Shopify supportato, procedura e import che sovrascrive attributi e iscrizioni.
 
 ## 14/11/2026

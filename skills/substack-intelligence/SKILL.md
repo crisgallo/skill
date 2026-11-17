@@ -46,6 +46,9 @@ lettori (decisori, gente influente), non il numero. Tienilo come metro.
 - `data/articles_index.json` — DB degli articoli + indici per tema / persona / brand citati.
 - `data/leads/` — registro dei lettori già segnalati (per non ripeterli ogni mese).
 
+📌 **Verificato in pratica dalle chat di progetto (sapere `substack.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Cosa vede un visitatore.** Da iscritti `/subscribe` mostra solo i piani a pagamento (a chi è già iscritto propone l'upgrade); un visitatore nuovo (`fetch` con `credentials:'omit'`) trova il campo email. Il numero di iscritti non è esposto: `/api/v1/publication/subscriber_count` risponde 403. Substack aggiunge `rel="noopener noreferrer nofollow"` ai link esterni e dall'editor non si toglie (Blog, 08/08 e 09/09/2026).
+
 ## Script disponibili (`scripts/`)
 
 - `analyze_subscribers.py <csv>` — quadro base: totali, fonti di acquisizione, profilo (domini), crescita per mese.
@@ -123,6 +126,9 @@ niente che non si sia riletto.
 - **La copertina si carica dentro «Modifica l'anteprima social»**, non in una sezione separata.
   Il campo consiglia **1200x630** (1,91 a 1). La copertina standard del blog è **1200x670**
   (1,79) ed entra intera: si controlla guardandola, non fidandosi del riquadro.
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `substack.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Immagini del corpo e copertina.** Substack non serve mai l'originale ma lo passa dalla sua CDN: il peso da misurare è quello servito (circa 180 KB contro i 700 KB dell'originale nel caso misurato). La `cover_image` di una bozza può essere vuota anche se il pannello mostra un'anteprima presa dal corpo (Blog, 21/09/2026).
 
 ### «Prosegui»: si apre solo per controllare
 Il pulsante «Prosegui» in alto a destra apre il pannello di invio. Si apre **solo per leggere**:
@@ -307,3 +313,20 @@ Le due **routine schedulate** innescano i giri M1-M3. Dettaglio e formati → `r
 - **Mai considerare scritto un alt senza averlo riletto** nel campo.
 - **Mai segnalare come mancante la firma**: sta nel piè di pagina email.
 - **Mai dichiarare verificato ciò che non si è letto voce per voce** nel DOM.
+
+---
+
+## Tracciamento sulla pubblicazione (pixel e GA4)
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `substack.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Pixel Meta non caricato.** Il campo «ID del pixel di Facebook» salva il valore (`fb_pixel_id` nella configurazione), ma su `/subscribe`, sulla home e sull'ultimo post non c'è `connect.facebook.net`, `fbq` non è definito e in «Testa gli eventi» non arriva niente. Provato dal browser loggato e con una richiesta anonima da riga di comando (Blog, 22/09/2026).
+- **GA4 non caricato.** La configurazione contiene `google_analytics_4_token: G-…` ma nessuno script: `gtag` e `dataLayer` assenti, zero risorse `google`, Tempo reale a 0 utenti dopo quattro caricamenti. Gli UTM di una campagna che porta su Substack non arrivano in GA4, un evento `sign_up` non può esistere, il retargeting sulla pagina di iscrizione non si fa. L'unica misura sono le Fonti di Substack (Analisi, Fonti): iscritti per categoria, non per creatività, con `utm_content` non letto (Blog, 24/09/2026).
+
+---
+
+## Impostazioni della pubblicazione che non salvano
+
+📌 **Verificato in pratica dalle chat di progetto (sapere `substack.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- Nel profilo il «Done» in alto non salva: sotto la Bio compare «Save»/«Cancel» solo dopo una modifica, ed è quella (la bio pubblica era rimasta vecchia: si rilegge dal profilo pubblico). Il selettore colore ha un «Salva» accanto al campo esadecimale: dopo aver digitato ogni clic sui campioni sovrascrive il valore. Il menu «Pulsante» crea e non modifica (si ricrea con «Personalizzato»). Il «Modifica» del piè di pagina email non risponde: si apre `/publish/settings/edit?bodyField=…` (Blog, 21-25/08/2026).
+
+---

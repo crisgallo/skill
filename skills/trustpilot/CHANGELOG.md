@@ -1,5 +1,8 @@
 # Changelog trustpilot
 
+## 17/11/2026
+- 🔴 Sez. 1, 4, 5 e 9: 7 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): quota inviti del contratto e non del listino, prezzi della quota extra, risposte alle recensioni di prodotto non eliminabili, impostazioni degli inviti trovate su un Plus, valutazioni negozio e prodotto su Google via Trustpilot (feed automatico, modulo di Google), modello d'invito del modulo PrestaShop e utenti.
+
 ## 14/11/2026
 - 🔴 Sez. 4: quota di inviti per mese di calendario con azzeramento il 1°, conteggio alla data di invio effettivo, inviti combinati, stato «Limite raggiunto» non riprogrammato da solo, controllo di metà mese e riprogrammazione al mese dopo (risposta del supporto Trustpilot del 13/11/2026). Data in cima al 14/11/2026.
 

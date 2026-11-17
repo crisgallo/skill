@@ -48,6 +48,9 @@ Le pagine lette il 28/10/2026 ([tariffe](https://www.trenitalia.com/it/html/tren
 
 Dalla [pagina CartaFRECCIA](https://www.trenitalia.com/it/cartafreccia.html) letta il 28/10/2026: **il programma termina il 31/12/2026; i punti restano spendibili fino al 31/03/2027.** Fino ad allora i livelli sono Argento (+10% punti, FrecciaClub, 2 upgrade), Oro (+25%, 3 upgrade, FrecciaLounge con un ospite, cambio a bordo, canale WhatsApp), Platino (+50%, 4 upgrade, FrecciaLounge con due ospiti, un biglietto omaggio, SuperFlex) e Platino Infinito (+100%, 5 upgrade, unico livello che non scade; pagina riletta il 30/10/2026). **Le soglie di punti per livello non sono pubblicate** nella pagina letta **[DA VERIFICARE]**. Regola pratica: chi ha punti li usa prima della scadenza; non si pianifica una strategia di accumulo su un programma che chiude; se Trenitalia annuncia il programma sostitutivo si riscrive questa sezione.
 
+📌 **Verificato in pratica sui viaggi di Cristiano (sapere `treni.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali, non documentazione ufficiale.
+- **Sconti CartaFRECCIA** (regolamento 2022-2026, letto il 15/11/2026): 10 euro ogni 300 punti, al massimo due per biglietto, solo su biglietti di sole Frecce da almeno 20 euro, sconto massimo il 50%; niente regionali, Intercity o soluzioni miste: la Freccia si compra a parte e il regionale di avvicinamento a parte. Al pagamento lo sconto è stato applicato come cashback. Upgrade di classe con 500 punti.
+
 ---
 
 ## 4. Trenitalia, treni regionali: biglietto digitale, convalida, validità, indennizzo
@@ -173,6 +176,9 @@ Dalla [circolare 15/E del 22/12/2025 dell'Agenzia delle Entrate](https://www.age
 ## 14. Meccanica dei siti e delle app (da verificare a mano)
 
 Nessun punto confermato sullo schermo in questa prima stesura. Da scrivere qui alla prima volta che si fanno: dove sta la casella «Richiedi la fattura» nel checkout Trenitalia e in quello Italo; come si legge il PNR e il Codice Biglietto nelle app; dove si attiva il biglietto della corriera in app e come appare il timer; come si chiede l'indennizzo Trenitalia da Area Riservata e Italo da «Cambia Prenotazione»; come si collega la carta a Tap&Go e al tap in e out ATM per avere la ricevuta.
+
+📌 **Verificato in pratica sui viaggi di Cristiano (sapere `treni.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali, non documentazione ufficiale.
+- **Posti singoli sul Frecciarossa.** In Standard i posti sono 2+2 e non ci sono singoli; in Business sono 2+1 e i singoli ci sono (mappa dei posti di lefrecce.it, due treni diversi controllati il 28/10 e il 15/11/2026). **Scelta del posto**: la mappa mostra «+0,00 €» finché il posto non è selezionato; selezionato, costa 4,00 euro (15/11/2026). Il prezzo si rilegge dopo il clic, prima di confermare.
 
 ---
 

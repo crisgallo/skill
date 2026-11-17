@@ -1,5 +1,8 @@
 # Changelog google-cloud
 
+## 17/11/2026
+- 🔴 Sez. 5 e 6: 2 saperi verificati in pratica (via Mother #28): accesso BigQuery a tempo per un assessment (Data Viewer, Job User, Metadata Viewer, Resource Viewer; oppure Service Account Admin e Project IAM Admin), eventi GA4 esclusi dall'export da dichiarare per iscritto.
+
 ## 13/11/2026
 - 🟡 Sez. 5: prezzi del Data Transfer Service riletti (connettori Alphabet gratuiti, terzi a slot-ora, anteprime gratuite, Google Play 25 $). Data in cima al 13/11/2026.
 

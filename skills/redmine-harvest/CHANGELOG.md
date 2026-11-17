@@ -1,5 +1,8 @@
 # Changelog redmine-harvest
 
+## 17/11/2026
+- 🔴 Sez. 3, 4, 8, 10 e 15: 9 saperi verificati in pratica (via Mother #28): API interna di Harvest dalla sessione web (POST/PATCH/DELETE /time/api), note senza il tempo del tecnico, Start e vista Settimana, project Redmine di un'agenzia partner (campi Da e A, durata con la virgola, testo pubblicato dal consulente, form di modifica, menzioni, primo caricamento).
+
 ## 08/11/2026
 - 🟡 Sez. 9: news 164 di Redmine ora leggibile (letta l'08/11): conferma le cinque falle del 01/11, aggiunge le correzioni su sessioni e password scadute e la politica di patch per il ramo legacy 6.0.x. Data in cima all'08/11/2026.
 

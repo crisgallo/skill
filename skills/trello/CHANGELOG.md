@@ -1,6 +1,7 @@
 # Changelog trello
 
 ## 17/11/2026
+- 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori.
 - 🔴 Sez. 3, 4, 5 e 10: regole di Cristiano del 16/11 dai file di memoria: niente avvisi in Promemoria (guasti a Mother, cose per Cristiano portate da Mother in chat), dati di Cristiano cercati prima su Trello, numero mai riusato e `rinomina` che rifiuta un numero diverso, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage.
 
 ## 16/11/2026
