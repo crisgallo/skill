@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 17/11/2026
+- 🔴 Sez. 3, 4, 5 e 10: regole di Cristiano del 16/11 dai file di memoria: niente avvisi in Promemoria (guasti a Mother, cose per Cristiano portate da Mother in chat), dati di Cristiano cercati prima su Trello, numero mai riusato e `rinomina` che rifiuta un numero diverso, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage.
+
 ## 16/11/2026
 - 🔴 Sez. 4, 5, 7 e 12: regole di Cristiano del 16/11/2026 (via Mother): numeri delle voci fissi (primo libero, spuntate comprese, nessuna rinumerazione; supera la numerazione per data del 15/10), sul calendario l'ordine dentro una checklist lo dà la data, dipendenze solo con `--dopo` (nuova, due, riapri, `trello.py dopo`) oltre alle fasi di ordine_checklist.json e alle voci pre-16/11 nate entro 10 minuti, fra due voci fisse cede quella che aspetta l'altra, il calendario lo governa Mother e Cristiano non sposta niente a mano.
 

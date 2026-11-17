@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 17/11/2026
+- 🔴 Sez. 4: rettifiche delle conversioni con ID ordine (rettifica e ritiro), lette dalle offerte solo nei 7 giorni dopo la registrazione, nei report fino a 54; ritiro irreversibile salvo ricarico con timestamp spostato. 🟡 Sez. 2: Search Journey Awareness integrata nello Smart Bidding (Search e inventario Search di PMax).
+
 ## 14/11/2026
 - 🟡 Sez. 13: dettagli della pagina ufficiale sulle passkey (dispositivo principale, browser supportati, 1-2 giorni per l'aggancio, stato degli utenti). Data in cima al 14/11/2026.
 

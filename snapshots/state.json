@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-16",
+  "ultima_lettura": "2026-11-17",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -136,8 +136,8 @@
     "esito": "integrata in meta-pixel-capi e meta-ads-performance il 29/09/2026"
    },
    "feedback_piattaforme_e_campagne.md": {
-    "modificato": "2026-10-23",
-    "esito": "23/10: regola sulla chiusura dei gruppi di schede Chrome a fine lavoro: regola di processo, nessuna skill del repository; le regole precedenti erano già integrate (29/09, 07/10)"
+    "modificato": "2026-11-16",
+    "esito": "17/11: regola globale del 16/11 (pagine pubbliche nel browser integrato, login su Chrome): integrata in strumenti-ai sez. 8"
    },
    "feedback_report_e_numeri.md": {
     "modificato": "2026-10-13",
@@ -152,8 +152,8 @@
     "esito": "regola di processo sulla manutenzione delle skill, già coperta dalla routine, non integrata"
    },
    "feedback_lavoro_con_cris.md": {
-    "modificato": "2026-11-06",
-    "esito": "07/11: regola di processo globale sul modo di lavorare con Cristiano, non per le skill del repo"
+    "modificato": "2026-11-16",
+    "esito": "17/11: dal 16/11 Cristiano parla con Mother, le chat riferiscono a lei: integrata in strumenti-ai sez. 8"
    },
    "feedback_verbali_e_sal.md": {
     "modificato": "2026-10-09",
@@ -180,8 +180,8 @@
     "esito": "regola di processo Cowork, non integrata"
    },
    "feedback_chat_rotation_signals.md": {
-    "modificato": "2026-11-10",
-    "esito": "11/11: versione del 10/11 (rotazione dalla quinta compattazione, commento sulla card a ogni lavoro chiuso, card riletta dopo ogni compattazione): la parte Trello integrata in trello sez. 10, il resto è processo"
+    "modificato": "2026-11-16",
+    "esito": "17/11: dal 16/11 il Girami va a Mother via SendMessage: integrata in trello sez. 10"
    },
    "feedback_tabella_vicinanza_rotazione.md": {
     "modificato": "2026-11-07",
@@ -236,8 +236,8 @@
     "esito": "integrata il 30/09/2026 in google-ads-performance e meta-ads-performance (claim regolati); dettagli di script di progetto non integrati"
    },
    "feedback_skill_prima_di_ogni_attivita.md": {
-    "modificato": "2026-11-12",
-    "esito": "versione del 12/11 (controlli locali sulle voci) integrata in strumenti-ai sez. 8 il 13/11/2026 (📌 🔴); prima registrata come regola di processo"
+    "modificato": "2026-11-16",
+    "esito": "17/11: versione del 12/11 (controllo delle voci con trello.py inizia e skill_al_lavoro.py): regola già in strumenti-ai sez. 8, dettaglio di strumento non integrato"
    },
    "feedback_email_solo_bozza.md": {
     "modificato": "2026-11-03",
@@ -284,8 +284,8 @@
     "esito": "10/11: versione del 09/11 (32.781 byte): appuntamento nuovo non sposta le voci fisse, sopra un viaggio nessuna voce: integrata in trello sez. 9"
    },
    "feedback_trello_hub_promemoria.md": {
-    "modificato": "2026-10-06",
-    "esito": "integrata il 05/10 e il 07/10/2026 in trello sez. 3 (hub, Promemoria; versione del 06/10: avvisi scritti per intero in italiano con task, card e cosa è successo)"
+    "modificato": "2026-11-16",
+    "esito": "17/11: dal 16/11 niente avvisi in Promemoria, guasti a Mother, cose per Cristiano via Mother: integrata in trello sez. 3"
    },
    "feedback_no_dedurre_indisponibilita.md": {
     "modificato": "2026-10-04",
@@ -388,8 +388,8 @@
     "esito": "regola di processo (chiedere il testo esatto dell errore); letta il 13/10/2026 nella cartella di memoria del 12/10, datata maggio-settembre 2026, non integrata"
    },
    "feedback_competenze_cowork_plugin.md": {
-    "modificato": "2026-10-12",
-    "esito": "regola di processo (Competenze Cowork come plugin); letta il 13/10/2026 nella cartella di memoria del 12/10, datata maggio-settembre 2026, non integrata"
+    "modificato": "2026-11-16",
+    "esito": "17/11: Competenze dell'app desktop da plugin o da Personalizza > Competenze, ~/.claude/skills ignorata: integrata in strumenti-ai sez. 7"
    },
    "feedback_link_cleanup_session_memory_gap.md": {
     "modificato": "2026-10-12",
@@ -412,8 +412,8 @@
     "esito": "proposta della chat [ScegliNatura] Ecommerce #29 (cartella del progetto): regole di metodo A integrate in google-ads-performance e meta-ads-performance il 14/10/2026 dopo verifica delle lezioni su Drive; regole tecniche B e C e punti dalle checklist non integrati, fonti non lette qui"
    },
    "feedback_trello_voce_nuova_si_accoda.md": {
-    "modificato": "2026-10-15",
-    "esito": "integrata in trello sez. 4 e 12 il 16/10/2026 (versione del 15/10: il numero di una voce nuova lo decide la sua data, lo fa trello.py nuova; supera la regola del 05/09)"
+    "modificato": "2026-11-16",
+    "esito": "17/11: numeri fissi dal 16/11 (già integrata via Mother il 16/11); precisazioni (numero mai riusato, rinomina rifiuta) in trello sez. 4"
    },
    "feedback_grafiche_identiche_alle_bozze.md": {
     "modificato": "2026-10-15",
@@ -448,8 +448,8 @@
     "esito": "regola locale ScegliNatura sui margini sicuri delle creatività (14 % alto e basso nelle storie, 100 px nei post 4:5): non integrata, candidata per social-media-manager e grafica-web-design se Cristiano la rende globale"
    },
    "feedback_ore_cris_tracking_harvest.md": {
-    "modificato": "2026-10-20",
-    "esito": "regola locale Gruppo NEM (ore di Cristiano su Harvest dalla durata dei task, raddoppiate, solo col via libera): non integrata"
+    "modificato": "2026-11-16",
+    "esito": "17/11: regola locale di un progetto (correzioni di difetti propri non contabilizzate): non integrata"
    },
    "feedback_routine_e_mac_spento.md": {
     "modificato": "2026-10-25",
@@ -476,8 +476,8 @@
     "esito": "04/11: copia di sicurezza della versione precedente, nulla da fare"
    },
    "feedback_creativita_testi_tab_e_reel.md": {
-    "modificato": "2026-11-05",
-    "esito": "06/11: regola locale di un progetto (testi delle creatività dalle tab della scheda, solo reel già fatti), non integrata"
+    "modificato": "2026-11-16",
+    "esito": "17/11: regola locale di un progetto rinforzata il 16/11 (benefici in parole semplici, controllo norme salute Meta e Google prima di proporre, prova su telefono delle email): non integrata, candidata per social-media-manager e brevo se Cristiano la rende globale"
    },
    "feedback_registro_creativita.md": {
     "modificato": "2026-11-06",
@@ -492,8 +492,8 @@
     "esito": "07/11: regola locale di un progetto (testi del sito, registro scientifico e marketing), non integrata"
    },
    "feedback_non_spostare_task_senza_chiedere.md": {
-    "modificato": "2026-10-12",
-    "esito": "10/11: regola di processo del 12/10 (ordine dei numeri nelle checklist), già coperta da trello sez. 4 e 9"
+    "modificato": "2026-11-16",
+    "esito": "17/11: Mother decide i conflitti di calendario senza chiedere, niente non-prima-di che aggirano, mai anticipare a stasera: integrata in trello sez. 5"
    },
    "feedback_lettura_meno_invasiva.md": {
     "modificato": "2026-11-05",
@@ -508,13 +508,33 @@
     "esito": "regola della manutenzione sui due Mac, non integrata"
    },
    "feedback_regole_container_nem.md": {
-    "modificato": "2026-11-13",
-    "esito": "regole di progetto per i container GTM di un cliente (traccia Tracking F2), non integrate; le pratiche generali (area di lavoro nuova, versioni descritte, prova del banner) sono già in gtm sez. 5 e 6"
+    "modificato": "2026-11-16",
+    "esito": "17/11: regole di progetto per i container GTM di un cliente, aggiunta del 16/11 (nessun dato a servizi esterni prima del consenso): non integrate, pratica generale già in gtm e consent-mode-privacy"
+   },
+   "feedback_domande_con_consiglio.md": {
+    "modificato": "2026-11-16",
+    "esito": "17/11: regola di Cristiano del 16/11 (ogni domanda con la scelta consigliata): integrata in strumenti-ai sez. 8"
+   },
+   "feedback_task_che_nascono.md": {
+    "modificato": "2026-11-16",
+    "esito": "17/11: regola di Mother del 16/11 (da ogni task chiuso ne nasce un altro, aperto in autonomia): integrata in trello sez. 5"
+   },
+   "feedback_dati_di_cris_prima_trello.md": {
+    "modificato": "2026-11-16",
+    "esito": "17/11: i dati di Cristiano si cercano prima su Trello: integrata in trello sez. 3"
+   },
+   "feedback_spiega_prima_di_eseguire.md": {
+    "modificato": "2026-11-16",
+    "esito": "17/11: regola del 10/11 (spiegare il task prima di eseguirlo) con eccezione del 16/11 per i compiti da Mother: integrata in strumenti-ai sez. 8"
+   },
+   "_sincronizzazione_2026-11-16": {
+    "modificato": "2026-11-16",
+    "esito": "17/11: 40 file feedback_* ricopiati in blocco alle 11:45 UTC nelle cartelle di progetto; letti con due sottoagenti, solo quelli sopra avevano voci dal 10/11 (voce_di_cris 11/11 e fare_non_far_fare 12/11 già integrate il 12-13/11)"
    }
   }
  },
  "drive": {
-  "data": "2026-11-14",
+  "data": "2026-11-16",
   "skills": {
    "brevo": {
     "drive": "73425",
@@ -720,11 +740,12 @@
   },
   "linkedin-ads": {
    "dal": "2026-11-11",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
     "11/11 🟡 sez. 15: CTV Ads via Display & Video 360 dal 22/10/2026, disponibilità italiana [DA VERIFICARE]",
     "14/11 🟡 sez. 3: segmenti sotto i 300 sommabili, URL della Pagina nelle liste aziende, Companies Hub",
-    "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro"
+    "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro",
+    "17/11 🔴 sez. 10: API 202611 (SHA256_PHONE nella CAPI, billingReference, Boost API, surface obbligatorio), sunset 202511 il 16/11/2026 e 202601 il 15/01/2027"
    ]
   },
   "ga4-performance": {
@@ -739,14 +760,16 @@
    "livello": "minore",
    "voci": [
     "12/11 🟡 sez. 9: pagina Trenitalia dei treni garantiti riorganizzata, due elenchi per la lunga percorrenza",
-    "14/11 🟡 sez. 9: condizioni cumulative dell'elenco speciale dei treni garantiti (correzione), sciopero generale del 20/11/2026"
+    "14/11 🟡 sez. 9: condizioni cumulative dell'elenco speciale dei treni garantiti (correzione), sciopero generale del 20/11/2026",
+    "17/11 🟡 sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026"
    ]
   },
   "google-search-console": {
    "dal": "2026-11-13",
    "livello": "minore",
    "voci": [
-    "13/11 🟡 sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa"
+    "13/11 🟡 sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa",
+    "17/11 🟡 sez. 9: API Search Analytics con brandedClassification (dal 21/02/2026), webMultimodal e filterLists"
    ]
   },
   "consent-mode-privacy": {
@@ -760,7 +783,36 @@
    "dal": "2026-11-16",
    "livello": "sostanziale",
    "voci": [
-    "16/11 🔴 sez. 4, 5, 7, 12: regole di Cristiano del 16/11 (via Mother): numeri delle voci fissi (primo libero, nessuna rinumerazione; supera la numerazione per data del 15/10), ordine a calendario per data, dipendenze solo con --dopo, fra voci fisse cede quella che aspetta, calendario governato da Mother"
+    "16/11 🔴 sez. 4, 5, 7, 12: regole di Cristiano del 16/11 (via Mother): numeri delle voci fissi (primo libero, nessuna rinumerazione; supera la numerazione per data del 15/10), ordine a calendario per data, dipendenze solo con --dopo, fra voci fisse cede quella che aspetta, calendario governato da Mother",
+    "17/11 🔴 sez. 3, 4, 5, 10: niente avvisi in Promemoria (guasti a Mother), dati di Cristiano cercati prima su Trello, numero mai riusato e rinomina che rifiuta, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage"
+   ]
+  },
+  "strumenti-ai": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, ~/.claude/skills ignorata, percorsi assoluti, valide solo nelle chat nuove; sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother, domanda con consiglio, pagine pubbliche nel browser integrato e login su Chrome, Cristiano parla con Mother)"
+   ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 sez. 4: rettifiche delle conversioni con ID ordine, lette dalle offerte solo nei 7 giorni, nei report fino a 54, ritiro irreversibile; 🟡 sez. 2: Search Journey Awareness nello Smart Bidding"
+   ]
+  },
+  "brevo": {
+   "dal": "2026-11-17",
+   "livello": "sostanziale",
+   "voci": [
+    "17/11 🔴 sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva; sez. 5: Brevo PushOwl unico collegamento Shopify, import che sovrascrive attributi e iscrizioni"
+   ]
+  },
+  "meta-pixel-capi": {
+   "dal": "2026-11-17",
+   "livello": "minore",
+   "voci": [
+    "17/11 🟡 sez. 3: eventi offline via CAPI (physical_store, Offline Conversions API legacy), parametro net_revenue, nessuna ottimizzazione sul margine documentata"
    ]
   }
  },
@@ -795,7 +847,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-16",
+  "ultima_lettura": "2026-11-17",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1053,6 +1105,30 @@
     "data": "2026-11-15",
     "mittente": "selvaggialucarelli@substack.com",
     "oggetto": "'O lui, o me'. Perché tra D'Urso e Mariotto è finita così male",
+    "esito": "saltata: fuori perimetro"
+   },
+   "1a1e8856fa60986d": {
+    "data": "2026-11-17",
+    "mittente": "madeddu@xwf.google.com",
+    "oggetto": "Promemoria chiamata 1:1 con un esperto Google Ads (account di un cliente)",
+    "esito": "saltata: promozione commerciale del rappresentante, non newsletter di prodotto"
+   },
+   "1a1e3657e988ee44": {
+    "data": "2026-11-16",
+    "mittente": "filippotrocca@substack.com",
+    "oggetto": "Google e Meta stanno imparando a comprare resi",
+    "esito": "segnale: google-ads-performance (rettifiche delle conversioni 7/54 giorni, fonte ufficiale trovata e integrata), meta-pixel-capi (eventi offline via CAPI e net_revenue, fonte ufficiale trovata; ottimizzazione sul margine non trovata)"
+   },
+   "1a1e3dafd08c619a": {
+    "data": "2026-11-16",
+    "mittente": "futuripreferibili@substack.com",
+    "oggetto": "Non sono più io",
+    "esito": "saltata: fuori perimetro"
+   },
+   "1a1e3c23deb35642": {
+    "data": "2026-11-16",
+    "mittente": "koselig@substack.com",
+    "oggetto": "Koselig #231",
     "esito": "saltata: fuori perimetro"
    }
   }

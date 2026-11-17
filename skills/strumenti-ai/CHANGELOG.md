@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 17/11/2026
+- 🔴 Sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, `~/.claude/skills` ignorata, percorsi assoluti, valide solo nelle chat nuove (verificato il 16/11). Sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother; domanda con consiglio; pagine pubbliche nel browser integrato e login su Chrome; Cristiano parla con Mother).
+
 ## 14/11/2026
 - 🟡 Sez. 0, 1, 2: Claude Code 2.1.325; raccomandazione ufficiale «start with Opus 5.5 for most workloads»; `/usage` con la ripartizione del consumo per skill, subagenti, plugin e MCP, `/insights`. Pagine di Claude Code aggiornate il 12/11 sera: regole riscontrate invariate. Data in cima al 14/11/2026.
 

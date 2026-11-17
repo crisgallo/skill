@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 17/11/2026
+- 🔴 Sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva, abbonamento che continua. Sez. 5: Brevo PushOwl unico collegamento Shopify supportato, procedura e import che sovrascrive attributi e iscrizioni.
+
 ## 14/11/2026
 - 🟡 Sez. 10: release di prodotto riletta (Content Hub al posto della Content Library dal 12/10, pagina di report per automazione dal 14/10, quattro priorità dei task CRM dal 04/11). Data in cima al 14/11/2026.
 

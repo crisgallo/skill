@@ -1,5 +1,8 @@
 # Changelog meta-pixel-capi
 
+## 17/11/2026
+- 🟡 Sez. 3: eventi offline via CAPI con action_source physical_store (Offline Conversions API «legacy»), parametro net_revenue per il margine, nessuna ottimizzazione sul margine documentata.
+
 ## 06/11/2026
 - 🔴 Sez. 9: Marketing API v27.0 dal 04/11/2026; v24.0 disponibile fino al 10/11/2026 secondo la tabella del changelog (non 06/10); v25.0 fino al 23/02/2027.
 ## 03/11/2026

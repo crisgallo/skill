@@ -1,5 +1,8 @@
 # Changelog google-search-console
 
+## 17/11/2026
+- 🟡 Sez. 9: API Search Analytics con filtro brandedClassification (BRANDED/NON_BRANDED, dal 21/02/2026), tipo webMultimodal e filterLists.
+
 ## 13/11/2026
 - 🟡 Sez. 4: anomalia dei dati 9-11/11/2026 sulle impressioni del report IA generativa (pagina ufficiale delle anomalie). Data in cima al 13/11/2026.
 

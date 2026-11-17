@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # LinkedIn Ads (Campaign Manager): regole operative
 
-**Ultima verifica delle fonti: 16 novembre 2026.**
+**Ultima verifica delle fonti: 17 novembre 2026.**
 
 **Dove le fonti ufficiali smentiscono la vulgata (verificato 20/09/2026):**
 
@@ -181,6 +181,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 - **202608 (agosto)**: Matched Audiences API in GA; **tetto 1.000 segmenti DMP per account** (429 oltre); tipi conversione **MQL e SQL**; campi DSA pagante/beneficiario sui campaign group; stop geo legacy 31/08/2026; **sunset versione 202508 il 17/08/2026**.
 - **202609 (settembre)**: hash nome/cognome in CAPI; **finestra 180 giorni** per più tipi di conversione; pivot DMA nel reporting; sunset 202510 il 15/10/2026.
 - 🟡 **202610 (ottobre, letta il 15/10/2026)**: campo `metadata` di sola lettura sulle creatività (formato, titolo, testo, landing, asset; si chiede con `fields`, non lo danno i finder); filtro `jobFunction` nella Company Intelligence API (solo con `LAST_90_DAYS`); metriche **`memberFollows` e `memberProfileClicks`** in `/adAnalytics` per Sponsored Update e Thought Leader Ads; Boost API per i post di membri e pagine. **Breaking change**: dalla **202611** le liste publisher (`/adPublisherRestrictions`) richiedono `surface` = `LAN` o `CTV`, altrimenti 400; dal **15/12/2026** una lista va abbinata a campagne dello stesso tipo di placement su ogni versione (le liste già attaccate continuano a funzionare). Sunset: **202510 il 15/10/2026**, **202511 il 16/11/2026**.
+- 🔴 **202611 (novembre, letta il 17/11/2026)** ([recent changes](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-11), [CAPI](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads-reporting/conversions-api?view=li-lms-2026-11)): nella **Conversions API arriva `SHA256_PHONE`** fra gli `userIds` (numero in formato E.164 senza «+» né spazi, poi SHA-256 in esadecimale; si manda l'hash, mai il numero in chiaro), quindi i lead da CRM con solo telefono diventano abbinabili; campo `billingReference` su `/adAccounts`; Boost API con targeting personalizzato, pubblici salvati e dichiarazione `politicalIntent`; il campo `surface` (`LAN` o `CTV`) è **obbligatorio** sulle liste publisher create con 202611 o successive (400 senza). **Sunset: 202511 il 16/11/2026, 202601 il 15/01/2027**: chi ha integrazioni CAPI o report via API controlla la versione nell'header `Linkedin-Version` prima di quelle date.
 - **UI di Campaign Manager**: nessun annuncio datato trovato per giugno–settembre 2026: la pagina Product Updates è ferma al 31/03/2026 (conversion lift a livello campagna, Brand Lift rinnovato, Draft with AI, varianti IA, Flexible Ad Creation fino a 64 combinazioni, Brand Kit, Event ads e Live); le rassegne mensili di terzi (mean.ceo agosto e settembre 2026) dichiarano "nessun lancio confermato". Qualunque connettore o script che usa la Marketing API va tenuto almeno alla 202511 fino al 16/11/2026 e poi oltre (fonte: [recent-changes](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-10)).
 
 - 🟡 **CTV Ads anche via Display & Video 360** ([pressroom LinkedIn, 22/10/2026](https://news.linkedin.com/2026/linkedins-ctv-ads-now-available-through-display-and-video-360), letto l'11/11/2026): gli annunci su TV connessa con il targeting professionale di LinkedIn (ruolo, settore, seniority) si comprano da Campaign Manager o da DSP selezionate, fra cui DV360, su inventario premium via Microsoft Monetize, con pianificazione e report Gemini dentro DV360. Per un B2B italiano conta poco finché l'offerta resta pensata per il mercato USA: [DA VERIFICARE] la disponibilità su un account italiano prima di proporla. I numeri di efficacia citati da LinkedIn (2,6 volte, studio Kantar) sono dichiarazioni del venditore, non benchmark. Segnale: ADworld Experience, News-Parade 23-30/10.
@@ -232,6 +233,8 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 ---
 
 ## Fonti (verificate 20/09/2026)
+
+**Aggiunte il 17/11/2026 (sez. 10):** [Recent Marketing API Changes 202611](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-11) · [Conversions API 202611, SHA256_PHONE](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads-reporting/conversions-api?view=li-lms-2026-11).
 
 **Riletta il 16/11/2026 (sez. 8):** [Lead Gen Form, creazione e sezioni (a423364)](https://www.linkedin.com/help/lms/answer/a423364).
 

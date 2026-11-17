@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 17/11/2026
+- 🟡 Sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026, dalla pagina dei treni garantiti.
+
 ## 14/11/2026
 - 🟡 Sez. 9: correzione della nota del 12/11 sui treni garantiti (le condizioni dell'elenco speciale sono cumulative); avviso Adriabus per lo sciopero generale del 20/11/2026 con le fasce. Data in cima al 14/11/2026.
 

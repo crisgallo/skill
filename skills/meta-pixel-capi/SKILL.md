@@ -5,7 +5,7 @@ description: "Regole operative verificate per installare, controllare e riparare
 
 # Meta Pixel e Conversions API: regole operative
 
-**Ultima verifica delle fonti: 6 novembre 2026.**
+**Ultima verifica delle fonti: 17 novembre 2026.**
 
 Questa skill approfondisce la sezione 4 della skill `meta-ads-performance` e non la contraddice: la fase di apprendimento, le finestre di attribuzione e i pubblici restano lì. Qui c'è il tracciamento: cosa arriva a Meta, come, e come si capisce se è rotto.
 
@@ -53,6 +53,7 @@ Fonte: [parametri](https://developers.facebook.com/docs/marketing-api/conversion
 - Endpoint: `POST https://graph.facebook.com/v<versione>/<DATASET_ID>/events?access_token=<token>`, corpo con array `data`. **Fino a 1.000 eventi per richiesta**; 🔴 **se un solo evento del batch è invalido, Meta rifiuta l'intero batch**.
 - **Per ogni evento sono obbligatori:** `event_name`, `event_time` (UNIX in secondi), `action_source`, `user_data`; per gli eventi web anche **`event_source_url`** e **`client_user_agent`** dentro `user_data`.
 - **`action_source`** ammette solo `email`, `website`, `app`, `phone_call`, `chat`, `physical_store`, `system_generated`, `business_messaging`, `other`. Per un sito è `website`, e Meta chiede di dichiarare che il valore è accurato ([gtm-server-side](https://developers.facebook.com/docs/marketing-api/conversions-api/guides/gtm-server-side)). Chi manda un lead da CRM con `website` sta dichiarando il falso: si usa `system_generated` o `other`.
+- 🟡 **Eventi offline e margine** ([offline events via CAPI](https://developers.facebook.com/docs/marketing-api/conversions-api/offline-events) e [parametri standard](https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/custom-data), lette il 17/11/2026; segnale: newsletter dataMesh del 16/11/2026): la Conversions API è «il metodo di integrazione consigliato da Meta» per gli eventi offline e dei negozi fisici, con `action_source` = `physical_store`; la vecchia Offline Conversions API è chiamata «legacy» (resta il parametro `upload_tag` per chi la usa ancora). Fra i parametri standard c'è **`net_revenue`**, «il valore di margine dell'evento di conversione», accanto a `value`: si può mandare il margine, ma **nessuna pagina ufficiale letta descrive un'ottimizzazione sul margine**; la notizia di una beta chiusa resta di terzi [DA VERIFICARE]. Resi e annullamenti: Meta non documenta una rettifica dell'evento già inviato (Google sì, skill google-ads-performance sez. 4).
 - 🔴 **`event_time` può stare al massimo 7 giorni nel passato**: "if any `event_time` in `data` is greater than 7 days in the past, we return an error for the entire request and process no events". Per `physical_store` la finestra è **62 giorni** ([offline-events](https://developers.facebook.com/documentation/ads-commerce/conversions-api/offline-events)). Ma la freschezza utile è un'altra: Meta chiede l'invio **in tempo reale o entro 1 ora**; oltre le 2 ore la resa in ottimizzazione cala (end-to-end). Un caricamento notturno "batch" è ammesso, non è equivalente.
 - **`event_id`**: stringa unica scelta dall'inserzionista (numero ordine, transaction id, UUID); serve alla deduplica (sez. 4). **`opt_out: true`** esclude l'evento dall'ottimizzazione e lo tiene solo per l'attribuzione.
 - **`custom_data`**: stessi nomi del Pixel (`value`, `currency`, `content_ids`, `content_type`, `contents`, `num_items`, `order_id`). Le regole di sez. 2 valgono identiche sul server.
@@ -196,6 +197,8 @@ Regole trasversali:
 ---
 
 ## Fonti (verificate 20/09/2026)
+
+**Aggiunte il 17/11/2026 (sez. 3):** [Offline events via Conversions API](https://developers.facebook.com/docs/marketing-api/conversions-api/offline-events) · [Parametri standard, net_revenue](https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/custom-data).
 
 **Aggiunte il 23/10/2026 (sez. 5):** [Meta: About measuring conversions on customer devices (4237575203200036)](https://www.facebook.com/business/help/4237575203200036) · [Stape: Meta on-device conversion measurement, 22/10/2026](https://stape.io/news/meta-on-device-conversion-measurement).
 

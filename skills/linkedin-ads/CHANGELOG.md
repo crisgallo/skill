@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 17/11/2026
+- 🔴 Sez. 10: versione API 202611: SHA256_PHONE nella Conversions API, billingReference, Boost API, surface obbligatorio sulle liste publisher; sunset 202511 il 16/11/2026 e 202601 il 15/01/2027.
+
 ## 16/11/2026
 - 🟡 Sez. 8: pagina a423364 riletta, sezioni del modulo (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro.
 
