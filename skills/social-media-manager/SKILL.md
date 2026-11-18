@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 # Social media manager (Facebook, Instagram, LinkedIn): regole operative
 
-**Ultima verifica delle fonti: 13 novembre 2026.**
+**Ultima verifica delle fonti: 18 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -77,6 +77,9 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 📌 **Verificato in pratica dalle chat di progetto (sapere `linkedin_profilo_e_articoli.md e meta_social_organico.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **LinkedIn, link in primo piano.** LinkedIn tiene in cache l'anteprima per URL: ricreato il riquadro riproponeva la foto vecchia, e un parametro aggiunto all'URL per forzarla è rifiutato («Inserisci un link valido») (Blog, 07/08/2026).
 - **Storie in evidenza, misure.** Il cerchio sul profilo è 72x72 px (misurato dall'elemento), la copertina quadrata 1080x1080: a quella misura ci sta un segno solo, mai una tavola (Blog, 29/08/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Nota dell'invito a collegarsi su LinkedIn, 200 caratteri.** Con un contatto di 2° grado il messaggio diretto non si può mandare: si passa dall'invito con la nota, che sul profilo di Cristiano ha un limite di 200 caratteri. Il resto va nel messaggio dopo l'accettazione (17/11/2026).
 
 ## 5. Piano editoriale, programmazione e testi
 

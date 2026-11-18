@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 18/11/2026
+- 🔴 Sez. 7 e 10: 2 saperi via Mother #28 (18/11): follow attribuiti nella colonna «Follow di Instagram» e follow netti negli Insights del profilo giusto; dialogo delle colonne senza «Applica» che salva un preset nell'account.
+
 ## 17/11/2026
 - 🔴 Sez. 1, 2, 5, 6, 7 e 9: 19 saperi verificati in pratica dalle chat di progetto (via Mother #28): feed supplementare da Foglio Google, copie di inserzioni rotte, reel Instagram come inserzione, budget di campagna e data d'inizio, posizionamenti Facebook, etichette del portfolio, targeting Advantage+ con obiettivo Traffico, colonna destra, consegna fra inserzioni dello stesso gruppo, elementi eliminati, modulo di creazione, Libreria inserzioni, spegnimento, SMS della Fatturazione, insiemi di prodotti, modello grafico del catalogo, «Mostra prodotti», verifica dell'azienda, storie programmate.
 

@@ -1,5 +1,8 @@
 # Changelog trustpilot
 
+## 18/11/2026
+- 🟡 Sez. 15: sapere via Mother #28 (18/11): la data degli inviti in coda si cambia solo un invito alla volta con «Modifica invito», nessuna azione in blocco.
+
 ## 17/11/2026
 - 🔴 Sez. 1, 4, 5 e 9: 7 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): quota inviti del contratto e non del listino, prezzi della quota extra, risposte alle recensioni di prodotto non eliminabili, impostazioni degli inviti trovate su un Plus, valutazioni negozio e prodotto su Google via Trustpilot (feed automatico, modulo di Google), modello d'invito del modulo PrestaShop e utenti.
 

@@ -1,6 +1,7 @@
 # Changelog prestashop
 
 ## 18/11/2026
+- 🔴 Sez. 10 e 15: 3 saperi via Mother #28 (18/11): linguette AxonCreator da categoria solo con i primi 10 prodotti, notifiche «New order» perse col server di posta giù, versione di ps_facetedsearch e revsliderprestashop leggibile nel config.xml pubblico; Mother ha riletto l'advisory Friends of Presta su CVE-2026-117360 (nota sulla fonte aggiornata).
 - 🟡 Sez. 1: tabella dei requisiti PHP di devdocs aggiornata il 17/11/2026 con la riga 9.1~9.2 (PHP 8.1-8.5, raccomandato 8.5); nessun requisito cambiato.
 
 ## 17/11/2026

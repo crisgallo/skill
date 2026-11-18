@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 17 novembre 2026.**
+**Ultima verifica delle fonti: 18 novembre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -272,6 +272,9 @@ Solo quello che le fonti verificate sostengono; nessuna soglia numerica inventat
 - **Logo con «1 violazione delle norme».** Nelle linee guida del brand la violazione era «Salute nella pubblicità personalizzata», norma di categoria, non un difetto di proporzioni: rifare il logo non la toglie. La diagnostica mostrava anche «gruppi limitati dalle norme 3 su 7» e «90% dei prodotti escluso» (e-commerce di integratori, 06/10/2026).
 - **Efficacia dei gruppi e video.** Lo stesso gruppo era «Media» nell'editor e «Scadente» nell'elenco; con tre video per gruppo i quattro gruppi nuovi sono passati a «Eccellente». I video caricati senza un canale YouTube del cliente finiscono sul canale di archiviazione («Video ad upload channel for …»), «Non in elenco», col titolo uguale al nome del file con «.mp4»: si rinomina il file prima di caricarlo (e-commerce, 06/10/2026).
 - **Canali.** Sull'account la priorità dei canali non era disponibile e YouTube e Display non si escludevano: la spesa per canale si legge in Rendimento del canale, non si governa (e-commerce, 05/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Video PMax e canale YouTube proposto.** Caricando video in un gruppo di asset PMax il pannello ha proposto come destinazione il canale YouTube di un altro cliente a cui l'utente ha accesso. Si sceglie il canale di archiviazione («Video ad upload channel for <account>», video non in elenco) e dopo il caricamento si controlla il canale su YouTube, perché il pannello non lo mostra (16/11/2026).
 
 ## 13. Aprire un account Google Ads per un cliente da zero (verificato il 21/10/2026)
 

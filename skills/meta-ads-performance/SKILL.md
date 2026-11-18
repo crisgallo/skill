@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Meta Ads: regole operative
 
-**Ultima verifica delle fonti: 11 novembre 2026.**
+**Ultima verifica delle fonti: 18 novembre 2026.**
 
 🔄 **Cosa è cambiato (verifica del 20/09/2026), con la data del cambio di Meta, non quella in cui ce ne siamo accorti:**
 
@@ -218,6 +218,9 @@ Ordine di lettura che fa emergere i problemi veri:
 - **Conferma esterna che gli annunci sono attivi.** Per mostrare che le inserzioni sono attive in un paese si manda il link della Libreria inserzioni filtrato sul paese e sul `page_id` della Pagina: conferma esterna senza accesso al pannello, utile anche come controllo periodico (cliente B2B, 25/06/2026).
 - **Spegnere una campagna con buoni risultati.** Meta apre il modale «campagna con prestazioni elevate»: si conferma «Disattiva» e si rilegge lo stato «Non attivo/a». Su Google Ads lo spegnimento si conferma dal banner «Nessuno dei tuoi annunci è pubblicato», su LinkedIn dallo stato del set di campagne (cliente B2B, 19/08/2026).
 
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Colonne personalizzate senza «Applica».** Cambiando le colonne per una lettura, il dialogo di Gestione inserzioni non offriva «Applica» e ha salvato nell'account un preset nuovo («Copia di Configurazione»). Per leggere senza lasciare tracce si usa un preset già esistente, oppure si accetta il preset e lo si annota (16/11/2026).
+
 ---
 
 ## 8. Cosa non fare mai
@@ -260,6 +263,9 @@ Il caso tipo: un profilo personale professionale da qualche migliaio di follower
 - **Come si stima l'effetto.** 1) **Base organica**: follower netti al giorno nei giorni senza campagna dello stesso intervallo di Insights (media su almeno due settimane). 2) **Incrementale**: follower netti dei giorni di campagna meno la base per i giorni di campagna. 3) **Costo per follower incrementale**: spesa della campagna diviso l'incrementale. Se la colonna «Instagram follows» c'è, il suo numero è il **minimo attribuito** (solo chi ha visto o cliccato l'inserzione dentro la finestra) e di norma sta sotto l'incrementale di Insights; i due numeri vanno letti insieme, non sommati. Visite al profilo diviso follow dà il **tasso di conversione del profilo**: se è basso il problema è la bio, i contenuti in evidenza e i primi post, non la campagna. **Costi tipici**: nessuna fonte affidabile per l'Italia; le guide generaliste citano 2,5-4 $ per follower (fonte terza americana del 2025, non verificata). Il numero vero si ricava da un test di 7-14 giorni con il metodo sopra, mai da un benchmark.
 - **«Metti in evidenza» dall'app contro Gestione inserzioni.** Dall'app o da instagram.com, sotto il post, **Promuovi**: si impostano **Obiettivo** («Visitare il tuo profilo», «Visitare il tuo sito web», «Effettuare un acquisto»; il recapito via messaggi è elencato dalle guide, [DA VERIFICARE] nel menu), **Pubblico**, **Budget** al giorno e **Durata**; i post promossi escono in Esplora, feed della Home, feed del profilo e Storie, serve un account professionale, al primo uso si sceglie o si collega l'account pubblicitario ([2090822074310288](https://help.instagram.com/2090822074310288?locale=it_IT), [1227333598786234](https://help.instagram.com/1227333598786234?locale=it_IT)). ⚠️ **Dall'app iOS Apple trattiene il 30% del pagamento** (costo del servizio Apple sui fondi aggiunti nell'app): si promuove da instagram.com o da Gestione inserzioni. Negli account UE con abbonamento senza inserzioni la possibilità di promuovere è limitata. Gestione inserzioni dà in più: scelta esplicita di luogo della conversione e obiettivo di prestazioni, esclusione del pubblico personalizzato di chi già interagisce con l'account Instagram (per non pagare visite dei follower attuali, voce esatta del pubblico [DA VERIFICARE]), controllo dei posizionamenti, colonne, suddivisioni, test A/B e budget a durata. «Metti in evidenza» va bene per una spinta breve a un post che funziona già in organico; per far crescere i follower con metodo si usa Gestione inserzioni.
 - **Trappole viste.** Campagne con «follower» nel nome ottimizzate sui clic sul link (il nome non dice cosa compra il pannello: si legge l'obiettivo di prestazioni del gruppo). Lettura dei risultati solo in Gestione inserzioni, dove i follower non compaiono senza la colonna «Instagram follows». Creatività 4:5 con il logo nella fascia alta, coperte dall'intestazione nel feed del profilo (regola del 29/10/2026 in sez. 6: la campagna è stata fermata dal pannello). Targeting largo per abbassare il costo: porta follower che non interagiscono e abbassano la copertura organica. Dati di Insights non salvati oltre i 90 giorni.
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Follow attribuiti e follow netti.** In una campagna follower i follow attribuiti stanno nella colonna «Follow di Instagram» di Gestione inserzioni, accanto alle visite al profilo; il costo a follow si fa con la spesa e quella colonna. I follow netti si leggono negli Insights del profilo, e Business Suite li mostra solo per i profili collegati a quel portfolio: prima si controlla di essere sul profilo giusto (17/11/2026).
 
 ---
 

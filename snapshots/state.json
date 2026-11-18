@@ -775,7 +775,8 @@
     "13/11 🟡 sez. 3: dato Buffer sulla durata dei reel",
     "17/11 🔴 Sez. 2, 4, 5, 7, 8 e 12: 12 saperi verificati in pratica (via Mother #28): LinkedIn (campi ProseMirror del profilo, competenze e Servizi, cache del link in primo piano, editor degli articoli in iframe, ricerche di contenuti come URL), Instagram e Business Suite (sticker link con fbclid e utm_id, storie senza Instagram collegato, misure delle storie in evidenza, Sposta nelle bozze, commenti e funzioni solo da app, Accesso parziale, avviso sulla metrica Copertura).",
     "17/11 🔴 sez. 13 nuova: storie in evidenza di Instagram (nome di una parola da 5-6 lettere e di marketing, niente riordino e massimo tre storie, copertina 1080x1080 e cerchio 72 px), regole di Cristiano del 17/11 via Mother",
-    "18/11 🔴 niente apertura con uno studio vecchio di anni nei testi a nome di Cristiano"
+    "18/11 🔴 niente apertura con uno studio vecchio di anni nei testi a nome di Cristiano",
+    "18/11 🟡 nota invito LinkedIn 200 caratteri (via Mother #28)"
    ]
   },
   "gtm": {
@@ -857,7 +858,8 @@
    "livello": "sostanziale",
    "voci": [
     "17/11 🔴 sez. 4: rettifiche delle conversioni con ID ordine, lette dalle offerte solo nei 7 giorni, nei report fino a 54, ritiro irreversibile; 🟡 sez. 2: Search Journey Awareness nello Smart Bidding",
-    "17/11 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati."
+    "17/11 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati.",
+    "18/11 🔴 video PMax e canale YouTube proposto (via Mother #28)"
    ]
   },
   "brevo": {
@@ -866,7 +868,8 @@
    "voci": [
     "17/11 🔴 sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva; sez. 5: Brevo PushOwl unico collegamento Shopify, import che sovrascrive attributi e iscrizioni",
     "17/11 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA.",
-    "18/11 🟡 release 27-29/10 (posizione rilevata, SMS, Wallet, pop-up mirati) e modelli collegati nelle automazioni"
+    "18/11 🟡 release 27-29/10 (posizione rilevata, SMS, Wallet, pop-up mirati) e modelli collegati nelle automazioni",
+    "18/11 🔴 4 saperi via Mother #28: frase per prodotto, campi eventi PrestaShop, MPP nei segmenti, email HTML su Gmail iPhone"
    ]
   },
   "meta-pixel-capi": {
@@ -889,7 +892,8 @@
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 Sez. 1, 2, 5, 6, 7 e 9: 19 saperi verificati in pratica dalle chat di progetto (via Mother #28): feed supplementare da Foglio Google, copie di inserzioni rotte, reel Instagram come inserzione, budget di campagna e data d'inizio, posizionamenti Facebook, etichette del portfolio, targeting Advantage+ con obiettivo Traffico, colonna destra, consegna fra inserzioni dello stesso gruppo, elementi eliminati, modulo di creazione, Libreria inserzioni, spegnimento, SMS della Fatturazione, insiemi di prodotti, modello grafico del catalogo, «Mostra prodotti», verifica dell'azienda, storie programmate."
+    "17/11 🔴 Sez. 1, 2, 5, 6, 7 e 9: 19 saperi verificati in pratica dalle chat di progetto (via Mother #28): feed supplementare da Foglio Google, copie di inserzioni rotte, reel Instagram come inserzione, budget di campagna e data d'inizio, posizionamenti Facebook, etichette del portfolio, targeting Advantage+ con obiettivo Traffico, colonna destra, consegna fra inserzioni dello stesso gruppo, elementi eliminati, modulo di creazione, Libreria inserzioni, spegnimento, SMS della Fatturazione, insiemi di prodotti, modello grafico del catalogo, «Mostra prodotti», verifica dell'azienda, storie programmate.",
+    "18/11 🔴 2 saperi via Mother #28: follow attribuiti e netti, preset colonne senza Applica"
    ]
   },
   "prestashop": {
@@ -898,7 +902,8 @@
    "voci": [
     "17/11 🔴 Sez. 10: CVE-2026-54159 di ps_facetedsearch (3.0.0-4.0.3, RCE senza autenticazione, CVSS 10, corretta nella 4.0.4, GHSA del 10/07/2026): controllo della versione in Moduli e aggiornamento immediato. Nota sulla fonte dell'avviso Slider Revolution (sola advisory Friends of Presta, non su NVD).",
     "17/11 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup.",
-    "18/11 🟡 tabella requisiti PHP con riga 9.1~9.2"
+    "18/11 🟡 tabella requisiti PHP con riga 9.1~9.2",
+    "18/11 🔴 3 saperi via Mother #28: linguette AxonCreator, notifiche ordine perse, versione modulo nel config.xml; nota Slider Revolution aggiornata"
    ]
   },
   "substack-intelligence": {
@@ -913,7 +918,8 @@
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 Sez. 1, 4, 5 e 9: 7 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): quota inviti del contratto e non del listino, prezzi della quota extra, risposte alle recensioni di prodotto non eliminabili, impostazioni degli inviti trovate su un Plus, valutazioni negozio e prodotto su Google via Trustpilot (feed automatico, modulo di Google), modello d'invito del modulo PrestaShop e utenti."
+    "17/11 🔴 Sez. 1, 4, 5 e 9: 7 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): quota inviti del contratto e non del listino, prezzi della quota extra, risposte alle recensioni di prodotto non eliminabili, impostazioni degli inviti trovate su un Plus, valutazioni negozio e prodotto su Google via Trustpilot (feed automatico, modulo di Google), modello d'invito del modulo PrestaShop e utenti.",
+    "18/11 🟡 inviti in coda spostabili solo uno alla volta (via Mother #28)"
    ]
   },
   "wordpress-woocommerce": {

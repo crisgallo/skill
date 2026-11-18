@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Trustpilot su un e-commerc
 
 # Trustpilot: regole operative
 
-**Ultima verifica delle fonti: 14 novembre 2026.**
+**Ultima verifica delle fonti: 18 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -230,6 +230,9 @@ Fonte: [Legal Brand Guidelines v3.0, settembre 2026](https://corporate.trustpilo
 - Dove si vede lo stato "Verified/Invited/Unprompted" per singola recensione e se esiste un filtro per l'export.
 - Se l'export CSV delle recensioni e degli inviti esiste sul Free.
 - Dove compaiono le email educative e i warning dentro il pannello, oltre che via email.
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Spostare gli inviti in coda: uno alla volta.** Per spostare la data degli inviti già in coda il pannello offre solo «Modifica invito», un invito alla volta, senza azione in blocco: con decine di inviti fuori quota è lavoro manuale lungo, e si decide prima se vale la pena (16/11/2026).
 
 ---
 

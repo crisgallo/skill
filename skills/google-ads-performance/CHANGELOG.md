@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 18/11/2026
+- 🔴 Sez. 12: sapere via Mother #28 (18/11): caricando video in PMax il pannello propone come destinazione il canale YouTube di un altro cliente; si sceglie il canale di archiviazione e si controlla su YouTube.
+
 ## 17/11/2026
 - 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati.
 - 🔴 Sez. 4: rettifiche delle conversioni con ID ordine (rettifica e ritiro), lette dalle offerte solo nei 7 giorni dopo la registrazione, nei report fino a 54; ritiro irreversibile salvo ricarico con timestamp spostato. 🟡 Sez. 2: Search Journey Awareness integrata nello Smart Bidding (Search e inventario Search di PMax).
