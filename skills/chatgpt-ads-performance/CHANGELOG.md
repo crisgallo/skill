@@ -1,5 +1,8 @@
 # Changelog chatgpt-ads-performance
 
+## 18/11/2026
+- 🟡 Sez. 11: endpoint di stato revisione dei prodotti nei feed (is_approved, mappa review_status, header OpenAI-Ad-Account, uno SKU con più ID indicizzati), pagine product-feeds e hotel-feeds rilette il 18/11/2026.
+
 ## 17/11/2026
 - 🔴 Sez. 3, 4, 7 e 8: 4 saperi verificati in pratica sul Blog (via Mother #28): indicatore dell'offerta CPC e pavimento a 1,95 €, una sola immagine per inserzione, utm_term={ad_id} in GA4 e colonna ID annuncio, «Pubblica» che lascia tutto spento.
 

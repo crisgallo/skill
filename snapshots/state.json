@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-17",
+  "ultima_lettura": "2026-11-18",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -152,8 +152,8 @@
     "esito": "regola di processo sulla manutenzione delle skill, già coperta dalla routine, non integrata"
    },
    "feedback_lavoro_con_cris.md": {
-    "modificato": "2026-11-16",
-    "esito": "17/11: dal 16/11 Cristiano parla con Mother, le chat riferiscono a lei: integrata in strumenti-ai sez. 8"
+    "modificato": "2026-11-17",
+    "esito": "18/11: versione del 17/11, regola nuova sulle date lette dal calendario in quel momento: integrata in trello sez. 9"
    },
    "feedback_verbali_e_sal.md": {
     "modificato": "2026-10-09",
@@ -284,8 +284,8 @@
     "esito": "10/11: versione del 09/11 (32.781 byte): appuntamento nuovo non sposta le voci fisse, sopra un viaggio nessuna voce: integrata in trello sez. 9"
    },
    "feedback_trello_hub_promemoria.md": {
-    "modificato": "2026-11-16",
-    "esito": "17/11: dal 16/11 niente avvisi in Promemoria, guasti a Mother, cose per Cristiano via Mother: integrata in trello sez. 3"
+    "modificato": "2026-11-17",
+    "esito": "18/11: versione del 17/11, nessun lavoro senza la sua voce: integrata in trello sez. 3 e 12"
    },
    "feedback_no_dedurre_indisponibilita.md": {
     "modificato": "2026-10-04",
@@ -304,8 +304,8 @@
     "esito": "integrata in google-ads-performance sez. 10 il 07/10/2026"
    },
    "feedback_prima_di_proporre_cerca_nel_log.md": {
-    "modificato": "2026-10-07",
-    "esito": "regola di processo della manutenzione, non integrata"
+    "modificato": "2026-11-17",
+    "esito": "18/11: versione del 17/11 (guasto gia sistemato), regola di processo di Mother, non integrata"
    },
    "feedback_task_di_progetto_chiedi_alla_chat.md": {
     "modificato": "2026-10-07",
@@ -530,6 +530,46 @@
    "_sincronizzazione_2026-11-16": {
     "modificato": "2026-11-16",
     "esito": "17/11: 40 file feedback_* ricopiati in blocco alle 11:45 UTC nelle cartelle di progetto; letti con due sottoagenti, solo quelli sopra avevano voci dal 10/11 (voce_di_cris 11/11 e fare_non_far_fare 12/11 già integrate il 12-13/11)"
+   },
+   "feedback_solleciti.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: regola globale di Cristiano del 17/11 sui solleciti (voce fissa a 5 giorni lavorativi, uno per punto, registro): integrata in trello sez. 7 e 12"
+   },
+   "feedback_lei_nei_solleciti.md": {
+    "modificato": "2026-11-16",
+    "esito": "18/11: lei con selezionatori e sconosciuti: integrata nella regola dei solleciti, trello sez. 7"
+   },
+   "feedback_solleciti_voci_fisse.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: versione locale del gruppo editoriale, superata dalla regola globale; non integrata"
+   },
+   "feedback_controlli_legati_a_un_ora_bloccati.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: voci legate a un ora bloccate con --fissa: integrata in trello sez. 9 e 12"
+   },
+   "feedback_instagram_account_di_cris.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: regola di processo (Instagram su Chrome aperto sul profilo del cliente, chiedere a Mother il cambio profilo), non integrata"
+   },
+   "feedback_mother_smista_non_lavora.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: regola di processo di Mother (smista, non lavora), non integrata"
+   },
+   "feedback_spostare_non_e_permesso.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: spostare una voce non e il permesso di farla partire, mai CronCreate che lancia: integrata in trello sez. 9 e 12"
+   },
+   "feedback_posta_lancio_e_controllo.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: regola di processo di Mother sulla routine posta, non integrata"
+   },
+   "feedback_niente_apertura_con_studio_vecchio.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: regola di Cristiano sui testi a suo nome: integrata in social-media-manager sez. 5 e substack-intelligence (Corpo del testo)"
+   },
+   "feedback_controlla_prima_di_dire.md": {
+    "modificato": "2026-11-17",
+    "esito": "18/11: regola di processo di Mother, non integrata"
    }
   }
  },
@@ -705,7 +745,8 @@
     "🟡 27/10: sez. 3: stesso obbligo di passkey su Google Ads dall'11/11/2026; abbinamento in 1-2 giorni, piena attività dopo 7: si crea subito",
     "🟡 05/11: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; etichette IA anche in Merchant Center",
     "12/11 🟡 sez. 2: Misrepresentation, condizioni della transazione nascoste vietate; offerte non disponibili senza sospensione immediata",
-    "17/11 🔴 Sez. 4, 8, 10, 12 e sezione nuova «Valutazioni dei prodotti (stelle su Shopping)»: 9 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): Foglio Google come origine supplementare, componente aggiuntivo per le origini supplementari, requisiti e stato delle valutazioni dei prodotti, «Pagina del prodotto non disponibile» per lentezza, effetti dei «Trovati da Google», diagnostica incoerente, promozioni con omaggio, «Pubblicità personalizzata: difficoltà personali»."
+    "17/11 🔴 Sez. 4, 8, 10, 12 e sezione nuova «Valutazioni dei prodotti (stelle su Shopping)»: 9 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): Foglio Google come origine supplementare, componente aggiuntivo per le origini supplementari, requisiti e stato delle valutazioni dei prodotti, «Pagina del prodotto non disponibile» per lentezza, effetti dei «Trovati da Google», diagnostica incoerente, promozioni con omaggio, «Pubblicità personalizzata: difficoltà personali».",
+    "18/11 🔴 collegamento Google Ads tramite Business Manager di default, menu Servizi collegati e Strumenti > Gestione dati (pagina 6159060 riscritta)"
    ]
   },
   "google-cloud": {
@@ -733,7 +774,8 @@
     "07/11 🟡 sez. 8: analisi Pagina LinkedIn, aggiunte le schede Comparse della Pagina, Newsletter ed Employer brand",
     "13/11 🟡 sez. 3: dato Buffer sulla durata dei reel",
     "17/11 🔴 Sez. 2, 4, 5, 7, 8 e 12: 12 saperi verificati in pratica (via Mother #28): LinkedIn (campi ProseMirror del profilo, competenze e Servizi, cache del link in primo piano, editor degli articoli in iframe, ricerche di contenuti come URL), Instagram e Business Suite (sticker link con fbclid e utm_id, storie senza Instagram collegato, misure delle storie in evidenza, Sposta nelle bozze, commenti e funzioni solo da app, Accesso parziale, avviso sulla metrica Copertura).",
-    "17/11 🔴 sez. 13 nuova: storie in evidenza di Instagram (nome di una parola da 5-6 lettere e di marketing, niente riordino e massimo tre storie, copertina 1080x1080 e cerchio 72 px), regole di Cristiano del 17/11 via Mother"
+    "17/11 🔴 sez. 13 nuova: storie in evidenza di Instagram (nome di una parola da 5-6 lettere e di marketing, niente riordino e massimo tre storie, copertina 1080x1080 e cerchio 72 px), regole di Cristiano del 17/11 via Mother",
+    "18/11 🔴 niente apertura con uno studio vecchio di anni nei testi a nome di Cristiano"
    ]
   },
   "gtm": {
@@ -742,7 +784,8 @@
    "voci": [
     "10/11 🟡 sez. 9: release note del 09/11: page view su modifica cronologia anche al ripristino dalla back/forward cache",
     "12/11 🟡 sez. 10: lista delle diagnosi della Diagnostica dei tag",
-    "17/11 🔴 Sez. 3, 4, 5, 8, 10, 13 e 15: 11 saperi verificati in pratica (via Mother #28): trasformazioni dei nomi evento sul server limitate al tag Meta, ordine di pubblicazione web poi server per l'event_id, Phone Number Formatter, errore di invio dell'area di lavoro, due tag di conversione sullo stesso invio, tabella di ricerca senza default, verifica da fuori rete, aree di lavoro nella nuova interfaccia, email in chiaro a Meta dalla variabile Impostazioni evento, player video di terzi, import di una modifica in JSON."
+    "17/11 🔴 Sez. 3, 4, 5, 8, 10, 13 e 15: 11 saperi verificati in pratica (via Mother #28): trasformazioni dei nomi evento sul server limitate al tag Meta, ordine di pubblicazione web poi server per l'event_id, Phone Number Formatter, errore di invio dell'area di lavoro, due tag di conversione sullo stesso invio, tabella di ricerca senza default, verifica da fuori rete, aree di lavoro nella nuova interfaccia, email in chiaro a Meta dalla variabile Impostazioni evento, player video di terzi, import di una modifica in JSON.",
+    "18/11 🔴 unificazione tag Google e GTM (release note 17/11/2026): ogni tag Google diventa un container, snippet senza gtag config, permessi anche su Tag Assistant, upgrade forzato a gennaio 2027; flusso Optimize passo per passo; immagine server 4.7.0"
    ]
   },
   "linkedin-ads": {
@@ -753,7 +796,8 @@
     "14/11 🟡 sez. 3: segmenti sotto i 300 sommabili, URL della Pagina nelle liste aziende, Companies Hub",
     "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro",
     "17/11 🔴 sez. 10: API 202611 (SHA256_PHONE nella CAPI, billingReference, Boost API, surface obbligatorio), sunset 202511 il 16/11/2026 e 202601 il 15/01/2027",
-    "17/11 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti."
+    "17/11 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti.",
+    "18/11 🟡 consegna accelerata documentata; dettagli personalizzati sulle ricevute"
    ]
   },
   "ga4-performance": {
@@ -797,7 +841,8 @@
    "voci": [
     "16/11 🔴 sez. 4, 5, 7, 12: regole di Cristiano del 16/11 (via Mother): numeri delle voci fissi (primo libero, nessuna rinumerazione; supera la numerazione per data del 15/10), ordine a calendario per data, dipendenze solo con --dopo, fra voci fisse cede quella che aspetta, calendario governato da Mother",
     "17/11 🔴 sez. 3, 4, 5, 10: niente avvisi in Promemoria (guasti a Mother), dati di Cristiano cercati prima su Trello, numero mai riusato e rinomina che rifiuta, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage",
-    "17/11 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori."
+    "17/11 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori.",
+    "18/11 🔴 regole di Cristiano del 17/11: nessun lavoro senza voce, solleciti fissi a 5 giorni, --fissa per le voci a un ora, date lette dal calendario sul momento, spostare non e permesso di partire"
    ]
   },
   "strumenti-ai": {
@@ -820,7 +865,8 @@
    "livello": "sostanziale",
    "voci": [
     "17/11 🔴 sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva; sez. 5: Brevo PushOwl unico collegamento Shopify, import che sovrascrive attributi e iscrizioni",
-    "17/11 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA."
+    "17/11 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA.",
+    "18/11 🟡 release 27-29/10 (posizione rilevata, SMS, Wallet, pop-up mirati) e modelli collegati nelle automazioni"
    ]
   },
   "meta-pixel-capi": {
@@ -835,7 +881,8 @@
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 Sez. 3, 4, 7 e 8: 4 saperi verificati in pratica sul Blog (via Mother #28): indicatore dell'offerta CPC e pavimento a 1,95 €, una sola immagine per inserzione, utm_term={ad_id} in GA4 e colonna ID annuncio, «Pubblica» che lascia tutto spento."
+    "17/11 🔴 Sez. 3, 4, 7 e 8: 4 saperi verificati in pratica sul Blog (via Mother #28): indicatore dell'offerta CPC e pavimento a 1,95 €, una sola immagine per inserzione, utm_term={ad_id} in GA4 e colonna ID annuncio, «Pubblica» che lascia tutto spento.",
+    "18/11 🟡 API stato revisione prodotti nei feed (is_approved, review_status)"
    ]
   },
   "meta-ads-performance": {
@@ -850,14 +897,16 @@
    "livello": "sostanziale",
    "voci": [
     "17/11 🔴 Sez. 10: CVE-2026-54159 di ps_facetedsearch (3.0.0-4.0.3, RCE senza autenticazione, CVSS 10, corretta nella 4.0.4, GHSA del 10/07/2026): controllo della versione in Moduli e aggiornamento immediato. Nota sulla fonte dell'avviso Slider Revolution (sola advisory Friends of Presta, non su NVD).",
-    "17/11 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup."
+    "17/11 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup.",
+    "18/11 🟡 tabella requisiti PHP con riga 9.1~9.2"
    ]
   },
   "substack-intelligence": {
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 Sezioni nuove «Tracciamento sulla pubblicazione (pixel e GA4)» e «Impostazioni della pubblicazione che non salvano», più «Dove stanno i dati» e «Opzioni SEO e anteprima social»: 5 saperi verificati in pratica sul Blog (via Mother #28): pixel Meta e GA4 non caricati, impostazioni che non salvano, cosa vede un visitatore, immagini dalla CDN e cover_image vuota."
+    "17/11 🔴 Sezioni nuove «Tracciamento sulla pubblicazione (pixel e GA4)» e «Impostazioni della pubblicazione che non salvano», più «Dove stanno i dati» e «Opzioni SEO e anteprima social»: 5 saperi verificati in pratica sul Blog (via Mother #28): pixel Meta e GA4 non caricati, impostazioni che non salvano, cosa vede un visitatore, immagini dalla CDN e cover_image vuota.",
+    "18/11 🔴 niente apertura con una fonte vecchia di anni nelle note e nei post"
    ]
   },
   "trustpilot": {
@@ -906,7 +955,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-17",
+  "ultima_lettura": "2026-11-18",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1189,6 +1238,11 @@
     "mittente": "koselig@substack.com",
     "oggetto": "Koselig #231",
     "esito": "saltata: fuori perimetro"
+   },
+   "1a1ed46033abd131": {
+    "data": "2026-11-18",
+    "mittente": "Giorgio Soffiato (Substack)",
+    "esito": "fuori perimetro, nessuna skill"
    }
   }
  },

@@ -180,6 +180,12 @@ lo incolla lui.** Dirlo subito, non dopo mezz'ora di tentativi.
   09/11/2026).** I link nella bozza si inseriscono **selezionando il testo dal DOM, poi `cmd+K`
   e Invio**: incollare l'URL in chiaro o scrivere il markdown non produce un link.
 
+
+- 📌 **Niente apertura con uno studio o un rapporto vecchio di anni (Cristiano, 17/11/2026,
+  `feedback_niente_apertura_con_studio_vecchio.md`: «non puoi partire citando un rapporto di tre
+  anni fa», su una nota che apriva con un rapporto del 2023).** Note, post e rilanci della
+  pubblicazione non si aprono mai con una fonte datata: la fonte vecchia può stare dentro il
+  testo, mai in testa. Prima di portare un testo a Cris si controlla l'apertura.
 Si lascia la bozza con **un solo paragrafo bianco**, così l'incolla di Cris parte pulito.
 
 ### Tabelle: mai native, sempre immagine

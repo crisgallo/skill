@@ -1,5 +1,8 @@
 # Changelog prestashop
 
+## 18/11/2026
+- 🟡 Sez. 1: tabella dei requisiti PHP di devdocs aggiornata il 17/11/2026 con la riga 9.1~9.2 (PHP 8.1-8.5, raccomandato 8.5); nessun requisito cambiato.
+
 ## 17/11/2026
 - 🔴 Sez. 10: CVE-2026-54159 di ps_facetedsearch (3.0.0-4.0.3, RCE senza autenticazione, CVSS 10, corretta nella 4.0.4, GHSA del 10/07/2026): controllo della versione in Moduli e aggiornamento immediato. Nota sulla fonte dell'avviso Slider Revolution (sola advisory Friends of Presta, non su NVD).
 - 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup.

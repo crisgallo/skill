@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 17 novembre 2026.**
+**Ultima verifica delle fonti: 18 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -192,12 +192,13 @@ Le chiavi si creano da **Settings > SMTP & API > API Keys & MCP** (pagina rinomi
 
 ---
 
-## 12. Cosa è cambiato, giugno-settembre 2026
+## 12. Cosa è cambiato, giugno-novembre 2026
 
 Date = pubblicazione della pagina release ([brevo.com/releases](https://www.brevo.com/releases/)) o dell'articolo Help.
 - **01/06** Sales Missions (beta, assistente AI vendite). **02/06** Consent groups e centro preferenze (Pro/Enterprise). **04/06** Branded Domain (beta): tracking e return-path sul proprio dominio. **04/06** Loyalty in PrestaShop. **19/06** Connettore Brevo per Claude via OAuth. **23/06** Pagina **Event Logs** (Automations → Logs) con tutti gli eventi da tracker, API e plugin. **29/06** Analytics per sub-account (Enterprise).
 - **02/07** Score visibili nella scheda contatto. **07/07** Pop-up promozionali. **08/07** Nuova pagina **UTM** (utm_term, utm_content, UTM custom Pro/Enterprise). **17/07** Sender ID SMS Francia: solo lettere e cifre, conversione automatica. **27/07** Permessi granulari sui contatti; tabella **prodotti venduti** nel report conversioni. **31/07** Consenso al pixel per contatto (CNIL).
 - **24/08** Inizio migrazione Enterprise al nuovo editor automazioni; **25/08** articolo di migrazione al nuovo motore conversioni (le vecchie metriche smettono di registrare). **02-03/09** changelog API loyalty.
+- 🟡 **27/10** SMS in altri paesi (costo in crediti per messaggio diverso per paese); **segmentazione per posizione rilevata**: attivata in Impostazioni contatti, Brevo deduce città, CAP, paese, regione e fuso dalle aperture e dai clic (IP) o dal push, con menu a tendina dei paesi e filtro per paese senza attributi testuali da mantenere; **passaggi Wallet marcati come usati** via endpoint redeem o scansione, con evento unificato usabile come trigger di automazione. **29/10** **pop-up mirati per lista e attributi del contatto** (mostrare l'iscrizione alla newsletter solo a chi non è iscritto). **17/11** articolo «Where can I use my email template?» aggiornato: nel nuovo editor delle automazioni un passo email può **collegare un modello salvato** invece di copiarlo, e ogni modifica al modello vale ovunque è usato; i messaggi dell'automazione si vedono nella pagina Messages, i modelli collegati restano in Templates ([releases](https://www.brevo.com/releases/) e [360019789080](https://help.brevo.com/hc/en-us/articles/360019789080), letti il 18/11/2026).
 - Fuori finestra ma rilevanti: **08/05** Multichannel Conversion Engine e modifica dei link nelle email inviate; **12/05** scadenza chiavi API/SMTP; **19/05** score predittivi.
 - **Italia, fuori Brevo ma decisivo**: Linee guida del Garante sui tracking pixel nelle e-mail, provvedimento n. 284 del 17/04/2026, in Gazzetta Ufficiale il 29/04/2026, adeguamento entro sei mesi (29/10/2026). Regole e cosa fare sul pannello in sez. 9; il consenso al pixel per contatto del 31/07 è lo strumento da provare, verifica aperta sulla revoca granulare.
 

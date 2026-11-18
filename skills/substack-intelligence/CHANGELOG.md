@@ -1,5 +1,8 @@
 # Changelog substack-intelligence
 
+## 18/11/2026
+- 🔴 Corpo del testo: regola di Cristiano del 17/11/2026 (`feedback_niente_apertura_con_studio_vecchio.md`): note e post non si aprono con una fonte vecchia di anni.
+
 ## 17/11/2026
 - 🔴 Sezioni nuove «Tracciamento sulla pubblicazione (pixel e GA4)» e «Impostazioni della pubblicazione che non salvano», più «Dove stanno i dati» e «Opzioni SEO e anteprima social»: 5 saperi verificati in pratica sul Blog (via Mother #28): pixel Meta e GA4 non caricati, impostazioni che non salvano, cosa vede un visitatore, immagini dalla CDN e cover_image vuota.
 

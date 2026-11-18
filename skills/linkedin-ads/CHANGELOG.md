@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 18/11/2026
+- 🟡 Sez. 5 e 14: consegna accelerata documentata (obiettivi, Event ad, budget totale, due o tre ad set) sulla pagina a421112; dettagli personalizzati sulle ricevute con «Edit receipt details» (a417903). Pagine rilette il 18/11/2026.
+
 ## 17/11/2026
 - 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti.
 - 🔴 Sez. 10: versione API 202611: SHA256_PHONE nella Conversions API, billingReference, Boost API, surface obbligatorio sulle liste publisher; sunset 202511 il 16/11/2026 e 202601 il 15/01/2027.

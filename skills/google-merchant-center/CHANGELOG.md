@@ -1,5 +1,8 @@
 # Changelog google-merchant-center
 
+## 18/11/2026
+- 🔴 Sez. 3: pagina 6159060 riscritta (riletta il 18/11/2026): il collegamento Google Ads si fa di default tramite Business Manager, che lega in automatico le altre app collegate; menu Accesso e servizi → Servizi collegati, e in Google Ads Strumenti → Gestione dati → Google Merchant Center; controlli prima del link.
+
 ## 17/11/2026
 - 🔴 Sez. 4, 8, 10, 12 e sezione nuova «Valutazioni dei prodotti (stelle su Shopping)»: 9 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): Foglio Google come origine supplementare, componente aggiuntivo per le origini supplementari, requisiti e stato delle valutazioni dei prodotti, «Pagina del prodotto non disponibile» per lentezza, effetti dei «Trovati da Google», diagnostica incoerente, promozioni con omaggio, «Pubblicità personalizzata: difficoltà personali».
 
