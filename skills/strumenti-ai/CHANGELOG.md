@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 19/11/2026
+- 🟡 Sez. 1: moltiplicatore 1,1x per l'inferenza solo negli Stati Uniti (inference_geo) dai modelli 4.6 in poi, prezzi di lettura dalla cache per modello (pagina prezzi riletta il 19/11/2026).
+
 ## 17/11/2026
 - 🔴 Sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, `~/.claude/skills` ignorata, percorsi assoluti, valide solo nelle chat nuove (verificato il 16/11). Sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother; domanda con consiglio; pagine pubbliche nel browser integrato e login su Chrome; Cristiano parla con Mother).
 

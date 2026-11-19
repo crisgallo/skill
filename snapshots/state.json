@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-18",
+  "ultima_lettura": "2026-11-19",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -570,6 +570,34 @@
    "feedback_controlla_prima_di_dire.md": {
     "modificato": "2026-11-17",
     "esito": "18/11: regola di processo di Mother, non integrata"
+   },
+   "feedback_reel_rimando_substack.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: regola finale di Cristiano del 18/11 sui reel degli articoli: integrata in social-media-manager sez. 5 e 12"
+   },
+   "feedback_reel_rimando_al_blog.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: superata lo stesso giorno da feedback_reel_rimando_substack.md, non integrata"
+   },
+   "feedback_reel_link_primo_commento.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: superata lo stesso giorno, non integrata (limiti del web ripresi dalla regola finale)"
+   },
+   "feedback_bio_secondo_link_ultimo_articolo.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: superata lo stesso giorno, non integrata"
+   },
+   "feedback_instagram_niente_link_ai_singoli_articoli.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: superata, resta solo il divieto dei link ai singoli articoli, dentro la regola finale"
+   },
+   "feedback_instagram_link_bio_dal_web.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: solo il primo link della bio visibile da web: integrata in social-media-manager sez. 12"
+   },
+   "feedback_inizia_lo_lancia_la_chat.md": {
+    "modificato": "2026-11-18",
+    "esito": "19/11: inizia lo lancia la chat che lavora: nota in trello sez. 3"
    }
   }
  },
@@ -746,7 +774,8 @@
     "🟡 05/11: sez. 4: Google for WooCommerce 3.8.1 o successiva per la Merchant API; etichette IA anche in Merchant Center",
     "12/11 🟡 sez. 2: Misrepresentation, condizioni della transazione nascoste vietate; offerte non disponibili senza sospensione immediata",
     "17/11 🔴 Sez. 4, 8, 10, 12 e sezione nuova «Valutazioni dei prodotti (stelle su Shopping)»: 9 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): Foglio Google come origine supplementare, componente aggiuntivo per le origini supplementari, requisiti e stato delle valutazioni dei prodotti, «Pagina del prodotto non disponibile» per lentezza, effetti dei «Trovati da Google», diagnostica incoerente, promozioni con omaggio, «Pubblicità personalizzata: difficoltà personali».",
-    "18/11 🔴 collegamento Google Ads tramite Business Manager di default, menu Servizi collegati e Strumenti > Gestione dati (pagina 6159060 riscritta)"
+    "18/11 🔴 collegamento Google Ads tramite Business Manager di default, menu Servizi collegati e Strumenti > Gestione dati (pagina 6159060 riscritta)",
+    "19/11 🔴 valutazioni dei prodotti senza aggregatore da Recensioni > Join Product Reviews, tempi e ricarico mensile"
    ]
   },
   "google-cloud": {
@@ -755,7 +784,8 @@
    "voci": [
     "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm",
     "13/11 🟡 sez. 5: prezzi del Data Transfer Service, connettori Alphabet gratuiti",
-    "17/11 🔴 Sez. 5 e 6: 2 saperi verificati in pratica (via Mother #28): accesso BigQuery a tempo per un assessment (Data Viewer, Job User, Metadata Viewer, Resource Viewer; oppure Service Account Admin e Project IAM Admin), eventi GA4 esclusi dall'export da dichiarare per iscritto."
+    "17/11 🔴 Sez. 5 e 6: 2 saperi verificati in pratica (via Mother #28): accesso BigQuery a tempo per un assessment (Data Viewer, Job User, Metadata Viewer, Resource Viewer; oppure Service Account Admin e Project IAM Admin), eventi GA4 esclusi dall'export da dichiarare per iscritto.",
+    "19/11 🔴 pubblico OAuth Personal: senza verifica, senza tetto 100 utenti né scadenza 7 giorni"
    ]
   },
   "redmine-harvest": {
@@ -776,7 +806,8 @@
     "17/11 🔴 Sez. 2, 4, 5, 7, 8 e 12: 12 saperi verificati in pratica (via Mother #28): LinkedIn (campi ProseMirror del profilo, competenze e Servizi, cache del link in primo piano, editor degli articoli in iframe, ricerche di contenuti come URL), Instagram e Business Suite (sticker link con fbclid e utm_id, storie senza Instagram collegato, misure delle storie in evidenza, Sposta nelle bozze, commenti e funzioni solo da app, Accesso parziale, avviso sulla metrica Copertura).",
     "17/11 🔴 sez. 13 nuova: storie in evidenza di Instagram (nome di una parola da 5-6 lettere e di marketing, niente riordino e massimo tre storie, copertina 1080x1080 e cerchio 72 px), regole di Cristiano del 17/11 via Mother",
     "18/11 🔴 niente apertura con uno studio vecchio di anni nei testi a nome di Cristiano",
-    "18/11 🟡 nota invito LinkedIn 200 caratteri (via Mother #28)"
+    "18/11 🟡 nota invito LinkedIn 200 caratteri (via Mother #28)",
+    "19/11 🔴 regola di Cristiano del 18/11 sui reel degli articoli (su Substack, link in bio, commento fissato, niente link ai singoli articoli) e limiti di Instagram dal web"
    ]
   },
   "gtm": {
@@ -798,7 +829,8 @@
     "16/11 🟡 sez. 8: pagina a423364 riletta, sezioni del modulo Lead Gen (Dettagli, Dettagli lead, Conferma con link di prenotazione appuntamento, Impostazioni) e pulsante «Personalize text» con macro",
     "17/11 🔴 sez. 10: API 202611 (SHA256_PHONE nella CAPI, billingReference, Boost API, surface obbligatorio), sunset 202511 il 16/11/2026 e 202601 il 15/01/2027",
     "17/11 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti.",
-    "18/11 🟡 consegna accelerata documentata; dettagli personalizzati sulle ricevute"
+    "18/11 🟡 consegna accelerata documentata; dettagli personalizzati sulle ricevute",
+    "19/11 🟡 Brand Safety & Suitability Hub e report di consegna; carosello Conversation ads; ricevute PDF/CSV e On hold"
    ]
   },
   "ga4-performance": {
@@ -843,14 +875,16 @@
     "16/11 🔴 sez. 4, 5, 7, 12: regole di Cristiano del 16/11 (via Mother): numeri delle voci fissi (primo libero, nessuna rinumerazione; supera la numerazione per data del 15/10), ordine a calendario per data, dipendenze solo con --dopo, fra voci fisse cede quella che aspetta, calendario governato da Mother",
     "17/11 🔴 sez. 3, 4, 5, 10: niente avvisi in Promemoria (guasti a Mother), dati di Cristiano cercati prima su Trello, numero mai riusato e rinomina che rifiuta, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage",
     "17/11 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori.",
-    "18/11 🔴 regole di Cristiano del 17/11: nessun lavoro senza voce, solleciti fissi a 5 giorni, --fissa per le voci a un ora, date lette dal calendario sul momento, spostare non e permesso di partire"
+    "18/11 🔴 regole di Cristiano del 17/11: nessun lavoro senza voce, solleciti fissi a 5 giorni, --fissa per le voci a un ora, date lette dal calendario sul momento, spostare non e permesso di partire",
+    "19/11 🟡 inizia lo lancia la chat che lavora la voce"
    ]
   },
   "strumenti-ai": {
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, ~/.claude/skills ignorata, percorsi assoluti, valide solo nelle chat nuove; sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother, domanda con consiglio, pagine pubbliche nel browser integrato e login su Chrome, Cristiano parla con Mother)"
+    "17/11 🔴 sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, ~/.claude/skills ignorata, percorsi assoluti, valide solo nelle chat nuove; sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother, domanda con consiglio, pagine pubbliche nel browser integrato e login su Chrome, Cristiano parla con Mother)",
+    "19/11 🟡 inference_geo 1,1x e prezzi cache per modello"
    ]
   },
   "google-ads-performance": {
@@ -859,7 +893,8 @@
    "voci": [
     "17/11 🔴 sez. 4: rettifiche delle conversioni con ID ordine, lette dalle offerte solo nei 7 giorni, nei report fino a 54, ritiro irreversibile; 🟡 sez. 2: Search Journey Awareness nello Smart Bidding",
     "17/11 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati.",
-    "18/11 🔴 video PMax e canale YouTube proposto (via Mother #28)"
+    "18/11 🔴 video PMax e canale YouTube proposto (via Mother #28)",
+    "19/11 🔴 budget minimo Demand Gen 5 USD/giorno, Implied Interactivity; 🟡 Recommended Investment Strategy, scheda traffico non valido e rapporto crediti, verifica inserzionista su query di marchio"
    ]
   },
   "brevo": {
@@ -869,7 +904,8 @@
     "17/11 🔴 sez. 2: stati di invio dell'account nel Deliverability center (Validated, Pending validation, Under review, Paused, No longer available, Sending restricted), seconda pausa potenzialmente definitiva; sez. 5: Brevo PushOwl unico collegamento Shopify, import che sovrascrive attributi e iscrizioni",
     "17/11 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA.",
     "18/11 🟡 release 27-29/10 (posizione rilevata, SMS, Wallet, pop-up mirati) e modelli collegati nelle automazioni",
-    "18/11 🔴 4 saperi via Mother #28: frase per prodotto, campi eventi PrestaShop, MPP nei segmenti, email HTML su Gmail iPhone"
+    "18/11 🔴 4 saperi via Mother #28: frase per prodotto, campi eventi PrestaShop, MPP nei segmenti, email HTML su Gmail iPhone",
+    "19/11 🟡 provvedimento Garante 03/09/2026 su e-mail promozionale senza consenso a un professionista"
    ]
   },
   "meta-pixel-capi": {
@@ -962,7 +998,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-18",
+  "ultima_lettura": "2026-11-19",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1250,6 +1286,26 @@
     "data": "2026-11-18",
     "mittente": "Giorgio Soffiato (Substack)",
     "esito": "fuori perimetro, nessuna skill"
+   },
+   "1a1f29150018560b": {
+    "data": "2026-11-19",
+    "mittente": "dataMesh (Filippo Trocca, Substack)",
+    "esito": "segnale: Incremental Attribution di Meta in apertura a tutti, attribuzione contro incrementalita; fonte terza"
+   },
+   "1a1edb4017d033f1": {
+    "data": "2026-11-18",
+    "mittente": "AI Builders Club (Skool) weekly digest",
+    "esito": "solo titoli, segnale su Fable 5.2 vs Opus 5.5; fonte terza"
+   },
+   "1a1ee6f9d50e1603": {
+    "data": "2026-11-18",
+    "mittente": "AI Builders Club (Michele Cotti)",
+    "esito": "fuori perimetro, caso di tool sostituito con Claude Code"
+   },
+   "1a1f1b1a4c39fce9": {
+    "data": "2026-11-19",
+    "mittente": "Stape (Score report del blog)",
+    "esito": "report automatico dello strumento, non newsletter di prodotto"
    }
   }
  },

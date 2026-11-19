@@ -1,5 +1,8 @@
 # Changelog google-merchant-center
 
+## 19/11/2026
+- 🔴 Sez. 18: pagina 14549080 riscritta (riletta il 19/11/2026): partecipazione senza aggregatore da Recensioni → Join Product Reviews con origine dati XML (GTIN o marca più MPN), stato inattivo 3-4 giorni, stelle in 2-4 settimane, ricarico mensile obbligatorio, dominio del product_url uguale a quello registrato.
+
 ## 18/11/2026
 - 🔴 Sez. 3: pagina 6159060 riscritta (riletta il 18/11/2026): il collegamento Google Ads si fa di default tramite Business Manager, che lega in automatico le altre app collegate; menu Accesso e servizi → Servizi collegati, e in Google Ads Strumenti → Gestione dati → Google Merchant Center; controlli prima del link.
 

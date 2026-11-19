@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 18 novembre 2026.**
+**Ultima verifica delle fonti: 19 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -69,6 +69,7 @@ Cosa serve al piano per un e-commerce (stessa fonte):
 
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **MPP nei segmenti e attribuzione.** L'esclusione delle aperture Apple MPP dai report non vale per i segmenti: c'è l'interruttore «MPP esclusi nei segmenti» in Impostazioni > Contatti. Un segmento di attivi si fa con due gruppi in O, «Email aperta» (90 giorni, MPP esclusi) oppure «Link cliccato» (90 giorni), sulla lista degli iscritti meno non iscritti e bot. Nei report l'ordine va alla campagna dell'ultimo contatto, apertura o clic, entro 7 giorni (16/11/2026).
+- 🟡 **Garante, provvedimento n. 622 del 03/09/2026 ([doc. web 10310279](https://www.garanteprivacy.it/garante/doc.jsp?ID=10310279), letto il 19/11/2026): una sola e-mail promozionale a un professionista, mandata sul «legittimo interesse» a un indirizzo preso dal sito dell'Ordine, è un trattamento illecito.** L'art. 130 del Codice privacy ammette la posta elettronica per pubblicità, vendita diretta e comunicazione commerciale **solo con il consenso**; un indirizzo pubblicato in rete non si può riusare per fini diversi da quelli della pubblicazione (il Garante cita i provvedimenti del 23/10 e del 04/12/2025 sullo stesso principio) e un messaggio che chiude con «mi metto a Sua disposizione» è promozionale anche se parla di temi professionali. Esito: ammonimento e pubblicazione, senza sanzione pecuniaria. Per le liste B2B su Brevo vale la regola di sempre: contatti con consenso tracciato o clienti con soft spam (art. 130, c. 4, prodotti analoghi e opt-out a ogni invio); niente liste costruite da siti, albi o LinkedIn.
 
 ---
 

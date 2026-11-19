@@ -1,5 +1,8 @@
 # Changelog google-cloud
 
+## 19/11/2026
+- 🔴 Sez. 8: tipo di pubblico OAuth «Personal» (solo l'account creatore, senza verifica, senza tetto dei 100 utenti né scadenza a 7 giorni, scelta una tantum, errore client_user_mismatch), pagina 15549945 riletta il 19/11/2026.
+
 ## 17/11/2026
 - 🔴 Sez. 5 e 6: 2 saperi verificati in pratica (via Mother #28): accesso BigQuery a tempo per un assessment (Data Viewer, Job User, Metadata Viewer, Resource Viewer; oppure Service Account Admin e Project IAM Admin), eventi GA4 esclusi dall'export da dichiarare per iscritto.
 

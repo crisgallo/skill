@@ -5,7 +5,7 @@ description: "Regole operative verificate per aprire, alimentare e tenere pulito
 
 # Google Merchant Center: regole operative
 
-**Ultima verifica delle fonti: 18 novembre 2026.**
+**Ultima verifica delle fonti: 19 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -238,6 +238,8 @@ Annunci di inventario locale e schede locali gratuite servono un negozio fisico:
 ---
 
 ## 18. Valutazioni dei prodotti (stelle su Shopping)
+
+- 🔴 **Partecipare senza aggregatore, dal pannello** (pagina [14549080](https://support.google.com/merchants/answer/14549080?hl=en) riscritta, riletta il 19/11/2026): se non si lavora con un aggregatore supportato, **Recensioni (menu a sinistra) → «Join Product Reviews»**, poi si crea e si carica l'**origine dati delle recensioni di prodotto** (XML secondo il formato del sito per sviluppatori, con identificatori univoci: **GTIN, oppure marca più MPN**); i domini nel `product_url` delle recensioni devono coincidere con il dominio registrato nell'account. L'origine passa una **revisione di qualità dei dati e delle norme** fatta da specialisti Google; nei primi **3-4 giorni** lo stato resta «inattivo» mentre il sistema sincronizza, le stelle escono **2-4 settimane** dopo l'approvazione e l'origine va **ricaricata almeno una volta al mese** con recensioni aggiornate, altrimenti si perde l'idoneità. Le recensioni aggregate compaiono sulle schede gratuite anche senza il programma; il programma serve per gli annunci Shopping. Con un aggregatore supportato il feed lo manda lui, fuori da Merchant Center.
 
 📌 **Verificato in pratica dalle chat di progetto (sapere `merchant_center.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Requisiti.** Il programma è diverso dalle Valutazioni negozio. Servono almeno 50 recensioni di prodotto in tutto, da un aggregatore supportato o da un'origine dati caricata almeno una volta al mese; abbinamento soprattutto per GTIN, altrimenti marca più MPN, SKU o URL (meno precisi); revisione 2-4 settimane; salute e integratori non esclusi. Modulo: support.google.com/merchants/troubleshooter/10994881; con un aggregatore approvato il «Sì» rimanda al partner, che manda il feed ([14549080](https://support.google.com/merchants/answer/14549080), letta il 14/10/2026).

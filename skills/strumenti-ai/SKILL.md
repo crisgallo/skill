@@ -5,7 +5,7 @@ description: "Regole operative verificate per usare gli strumenti Anthropic da c
 
 # Strumenti AI di Anthropic: regole operative
 
-**Ultima verifica delle fonti: 17 novembre 2026.**
+**Ultima verifica delle fonti: 19 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -28,7 +28,7 @@ Quattro modelli correnti, tutti con **finestra di contesto da 1 milione di token
 | Sonnet 5.5 | `claude-sonnet-5-5` | 2 / 10 | alto | 28/09/2027 |
 | Haiku 5.5 (dal 07/10/2026) | `claude-haiku-5-5` | 0,10 / 0,50 fino a 100.000 token di prompt; 0,50 / 2,50 oltre | medio | 07/10/2027 |
 
-- **Fable 5.2 costa il doppio di Opus 5.5** su input e output; la lettura dalla cache costa 0,20 per entrambi. **Batch API: metà prezzo** su tutti i modelli (Fable 4 / 20, Opus 2 / 10, Sonnet 1 / 5). **Fast mode** raddoppia il prezzo (Fable 16 / 80, Opus 8 / 40). Solo Haiku 5.5 ha la tariffa lunga oltre i 100.000 token di prompt.
+- **Fable 5.2 costa il doppio di Opus 5.5** su input e output; la lettura dalla cache costa 0,20 per entrambi. **Batch API: metà prezzo** su tutti i modelli (Fable 4 / 20, Opus 2 / 10, Sonnet 1 / 5). **Fast mode** raddoppia il prezzo (Fable 16 / 80, Opus 8 / 40). Solo Haiku 5.5 ha la tariffa lunga oltre i 100.000 token di prompt. 🟡 **Residenza dei dati** (pagina prezzi riletta il 19/11/2026): chiedere l'inferenza solo negli Stati Uniti con il parametro `inference_geo` costa **1,1 volte** su tutte le voci (input, output, scrittura e lettura della cache) per i modelli dalla 4.6 in poi; l'instradamento globale, che è il default, resta a prezzo pieno; i modelli precedenti rispondono 400 al parametro. Lettura dalla cache: 0,20 per Fable 5.2 e Opus 5.5, 0,25 per Fable 5.1, 0,10 per Sonnet 5.5.
 - Fable 5.2 è «costruito per il ragionamento esigente e il lavoro agentico lungo»; Mythos 5.2 ha le stesse capacità ma solo per organizzazioni verificate ([release notes 09/11/2026](https://platform.claude.com/docs/en/release-notes/overview)). Opus 4.1, Opus 4 e Sonnet 4 sono ritirati salvo su Google Cloud e Bedrock.
 - **Come si sceglie, con i numeri davanti:** la pagina dei modelli (riletta il 14/11/2026) dice «If you're unsure which model to use, start with Claude Opus 5.5 for most workloads»: per il lavoro di tutti i giorni (analisi, testi, dati) Sonnet 5.5 o Opus 5.5; Fable 5.2 per i compiti lunghi e difficili dove il costo doppio si ripaga. Il confronto a sei lavori della newsletter AI Builders Club dell'11/11/2026 (Fable più forte su grafica e cose nuove, Opus pari sui conti e sul foglio di calcolo spendendo circa la metà, 189 contro 123 dollari a consumo) è **una prova di terzi**, non un benchmark Anthropic: si cita come esperienza, non come regola.
 - Per le fatture a consumo: nella Console l'area di lavoro «Claude Code» nasce da sola al primo accesso e **i tetti di spesa si impostano per area di lavoro** ([costi](https://code.claude.com/docs/en/costs)).

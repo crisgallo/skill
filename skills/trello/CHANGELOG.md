@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 19/11/2026
+- 🟡 Sez. 3: dal 18/11/2026 `trello.py inizia` lo lancia la chat che lavora la voce, non Mother (`feedback_inizia_lo_lancia_la_chat.md`).
+
 ## 18/11/2026
 - 🔴 Sez. 3, 7, 9 e 12: regole di Cristiano del 17/11/2026 (via Drive): nessun lavoro senza la sua voce su Trello (`feedback_trello_hub_promemoria.md`); ogni domanda fatta a qualcuno apre subito una voce di sollecito fissa a cinque giorni lavorativi, un solo sollecito per punto poi «Decidere su», chiusura solo sul punto, registro «[Cris] Registro solleciti» e commento sulla card, lei con gli sconosciuti (`feedback_solleciti.md`, `feedback_lei_nei_solleciti.md`); voci legate a un'ora bloccate con `--fissa` (`feedback_controlli_legati_a_un_ora_bloccati.md`); date e ore dette solo dopo averle lette dal calendario in quel momento (`feedback_lavoro_con_cris.md`); spostare una voce non è il permesso di farla partire, mai un controllo programmato che lancia una voce (`feedback_spostare_non_e_permesso.md`). Divieti aggiornati.
 

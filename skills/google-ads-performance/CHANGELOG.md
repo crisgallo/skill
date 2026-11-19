@@ -1,5 +1,9 @@
 # Changelog google-ads-performance
 
+## 19/11/2026
+- 🔴 Sez. 6: budget minimo di piattaforma per Demand Gen 5 USD al giorno, sotto non si pubblica né si aggiorna; annunci limitati per Implied Interactivity; simulatore di scala tCPA (pagina 13695777 riletta il 19/11/2026).
+- 🟡 Sez. 7 e 13: scheda Recommended Investment Strategy nei Consigli (16604266); scheda Invalid Traffic Overview e rapporto Invalid Activity Credit (blog del 12/11/2026, pagina 16826168); verifica dell'inserzionista richiesta per targeting multi-paese, query di marchio e verticali a rischio (15588490).
+
 ## 18/11/2026
 - 🔴 Sez. 12: sapere via Mother #28 (18/11): caricando video in PMax il pannello propone come destinazione il canale YouTube di un altro cliente; si sceglie il canale di archiviazione e si controlla su YouTube.
 

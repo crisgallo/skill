@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 19/11/2026
+- 🟡 Sez. 3: provvedimento del Garante n. 622 del 03/09/2026 (doc. web 10310279): e-mail promozionale a un professionista sul legittimo interesse con indirizzo preso dal sito dell'Ordine dichiarata illecita, ammonimento; consenso obbligatorio ex art. 130.
+
 ## 18/11/2026
 - 🔴 Sez. 3, 4 e 5: 4 saperi verificati in pratica dalle chat di un e-commerce di integratori (via Mother #28, 18/11): frase per prodotto con blocco {% if item.id %} generato dal foglio, campi degli eventi del modulo PrestaShop, MPP esclusi nei segmenti e attribuzione a 7 giorni, email HTML leggibili su Gmail per iPhone.
 - 🟡 Sez. 12: release del 27 e 29/10/2026 (SMS in altri paesi, segmento per posizione rilevata, passaggi Wallet usati, pop-up per lista e attributi) e articolo del 17/11 sui modelli collegati nei passi email del nuovo editor automazioni. Titolo della sezione esteso a novembre.
