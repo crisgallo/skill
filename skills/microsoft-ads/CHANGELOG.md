@@ -1,5 +1,8 @@
 # Changelog microsoft-ads
 
+## 20/11/2026
+- 🟡 Sez. 5: post del blog Microsoft Advertising del 18/11/2026 sull'aggiornamento dei modelli di offerta (rollout automatico, adeguamento ai target più rapido, numeri dichiarati per tROAS, tCPA ed eCPC).
+
 ## 15/11/2026
 - 🔴 Sez. 5: Max CPC via API non più impostabile dal 12/01/2027 sulle nuove campagne non-portfolio (errore esplicito; portfolio esclusi; campagne esistenti lo tengono ma non lo rimettono). Sez. 13: cronologia 23/09 e versioning API 09/11.
 

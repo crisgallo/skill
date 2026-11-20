@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 19 novembre 2026.**
+**Ultima verifica delle fonti: 20 novembre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -71,7 +71,7 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 1. **Massimizza le conversioni senza target**, per **due-quattro settimane** (**regola empirica, non numero Google**: la pagina Smart Bidding non raccomanda una durata; fonte groas 23/04/2026). Il numero Google è sul volume, non sul tempo: **almeno 30 conversioni** prima di giudicare, 50 per ROAS target.
 2. Poi si aggiunge un **CPA target** ricavato dal costo per conversione **reale osservato**, non desiderato.
 3. Il CPA target deciso a tavolino su un account senza storico è il modo più veloce per non avere consegna: se è troppo basso, la campagna semplicemente non gira.
-4. 🔴 **Dal 17/08/2026 (rollout completato il 27/08) il target è un target, non un tetto.** Sulle campagne limitate dal budget, CPA target, ROAS target e CPC target (Demand Gen) **consegnano al valore impostato** invece di sovraperformarlo: con target 10 € e CPA reale 5 €, il CPA reale sale verso 10 €. Un target lasciato largo ora **costa**. Si rivedono tutti i target con il **Bid Target Adjustment Tool** (dal 06/07/2026) oppure si torna a Massimizza conversioni. Interessate: Search, Shopping, Performance Max, Demand Gen, Display, Hotel, Travel; escluse App e Video reach/view. Fonti: [17061251](https://support.google.com/google-ads/answer/17061251?hl=en), [17125145](https://support.google.com/google-ads/answer/17125145?hl=en-GB).
+4. 🔴 **Dal 17/08/2026 (rollout completato il 27/08) il target è un target, non un tetto.** Sulle campagne limitate dal budget, CPA target, ROAS target e CPC target (Demand Gen) **consegnano al valore impostato** invece di sovraperformarlo: con target 10 € e CPA reale 5 €, il CPA reale sale verso 10 €. Un target lasciato largo ora **costa**. Si rivedono tutti i target con il **Bid Target Adjustment Tool** (dal 06/07/2026) oppure si torna a Massimizza conversioni. Interessate: Search, Shopping, Performance Max, Demand Gen, Display, Hotel, Travel; escluse App e Video reach/view. Fonti: [17061251](https://support.google.com/google-ads/answer/17061251?hl=en), [17125145](https://support.google.com/google-ads/answer/17125145?hl=en-GB). 🟡 La pagina [17061251](https://support.google.com/google-ads/answer/17061251?hl=en) (riletta il 20/11/2026) dice anche come allineare il target al rendimento reale: si guarda il CPA o il ROAS effettivo **del mese precedente, escluso il periodo di ritardo delle conversioni**, e si imposta il target su quel valore storico; un target «di comodo» intermedio è ammesso e si può cambiare in qualunque momento.
 
 ⚠️ Con budget molto piccoli e conversioni rare (poche al mese) nessuna strategia automatica ha dati sufficienti. In quel caso l'obiettivo della campagna **non è convertire, è imparare quali query esistono**: si accetta di ottimizzare su clic e si legge il rapporto sui termini di ricerca.
 

@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 20/11/2026
+- 🟡 Sez. 9: pagina ATAC Tap&Go letta dal controllo automatico il 20/11/2026: regole dei 100 minuti, miglior tariffa con lo stesso supporto, tetto Roma 24 ore da 8,50 € dal sesto BIT, avviso phishing via SMS.
+
 ## 17/11/2026
 - 🔴 Sez. 3 e 14: 3 saperi verificati in pratica (via Mother #28): posti singoli solo in Business, scelta del posto a 4 euro, sconti CartaFRECCIA (10 euro ogni 300 punti, massimo due per biglietto, sole Frecce da 20 euro, upgrade a 500 punti).
 - 🟡 Sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026, dalla pagina dei treni garantiti.

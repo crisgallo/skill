@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-19",
+  "ultima_lettura": "2026-11-20",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -104,8 +104,8 @@
     "esito": "regola di progetto NEM (ore di Ale, Blueprint Tracker), non integrata"
    },
    "feedback_voce_di_cris.md": {
-    "modificato": "2026-11-11",
-    "esito": "versione dell'11/11 (regola «quanto basta» sulla lunghezza) integrata in cristiano-gallinelli-persona il 12/11/2026 (📌 🔴); la versione del 28/09 era già integrata il 29/09"
+    "modificato": "2026-11-19",
+    "esito": "20/11: versione del 19/11 (quanto basta 11/11, due punti quasi mai 19/11): integrata in social-media-manager sez. 5 e substack-intelligence"
    },
    "feedback_descrittori_fedeli_a_linkedin.md": {
     "modificato": "2026-09-28",
@@ -556,8 +556,8 @@
     "esito": "18/11: regola di processo di Mother (smista, non lavora), non integrata"
    },
    "feedback_spostare_non_e_permesso.md": {
-    "modificato": "2026-11-17",
-    "esito": "18/11: spostare una voce non e il permesso di farla partire, mai CronCreate che lancia: integrata in trello sez. 9 e 12"
+    "modificato": "2026-11-19",
+    "esito": "20/11: versione del 19/11 (domanda non e un si, eccezione Commenti di oggi): integrata in trello sez. 9"
    },
    "feedback_posta_lancio_e_controllo.md": {
     "modificato": "2026-11-17",
@@ -568,8 +568,8 @@
     "esito": "18/11: regola di Cristiano sui testi a suo nome: integrata in social-media-manager sez. 5 e substack-intelligence (Corpo del testo)"
    },
    "feedback_controlla_prima_di_dire.md": {
-    "modificato": "2026-11-17",
-    "esito": "18/11: regola di processo di Mother, non integrata"
+    "modificato": "2026-11-19",
+    "esito": "20/11: versione del 19/11 (voce aperta non vuol dire non fatto), regola di processo di Mother, non integrata"
    },
    "feedback_reel_rimando_substack.md": {
     "modificato": "2026-11-18",
@@ -785,7 +785,8 @@
     "🟡 30/10: sez. 0 e 7: rimando alla skill rinominata gtm",
     "13/11 🟡 sez. 5: prezzi del Data Transfer Service, connettori Alphabet gratuiti",
     "17/11 🔴 Sez. 5 e 6: 2 saperi verificati in pratica (via Mother #28): accesso BigQuery a tempo per un assessment (Data Viewer, Job User, Metadata Viewer, Resource Viewer; oppure Service Account Admin e Project IAM Admin), eventi GA4 esclusi dall'export da dichiarare per iscritto.",
-    "19/11 🔴 pubblico OAuth Personal: senza verifica, senza tetto 100 utenti né scadenza 7 giorni"
+    "19/11 🔴 pubblico OAuth Personal: senza verifica, senza tetto 100 utenti né scadenza 7 giorni",
+    "20/11 🟡 export fatturazione: un dataset per tipo, viste autorizzate"
    ]
   },
   "redmine-harvest": {
@@ -807,7 +808,8 @@
     "17/11 🔴 sez. 13 nuova: storie in evidenza di Instagram (nome di una parola da 5-6 lettere e di marketing, niente riordino e massimo tre storie, copertina 1080x1080 e cerchio 72 px), regole di Cristiano del 17/11 via Mother",
     "18/11 🔴 niente apertura con uno studio vecchio di anni nei testi a nome di Cristiano",
     "18/11 🟡 nota invito LinkedIn 200 caratteri (via Mother #28)",
-    "19/11 🔴 regola di Cristiano del 18/11 sui reel degli articoli (su Substack, link in bio, commento fissato, niente link ai singoli articoli) e limiti di Instagram dal web"
+    "19/11 🔴 regola di Cristiano del 18/11 sui reel degli articoli (su Substack, link in bio, commento fissato, niente link ai singoli articoli) e limiti di Instagram dal web",
+    "20/11 🔴 voce di Cristiano: lunghezza quanto basta e due punti quasi mai (19/11)"
    ]
   },
   "gtm": {
@@ -848,7 +850,8 @@
     "12/11 🟡 sez. 9: pagina Trenitalia dei treni garantiti riorganizzata, due elenchi per la lunga percorrenza",
     "14/11 🟡 sez. 9: condizioni cumulative dell'elenco speciale dei treni garantiti (correzione), sciopero generale del 20/11/2026",
     "17/11 🟡 sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026",
-    "17/11 🔴 Sez. 3 e 14: 3 saperi verificati in pratica (via Mother #28): posti singoli solo in Business, scelta del posto a 4 euro, sconti CartaFRECCIA (10 euro ogni 300 punti, massimo due per biglietto, sole Frecce da 20 euro, upgrade a 500 punti)."
+    "17/11 🔴 Sez. 3 e 14: 3 saperi verificati in pratica (via Mother #28): posti singoli solo in Business, scelta del posto a 4 euro, sconti CartaFRECCIA (10 euro ogni 300 punti, massimo due per biglietto, sole Frecce da 20 euro, upgrade a 500 punti).",
+    "20/11 🟡 ATAC Tap&Go letta: tetto 8,50 € dal sesto BIT, phishing SMS"
    ]
   },
   "google-search-console": {
@@ -876,7 +879,8 @@
     "17/11 🔴 sez. 3, 4, 5, 10: niente avvisi in Promemoria (guasti a Mother), dati di Cristiano cercati prima su Trello, numero mai riusato e rinomina che rifiuta, come Mother risolve i conflitti e apre i task che nascono, «Girami» a Mother via SendMessage",
     "17/11 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori.",
     "18/11 🔴 regole di Cristiano del 17/11: nessun lavoro senza voce, solleciti fissi a 5 giorni, --fissa per le voci a un ora, date lette dal calendario sul momento, spostare non e permesso di partire",
-    "19/11 🟡 inizia lo lancia la chat che lavora la voce"
+    "19/11 🟡 inizia lo lancia la chat che lavora la voce",
+    "20/11 🟡 neanche una domanda di Cristiano e un si; eccezione Commenti di oggi"
    ]
   },
   "strumenti-ai": {
@@ -894,7 +898,8 @@
     "17/11 🔴 sez. 4: rettifiche delle conversioni con ID ordine, lette dalle offerte solo nei 7 giorni, nei report fino a 54, ritiro irreversibile; 🟡 sez. 2: Search Journey Awareness nello Smart Bidding",
     "17/11 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati.",
     "18/11 🔴 video PMax e canale YouTube proposto (via Mother #28)",
-    "19/11 🔴 budget minimo Demand Gen 5 USD/giorno, Implied Interactivity; 🟡 Recommended Investment Strategy, scheda traffico non valido e rapporto crediti, verifica inserzionista su query di marchio"
+    "19/11 🔴 budget minimo Demand Gen 5 USD/giorno, Implied Interactivity; 🟡 Recommended Investment Strategy, scheda traffico non valido e rapporto crediti, verifica inserzionista su query di marchio",
+    "20/11 🟡 allineare il target al CPA/ROAS del mese precedente (17061251)"
    ]
   },
   "brevo": {
@@ -940,7 +945,8 @@
     "17/11 🔴 Sez. 10: CVE-2026-54159 di ps_facetedsearch (3.0.0-4.0.3, RCE senza autenticazione, CVSS 10, corretta nella 4.0.4, GHSA del 10/07/2026): controllo della versione in Moduli e aggiornamento immediato. Nota sulla fonte dell'avviso Slider Revolution (sola advisory Friends of Presta, non su NVD).",
     "17/11 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup.",
     "18/11 🟡 tabella requisiti PHP con riga 9.1~9.2",
-    "18/11 🔴 3 saperi via Mother #28: linguette AxonCreator, notifiche ordine perse, versione modulo nel config.xml; nota Slider Revolution aggiornata"
+    "18/11 🔴 3 saperi via Mother #28: linguette AxonCreator, notifiche ordine perse, versione modulo nel config.xml; nota Slider Revolution aggiornata",
+    "20/11 🔴 PHP 8.6.0 non supportato da PrestaShop, hosting fermo a 8.5"
    ]
   },
   "substack-intelligence": {
@@ -948,7 +954,8 @@
    "livello": "sostanziale",
    "voci": [
     "17/11 🔴 Sezioni nuove «Tracciamento sulla pubblicazione (pixel e GA4)» e «Impostazioni della pubblicazione che non salvano», più «Dove stanno i dati» e «Opzioni SEO e anteprima social»: 5 saperi verificati in pratica sul Blog (via Mother #28): pixel Meta e GA4 non caricati, impostazioni che non salvano, cosa vede un visitatore, immagini dalla CDN e cover_image vuota.",
-    "18/11 🔴 niente apertura con una fonte vecchia di anni nelle note e nei post"
+    "18/11 🔴 niente apertura con una fonte vecchia di anni nelle note e nei post",
+    "20/11 🔴 due punti quasi mai e quanto basta nei testi a nome di Cris"
    ]
   },
   "trustpilot": {
@@ -963,7 +970,15 @@
    "dal": "2026-11-17",
    "livello": "sostanziale",
    "voci": [
-    "17/11 🔴 Sez. 2, 4, 5, 6, 7, 10 e 14: 33 saperi verificati in pratica dalle chat di progetto (via Mother #28): WP Super Cache, cache mobile del tema, prova dei form CF7 e Jetpack, Complianz, registro 404 di Redirection, AIOSEO (schema, sitemap, rotte REST, llms.txt), WP_DEBUG via WPCode, REST con X-WP-Nonce, aggiornamenti automatici, antispam dei moduli, PageSpeed, WordPress.com (newsletter, Publicize, pingback, theme.json, cache di bordo), wptexturize, tema a blocchi, ACF, editor dei temi, trappole WPCode, Jetpack immagini, GTM4WP."
+    "17/11 🔴 Sez. 2, 4, 5, 6, 7, 10 e 14: 33 saperi verificati in pratica dalle chat di progetto (via Mother #28): WP Super Cache, cache mobile del tema, prova dei form CF7 e Jetpack, Complianz, registro 404 di Redirection, AIOSEO (schema, sitemap, rotte REST, llms.txt), WP_DEBUG via WPCode, REST con X-WP-Nonce, aggiornamenti automatici, antispam dei moduli, PageSpeed, WordPress.com (newsletter, Publicize, pingback, theme.json, cache di bordo), wptexturize, tema a blocchi, ACF, editor dei temi, trappole WPCode, Jetpack immagini, GTM4WP.",
+    "20/11 🔴 WooCommerce 11.3.1 patch di sicurezza (19/11/2026) con aggiornamento database e tre controlli post-update; PHP 8.6.0 fuori dalla tabella WordPress; 🟡 note sviluppatori WordPress 7.2"
+   ]
+  },
+  "microsoft-ads": {
+   "dal": "2026-11-20",
+   "livello": "minore",
+   "voci": [
+    "20/11 🟡 aggiornamento dei modelli di offerta (blog 18/11/2026)"
    ]
   }
  },
@@ -998,7 +1013,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-19",
+  "ultima_lettura": "2026-11-20",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1306,6 +1321,16 @@
     "data": "2026-11-19",
     "mittente": "Stape (Score report del blog)",
     "esito": "report automatico dello strumento, non newsletter di prodotto"
+   },
+   "1a1f3ac33f60ba8c": {
+    "data": "2026-11-19",
+    "mittente": "Brevo Team",
+    "esito": "avviso di account (SMS abilitati sull account di Cristiano), non newsletter di prodotto"
+   },
+   "1a1f55085e3002e9": {
+    "data": "2026-11-19",
+    "mittente": "Gianluca Diegoli (minimarketing, Substack)",
+    "esito": "segnale: passaggio da Substack a Steady, algoritmo che premia Notes, iscritti fantasma; fonte terza, nessuna regola"
    }
   }
  },

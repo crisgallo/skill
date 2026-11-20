@@ -1,5 +1,9 @@
 # Changelog wordpress-woocommerce
 
+## 20/11/2026
+- 🔴 Sez. 1 e 2: WooCommerce 11.3.1 del 19/11/2026, patch di sicurezza con aggiornamento del database (checkout, coupon, account, permessi Store API e REST, dati; template My Account, endpoint wc-admin con manage_woocommerce, Store API cross-origin con origine ammessa); PHP 8.6.0 del 19/11/2026 fuori dalla tabella di compatibilità WordPress, hosting fermo a 8.5 al massimo.
+- 🟡 Sez. 2: note per gli sviluppatori di WordPress 7.2 del 19/11/2026 (e-mail alla creazione di una password per applicazione, WP_DEBUG di default in locale, menu).
+
 ## 17/11/2026
 - 🔴 Sez. 2, 4, 5, 6, 7, 10 e 14: 33 saperi verificati in pratica dalle chat di progetto (via Mother #28): WP Super Cache, cache mobile del tema, prova dei form CF7 e Jetpack, Complianz, registro 404 di Redirection, AIOSEO (schema, sitemap, rotte REST, llms.txt), WP_DEBUG via WPCode, REST con X-WP-Nonce, aggiornamenti automatici, antispam dei moduli, PageSpeed, WordPress.com (newsletter, Publicize, pingback, theme.json, cache di bordo), wptexturize, tema a blocchi, ACF, editor dei temi, trappole WPCode, Jetpack immagini, GTM4WP.
 

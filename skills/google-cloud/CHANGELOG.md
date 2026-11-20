@@ -1,5 +1,8 @@
 # Changelog google-cloud
 
+## 20/11/2026
+- 🟡 Sez. 6: export della fatturazione, un dataset per tipo di export e viste autorizzate per limitare i costi visibili per progetto (pagina riletta il 20/11/2026).
+
 ## 19/11/2026
 - 🔴 Sez. 8: tipo di pubblico OAuth «Personal» (solo l'account creatore, senza verifica, senza tetto dei 100 utenti né scadenza a 7 giorni, scelta una tantum, errore client_user_mismatch), pagina 15549945 riletta il 19/11/2026.
 

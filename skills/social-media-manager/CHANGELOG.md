@@ -1,5 +1,8 @@
 # Changelog social-media-manager
 
+## 20/11/2026
+- 🔴 Sez. 5: versione del 19/11/2026 di `feedback_voce_di_cris.md`: lunghezza «quanto basta» senza tetti di caratteri (11/11) e due punti quasi mai (nessuno nei commenti e nei post, al massimo uno negli altri testi a nome di Cristiano; conteggio nel controllo di uscita).
+
 ## 19/11/2026
 - 🔴 Sez. 5 e 12: regola di Cristiano del 18/11/2026 sui reel degli articoli (didascalia «su Substack, link in bio», commento fissato senza link, niente link ai singoli articoli, due link in bio) e limiti di Instagram dal web misurati lo stesso giorno (solo il primo link della bio visibile, link non modificabili, commento non fissabile, link nei commenti non cliccabile, didascalia modificabile e da rileggere dall'API).
 

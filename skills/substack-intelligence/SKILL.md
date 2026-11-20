@@ -186,6 +186,12 @@ lo incolla lui.** Dirlo subito, non dopo mezz'ora di tentativi.
   anni fa», su una nota che apriva con un rapporto del 2023).** Note, post e rilanci della
   pubblicazione non si aprono mai con una fonte datata: la fonte vecchia può stare dentro il
   testo, mai in testa. Prima di portare un testo a Cris si controlla l'apertura.
+- 📌 **Due punti quasi mai e lunghezza «quanto basta» (Cristiano, versione del 19/11/2026 di
+  `feedback_voce_di_cris.md`).** In un articolo o in una nota a nome di Cris al massimo **un** due punti in
+  tutto il testo, solo prima di un elenco o di una citazione; nelle note e nei commenti nessuno. Al loro
+  posto un punto e una frase nuova, o una virgola; punti e virgola vietati. Nessun tetto di parole o
+  caratteri: un testo non si accorcia per arrivare a un numero. Prima di consegnare, grep dei due punti,
+  del trattino lungo, di `|`, `//`, `·`, degli apostrofi al posto degli accenti e della parola «agenzia».
 Si lascia la bozza con **un solo paragrafo bianco**, così l'incolla di Cris parte pulito.
 
 ### Tabelle: mai native, sempre immagine

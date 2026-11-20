@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 20/11/2026
+- 🟡 Sez. 2: come allineare CPA e ROAS target al rendimento reale (mese precedente escluso il ritardo delle conversioni), pagina 17061251 riletta il 20/11/2026.
+
 ## 19/11/2026
 - 🔴 Sez. 6: budget minimo di piattaforma per Demand Gen 5 USD al giorno, sotto non si pubblica né si aggiorna; annunci limitati per Implied Interactivity; simulatore di scala tCPA (pagina 13695777 riletta il 19/11/2026).
 - 🟡 Sez. 7 e 13: scheda Recommended Investment Strategy nei Consigli (16604266); scheda Invalid Traffic Overview e rapporto Invalid Activity Credit (blog del 12/11/2026, pagina 16826168); verifica dell'inserzionista richiesta per targeting multi-paese, query di marchio e verticali a rischio (15588490).

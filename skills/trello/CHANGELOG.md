@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 20/11/2026
+- 🟡 Sez. 9: versione del 19/11/2026 di `feedback_spostare_non_e_permesso.md`: neanche una domanda di Cristiano è un sì, proposta chiusa dalla richiesta di permesso; eccezione fissa «Commenti di oggi».
+
 ## 19/11/2026
 - 🟡 Sez. 3: dal 18/11/2026 `trello.py inizia` lo lancia la chat che lavora la voce, non Mother (`feedback_inizia_lo_lancia_la_chat.md`).
 

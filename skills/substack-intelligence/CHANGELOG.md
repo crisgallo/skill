@@ -1,5 +1,8 @@
 # Changelog substack-intelligence
 
+## 20/11/2026
+- 🔴 Corpo del testo: regola di Cristiano del 19/11/2026 (`feedback_voce_di_cris.md`): due punti quasi mai nei testi a suo nome, lunghezza «quanto basta», controllo di uscita con grep.
+
 ## 18/11/2026
 - 🔴 Corpo del testo: regola di Cristiano del 17/11/2026 (`feedback_niente_apertura_con_studio_vecchio.md`): note e post non si aprono con una fonte vecchia di anni.
 

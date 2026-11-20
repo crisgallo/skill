@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, importare da Google Ads, 
 
 # Microsoft Advertising: regole operative
 
-**Ultima verifica delle fonti: 15 novembre 2026.**
+**Ultima verifica delle fonti: 20 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -76,6 +76,8 @@ Fonte unica salvo diverso avviso: [cosa viene importato](https://learn.microsoft
 ---
 
 ## 5. Strategie di offerta: i numeri che Microsoft dichiara
+
+- 🟡 **18/11/2026, «il più grande aggiornamento dei modelli di offerta in dieci anni»** ([blog Microsoft Advertising](https://about.ads.microsoft.com/en/blog/post/november-2026/building-the-next-generation-of-automated-bidding-at-microsoft-advertising), letto il 20/11/2026): modelli di previsione ricostruiti con nuovi segnali utente e un nuovo modo di valorizzare le conversioni, **in rollout automatico** sugli account, altre tappe nel 2027. Numeri dichiarati da Microsoft (dati propri, non verificati): offerte che centrano i target CPA e ROAS con più costanza, **adeguamento quasi due volte più rapido** quando si cambia un target, budget spesi in modo più uniforme nella giornata; Massimizza il valore e ROAS target **+10% di valore per clic** a ROAS simile; passaggio da CPA target a ROAS target **+8% di valore**; passaggio da eCPC a Massimizza conversioni con CPA target **+18% di conversioni** a CPA simile. Cosa cambia per noi: dopo un cambio di target la finestra di osservazione può essere più corta, e un confronto mese su mese di novembre-dicembre 2026 va letto sapendo che il modello sotto è cambiato.
 
 Fonte: [strategie di offerta](https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_bidstrategy) (ms.date 18/06/2026).
 
