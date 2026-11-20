@@ -966,14 +966,6 @@
     "18/11 🟡 inviti in coda spostabili solo uno alla volta (via Mother #28)"
    ]
   },
-  "wordpress-woocommerce": {
-   "dal": "2026-11-17",
-   "livello": "sostanziale",
-   "voci": [
-    "17/11 🔴 Sez. 2, 4, 5, 6, 7, 10 e 14: 33 saperi verificati in pratica dalle chat di progetto (via Mother #28): WP Super Cache, cache mobile del tema, prova dei form CF7 e Jetpack, Complianz, registro 404 di Redirection, AIOSEO (schema, sitemap, rotte REST, llms.txt), WP_DEBUG via WPCode, REST con X-WP-Nonce, aggiornamenti automatici, antispam dei moduli, PageSpeed, WordPress.com (newsletter, Publicize, pingback, theme.json, cache di bordo), wptexturize, tema a blocchi, ACF, editor dei temi, trappole WPCode, Jetpack immagini, GTM4WP.",
-    "20/11 🔴 WooCommerce 11.3.1 patch di sicurezza (19/11/2026) con aggiornamento database e tre controlli post-update; PHP 8.6.0 fuori dalla tabella WordPress; 🟡 note sviluppatori WordPress 7.2"
-   ]
-  },
   "microsoft-ads": {
    "dal": "2026-11-20",
    "livello": "minore",
@@ -995,7 +987,7 @@
   "chatgpt-ads-performance": "2026-11-16",
   "ga4-performance": "2026-11-09",
   "linkedin-ads": "2026-11-09",
-  "wordpress-woocommerce": "2026-11-16",
+  "wordpress-woocommerce": "2026-11-20",
   "meta-ads-performance": "2026-11-16",
   "meta-pixel-capi": "2026-11-06",
   "trello": "2026-11-16",
