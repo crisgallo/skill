@@ -5,7 +5,7 @@ description: "Regole operative verificate per fare audit, brief agli sviluppator
 
 # PrestaShop: regole operative
 
-**Ultima verifica delle fonti: 20 novembre 2026.**
+**Ultima verifica delle fonti: 21 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -169,6 +169,9 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **La versione di un modulo si legge anche da fuori.** Per `ps_facetedsearch` (CVE-2026-54159, corretta nella 4.0.4) e per `revsliderprestashop` (CVE-2026-117360) la versione installata si legge nel back office in Moduli e anche dal `config.xml` pubblico del modulo (`/modules/<nome>/config.xml`), utile per un audit senza accesso (17/11/2026).
 
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 18 al 20/11/2026, ricevute il 21/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Slider Revolution, CVE-2026-117360: aggiornare non basta e il blocco ferma l'editor.** Su un negozio con `revsliderprestashop` 6.2.22.2 la versione 6.2.22.5 offerta come aggiornamento risultava anch'essa vulnerabile. Il rimedio provvisorio, bloccare lato server i file del modulo, rende **403 l'editor del back office** (`AdminRevsliderSliders`, `ajax.php`, `captions.php`) mentre lo slider in home resta visibile: ferma il lavoro sulle slide. Nell'audit si controlla la versione e si avvisa che il blocco impedisce le modifiche finché il modulo non viene sostituito (e-commerce, 18/11/2026).
+
 ---
 
 ## 11. Marketplace Addons e licenze
@@ -240,6 +243,10 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **AxonCreator, linguette da categoria: solo i primi 10.** Nel builder AxonCreator dei temi Axon le linguette alimentate da una categoria (Novità, I più venduti) mostrano solo i primi 10 prodotti della categoria per posizione: un prodotto oltre il decimo posto non compare. Si controlla cosa mostra la home, non il contenuto della categoria (13/11/2026).
 - **Notifiche «New order» perse col server di posta giù.** Le notifiche d'ordine partono dal server di posta del negozio: se è giù, gli ordini di quella finestra restano nel back office ma l'email non esiste (non arriva tardi). Un conteggio fatto sulle email li perde: si confronta la numerazione del back office, elenco non filtrato, con le email, e i numeri mancanti indicano la finestra (12-17/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 18 al 20/11/2026, ricevute il 21/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Creative Popup, pagine di destinazione e cassa.** Un popup nuovo nasce con «Targets pages» su «All» e si apre anche in carrello, cassa e conferma d'ordine; in una sessione nuova si riapre nella pagina d'ordine. Le esclusioni di un popup precedente non si ereditano. Per tenerlo fuori dalla cassa: tutte le pagine tranne `auth`, `cart`, `order`, `orderconfirmation`, `order-confirmation` (categorie su All), salvare, pulire la cache, provare da anonimo in carrello e in `/ordine` con un prodotto, da computer e a 375 px. Ogni popup nuovo si prova anche in cassa (20/11/2026).
+- **SMTP Microsoft 365 bloccato dai «security defaults».** Se il negozio spedisce con una casella Microsoft 365 e Microsoft la blocca, non parte nessuna mail del negozio (New order, conferme ai clienti, istruzioni di bonifico) e il Log del back office segna un errore **535 (5.7.139)** a ogni invio; gli ordini restano, le mail no. Quando le notifiche spariscono si cerca «535» nel Log prima di pensare al server. Tolto il blocco lato Microsoft, la prova è un ordine a bonifico con le tre mail, poi annullato. Vale anche per WooCommerce o qualsiasi modulo SMTP con una casella Microsoft 365 (20/11/2026).
 
 ---
 

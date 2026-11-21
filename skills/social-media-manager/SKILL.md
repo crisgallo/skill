@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 # Social media manager (Facebook, Instagram, LinkedIn): regole operative
 
-**Ultima verifica delle fonti: 18 novembre 2026.**
+**Ultima verifica delle fonti: 21 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -173,13 +173,16 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 - **LinkedIn, editor degli articoli.** L'albero di accessibilità e il testo della pagina restituiscono il feed: il testo sta in un iframe `about:blank` (più d'uno, il primo è un annuncio). L'alt di un'immagine del corpo si mette dalla matita. Un articolo programmato non si può leggere: aprirlo chiede di spostarlo nelle bozze e toglie la programmazione (Blog, 09/09/2026).
 - **LinkedIn, ricerche di contenuti come URL.** `https://www.linkedin.com/search/results/content/?origin=FACETED_SEARCH&sortBy=%5B%22date_posted%22%5D` più `fromMember=[<URN>]` per più autori, oppure `authorCompany=["<id azienda>"]` con `postedBy=["first"]` per i soli collegamenti di primo grado. Il link di un post si prende da «Copia link al post» intercettando `navigator.clipboard.writeText` (link `lnkd.in`) (Blog, 31/10 e 12/11/2026).
 
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 18 al 20/11/2026, ricevute il 21/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Business Suite, caricare un file da Chrome con uno script.** Nel compositore di post e storie l'`input[type=file]` non esiste nel DOM prima del clic su «Aggiungi foto/video»: si intercetta `HTMLInputElement.prototype.click` con uno script, poi si passa il file con il caricamento del browser (e-commerce, 18/11/2026).
+
 ---
 
 ## 13. Storie in evidenza di Instagram
 
 📌 **Regole di Cristiano, viste sul suo telefono il 17/11/2026 (via Mother #28, sapere `meta_social_organico.md`):** valgono per il profilo Instagram del Blog e per ogni profilo che si gestisce; da riprovare sul telefono a ogni cambio di app.
 - **Nome della raccolta: una parola, al massimo 5 o 6 lettere, di marketing.** Sul telefono il nome si legge intero solo se è cortissimo: «Assessment» (10 lettere) e «Check-up» (8, col trattino) vengono troncati, «Audit» (5) ci sta. Il nome dice cosa trova chi la apre, non una parola tecnica, e si prova sul telefono prima di chiudere il lavoro (Cristiano, 17/11/2026).
-- **Ordine: dentro una raccolta le storie non si riordinano**, si possono solo aggiungere o togliere; sul profilo di Cristiano partono dalla più vecchia (le guide online non sono d'accordo su questo: fa fede il telefono). Per far arrivare subito all'ultima se ne tengono poche: per le uscite del blog **le ultime tre**, togliendo la più vecchia a ogni storia nuova (Cristiano, 17/11/2026).
+- **Ordine: dentro una raccolta le storie non si riordinano**, si possono solo aggiungere o togliere; sul profilo di Cristiano partono dalla più vecchia (le guide online non sono d'accordo su questo: fa fede il telefono). Per far arrivare subito all'ultima se ne tengono poche: per le uscite del blog **le ultime quattro**, togliendo la più vecchia quando entra la quinta (Cristiano, 19/11/2026, via Mother; il 17/11 erano tre).
 - **Copertina quadrata 1080x1080, cerchio sul profilo 72x72 px**: a quella misura ci sta un segno solo, mai una tavola (misurato il 29/08/2026, sez. 4).
 
 ---

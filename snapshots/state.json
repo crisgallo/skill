@@ -821,7 +821,8 @@
     "18/11 🔴 niente apertura con uno studio vecchio di anni nei testi a nome di Cristiano",
     "18/11 🟡 nota invito LinkedIn 200 caratteri (via Mother #28)",
     "19/11 🔴 regola di Cristiano del 18/11 sui reel degli articoli (su Substack, link in bio, commento fissato, niente link ai singoli articoli) e limiti di Instagram dal web",
-    "20/11 🔴 voce di Cristiano: lunghezza quanto basta e due punti quasi mai (19/11)"
+    "20/11 🔴 voce di Cristiano: lunghezza quanto basta e due punti quasi mai (19/11)",
+    "21/11 🔴 raccolta in evidenza del blog con le ultime quattro storie (Cristiano 19/11); 🟡 caricare file in Business Suite da Chrome"
    ]
   },
   "gtm": {
@@ -963,7 +964,8 @@
     "17/11 🔴 Sez. 2, 3, 4, 6, 7, 8 e 15: 14 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): limite di spazio del Theme Customizer, CSS e redirect da moduli minimi, JSON-LD da modulo con tabella propria, aggiornamento di moduli con dati per prodotto, mail del tema, pagine CMS noindex, token non valido, regole carrello cumulabili, Cross Selling On Cart, foto principale eager, select_promotion, Smart Blog, Creative Popup.",
     "18/11 🟡 tabella requisiti PHP con riga 9.1~9.2",
     "18/11 🔴 3 saperi via Mother #28: linguette AxonCreator, notifiche ordine perse, versione modulo nel config.xml; nota Slider Revolution aggiornata",
-    "20/11 🔴 PHP 8.6.0 non supportato da PrestaShop, hosting fermo a 8.5"
+    "20/11 🔴 PHP 8.6.0 non supportato da PrestaShop, hosting fermo a 8.5",
+    "21/11 🔴 3 saperi via Mother: Slider Revolution (aggiornamento vulnerabile, blocco che rende 403 l editor), Creative Popup in cassa, SMTP Microsoft 365 bloccato con errore 535"
    ]
   },
   "substack-intelligence": {

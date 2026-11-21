@@ -1,5 +1,8 @@
 # Changelog prestashop
 
+## 21/11/2026
+- 🔴 Sez. 10 e 15: 3 saperi via Mother (21/11): Slider Revolution, la 6.2.22.5 offerta come aggiornamento è vulnerabile e il blocco lato server rende 403 l'editor; Creative Popup con «Targets pages» su All che si apre in cassa; SMTP Microsoft 365 bloccato dai security defaults, errore 535 nel Log.
+
 ## 20/11/2026
 - 🔴 Sez. 1: PHP 8.6.0 del 19/11/2026 non supportato da nessuna versione di PrestaShop secondo la tabella dei requisiti: versione PHP dell'hosting da bloccare a 8.5.
 

@@ -1,5 +1,9 @@
 # Changelog social-media-manager
 
+## 21/11/2026
+- 🔴 Sez. 13: regola di Cristiano del 19/11/2026 (via Mother): nella raccolta in evidenza del blog restano le ultime quattro storie, non più tre.
+- 🟡 Sez. 12: caricare un file nel compositore di Business Suite da Chrome (input file creato solo al clic). Il sapere su Instagram dal web era già in sez. 12 dal 19/11.
+
 ## 20/11/2026
 - 🔴 Sez. 5: versione del 19/11/2026 di `feedback_voce_di_cris.md`: lunghezza «quanto basta» senza tetti di caratteri (11/11) e due punti quasi mai (nessuno nei commenti e nei post, al massimo uno negli altri testi a nome di Cristiano; conteggio nel controllo di uscita).
 
