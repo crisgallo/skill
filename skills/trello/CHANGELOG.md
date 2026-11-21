@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 21/11/2026
+- 🟡 Sez. 3: i numeri delle voci sono per card e si ripetono fra card diverse; una partenza chiesta per numero si risolve con `trello.py oggi` e il nome intero della voce (`feedback_numero_voce_ripetuto.md`, 20/11/2026).
+
 ## 20/11/2026
 - 🟡 Sez. 9: versione del 19/11/2026 di `feedback_spostare_non_e_permesso.md`: neanche una domanda di Cristiano è un sì, proposta chiusa dalla richiesta di permesso; eccezione fissa «Commenti di oggi».
 

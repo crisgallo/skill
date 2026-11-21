@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 21/11/2026
+- 🟡 Sez. 4: quando Claude Code legge AGENTS.md (quali CLAUDE.md contano, riga di avvio, sottocartelle, differenze sugli hook e sugli import), pagina memory riletta il 21/11/2026.
+
 ## 19/11/2026
 - 🟡 Sez. 1: moltiplicatore 1,1x per l'inferenza solo negli Stati Uniti (inference_geo) dai modelli 4.6 in poi, prezzi di lettura dalla cache per modello (pagina prezzi riletta il 19/11/2026).
 

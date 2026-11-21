@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 21/11/2026
+- 🟡 Sez. 2: modelli di pubblico (Audience Templates) nell'ad set, sostituiscono le selezioni correnti e si salvano come pubblico nuovo (a417950 riletta il 21/11/2026).
+
 ## 19/11/2026
 - 🟡 Sez. 7, 12 e 14: Brand Safety & Suitability Hub con tre schede e report di consegna per ad set e per account con finestra di sei mesi (a1337901, a1576047); schede a carosello delle Conversation ads non modificabili dopo il salvataggio, 45 caratteri (a426057); download delle ricevute in PDF o CSV e banner On hold (a421456). Pagine rilette il 19/11/2026.
 

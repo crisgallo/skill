@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # LinkedIn Ads (Campaign Manager): regole operative
 
-**Ultima verifica delle fonti: 19 novembre 2026.**
+**Ultima verifica delle fonti: 21 novembre 2026.**
 
 **Dove le fonti ufficiali smentiscono la vulgata (verificato 20/09/2026):**
 
@@ -40,6 +40,8 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 ---
 
 ## 2. Pubblico: la regola dei 300 e le dimensioni vere
+
+- 🟡 **Modelli di pubblico (Audience Templates)** (pagina [a417950](https://www.linkedin.com/help/lms/answer/a417950) riletta il 21/11/2026): nell'ad set, menu Pubblici → cerca un modello o «See all audiences» → scheda **Audience Templates** → Select Audience; **il modello sostituisce tutte le selezioni di targeting correnti** (chiede conferma), poi ogni campo si modifica con la matita o si svuota con «Remove all attributes», e si salva come pubblico nuovo con «Save audience». Su un account cliente il modello è un punto di partenza da rileggere riga per riga: porta con sé località, lingue e attributi predefiniti che non sono quelli del brief.
 
 - **Minimo tecnico: 300 account membro** per far girare un ad set; la località è obbligatoria ([a424655](https://www.linkedin.com/help/lms/answer/a424655), [a423690](https://www.linkedin.com/help/lms/answer/a423690)).
 - **Dimensioni consigliate da LinkedIn**: "minimo 50.000 per ottenere risultati"; **300.000** per Sponsored Content e Sponsored Messaging; **60.000–400.000** per Text Ads ([a423690](https://www.linkedin.com/help/lms/answer/a423690)). Per l'Italia un pubblico da 300.000 è quasi sempre "tutti i manager d'Italia": la regola vera è **fra 50.000 e 300.000 con un solo tema di targeting**, il resto lo fa il creativo.

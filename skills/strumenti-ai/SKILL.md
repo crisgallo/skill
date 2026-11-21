@@ -5,7 +5,7 @@ description: "Regole operative verificate per usare gli strumenti Anthropic da c
 
 # Strumenti AI di Anthropic: regole operative
 
-**Ultima verifica delle fonti: 19 novembre 2026.**
+**Ultima verifica delle fonti: 21 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -83,7 +83,7 @@ Claude Code è «uno strumento agentico che legge il codice, modifica file, eseg
 - Quattro livelli, letti dal più largo al più stretto e **concatenati, nessuno sovrascrive l'altro**: criteri gestiti dall'azienda, utente (`~/.claude/CLAUDE.md`), progetto (`./CLAUDE.md` o `./.claude/CLAUDE.md`, nel repository), locale (`./CLAUDE.local.md`, da mettere in `.gitignore`). Le regole in `.claude/rules/*.md` con `paths` si caricano solo quando si toccano quei file. Se due istruzioni si contraddicono «Claude può sceglierne una a caso»: si tolgono i doppioni.
 - **Sotto le 200 righe per file**; `@percorso` importa un altro file (massimo quattro salti, gli import non riducono il costo di contesto). CLAUDE.md è **contesto, non configurazione imposta**: un divieto vero si mette in `permissions.deny` o in un hook. `/init` crea il file, `/memory` elenca i file caricati, `/context` mostra cosa occupa la finestra, `/doctor prompt-audit` cerca istruzioni vecchie o in conflitto.
 - **Memoria automatica** (accesa di default nelle sessioni locali): note su utente, feedback, progetto e riferimenti in `~/.claude/projects/<progetto>/memory/`, indice `MEMORY.md` caricato per le prime 200 righe o 25 KB; è per macchina, **non passa fra computer né nel cloud**. Si spegne in `/memory` (`autoMemoryEnabled`).
-- `AGENTS.md` viene letto solo se non c'è nessun CLAUDE.md.
+- `AGENTS.md` viene letto solo se non c'è nessun CLAUDE.md. 🟡 Precisazione dalla [pagina memory](https://code.claude.com/docs/en/memory) riletta il 21/11/2026: contano come «CLAUDE.md presente» solo `CLAUDE.md`, `.claude/CLAUDE.md` e `CLAUDE.local.md` nella cartella di lavoro o sopra; il `~/.claude/CLAUDE.md` personale, il CLAUDE.md gestito dall'organizzazione e i file in `.claude/rules/` non contano e si caricano insieme ad `AGENTS.md`. Quando viene letto, all'avvio compare la riga «no CLAUDE.md found; AGENTS.md loaded: …»; un `AGENTS.md` di una sottocartella si carica quando Claude apre un file lì dentro. Differenze: gli hook `InstructionsLoaded` non scattano per un `AGENTS.md` letto da solo, e un import `@path` fuori dalla cartella di lavoro si carica solo se gli import esterni sono già stati approvati per il progetto.
 
 **Impostazioni e permessi** ([settings](https://code.claude.com/docs/en/settings)): `~/.claude/settings.json` (utente), `.claude/settings.json` (progetto, si committa), `.claude/settings.local.json` (solo questa macchina), impostazioni gestite; precedenza dalle gestite in giù, le liste `permissions.allow/deny/ask` **si sommano** fra i file. JSON stretto, senza commenti né virgole finali; `/status` dice da dove arriva ogni impostazione, `claude doctor` elenca le voci rifiutate. Modalità dei permessi: `default` (chiede), `acceptEdits`, `plan` (**Shift+Tab**: propone un piano e non modifica nulla finché non si approva), `auto`, `dontAsk`, `bypassPermissions`; `auto` e `bypassPermissions` valgono solo da impostazioni utente o gestite o da `--permission-mode` per sessione. `/model` salva il modello di default, `/effort` il livello di sforzo. `~/.claude.json` lo scrive Claude Code (account, MCP, decisioni di fiducia): non si modifica a mano.
 

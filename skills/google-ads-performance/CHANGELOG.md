@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 21/11/2026
+- 🔴 Sez. 4: le guide 15081888 e 11347292 (rilette il 21/11/2026) danno per completata la migrazione all'impostazione unica delle conversioni avanzate web e lead, con tag, Data Manager e API accettati insieme; controllo sul pannello e formato Data Manager obbligatorio per i lead.
+
 ## 20/11/2026
 - 🟡 Sez. 2: come allineare CPA e ROAS target al rendimento reale (mese precedente escluso il ritardo delle conversioni), pagina 17061251 riletta il 20/11/2026.
 

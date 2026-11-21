@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 21/11/2026
+- 🟡 Sez. 2: dettagli della 11.3.1 dai commenti al post ufficiale (oltre 60 fix, due routine di database, hook della Store API rimosso senza deprecazione usato da PayPal Payments): staging prima su negozi con PayPal Payments o Store API personalizzata.
+
 ## 20/11/2026
 - 🔴 Sez. 1 e 2: WooCommerce 11.3.1 del 19/11/2026, patch di sicurezza con aggiornamento del database (checkout, coupon, account, permessi Store API e REST, dati; template My Account, endpoint wc-admin con manage_woocommerce, Store API cross-origin con origine ammessa); PHP 8.6.0 del 19/11/2026 fuori dalla tabella di compatibilità WordPress, hosting fermo a 8.5 al massimo.
 - 🟡 Sez. 2: note per gli sviluppatori di WordPress 7.2 del 19/11/2026 (e-mail alla creazione di una password per applicazione, WP_DEBUG di default in locale, menu).

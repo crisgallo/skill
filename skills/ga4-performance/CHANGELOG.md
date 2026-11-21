@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 21/11/2026
+- 🔴 Sez. 0: note di rilascio di ottobre-novembre 2026 (lette il 21/11/2026): Data Manager in Google Analytics (beta, hub in Amministrazione per collegamenti, stream e dati di prima parte), diagnostica dei dati forniti dall'utente, User Groups Admin API, agent skills Firebase.
+
 ## 17/11/2026
 - 🔴 Sez. 2, 4, 5, 8, 9 e tre sezioni nuove (Pubblici e dimensioni personalizzate; page_view doppi sui siti editoriali; Lettura dei numeri, casi): 17 saperi verificati in pratica dalle chat di progetto (via Mother #28): IPv6 nel traffico interno, filtri regex sugli eventi nuovi, raccolte, preset 28 giorni, limiti dei nomi, costruttore di pubblici, archiviazione delle dimensioni, link diretti, ruolo ereditato, Cestino, eventi a passi, nomi troncati, page_view doppi e misura su BigQuery, prodotti con due nomi, rimborsi negativi, categoria salute.
 

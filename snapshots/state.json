@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-20",
+  "ultima_lettura": "2026-11-21",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -598,6 +598,18 @@
    "feedback_inizia_lo_lancia_la_chat.md": {
     "modificato": "2026-11-18",
     "esito": "19/11: inizia lo lancia la chat che lavora: nota in trello sez. 3"
+   },
+   "feedback_conteggio_black_week.md": {
+    "modificato": "2026-11-20",
+    "esito": "21/11: regola locale di un e-commerce (periodo Black Week), non integrata"
+   },
+   "feedback_numero_voce_ripetuto.md": {
+    "modificato": "2026-11-20",
+    "esito": "21/11: numeri delle voci per card ripetuti fra card: nota in trello sez. 3"
+   },
+   "feedback_chat_aperte_sganciate.md": {
+    "modificato": "2026-11-20",
+    "esito": "21/11: regola di processo di Mother (sganciare le chat aperte), non integrata"
    }
   }
  },
@@ -832,7 +844,8 @@
     "17/11 🔴 sez. 10: API 202611 (SHA256_PHONE nella CAPI, billingReference, Boost API, surface obbligatorio), sunset 202511 il 16/11/2026 e 202601 il 15/01/2027",
     "17/11 🔴 Sez. 2 e 16: 3 saperi verificati in pratica dalle chat di un cliente B2B (via Mother #28): il gruppo di campagne nasce acceso, la portata prevista non serve per i preventivi, lingue del profilo e segmenti non offerti.",
     "18/11 🟡 consegna accelerata documentata; dettagli personalizzati sulle ricevute",
-    "19/11 🟡 Brand Safety & Suitability Hub e report di consegna; carosello Conversation ads; ricevute PDF/CSV e On hold"
+    "19/11 🟡 Brand Safety & Suitability Hub e report di consegna; carosello Conversation ads; ricevute PDF/CSV e On hold",
+    "21/11 🟡 modelli di pubblico (Audience Templates)"
    ]
   },
   "ga4-performance": {
@@ -840,7 +853,8 @@
    "livello": "sostanziale",
    "voci": [
     "12/11 🟡 sez. 7: sezione Pubblicità secondo la pagina riorganizzata (report e dimensione Integrazione)",
-    "17/11 🔴 Sez. 2, 4, 5, 8, 9 e tre sezioni nuove (Pubblici e dimensioni personalizzate; page_view doppi sui siti editoriali; Lettura dei numeri, casi): 17 saperi verificati in pratica dalle chat di progetto (via Mother #28): IPv6 nel traffico interno, filtri regex sugli eventi nuovi, raccolte, preset 28 giorni, limiti dei nomi, costruttore di pubblici, archiviazione delle dimensioni, link diretti, ruolo ereditato, Cestino, eventi a passi, nomi troncati, page_view doppi e misura su BigQuery, prodotti con due nomi, rimborsi negativi, categoria salute."
+    "17/11 🔴 Sez. 2, 4, 5, 8, 9 e tre sezioni nuove (Pubblici e dimensioni personalizzate; page_view doppi sui siti editoriali; Lettura dei numeri, casi): 17 saperi verificati in pratica dalle chat di progetto (via Mother #28): IPv6 nel traffico interno, filtri regex sugli eventi nuovi, raccolte, preset 28 giorni, limiti dei nomi, costruttore di pubblici, archiviazione delle dimensioni, link diretti, ruolo ereditato, Cestino, eventi a passi, nomi troncati, page_view doppi e misura su BigQuery, prodotti con due nomi, rimborsi negativi, categoria salute.",
+    "21/11 🔴 Data Manager in Google Analytics (beta, 06/11), diagnostica dati forniti dall utente (11/11), User Groups Admin API"
    ]
   },
   "viaggi-treno-italia": {
@@ -880,7 +894,8 @@
     "17/11 🔴 Sez. 2, 4, 5, 6, 8 e 9: 14 saperi verificati in pratica (via Mother #28): quota Butler consumata dalle regole sui commenti, mirror nel JSON della bacheca, spostamento e ordine delle voci via API, etichette delle card archiviate e via API, editor Atlaskit, spunta del connettore che non toglie la scadenza, spunte che non si applicano, voci con nomi simili, blocchi della scheda Chrome, ricerca del connettore senza etichette, 401 a tratti, chiave e token negli errori.",
     "18/11 🔴 regole di Cristiano del 17/11: nessun lavoro senza voce, solleciti fissi a 5 giorni, --fissa per le voci a un ora, date lette dal calendario sul momento, spostare non e permesso di partire",
     "19/11 🟡 inizia lo lancia la chat che lavora la voce",
-    "20/11 🟡 neanche una domanda di Cristiano e un si; eccezione Commenti di oggi"
+    "20/11 🟡 neanche una domanda di Cristiano e un si; eccezione Commenti di oggi",
+    "21/11 🟡 numeri delle voci per card ripetuti, partenza per numero con trello.py oggi"
    ]
   },
   "strumenti-ai": {
@@ -888,7 +903,8 @@
    "livello": "sostanziale",
    "voci": [
     "17/11 🔴 sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, ~/.claude/skills ignorata, percorsi assoluti, valide solo nelle chat nuove; sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother, domanda con consiglio, pagine pubbliche nel browser integrato e login su Chrome, Cristiano parla con Mother)",
-    "19/11 🟡 inference_geo 1,1x e prezzi cache per modello"
+    "19/11 🟡 inference_geo 1,1x e prezzi cache per modello",
+    "21/11 🟡 quando Claude Code legge AGENTS.md"
    ]
   },
   "google-ads-performance": {
@@ -899,7 +915,8 @@
     "17/11 🔴 Sez. 1, 2, 4, 5, 6, 7, 9, 10, 12, 13 e 14: 28 saperi verificati in pratica dalle chat di progetto (via Mother #28): prezzo di riserva, Quota impressioni target, apertura account e inviti, Reach Planner, Keyword Planner a fasce, Rimuovi e campagne finite, Demand Gen (inventario, report, conversioni gonfiate), ricorso Limited ad serving, asset immagine e snippet, valore obbligatorio delle conversioni, ID ed etichetta da trampoline, anteprima annunci, PMax (sitelink, logo, video, canali), amministratori e MCC, obiettivi personalizzati.",
     "18/11 🔴 video PMax e canale YouTube proposto (via Mother #28)",
     "19/11 🔴 budget minimo Demand Gen 5 USD/giorno, Implied Interactivity; 🟡 Recommended Investment Strategy, scheda traffico non valido e rapporto crediti, verifica inserzionista su query di marchio",
-    "20/11 🟡 allineare il target al CPA/ROAS del mese precedente (17061251)"
+    "20/11 🟡 allineare il target al CPA/ROAS del mese precedente (17061251)",
+    "21/11 🔴 guide ufficiali: migrazione completata all impostazione unica delle conversioni avanzate, formato Data Manager obbligatorio per i lead"
    ]
   },
   "brevo": {
@@ -972,6 +989,13 @@
    "voci": [
     "20/11 🟡 aggiornamento dei modelli di offerta (blog 18/11/2026)"
    ]
+  },
+  "wordpress-woocommerce": {
+   "dal": "2026-11-21",
+   "livello": "minore",
+   "voci": [
+    "21/11 🟡 dettagli 11.3.1 dai commenti al post (hook Store API rimosso, PayPal Payments)"
+   ]
   }
  },
  "ultima_mail": {
@@ -1005,7 +1029,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-20",
+  "ultima_lettura": "2026-11-21",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1323,6 +1347,11 @@
     "data": "2026-11-19",
     "mittente": "Gianluca Diegoli (minimarketing, Substack)",
     "esito": "segnale: passaggio da Substack a Steady, algoritmo che premia Notes, iscritti fantasma; fonte terza, nessuna regola"
+   },
+   "1a1f86f7a2c86418": {
+    "data": "2026-11-20",
+    "mittente": "Brevo (notifica di invio campagna di un cliente)",
+    "esito": "notifica di account, non newsletter di prodotto"
    }
   }
  },
