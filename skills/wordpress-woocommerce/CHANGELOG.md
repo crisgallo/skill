@@ -1,5 +1,8 @@
 # Changelog wordpress-woocommerce
 
+## 22/11/2026
+- 🟡 Sez. 1: date di supporto di PHP 8.6 (attivo fino al 31/12/2028, sicurezza fino al 31/12/2030), pagina php.net riletta il 22/11/2026.
+
 ## 21/11/2026
 - 🟡 Sez. 2: dettagli della 11.3.1 dai commenti al post ufficiale (oltre 60 fix, due routine di database, hook della Store API rimosso senza deprecazione usato da PayPal Payments): staging prima su negozi con PayPal Payments o Store API personalizzata.
 

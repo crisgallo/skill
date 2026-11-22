@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 22/11/2026
+- 🔴 Sez. 2: Claude Whiteboards e Sheets in beta e Claude Data (ex Dashboards) disponibile a tutti dal 10/11/2026 su tutti i piani a pagamento (articolo ufficiale letto il 22/11/2026): query certificate, condivisione live, cache, connettore dati necessario, default per Team ed Enterprise, connettori interattivi come app.
+
 ## 21/11/2026
 - 🟡 Sez. 4: quando Claude Code legge AGENTS.md (quali CLAUDE.md contano, riga di avvio, sottocartelle, differenze sugli hook e sugli import), pagina memory riletta il 21/11/2026.
 

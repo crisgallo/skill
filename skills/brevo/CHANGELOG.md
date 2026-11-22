@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 22/11/2026
+- 🟡 Sez. 1: pagina prezzi riletta il 22/11/2026 (volumi dichiarati per Starter e Professional, 10 postazioni, MCP per ChatGPT e Claude fra le funzioni), prezzi invariati.
+
 ## 19/11/2026
 - 🟡 Sez. 3: provvedimento del Garante n. 622 del 03/09/2026 (doc. web 10310279): e-mail promozionale a un professionista sul legittimo interesse con indirizzo preso dal sito dell'Ordine dichiarata illecita, ammonimento; consenso obbligatorio ex art. 130.
 

@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-21",
+  "ultima_lettura": "2026-11-22",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -905,7 +905,8 @@
    "voci": [
     "17/11 🔴 sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, ~/.claude/skills ignorata, percorsi assoluti, valide solo nelle chat nuove; sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother, domanda con consiglio, pagine pubbliche nel browser integrato e login su Chrome, Cristiano parla con Mother)",
     "19/11 🟡 inference_geo 1,1x e prezzi cache per modello",
-    "21/11 🟡 quando Claude Code legge AGENTS.md"
+    "21/11 🟡 quando Claude Code legge AGENTS.md",
+    "22/11 🔴 Claude Whiteboards, Sheets e Claude Data dal 10/11/2026 (piani a pagamento, query certificate, condivisione live, default Team/Enterprise)"
    ]
   },
   "google-ads-performance": {
@@ -928,7 +929,8 @@
     "17/11 🔴 Sez. 3, 4, 5, 9 e 14: 13 saperi verificati in pratica dalle chat di un e-commerce (via Mother #28): filtro replace assente nei modelli, mail di benvenuto dell'integrazione PrestaShop, indirizzo di risposta che si perde, condizione di riavvio sugli ordini, attributo del consenso al pixel, uscite e filtri non retroattivi, eventi d'ordine del modulo PrestaShop, attivazione delle automazioni, UTM dei passi email, colonna Predefinito dei mittenti, editor drag and drop, modulo d'iscrizione con reCAPTCHA.",
     "18/11 🟡 release 27-29/10 (posizione rilevata, SMS, Wallet, pop-up mirati) e modelli collegati nelle automazioni",
     "18/11 🔴 4 saperi via Mother #28: frase per prodotto, campi eventi PrestaShop, MPP nei segmenti, email HTML su Gmail iPhone",
-    "19/11 🟡 provvedimento Garante 03/09/2026 su e-mail promozionale senza consenso a un professionista"
+    "19/11 🟡 provvedimento Garante 03/09/2026 su e-mail promozionale senza consenso a un professionista",
+    "22/11 🟡 pagina prezzi riletta: volumi dichiarati, MCP per ChatGPT e Claude"
    ]
   },
   "meta-pixel-capi": {
@@ -996,7 +998,8 @@
    "dal": "2026-11-21",
    "livello": "minore",
    "voci": [
-    "21/11 🟡 dettagli 11.3.1 dai commenti al post (hook Store API rimosso, PayPal Payments)"
+    "21/11 🟡 dettagli 11.3.1 dai commenti al post (hook Store API rimosso, PayPal Payments)",
+    "22/11 🟡 date di supporto PHP 8.6"
    ]
   }
  },
@@ -1031,7 +1034,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-21",
+  "ultima_lettura": "2026-11-22",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1354,6 +1357,21 @@
     "data": "2026-11-20",
     "mittente": "Brevo (notifica di invio campagna di un cliente)",
     "esito": "notifica di account, non newsletter di prodotto"
+   },
+   "1a1fdc3c989fad83": {
+    "data": "2026-11-21",
+    "mittente": "AI Builders Club (Michele Cotti)",
+    "esito": "segnale su Claude Sheets, Data e Whiteboards, verificato sull articolo ufficiale claude.com del 10/11: integrato in strumenti-ai sez. 2"
+   },
+   "1a1fede989e27672": {
+    "data": "2026-11-21",
+    "mittente": "AI Builders Club (Skool)",
+    "esito": "notifica di un post, stesso tema"
+   },
+   "1a1ff04473d00ba6": {
+    "data": "2026-11-21",
+    "mittente": "Google Ads (verifica inserzionista completata su un account di Cristiano)",
+    "esito": "avviso di account, non newsletter di prodotto"
    }
   }
  },
