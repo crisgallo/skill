@@ -822,7 +822,8 @@
     "18/11 🟡 nota invito LinkedIn 200 caratteri (via Mother #28)",
     "19/11 🔴 regola di Cristiano del 18/11 sui reel degli articoli (su Substack, link in bio, commento fissato, niente link ai singoli articoli) e limiti di Instagram dal web",
     "20/11 🔴 voce di Cristiano: lunghezza quanto basta e due punti quasi mai (19/11)",
-    "21/11 🔴 raccolta in evidenza del blog con le ultime quattro storie (Cristiano 19/11); 🟡 caricare file in Business Suite da Chrome"
+    "21/11 🔴 raccolta in evidenza del blog con le ultime quattro storie (Cristiano 19/11); 🟡 caricare file in Business Suite da Chrome",
+    "22/11 🟡 Insights di Instagram dal computer e modulo Disponibile a lavorare di LinkedIn (via Mother)"
    ]
   },
   "gtm": {
@@ -866,7 +867,8 @@
     "14/11 🟡 sez. 9: condizioni cumulative dell'elenco speciale dei treni garantiti (correzione), sciopero generale del 20/11/2026",
     "17/11 🟡 sez. 9: sciopero nazionale Gruppo FS dalle 21:00 del 20/11 alle 20:00 del 21/11/2026",
     "17/11 🔴 Sez. 3 e 14: 3 saperi verificati in pratica (via Mother #28): posti singoli solo in Business, scelta del posto a 4 euro, sconti CartaFRECCIA (10 euro ogni 300 punti, massimo due per biglietto, sole Frecce da 20 euro, upgrade a 500 punti).",
-    "20/11 🟡 ATAC Tap&Go letta: tetto 8,50 € dal sesto BIT, phishing SMS"
+    "20/11 🟡 ATAC Tap&Go letta: tetto 8,50 € dal sesto BIT, phishing SMS",
+    "22/11 🟡 Verifica indennizzo Trenitalia senza inviare richieste (via Mother)"
    ]
   },
   "google-search-console": {
@@ -883,7 +885,8 @@
    "livello": "sostanziale",
    "voci": [
     "16/11 🟡 sez. CMP: programma partner Google riletto, tre livelli (Gold, Silver, Bronze), livelli dei CMP citati confermati, bollino App-ready",
-    "17/11 🔴 Sez. 7, 11 e 12: 14 saperi verificati in pratica dalle chat di progetto (via Mother #28): CMP sotto GTM e default negato come rete di sicurezza, Complianz gratuito senza Consent Mode e con il modello di Simo Ahava, prova dei tre stati, regole GTM per lingua, crollo degli Utenti attivi da CMP, script iniettato dal container, limiti del Complianz gratuito, Iubenda senza googleConsentMode, prove con Chrome headless, banner su iPhone, Modalità provvisoria, Iubenda senza evento di cambio consenso."
+    "17/11 🔴 Sez. 7, 11 e 12: 14 saperi verificati in pratica dalle chat di progetto (via Mother #28): CMP sotto GTM e default negato come rete di sicurezza, Complianz gratuito senza Consent Mode e con il modello di Simo Ahava, prova dei tre stati, regole GTM per lingua, crollo degli Utenti attivi da CMP, script iniettato dal container, limiti del Complianz gratuito, Iubenda senza googleConsentMode, prove con Chrome headless, banner su iPhone, Modalità provvisoria, Iubenda senza evento di cambio consenso.",
+    "22/11 🟡 Complianz blocca Jetpack Stats (via Mother)"
    ]
   },
   "trello": {
@@ -918,7 +921,8 @@
     "18/11 🔴 video PMax e canale YouTube proposto (via Mother #28)",
     "19/11 🔴 budget minimo Demand Gen 5 USD/giorno, Implied Interactivity; 🟡 Recommended Investment Strategy, scheda traffico non valido e rapporto crediti, verifica inserzionista su query di marchio",
     "20/11 🟡 allineare il target al CPA/ROAS del mese precedente (17061251)",
-    "21/11 🔴 guide ufficiali: migrazione completata all impostazione unica delle conversioni avanzate, formato Data Manager obbligatorio per i lead"
+    "21/11 🔴 guide ufficiali: migrazione completata all impostazione unica delle conversioni avanzate, formato Data Manager obbligatorio per i lead",
+    "22/11 🟡 dove si fa la verifica dell inserzionista (via Mother)"
    ]
   },
   "brevo": {
@@ -967,7 +971,8 @@
     "18/11 🟡 tabella requisiti PHP con riga 9.1~9.2",
     "18/11 🔴 3 saperi via Mother #28: linguette AxonCreator, notifiche ordine perse, versione modulo nel config.xml; nota Slider Revolution aggiornata",
     "20/11 🔴 PHP 8.6.0 non supportato da PrestaShop, hosting fermo a 8.5",
-    "21/11 🔴 3 saperi via Mother: Slider Revolution (aggiornamento vulnerabile, blocco che rende 403 l editor), Creative Popup in cassa, SMTP Microsoft 365 bloccato con errore 535"
+    "21/11 🔴 3 saperi via Mother: Slider Revolution (aggiornamento vulnerabile, blocco che rende 403 l editor), Creative Popup in cassa, SMTP Microsoft 365 bloccato con errore 535",
+    "22/11 🟡 modulo ricaricato da zip, versione non aggiornata (via Mother)"
    ]
   },
   "substack-intelligence": {
@@ -999,7 +1004,8 @@
    "livello": "minore",
    "voci": [
     "21/11 🟡 dettagli 11.3.1 dai commenti al post (hook Store API rimosso, PayPal Payments)",
-    "22/11 🟡 date di supporto PHP 8.6"
+    "22/11 🟡 date di supporto PHP 8.6",
+    "22/11 🟡 Complianz blocca Jetpack Stats (via Mother)"
    ]
   }
  },

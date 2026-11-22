@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 22/11/2026
+- 🟡 Sez. 6: sapere via Mother (22/11): «Verifica indennizzo» nell'area riservata Trenitalia, biglietto per biglietto, senza inviare richieste.
+
 ## 20/11/2026
 - 🟡 Sez. 9: pagina ATAC Tap&Go letta dal controllo automatico il 20/11/2026: regole dei 100 minuti, miglior tariffa con lo stesso supporto, tetto Roma 24 ore da 8,50 € dal sesto BIT, avviso phishing via SMS.
 

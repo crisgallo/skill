@@ -5,7 +5,7 @@ description: "Regole operative verificate per Google Consent Mode v2, banner coo
 
 # Consent Mode e privacy cookie: regole operative
 
-**Ultima verifica delle fonti: 16 novembre 2026.**
+**Ultima verifica delle fonti: 22 novembre 2026.**
 
 **Cosa è cambiato nel 2026 (per chi arriva da una configurazione del 2024-2025):**
 
@@ -132,6 +132,9 @@ Fonte: [tabella di confronto](https://developers.google.com/tag-platform/securit
 - **Complianz in «Modalità provvisoria»** spegne tutte le integrazioni (il blocco degli script prima del consenso), banner e documenti restano. L'avviso sta nella pagina Integrazioni, non in bacheca, e Debugging non segnalava conflitti. Si spegne da Strumenti, Supporto, «Abilita modalità sicura» (l'interruttore non si legge dal DOM). Prova sul fronte, da richiesta anonima: marcature `cmplz_*` e script in `text/plain`. Che l'abbia accesa l'aggiornamento alla 7.5.5 è solo un sospetto (Blog, 14/09/2026).
 - **Iubenda scritto nel codice senza `googleConsentMode`.** Con `_iub.csConfiguration` e `iubenda_cs.js`, TCF attivo, senza `googleConsentMode` né autoblocking, anche con Iubenda sopra GTM non arriva consent default: GA4 senza `gcs`, Meta con `_ga` e `_fbp` prima e dopo il rifiuto. Col widget del pannello (`embeds.iubenda.com/widgets/…`) i default sono negati, `gcs=G100`, Meta fermo. Si guarda nel sorgente se c'è `googleConsentMode`, poi si prova «Rifiuta» (gruppo editoriale, 16 home provate, 11/11/2026).
 - **Iubenda non manda un evento di cambio consenso.** `consent default` e `consent update` arrivano nel dataLayer senza nome evento: in GTM non c'è un attivatore nativo. Un tag che deve aspettare il consenso si aggancia con un modello personalizzato su Consent Initialization (`addConsentListener`, `isConsentGranted`) che fa il push di `consent_analytics_granted` una volta per pagina, un attivatore su quel nome e `analytics_storage` come consenso aggiuntivo. Verificato in Anteprima e con Playwright (gruppo editoriale, 16/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Complianz blocca le statistiche di Jetpack.** Fuori dalla modalità provvisoria, Complianz riscrive lo script di Jetpack Stats come `text/plain` con `data-category=statistics` e `data-cmplz-src` e lo fa partire solo dopo il consenso: in un caso le visite di Jetpack sono scese da 307 a 29 dal giorno dopo e Jetpack vede circa un settimo delle sessioni di GA4. Un calo improvviso di Jetpack si confronta con la data di attivazione della CMP prima di parlare di calo di traffico; il traffico si legge da GA4 (Blog, 21/11/2026).
 
 ---
 

@@ -143,6 +143,9 @@ Fonte principale: [hardening](https://developer.wordpress.org/advanced-administr
 - **wptexturize negli script.** Uno script nel testo di uno shortcode con `&&` diventa `&#038;&#038;`: errore di sintassi, pulsante morto. Gli script vanno in `wp_footer` e nel codice non si usa la e commerciale (Blog, 09-10/08/2026).
 - **WPCode, trappole.** Uno snippet creato da URL con `type=php` viene salvato come JavaScript. Se non compila, si disattiva in silenzio. Con inserimento `on_demand` funzioni e shortcode non si registrano: serve `frontend_only`. `wpcode_active` non prova che giri: lo prova il comportamento del sito. Nessuna rotta REST (Blog, 08-29/08/2026).
 
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Complianz blocca le statistiche di Jetpack.** Fuori dalla modalità provvisoria, Complianz riscrive lo script di Jetpack Stats come `text/plain` con `data-category=statistics` e `data-cmplz-src` e lo fa partire solo dopo il consenso: in un caso le visite di Jetpack sono scese da 307 a 29 dal giorno dopo e Jetpack vede circa un settimo delle sessioni di GA4. Un calo improvviso di Jetpack si confronta con la data di attivazione della CMP prima di parlare di calo di traffico; il traffico si legge da GA4 (Blog, 21/11/2026).
+
 ---
 
 ## 8. WooCommerce: eventi e-commerce, plugin ufficiali, acquisti duplicati

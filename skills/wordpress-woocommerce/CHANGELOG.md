@@ -1,6 +1,7 @@
 # Changelog wordpress-woocommerce
 
 ## 22/11/2026
+- 🟡 Sez. 7: sapere via Mother (22/11): Complianz blocca Jetpack Stats fino al consenso (visite Jetpack a un settimo delle sessioni GA4).
 - 🟡 Sez. 1: date di supporto di PHP 8.6 (attivo fino al 31/12/2028, sicurezza fino al 31/12/2030), pagina php.net riletta il 22/11/2026.
 
 ## 21/11/2026

@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 21 novembre 2026.**
+**Ultima verifica delle fonti: 22 novembre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -298,6 +298,9 @@ Il caso tipo: il consulente, con il proprio Google Account, apre per un cliente 
 - **Account del cliente aperto dal Google del consulente.** Il profilo pagamenti risultava preselezionato su un'altra azienda del consulente: si guarda lo screenshot intero di ogni passaggio e si crea il profilo intestato al cliente. Senza un metodo di pagamento (carta, o conto con addebito SEPA; nessun «più tardi») la configurazione non si chiude e non si può invitare nessuno. I clic nel riquadro di Google Payments non passano dall'estensione Chrome (cliente nuovo, 26/10/2026).
 - **Inviti all'account: deve essere un Account Google.** L'invitato deve avere o creare un Account Google ([6372672](https://support.google.com/google-ads/answer/6372672?hl=it)). L'invito da amministratore a un indirizzo aziendale che non lo è resta «In attesa dell'accettazione dell'utente» in Accesso e sicurezza. Quando si chiede l'indirizzo al cliente, gli si dice che deve essere un Account Google (cliente nuovo, 05-07/11/2026).
 - **Togliere un amministratore.** La rimozione chiesta da un amministratore resta «In attesa della revisione da parte dell'amministratore» finché un altro amministratore non la approva; fino ad allora la persona resta amministratore, e la richiesta in attesa **ha una scadenza** (circa 20 giorni nel caso visto): va seguita prima che scada. Il gestore (MCC) collegato si toglie a parte da Amministrazione > Accesso e sicurezza > Amministratore > Rimuovi accesso, e il clic spetta al titolare (e-commerce, 21 e 26/10/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Verifica dell'inserzionista, dove si fa.** Si raggiunge da `/aw/policy/account` (l'indirizzo `/aw/advertiserverification` dà 404). Due attività: le domande sull'organizzazione, inviate dal pannello, e i documenti da «Avvia attività» > «Avvia verifica»: un documento di registrazione (atto costitutivo o certificato di onorabilità, estratto del registro imprese, oppure certificato della partita IVA) più un documento d'identità, che carica il titolare. Inviate tutte e due, il pannello le dà completate e il riquadro della scadenza sparisce; l'esito arriva dopo e va letto prima della scadenza (Blog, 21/11/2026).
 
 ## 14. Pubblicazione di annunci con limitazioni (Limited ad serving): quando Google frena le impressioni (fonti lette l'08/11/2026, su richiesta di Cristiano)
 

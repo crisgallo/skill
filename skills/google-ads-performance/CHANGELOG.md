@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 22/11/2026
+- 🟡 Sez. 13: sapere via Mother (22/11): dove si fa la verifica dell'inserzionista (/aw/policy/account), le due attività e i documenti, esito che arriva dopo.
+
 ## 21/11/2026
 - 🔴 Sez. 4: le guide 15081888 e 11347292 (rilette il 21/11/2026) danno per completata la migrazione all'impostazione unica delle conversioni avanzate web e lead, con tag, Data Manager e API accettati insieme; controllo sul pannello e formato Data Manager obbligatorio per i lead.
 

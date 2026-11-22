@@ -5,7 +5,7 @@ description: "Regole operative verificate per organizzare gli spostamenti di lav
 
 # Viaggi di lavoro in treno e corriera in Italia: regole operative
 
-**Ultima verifica delle fonti: 20 novembre 2026.**
+**Ultima verifica delle fonti: 22 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -91,6 +91,9 @@ Il regolamento 2021/782 (in vigore dal 07/06/2023, testo letto il 28/10/2026 dal
 - **Italo**: **25% da 60 a 119 minuti, 50% da 120**, su richiesta, riconosciuto **entro 30 giorni** come **Voucher da indennizzo** (o sul Borsellino Italo per gli iscritti): il voucher scade **365 giorni dopo l'arrivo**, si usa anche per biglietti di prezzo diverso e **si monetizza con bonifico entro 30 giorni** chiedendolo sul sito o al 060708, tranne importi fino a 4 € (art. 16.4 e 17 del contratto). Al reclamo Italo risponde entro un mese (massimo tre); se tarda oltre i 90 giorni paga un indennizzo del 10% (20% oltre i 120) per delibera ART 28/2021.
 - **Coincidenze perse.** Con **biglietto unico** (una sola transazione, un solo PNR o «soluzione di viaggio» del vettore) il vettore risponde della coincidenza: si prosegue con il primo treno utile e valgono rimborso, alternativa e indennizzo sul percorso intero (art. 12). Con **biglietti separati** (due PNR, due vettori, o un regionale più una Freccia comprati a parte) **nessuna tutela**: il secondo treno è perso e il biglietto va rifatto a prezzo del giorno. Il regolamento impone di dirlo prima dell'acquisto; questa skill lo ripete a ogni proposta con più biglietti (sez. 11).
 - **Treno cancellato in anticipo** (lo si vede sul PNR o nelle notifiche): si sceglie subito fra rimborso e nuova soluzione, prima che i posti sulle alternative finiscano.
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Trenitalia, verificare un indennizzo senza chiederlo.** Nell'area riservata (accesso del titolare) I miei viaggi > ricerca per PNR > Vedi Dettagli > Gestisci > «Verifica indennizzo» dice biglietto per biglietto se spetta qualcosa, senza inviare richieste. Risposte viste: niente da indennizzare, già pagato, «indennizzo con bonus non possibile», «ritardo inferiore a 60 minuti». Prima si cercano nella posta le mail di Trenitalia sugli indennizzi già pagati (Viaggi, 21/11/2026).
 
 ---
 

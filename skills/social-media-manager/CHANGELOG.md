@@ -1,5 +1,8 @@
 # Changelog social-media-manager
 
+## 22/11/2026
+- 🟡 Sez. 4: 2 saperi via Mother (22/11): limiti degli Insights di Instagram dal computer (intervalli fissi, niente follow netti, Business Suite per portfolio) e modulo «Disponibile a lavorare» di LinkedIn (competenza «Media buyer», tipi di impiego da rimettere).
+
 ## 21/11/2026
 - 🔴 Sez. 13: regola di Cristiano del 19/11/2026 (via Mother): nella raccolta in evidenza del blog restano le ultime quattro storie, non più tre.
 - 🟡 Sez. 12: caricare un file nel compositore di Business Suite da Chrome (input file creato solo al clic). Il sapere su Instagram dal web era già in sez. 12 dal 19/11.

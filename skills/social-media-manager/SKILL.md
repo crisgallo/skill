@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 # Social media manager (Facebook, Instagram, LinkedIn): regole operative
 
-**Ultima verifica delle fonti: 21 novembre 2026.**
+**Ultima verifica delle fonti: 22 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -80,6 +80,10 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Nota dell'invito a collegarsi su LinkedIn, 200 caratteri.** Con un contatto di 2° grado il messaggio diretto non si può mandare: si passa dall'invito con la nota, che sul profilo di Cristiano ha un limite di 200 caratteri. Il resto va nel messaggio dopo l'accettazione (17/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Insights di Instagram dal computer, i limiti.** La dashboard per professionisti di instagram.com ha solo intervalli fissi (7, 14, 30, 90 giorni) e il solo totale dei follower, senza date scelte né follow netti; Business Suite di un portfolio vede solo gli asset di quel portfolio. Follow, persone che non seguono più e netti su date scelte stanno negli Insights dell'app: per una campagna follower le schermate del titolare si chiedono in anticipo (Blog, 21/11/2026).
+- **LinkedIn, «Media buyer» e «Disponibile a lavorare».** Nel dizionario italiano delle competenze c'è «Media buyer», non «Media buying». Modificando i ruoli in «Disponibile a lavorare» il modulo può aprirsi con i tipi di impiego vuoti: vanno rimessi prima di salvare; gli avvisi delle offerte proposti alla fine si possono rifiutare. Da web i ruoli già impostati non si leggono prima di aprire il modulo (Blog, 21/11/2026).
 
 ## 5. Piano editoriale, programmazione e testi
 

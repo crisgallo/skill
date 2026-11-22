@@ -5,7 +5,7 @@ description: "Regole operative verificate per fare audit, brief agli sviluppator
 
 # PrestaShop: regole operative
 
-**Ultima verifica delle fonti: 21 novembre 2026.**
+**Ultima verifica delle fonti: 22 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -247,6 +247,9 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 18 al 20/11/2026, ricevute il 21/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Creative Popup, pagine di destinazione e cassa.** Un popup nuovo nasce con «Targets pages» su «All» e si apre anche in carrello, cassa e conferma d'ordine; in una sessione nuova si riapre nella pagina d'ordine. Le esclusioni di un popup precedente non si ereditano. Per tenerlo fuori dalla cassa: tutte le pagine tranne `auth`, `cart`, `order`, `orderconfirmation`, `order-confirmation` (categorie su All), salvare, pulire la cache, provare da anonimo in carrello e in `/ordine` con un prodotto, da computer e a 375 px. Ogni popup nuovo si prova anche in cassa (20/11/2026).
 - **SMTP Microsoft 365 bloccato dai «security defaults».** Se il negozio spedisce con una casella Microsoft 365 e Microsoft la blocca, non parte nessuna mail del negozio (New order, conferme ai clienti, istruzioni di bonifico) e il Log del back office segna un errore **535 (5.7.139)** a ogni invio; gli ordini restano, le mail no. Quando le notifiche spariscono si cerca «535» nel Log prima di pensare al server. Tolto il blocco lato Microsoft, la prova è un ordine a bonifico con le tre mail, poi annullato. Vale anche per WooCommerce o qualsiasi modulo SMTP con una casella Microsoft 365 (20/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Modulo ricaricato da zip, la versione non si aggiorna.** Su PrestaShop 8.0.4 caricare lo zip di un modulo già installato mette in funzione il codice nuovo ma non aggiorna `ps_module.version`: il back office resta sulla versione vecchia con «Aggiornamento disponibile». Con «Aggiornamento», poi «Aggiorna comunque» (avviso sulla modalità manutenzione), l'upgrade riesce e la versione si allinea. In un audit, «Aggiornamento disponibile» su un modulo fatto in casa può voler dire solo questo (e-commerce, 21/11/2026).
 
 ---
 

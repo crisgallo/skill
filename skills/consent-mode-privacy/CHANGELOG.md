@@ -1,5 +1,8 @@
 # Changelog consent-mode-privacy
 
+## 22/11/2026
+- 🟡 Sez. 7: sapere via Mother (22/11): Complianz blocca Jetpack Stats fino al consenso, calo delle visite Jetpack da leggere con la data di attivazione della CMP.
+
 ## 17/11/2026
 - 🔴 Sez. 7, 11 e 12: 14 saperi verificati in pratica dalle chat di progetto (via Mother #28): CMP sotto GTM e default negato come rete di sicurezza, Complianz gratuito senza Consent Mode e con il modello di Simo Ahava, prova dei tre stati, regole GTM per lingua, crollo degli Utenti attivi da CMP, script iniettato dal container, limiti del Complianz gratuito, Iubenda senza googleConsentMode, prove con Chrome headless, banner su iPhone, Modalità provvisoria, Iubenda senza evento di cambio consenso.
 
