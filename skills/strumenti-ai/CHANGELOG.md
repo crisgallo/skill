@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 23/11/2026
+- 🔴 Sez. 2: crediti di utilizzo a consumo dopo i limiti (Impostazioni > Utilizzo, limite di spesa mensile, tariffe API, separati dai crediti API mensili) e pacchetti prepagati scontati (50/250/1.000 $ con 10/20/30%, tetto 2.000 $ al mese, 3.000 per i Team), articoli support.claude.com letti il 23/11/2026.
+
 ## 22/11/2026
 - 🔴 Sez. 2: Claude Whiteboards e Sheets in beta e Claude Data (ex Dashboards) disponibile a tutti dal 10/11/2026 su tutti i piani a pagamento (articolo ufficiale letto il 22/11/2026): query certificate, condivisione live, cache, connettore dati necessario, default per Team ed Enterprise, connettori interattivi come app.
 

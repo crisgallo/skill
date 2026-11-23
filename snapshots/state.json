@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-22",
+  "ultima_lettura": "2026-11-23",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -909,7 +909,8 @@
     "17/11 🔴 sez. 7: Competenze dell'app desktop solo da plugin o da Personalizza > Competenze > Carica una competenza, ~/.claude/skills ignorata, percorsi assoluti, valide solo nelle chat nuove; sez. 8: regole di Cristiano del 10-16/11 (spiegare il task prima di eseguirlo salvo compiti da Mother, domanda con consiglio, pagine pubbliche nel browser integrato e login su Chrome, Cristiano parla con Mother)",
     "19/11 🟡 inference_geo 1,1x e prezzi cache per modello",
     "21/11 🟡 quando Claude Code legge AGENTS.md",
-    "22/11 🔴 Claude Whiteboards, Sheets e Claude Data dal 10/11/2026 (piani a pagamento, query certificate, condivisione live, default Team/Enterprise)"
+    "22/11 🔴 Claude Whiteboards, Sheets e Claude Data dal 10/11/2026 (piani a pagamento, query certificate, condivisione live, default Team/Enterprise)",
+    "23/11 🔴 crediti di utilizzo a consumo dopo i limiti e pacchetti prepagati scontati (50/250/1.000 $ con 10/20/30%, tetto 2.000 $ al mese)"
    ]
   },
   "google-ads-performance": {
@@ -1040,7 +1041,7 @@
   "strumenti-ai": "2026-11-16"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-22",
+  "ultima_lettura": "2026-11-23",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
