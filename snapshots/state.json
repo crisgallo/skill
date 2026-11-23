@@ -783,6 +783,20 @@
     "22/11 🟡 date di supporto PHP 8.6",
     "22/11 🟡 Complianz blocca Jetpack Stats (via Mother)"
    ]
+  },
+  "gtm": {
+   "dal": "2026-11-23",
+   "livello": "sostanziale",
+   "voci": [
+    "23/11 🔴 release notes rilette per intero su richiesta di Cristiano: tag per destinazione sui container ottimizzati, permessi validi per Tag Assistant, bfcache fra le cause, eventi raccolti in automatico da Google Ads dal 04/02/2026, upgrade forzato a gennaio 2027, tre domande da verificare"
+   ]
+  },
+  "google-ads-performance": {
+   "dal": "2026-11-23",
+   "livello": "minore",
+   "voci": [
+    "23/11 🟡 sez. 5: dal 04/02/2026 Google Ads raccoglie in automatico più eventi dal sito (richieste di rete in più)"
+   ]
   }
  },
  "ultima_mail": {

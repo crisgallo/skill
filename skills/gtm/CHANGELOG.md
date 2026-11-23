@@ -1,5 +1,8 @@
 # Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 23/11/2026
+- 🔴 Sez. 1, 3, 4, 5, 9, 13 e 14: release notes 4620708 e annuncio 17079602 riletti per intero il 23/11/2026 su richiesta di Cristiano (via Mother): tag per destinazione e un solo punto di ingresso per ID sui container ottimizzati, permessi del container validi per Tag Assistant, bfcache fra le cause di visualizzazioni in più, voce del 04/02/2026 sugli eventi raccolti in automatico da Google Ads (richieste di rete in più, non un guasto), il 20/08 chiamato annuncio con le consegne del 12/10 e 17/11, tre domande nuove da verificare, upgrade forzato a gennaio 2027 nei divieti.
+
 ## 18/11/2026
 - 🔴 Sez. 9: release note del 17/11/2026 «Google tag and Google Tag Manager unification»: ogni tag Google diventa un container GTM, un tag per destinazione, snippet nuovi senza gtag('config'), permessi GTM validi anche per Tag Assistant, upgrade forzato a gennaio 2027 per le installazioni non supportate; flusso «Optimize your Tag Manager container» (16659369) passo per passo, permessi non versionati. Titolo della sezione esteso a novembre.
 - 🟡 Sez. 7: immagine Docker del server container 4.7.0 del 17/11/2026 (sicurezza); Custom Loader di Stape con dataLayer dal nome personalizzato (&l=).

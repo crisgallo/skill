@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 23/11/2026
+- 🟡 Sez. 5: dal 04/02/2026 Google Ads raccoglie in automatico più eventi dal sito, richieste di rete in più verso domini Google (release notes GTM lette il 23/11/2026, via Mother).
+
 ## 22/11/2026
 - 🟡 Sez. 13: sapere via Mother (22/11): dove si fa la verifica dell'inserzionista (/aw/policy/account), le due attività e i documenti, esito che arriva dopo.
 

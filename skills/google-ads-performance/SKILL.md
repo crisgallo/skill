@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, ottimizzare e diagnostica
 
 # Google Ads: regole operative
 
-**Ultima verifica delle fonti: 22 novembre 2026.**
+**Ultima verifica delle fonti: 23 novembre 2026.**
 
 **Cosa è cambiato (revisione del 20/09/2026, precedente 11/08/2026):**
 
@@ -126,6 +126,8 @@ Google cambia soglie, nomi delle strategie di offerta e specifiche degli asset p
 ---
 
 ## 5. Tagging e misurazione
+
+- 🟡 **Dal 04/02/2026 Google Ads raccoglie in automatico più eventi dal sito** ([release notes di Google Tag Manager](https://support.google.com/tagmanager/answer/4620708?hl=en), voce del 04/02/2026 letta il 23/11/2026, via Mother): «una gamma più ampia di dati evento, con meno configurazione manuale», e **richieste di rete in più verso domini Google** visibili nella console del browser. La nota non elenca gli eventi né l'interruttore [DA VERIFICARE]: se lo sviluppatore del cliente segnala chiamate nuove, prima si cita questa data, poi si guarda in Obiettivi > Conversioni se sono comparsi eventi o conversioni «create automaticamente».
 
 - **Tagging automatico attivo** (Amministrazione → Impostazioni account → Tagging automatico). Con quello acceso, il `gclid` porta in GA4 campagna, gruppo e parola chiave.
 - ⚠️ **Non si stratificano UTM manuali sugli URL di Google Ads.** Non perché rompano qualcosa: la guida ufficiale dice che **il tagging automatico ha la priorità sul tagging manuale** e gli UTM non bloccano l'importazione delle conversioni ([3095550](https://support.google.com/google-ads/answer/3095550?hl=en)). Il motivo è che non aggiungono niente al `gclid` e creano due nomenclature da riconciliare. Basta **nominare bene la campagna**. Gli UTM servono solo per strumenti che non leggono il `gclid`.
