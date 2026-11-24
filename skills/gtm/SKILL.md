@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, controllare e riparare il
 
 # Google Tag Manager (gtm), container web e server: regole operative
 
-**Ultima verifica delle fonti: 23 novembre 2026.**
+**Ultima verifica delle fonti: 24 novembre 2026.**
 
 ---
 
@@ -88,6 +88,10 @@ Il posto dove si vede il doppio colpo è **DebugView**: due righe uguali nello s
 📌 **Verificato in pratica dalle chat di progetto (sapere `gtm_e_consenso.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **«Errore di invio dell'area di lavoro».** Su «Pubblica e crea versione» è comparso due volte con il permesso Pubblicazione già verificato in Gestione utenti. Su una scheda caricata da poco è passata al primo colpo: sembra dovuta a una scheda aperta a lungo. Prima di riprovare si controlla in Versioni che non sia nata una versione nascosta (cliente B2B, 15/08/2026).
 - **Importare in GTM una modifica preparata come JSON.** Amministrazione > Importa contenitore, «Unifica» con «sovrascrivi i conflitti», in un'area di lavoro nuova. Per un modello personalizzato non della Galleria il tag ha tipo `cvt_<containerId>_<templateId>` e il modello id `cvt_temp_public_id`, se no «Tipo di entità sconosciuto». L'Anteprima ha dato «1 modificato, 3 aggiunti»: il modo più rapido e preciso per una modifica scritta in JSON (gruppo editoriale, 16/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, sapere `gtm.md`, voci del 22/11/2026, ricevute il 24/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Una modifica non pubblicata di un altro utente nella Default Workspace si scarta con «Ignora modifica»** (menu della modifica nell'elenco delle modifiche dell'area): dopo, l'area torna a 0 modifiche e il `gtm.js` pubblico non cambia, perché la modifica non era mai stata pubblicata. Un'area con modifiche vecchie lasciate lì **resta indietro** rispetto alle versioni pubblicate dopo: prima di lavorarci si sincronizza o si scarta (22/11/2026).
+- **L'aggiornamento di un modello della galleria si giudica dal diff del commit, non dal titolo.** L'avviso di aggiornamento del modello «Facebook Pixel by Stape» visto il 09/11/2026 (da `7a79e38` a `a8bac`) cambiava solo il caricamento del Parameter Builder SDK nei checkout di Magento 2: si apre il confronto fra i due commit nel repository GitHub del modello e si accetta solo se tocca qualcosa che il sito usa (22/11/2026).
 
 ---
 

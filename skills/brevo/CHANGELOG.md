@@ -1,6 +1,7 @@
 # Changelog brevo
 
 ## 24/11/2026
+- 🟡 Sez. 2: sapere via Mother (24/11): i rapporti DMARC con rua solo verso Brevo non si leggono nel pannello; prima di p=quarantine serve un secondo rua leggibile.
 - 🟡 Sez. 11: changelog del 23/11/2026, sezione «Brevo MCP» (connettore nel marketplace di Claude e plugin ChatGPT per i casi comuni, connessione diretta con chiave MCP per tutti gli strumenti).
 
 ## 22/11/2026

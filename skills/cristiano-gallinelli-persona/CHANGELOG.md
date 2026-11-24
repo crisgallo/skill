@@ -1,5 +1,8 @@
 # Changelog cristiano-gallinelli-persona
 
+## 24/11/2026
+- 🔴 In testa alla skill: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (parole di tutti i giorni, frasi semplici e dirette, prima persona, niente tono da assistente), regola globale di Cristiano del 24/11/2026 via Mother.
+
 ## 12/11/2026
 - 🔴 «Tono generale», voce Lunghezza: regola di Cristiano dell'11/11/2026 (globale, `feedback_voce_di_cris.md`): la lunghezza è «quanto basta», nessun tetto di parole o caratteri salvo i limiti tecnici delle piattaforme; un testo non si accorcia per arrivare a un numero. Fonti web e data «Ultima verifica sul blog» invariate.
 

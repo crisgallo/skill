@@ -1,5 +1,8 @@
 # Changelog meta-ads-performance
 
+## 24/11/2026
+- 🟡 Sez. 3: attribuzione incrementale come campo `is_incremental_attribution_enabled` del gruppo di inserzioni nella Marketing API (riferimento ufficiale letto il 24/11/2026 via Mother); è un modello, non un test con controllo.
+
 ## 18/11/2026
 - 🔴 Sez. 6: regola di Cristiano del 18/11/2026 (via Mother) con sei punti verificati sul pannello per mettere in onda un'inserzione: contenuti correlati a «0 di N», prodotti del catalogo, Carosello e Raccolta che si riaccendono da soli, pubblicazione dall'editor della singola inserzione, video verticali solo 9:16, pannello branding che accende il branding automatico, anteprima controllata di persona prima di passare un link al titolare.
 - 🔴 Sez. 7 e 10: 2 saperi via Mother #28 (18/11): follow attribuiti nella colonna «Follow di Instagram» e follow netti negli Insights del profilo giusto; dialogo delle colonne senza «Applica» che salva un preset nell'account.

@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 24/11/2026
+- 🟡 Sez. 6: 2 saperi via Mother (24/11): condizioni Italo dal 01/10/2026 (indennizzo solo da 60 minuti, reclamo entro 3 mesi); modulo rimborsi Trenitalia (OTP via email in scheda dedicata, Runtime Error, CAPTCHA, risposta il giorno dopo).
+
 ## 22/11/2026
 - 🟡 Sez. 6: sapere via Mother (22/11): «Verifica indennizzo» nell'area riservata Trenitalia, biglietto per biglietto, senza inviare richieste.
 

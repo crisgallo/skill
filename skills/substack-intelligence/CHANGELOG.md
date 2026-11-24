@@ -1,5 +1,8 @@
 # Changelog substack-intelligence
 
+## 24/11/2026
+- 🔴 M4: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (regola globale di Cristiano del 24/11/2026 via Mother), in testa alle regole di scrittura della newsletter.
+
 ## 20/11/2026
 - 🔴 Corpo del testo: regola di Cristiano del 19/11/2026 (`feedback_voce_di_cris.md`): due punti quasi mai nei testi a suo nome, lunghezza «quanto basta», controllo di uscita con grep.
 

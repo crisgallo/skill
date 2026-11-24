@@ -5,7 +5,7 @@ description: "Regole operative verificate per organizzare gli spostamenti di lav
 
 # Viaggi di lavoro in treno e corriera in Italia: regole operative
 
-**Ultima verifica delle fonti: 22 novembre 2026.**
+**Ultima verifica delle fonti: 24 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -94,6 +94,10 @@ Il regolamento 2021/782 (in vigore dal 07/06/2023, testo letto il 28/10/2026 dal
 
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci del 21/11/2026, ricevute il 22/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Trenitalia, verificare un indennizzo senza chiederlo.** Nell'area riservata (accesso del titolare) I miei viaggi > ricerca per PNR > Vedi Dettagli > Gestisci > «Verifica indennizzo» dice biglietto per biglietto se spetta qualcosa, senza inviare richieste. Risposte viste: niente da indennizzare, già pagato, «indennizzo con bonus non possibile», «ritardo inferiore a 60 minuti». Prima si cercano nella posta le mail di Trenitalia sugli indennizzi già pagati (Viaggi, 21/11/2026).
+
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, sapere `viaggi.md`, voci del 21 e 22/11/2026, ricevute il 24/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Italo, indennizzo e reclamo secondo le condizioni di trasporto dal 01/10/2026** (lette dalla chat di progetto il 21/11/2026): indennizzo **solo da 60 minuti** di ritardo (art. 16.3), nessun bonus sotto l'ora; **reclamo entro 3 mesi** dal viaggio (art. 20). Per i rimborsi dei viaggi di lavoro si passano in rassegna solo i viaggi Italo degli ultimi tre mesi con almeno un'ora di ritardo: gli altri non danno niente.
+- **Trenitalia, modulo rimborsi e reclami: scheda dedicata, OTP e CAPTCHA alla persona.** Il modulo chiede al secondo passo un **codice OTP via email**: se nella stessa scheda si apre un altro sito il codice si perde e si ricomincia con un OTP nuovo; dopo «Prosegui» il server ha risposto più volte «Runtime Error» senza inviare l'OTP (si riprova più tardi, non si rimanda il modulo in loop); all'ultimo passo c'è un **CAPTCHA** che fa la persona; la **data di emissione** la fissa il sistema al giorno della richiesta. La risposta con il ritardo certificato è arrivata **il giorno dopo**: si apre una voce di controllo a pochi giorni per leggerla (21-22/11/2026).
 
 ---
 

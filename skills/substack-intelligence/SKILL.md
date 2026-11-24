@@ -91,6 +91,8 @@ secondo cross-post. Ogni riga nasce da un errore pagato.
 
 ## M4 · Come si monta e si verifica una newsletter
 
+📌 **In ogni testo a nome di Cristiano, Claude scrive come Cristiano (Cristiano, 24/11/2026, via Mother, la regia; regola globale).** Parole di tutti i giorni, frasi semplici e dirette, l'idea detta come la direbbe lui a voce, in prima persona, senza giri e senza tono da assistente. Vale per email, articoli, post, Note, commenti, messaggi, solleciti, documenti e CV. Le regole di scrittura che seguono si leggono dopo questa.
+
 ### Regola dura, prima di tutto
 **Il click di pubblicazione e di programmazione è SOLO di Cris.** Ci si ferma sempre alla bozza,
 anche quando dice «fai tutti i passaggi». Vale su Substack come su ogni altra piattaforma.

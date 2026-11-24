@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 24/11/2026
+- 🟡 Sez. 4: rettifiche delle conversioni rilette (Ridefinisci tocca solo valore e ROAS, Ritira anche il CPA; con GBRAID solo ID ordine; più rettifiche in ordine di data); dal 15/06/2026 l'import offline via Google Ads API è chiuso ai nuovi utenti, errore CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE, si passa dalla Data Manager API (blog del 15/05/2026). Via Mother, fonti verificate il 24/11/2026.
+
 ## 23/11/2026
 - 🟡 Sez. 5: dal 04/02/2026 Google Ads raccoglie in automatico più eventi dal sito, richieste di rete in più verso domini Google (release notes GTM lette il 23/11/2026, via Mother).
 

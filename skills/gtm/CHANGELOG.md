@@ -1,5 +1,8 @@
 # Changelog gtm (fino al 30/10/2026 «gtm-server-side»)
 
+## 24/11/2026
+- 🟡 Sez. 5: 2 saperi via Mother (24/11): «Ignora modifica» per scartare una modifica non pubblicata di un altro utente; l'aggiornamento di un modello della galleria (Stape) si giudica dal diff del commit.
+
 ## 23/11/2026
 - 🔴 Sez. 1, 3, 4, 5, 9, 13 e 14: release notes 4620708 e annuncio 17079602 riletti per intero il 23/11/2026 su richiesta di Cristiano (via Mother): tag per destinazione e un solo punto di ingresso per ID sui container ottimizzati, permessi del container validi per Tag Assistant, bfcache fra le cause di visualizzazioni in più, voce del 04/02/2026 sugli eventi raccolti in automatico da Google Ads (richieste di rete in più, non un guasto), il 20/08 chiamato annuncio con le consegne del 12/10 e 17/11, tre domande nuove da verificare, upgrade forzato a gennaio 2027 nei divieti.
 

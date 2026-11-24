@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 24/11/2026
+- 🟡 Sez. 2: Claude Sheets, modifiche evidenziate cella per cella e sole funzioni di base, export .xlsx o CSV o Claude for Excel; Claude Data per i cruscotti, Sheets per i fogli da compilare (articolo riletto il 24/11/2026 via Mother).
+
 ## 23/11/2026
 - 🔴 Sez. 2: crediti di utilizzo a consumo dopo i limiti (Impostazioni > Utilizzo, limite di spesa mensile, tariffe API, separati dai crediti API mensili) e pacchetti prepagati scontati (50/250/1.000 $ con 10/20/30%, tetto 2.000 $ al mese, 3.000 per i Team), articoli support.claude.com letti il 23/11/2026.
 
