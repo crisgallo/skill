@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-23",
+  "ultima_lettura": "2026-11-24",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -252,8 +252,8 @@
     "esito": "regola di progetto (banca, pagamenti), non integrata"
    },
    "feedback_routine_banca_leggi_report.md": {
-    "modificato": "2026-10-02",
-    "esito": "regola di progetto (routine banca), non integrata"
+    "modificato": "2026-11-23",
+    "esito": "24/11: aggiunta del 23/11 (promemoria Banca Etica spento, check solo on demand): regola di progetto, non integrata"
    },
    "feedback_drive_update_in_place_versione_cowork.md": {
     "modificato": "2026-10-02",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-11-09",
-    "esito": "10/11: versione del 09/11 (32.781 byte): appuntamento nuovo non sposta le voci fisse, sopra un viaggio nessuna voce: integrata in trello sez. 9"
+    "modificato": "2026-11-23",
+    "esito": "24/11: versione del 23/11 (35.827 byte): feriali a casa 9-19:30 e weekend 10-18, oggi chiuso ai task nuovi, copia a calendario con il tempo di Cristiano (min 15) e stima dalle ore vere: integrata in trello sez. 5 e 9"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-11-17",
@@ -610,6 +610,38 @@
    "feedback_chat_aperte_sganciate.md": {
     "modificato": "2026-11-20",
     "esito": "21/11: regola di processo di Mother (sganciare le chat aperte), non integrata"
+   },
+   "feedback_azione_esterna_solo_se_chiara.md": {
+    "modificato": "2026-11-23",
+    "esito": "regola di processo di Mother (invito o invio verso terzi solo quando la condizione è chiara), non integrata"
+   },
+   "feedback_task_chiuso_due_conferme.md": {
+    "modificato": "2026-11-23",
+    "esito": "24/11: regola di Cristiano, integrata in trello sez. 5 (card aggiornata e task tolto dal calendario a ogni chiusura)"
+   },
+   "feedback_fact_checking_umile.md": {
+    "modificato": "2026-11-23",
+    "esito": "24/11: regola di Cristiano, integrata in social-media-manager sez. 7 (fact checking gentile e umile, commenti chiari e filosofici)"
+   },
+   "feedback_blocco_necessario_a_cris.md": {
+    "modificato": "2026-11-23",
+    "esito": "regola di processo di Mother (blocco che ferma una cosa necessaria si sottopone a Cristiano), non integrata"
+   },
+   "feedback_commenti_tutti_i_canali.md": {
+    "modificato": "2026-11-23",
+    "esito": "24/11: regola di Cristiano, integrata in social-media-manager sez. 7 (giro dei commenti su tutti i canali, post salvati e messaggi)"
+   },
+   "feedback_mai_task_dentro_oggi.md": {
+    "modificato": "2026-11-23",
+    "esito": "24/11: regola di Cristiano, integrata in trello sez. 5 (oggi chiuso ai task nuovi o spostati)"
+   },
+   "feedback_esito_nel_messaggio.md": {
+    "modificato": "2026-11-23",
+    "esito": "24/11: regola di Cristiano sul messaggio di chiusura, richiamata in trello sez. 5 dentro la voce del task chiuso"
+   },
+   "feedback_prima_verifica_lo_strumento.md": {
+    "modificato": "2026-11-23",
+    "esito": "regola di processo di Mother (verificare lo strumento prima di installarlo), non integrata"
    }
   }
  },
@@ -740,7 +772,8 @@
    "livello": "minore",
    "voci": [
     "🟡 Sez. 14: spam update di settembre 2026 ancora in corso al 02/10 con una seconda ondata il 30/09 (fonte terza); pagina creating-helpful-content aggiornata il 01/10/2026 (chi, come, perché; automazione).",
-    "🟡 09/10: sez. 14: September 2026 spam update completato l'08/10/2026 (14 giorni)"
+    "🟡 09/10: sez. 14: September 2026 spam update completato l'08/10/2026 (14 giorni)",
+    "24/11 🟡 sez. 12: back button hijacking, policy spam dal 13/04/2026 con FAQ del 23/11/2026"
    ]
   },
   "looker-studio": {
@@ -750,7 +783,8 @@
     "🟡 14/10: sez. 9: regola di Cristiano del 13/10: ogni confronto mette i paragonati sullo stesso piano e con gli stessi fattori (finestra, periodo, definizioni, vista dei dati)",
     "🟡 18/10: sez. 14: pagina embed, interruttore navigazione in modalità incorporata",
     "🟡 28/10: sez. 17: pagina Improve performance del 26/10: tabelle materializzate al posto delle viste pesanti, Storage Read API con i permessi readsessions",
-    "🟡 05/11: sez. 7: misure di grafo BigQuery come metriche ad aggregazione fissa"
+    "🟡 05/11: sez. 7: misure di grafo BigQuery come metriche ad aggregazione fissa",
+    "24/11 🟡 sez. 14: limite di 1.500 principal, report regionali fuori dalla home senza Pro"
    ]
   },
   "grafica-web-design": {
@@ -781,7 +815,8 @@
    "voci": [
     "21/11 🟡 dettagli 11.3.1 dai commenti al post (hook Store API rimosso, PayPal Payments)",
     "22/11 🟡 date di supporto PHP 8.6",
-    "22/11 🟡 Complianz blocca Jetpack Stats (via Mother)"
+    "22/11 🟡 Complianz blocca Jetpack Stats (via Mother)",
+    "24/11 🟡 sez. 1: WordPress 7.2 compatibile con PHP 8.6 dalla Beta 5 (nota del 23/11/2026); sez. 10: Email Design di WordPress.com (Aspetto → Design dell'e-mail)"
    ]
   },
   "gtm": {
@@ -796,6 +831,36 @@
    "livello": "minore",
    "voci": [
     "23/11 🟡 sez. 5: dal 04/02/2026 Google Ads raccoglie in automatico più eventi dal sito (richieste di rete in più)"
+   ]
+  },
+  "trello": {
+   "dal": "2026-11-24",
+   "livello": "sostanziale",
+   "voci": [
+    "24/11 🔴 sez. 5: dal 23/11 feriali a casa 9-19:30 e weekend a casa 10-18; la giornata di oggi è chiusa ai task nuovi o spostati (eccezioni posta e Trustpilot, --oggi solo quando Cristiano fa partire il task); a ogni task chiuso card aggiornata, copia tolta dal calendario e riga a Cristiano con l'esito (regole di Cristiano del 22 e 23/11/2026)",
+    "24/11 🔴 sez. 9: la copia a calendario dura il tempo di Cristiano, minimo 15 minuti, nessun task fuori dal calendario, stima dalle ore vere (Cristiano, 22/11/2026)"
+   ]
+  },
+  "social-media-manager": {
+   "dal": "2026-11-24",
+   "livello": "sostanziale",
+   "voci": [
+    "24/11 🔴 sez. 7: fact checking gentile e umile, commenti sui post salvati chiari e filosofici, giro dei commenti su tutti i canali con post salvati e messaggi privati (regole di Cristiano del 23/11/2026)",
+    "24/11 🟡 sez. 7: Direct, app di messaggistica separata di Instagram in test in Türkiye e Thailandia (Meta, 16/11/2026)"
+   ]
+  },
+  "linkedin-ads": {
+   "dal": "2026-11-24",
+   "livello": "sostanziale",
+   "voci": [
+    "24/11 🔴 sez. 6: Dynamic Group Budget (minimo 30 USD al giorno, non disattivabile dopo l'avvio), budget giornaliero predefinito consigliato nel nuovo ad set, pacing a vita consigliato, niente cambi di data di inizio entro 24 ore"
+   ]
+  },
+  "brevo": {
+   "dal": "2026-11-24",
+   "livello": "minore",
+   "voci": [
+    "24/11 🟡 sez. 11: changelog del 23/11/2026, sezione Brevo MCP (connettore nel marketplace di Claude, connessione diretta con chiave MCP)"
    ]
   }
  },
@@ -831,7 +896,7 @@
   "consent-mode-privacy": "2026-11-23"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-23",
+  "ultima_lettura": "2026-11-24",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1169,6 +1234,21 @@
     "data": "2026-11-21",
     "mittente": "Google Ads (verifica inserzionista completata su un account di Cristiano)",
     "esito": "avviso di account, non newsletter di prodotto"
+   },
+   "1a208b7c5207356e": {
+    "data": "2026-11-23",
+    "mittente": "WordPress.com (Email Design della newsletter)",
+    "esito": "letta e verificata su wordpress.com/support/newsletter-email-design: integrata in wordpress-woocommerce sez. 10 (🟡)"
+   },
+   "1a207ee949de1103": {
+    "data": "2026-11-23",
+    "mittente": "Google Cloud (30 giorni di prova rimasti)",
+    "esito": "avviso di account, non newsletter di prodotto"
+   },
+   "1a20845c734bcf53": {
+    "data": "2026-11-23",
+    "mittente": "Brevo (SMS setup, Sender ID)",
+    "esito": "promozionale di onboarding, nessuna novità di prodotto"
    }
   }
  },

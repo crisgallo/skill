@@ -1,5 +1,9 @@
 # Changelog wordpress-woocommerce
 
+## 24/11/2026
+- 🟡 Sez. 1: WordPress 7.2 compatibile con PHP 8.6 dalla Beta 5 (nota del 23/11/2026: minimo resta 7.4; `.ttf` come `font/ttf`, `stream_flush()` obbligatorio negli stream wrapper, flip GD con `imageflip()`); la regola sull'hosting non cambia.
+- 🟡 Sez. 10: Email Design di WordPress.com (Aspetto → Design dell'e-mail, anteprima email dall'editor, ripristino agli stili del sito; distribuzione a scaglioni), da email del 23/11/2026 e pagina di supporto.
+
 ## 22/11/2026
 - 🟡 Sez. 7: sapere via Mother (22/11): Complianz blocca Jetpack Stats fino al consenso (visite Jetpack a un settimo delle sessioni GA4).
 - 🟡 Sez. 1: date di supporto di PHP 8.6 (attivo fino al 31/12/2028, sicurezza fino al 31/12/2030), pagina php.net riletta il 22/11/2026.

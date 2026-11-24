@@ -1,5 +1,9 @@
 # Changelog social-media-manager
 
+## 24/11/2026
+- 🟡 Sez. 7: Direct, app di messaggistica separata di Instagram in test in Türkiye e Thailandia (Meta Newsroom, 16/11/2026); in Italia nessuna azione.
+- 🔴 Sez. 7: tre regole di Cristiano dalle chat del 23/11/2026: fact checking gentile e umile (nessuna correzione di differenze piccole, dato portato col dubbio, niente sentenze), commenti sui post salvati chiari e filosofici, giro dei commenti su tutti i canali con post salvati e messaggi privati (`feedback_fact_checking_umile.md`, `feedback_commenti_tutti_i_canali.md`).
+
 ## 22/11/2026
 - 🟡 Sez. 4: 2 saperi via Mother (22/11): limiti degli Insights di Instagram dal computer (intervalli fissi, niente follow netti, Business Suite per portfolio) e modulo «Disponibile a lavorare» di LinkedIn (competenza «Media buyer», tipi di impiego da rimettere).
 

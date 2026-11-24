@@ -1,5 +1,8 @@
 # Changelog seo-tecnica
 
+## 24/11/2026
+- 🟡 Sez. 12: back button hijacking, policy spam dal 13/04/2026 (applicazione dal 15/06/2026) con le FAQ aggiunte il 23/11/2026: responsabilità del sito anche per codice di piattaforme pubblicitarie, vale su Discover e da canali non Google, non per le app esterne.
+
 ## 09/10/2026
 - 🟡 Sez. 14: September 2026 spam update completato l'08/10/2026 (14 giorni), dalla dashboard di stato di Google Search.
 ## 02/10/2026

@@ -1,5 +1,9 @@
 # Changelog trello
 
+## 24/11/2026
+- 🔴 Sez. 5: dal 23/11/2026 feriali a casa 9-19:30 e weekend a casa 10-18 (Cristiano, versione del 23/11 di `feedback_pianificazione_spazio_calendario.md`); la giornata di oggi è chiusa ai task nuovi o spostati, `--oggi` solo quando Cristiano fa partire il task, eccezioni posta e Trustpilot (`feedback_mai_task_dentro_oggi.md`); a ogni task chiuso card aggiornata, copia tolta dal calendario e riga a Cristiano con l'esito (`feedback_task_chiuso_due_conferme.md`, `feedback_esito_nel_messaggio.md`).
+- 🔴 Sez. 9: dal 22/11/2026 la copia a calendario dura il tempo di Cristiano, minimo 15 minuti, nessun task fuori dal calendario, stima dalle ore vere (Cristiano, 22/11/2026).
+
 ## 21/11/2026
 - 🟡 Sez. 3: i numeri delle voci sono per card e si ripetono fra card diverse; una partenza chiesta per numero si risolve con `trello.py oggi` e il nome intero della voce (`feedback_numero_voce_ripetuto.md`, 20/11/2026).
 

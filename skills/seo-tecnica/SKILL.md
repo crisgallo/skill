@@ -5,7 +5,7 @@ description: "Regole operative verificate su Google Search Central per audit SEO
 
 # SEO tecnica (Google Search): regole operative
 
-**Ultima verifica delle fonti: 2 ottobre 2026.**
+**Ultima verifica delle fonti: 24 novembre 2026.**
 
 ---
 
@@ -165,6 +165,7 @@ Fonte: [crawl budget](https://developers.google.com/search/docs/crawling-indexin
 - **Il "helpful content system" non esiste più come sistema separato**: "a marzo 2024 è diventato parte dei sistemi di ranking principali" ([ranking-systems-guide](https://developers.google.com/search/docs/appearance/ranking-systems-guide)). Un calo non si attribuisce più a "HCU": si legge come core update (sez. 14).
 - **Contenuti generati con IA**: consentiti; è spam se prodotti "con lo scopo primario di manipolare il ranking" (**scaled content abuse**). Altre policy che toccano PMI ed e-commerce: **cloaking**, **doorway pages** (una pagina per ogni città con lo stesso testo), **redirect ingannevoli**, **expired domain abuse** ([spam-policies](https://developers.google.com/search/docs/essentials/spam-policies)).
 - 🔴 **Site reputation abuse, aggiornamento del 28/08/2026** ([spam-policies](https://developers.google.com/search/docs/essentials/spam-policies), [blog agosto 2026](https://developers.google.com/search/blog)): contenuti di terzi pubblicati su un sito autorevole per sfruttarne i segnali. **Nello SEE (Italia inclusa) le pagine in violazione non ricevono azione manuale ma vengono "categorizzate come separate dal dominio principale"** e si posizionano da sole; fuori dallo SEE resta l'azione manuale. Conseguenza per chi affitta sezioni del sito a coupon, casinò o guest post: in Italia non arriva l'avviso in Search Console, arriva il calo della sezione senza spiegazione.
+- 🟡 **Back button hijacking, policy spam dal 13/04/2026 con applicazione dal 15/06/2026, FAQ aggiunte alla pagina il 23/11/2026** ([spam-policies](https://developers.google.com/search/docs/essentials/spam-policies), riletta il 24/11/2026; [annuncio del 13/04/2026](https://developers.google.com/search/blog/2026/04/back-button-hijacking)): è spam, dentro le «pratiche malevole», un sito che manipola la cronologia del browser per impedire di tornare indietro con il pulsante Indietro (la pagina che si riapre su un'altra pagina di annunci). Le FAQ: la responsabilità è del sito anche quando il comportamento viene da **codice di terzi importato da piattaforme pubblicitarie**, Google agisce solo sulle pagine che lo fanno davvero e non vieta di importare codice delle piattaforme; vale anche su **Discover** e quando l'utente arriva da un canale non Google (social) ma naviga nel browser; non vale per l'apertura di app esterne («apri nell'app»). Per un sito editoriale con reti pubblicitarie è un controllo da fare dopo ogni cambio di fornitore: si entra da Google, si preme Indietro una volta e si deve tornare alla pagina dei risultati.
 
 ---
 

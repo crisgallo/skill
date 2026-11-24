@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 24/11/2026
+- 🟡 Sez. 11: changelog del 23/11/2026, sezione «Brevo MCP» (connettore nel marketplace di Claude e plugin ChatGPT per i casi comuni, connessione diretta con chiave MCP per tutti gli strumenti).
+
 ## 22/11/2026
 - 🟡 Sez. 1: pagina prezzi riletta il 22/11/2026 (volumi dichiarati per Starter e Professional, 10 postazioni, MCP per ChatGPT e Claude fra le funzioni), prezzi invariati.
 

@@ -1,5 +1,8 @@
 # Changelog looker-studio
 
+## 24/11/2026
+- 🟡 Sez. 14: limite di 1.500 principal per la condivisione; i report in regione di residenza dati si aprono solo dal link regionale e non compaiono nella home di chi non ha Pro (pagina riletta il 24/11/2026).
+
 ## 05/11/2026
 - 🟡 Sez. 7: misure di grafo BigQuery importate come metriche ad aggregazione fissa (pagina del connettore aggiornata il 04/11).
 ## 28/10/2026

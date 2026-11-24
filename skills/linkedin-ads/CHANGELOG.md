@@ -1,5 +1,8 @@
 # Changelog linkedin-ads
 
+## 24/11/2026
+- 🔴 Sez. 6: Dynamic Group Budget (budget unico di campagna distribuito fra gli ad set, minimo 30 USD al giorno, non disattivabile dopo l'avvio), budget giornaliero predefinito consigliato nel nuovo ad set (solo USD ed EUR), pacing a vita consigliato e niente cambi di data di inizio entro 24 ore (pagina maximize-your-budget riscritta, letta il 24/11/2026).
+
 ## 21/11/2026
 - 🟡 Sez. 2: modelli di pubblico (Audience Templates) nell'ad set, sostituiscono le selezioni correnti e si salvano come pubblico nuovo (a417950 riletta il 21/11/2026).
 
