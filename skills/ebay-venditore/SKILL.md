@@ -66,6 +66,9 @@ description: "Regole operative verificate per vendere su eBay.it da venditore pr
 📌 **Verificato in pratica sull'account personale di Cristiano (sapere `ebay.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali, non documentazione ufficiale; gli importi sono esempi di calcolo.
 - **Da Compralo Subito ad asta.** In Console venditori, sull'inserzione in corso, «Cambia a Asta online» la trasforma senza chiuderla a mano: prende un numero nuovo, si scelgono partenza e durata, e da privato non c'è tariffa d'inserzione (13/11/2026).
 
+📌 **Verificato in pratica sull'account personale di Cristiano (saperi della regia Mother, voci del 24/11/2026, ricevute il 25/11/2026):** casi reali, non documentazione ufficiale; gli importi sono esempi di calcolo.
+- **Categoria, specifiche e foto si rileggono prima di salvare la bozza.** Nel modulo di inserzione di eBay.it la categoria suggerita può essere sbagliata (uno smartwatch proposto come «Proteggi schermo», corretto a mano in «Smartwatch»); le specifiche compilate dal catalogo possono avere la RAM sbagliata o scambiare RAM e SSD (un Mac mini); un primo caricamento delle foto le ha doppiate, tolte e ricaricate. Il catalogo fa risparmiare tempo ma non si pubblica senza rileggere categoria, specifiche e galleria (24/11/2026).
+
 ## 5. Inserzioni sponsorizzate: tre strategie, tre modi di pagare
 
 ([Panoramica](https://www.ebay.it/help/selling/listings/panoramica-sulle-inserzioni-sponsorizzate?id=5295), [Generale](https://www.ebay.it/help/selling/listings/listing-tips/promoted-listings?id=4164), [Prioritaria](https://www.ebay.it/help/selling/ebay-advertising/promoted-listings/priority-campaign-strategy?id=5299), [Esterni](https://www.ebay.it/help/selling/ebay-advertising/promoted-offsite?id=5471))
@@ -74,6 +77,9 @@ description: "Regole operative verificate per vendere su eBay.it da venditore pr
 - **Prioritaria** (costo per clic, asta al secondo prezzo): si paga ogni clic valido, venda o no. **Budget giornaliero minimo 3 euro**, spesa mensile al massimo **budget × 30,4**, in un giorno fino al **doppio** del budget; targeting automatico (CPC massimo) o manuale per parola chiave (generica, a frase, esatta; **fino a 1.000 parole e 1.000 negative per gruppo**, consigliate 10-15 per tipo di prodotto). Attribuzione: vendite dirette e **Halo** (altri oggetti del venditore comprati dopo il clic). Un'inserzione può stare in più campagne prioritarie; se un acquirente clicca sia un annuncio generale sia uno prioritario vince l'**ultimo clic**, ma la tariffa generale resta dovuta sulle vendite attribuite al suo clic.
 - **Esterni** (Google e altri canali): CPC con budget giornaliero × 30,4, **una sola campagna attiva per sito**, attribuzione **30 giorni** anche su un oggetto diverso da quello cliccato; chiudere in anticipo può costare fino al doppio del budget giornaliero. Tariffe **senza IVA**.
 - 📌 La lettura si fa dal report **«Analisi delle vendite»** della Console pubblicità (ogni transazione con la definizione di attribuzione applicata) e dalla scheda Performance (quota di vendite da sponsorizzate): metriche in tempo quasi reale, riconciliate **entro 72 ore**. ROAS = vendite ÷ tariffe pubblicitarie, e nelle Generali il costo è noto solo a vendita avvenuta: una campagna «in perdita» si giudica sul margine netto della categoria (sez. 2), non sul tasso.
+
+📌 **Verificato in pratica sull'account personale di Cristiano (saperi della regia Mother, voci del 24/11/2026, ricevute il 25/11/2026):** casi reali, non documentazione ufficiale; gli importi sono esempi di calcolo.
+- **Strategia generale: la percentuale precompilata non è quella consigliata.** Il campo si apre con la percentuale dell'ultima campagna (13 %) mentre la consigliata da eBay in quel momento era 11,0 %; la consigliata cambia nell'arco della giornata (13 % alle 10:54, 11 % dalle 14:10). Prima di pubblicare il numero precompilato si confronta con la consigliata del momento e con il tetto deciso prima, e si scrive quello (24/11/2026).
 
 ## 6. Spedizione: tempi, tracciamento, firma
 
@@ -128,6 +134,9 @@ description: "Regole operative verificate per vendere su eBay.it da venditore pr
 
 📌 **Verificato in pratica sull'account personale di Cristiano (sapere `ebay.md` della regia Mother, voci dal 07/10 al 17/11/2026, ricevute il 17/11/2026):** casi reali, non documentazione ufficiale; gli importi sono esempi di calcolo.
 - **Limite iniziale di un account privato nuovo.** La pagina non pubblica il limite iniziale: era 1 oggetto e 10 €. L'aumento automatico non era disponibile; dopo una chat con l'operatore eBay il limite è passato a 20 oggetti e 2.000 € al mese (16/10/2026). Un secondo aumento è stato negato due giorni dopo. **Il limite è mensile**: si azzera il 1° del mese e conta anche quello che si è venduto nel mese; un'inserzione che lo supera non si pubblica, la bozza resta salvata e si pubblica quando c'è spazio.
+
+📌 **Verificato in pratica sull'account personale di Cristiano (saperi della regia Mother, voci del 24/11/2026, ricevute il 25/11/2026):** casi reali, non documentazione ufficiale; gli importi sono esempi di calcolo.
+- **Il limite mensile può salire da solo.** L'account fermo a 20 oggetti e 2.000 € dal 16/10/2026, con l'aumento negato il 18/10, il 24/11/2026 risultava alzato da eBay a **100 oggetti e 4.588,63 €** nella Console venditori, senza richiesta. Dopo un rifiuto il limite può crescere col tempo: prima di mettere bozze in coda o di rinunciare a un oggetto si rilegge il limite sul pannello, non dal log (24/11/2026).
 
 ## 11. Fisco: DAC7 e cosa comunica eBay
 

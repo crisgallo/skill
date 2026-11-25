@@ -816,7 +816,8 @@
     "21/11 🟡 dettagli 11.3.1 dai commenti al post (hook Store API rimosso, PayPal Payments)",
     "22/11 🟡 date di supporto PHP 8.6",
     "22/11 🟡 Complianz blocca Jetpack Stats (via Mother)",
-    "24/11 🟡 sez. 1: WordPress 7.2 compatibile con PHP 8.6 dalla Beta 5 (nota del 23/11/2026); sez. 10: Email Design di WordPress.com (Aspetto → Design dell'e-mail)"
+    "24/11 🟡 sez. 1: WordPress 7.2 compatibile con PHP 8.6 dalla Beta 5 (nota del 23/11/2026); sez. 10: Email Design di WordPress.com (Aspetto → Design dell'e-mail)",
+    "25/11 🟡 sez. 6: sapere via Mother: Redirection confronta la query in modo esatto, URL rediretto con UTM o fbclid risponde 404"
    ]
   },
   "gtm": {
@@ -933,6 +934,13 @@
    "livello": "minore",
    "voci": [
     "25/11 🟡 sez. 10: endpoint beta del documento UBL e campi fee_schedule/milestones dei progetti (API Harvest)"
+   ]
+  },
+  "ebay-venditore": {
+   "dal": "2026-11-25",
+   "livello": "minore",
+   "voci": [
+    "25/11 🟡 sez. 4, 5 e 10: saperi via Mother (categoria e specifiche da rileggere, percentuale precompilata della Strategia generale, limite mensile salito da solo a 100 oggetti e 4.588,63 €)"
    ]
   }
  },

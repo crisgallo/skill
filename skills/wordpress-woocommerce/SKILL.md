@@ -126,6 +126,9 @@ Fonte principale: [hardening](https://developer.wordpress.org/advanced-administr
 - **AIOSEO, social dello schema e llms.txt.** Con Knowledge Graph su «Persona» i profili social vengono dal profilo utente di WordPress (`aioseo-user-social-profiles`), non dalla sezione Social Network. `llms.txt` è un file fisico: le impostazioni non lo rigenerano, si forza spegnendo e riaccendendo l'interruttore in Sitemap, scheda LLMs.txt (Blog, 07-08/08/2026).
 - **Categorie cancellate e archivi.** Cancellate due categorie, WordPress non redireziona i vecchi URL: danno 404 e servono 301 a mano (via WPCode). Con i tag a `noindex`, `post_tag-sitemap.xml` risponde 404. Lo slug dell'archivio autore non è quello del nome (`/author/<nome>/` dava 404): si legge prima lo slug vero (Blog, 07/08/2026).
 
+📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voce del 23/11/2026, ricevuta il 25/11/2026):** casi reali su siti di Cristiano (Il Collettivo), non documentazione ufficiale; valgono finché una versione nuova non li smentisce.
+- **Redirection confronta la query in modo esatto.** Una regola 301 da `/insider/<slug>/` a `/#insider` funziona sull'URL nudo, ma lo stesso URL con una query aggiunta (`?utm_source=…`, `?fbclid=…`) risponde **404**: un link con UTM o fbclid verso una pagina rediretta così finisce su un 404 pur avendo la regola. Nel plugin l'opzione per ignorare o passare la query esiste ma non è stata provata [DA VERIFICARE]: dopo ogni regola si testa con `curl -I` anche l'URL con una query finta (Il Collettivo, 23/11/2026).
+
 ---
 
 ## 7. Tracciamento su WordPress: GTM, dataLayer, consenso, cache

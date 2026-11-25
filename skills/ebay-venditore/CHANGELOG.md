@@ -1,5 +1,8 @@
 # Changelog ebay-venditore
 
+## 25/11/2026
+- 🟡 Sez. 4, 5 e 10: 3 saperi via Mother (25/11): categoria suggerita, specifiche da catalogo e foto doppie da rileggere prima della bozza; percentuale precompilata della Strategia generale diversa dalla consigliata, che cambia nella giornata; limite mensile salito da solo a 100 oggetti e 4.588,63 € il 24/11/2026.
+
 ## 17/11/2026
 - 🔴 Sez. 2, 4, 6, 7, 8, 10 e 13: 8 saperi verificati in pratica (via Mother #28): limite iniziale di un account privato e aumento via chat, limite mensile che conta il venduto, verifica del conto bancario, proposte e incasso netto della Protezione acquisti, etichetta e indirizzo del mittente, da Compralo Subito ad asta, dispositivo Apple con reset non verificato, procedura della bozza da Chrome.
 
