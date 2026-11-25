@@ -1,5 +1,9 @@
 # Changelog chatgpt-ads-performance
 
+## 25/11/2026
+- 🟡 Sez. 11: endpoint Sponsored Business Agent Insights (`/v1/ad_account/agent_insights`, finestre 1/7/14/30 giorni, conversazioni osservate e visite di ritorno, copertura parziale per definizione).
+- 🔴 Sez. 2: dal 09/12/2026 le app partner approvate possono collegarsi all'account Ads di default (View e Manage ad account in External access → Organization defaults → ChatGPT Ads, solo global admin); per tenerlo spento si risponde all'email entro l'08/12 (email OpenAI del 25/11/2026, pagina Global admin console).
+
 ## 18/11/2026
 - 🟡 Sez. 11: endpoint di stato revisione dei prodotti nei feed (is_approved, mappa review_status, header OpenAI-Ad-Account, uno SKU con più ID indicizzati), pagine product-feeds e hotel-feeds rilette il 18/11/2026.
 

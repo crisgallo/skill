@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 25/11/2026
+- 🟡 Sez. 5: quote dell'account e delle automazioni del nuovo editor (pagina del 25/11/2026: 2.000 contatti unici su Free e Starter, 500 aggiunti a mano, 6.000 eventi e 3.000 passi al minuto, 150 campagne programmate, 20 webhook in entrata); trigger e regole aggiornati il 24/11 (Best channel e WhatsApp reply solo Professional ed Enterprise, ritardo minimo un minuto, trigger web push e wallet).
+
 ## 24/11/2026
 - 🟡 Sez. 2: sapere via Mother (24/11): i rapporti DMARC con rua solo verso Brevo non si leggono nel pannello; prima di p=quarantine serve un secondo rua leggibile.
 - 🟡 Sez. 11: changelog del 23/11/2026, sezione «Brevo MCP» (connettore nel marketplace di Claude e plugin ChatGPT per i casi comuni, connessione diretta con chiave MCP per tutti gli strumenti).

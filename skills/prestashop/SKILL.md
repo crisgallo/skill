@@ -5,7 +5,7 @@ description: "Regole operative verificate per fare audit, brief agli sviluppator
 
 # PrestaShop: regole operative
 
-**Ultima verifica delle fonti: 22 novembre 2026.**
+**Ultima verifica delle fonti: 25 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -171,6 +171,8 @@ Pannello: **Parametri negozio > Traffico e SEO > SEO e URL** ([docs 8, SEO and U
 
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 18 al 20/11/2026, ricevute il 21/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Slider Revolution, CVE-2026-117360: aggiornare non basta e il blocco ferma l'editor.** Su un negozio con `revsliderprestashop` 6.2.22.2 la versione 6.2.22.5 offerta come aggiornamento risultava anch'essa vulnerabile. Il rimedio provvisorio, bloccare lato server i file del modulo, rende **403 l'editor del back office** (`AdminRevsliderSliders`, `ajax.php`, `captions.php`) mentre lo slider in home resta visibile: ferma il lavoro sulle slide. Nell'audit si controlla la versione e si avvisa che il blocco impedisce le modifiche finché il modulo non viene sostituito (e-commerce, 18/11/2026).
+
+🟡 **Checklist di igiene di sicurezza del progetto PrestaShop, 24/11/2026** ([Security hygiene for your PrestaShop store](https://build.prestashop-project.org/news/2026/security-hygiene-for-prestashop-stores/), letta il 25/11/2026). Il post parte da un dato: delle 18 falle chiuse dalla 9.2.1, **12 si sfruttano solo con un account del back office o una chiave del webservice**: proteggere il contorno conta quanto aggiornare. Le pratiche consigliate, da chiedere a hosting e sviluppatore nel brief: (1) **aggiornare core, moduli e tema**, cancellare i moduli non usati (un modulo disattivato è ancora codice raggiungibile), mai moduli «nulled», PHP supportata, seguire gli advisory GitHub del core e quelli di Friends of Presta; (2) un **WAF** davanti al negozio (Cloudflare anche nel piano gratuito, o ModSecurity con OWASP Core Rule Set), con l'origine che accetta traffico solo dalla CDN e **rate limiting sul login del back office, sul login cliente e sul recupero password**, partendo in modalità «log» per non bloccare callback di pagamento, webhook ed ERP; (3) **back office blindato**: tenere il nome casuale della cartella admin dato dall'installer (mai `/admin` o il nome del negozio), **restringere la cartella a IP noti** (nginx `allow`/`deny`, Apache `Require ip`, oppure Cloudflare Access) o mettere una **HTTP Basic Auth** davanti al login, poi ritestare i moduli che chiamano URL dentro la cartella admin; **2FA** oggi con un modulo, **nativa prevista nella 9.3** (codici via email o app TOTP, dispositivi fidati, codici di backup, si accende da Parametri avanzati > Sicurezza; PR ancora in revisione); un account per persona, permessi minimi per profilo, disattivazione il giorno stesso di chi esce (agenzie e freelance compresi), 2FA anche sulla casella email dei dipendenti; (4) **niente cambio password forzato ogni 90 giorni** (NIST SP 800-63B rev. 4, NCSC, Microsoft): password lunghe e uniche in un password manager, cambio solo dopo un incidente, controllo su Have I Been Pwned; dalla 8 la robustezza la valuta zxcvbn; (5) **prefisso tabelle personalizzato** al posto di `ps_`, perché molti payload automatici di SQL injection cercano `ps_employee` e `ps_customer`. Nessuna di queste richiede un team di sicurezza, quasi tutte prendono meno di un'ora.
 
 ---
 

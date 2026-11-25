@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire Brevo (ex Sendinblue) su u
 
 # Brevo: regole operative
 
-**Ultima verifica delle fonti: 24 novembre 2026.**
+**Ultima verifica delle fonti: 25 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -125,6 +125,10 @@ Cosa serve al piano per un e-commerce (stessa fonte):
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 12 al 17/11/2026, ricevute il 18/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Una frase diversa per ogni prodotto nelle email.** Brevo non legge un Foglio Google e il suo catalogo non ha campi modificabili: per un testo per prodotto nelle automazioni si mette nel modello un blocco che sceglie la frase dal codice, `{% if item.id == … %}`, generato da uno script a partire dal foglio. Col modulo PrestaShop `items[].id` di `cart_updated` e `order_completed` è l'id del prodotto. A ogni cambio del foglio si rigenera il blocco e si ricaricano le email (e-commerce di integratori, 16/11/2026).
 - **Campi degli eventi del modulo PrestaShop.** `cart_updated` e `order_completed` portano per ogni prodotto in `items[]` id, name, sku, description_short (HTML), url, image, category, prezzi, quantity e varianti; `order_created` solo product_id, name, category, price e quantity. Per email con i prodotti (immagine e link) si usano `order_completed` o `cart_updated`, non `order_created` (16/11/2026).
+
+🟡 **Quote dell'account e delle automazioni del nuovo editor** ([9168632514066](https://help.brevo.com/hc/en-us/articles/9168632514066), aggiornata il 25/11/2026 e letta via API Zendesk lo stesso giorno). Automazioni: **Free e Starter 2.000 contatti unici** nelle automazioni attive, Standard illimitati; **500 contatti alla volta** aggiunti a mano; **6.000 eventi trigger al minuto** e **3.000 passi al minuto** fino a Standard, 10.000 e 6.000 su Professional ed Enterprise. Campagne: fino a **10.000 campagne email salvate** (bozze comprese, 50.000 su Enterprise), 300 campagne SMS (600), **150 campagne programmate insieme** (300), lista di test da 20 indirizzi (50). Contatti: Free 100.000 archiviati, Starter e Standard 500, 1.500 o 500.000 secondo il piano email, Professional 2 milioni; 200 attributi; 300 liste e 300 cartelle (600 liste su Enterprise); un solo account per azienda fino a Standard. Webhook: 40 in uscita, 20 in entrata, 20 eventi al secondo per URL; integrazioni 100.000 task al mese. Un account che non riesce a creare una lista o un'automazione ha spesso finito una di queste quote: si archivia o si cancella prima di chiedere al supporto.
+
+🟡 **Trigger, azioni e regole del nuovo editor, pagina aggiornata il 24/11/2026** ([15445989568402](https://help.brevo.com/hc/en-us/articles/15445989568402), letta via API Zendesk il 25/11/2026). Novità rispetto alla lettura precedente: regola **Best channel** (solo Professional ed Enterprise: si scelgono almeno due canali e ogni contatto riceve il messaggio sul canale a cui risponde di più, ogni canale è un ramo con il suo passo); **ritardo minimo di un minuto** per la regola Time delay; trigger **WhatsApp reply received** (Professional ed Enterprise, con filtri su campagna, pulsante o testo della risposta); trigger di **web push** (iscritto, disiscritto, consegnata, cliccata, chiusa) e di **wallet pass** (installato, scaricato, stato cambiato; solo Enterprise); trigger **Conversations** solo con i pacchetti Sales Essentials o Sales Advanced (una conversazione email si chiude cinque minuti dopo la ricezione). Per un e-commerce su Standard restano i trigger di sempre (evento, lista, attributo, carrello, ordine) e il Best channel non c'è.
 
 ---
 

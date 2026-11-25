@@ -1,5 +1,8 @@
 # Changelog redmine-harvest
 
+## 25/11/2026
+- 🟡 Sez. 10: endpoint beta del documento UBL (`/v2/invoices/{id}/e_invoice_document`, XML, 422 senza numero d'ordine o dati IVA) e campi `fee_schedule`/`milestones` dei progetti (API Harvest rilette il 25/11/2026).
+
 ## 17/11/2026
 - 🔴 Sez. 3, 4, 8, 10 e 15: 9 saperi verificati in pratica (via Mother #28): API interna di Harvest dalla sessione web (POST/PATCH/DELETE /time/api), note senza il tempo del tecnico, Start e vista Settimana, project Redmine di un'agenzia partner (campi Da e A, durata con la virgola, testo pubblicato dal consulente, form di modifica, menzioni, primo caricamento).
 

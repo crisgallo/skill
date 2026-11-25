@@ -1,5 +1,8 @@
 # Changelog social-media-manager
 
+## 25/11/2026
+- 🟡 Sez. 3: novità del blog Creators di Instagram (content protection del 17/11/2026, link affiliati Amazon del 16/11, Edits Cloud del 19/11), dall'indice ufficiale; dettagli da verificare nell'app.
+
 ## 24/11/2026
 - 🔴 Sez. 5: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (regola globale di Cristiano del 24/11/2026 via Mother), in testa alle regole sui testi.
 - 🟡 Sez. 7: Direct, app di messaggistica separata di Instagram in test in Türkiye e Thailandia (Meta Newsroom, 16/11/2026); in Italia nessuna azione.

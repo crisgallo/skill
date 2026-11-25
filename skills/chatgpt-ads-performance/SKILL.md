@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, misurare e diagnosticare 
 
 # ChatGPT Ads: regole operative
 
-**Ultima verifica delle fonti: 18 novembre 2026.**
+**Ultima verifica delle fonti: 25 novembre 2026.**
 
 🔴 **Questo canale è in BETA dichiarata, e cambia più in fretta di Meta e Google.** OpenAI scrive che durante la beta cambieranno consegna, inventario, formati e modi di comprare e ottimizzare. Ogni numero qui sotto va ricontrollato prima di applicarlo, e la verifica in pannello vince sempre sulla documentazione.
 
@@ -71,6 +71,7 @@ Apertura e gestione anche dal **plugin Ads Manager dentro ChatGPT** (`chatgpt.co
 - **Pausa non immediata:** dopo la pausa gli annunci possono uscire ancora **fino a 24 ore** e la spesa resta fatturabile. https://help.openai.com/en/articles/20001216-billing-payment
 - **Credito di benvenuto:** ads.openai.com espone «Get $500 ad credit when you spend $500»; la scadenza a 90 giorni è di fonti terze, non di OpenAI. https://ads.openai.com/ 🟡 Mail «OpenAI Ads Platform» del 02/11/2026 (invito al webinar «2026 ChatGPT Ads Holiday Playbook» del 04/11): credito pubblicitario a chi apre l'account Ads Manager **entro il 31/12/2026** e spende sulla prima campagna; importo e condizioni sulla pagina ads.openai.com/holiday, che risponde 403 ai fetch [DA VERIFICARE].
 - **Integrazioni** (16/09/2026): **HubSpot** ovunque ChatGPT Ads è attivo, Italia inclusa (campagne, lead nel CRM, performance); app **Shopify** USA dal 16/09, **internazionale dal 23/09/2026** (sync catalogo + pixel server). https://help.openai.com/en/articles/20001522-set-up-chatgpt-ads-in-hubspot · https://openai.com/index/reimagining-advertising-with-ai/
+- 🔴 **Accesso di terze parti all'account Ads: dal 09/12/2026 le app partner approvate sono permesse di default** (email OpenAI «Upcoming change to third-party access for ChatGPT Ads» del 25/11/2026 a un account di Cristiano; [Global admin console](https://help.openai.com/en/articles/12289294-global-admin-console), letta il 25/11/2026). Collegare un'app resta facoltativo: chi monta le campagne da un partner (HubSpot, Shopify) accede con «Sign in with OpenAI» e dà all'app il permesso di vedere o gestire i dati Ads che già può vedere. Per tenere l'accesso di terze parti **spento** bisogna **rispondere all'email entro l'08/12/2026**; senza risposta il nuovo default parte il 09/12. Le impostazioni **View ad account** e **Manage ad account** stanno in **External access → Organization defaults → ChatGPT Ads** dell'Admin Console, che le cambia solo un **global admin** (un admin dell'account Ads o del workspace non lo è in automatico); permettere il Sign in with ChatGPT non dà accesso ai dati Ads, che si rivedono a parte. Per un account cliente: si decide prima dell'08/12 se un partner deve entrare, e si controlla in Organization defaults che i default siano quelli voluti.
 
 ### 2.1 🔴 Vincoli specifici per Italia / EEA (verificati 20/09/2026)
 
@@ -256,6 +257,7 @@ Impression, clic, spesa, CTR, CPC medio, CPM medio, conversioni, per campagna, g
 - 🔑 Il **changelog** in `developers.openai.com/ads` è la fonte più rapida sui cambi: si legge a ogni verifica (§0.5).
 
 https://developers.openai.com/ads · https://developers.openai.com/ads/bulk-api · https://developers.openai.com/ads/conversion-optimized-campaigns · https://developers.openai.com/ads/location-targeting · https://developers.openai.com/ads/platform-targeting · https://developers.openai.com/ads/custom-audiences · https://developers.openai.com/ads/api-reference/insights
+- 🟡 **Sponsored Business Agent Insights** ([api-reference/insights](https://developers.openai.com/ads/api-reference/insights), pagina riletta il 25/11/2026): `GET /v1/ad_account/agent_insights` restituisce l'ultimo report dell'agente sponsorizzato pubblicato sull'account (basta una chiave Advertiser in sola lettura), con `window_days` 1, 7, 14 o 30, date UTC, un solo report senza paginazione, niente date personalizzate né filtri per campagna. Campi: conversazioni osservate, turni utente e media per conversazione, **visite di ritorno** (un messaggio dopo più di 30 minuti dal precedente nella stessa conversazione), copertura delle ore di ingestione (`complete` o `incomplete`); `capture_coverage` è sempre `partial_observed_conversations`, cioè anche con copertura completa si vedono solo le conversazioni catturate. Niente testi dei messaggi. Per le performance attribuite alle inserzioni si usano gli endpoint di reporting delle campagne, non questo. Errori: 400 parametro, 403 permessi, **404 nessun agente pubblicato**, 503 report temporaneamente non disponibile. In Italia gli Sponsored Agents restano in alpha (sez. 1): l'endpoint serve solo a chi ce l'ha.
 
 ## 12. Quello che NON c'è
 

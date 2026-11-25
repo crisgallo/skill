@@ -1,5 +1,8 @@
 # Changelog strumenti-ai
 
+## 25/11/2026
+- 🟡 Sez. 1: Claude Opus 4.5 deprecato, ritiro dall'API il 22/01/2027 (release notes del 23/11/2026); script con il vecchio ID da migrare a Opus 5.5.
+
 ## 24/11/2026
 - 🟡 Sez. 2: Claude Sheets, modifiche evidenziate cella per cella e sole funzioni di base, export .xlsx o CSV o Claude for Excel; Claude Data per i cruscotti, Sheets per i fogli da compilare (articolo riletto il 24/11/2026 via Mother).
 

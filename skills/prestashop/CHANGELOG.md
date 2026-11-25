@@ -1,5 +1,8 @@
 # Changelog prestashop
 
+## 25/11/2026
+- 🟡 Sez. 10: checklist di igiene di sicurezza del progetto (post del 24/11/2026): 12 delle 18 falle della 9.2.1 richiedono un account back office o una chiave webservice; WAF e rate limiting, cartella admin con IP o Basic Auth, 2FA via modulo e nativa prevista nella 9.3, niente rotazione password a 90 giorni, prefisso tabelle non `ps_`.
+
 ## 22/11/2026
 - 🟡 Sez. 15: sapere via Mother (22/11): modulo ricaricato da zip con versione non aggiornata in ps_module, «Aggiorna comunque» per allinearla.
 

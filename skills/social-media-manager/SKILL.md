@@ -5,7 +5,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 # Social media manager (Facebook, Instagram, LinkedIn): regole operative
 
-**Ultima verifica delle fonti: 24 novembre 2026.**
+**Ultima verifica delle fonti: 25 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -52,6 +52,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 - **Dal 17/06/2025 tutti i video di Facebook si pubblicano come Reels**, senza limiti di durata o formato, la scheda Video diventa Reels e post del Feed e reel condividono **un'unica impostazione di pubblico** ([Meta Newsroom](https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/)): si controlla che la Pagina pubblichi come «Pubblico».
 
 **LinkedIn**: la documentazione ufficiale sul ranking è del blog Engineering e non è recente. Il feed misura il **dwell time** (tempo con almeno metà del post visibile, e tempo dopo il clic) e ha un termine **P(skip)** che abbassa i post che la gente scorre via ([LinkedIn Engineering, dwell time](https://www.linkedin.com/blog/engineering/feed/understanding-feed-dwell-time)); la funzione obiettivo pesa valore per chi legge, per la sua rete e **per chi scrive**, con credito decrescente ai like aggiuntivi dei grandi account ([creator-side optimization, 2018](https://engineering.linkedin.com/blog/2018/10/linkedin-feed-with-creator-side-optimization)). Conseguenze operative: il post che si legge fino in fondo batte quello che si scorre, il commento con contenuto conta più del like, un documento o un testo che tiene sulla pagina lavora a favore. **LinkedIn può limitare quanti post pubblica un membro o una Pagina in un periodo** in base a segnali di autenticità, e l'eccesso che somiglia ad automazione perde visibilità ([LinkedIn Help, creare un post](https://www.linkedin.com/help/linkedin/answer/a528176)). Le soglie precise (orario migliore, numero di post a settimana, peso dei link esterni) che circolano sui blog sono **regole empiriche di terzi, non numeri LinkedIn**.
+- 🟡 **Instagram, novità del blog Creators di novembre 2026** ([creators.instagram.com/blog](https://creators.instagram.com/blog), indice letto il 25/11/2026; i singoli post non si aprono da qui, dettagli [DA VERIFICARE] nell'app): **17/11 «Introducing content protection»**, protezione dei video originali per i creator idonei (secondo la stampa di settore: Instagram cerca le copie su Instagram e Facebook e il creator sceglie se tracciarle, nasconderle o chiedere il credito; si entra su invito o con un modulo); **16/11** link di affiliazione Amazon nei contenuti (disponibilità per l'Italia non dichiarata); **19/11** Edits Cloud ed Edits Plus per l'app di montaggio Edits. Per le Pagine dei clienti il punto operativo è il primo: un repost di un video altrui, anche «con credito», può essere segnalato dal proprietario e perdere distribuzione; si pubblica materiale proprio o con licenza scritta.
 
 ## 4. Formati e limiti tecnici
 

@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-24",
+  "ultima_lettura": "2026-11-25",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -850,7 +850,8 @@
    "voci": [
     "24/11 🔴 sez. 7: fact checking gentile e umile, commenti sui post salvati chiari e filosofici, giro dei commenti su tutti i canali con post salvati e messaggi privati (regole di Cristiano del 23/11/2026)",
     "24/11 🟡 sez. 7: Direct, app di messaggistica separata di Instagram in test in Türkiye e Thailandia (Meta, 16/11/2026)",
-    "24/11 🔴 sez. 5: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (parole di tutti i giorni, frasi semplici e dirette, prima persona, niente tono da assistente), regola globale di Cristiano del 24/11/2026"
+    "24/11 🔴 sez. 5: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (parole di tutti i giorni, frasi semplici e dirette, prima persona, niente tono da assistente), regola globale di Cristiano del 24/11/2026",
+    "25/11 🟡 sez. 3: novità del blog Creators di Instagram (content protection 17/11, link affiliati Amazon 16/11, Edits Cloud 19/11)"
    ]
   },
   "linkedin-ads": {
@@ -865,7 +866,8 @@
    "livello": "minore",
    "voci": [
     "24/11 🟡 sez. 11: changelog del 23/11/2026, sezione Brevo MCP (connettore nel marketplace di Claude, connessione diretta con chiave MCP)",
-    "24/11 🟡 sez. 2: sapere via Mother: i rapporti DMARC con rua solo verso Brevo non si leggono nel pannello; prima di p=quarantine serve un secondo rua leggibile"
+    "24/11 🟡 sez. 2: sapere via Mother: i rapporti DMARC con rua solo verso Brevo non si leggono nel pannello; prima di p=quarantine serve un secondo rua leggibile",
+    "25/11 🟡 sez. 5: quote dell'account e delle automazioni del nuovo editor (pagina del 25/11); trigger e regole aggiornati il 24/11 (Best channel, WhatsApp reply, ritardo minimo un minuto, web push e wallet)"
    ]
   },
   "cristiano-gallinelli-persona": {
@@ -893,7 +895,8 @@
    "dal": "2026-11-24",
    "livello": "minore",
    "voci": [
-    "24/11 🟡 sez. 2: Claude Sheets con modifiche evidenziate cella per cella e sole funzioni di base, export .xlsx o CSV o Claude for Excel; Claude Data per i cruscotti, Sheets per i fogli"
+    "24/11 🟡 sez. 2: Claude Sheets con modifiche evidenziate cella per cella e sole funzioni di base, export .xlsx o CSV o Claude for Excel; Claude Data per i cruscotti, Sheets per i fogli",
+    "25/11 🟡 sez. 1: Claude Opus 4.5 deprecato, ritiro dall'API il 22/01/2027"
    ]
   },
   "viaggi-treno-italia": {
@@ -901,6 +904,35 @@
    "livello": "minore",
    "voci": [
     "24/11 🟡 sez. 6: saperi via Mother: condizioni Italo dal 01/10/2026 (indennizzo solo da 60 minuti, reclamo entro 3 mesi); modulo rimborsi Trenitalia (OTP in scheda dedicata, Runtime Error, CAPTCHA, risposta il giorno dopo)"
+   ]
+  },
+  "google-cloud": {
+   "dal": "2026-11-25",
+   "livello": "sostanziale",
+   "voci": [
+    "25/11 🔴 sez. 10: API Workspace e server MCP a due livelli dal 24/11/2026 (Standard 5.000 richieste al giorno per progetto e prodotto, gratis; Scaled con fatturazione), aumenti di quota solo con Scaled, MCP obbligatorio per gli agenti dal 01/02/2027, fatturazione e ritorno alle quote Standard dal 01/04/2027; 🟡 sezione 17 dei Service Specific Terms dal 01/01/2027"
+   ]
+  },
+  "chatgpt-ads-performance": {
+   "dal": "2026-11-25",
+   "livello": "sostanziale",
+   "voci": [
+    "25/11 🔴 sez. 2: dal 09/12/2026 le app partner approvate possono collegarsi all'account Ads di default (External access → Organization defaults → ChatGPT Ads, solo global admin); per tenerlo spento si risponde all'email OpenAI entro l'08/12",
+    "25/11 🟡 sez. 11: endpoint Sponsored Business Agent Insights"
+   ]
+  },
+  "prestashop": {
+   "dal": "2026-11-25",
+   "livello": "minore",
+   "voci": [
+    "25/11 🟡 sez. 10: checklist di igiene di sicurezza del progetto PrestaShop (post del 24/11/2026: WAF, cartella admin con IP o Basic Auth, 2FA via modulo e nativa prevista nella 9.3, niente rotazione password a 90 giorni, prefisso tabelle non ps_)"
+   ]
+  },
+  "redmine-harvest": {
+   "dal": "2026-11-25",
+   "livello": "minore",
+   "voci": [
+    "25/11 🟡 sez. 10: endpoint beta del documento UBL e campi fee_schedule/milestones dei progetti (API Harvest)"
    ]
   }
  },
@@ -936,7 +968,7 @@
   "consent-mode-privacy": "2026-11-23"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-24",
+  "ultima_lettura": "2026-11-25",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1289,6 +1321,21 @@
     "data": "2026-11-23",
     "mittente": "Brevo (SMS setup, Sender ID)",
     "esito": "promozionale di onboarding, nessuna novità di prodotto"
+   },
+   "1a21004b972412cc": {
+    "data": "2026-11-25",
+    "mittente": "OpenAI support (accesso di terze parti a ChatGPT Ads dal 09/12/2026)",
+    "esito": "letta e verificata sulla pagina Global admin console: integrata in chatgpt-ads-performance sez. 2 (🔴); opt-out rispondendo entro l'08/12, segnalato a Cristiano"
+   },
+   "1a20f94e6e9cd22b": {
+    "data": "2026-11-24",
+    "mittente": "Google Cloud Platform (livelli di utilizzo API Workspace e MCP, 24/11/2026)",
+    "esito": "letta e verificata su developers.google.com/workspace/tools-safety: integrata in google-cloud sez. 10 (🔴)"
+   },
+   "1a21151e7cca3f16": {
+    "data": "2026-11-25",
+    "mittente": "Google Cloud (Service Specific Terms dal 01/01/2027, sezione 17)",
+    "esito": "letta; nota 🟡 in google-cloud sez. 10"
    }
   }
  },

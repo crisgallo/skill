@@ -1,5 +1,8 @@
 # Changelog google-cloud
 
+## 25/11/2026
+- 🔴 Sez. 10: API Workspace e server MCP, livelli Standard (5.000 richieste al giorno per progetto e prodotto, gratis) e Scaled dal 24/11/2026; aumenti di quota solo con Scaled; MCP obbligatorio per gli agenti dal 01/02/2027; fatturazione e ritorno alle quote Standard dal 01/04/2027 (email di servizio del 24/11 e pagina tools-safety). 🟡 Sezione 17 dei Service Specific Terms dal 01/01/2027.
+
 ## 20/11/2026
 - 🟡 Sez. 6: export della fatturazione, un dataset per tipo di export e viste autorizzate per limitare i costi visibili per progetto (pagina riletta il 20/11/2026).
 
