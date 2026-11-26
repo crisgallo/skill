@@ -1,5 +1,8 @@
 # Changelog microsoft-ads
 
+## 26/11/2026
+- 🟡 Sez. 13: versionamento dell'API Microsoft Advertising con header Api-Revision (blog API, letto il 26/11/2026).
+
 ## 20/11/2026
 - 🟡 Sez. 5: post del blog Microsoft Advertising del 18/11/2026 sull'aggiornamento dei modelli di offerta (rollout automatico, adeguamento ai target più rapido, numeri dichiarati per tROAS, tCPA ed eCPC).
 

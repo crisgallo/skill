@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-25",
+  "ultima_lettura": "2026-11-26",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -806,7 +806,8 @@
    "dal": "2026-11-20",
    "livello": "minore",
    "voci": [
-    "20/11 🟡 aggiornamento dei modelli di offerta (blog 18/11/2026)"
+    "20/11 🟡 aggiornamento dei modelli di offerta (blog 18/11/2026)",
+    "26/11 🟡 sez. 13: versionamento API con header Api-Revision"
    ]
   },
   "wordpress-woocommerce": {
@@ -833,7 +834,8 @@
    "livello": "minore",
    "voci": [
     "23/11 🟡 sez. 5: dal 04/02/2026 Google Ads raccoglie in automatico più eventi dal sito (richieste di rete in più)",
-    "24/11 🟡 sez. 4: rettifiche delle conversioni (Ridefinisci solo valore e ROAS, Ritira anche CPA, GBRAID solo ID ordine, più rettifiche in ordine di data); import offline via Google Ads API chiuso ai nuovi utenti dal 15/06/2026, errore CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE, si passa dalla Data Manager API"
+    "24/11 🟡 sez. 4: rettifiche delle conversioni (Ridefinisci solo valore e ROAS, Ritira anche CPA, GBRAID solo ID ordine, più rettifiche in ordine di data); import offline via Google Ads API chiuso ai nuovi utenti dal 15/06/2026, errore CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE, si passa dalla Data Manager API",
+    "26/11 🟡 sez. 1: controlli di AI Max senza spegnerlo (keyword negative, esclusioni brand, corrispondenza termini spenta per gruppo, esclusioni URL, linee guida testuali); sez. 4: caricamenti offline duplicati contati una volta sola"
    ]
   },
   "trello": {
@@ -852,7 +854,8 @@
     "24/11 🔴 sez. 7: fact checking gentile e umile, commenti sui post salvati chiari e filosofici, giro dei commenti su tutti i canali con post salvati e messaggi privati (regole di Cristiano del 23/11/2026)",
     "24/11 🟡 sez. 7: Direct, app di messaggistica separata di Instagram in test in Türkiye e Thailandia (Meta, 16/11/2026)",
     "24/11 🔴 sez. 5: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (parole di tutti i giorni, frasi semplici e dirette, prima persona, niente tono da assistente), regola globale di Cristiano del 24/11/2026",
-    "25/11 🟡 sez. 3: novità del blog Creators di Instagram (content protection 17/11, link affiliati Amazon 16/11, Edits Cloud 19/11)"
+    "25/11 🟡 sez. 3: novità del blog Creators di Instagram (content protection 17/11, link affiliati Amazon 16/11, Edits Cloud 19/11)",
+    "26/11 🟡 sez. 8: Analisi Pagina LinkedIn, tre blocchi solo con Premium Company Page Plus o Pro"
    ]
   },
   "linkedin-ads": {
@@ -919,7 +922,8 @@
    "livello": "sostanziale",
    "voci": [
     "25/11 🔴 sez. 2: dal 09/12/2026 le app partner approvate possono collegarsi all'account Ads di default (External access → Organization defaults → ChatGPT Ads, solo global admin); per tenerlo spento si risponde all'email OpenAI entro l'08/12",
-    "25/11 🟡 sez. 11: endpoint Sponsored Business Agent Insights"
+    "25/11 🟡 sez. 11: endpoint Sponsored Business Agent Insights",
+    "26/11 🔴 sez. 1: Sponsored Business Agent anche fuori dagli USA per aziende idonee (Business Hub, Agent builder in Ads Manager; Italia da verificare); 🔴 sez. 9: metriche di copertura Reach, Frequency, Click Reach, Unique CTR, Unique CPC, Cost per 1,000 Reached (Edit columns > Ad Viewers); 🟡 sez. 3 Hide product sale prices, sez. 7 Learn more di default, sez. 10 messaggio di revisione con la policy e Policy Center, sez. 11 colonne Availability e Status dei prodotti (newsletter OpenAI del 25/11/2026)"
    ]
   },
   "prestashop": {
@@ -940,7 +944,8 @@
    "dal": "2026-11-25",
    "livello": "minore",
    "voci": [
-    "25/11 🟡 sez. 4, 5 e 10: saperi via Mother (categoria e specifiche da rileggere, percentuale precompilata della Strategia generale, limite mensile salito da solo a 100 oggetti e 4.588,63 €)"
+    "25/11 🟡 sez. 4, 5 e 10: saperi via Mother (categoria e specifiche da rileggere, percentuale precompilata della Strategia generale, limite mensile salito da solo a 100 oggetti e 4.588,63 €)",
+    "26/11 🟡 sez. 4: pagina del catalogo eBay (foto del catalogo solo con Condizione Nuovo, niente scheda se non corrisponde del tutto)"
    ]
   }
  },
@@ -976,7 +981,7 @@
   "consent-mode-privacy": "2026-11-23"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-25",
+  "ultima_lettura": "2026-11-26",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1344,6 +1349,21 @@
     "data": "2026-11-25",
     "mittente": "Google Cloud (Service Specific Terms dal 01/01/2027, sezione 17)",
     "esito": "letta; nota 🟡 in google-cloud sez. 10"
+   },
+   "1a214d5b3286d282": {
+    "data": "2026-11-25",
+    "mittente": "OpenAI Ads Platform (ChatGPT Ads Product Updates)",
+    "esito": "letta; verificate le pagine 20001651, 20001212, 20001214: integrata in chatgpt-ads-performance sez. 1, 3, 7, 9, 10 (🔴)"
+   },
+   "1a212d65579a950f": {
+    "data": "2026-11-25",
+    "mittente": "Google Merchant Center (report sulla qualità del negozio di novembre, account di un cliente)",
+    "esito": "report di account, non newsletter di prodotto"
+   },
+   "1a212928ed5e1492": {
+    "data": "2026-11-25",
+    "mittente": "Brevo (3 SMS da mandare, promozionale)",
+    "esito": "promozionale, nessuna novità di prodotto"
    }
   }
  },

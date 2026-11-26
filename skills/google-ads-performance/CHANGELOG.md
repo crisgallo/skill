@@ -1,5 +1,8 @@
 # Changelog google-ads-performance
 
+## 26/11/2026
+- 🟡 Sez. 1: controlli di AI Max senza spegnerlo (keyword negative, esclusioni di brand, corrispondenza dei termini spenta per gruppo, esclusioni URL, linee guida testuali; FAQ 15910187 del 26/11/2026). 🟡 Sez. 4: i caricamenti offline duplicati si contano una volta sola anche con «OK» (15081888).
+
 ## 24/11/2026
 - 🟡 Sez. 4: rettifiche delle conversioni rilette (Ridefinisci tocca solo valore e ROAS, Ritira anche il CPA; con GBRAID solo ID ordine; più rettifiche in ordine di data); dal 15/06/2026 l'import offline via Google Ads API è chiuso ai nuovi utenti, errore CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE, si passa dalla Data Manager API (blog del 15/05/2026). Via Mother, fonti verificate il 24/11/2026.
 

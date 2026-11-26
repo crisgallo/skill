@@ -1,5 +1,8 @@
 # Changelog social-media-manager
 
+## 26/11/2026
+- 🟡 Sez. 8: Analisi Pagina LinkedIn, segmenti di pubblico, approfondimenti sui leader e su chi interagisce solo con Premium Company Page Plus o Pro (pagina a547077 aggiornata il 25/11/2026).
+
 ## 25/11/2026
 - 🟡 Sez. 3: novità del blog Creators di Instagram (content protection del 17/11/2026, link affiliati Amazon del 16/11, Edits Cloud del 19/11), dall'indice ufficiale; dettagli da verificare nell'app.
 

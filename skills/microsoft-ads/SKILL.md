@@ -5,7 +5,7 @@ description: "Regole operative verificate per montare, importare da Google Ads, 
 
 # Microsoft Advertising: regole operative
 
-**Ultima verifica delle fonti: 20 novembre 2026.**
+**Ultima verifica delle fonti: 26 novembre 2026.**
 
 ## 0. Manutenzione di questa skill (leggere per primo)
 
@@ -182,6 +182,7 @@ Fonte: [best practice PMax](https://learn.microsoft.com/en-us/advertising/msa-he
 ---
 
 - **27/10/2026**: Conversions API disponibile a tutti (sez. 2); PMax con targeting età e genere, dispositivi in arrivo, report termini di ricerca e asta, pagina di destinazione da metà novembre; messaging guidelines in pilota aperto, fino a 40 regole (sez. 10); creazione della prima campagna guidata dall'AI.
+- 🟡 **Novembre 2026 (blog API)**: **versionamento dell'API con l'header `Api-Revision: YYYY-MM-DD`** ([Microsoft Advertising introduces API versioning](https://techcommunity.microsoft.com/blog/adsapiblog/microsoft-advertising-introduces-api-versioning-for-new-response-fields-and-obje/4571743), letto il 26/11/2026): i nuovi campi e oggetti di risposta arrivano in base alla data di revisione indicata nella richiesta, non più selezionandoli con `AdditionalFields` (che resta per i campi non versionati); gli SDK supportati mandano l'header da soli, un client fatto in casa lo aggiunge a ogni chiamata REST o SOAP con una data pubblicata nella documentazione e, prima di alzare la data, rigenera e riprova i proxy. Per il consulente conta una cosa: uno script di report che smette di vedere un campo nuovo va aggiornato nella data, non riscritto.
 
 ## 14. Igiene di un account ereditato: ordine di controllo
 

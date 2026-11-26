@@ -1,5 +1,8 @@
 # Changelog ebay-venditore
 
+## 26/11/2026
+- 🟡 Sez. 4: pagina del catalogo eBay riletta (ricerca per UPC/ISBN, foto del catalogo solo con Condizione Nuovo, niente scheda se non corrisponde del tutto).
+
 ## 25/11/2026
 - 🟡 Sez. 4, 5 e 10: 3 saperi via Mother (25/11): categoria suggerita, specifiche da catalogo e foto doppie da rileggere prima della bozza; percentuale precompilata della Strategia generale diversa dalla consigliata, che cambia nella giornata; limite mensile salito da solo a 100 oggetti e 4.588,63 € il 24/11/2026.
 

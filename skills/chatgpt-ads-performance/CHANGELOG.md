@@ -1,5 +1,9 @@
 # Changelog chatgpt-ads-performance
 
+## 26/11/2026
+- 🟡 Sez. 11: scheda Products del feed, colonne Availability e Status, trattino e Unavailable non sono rifiuti (pagina 20001268 aggiornata il 25/11/2026).
+- 🔴 Sez. 1: Sponsored Business Agent fuori dagli USA per aziende idonee nei mercati supportati (Business Hub, Agent builder in Ads Manager; Italia da verificare). 🔴 Sez. 9: metriche di copertura Reach, Frequency, Click Reach, Unique CTR, Unique CPC, Cost per 1,000 Reached (Edit columns > Ad Viewers). 🟡 Sez. 3 Hide product sale prices nei gruppi da feed; sez. 7 Learn more di default sulle immagini singole; sez. 10 messaggio di revisione con la policy e Policy Center. Newsletter OpenAI del 25/11/2026, pagine 20001651, 20001212 e 20001214 lette il 26/11.
+
 ## 25/11/2026
 - 🟡 Sez. 11: endpoint Sponsored Business Agent Insights (`/v1/ad_account/agent_insights`, finestre 1/7/14/30 giorni, conversazioni osservate e visite di ritorno, copertura parziale per definizione).
 - 🔴 Sez. 2: dal 09/12/2026 le app partner approvate possono collegarsi all'account Ads di default (View e Manage ad account in External access → Organization defaults → ChatGPT Ads, solo global admin); per tenerlo spento si risponde all'email entro l'08/12 (email OpenAI del 25/11/2026, pagina Global admin console).
