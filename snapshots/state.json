@@ -855,7 +855,8 @@
     "24/11 🟡 sez. 7: Direct, app di messaggistica separata di Instagram in test in Türkiye e Thailandia (Meta, 16/11/2026)",
     "24/11 🔴 sez. 5: in ogni testo a nome di Cristiano, Claude scrive come Cristiano (parole di tutti i giorni, frasi semplici e dirette, prima persona, niente tono da assistente), regola globale di Cristiano del 24/11/2026",
     "25/11 🟡 sez. 3: novità del blog Creators di Instagram (content protection 17/11, link affiliati Amazon 16/11, Edits Cloud 19/11)",
-    "26/11 🟡 sez. 8: Analisi Pagina LinkedIn, tre blocchi solo con Premium Company Page Plus o Pro"
+    "26/11 🟡 sez. 8: Analisi Pagina LinkedIn, tre blocchi solo con Premium Company Page Plus o Pro",
+    "26/11 🟡 sez. 12: sapere via Mother: immagine di un post Google Business caricata da Chrome (input d'appoggio e DataTransfer nell'iframe)"
    ]
   },
   "linkedin-ads": {
@@ -946,6 +947,13 @@
    "voci": [
     "25/11 🟡 sez. 4, 5 e 10: saperi via Mother (categoria e specifiche da rileggere, percentuale precompilata della Strategia generale, limite mensile salito da solo a 100 oggetti e 4.588,63 €)",
     "26/11 🟡 sez. 4: pagina del catalogo eBay (foto del catalogo solo con Condizione Nuovo, niente scheda se non corrisponde del tutto)"
+   ]
+  },
+  "ga4-performance": {
+   "dal": "2026-11-26",
+   "livello": "minore",
+   "voci": [
+    "26/11 🟡 sez. 9: sapere via Mother: un'esplorazione aperta per leggere i dati resta nella proprietà del cliente, da eliminare a mano"
    ]
   }
  },

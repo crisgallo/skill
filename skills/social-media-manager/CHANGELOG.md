@@ -1,6 +1,7 @@
 # Changelog social-media-manager
 
 ## 26/11/2026
+- 🟡 Sez. 12: sapere via Mother (26/11): immagine di un post Google Business caricata da Chrome tramite un input d'appoggio e un DataTransfer nell'iframe del compositore (stessa origine); vale anche per «Pianifica questo post».
 - 🟡 Sez. 8: Analisi Pagina LinkedIn, segmenti di pubblico, approfondimenti sui leader e su chi interagisce solo con Premium Company Page Plus o Pro (pagina a547077 aggiornata il 25/11/2026).
 
 ## 25/11/2026

@@ -1,5 +1,8 @@
 # Changelog ga4-performance
 
+## 26/11/2026
+- 🟡 Sez. 9: sapere via Mother (26/11): un'esplorazione aperta per leggere i dati resta salvata nella proprietà del cliente, da eliminare a mano o da evitare usando i rapporti standard.
+
 ## 21/11/2026
 - 🔴 Sez. 0: note di rilascio di ottobre-novembre 2026 (lette il 21/11/2026): Data Manager in Google Analytics (beta, hub in Amministrazione per collegamenti, stream e dati di prima parte), diagnostica dei dati forniti dall'utente, User Groups Admin API, agent skills Firebase.
 

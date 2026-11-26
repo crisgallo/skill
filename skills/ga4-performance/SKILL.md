@@ -396,6 +396,9 @@ Ordine che fa emergere i problemi nell'ordine in cui contano. **Il primo punto v
 - **Ruolo ereditato dall'account.** Un indirizzo esterno era amministratore dell'account e delle proprietà: togliendo i permessi dalla proprietà il ruolo restava, ereditato dall'account. Si è tolto dall'account e si è verificato che account e proprietà (anche quella di debug) avessero un solo utente (Il Collettivo, 11/10/2026).
 - **Cestino delle proprietà.** «Sposta la proprietà nel Cestino» la mette nel cestino dell'account con la data di eliminazione definitiva (35 giorni dopo nel caso visto): fino ad allora si recupera (Il Collettivo, 11/10/2026).
 
+📌 **Verificato in pratica dalle chat di progetto (sapere della regia Mother, voce del 25/11/2026, ricevuta il 26/11/2026):** casi reali su account di clienti (anonimizzati), non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
+- **Un'esplorazione aperta per leggere i dati resta salvata nella proprietà del cliente.** Chi legge una proprietà GA4 da Chrome costruendo un'esplorazione la lascia lì come esplorazione privata, visibile in Esplora a chi la ha creata e da **eliminare a mano**; non è verificato se GA4 la salvi da sola appena creata. Nel brief a un sottoagente si scrive di usare i **rapporti standard** o di **eliminare l'esplorazione** a fine lettura, e chi riceve l'esito controlla in Esplora che non sia rimasto niente di nostro (gruppo editoriale, 25/11/2026).
+
 ---
 
 ## 10. Cosa non fare mai

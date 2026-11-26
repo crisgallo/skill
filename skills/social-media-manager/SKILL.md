@@ -186,6 +186,7 @@ description: "Regole operative verificate per gestire in organico pagine e profi
 
 📌 **Verificato in pratica dalle chat di progetto (saperi della regia Mother, voci dal 18 al 20/11/2026, ricevute il 21/11/2026):** casi reali su account di clienti (anonimizzati) e sui progetti di Cristiano, non documentazione ufficiale; valgono finché una versione nuova del pannello non li smentisce.
 - **Business Suite, caricare un file da Chrome con uno script.** Nel compositore di post e storie l'`input[type=file]` non esiste nel DOM prima del clic su «Aggiungi foto/video»: si intercetta `HTMLInputElement.prototype.click` con uno script, poi si passa il file con il caricamento del browser (e-commerce, 18/11/2026).
+- 📌 **Google Business, caricare l'immagine di un post da Chrome (sapere della regia Mother, voce del 26/11/2026, ricevuta il 26/11/2026; Blog).** L'iframe del compositore «Aggiungi post» (`www.google.com/local/business/<id>/promote/updates`) è **sulla stessa origine** della pagina: si aggiunge alla pagina un `input[type=file]` d'appoggio e lo si riempie con lo strumento di caricamento del browser; poi, nella finestra dell'iframe, si crea un `File` dal contenuto, lo si mette in un `DataTransfer` dell'iframe, lo si assegna a `input.files` del campo vero e si lancia l'evento `change`. Funziona anche con «Pianifica questo post». Supera la nota precedente «il file lo carica il titolare»: il post di Google Business si pubblica per intero da Chrome, immagine compresa.
 
 ---
 
