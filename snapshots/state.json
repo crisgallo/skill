@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-26",
+  "ultima_lettura": "2026-11-27",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -280,8 +280,8 @@
     "esito": "regola di processo, ritocco di sincronizzazione"
    },
    "feedback_pianificazione_spazio_calendario.md": {
-    "modificato": "2026-11-23",
-    "esito": "24/11: versione del 23/11 (35.827 byte): feriali a casa 9-19:30 e weekend 10-18, oggi chiuso ai task nuovi, copia a calendario con il tempo di Cristiano (min 15) e stima dalle ore vere: integrata in trello sez. 5 e 9"
+    "modificato": "2026-11-26",
+    "esito": "27/11: versione del 26/11 (37.770 byte): regola del 24/11 sulla scadenza già integrata il 24/11; task 1.42 (buongiorno senza ripianificazione, buonanotte che non sposta più) è strumento di Mother, non integrato"
    },
    "feedback_trello_hub_promemoria.md": {
     "modificato": "2026-11-17",
@@ -642,6 +642,22 @@
    "feedback_prima_verifica_lo_strumento.md": {
     "modificato": "2026-11-23",
     "esito": "regola di processo di Mother (verificare lo strumento prima di installarlo), non integrata"
+   },
+   "feedback_viaggi_mezzora_margine.md": {
+    "modificato": "2026-11-26",
+    "esito": "27/11: regola di Cristiano, integrata in viaggi-treno-italia sez. 11 (Maps più 30 minuti, si chiede da dove parte)"
+   },
+   "feedback_tutto_alla_chat_del_progetto.md": {
+    "modificato": "2026-11-26",
+    "esito": "regola di processo di Mother (il lavoro di progetto lo fa per intero la chat del progetto), non integrata"
+   },
+   "feedback_programmato_chiude_subito.md": {
+    "modificato": "2026-11-26",
+    "esito": "27/11: regola di Cristiano, integrata in trello sez. 5 (programmato e verificato = done subito)"
+   },
+   "feedback_accavallamenti_senza_chiedere.md": {
+    "modificato": "2026-11-26",
+    "esito": "27/11: regola di Cristiano, integrata in trello sez. 5 (--sovrapponi senza chiedere, permesso solo sopra appuntamenti fisici e call)"
    }
   }
  },
@@ -844,7 +860,8 @@
    "voci": [
     "24/11 🔴 sez. 5: dal 23/11 feriali a casa 9-19:30 e weekend a casa 10-18; la giornata di oggi è chiusa ai task nuovi o spostati (eccezioni posta e Trustpilot, --oggi solo quando Cristiano fa partire il task); a ogni task chiuso card aggiornata, copia tolta dal calendario e riga a Cristiano con l'esito (regole di Cristiano del 22 e 23/11/2026)",
     "24/11 🔴 sez. 9: la copia a calendario dura il tempo di Cristiano, minimo 15 minuti, nessun task fuori dal calendario, stima dalle ore vere (Cristiano, 22/11/2026)",
-    "24/11 🔴 sez. 5 e 9: dal 24/11/2026 un task con la scadenza non va mai oltre la scadenza: passa davanti ai task che possono aspettare, altrimenti resta prima della scadenza sovrapposto dove pesa meno, mai sopra una Pausa (Cristiano, via Mother)"
+    "24/11 🔴 sez. 5 e 9: dal 24/11/2026 un task con la scadenza non va mai oltre la scadenza: passa davanti ai task che possono aspettare, altrimenti resta prima della scadenza sovrapposto dove pesa meno, mai sopra una Pausa (Cristiano, via Mother)",
+    "27/11 🔴 sez. 5: dal 26/11/2026 fra task ci si accavalla con --sovrapponi senza chiedere (permesso solo sopra appuntamenti fisici e call); un lavoro programmato e verificato chiude subito la sua voce (regole di Cristiano del 26/11/2026)"
    ]
   },
   "social-media-manager": {
@@ -872,7 +889,8 @@
    "voci": [
     "24/11 🟡 sez. 11: changelog del 23/11/2026, sezione Brevo MCP (connettore nel marketplace di Claude, connessione diretta con chiave MCP)",
     "24/11 🟡 sez. 2: sapere via Mother: i rapporti DMARC con rua solo verso Brevo non si leggono nel pannello; prima di p=quarantine serve un secondo rua leggibile",
-    "25/11 🟡 sez. 5: quote dell'account e delle automazioni del nuovo editor (pagina del 25/11); trigger e regole aggiornati il 24/11 (Best channel, WhatsApp reply, ritardo minimo un minuto, web push e wallet)"
+    "25/11 🟡 sez. 5: quote dell'account e delle automazioni del nuovo editor (pagina del 25/11); trigger e regole aggiornati il 24/11 (Best channel, WhatsApp reply, ritardo minimo un minuto, web push e wallet)",
+    "27/11 🟡 sez. 3: import con EXT_ID nuovo su un'email già presente sostituisce il contatto (storico perso, blocklist che può azzerarsi); sez. 5b: priorità dei task None/Low/Medium/High"
    ]
   },
   "cristiano-gallinelli-persona": {
@@ -906,16 +924,18 @@
   },
   "viaggi-treno-italia": {
    "dal": "2026-11-24",
-   "livello": "minore",
+   "livello": "sostanziale",
    "voci": [
-    "24/11 🟡 sez. 6: saperi via Mother: condizioni Italo dal 01/10/2026 (indennizzo solo da 60 minuti, reclamo entro 3 mesi); modulo rimborsi Trenitalia (OTP in scheda dedicata, Runtime Error, CAPTCHA, risposta il giorno dopo)"
+    "24/11 🟡 sez. 6: saperi via Mother: condizioni Italo dal 01/10/2026 (indennizzo solo da 60 minuti, reclamo entro 3 mesi); modulo rimborsi Trenitalia (OTP in scheda dedicata, Runtime Error, CAPTCHA, risposta il giorno dopo)",
+    "27/11 🔴 sez. 11: i tempi di viaggio li calcola la regia chiedendo da dove si parte, Maps più 30 minuti arrotondati al quarto d'ora (Cristiano, 26/11/2026)"
    ]
   },
   "google-cloud": {
    "dal": "2026-11-25",
    "livello": "sostanziale",
    "voci": [
-    "25/11 🔴 sez. 10: API Workspace e server MCP a due livelli dal 24/11/2026 (Standard 5.000 richieste al giorno per progetto e prodotto, gratis; Scaled con fatturazione), aumenti di quota solo con Scaled, MCP obbligatorio per gli agenti dal 01/02/2027, fatturazione e ritorno alle quote Standard dal 01/04/2027; 🟡 sezione 17 dei Service Specific Terms dal 01/01/2027"
+    "25/11 🔴 sez. 10: API Workspace e server MCP a due livelli dal 24/11/2026 (Standard 5.000 richieste al giorno per progetto e prodotto, gratis; Scaled con fatturazione), aumenti di quota solo con Scaled, MCP obbligatorio per gli agenti dal 01/02/2027, fatturazione e ritorno alle quote Standard dal 01/04/2027; 🟡 sezione 17 dei Service Specific Terms dal 01/01/2027",
+    "27/11 🟡 sez. 10: dal 01/02/2027 gli agenti passano dai server MCP di Workspace o dalla Workspace CLI"
    ]
   },
   "chatgpt-ads-performance": {
@@ -989,7 +1009,7 @@
   "consent-mode-privacy": "2026-11-23"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-26",
+  "ultima_lettura": "2026-11-27",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1372,6 +1392,11 @@
     "data": "2026-11-25",
     "mittente": "Brevo (3 SMS da mandare, promozionale)",
     "esito": "promozionale, nessuna novità di prodotto"
+   },
+   "1a2183ac1f9776b0": {
+    "data": "2026-11-26",
+    "mittente": "Google Search Console (nuovi motivi di non indicizzazione su un sito di un cliente)",
+    "esito": "avviso di account, non newsletter di prodotto"
    }
   }
  },

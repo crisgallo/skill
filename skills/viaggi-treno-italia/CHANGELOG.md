@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 27/11/2026
+- 🔴 Sez. 11: i tempi di viaggio li calcola la regia chiedendo da dove si parte, Maps più 30 minuti arrotondati al quarto d'ora, ritorno zero se un altro evento copre il dopo (Cristiano, 26/11/2026, `feedback_viaggi_mezzora_margine.md`).
+
 ## 24/11/2026
 - 🟡 Sez. 6: 2 saperi via Mother (24/11): condizioni Italo dal 01/10/2026 (indennizzo solo da 60 minuti, reclamo entro 3 mesi); modulo rimborsi Trenitalia (OTP via email in scheda dedicata, Runtime Error, CAPTCHA, risposta il giorno dopo).
 

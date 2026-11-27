@@ -1,5 +1,8 @@
 # Changelog brevo
 
+## 27/11/2026
+- 🟡 Sez. 3: import con EXT_ID nuovo su un'email già presente senza EXT_ID sostituisce il contatto (storico perso, blocklist che può azzerarsi), dal changelog API. 🟡 Sez. 5b: priorità dei task None/Low/Medium/High, solo High per gli account creati prima del 03/11/2026 (pagina aggiornata il 26/11).
+
 ## 25/11/2026
 - 🟡 Sez. 5: quote dell'account e delle automazioni del nuovo editor (pagina del 25/11/2026: 2.000 contatti unici su Free e Starter, 500 aggiunti a mano, 6.000 eventi e 3.000 passi al minuto, 150 campagne programmate, 20 webhook in entrata); trigger e regole aggiornati il 24/11 (Best channel e WhatsApp reply solo Professional ed Enterprise, ritardo minimo un minuto, trigger web push e wallet).
 

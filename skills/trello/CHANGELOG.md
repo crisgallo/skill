@@ -1,5 +1,8 @@
 # Changelog trello
 
+## 27/11/2026
+- 🔴 Sez. 5: dal 26/11/2026 fra task ci si accavalla con `--sovrapponi` senza chiedere, permesso solo sopra appuntamenti fisici e call (`feedback_accavallamenti_senza_chiedere.md`); un lavoro programmato e verificato chiude subito la sua voce, niente voci avviate in attesa dell'uscita (`feedback_programmato_chiude_subito.md`). Regole di Cristiano del 26/11/2026.
+
 ## 24/11/2026
 - 🔴 Sez. 5 e 9: dal 24/11/2026 un task con la scadenza non va mai oltre la scadenza: passa davanti ai task che possono aspettare, altrimenti resta prima della scadenza sovrapposto dove pesa meno, mai sopra una Pausa (Cristiano, 24/11/2026, via Mother).
 - 🔴 Sez. 5: dal 23/11/2026 feriali a casa 9-19:30 e weekend a casa 10-18 (Cristiano, versione del 23/11 di `feedback_pianificazione_spazio_calendario.md`); la giornata di oggi è chiusa ai task nuovi o spostati, `--oggi` solo quando Cristiano fa partire il task, eccezioni posta e Trustpilot (`feedback_mai_task_dentro_oggi.md`); a ogni task chiuso card aggiornata, copia tolta dal calendario e riga a Cristiano con l'esito (`feedback_task_chiuso_due_conferme.md`, `feedback_esito_nel_messaggio.md`).
