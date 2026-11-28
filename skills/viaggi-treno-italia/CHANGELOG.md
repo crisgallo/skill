@@ -1,5 +1,8 @@
 # Changelog viaggi-treno-italia
 
+## 28/11/2026
+- 🟡 Sez. 9: sciopero nazionale del Gruppo FS dalle 21:00 del 03/12 alle 21:00 del 04/12/2026 (avviso Trenitalia letto il 28/11). 🟡 Sez. 10: pagina ATAC Tap&Go riletta per intero (una sola carta al lettore, circuiti accettati, app Android per Cotral e ferrovie regionali, PAN troncato sui regionali Trenitalia).
+
 ## 27/11/2026
 - 🔴 Sez. 11: i tempi di viaggio li calcola la regia chiedendo da dove si parte, Maps più 30 minuti arrotondati al quarto d'ora, ritorno zero se un altro evento copre il dopo (Cristiano, 26/11/2026, `feedback_viaggi_mezzora_margine.md`).
 

@@ -5,7 +5,7 @@
   "ga4-performance": "2026-09-19"
  },
  "chat": {
-  "ultima_lettura": "2026-11-27",
+  "ultima_lettura": "2026-11-28",
   "feedback_visti": {
    "feedback_tavole_carosello_chiare.md": {
     "modificato": "2026-09-22",
@@ -927,7 +927,8 @@
    "livello": "sostanziale",
    "voci": [
     "24/11 🟡 sez. 6: saperi via Mother: condizioni Italo dal 01/10/2026 (indennizzo solo da 60 minuti, reclamo entro 3 mesi); modulo rimborsi Trenitalia (OTP in scheda dedicata, Runtime Error, CAPTCHA, risposta il giorno dopo)",
-    "27/11 🔴 sez. 11: i tempi di viaggio li calcola la regia chiedendo da dove si parte, Maps più 30 minuti arrotondati al quarto d'ora (Cristiano, 26/11/2026)"
+    "27/11 🔴 sez. 11: i tempi di viaggio li calcola la regia chiedendo da dove si parte, Maps più 30 minuti arrotondati al quarto d'ora (Cristiano, 26/11/2026)",
+    "28/11 🟡 sez. 9: sciopero nazionale del Gruppo FS dalle 21:00 del 03/12 alle 21:00 del 04/12/2026; sez. 10: pagina ATAC Tap&Go riletta per intero (una sola carta al lettore, circuiti, app Android per Cotral e ferrovie, PAN troncato sui regionali)"
    ]
   },
   "google-cloud": {
@@ -1009,7 +1010,7 @@
   "consent-mode-privacy": "2026-11-23"
  },
  "newsletter": {
-  "ultima_lettura": "2026-11-27",
+  "ultima_lettura": "2026-11-28",
   "viste": {
    "1a0f2d6667188485": {
     "data": "2026-09-30",
@@ -1396,6 +1397,11 @@
    "1a2183ac1f9776b0": {
     "data": "2026-11-26",
     "mittente": "Google Search Console (nuovi motivi di non indicizzazione su un sito di un cliente)",
+    "esito": "avviso di account, non newsletter di prodotto"
+   },
+   "1a21c795694ea02e": {
+    "data": "2026-11-27",
+    "mittente": "Brevo (notifica di invio della campagna di un cliente)",
     "esito": "avviso di account, non newsletter di prodotto"
    }
   }
